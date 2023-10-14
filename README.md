@@ -1,3 +1,4 @@
-# Test
-Test1
-just testing 
+# Install
+git clone https://github.com/NotMax442/Test
+cd Test
+
