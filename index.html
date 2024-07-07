@@ -3,22 +3,33 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Heartbeat Shape</title>
+    <title>I Love You</title>
     <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
     <style>
         body {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            background-color: #f0f0f0;
             font-family: Arial, sans-serif;
-            text-align: center;
-            margin-top: 50px;
+        }
+        .message {
+            font-size: 3em;
+            color: red;
+            text-shadow: 2px 2px 4px #000000;
+            margin-bottom: 20px;
         }
         #heartbeat {
             width: 100%;
-            height: 80vh;
+            height: 50vh;
         }
     </style>
 </head>
 <body>
-    <h1>Heartbeat Shape</h1>
+    <div class="message">I Love You ❤️</div>
     <div id="heartbeat"></div>
     <script>
         // Generate values for t
