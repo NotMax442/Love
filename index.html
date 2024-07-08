@@ -19,6 +19,15 @@
         h1 {
             color: #333;
         }
+        .scrollable-container {
+            max-height: 80vh;
+            overflow-y: auto;
+            width: 100%;
+            padding: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            background-color: #fff;
+            border-radius: 10px;
+        }
         ul {
             list-style-type: none;
             padding: 0;
@@ -35,67 +44,69 @@
 </head>
 <body>
     <h1>Here are the reasons I love you:</h1>
-    <ul>
-        <li><strong>Kindness</strong>: You show genuine care and concern for others.</li>
-        <li><strong>Sense of Humor</strong>: You make me laugh and enjoy life more.</li>
-        <li><strong>Empathy</strong>: You understand and share my feelings.</li>
-        <li><strong>Intelligence</strong>: You challenge and stimulate my mind.</li>
-        <li><strong>Supportiveness</strong>: You are always there for me during tough times.</li>
-        <li><strong>Loyalty</strong>: You are faithful and reliable.</li>
-        <li><strong>Shared Values</strong>: We both have similar beliefs and goals.</li>
-        <li><strong>Compatibility</strong>: We have similar interests and hobbies.</li>
-        <li><strong>Physical Attraction</strong>: I am drawn to your physical appearance.</li>
-        <li><strong>Trustworthiness</strong>: I can depend on you and feel safe.</li>
-        <li><strong>Communication Skills</strong>: You are good at expressing your thoughts and feelings.</li>
-        <li><strong>Adventurous Spirit</strong>: You inspire me to try new things and explore.</li>
-        <li><strong>Patience</strong>: You are understanding and tolerant of my flaws.</li>
-        <li><strong>Respect</strong>: You treat me with dignity and value my opinions.</li>
-        <li><strong>Ambition</strong>: You are driven and inspire me to be my best.</li>
-        <li><strong>Generosity</strong>: You are willing to give and share with others.</li>
-        <li><strong>Creativity</strong>: You bring new ideas and perspectives into my life.</li>
-        <li><strong>Positivity</strong>: You have an optimistic outlook that lifts my spirits.</li>
-        <li><strong>Confidence</strong>: You believe in yourself and inspire me to do the same.</li>
-        <li><strong>Compassion</strong>: You are considerate and always ready to help those in need.</li>
-        <li><strong>Affection</strong>: You express your love through words and actions.</li>
-        <li><strong>Honesty</strong>: You are truthful and transparent with me.</li>
-        <li><strong>Reliability</strong>: I can count on you to keep your promises.</li>
-        <li><strong>Shared Experiences</strong>: We have a history of memorable moments together.</li>
-        <li><strong>Emotional Connection</strong>: I feel a deep, personal bond with you.</li>
-        <li><strong>Inspirational</strong>: You motivate me to be a better person.</li>
-        <li><strong>Listening Skills</strong>: You truly listen to what I have to say.</li>
-        <li><strong>Vulnerability</strong>: You are open and honest about your own struggles.</li>
-        <li><strong>Forgiveness</strong>: You are willing to forgive and move past mistakes.</li>
-        <li><strong>Selflessness</strong>: You put others' needs before your own.</li>
-        <li><strong>Maturity</strong>: You handle situations with grace and wisdom.</li>
-        <li><strong>Curiosity</strong>: You have a desire to learn and grow.</li>
-        <li><strong>Passion</strong>: You have a strong enthusiasm for life and your pursuits.</li>
-        <li><strong>Sense of Adventure</strong>: You enjoy exploring new places and trying new things.</li>
-        <li><strong>Respect for Others</strong>: You treat everyone with kindness and respect.</li>
-        <li><strong>Balance</strong>: You know how to maintain a healthy work-life balance.</li>
-        <li><strong>Family-Oriented</strong>: You value family and build strong relationships with loved ones.</li>
-        <li><strong>Romantic Gestures</strong>: You show your love through thoughtful actions.</li>
-        <li><strong>Dedication</strong>: You are committed to your relationships and responsibilities.</li>
-        <li><strong>Spiritual Connection</strong>: You share a similar spiritual or religious belief.</li>
-        <li><strong>Physical Affection</strong>: You are comfortable with physical closeness and touch.</li>
-        <li><strong>Integrity</strong>: You have strong moral principles.</li>
-        <li><strong>Adaptability</strong>: You can adjust to new situations and challenges.</li>
-        <li><strong>Gratitude</strong>: You appreciate and acknowledge the good in your life.</li>
-        <li><strong>Open-Mindedness</strong>: You are willing to consider new ideas and perspectives.</li>
-        <li><strong>Self-Awareness</strong>: You understand your own strengths and weaknesses.</li>
-        <li><strong>Independence</strong>: You are self-sufficient and respect my independence.</li>
-        <li><strong>Humility</strong>: You are humble and do not boast about your achievements.</li>
-        <li><strong>Playfulness</strong>: You bring joy and fun into my life.</li>
-        <li><strong>Vision</strong>: You have a clear sense of direction and purpose.</li>
-        <li><strong>Emotional Stability</strong>: You manage your emotions well.</li>
-        <li><strong>Generosity of Spirit</strong>: You are magnanimous and forgiving.</li>
-        <li><strong>Strong Work Ethic</strong>: You are dedicated and hardworking.</li>
-        <li><strong>Wisdom</strong>: You offer valuable insights and advice.</li>
-        <li><strong>Simplicity</strong>: You appreciate the simple pleasures in life.</li>
-        <li><strong>Groundedness</strong>: You are practical and down-to-earth.</li>
-        <li><strong>Charisma</strong>: You have a magnetic personality that attracts others.</li>
-        <li><strong>Dedication to Personal Growth</strong>: You are always striving to improve yourself.</li>
-        <li><strong>Joy for Life</strong>: You have a zest for living that is contagious.</li>
-        <li><strong>Loving Nature</strong>: You have a natural inclination to love and nurture others.</li>
-    </ul>
+    <div class="scrollable-container">
+        <ul>
+            <li><strong>Kindness</strong>: You show genuine care and concern for others.</li>
+            <li><strong>Sense of Humor</strong>: You make me laugh and enjoy life more.</li>
+            <li><strong>Empathy</strong>: You understand and share my feelings.</li>
+            <li><strong>Intelligence</strong>: You challenge and stimulate my mind.</li>
+            <li><strong>Supportiveness</strong>: You are always there for me during tough times.</li>
+            <li><strong>Loyalty</strong>: You are faithful and reliable.</li>
+            <li><strong>Shared Values</strong>: We both have similar beliefs and goals.</li>
+            <li><strong>Compatibility</strong>: We have similar interests and hobbies.</li>
+            <li><strong>Physical Attraction</strong>: I am drawn to your physical appearance.</li>
+            <li><strong>Trustworthiness</strong>: I can depend on you and feel safe.</li>
+            <li><strong>Communication Skills</strong>: You are good at expressing your thoughts and feelings.</li>
+            <li><strong>Adventurous Spirit</strong>: You inspire me to try new things and explore.</li>
+            <li><strong>Patience</strong>: You are understanding and tolerant of my flaws.</li>
+            <li><strong>Respect</strong>: You treat me with dignity and value my opinions.</li>
+            <li><strong>Ambition</strong>: You are driven and inspire me to be my best.</li>
+            <li><strong>Generosity</strong>: You are willing to give and share with others.</li>
+            <li><strong>Creativity</strong>: You bring new ideas and perspectives into my life.</li>
+            <li><strong>Positivity</strong>: You have an optimistic outlook that lifts my spirits.</li>
+            <li><strong>Confidence</strong>: You believe in yourself and inspire me to do the same.</li>
+            <li><strong>Compassion</strong>: You are considerate and always ready to help those in need.</li>
+            <li><strong>Affection</strong>: You express your love through words and actions.</li>
+            <li><strong>Honesty</strong>: You are truthful and transparent with me.</li>
+            <li><strong>Reliability</strong>: I can count on you to keep your promises.</li>
+            <li><strong>Shared Experiences</strong>: We have a history of memorable moments together.</li>
+            <li><strong>Emotional Connection</strong>: I feel a deep, personal bond with you.</li>
+            <li><strong>Inspirational</strong>: You motivate me to be a better person.</li>
+            <li><strong>Listening Skills</strong>: You truly listen to what I have to say.</li>
+            <li><strong>Vulnerability</strong>: You are open and honest about your own struggles.</li>
+            <li><strong>Forgiveness</strong>: You are willing to forgive and move past mistakes.</li>
+            <li><strong>Selflessness</strong>: You put others' needs before your own.</li>
+            <li><strong>Maturity</strong>: You handle situations with grace and wisdom.</li>
+            <li><strong>Curiosity</strong>: You have a desire to learn and grow.</li>
+            <li><strong>Passion</strong>: You have a strong enthusiasm for life and your pursuits.</li>
+            <li><strong>Sense of Adventure</strong>: You enjoy exploring new places and trying new things.</li>
+            <li><strong>Respect for Others</strong>: You treat everyone with kindness and respect.</li>
+            <li><strong>Balance</strong>: You know how to maintain a healthy work-life balance.</li>
+            <li><strong>Family-Oriented</strong>: You value family and build strong relationships with loved ones.</li>
+            <li><strong>Romantic Gestures</strong>: You show your love through thoughtful actions.</li>
+            <li><strong>Dedication</strong>: You are committed to your relationships and responsibilities.</li>
+            <li><strong>Spiritual Connection</strong>: You share a similar spiritual or religious belief.</li>
+            <li><strong>Physical Affection</strong>: You are comfortable with physical closeness and touch.</li>
+            <li><strong>Integrity</strong>: You have strong moral principles.</li>
+            <li><strong>Adaptability</strong>: You can adjust to new situations and challenges.</li>
+            <li><strong>Gratitude</strong>: You appreciate and acknowledge the good in your life.</li>
+            <li><strong>Open-Mindedness</strong>: You are willing to consider new ideas and perspectives.</li>
+            <li><strong>Self-Awareness</strong>: You understand your own strengths and weaknesses.</li>
+            <li><strong>Independence</strong>: You are self-sufficient and respect my independence.</li>
+            <li><strong>Humility</strong>: You are humble and do not boast about your achievements.</li>
+            <li><strong>Playfulness</strong>: You bring joy and fun into my life.</li>
+            <li><strong>Vision</strong>: You have a clear sense of direction and purpose.</li>
+            <li><strong>Emotional Stability</strong>: You manage your emotions well.</li>
+            <li><strong>Generosity of Spirit</strong>: You are magnanimous and forgiving.</li>
+            <li><strong>Strong Work Ethic</strong>: You are dedicated and hardworking.</li>
+            <li><strong>Wisdom</strong>: You offer valuable insights and advice.</li>
+            <li><strong>Simplicity</strong>: You appreciate the simple pleasures in life.</li>
+            <li><strong>Groundedness</strong>: You are practical and down-to-earth.</li>
+            <li><strong>Charisma</strong>: You have a magnetic personality that attracts others.</li>
+            <li><strong>Dedication to Personal Growth</strong>: You are always striving to improve yourself.</li>
+            <li><strong>Joy for Life</strong>: You have a zest for living that is contagious.</li>
+            <li><strong>Loving Nature</strong>: You have a natural inclination to love and nurture others.</li>
+        </ul>
+    </div>
 </body>
 </html>
