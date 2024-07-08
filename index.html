@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mini Google</title>
+    <link rel="stylesheet" href="styles.css">
+    <script async src="https://cse.google.com/cse.js?cx=f5f2e3b5f5bdd40e0"></script>
+</head>
+<body>
+    <div class="container">
+        <div class="logo">
+            <img src="https://www.google.com/images/branding/googlelogo/2x/googlelogo_color_92x30dp.png" alt="Google Logo">
+        </div>
+        <div class="search-container">
+            <input type="text" id="searchInput" placeholder="Search...">
+            <button onclick="search()">Search</button>
+        </div>
+        <div id="searchResults"></div>
+        <button id="seeMoreButton" onclick="seeMore()" style="display: none;">See More</button>
+        <button id="betterSearchButton" onclick="betterSearch()" style="display: none;">Better Search</button>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

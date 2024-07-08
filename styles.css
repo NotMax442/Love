@@ -1,0 +1,90 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #f8f9fa;
+}
+
+.container {
+    text-align: center;
+    width: 90%;
+    max-width: 600px;
+}
+
+.logo img {
+    width: 150px;
+    margin-bottom: 20px;
+}
+
+.search-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+input[type="text"] {
+    padding: 10px;
+    font-size: 16px;
+    width: 100%;
+    max-width: 400px;
+    border: 1px solid #dfe1e5;
+    border-radius: 24px;
+    outline: none;
+    box-shadow: 0 1px 6px rgba(32, 33, 36, 0.28);
+    margin-bottom: 10px;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #4285f4;
+    color: white;
+    border: none;
+    border-radius: 24px;
+    cursor: pointer;
+    box-shadow: 0 1px 6px rgba(32, 33, 36, 0.28);
+    margin-left: 10px;
+}
+
+button:hover {
+    background-color: #357ae8;
+}
+
+#searchResults {
+    margin-top: 20px;
+    text-align: left;
+    max-height: 70vh; /* Adjust the height as needed */
+    overflow-y: auto; /* Enable vertical scrolling */
+    padding: 10px;
+    box-shadow: 0 1px 6px rgba(32, 33, 36, 0.28);
+    background-color: #fff;
+    border-radius: 8px;
+}
+
+#seeMoreButton, #betterSearchButton {
+    margin-top: 10px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* Media Queries for Responsive Design */
+@media (min-width: 600px) {
+    .search-container {
+        flex-wrap: nowrap;
+    }
+
+    input[type="text"] {
+        margin-bottom: 0;
+    }
+}
+
+.responsive-img {
+    width: 100%;
+    height: auto;
+    max-width: 100%;
+}
