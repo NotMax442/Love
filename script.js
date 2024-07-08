@@ -7,7 +7,7 @@ document.addEventListener('DOMContentLoaded', function() {
         .then(data => {
             console.log('API Response:', data); // Log the entire response for debugging
             const newsList = document.getElementById('news-list');
-            if (Array.isArray(data.articles)) {
+            if (data.status === 'ok' && Array.isArray(data.articles)) {
                 data.articles.forEach(article => {
                     const listItem = document.createElement('li');
                     const link = document.createElement('a');
@@ -17,8 +17,8 @@ document.addEventListener('DOMContentLoaded', function() {
                     newsList.appendChild(listItem);
                 });
             } else {
-                console.error('No articles found in the response');
-                newsList.innerHTML = '<li>No articles found.</li>';
+                console.error('Error:', data.message || 'No articles found in the response');
+                newsList.innerHTML = `<li>${data.message || 'No articles found.'}</li>`;
             }
         })
         .catch(error => {
