@@ -3,50 +3,12 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Real-Time News</title>
+    <title>Cambodia News</title>
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <header>
-        <h1>Real-Time News</h1>
-    </header>
-    <main>
-        <section id="news-container">
-            <!-- News articles will be dynamically inserted here -->
-        </section>
-    </main>
-    <footer>
-        <p>© 2024 Real-Time News</p>
-    </footer>
-
-    <script>
-        const apiKey = '3b7ac70172854cf0be77e804e8dcf005'; // Your News API key
-        const newsContainer = document.getElementById('news-container');
-
-        async function fetchNews() {
-            try {
-                const response = await fetch(`https://newsapi.org/v2/top-headlines?country=us&apiKey=${apiKey}`);
-                const data = await response.json();
-                displayNews(data.articles);
-            } catch (error) {
-                console.error('Error fetching news:', error);
-            }
-        }
-
-        function displayNews(articles) {
-            newsContainer.innerHTML = '';
-            articles.slice(0, 50).forEach(article => {
-                const newsArticle = document.createElement('article');
-                newsArticle.innerHTML = `
-                    <h2>${article.title}</h2>
-                    <p>${article.description}</p>
-                    <a href="${article.url}" target="_blank">Read more</a>
-                `;
-                newsContainer.appendChild(newsArticle);
-            });
-        }
-
-        fetchNews();
-    </script>
+    <h1>Latest News from Cambodia</h1>
+    <ul id="news-list"></ul>
+    <script src="script.js"></script>
 </body>
 </html>
