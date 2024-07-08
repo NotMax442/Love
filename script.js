@@ -1,6 +1,6 @@
 document.addEventListener('DOMContentLoaded', function() {
     const apiKey = '3b7ac70172854cf0be77e804e8dcf005';
-    const url = `https://newsapi.org/v2/top-headlines?country=kh&apiKey=${apiKey}`;
+    const url = `https://newsapi.org/v2/top-headlines?country=gb&apiKey=${apiKey}`;
 
     fetch(url)
         .then(response => response.json())
