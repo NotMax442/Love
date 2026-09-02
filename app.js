@@ -959,11 +959,10 @@ function executeAnkiDownload(shouldClearAfter) {
 }
 
 // ==========================================================================
-// TELEGRAM FEEDBACK, COOLDOWN & STATUS SYNC LOGIC
+// TELEGRAM FEEDBACK VIA CLOUDFLARE WORKER PROXY
 // ==========================================================================
 
-const TELEGRAM_BOT_TOKEN = "8757492792:AAGj5G-kCqMNSIVWrzjO07qD4sp9ivi3TyI";
-const TELEGRAM_CHAT_ID = "1145051277";
+const WORKER_URL = "https://telegram-proxy.pensamkhan9.workers.dev";
 
 const feedbackForm = document.getElementById('feedback-form');
 const feedbackText = document.getElementById('feedback-text');
@@ -1023,7 +1022,7 @@ if (cancelFeedbackBtn) {
   });
 }
 
-// --- Send to Telegram API ---
+// --- Send Feedback via Cloudflare Worker Proxy ---
 if (confirmFeedbackBtn) {
   confirmFeedbackBtn.addEventListener('click', async () => {
     if (!pendingFeedbackPayload) return;
@@ -1035,28 +1034,16 @@ if (confirmFeedbackBtn) {
     let telegramMsgId = null;
 
     try {
-      let res;
+      const formData = new FormData();
+      formData.append('text', text);
       if (file) {
-        const formData = new FormData();
-        formData.append('chat_id', TELEGRAM_CHAT_ID);
-        formData.append('caption', `📝 **New Question Report**\n\n${text}`);
         formData.append('photo', file);
-
-        res = await fetch(`https://api.telegram.org/bot${TELEGRAM_BOT_TOKEN}/sendPhoto`, {
-          method: 'POST',
-          body: formData
-        });
-      } else {
-        res = await fetch(`https://api.telegram.org/bot${TELEGRAM_BOT_TOKEN}/sendMessage`, {
-          method: 'POST',
-          headers: { 'Content-Type': 'application/json' },
-          body: JSON.stringify({
-            chat_id: TELEGRAM_CHAT_ID,
-            text: `📝 **New Question Report**\n\n${text}`,
-            parse_mode: 'Markdown'
-          })
-        });
       }
+
+      const res = await fetch(WORKER_URL, {
+        method: 'POST',
+        body: formData
+      });
 
       if (res.ok) {
         const data = await res.json();
@@ -1073,7 +1060,7 @@ if (confirmFeedbackBtn) {
       feedbackForm.reset();
       alert("✅ Feedback Sent Successfully! / បានផ្ញើដោយជោគជ័យ!");
     } else {
-      alert("⚠️ Submission failed. Please check your connection or Telegram bot configuration.");
+      alert("⚠️ Submission failed. Please check your connection or try again later.");
     }
 
     confirmFeedbackBtn.disabled = false;
@@ -1087,7 +1074,7 @@ if (confirmFeedbackBtn) {
 function saveLocalFeedbackLog(text, timestamp, msgId) {
   const raw = localStorage.getItem('my_submitted_feedbacks');
   const logs = raw ? JSON.parse(raw) : [];
-  
+
   logs.unshift({
     id: Date.now(),
     telegram_msg_id: msgId,
@@ -1099,7 +1086,7 @@ function saveLocalFeedbackLog(text, timestamp, msgId) {
   localStorage.setItem('my_submitted_feedbacks', JSON.stringify(logs));
 }
 
-// --- Check Telegram API for Admin Replies ---
+// --- Check Telegram Replies via Proxy ---
 async function syncFeedbackStatusWithTelegram() {
   const raw = localStorage.getItem('my_submitted_feedbacks');
   if (!raw) return;
@@ -1110,7 +1097,7 @@ async function syncFeedbackStatusWithTelegram() {
   if (pendingLogs.length === 0) return;
 
   try {
-    const res = await fetch(`https://api.telegram.org/bot${TELEGRAM_BOT_TOKEN}/getUpdates`);
+    const res = await fetch(`${WORKER_URL}/getUpdates`);
     if (!res.ok) return;
 
     const data = await res.json();
@@ -1119,15 +1106,12 @@ async function syncFeedbackStatusWithTelegram() {
     let updated = false;
 
     data.result.forEach(update => {
-      // Check direct messages, edited messages, or channel/group posts
       const msg = update.message || update.edited_message || update.channel_post || update.edited_channel_post;
-      
+
       if (msg && msg.reply_to_message) {
         const repliedId = msg.reply_to_message.message_id;
-        
-        // Match IDs reliably using string conversion
         const matchedLog = logs.find(l => String(l.telegram_msg_id) === String(repliedId));
-        
+
         if (matchedLog && matchedLog.status !== 'Checked ✅') {
           matchedLog.status = 'Checked ✅';
           updated = true;
@@ -1146,7 +1130,6 @@ async function syncFeedbackStatusWithTelegram() {
 async function renderMyFeedbacks() {
   if (!myFeedbackList) return;
 
-  // Sync with Telegram first
   await syncFeedbackStatusWithTelegram();
 
   myFeedbackList.innerHTML = '';
@@ -1176,7 +1159,6 @@ async function renderMyFeedbacks() {
   });
 }
 
-// Navigation override
 const originalNavigateTo = navigateTo;
 navigateTo = function(screenId, isBackAction = false) {
   originalNavigateTo(screenId, isBackAction);
