@@ -7,6 +7,16 @@ const backToYearsBtn = document.getElementById('back-to-years-btn');
 const selectedYearTitle = document.getElementById('selected-year-title');
 const subjectList = document.getElementById('subject-list');
 
+// Top Navigation Bar Selectors
+const navHomeBtn = document.getElementById('nav-home-btn');
+const navAboutBtn = document.getElementById('nav-about-btn');
+const navContactBtn = document.getElementById('nav-contact-btn');
+const navAccountBtn = document.getElementById('nav-account-btn');
+
+const backFromAboutBtn = document.getElementById('back-from-about-btn');
+const backFromContactBtn = document.getElementById('back-from-contact-btn');
+const backFromAccountBtn = document.getElementById('back-from-account-btn');
+
 // Quiz & Result Screen Selectors
 const sessionInfo = document.getElementById('session-info');
 const progressText = document.getElementById('progress-text');
@@ -44,7 +54,7 @@ let autoScrollTimer = null;
 
 // Manifest data mapping years to available subjects
 const manifestData = {
-  "1": ["I-D-A","MED-PRO-B1", "MED-PRO", "F-N-S", "I-D-A-Khmer"],
+  "1": ["I-D-A", "MED-PRO-B1", "MED-PRO", "F-N-S", "I-D-A-Khmer"],
   "2": [],
   "3": [],
   "4": [],
@@ -208,10 +218,22 @@ window.addEventListener('DOMContentLoaded', () => {
     navigateTo('subject-screen');
   } else if (savedScreen === 'year-screen') {
     navigateTo('year-screen');
+  } else if (['about-screen', 'contact-screen', 'account-screen'].includes(savedScreen)) {
+    navigateTo(savedScreen);
   } else {
     navigateTo('landing-screen');
   }
 });
+
+// --- Top Navigation Bar Event Listeners ---
+if (navHomeBtn) navHomeBtn.addEventListener('click', () => navigateTo('landing-screen'));
+if (navAboutBtn) navAboutBtn.addEventListener('click', () => navigateTo('about-screen'));
+if (navContactBtn) navContactBtn.addEventListener('click', () => navigateTo('contact-screen'));
+if (navAccountBtn) navAccountBtn.addEventListener('click', () => navigateTo('account-screen'));
+
+if (backFromAboutBtn) backFromAboutBtn.addEventListener('click', () => navigateTo('landing-screen'));
+if (backFromContactBtn) backFromContactBtn.addEventListener('click', () => navigateTo('landing-screen'));
+if (backFromAccountBtn) backFromAccountBtn.addEventListener('click', () => navigateTo('landing-screen'));
 
 // --- Navigation & Exit Action Event Listeners ---
 enterStudyBtn.addEventListener('click', () => navigateTo('year-screen'));
