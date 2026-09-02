@@ -1,0 +1,1654 @@
+{
+  "questions": [
+    {
+      "id": 1,
+      "question": "What does the acronym MEDPro stand for in the medical curriculum?\nតើពាក្យកាត់ MEDPro នៅក្នុងកម្មវិធីសិក្សាវេជ្ជសាស្ត្រតំណាងឱ្យអ្វី?",
+      "options": [
+        "Medical Ethics, Diagnosis, and Professionalism",
+        "Medical Ethics, Deontology, and Professionalism",
+        "Medical Education, Deontology, and Practice",
+        "Medical Ethics, Duty, and Procedure"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 2,
+      "question": "Which question corresponds specifically to the perspective of Deontology?\nតើសំណួរមួយណាដែលឆ្លុះបញ្ចាំងពីទស្សនវិស័យនៃ Deontology (ច្បាប់/កាតព្វកិច្ច)?",
+      "options": [
+        "\"Is this the behavior expected of a good doctor?\" / \"តើវាជាឥរិយាបថដែលគេរំពឹងពីគ្រូពេទ្យល្អឬ?”",
+        "\"Is it ethically right?\" / \"តើវាជារឿងត្រឹមត្រូវតាមក្រមសីលធម៌ឬ?\"",
+        "\"Is it lawful or wrongful to perform this action?\" / \"តើការធ្វើបែបនេះខុសច្បាប់ ឬត្រូវតាមច្បាប់?”",
+        "\"What outcome will produce the most overall happiness?\" / \"តើលទ្ធផលមួយណាបង្កើតសេចក្តីសុខបានច្រើនជាង?”"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 3,
+      "question": "Which question corresponds directly to the domain of Medical Ethics?\nតើសំណួរមួយណាដែលទាក់ទងដោយផ្ទាល់ទៅនឹងដែននៃ ក្រមសីលធម៌វេជ្ជសាស្ត្រ (Medical Ethics)?",
+      "options": [
+        "\"Is it ethically right?\" / \"តើវាជារឿងត្រឹមត្រូវតាមក្រមសីលធម៌ឬ?\"",
+        "\"Is it lawful or wrongful to perform this action?\" / \"តើការធ្វើបែបនេះខុសច្បាប់ ឬត្រូវតាមច្បាប់?”",
+        "\"Is this the behavior expected of a good doctor?\" / \"តើវាជាឥរិយាបថដែលគេរំពឹងពីគ្រូពេទ្យល្អឬ?”",
+        "\"Will I get penalized by the law for doing this?\" / \"តើខ្ញុំនឹងត្រូវផ្តន្ទាទោសតាមច្បាប់ដែរឬទេ?”"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 4,
+      "question": "Which question captures the essence of Professionalism?\nតើសំណួរមួយណាដែលក្ដោបក្ដាប់នូវខ្លឹមសារនៃ ភាពជាអ្នកមានវិជ្ជាជីវៈ (Professionalism)?",
+      "options": [
+        "\"Is it ethically right?\" / \"តើវាជារឿងត្រឹមត្រូវតាមក្រមសីលធម៌ឬ?”",
+        "\"Is this the behavior expected of a good doctor?\" / \"តើវាជាឥរិយាបថដែលគេរំពឹងពីគ្រូពេទ្យល្អឬ?”",
+        "\"Is it lawful or wrongful to perform this action?\" / \"តើការធ្វើបែបនេះខុសច្បាប់ ឬត្រូវតាមច្បាប់?”",
+        "\"What are the legal penalties for non-compliance?\" / \"តើទោសទណ្ឌតាមច្បាប់មានអ្វីខ្លះ?”"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 5,
+      "question": "Medical professionalism is often defined as a contract between physicians and which entity?\nភាពជាអ្នកមានវិជ្ជាជីវៈវេជ្ជសាស្ត្រ ត្រូវបានកំណត់ជាញឹកញាប់ថាជា «កិច្ចសន្យា» រវាងគ្រូពេទ្យ និងភាគីណា?",
+      "options": [
+        "The Ministry of Economy / ក្រសួងសេដ្ឋកិច្ច",
+        "Commercial pharmaceutical companies / ក្រុមហ៊ុនឱសថពាណិជ្ជកម្ម",
+        "Society / សង្គម",
+        "Private hospital administrators / អ្នកគ្រប់គ្រងមន្ទីរពេទ្យឯកជន"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 6,
+      "question": "What is the primary focus of Deontology in health practice?\nតើអ្វីជាការផ្តោតសំខាន់ចម្បងនៃ Deontology ក្នុងការអនុវត្តសុខាភិបាល?",
+      "options": [
+        "Maximum financial profit / ប្រាក់ចំណេញហិរញ្ញវត្ថុអតិបរមា",
+        "Rules, duties, statutory laws, and code of conduct / ច្បាប់ បទបញ្ជា កាតព្វកិច្ច និងក្រមប្រតិបត្តិ",
+        "Personal popularity on social media / ប្រជាប្រិយភាពផ្ទាល់ខ្លួនលើបណ្តាញសង្គម",
+        "Personal satisfaction of the physician / ការពេញចិត្តផ្ទាល់ខ្លួនរបស់គ្រូពេទ្យ"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 7,
+      "question": "A doctor asks: \"What is the right thing to do to respect patient well-being?\" This focuses on:\nគ្រូពេទ្យចោទសួរថា៖ \"តើអ្វីជាអំពើត្រឹមត្រូវដែលត្រូវធ្វើដើម្បីគោរពសុខុមាលភាពអ្នកជំងឺ?” នេះផ្តោតលើ：",
+      "options": [
+        "Deontology",
+        "Medical Ethics",
+        "Hospital Billing",
+        "Commercial Marketing"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 8,
+      "question": "Which element is essential for establishing public trust in the medical profession?\nតើធាតុផ្សំណាដែលខ្វះមិនបានក្នុងការកសាងទំនុកចិត្តសាធារណជនលើវិជ្ជាជីវៈវេជ្ជសាស្ត្រ?",
+      "options": [
+        "High medical prices",
+        "Professional identity, integrity, and altruism / អត្តសញ្ញាណវិជ្ជាជីវៈ សុចរិតភាព និងលះបង់ដើម្បីអ្នកដទៃ",
+        "Exaggerated hospital advertisements",
+        "Fast diagnostic procedures without consent"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 9,
+      "question": "Which ethical theory determines the moral quality of an action solely by its overall outcome or results?\nតើទ្រឹស្តីសីលធម៌មួយណាដែលកំណត់គុណតម្លៃសីលធម៌នៃសកម្មភាពមួយ ផ្អែកលើលទ្ធផលចុងក្រោយតែមួយគត់?",
+      "options": [
+        "Virtue Ethics",
+        "Deontology",
+        "Consequentialism",
+        "Principlism"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 10,
+      "question": "A doctor refuses to lie to a patient about a terminal diagnosis because they believe lying is inherently wrong, regardless of the consequences. Which framework guides this decision?\nគ្រូពេទ្យម្នាក់បដិសេធមិនភូតភរអ្នកជំងឺអំពីជំងឺ ដោយសារជឿថាការភូតភរគឺជាអំពើខុសឆ្គងដោយឯកឯង ដោយមិនគិតពីផលវិបាក។ តើក្របខ័ណ្ឌមួយណាដែលដឹកនាំការសម្រេចចិត្តនេះ?",
+      "options": [
+        "Consequentialism",
+        "Deontology",
+        "Utilitarianism",
+        "Hedonism"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 11,
+      "question": "Which framework focuses primarily on the moral character and virtues of the person taking the action?\nតើក្របខ័ណ្ឌមួយណាដែលផ្តោតជាសំខាន់លើ ចរិតលក្ខណៈសីលធម៌ និងគុណធម៌របស់បុគ្គល ដែលប្រព្រឹត្តសកម្មភាព?",
+      "options": [
+        "Virtue Ethics",
+        "Deontology",
+        "Consequentialism",
+        "Legalism"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 12,
+      "question": "In the famous \"Trolley Problem,\" an individual who chooses to pull the lever to kill 1 person in order to save 5 people is demonstrating reasoning based on:\nនៅក្នុង \"Trolley Problem” បុគ្គលដែលសម្រេចចិត្តកាច់កុងតាក់សម្លាប់មនុស្ស ១ នាក់ដើម្បីសង្គ្រោះមនុស្ស ៥ នាក់ កំពុងបង្ហាញពីការគិតផ្អែក",
+      "options": [
+        "Virtue Ethics",
+        "Consequentialism / Utilitarianism",
+        "Deontology",
+        "Absolutism"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 13,
+      "question": "In the four Buddhist virtues (Brahmavihara) cited by Prof. Rethy K. Chhem, what does Metta represent?\nនៅក្នុងព្រហ្មវិហារធម៌ទាំង ៤ ដែលត្រូវបានលើកឡើងដោយ Prof. Rethy K. Chhem តើ «មេត្តា» មានន័យដូចម្តេច?",
+      "options": [
+        "Compassion / ការអាណិតអាសូរ",
+        "Loving-kindness / សេចក្តីប្រណី សេចក្តីស្រឡាញ់",
+        "Sympathetic joy / ការមិនមានចិត្តច្រណែន",
+        "Equanimity / ការតាំងចិត្តជាកណ្តាល"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 14,
+      "question": "In the Brahmavihara, the virtue of Karuna refers to:\nនៅក្នុងព្រហ្មវិហារធម៌ គុណធម៌ «ករុណា» សំដៅទៅលើ៖",
+      "options": [
+        "Compassion and the desire to help others escape suffering / សេចក្តីអាណិតអាសូរ និងការជួយអ្នកដទៃឱ្យរួចផុតពីទុក្ខ",
+        "Rejoicing in the good fortune of others / ត្រេកអរជាមួយអ្វីដែលអ្នកដទៃមាន",
+        "Maintaining a neutral, unbiased mind / ការតាំងចិត្តជាកណ្តាលមិនលម្អៀង",
+        "Accumulating individual wealth / ការសន្សំទ្រព្យសម្បត្តិផ្ទាល់ខ្លួន"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 15,
+      "question": "The virtue Upekkha is defined in the Cambodian context as:\nគុណធម៌ «ឧបេក្ខា» ត្រូវបានកំណត់និយមន័យក្នុងបរិបទខ្មែរថាជា៖",
+      "options": [
+        "Sympathetic joy without jealousy / ការត្រេកអរដោយគ្មានចិត្តច្រណែន",
+        "Equanimity and impartiality / ការតាំងចិត្តជាកណ្តាល ដំណើរមិនលម្អៀងទៅខាងណា",
+        "Active pity towards the sick / ការអាណិតអាសូរចំពោះអ្នកជំងឺ",
+        "Unconditional affection / សេចក្តីស្រឡាញ់គ្មានលក្ខខណ្ឌ"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 16,
+      "question": "Which ancient historical document marks one of the earliest foundations of medical moral identity?\nតើឯកសារប្រវត្តិសាស្ត្របុរាណមួយណា ដែលជាគ្រឹះដំបូងគេបង្អស់នៃអត្តសញ្ញាណសីលធម៌គ្រូពេទ្យ?",
+      "options": [
+        "Belmont Report",
+        "Declaration of Helsinki",
+        "Hippocratic Oath",
+        "Nuremberg Code"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 17,
+      "question": "Which historical landmark code was formulated in 1947 in response to unethical human experimentation during World War II?\nតើឯកសារប្រវត្តិសាស្ត្រសំខាន់មួយណា ដែលត្រូវបានបង្កើតឡើងនៅឆ្នាំ ១៩៤៧ ដើម្បីឆ្លើយតបទៅនឹងការពិសោធន៍អសីលធម៌លើមនុស្សក្នុងស ២?",
+      "options": [
+        "Declaration of Helsinki",
+        "Nuremberg Code",
+        "Belmont Report",
+        "International Code of Medical Ethics"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 18,
+      "question": "The Beauchamp and Childress framework introduces which core principles of modern bioethics?\nតើក្របខ័ណ្ឌ Beauchamp & Childress ដាក់ចេញនូវគោលការណ៍គ្រឹះអ្វីខ្លះនៃជីវសីលធម៌ទំនើប?",
+      "options": [
+        "Autonomy, Beneficence, Non-maleficence, Justice / ស្វ័យភាព, ការផ្តល់ផលល្អ, ការមិនបង្កគ្រោះថ្នាក់, យុត្តិធម៌",
+        "Duty, Law, Virtue, Consequence / កាតព្វកិច្ច, ច្បាប់, គុណធម៌, ផលវិបាក",
+        "Honesty, Punctuality, Leadership, Research / ភាពស្មោះត្រង់, ការគោរពពេលវេលា, ភាពជាអ្នកដឹកនាំ, ការស្រាវជ្រាវ",
+        "Quality, Profit, Safety, Efficiency / គុណភាព, ប្រាក់ចំណេញ, សុវត្ថិភាព, ប្រសិទ្ធភាព"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 19,
+      "question": "How many core competency domains are included in the Cambodia Core Competency Framework for Bachelor of Medical Sciences (BMSC 2022)?\nតើមានដែនសមត្ថភាពស្នួលចំនួនប៉ុន្មាននៅក្នុងក្របខណ្ឌ BMSC 2022 នៅកម្ពុជា?",
+      "options": [
+        "4",
+        "5",
+        "6",
+        "8"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 20,
+      "question": "Which competency sits directly at the center of the Cambodian lotus diagram for medical competencies?\nតើដែនសមត្ថភាពមួយណាដែលស្ថិតនៅ ចំកណ្តាល នៃរូបភាពផ្កាឈូកក្របខណ្ឌសមត្ថភាពស្នួល BMSC 2022?",
+      "options": [
+        "Management and Leadership / ការគ្រប់គ្រង និងភាពជាអ្នកដឹកនាំ",
+        "Research and Education / ការស្រាវជ្រាវ និងការអប់រំ",
+        "Patient Care / ការព្យាបាលថែទាំអ្នកជំងឺ",
+        "Ethics and Professionalism / ក្រមសីលធម៌ និងភាពជាអ្នកប្រកបដោយវិជ្ជាជីវៈ"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 21,
+      "question": "Which of the following is NOT one of the 6 core domains of the BMSC 2022 framework?\nតើចំណុចមួយណា មិនមែន ជាដែនសមត្ថភាពស្នូលទាំង ៦ នៃ BMSC 2022?",
+      "options": [
+        "Communication and Collaboration / ការទំនាក់ទំនង និងកិច្ចសហប្រតិបត្តិការ",
+        "Family and Community Healthcare / ការថែទាំសុខភាពគ្រួសារ និងសហគមន៍",
+        "Financial Accounting and Business Operations / ការគណនេយ្យហិរញ្ញវត្ថុ និងប្រតិបត្តិការអាជីវកម្ម",
+        "Research and Education / ការស្រាវជ្រាវ និងការអប់រំ"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 22,
+      "question": "Sub-domain 3.1 of the Ethics & Professionalism competency requires doctors to respect patient autonomy and obtain what before procedures?\nដែនរង ៣.១ តម្រូវឱ្យគ្រូពេទ្យគោរពស្វ័យភាពរបស់អ្នកជំងឺ និងទទួលបានអ្វីមុនពេលធ្វើអន្តរាគមន៍?",
+      "options": [
+        "Verbal agreement from hospital directors / ការព្រមព្រៀងផ្ទាល់មាត់ពីនាយកមន្ទីរពេទ្យ",
+        "Informed consent / ការយល់ព្រមព្រៀងពីអ្នកជំងឺ",
+        "Financial deposits / ប្រាក់កក់ហិរញ្ញវត្ថុ",
+        "Written approval from local authorities / ការអនុញ្ញាតជាលាយលក្ខណ៍អក្សរពីអាជ្ញាធរ"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 23,
+      "question": "According to BMSC 2022 Sub-domain 3.2, what should a doctor do when facing high workload, emotional pressure, and uncertainty?\nយោងតាម BMSC 2022 ដែនរង ៣.២ តើគ្រូពេទ្យគួរធ្វើអ្វីនៅពេលប្រឈមមុខនឹងសម្ពាធការងារ បន្ទុកធ្ងន់ និងភាពមិនប្រាកដប្រជា?",
+      "options": [
+        "Hide mistakes from senior staff / លាក់បាំងកំហុសពីថ្នាក់លើ",
+        "Practice self-reflection, peer support, and seek assistance / ការវិភាគឆ្លុះបញ្ចាំងពីខ្លួនឯង ការគាំទ្រពីមិត្តភ័ក្តិ និងការសុំជំនួយ",
+        "Ignore personal stress and work continuously without rest/ មើលរំលងស្ត្រេសផ្ទាល់ខ្លួន និងធ្វើការដោយគ្មានការសម្រ",
+        "Transfer all patient duties to junior nurses permanently / ផ្ទេរកាតព្វកិច្ចមើលថែអ្នកជំងឺទាំងអស់ទៅឱ្យគិលានុបដ្ឋាយិក"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 24,
+      "question": "What is the title of Domain 4 in the BMSC 2022 framework?\nតើដែនសមត្ថភាពទី ៤ នៃក្របខណ្ឌ BMSC 2022 មានឈ្មោះអ្វី?",
+      "options": [
+        "Management and Leadership / ការគ្រប់គ្រង និងភាពជាអ្នកដឹកនាំ",
+        "Communication and Collaboration / ការទំនាក់ទំនង និងកិច្ចសហប្រតិបត្តិការ",
+        "Ethics and Professionalism / ក្រមសីលធម៌ និងភាពជាអ្នកប្រកបដោយវិជ្ជាជីវៈ",
+        "Research and Education / ការស្រាវជ្រាវ និងការអប់រំ"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 25,
+      "question": "Domain 5 of BMSC 2022 focuses on:\nដែនសមត្ថភាពទី ៥ នៃ BMSC 2022 ផ្តោតលើ：",
+      "options": [
+        "Patient Care / ការព្យាបាលថែទាំអ្នកជំងឺ",
+        "Family and Community Healthcare / ការថែទាំសុខភាពគ្រួសារ និងសហគមន៍",
+        "Management and Leadership / ការគ្រប់គ្រង និងភាពជាអ្នកដឹកនាំ",
+        "Ethics and Professionalism / ក្រមសីលធម៌ និងភាពជាអ្នកប្រកបដោយវិជ្ជាជីវៈ"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 26,
+      "question": "Domain 6 of BMSC 2022 focuses on:\nដែនសមត្ថភាពទី ៦ នៃ BMSC 2022 ផ្តោតលើ：",
+      "options": [
+        "Research and Education / ការស្រាវជ្រាវ និងការអប់រំ",
+        "Financial Management / ការគ្រប់គ្រងហិរញ្ញវត្ថុ",
+        "Surgical Operations / ការវះកាត់",
+        "Pharmaceutical Sales / ការលក់ឱសថ"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 27,
+      "question": "When was Sub-Decree No. 61 ANK.BK on the Code of Medical Ethics (អនុក្រឹត្យស្តីពីក្រមសីលធម៌គ្រូពេទ្យ) passed in Cambodia?\nតើ «អនុក្រឹត្យស្តីពីក្រមសីលធម៌គ្រូពេទ្យ» លេខ ៦១ ត្រូវបានអនុម័តនៅឆ្នាំណា?",
+      "options": [
+        "1993",
+        "2003",
+        "2016",
+        "2022"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 28,
+      "question": "Which law regulates health practitioners in Cambodia and covers registration, licensing, and professional misconduct?\nតើច្បាប់មួយណាដែលគ្រប់គ្រងអ្នកប្រកបវិជ្ជាជីវៈវិស័យសុខាភិបាលនៅកម្ពុជា រាប់បញ្ចូលទាំងការចុះបញ្ជីការអាជ្ញាបណ្ណ និងទោសទណ្ឌ?",
+      "options": [
+        "Sub-Decree No. 61 (2003) / អនុក្រឹត្យលេខ ៦១ (២០០៣)",
+        "Operational Guidelines for Clients' Rights (2007) / គោលការណ៍ណែនាំស្តីពីសិទ្ធិអតិថិជន (២០០៧)",
+        "Law on Regulation of Health Practitioners (2016) / ច្បាប់ស្តីពីការគ្រប់គ្រងអ្នកប្រកបវិជ្ជាជីវៈវិស័យសុខាភិបាល (២០១៦)",
+        "BMSC Competency Framework (2022) / ក្របខណ្ឌសមត្ថភាព BMSC (២០២២)"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 29,
+      "question": "According to Article 13 of Sub-Decree No. 61, what must physicians avoid when participating in public health education via mass media?\nយោងតាមមាត្រា ១៣ នៃអនុក្រឹត្យលេខ ៦១ តើគ្រូពេទ្យត្រូវជៀសវាងអ្វីខ្លះ នៅពេលចូលរួមផ្តល់ព័ត៌មានអប់រំសុខភាពសាធារណៈតាមប្រព័ន្ធផ្សព្វ",
+      "options": [
+        "Explaining symptoms in plain language / ការពន្យល់រោគសញ្ញាតាមភាសាសាមញ្ញ",
+        "Self-advertising or promoting commercial interests / អំពើឃោសនាសម្រាប់ខ្លួនឯងផ្ទាល់ ឬផលប្រយោជន៍ពាណិជ្ជកម្ម",
+        "Stating verified medical facts / ការលើកឡើងនូវទិន្នន័យដែលមានការបញ្ជាក់ច្បាស់លាស់",
+        "Educating the public on disease prevention / ការអប់រំសាធារណជនអំពីការការពារជំងឺ"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 30,
+      "question": "Article 14 of Sub-Decree No. 61 explicitly forbids doctors from doing what in front of the general public?\nមាត្រា ១៤ នៃអនុក្រឹត្យលេខ ៦១ ហាមឃាត់ដាច់ខាតមិនឱ្យគ្រូពេទ្យធ្វើអ្វីចំពោះមុខសាធារណជន?",
+      "options": [
+        "Demonstrating hand hygiene techniques / ការបង្ហាញបច្ចេកទេសអនាម័យដៃ",
+        "Advertising unverified diagnostic or treatment methods / ការផ្សព្វផ្សាយវិធីធ្វើរោគវិនិច្ឆ័យ ឬវិធីព្យាបាលដែលពុំមានក",
+        "Discussing general health promotion / ការពិភាក្សាអំពីការលើកកម្ពស់សុខភាពទូទៅ",
+        "Speaking about published medical research with peers / ការនិយាយអំពីការស្រាវជ្រាវវេជ្ជសាស្ត្រជាមួយសហសេវិក"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 31,
+      "question": "According to Article 18 of Sub-Decree No. 61, the practice of medicine must NEVER be converted into what?\nយោងតាមមាត្រា ១៨ នៃអនុក្រឹត្យលេខ ៦១ វិជ្ជាជីវៈវេជ្ជសាស្ត្រ មិនត្រូវបានអនុញ្ញាតឱ្យយកទៅធ្វើជាអ្វីដាច់ខាត?",
+      "options": [
+        "A public community service / សេវាសហគមន៍សាធារណៈ",
+        "A commercial business enterprise / មុខជំនួញផ្ទាល់ខ្លួន (ពាណិជ្ជកម្ម)",
+        "An academic teaching opportunity / ឱកាសនៃការបង្រៀន",
+        "A collaborative team effort / កិច្ចខិតខំប្រឹងប្រែងរួមគ្នាជាក្រុម"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 32,
+      "question": "Article 19 of Sub-Decree No. 61 states that doctors must NOT tolerate public or private organizations using their name or professional actions for:\nមាត្រា ១៩ នៃអនុក្រឹត្យលេខ ៦១ ចែងថា គ្រូពេទ្យមិនត្រូវអត់ឱនឱ្យជាដាច់ខាត ចំពោះអង្គការសាធារណៈ ឬឯកជន ប្រើប្រាស់ឈ្មោះ ឬសកម្មភាពវិជ្ជាជីវៈរបស់ខ្លួន ក្នុងទិសដៅ៖",
+      "options": [
+        "Academic citations / ការដកស្រង់អត្ថបទសិក្សា",
+        "Public health statistics / ស្ថិតិសុខភាពសាធារណៈ",
+        "Commercial advertising / ការឃោសនាផ្សព្វផ្សាយពាណិជ្ជកម្ម",
+        "Internal quality audits / ការស៊ើបអង្កេតគុណភាពផ្ទៃក្នុង"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 33,
+      "question": "Under the Law on Regulation of Health Practitioners (2016), who is authorized to grant a license to practice medicine in Cambodia?\nយោងតាមច្បាប់ឆ្នាំ ២០១៦ តើស្ថាប័នណាដែលមានសមត្ថកិច្ចផ្តល់អាជ្ញាបណ្ណប្រកបវិជ្ជាជីវៈវេជ្ជសាស្ត្រនៅកម្ពុជា?",
+      "options": [
+        "Private hospital boards",
+        "Ministry of Health / Cambodian Medical Council / ក្រសួងសុខាភិបាល / គណៈគ្រូពេទ្យកម្ពុជា",
+        "Local commune councils",
+        "International Red Cross"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 34,
+      "question": "When were the Operational Guidelines for Clients' Rights and Providers' Rights-Duties published by the Ministry of Health?\nតើ «គោលការណ៍ណែនាំស្តីពីសិទ្ធិអតិថិជន និងសិទ្ធិ-កាតព្វកិច្ចអ្នកផ្តល់សេវា» ត្រូវបានបោះពុម្ពនៅឆ្នាំណា?",
+      "options": [
+        "1999",
+        "2003",
+        "2007",
+        "2016"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 35,
+      "question": "In Case 1 (Ascites / Paracentesis case), the patient and his wife refused the paracentesis procedure because ascites was well controlled with diuretics. What ethical right were they exercising?\nនៅក្នុងករណីទី ១ (បូមទឹកក្នុងពោះ) អ្នកជំងឺ និងភរិយាបានបដិសេធមិនធ្វើ Paracentesis ដោយសារទឹកក្នុងពោះត្រូវគ្រប់គ្រងបានល្អដោយថ្នាំ តើពួកគាត់កំពុងប្រើប្រាស់សិទ្ធិអ្វី?",
+      "options": [
+        "Right to free treatment",
+        "Right of Informed Refusal / សិទ្ធិបដិសេធបន្ទាប់ពីទទួលបានព័ត៌មាន",
+        "Right to commercial compensation",
+        "Right to refuse taking any medication"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 36,
+      "question": "In Case 1, what was the primary ethical mistake committed by the DES Gastro doctor?\nនៅក្នុងករណីទី ១ តើអ្វីជាកំហុសសីលធម៌ចម្បងដែលប្រព្រឹត្តដោយវេជ្ជបណ្ឌិត DES Gastro?",
+      "options": [
+        "Prescribing diuretics correctly",
+        "Overriding patient refusal and proceeding with an unwanted procedure / ការរំលោភលើការបដិសេធរបស់អ្នកជំងឺ និងការបង្ខំធ្វើនីតិវិធី",
+        "Consulting senior doctors",
+        "Monitoring patient blood pressure"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 37,
+      "question": "When the patient in Case 1 went into shock and died after the forced paracentesis, which two core ethical principles were severely violated?\nនៅពេលអ្នកជំងឺក្នុងករណីទី ១ ធ្លាក់ក្នុងស្ថានភាពសន្លប់ (choc) និងស្លាប់ បន្ទាប់ពីការបូមទឹកក្នុងពោះ តើគោលការណ៍គ្រឹះសីលធម៌ទាំងពីរណា",
+      "options": [
+        "Autonomy and Non-maleficence / ស្វ័យភាព និងការមិនបង្កគ្រោះថ្នាក់",
+        "Justice and Profitability",
+        "Beneficence and Confidentiality",
+        "Research and Education"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 38,
+      "question": "When doctors within a treatment team disagree on a procedure, what is the most professional action to take?\nនៅពេលក្រុមគ្រូពេទ្យព្យាបាលមិនយល់ស្របគ្នាលើនីតិវិធីមួយ តើអាកប្បកិរិយាប្រកបដោយវិជ្ជាជីវៈបំផុតដែលត្រូវធ្វើគឺអ្វី?",
+      "options": [
+        "Force the procedure immediately without discussion",
+        "Hold an interdisciplinary team meeting to reach a safe consensus / ប្រជុំពិភាក្សាជាក្រុមអន្តរវិជ្ជាជីវៈដើម្បីរកដំណោ",
+        "Argue in front of the patient and family",
+        "Ignore the primary attending specialist's order secretly"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 39,
+      "question": "In Case 2 (VIP vs Standard Rooms), offering VIP rooms with extra comfort for higher fees is considered fair under what condition?\nនៅក្នុងករណីទី ២ (បន្ទប់ VIP និងបន្ទប់ធម្មតា) ការផ្តល់បន្ទប់ VIP ដែលមានផាសុកភាពជាង ត្រូវចាត់ទុកថាមានភាពយុត្តិធម៌ ក្រោមលក្ខខណ្ឌអ្វី?",
+      "options": [
+        "Standard room patients receive lower medical treatment quality",
+        "The quality of medical care and treatment remains equal and non-discriminatory for all patients / គុណភាពនៃការព្យាបាលវេជ្ជសាស្ត្រត្រូវតែស្មើភាព និងគ្មានការរើសអើងសម្រាប់គ្រប់អ្នកជំងឺ",
+        "VIP patients get exclusive access to emergency medicine",
+        "Standard rooms are kept dirty intentionally"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 40,
+      "question": "A Year-2 medical student practices invasive clinical procedures on hospital patients outside official clerkship hours. What is the main ethical concern?\nនិស្សិតពេទ្យឆ្នាំទី ២ អនុវត្តនីតិវិធីគ្លីនិកលើអ្នកជំងឺក្រៅម៉ោងផ្លូវការ។ តើអ្វីជាបញ្ហាសីលធម៌ចម្បង?",
+      "options": [
+        "Over-competence of Year-2 students",
+        "Risk to patient safety (Non-maleficence) and practicing beyond scope of training / ហានិភ័យចំពោះសុវត្ថិភាព (ការមិនបង្កគ្រោះថ្នាក់) និងការអនុវត្តហួសកម្រិតបណ្តុះបណ្តាល",
+        "Lack of social media followers",
+        "High cost of medical uniforms"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 41,
+      "question": "A doctor develops romantic feelings for a current patient and invites her out to dinner after discharge. Why is this unprofessional?\nគ្រូពេទ្យម្នាក់មានអារម្មណ៍ស្រឡាញ់អ្នកជំងឺបច្ចុប្បន្ន និងបបួលនាងទៅញ៉ាំអាហារពេលល្ងាច។ ហេតុអ្វីបានជាទង្វើនេះខ្វះភាពជាអ្នកមានវិជ្ជាជីវៈ?",
+      "options": [
+        "Dinner is too expensive for physicians",
+        "Breaches professional boundaries and exploits power imbalance / រំលោភលើព្រំដែនវិជ្ជាជីវៈ និងទាញយកផលចំពេ",
+        "The patient might not like the restaurant",
+        "It is illegal to eat dinner after hospital shifts"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 42,
+      "question": "A doctor accepts a $100 buffet voucher from a grateful patient's family. Which professional principle does this challenge?\nគ្រូពេទ្យម្នាក់ទទួលយកប័ណ្ណ Voucher អាហារ ១០០ ដុល្លារពីគ្រួសារអ្នកជំងឺ។ តើទង្វើនេះប្រឈមនឹងគោលការណ៍វិជ្ជាជីវៈអ្វី?",
+      "options": [
+        "Surgical dexterity",
+        "Professional boundaries and potential conflict of interest / ព្រំដែនវិជ្ជាជីវៈ និងជម្លោះផលប្រយោជន៍ដែលទាក់ទងនឹង",
+        "Research productivity",
+        "Medical history taking"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 43,
+      "question": "A physician arrives 30 minutes late to their hospital shift almost every day. This represents a failure in:\nគ្រូពេទ្យម្នាក់មកដល់មន្ទីរពេទ្យយឺត ៣០ នាទីស្ទើរតែរាល់ថ្ងៃ។ អាកប្បកិរិយានេះបង្ហាញពីកង្វះខាតខាង：",
+      "options": [
+        "Deontology law enforcement only",
+        "Professionalism and professional accountability / ភាពជាអ្នកមានវិជ្ជាជីវៈ និងគណនេយ្យភាពវិជ្ជាជីវៈ",
+        "Clinical diagnostic skills",
+        "Pharmacological knowledge"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 44,
+      "question": "An angry patient shouts and uses abusive language toward a doctor. What is the correct professional response?\nអ្នកជំងឺម្នាក់ខឹងសម្បារ ហើយប្រមាថគ្រូពេទ្យ។ តើការឆ្លើយតបប្រកបដោយវិជ្ជាជីវៈបំផុតគឺអ្វី?",
+      "options": [
+        "Shout back using identical abusive language",
+        "Maintain professional composure, remain calm, and de-escalate / រក្សាភាពស្ងប់ស្ងាត់ ប្រកបដោយភាពជាអ្នកមានវិ និងសម្រួលស្ថានការណ៍",
+        "Post the patient's identity on social media",
+        "Call the police immediately without trying to calm the patient"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 45,
+      "question": "A medical student is paid by a company to promote a specific white coat brand on their social media. Which ethical concern is raised?\nនិស្សិតពេទ្យម្នាក់ទទួលបានប្រាក់ពីក្រុមហ៊ុនដើម្បីផ្សព្វផ្សាយម៉ាកអាវសលើបណ្តាញសង្គម។ តើវាបង្កើតជាបញ្ហាសីលធម៌អ្វី?",
+      "options": [
+        "Excellent marketing technique",
+        "Conflict of interest and commercial exploitation of medical identity / ជម្លោះផលប្រយោជន៍ និងការយកអត្តសញ្ញាព",
+        "Proper academic achievement",
+        "Compliance with Sub-Decree 61"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 46,
+      "question": "A medical student posts a group selfie taken in a hospital ward, and faces of two patients are visible in the background. What is the ethical violation?\nនិស្សិតពេទ្យថតរូប Selfie ក្នុងមន្ទីរពេទ្យដោយមើលឃើញមុខអ្នកជំងឺ ២ នាក់នៅខាងក្រោយ ហើយបង្ហោះលើ FB។ តើវាជាការរំលោភលើអ្វី?",
+      "options": [
+        "Patient confidentiality and privacy / ការរក្សាការណ៍សម្ងាត់ និងភាពឯកជនរបស់អ្នកជំងឺ",
+        "Hospital dress code",
+        "Academic research protocol",
+        "Financial billing procedure"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 47,
+      "question": "A doctor hosts a health education podcast sponsored by an energy drink. What mandatory element must be included in the publication?\nគ្រូពេទ្យធ្វើ Podcast អប់រំសុខភាពដែលមានឧបត្ថម្ភពីភេសជ្ជៈពូវកម្លាំង។ តើធាតុចាំបាច់អ្វីដែលត្រូវតែបញ្ចូលក្នុងអត្ថបទ?",
+      "options": [
+        "Free drink samples for patients",
+        "Clear disclaimer stating product appearance does not imply medical endorsement / ការដាក់បដិសេធ (Disclaimer) ច្បាស់លាស់ថាការបង្ហាញមិនមែនជាការធានាផ្នែកវេជ្ជសាស្ត្រ",
+        "Recommendation to consume 3 cans daily",
+        "A discount voucher code"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 48,
+      "question": "A medical student posts a photo of lecture slides on Facebook with the caption \"30min100slide\". This behavior is evaluated under:\nនិស្សិតពេទ្យម្នាក់ចែករំលែក Story ស្លាយបង្រៀនលើ FB ដោយសរសេរ \"30min100slide\"។ ទង្វើនេះត្រូវវាយតម្លៃលើ：",
+      "options": [
+        "Professionalism and public social media conduct / ភាពជាអ្នកមានវិជ្ជាជីវៈ និងការប្រើប្រាស់បណ្តាញសង្គម",
+        "Surgical technique",
+        "Criminal jurisprudence",
+        "Laboratory bio-safety"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 49,
+      "question": "In Cambodia, which stakeholders share the responsibility for promoting medical ethics and professionalism?\nនៅកម្ពុជា តើភាគីពាក់ព័ន្ធណាខ្លះដែលមានទំនួលខុសត្រូវរួមគ្នាក្នុងការលើកកម្ពស់ក្រមសីលធម៌ និងវិជ្ជាជីវៈ?",
+      "options": [
+        "Ministry of Health only",
+        "Ministry of Health, Medical Council, Medical Schools, Hospitals, Ethics Committees, Doctors, Students, and the Public / ក្រសួងសុខាភិបាល, គណៈគ្រូពេទ្យ, សាលាពេទ្យ, មន្ទីរពេទ្យ, គណៈកម្មាធិការសីលធម៌, គ្រូពេទ្យ, និស្សិត, និងសាធារណជន",
+        "Individual doctors only",
+        "Foreign medical tourists only"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 50,
+      "question": "According to the study principle \"Effective learning is when a student gets information OUT of the brain more than taking into the brain\" (from Make It Stick), which method is most effective for exam preparation?\nយោងតាមគោលការណ៍ «ការរៀនប្រកបដោយប្រសិទ្ធភាព គឺនៅពេលដែលនិស្សិតទាញយកព័ត៌មានចេញពីខួរក្បាលច្រើនជាងការដាក់ចូល» តើវិធីសាស្រ្តណាដែលមានប្រសិទ្ធភាពបំផុត?",
+      "options": [
+        "Re-reading textbook pages passively 10 times",
+        "Active retrieval practice and self-testing QCMs / ការប្រឡងល្បងសមត្ថភាព QCM និងទាញយកព័ត៌មានចេញមកវិញដោ",
+        "Highlighting entire textbook chapters in bright yellow",
+        "Listening to recorded lectures while sleeping"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 51,
+      "question": "According to Article 2 of Sub-Decree No. 61, what is the physician's core obligation in both private and public practice?\nយោងតាមមាត្រា ២ នៃអនុក្រឹត្យលេខ ៦១ តើអ្វីជាកាតព្វកិច្ចគ្រឹះរបស់គ្រូពេទ្យទាំងក្នុងការប្រកបវិជ្ជាជីវៈឯកជន និងសាធារណៈ?",
+      "options": [
+        "Maximize financial revenue for the clinic / បង្កើនចំណូលហិរញ្ញវត្ថុអតិបរមា",
+        "Respect human life, body, and dignity / គោរពជីវិត រាងកាយ និងសេចក្តីថ្លៃថ្នូររបស់មនុស្ស",
+        "Prefer private patients over public hospital patients / ផ្តល់អាទិភាពដល់អ្នកជំងឺឯកជនលើអ្នកជំងឺសាធារណៈ",
+        "Follow commercial advertising directives / អនុវត្តតាមការណែនាំផ្សាយពាណិជ្ជកម្ម"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 52,
+      "question": "Article 3 states that under all circumstances, physicians must maintain which core virtues?\nមាត្រា ៣ ចែងថា ទោះស្ថិតក្នុងកាលៈទេសៈណាក៏ដោយ គ្រូពេទ្យត្រូវតែប្រកាន់ខ្ជាប់នូវគុណធម៌គ្រឹះអ្វីខ្លះ?",
+      "options": [
+        "Commercial flexibility and profit orientation",
+        "Integrity and necessary fidelity/loyalty in medical practice / ភាពសុចរិត និងភក្តីភាពចាំបាច់",
+        "Social media popularity",
+        "Absolute obedience to private health insurance firms"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 53,
+      "question": "According to Article 4, professional secrecy (confidentiality) is established for whose benefit?\nយោងតាមមាត្រា ៤ តើការរក្សាការណ៍សម្ងាត់វិជ្ជាជីវៈត្រូវបានកំណត់ឡើងដើម្បីផលប្រយោជន៍របស់អ្នកណា?",
+      "options": [
+        "The hospital administration / អ្នកគ្រប់គ្រងមន្ទីរពេទ្យ",
+        "The Ministry of Health / ក្រសួងសុខាភិបាល",
+        "The patient / ផលប្រយោជន៍របស់អ្នកជំងឺ",
+        "Pharmaceutical suppliers / ក្រុមហ៊ុនឱសថ"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 54,
+      "question": "Article 5 strictly prohibits doctors from abandoning what under any circumstance?\nមាត្រា ៥ ហាមឃាត់ដាច់ខាតមិនឱ្យគ្រូពេទ្យបោះបង់ចោលអ្វីឡើយ ទោះស្ថិតក្នុងរូបភាពណាក៏ដោយ?",
+      "options": [
+        "Their personal private clinic",
+        "Professional independence / ឥស្សរភាពវិជ្ជាជីវៈរបស់ខ្លួន",
+        "Daily hospital shift handovers",
+        "Academic lectures"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 55,
+      "question": "According to Article 6, what right of the patient must doctors respect and facilitate?\nយោងតាមមាត្រា ៦ តើសិទ្ធិអ្វីរបស់អ្នកជំងឺដែលគ្រូពេទ្យត្រូវគោរព និងជួយសម្រួល?",
+      "options": [
+        "Right to demand unapproved medications",
+        "Right to freely choose their own physician / សិទ្ធិក្នុងការជ្រើសរើសដោយសេរីនូវគ្រូពេទ្យរបស់ខ្លួន",
+        "Right to refuse paying medical bills",
+        "Right to demand hospital ownership"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 56,
+      "question": "Article 7 explicitly states that doctors must examine, advise, or treat all persons equally without discrimination based on:\nមាត្រា ៧ ចែងយ៉ាងច្បាស់ថា គ្រូពេទ្យត្រូវពិនិត្យ ឱ្យដំបូន្មាន ឬព្យាបាលមនុស្សទូទៅស្មើៗគ្នា ដោយមិនប្រកាន់អំពី៖",
+      "options": [
+        "Medical diagnosis complexity only",
+        "Origin, tradition, family status, race, religion, reputation, or sentiment / ប្រភព ប្រពៃណី ស្ថានភាពគ្រួសារ ជាតិសាសន៍ សាសនា កេរ្តិ៍ឈ្មោះ ឬមនោសញ្ចេតនា",
+        "Severity of illness only",
+        "Patient age group only"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 57,
+      "question": "According to Article 8, when issuing prescriptions, a doctor must restrict their orders only to what is necessary to ensure:\nយោងតាមមាត្រា ៨ ក្នុងការចេញវេជ្ជបញ្ជា គ្រូពេទ្យត្រូវកំណត់ធ្វើតែអ្វីដែលចាំបាច់សម្រាប់ធានា៖",
+      "options": [
+        "Highest pharmacy commission profit",
+        "Quality, safety, and efficacy of care / គុណភាព សុវត្ថិភាព និងប្រសិទ្ធភាពនៃការថែទាំ",
+        "Maximum prescription length",
+        "Patient brand preference"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 58,
+      "question": "Article 9 defines the emergency duty of a physician when facing a critically ill or severely injured person as:\nមាត្រា ៩ កំណត់កាតព្វកិច្ចគ្រូពេទ្យដែលនៅចំពោះមុខអ្នកជំងឺ ឬអ្នករបួសធ្ងន់ថា៖",
+      "options": [
+        "Verify patient payment ability before assisting",
+        "Provide immediate necessary emergency assistance and care / ជួយសង្គ្រោះ និងផ្តល់ការថែទាំទាំងឡាយដែលចាំបាច់",
+        "Transfer responsibility immediately without providing first aid",
+        "Demand police authorization first"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 59,
+      "question": "According to Article 10, when treating a person deprived of liberty (e.g., prisoner), what must a doctor do if they observe signs of ill-treatment/abuse?\nយោងតាមមាត្រា ១០ នៅពេលពិនិត្យជនដែលបាត់បង់សេរីភាព (អ្នកទោស) បើសង្កេតឃើញថាមានការធ្វើបាប តើគ្រូពេទ្យត្រូវធ្វើអ្វី?",
+      "options": [
+        "Ignore the signs to avoid legal involvement",
+        "Report to competent authorities after obtaining the person's consent / ជូនព័ត៌មានទៅអាជ្ញាធរមានសមត្ថកិច្ច ក្រោយពីបានការយល់ព្រមពីសាមីជន",
+        "Inform the warden publicly without patient consent",
+        "Prescribe pain medication secretly"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 60,
+      "question": "Article 11 mandates that all registered medical doctors must continuously do what throughout their career?\nមាត្រា ១១ តម្រូវឱ្យគ្រូពេទ្យទាំងអស់ត្រូវតែធ្វើអ្វីជានិរន្តរ៍ពេញមួយជីវិតវិជ្ជាជីវៈរបស់ខ្លួន?",
+      "options": [
+        "Maintain continuous medical education and refine knowledge / សម្រិតសម្រាំង និងបង្កើនចំណេះដឹងរបស់ខ្លួនជានិច្ចក",
+        "Open multiple private clinics",
+        "Publish weekly newspaper articles",
+        "Purchase hospital shares"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 61,
+      "question": "According to Article 13, when participating in public health education through mass media, physicians must:\nយោងតាមមាត្រា ១៣ នៅពេលផ្តល់ព័ត៌មានអប់រំសុខភាពសាធារណៈតាមប្រព័ន្ធផ្សព្វផ្សាយ គ្រូពេទ្យត្រូវ៖",
+      "options": [
+        "Promote their own private clinic services",
+        "Speak cautiously, state only verified data, and avoid self-advertising / និយាយដោយប្រុងប្រយ័ត្ន លើកឡើងតែទិន្នន័យច្បាស់លាស់ និងជៀសវាងការឃោសនាផ្ទាល់ខ្លួន",
+        "Endorse branded dietary supplements",
+        "Guarantee 100% cure rates for diseases"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 62,
+      "question": "Article 14 strictly forbids doctors from advertising unverified diagnostic or treatment methods to which audience?\nមាត្រា ១៤ ហាមឃាត់ដាច់ខាតមិនឱ្យគ្រូពេទ្យផ្សព្វផ្សាយវិធីធ្វើរោគវិនិច្ឆ័យ ឬព្យាបាលដែលពុំមានការបញ្ជាក់ច្បាស់លាស់ទៅកាន់៖",
+      "options": [
+        "Senior medical professors only",
+        "The general public outside the medical framework / ចំពោះមុខសាធារណជន ដែលមិនមែនក្នុងក្របខ័ណ្ឌសុខាភិបាល",
+        "International research journals",
+        "Hospital ethics committees"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 63,
+      "question": "According to Article 15, physicians participating in biomedical research on human subjects must ensure that research results do NOT:\nយោងតាមមាត្រា ១៥ គ្រូពេទ្យដែលចូលរួមក្នុងការស្រាវជ្រាវជីវៈវេជ្ជសាស្រ្តលើមនុស្ស ត្រូវឃ្លាំមើលយ៉ាងណាកុំឱ្យលទ្ធផលស្រាវជ្រាវប៉ះពាល់ដល់៖",
+      "options": [
+        "Research funding budgets",
+        "Patient trust in the doctor and continuity of treatment / ទំនុកចិត្តរបស់អ្នកជំងឺមកលើគ្រូពេទ្យ និងនិរន្តរភាពនៃការព្យាបា",
+        "The doctor's academic promotion",
+        "Hospital reputation"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 64,
+      "question": "Article 17 states that voluntary termination of pregnancy (abortion) can only be performed under legal conditions. If a doctor refuses to perform it, what is their duty?\nមាត្រា ១៧ ចែងថាការបញ្ឈប់គភ៌ដោយស្ម័គ្រចិត្តអាស្រ័យលើលក្ខខណ្ឌច្បាប់។ បើគ្រូពេទ្យប្រើសេរីភាពមិនទទួលធ្វើ តើត្រូវមានកាតព្វកិច្ចអ្វី?",
+      "options": [
+        "Report the patient to law enforcement",
+        "Inform the woman according to legal conditions and timeframes / ជូនដំណឹងដល់សាមីខ្លួនទៅតាមល័ក្ខខ័ណ្ឌ និងរយៈពេលកំណត់ដោយច្បាប់",
+        "Charge a refusal fee",
+        "Disclose the case to the public"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 65,
+      "question": "Article 18 states that the medical profession must NEVER be converted into what?\nមាត្រា ១៨ ចែងថាវិជ្ជាជីវៈវេជ្ជសាស្ត្រមិនត្រូវបានអនុញ្ញាតឱ្យយកទៅធ្វើជាអ្វីដាច់ខាត?",
+      "options": [
+        "A public community health service",
+        "A commercial business enterprise / មុខជំនួញផ្ទាល់ខ្លួន (ពាណិជ្ជកម្ម)",
+        "An academic training institution",
+        "An interprofessional team"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 66,
+      "question": "According to Article 21, fee-splitting between physicians (ការបែងចែកតម្លៃនៃការព្យាបាលរវាងគ្រូពេទ្យ និងគ្រូពេទ្យ) is:\nយោងតាមមាត្រា ២១ ការបែងចែកភាគរយតម្លៃនៃការព្យាបាលរវាងគ្រូពេទ្យ និងគ្រូពេទ្យ គឺ៖",
+      "options": [
+        "Encouraged for patient referrals",
+        "Strictly prohibited, regardless of form, except as provided in Article 90 / ត្រូវហាមឃាត់ដាច់ខាត លើកលែងតែករណីមាត្រា ៩០",
+        "Allowed if under $50",
+        "Standard practice in private hospitals"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 67,
+      "question": "Article 23 prohibits doctors from examining or treating patients in which location?\nមាត្រា ២៣ ហាមឃាត់គ្រូពេទ្យមិនឱ្យពិគ្រោះ ពិនិត្យ និងព្យាបាលអ្នកជំងឺនៅកន្លែងណា?",
+      "options": [
+        "Public hospital outpatient wards",
+        "Commercial places or pharmacies selling drugs/devices prescribed by that doctor / កន្លែងពាណិជ្ជកម្ម ឬកន្លែងមានដាក់លក់ឱសថ/ឧបករណ៍ដែលខ្លួនចេញវេជ្ជបញ្ជា",
+        "University clinical skill centers",
+        "Rural health centers"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 68,
+      "question": "According to Article 26, issuing biased reports or fake medical certificates (វិញ្ញាបនបត្របន្លំ) to please someone is:\nយោងតាមមាត្រា ២៦ ការផ្តល់របាយការណ៍លំអៀង ឬវិញ្ញាបនបត្របន្លំដើម្បីតម្រូវចិត្តគ្នា គឺ៖",
+      "options": [
+        "Acceptable for close friends",
+        "Strictly prohibited / ត្រូវហាមឃាត់ដាច់ខាត",
+        "Permitted with minor illnesses",
+        "A minor administrative formality"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 69,
+      "question": "What are the 4 core bioethics principles formulated by Beauchamp and Childress?\nតើគោលការណ៍គ្រឹះជីវសីលធម៌ទាំង ៤ របស់ Beauchamp & Childress មានអ្វីខ្លះ?",
+      "options": [
+        "Law, Duty, Virtue, Consequence",
+        "Autonomy, Beneficence, Non-maleficence, Justice / ស្វ័យភាព, ការផ្តល់ផលល្អ, ការមិនបង្កគ្រោះថ្នាក់, យុត្តិធម៌",
+        "Honesty, Loyalty, Skill, Efficiency",
+        "Quality, Safety, Profit, Confidentiality"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 70,
+      "question": "The principle of Autonomy (ស្វ័យភាព) refers to the patient's right to: គោលការណ៍ ស្វ័យភាព សំដៅលើសិទ្ធិរបស់អ្នកជំងឺក្នុងការ៖",
+      "options": [
+        "Demand free medical care unconditionally",
+        "Make independent, uncoerced decisions regarding their own healthcare / សម្រេចចិត្តដោយសេរី និងគ្មានការបង្ខិតបង្ខំលើការព្យាបាលរបស់ខ្លួន",
+        "Override hospital administrative budgets",
+        "Prescribe their own medications"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 71,
+      "question": "Which element is NOT part of the valid Informed Consent (ការយល់ព្រមបន្ទាប់ពីទទួលបានព័ត៌មាន) process? តើធាតុផ្សំណា មិនមែន ជាផ្នែកនៃដំណើរការយល់ព្រមដោយដឹងខ្លួនត្រឹមត្រូវ?",
+      "options": [
+        "Patient Decision-Making Capacity / សមត្ថភាពស្មារតីក្នុងការសម្រេចចិត្ត",
+        "Disclosure of risks, benefits, and alternatives / ការប្រាប់ពីហានិភ័យ ផលល្អ និងជម្រើសផ្សេងៗ",
+        "Financial guarantee of 100% medical recovery / ការធានាហិរញ្ញវត្ថុថាជា ១០០%",
+        "Voluntariness without coercion / ស្ម័គ្រចិត្តដោយគ្មានការបង្ខិតបង្ខំ"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 72,
+      "question": "Informed consent can be bypassed under which specific emergency condition?\nការសុំការយល់ព្រម (Informed Consent) អាចត្រូវបានរំលងក្នុងស្ថានភាពបន្ទាន់មួយណា?",
+      "options": [
+        "Patient is an adult refusing blood draw",
+        "Patient is unconscious with life-threatening emergency and no surrogate available / អ្នកជំងឺបាត់បង់ស្មារតី ក្នុងស្ថានភាពអាសន្នសង្គ្រោះជីវិត ហើយគ្មានអាណាព្យាបាល",
+        "Patient wants to leave the clinic early",
+        "Doctor is in a hurry"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 73,
+      "question": "For a 10-year-old child requiring non-emergency surgery, who must provide legal consent?\nសម្រាប់កុមារអាយុ ១០ ឆ្នាំដែលត្រូវធ្វើការវះកាត់មិនបន្ទាន់ តើអ្នកណាជាអ្នកផ្តល់ការយល់ព្រមតាមច្បាប់?",
+      "options": [
+        "The 10-year-old child alone",
+        "Parents or legal guardians / មាតាបិតា ឬអាណាព្យាបាលតាមច្បាប់",
+        "The primary school teacher",
+        "The hospital chief nurse"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 74,
+      "question": "Under what legal exception can a mature adolescent seek medical care without parental consent?\nតើក្រោមលក្ខខណ្ឌលើកលែងតាមច្បាប់ណាខ្លះ ដែលវ័យជំទង់អាចទទួលសេវាវេជ្ជសាស្ត្រដោយមិនចាំបាច់មានការយល់ព្រមពីអាណាព្យាបាល?",
+      "options": [
+        "Cosmetic plastic surgery",
+        "STI treatment, contraception, or court emancipation / ការព្យាបាលជំងឺកាមរោគ ការពន្យារកំណើត ឬការប្រកាសសេរីភាព",
+        "Elective dental whitening",
+        "Buying general hospital equipment"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 75,
+      "question": "The principle of Beneficence (ការគិតប្រយោជន៍អ្នកជំងឺជាធំ) mandates that clinicians must: គោលការណ៍ Beneficence តម្រូវឱ្យគ្រូពេទ្យត្រូវ៖",
+      "options": [
+        "Act in the best interest of the patient and promote their welfare / ធ្វើសកម្មភាពដើម្បីផលប្រយោជន៍ល្អបំផុតរបស់អ្នក និងលើកកម្ពស់សុខុមាលភាព",
+        "Charge maximum fees for complex procedures",
+        "Prioritize personal research publications over patient comfort",
+        "Follow patient demands even if medically harmful"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 76,
+      "question": "The Latin phrase \"Primum non nocere\" captures the essence of which ethical principle?\nឃ្លាភាសាឡាតាំង \"Primum non nocere \" (ដំបូងបង្អស់ មិនត្រូវបង្កគ្រោះថ្នាក់) ឆ្លុះបញ្ចាំងពីគោលការណ៍សីលធម៌ណា?",
+      "options": [
+        "Autonomy",
+        "Beneficence",
+        "Non-maleficence / ការមិនបង្កគ្រោះថ្នាក់ដល់អ្នកជំងឺ",
+        "Justice"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 77,
+      "question": "Prescribing a high-risk medication with known fatal interactions when safer effective alternatives exist violates:\nការចេញវេជ្ជបញ្ជាថ្នាំមានហានិភ័យខ្ពស់ខ្លាំង ខណៈមានថ្នាំសុវត្ថិភាពជាង និងមានប្រសិទ្ធភាពដូចគ្នា គឺជាការរំលោភលើ៖",
+      "options": [
+        "Autonomy",
+        "Non-maleficence / ការមិនបង្កគ្រោះថ្នាក់ដល់អ្នកជំងឺ",
+        "Justice",
+        "Truth-telling"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 78,
+      "question": "The principle of Justice (យុត្តិធម៌) in bioethics primarily deals with: គោលការណ៍ យុត្តិធម៌ (Justice) ក្នុងជីវសីលធម៌ ផ្តោតសំខាន់លើ៖",
+      "options": [
+        "Maximize private clinic profits",
+        "Fair and equitable distribution of healthcare resources, risks, and benefits / ការបែងចែកប្រកបដោយសមធម៌ និងយុត្តិធម៌នូវធនធាន ហានិភ័យ និងផលប្រយោជន៍សុខាភិបាល",
+        "Giving every patient the exact same identical treatment regardless of medical need",
+        "Absolute doctor dominance"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 79,
+      "question": "Which phrase best summarizes modern healthcare Justice?\nតើឃ្លាមួយណាដែលសង្ខេបន័យនៃ យុត្តិធម៌ (Justice) សុខាភិបាលទំនើបបានល្អបំផុត?",
+      "options": [
+        "\"Giving everyone the exact same thing\"",
+        "\"Giving each person fair, equitable, and appropriate care based on need\" / «ការផ្តល់ជូនបុគ្គលម្នាក់ៗនូវការថែទាំប្រ និងសមស្របតាមតម្រូវការ»",
+        "\"First come, highest payer served first\"",
+        "\"Restricting care to wealthy citizens\""
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 80,
+      "question": "When a doctor encounters an ethical dilemma where two principles conflict (e.g., Autonomy vs. Beneficence), what is required?\nនៅពេលគ្រូពេទ្យប្រឈមនឹងបញ្ហាសីលធម៌ដែលគោរពគោលការណ៍ពីរជល់គ្នា (ឧ. Autonomy ជល់នឹង Beneficence) តើត្រូវធ្វើអ្វី?",
+      "options": [
+        "Automatically choose Autonomy in 100% of cases",
+        "Deliberately balance the competing principles based on clinical facts and patient context / ថ្លឹងថ្លែងគោលការណ៍ទាំងពីរដោយប្រុងប្រយ័ត្នផ្អែកលើអង្គហេតុគ្លីនិក និងបរិបទអ្នកជំងឺ",
+        "Flip a coin to decide",
+        "Ignore patient preferences completely"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 81,
+      "question": "What is the definition of Paternalism (បិតុភាពនិយម) in medical ethics? តើអ្វីជា \"បិតុភាពនិយម (Paternalism)” នៅក្នុងក្រមសីលធម៌វេជ្ជសាស្ត្រ?",
+      "options": [
+        "Treating all patients as equal healthcare partners",
+        "Intentionally overriding a patient's preferences or choices for their own perceived good / ការរំលងលើការសម្រេចចិត្តរបស់អ្នកជំងឺដោយចេតនា ដើម្បីផលប្រយោជន៍ដែលពេទ្យយល់ថាជារឿងល្អ",
+        "Allowing patients to prescribe their own medications",
+        "Mandating parental presence for all adult consults"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 82,
+      "question": "Intervening to prevent harm in a patient who lacks substantial decision-making autonomy (e.g., severe hallucination, extreme intoxication) is known as: ការជ្រៀតជ្រែកដើម្បីទប់ស្កាត់គ្រោះថ្នាក់ចំពោះអ្នកជំងឺដែល ខ្វះសមត្ថភាពស្វ័យភាពសម្រេចចិត្ត (ឧ. សន្លប់ រង្វេង ស្រវឹងខ្លាំង) ហៅថា៖",
+      "options": [
+        "Hard Paternalism",
+        "Soft Paternalism / បិតុភាពនិយមបែបស្រាល (Soft Paternalism)",
+        "Unjustified coercion",
+        "Malpractice"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 83,
+      "question": "Overriding the informed, voluntary, and competent choice of a fully capable adult is defined as: ការរំលោភលើការសម្រេចចិត្តដែលដឹងខ្លួន និងស្ម័គ្រចិត្តរបស់ មនុស្សពេញវ័យដែលមានសមត្ថភាពគ្រប់គ្រាន់ ហៅថា៖",
+      "options": [
+        "Soft Paternalism",
+        "Hard Paternalism / បិតុភាពនិយមបែបតឹងរ៉ឹង (Hard Paternalism)",
+        "Shared decision-making",
+        "Informed consent"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 84,
+      "question": "Passive Paternalism (បិតុភាពនិយមអកម្ម) occurs when a physician: Passive Paternalism កើតឡើងនៅពេលដែលគ្រូពេទ្យ៖",
+      "options": [
+        "Forces an invasive surgery on a competent patient",
+        "Refuses to perform a patient-requested procedure because it is medically non-beneficial or harmful / បដិសេធមិនធ្វើនីតិវិធីដែលអ្នកជំងឺស្នើសុំ ដោយសារវា គ្មានប្រយោជន៍គ្លីនិក ឬបង្កគ្រោះថ្នាក់",
+        "Agrees with everything the patient demands",
+        "Leaves the hospital without telling anyone"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 85,
+      "question": "If a physician experiences a moral/religious conflict regarding a legal procedure (e.g., abortion), they may exercise Conscientious Refusal (ការបដិសេធតាមមនសិការ) provided they: បើគ្រូពេទ្យមានទំនាស់មនសិកា គ្រូពេទ្យអាចប្រើ Conscientious Refusal បាន លុះត្រាតែ៖",
+      "options": [
+        "Abandon the patient without notice",
+        "Provide timely referral to another qualified provider without compromising patient safety / ជូនដំណឹង និងបញ្ជូនបន្តទៅគ្រូពេទ្យផ្សេងទាន់ពេលវេលា ដោយមិនប៉ះពាល់សុវត្ថិភាពអ្នកជំងឺ",
+        "Scold the patient for their choice",
+        "Delay care until the emergency becomes fatal"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 86,
+      "question": "In clinical ethics, Medical Futility (អសមត្ថភាពព្យាបាល/គ្មានប្រយោជន៍គ្លីនិក) refers to interventions that: ក្នុងសីលធម៌គ្លីនិក Medical Futility សំដៅលើអន្តរាគមន៍វេជ្ជសាស្ត្រដែល៖",
+      "options": [
+        "Are too cheap for the hospital to perform",
+        "Offer no physiological or medical benefit and merely prolong dying or suffering / គ្មានផ្តល់ផលប្រយោជន៍វេជ្ជស ហើយគ្រាន់តែពន្យារការឈឺចាប់ ឬការស្លាប់",
+        "Are recommended by all international guidelines",
+        "Have 100% success rate"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 87,
+      "question": "In a mass-casualty disaster event, the START Triage System assigns a RED Tag to patients who: ក្នុងគ្រោះមហន្តរាយមហាជន ប្រព័ន្ធ START Triage ផ្តល់ ស្លាកពណ៌ក្រហម (RED) ដល់អ្នកជំងឺដែល៖",
+      "options": [
+        "Have minor injuries and can walk (\"walking wounded\")",
+        "Require immediate life-saving care for life-threatening injuries / ត្រូវការការសង្គ្រោះបន្ទាន់ភ្លាមៗសម្រាប់របួសប្រឈម",
+        "Are already deceased or have unsalvageable injuries",
+        "Need non-urgent delayed care"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 88,
+      "question": "In the START Triage System, a BLACK Tag indicates a patient who is: ក្នុងប្រព័ន្ធ START Triage ស្លាកពណ៌ខ្មៅ (BLACK) បង្ហាញពីអ្នកជំងឺដែល៖",
+      "options": [
+        "Immediate priority for surgery",
+        "Deceased or with injuries so severe that survival is impossible / ស្លាប់បាត់បង់ជីវិត ឬរបួសធ្ងន់ធ្ងរខ្លាំងពេកមិនអាចស",
+        "Minor walking wounded",
+        "Delayed treatment candidate"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 89,
+      "question": "In triage allocation during extreme resource scarcity, prioritization is guided primarily by which ethical principle? ក្នុងការបែងចែកធនធានពេលមានការខ្វះខាតខ្លាំង (Triage) ការកំណត់អាទិភាពត្រូវដឹកនាំជាចម្បងដោយគោលការណ៍៖",
+      "options": [
+        "Autonomy",
+        "Justice and Distributive Utility / យុត្តិធម៌ និងការបែងចែកផលប្រយោជន៍រួម",
+        "Hard Paternalism",
+        "Commercial value"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 90,
+      "question": "When a competent, terminally ill patient signs an Advanced Directive (លិខិតបណ្តាំសុខភាពទុកជាមុន) requesting no mechanical ventilation, respecting this document upholds: នៅពេលអ្នកជំងឺដំណាក់កាលចុងក្រោយដែល ចុះហត្ថលេខាលើ Advanced Directive បដិសេធការប្រើម៉ាស៊ីនដកដង្ហើម ការគោរពលិខិតនេះលើកកម្ពស់៖",
+      "options": [
+        "Patient Autonomy / ស្វ័យភាពរបស់អ្នកជំងឺ",
+        "Hard Paternalism",
+        "Fee-splitting",
+        "Article 21 of Sub-Decree 61"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 91,
+      "question": "A doctor is asked by a close friend to issue a 3-day sick leave certificate (វិញ្ញាបនបត្រឈប់សម្រាក) without conducting a physical examination. What is the ethical evaluation? មិត្តភ័ក្តិម្នាក់សុំឱ្យគ្រូពេទ្យចេញវិញ្ញាបនបត្រឈប់ស ៣ ថ្ងៃដោយមិនបានពិនិត្យជំងឺ។ តើការវាយតម្លៃសីលធម៌គឺ៖",
+      "options": [
+        "Acceptable as professional peer support",
+        "Prohibited under Article 26 of Sub-Decree 61 (Fake/Biased Certificates) / ត្រូវហាមឃាត់តាមមាត្រា ២៦ នៃអនុក្រឹត្យលេខ ៦១ (វិញ្ញាបនបត្របន្លំ)",
+        "Allowed if the friend promises to rest",
+        "A standard medical consultation"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 92,
+      "question": "A doctor receives a 15% financial commission from a private pharmacy for every patient referred there. Which legal articles and ethics are violated? គ្រូពេទ្យទទួលបានភាគរយ ១៥% ពីឱសថស្ថានឯកជនរាល់ពេលបញ្ជូនអ្នកជំងឺ តើវាបំពានលើមាត្រា និងសីលធម៌អ្វី?",
+      "options": [
+        "Articles 21 and 22 (Fee-splitting & Collusion) and Conflict of Interest / មាត្រា ២១ និង ២២ (ការបែងចែកភាគរយ និងការរួមគំនិត) និងជម្លោះផលប្រយោជន៍",
+        "Article 11 (Continuous Medical Education)",
+        "Article 9 (Emergency Care Duty)",
+        "Patient Autonomy only"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 93,
+      "question": "A physician encounters a traffic accident victim bleeding profusely on the road off-duty. Stopping to render emergency first aid fulfills: គ្រូពេទ្យប្រទះឃើញជនរងគ្រោះថ្នាក់ចរាចរណ៍ហូរឈាមខ្លាំងតាមផ្លូវក្រៅម៉ោងធ្វើការ។ ការឈប់ជួយសង្គ្រោះបន្ទាន់បំពេញ៖",
+      "options": [
+        "Article 9 (Emergency Duty) and Beneficence / មាត្រា ៩ (កាតព្វកិច្ចសង្គ្រោះបន្ទាន់) និង Beneficence",
+        "Article 18 (Commercial Enterprise prohibition)",
+        "Article 25 (Elected public official rule)",
+        "Hard Paternalism"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 94,
+      "question": "A son asks a doctor NOT to disclose a probable Alzheimer's diagnosis to his 68-year-old father, claiming it will cause severe depression. The father is competent and asks the doctor directly for his diagnosis. What should the doctor do? កូនប្រុសសុំពេទ្យមិនឱ្យប្រាប់រោគវិនិច្ឆ័យ Alzheimer ដល់ឪពុកអាយុ ៦៨ ឆ្នាំ ព្រោះខ្លាចគាត់បាក់ទឹកចិត្ត។ ប៉ុន្តែឪពុកមានស្មារតីគ្រប់គ្រាន់ ហើយសួរពេទ្យដោយផ្ទាល់។ តើពេទ្យគួរធ្វើអ្វី?",
+      "options": [
+        "Lie to the father to satisfy the son",
+        "Gently and truthfully inform the father while providing emotional support, respecting his autonomy / ពន្យល់ការពិតទៅឪពុកដោយទន់ភ្លន់ និងផ្តល់ការគាំទ្រ តាមការគោរពស្វ័យភាព",
+        "Immediately discharge the patient without speaking",
+        "Report the son to the police"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 95,
+      "question": "A patient with severe viral flu demands a prescription for intravenous antibiotics. Antibiotics do not treat viral flu and carry allergy risks. The doctor refuses. Which principles justify the refusal? អ្នកជំងឺផ្តាសាយវីរុសទាមទារចាក់ថ្នាំស (Antibiotics)។ ថ្នាំសមិនសម្លាប់វីរុសទេ ហើយមានហានិភ័យអាលែហ្ស៊ី។ ពេទ្យបដិសេធ។ តើគោលការណ៍ណាគាំទ្រការបដិសេធនេះ?",
+      "options": [
+        "Non-maleficence, Beneficence, and Prescriptive Independence (Article 8) / Non-maleficence, Beneficence និងឥស្សរភាពចេញវេជ្ជបញ្ជា (មាត្រា ៨)",
+        "Violation of Patient Autonomy",
+        "Article 21 (Fee splitting)",
+        "Hard Paternalism"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 96,
+      "question": "A doctor posts a video on Facebook examining a poor patient inside a pharmacy without obtaining the patient's consent, promoting a liver supplement. Which violations occurred? គ្រូពេទ្យថតវីដេអូពិនិត្យអ្នកជំងឺក្រីក្រក FB ដោយមិនសុំការអនុញ្ញាត ដើម្បីផ្សាយអាហារបំប៉នថ្លើម។ តើមានការរំលោភលើអ្វីខ្លះ?",
+      "options": [
+        "Confidentiality, Consent, Articles 13, 18, 19, and 23 of Sub-Decree 61 / ការសម្ងាត់, ការយល់ព្រម, និងមាត្រា ១៣, ១៨, ១៩, និង ២៣ នៃអនុក្រឹត្យលេខ ៦១",
+        "Excellent patient care practice",
+        "Article 11 CME requirement",
+        "START Triage rules"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 97,
+      "question": "An adult patient with full decision-making capacity refuses a recommended blood transfusion after receiving full disclosure of benefits and fatal risks. The doctor forces the transfusion anyway. What did the doctor commit? អ្នកជំងឺពេញវ័យមានស្មារតីគ្រប់គ្រាន់ បដិសេធការបញ្ចូលឈាមបន្ទាប់ពីស្តាប់ការប្រាប់ព័ត៌មានរួច។ គ្រូពេទ្យនៅតែបង្ខំបញ្ចូលឈាម។ តើគ្រូពេទ្យប្រព្រឹត្តអ្វី?",
+      "options": [
+        "Ethical practice of Soft Paternalism",
+        "Violation of Patient Autonomy and illegal Battery / ការរំលោភលើស្វ័យភាពរបស់អ្នកជំងឺ និងការរំលោភបំពាន",
+        "Article 9 Emergency compliance",
+        "Proper Shared Decision-Making"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 98,
+      "question": "Discussing a specific identifiable patient case in a public restaurant with colleagues, even without mentioning the patient's name, violates: ការពិភាក្សាករណីអ្នកជំងឺក្នុងភោជនីយដ្ឋានសាធារណៈជាមួយសហសេវិក ទោះបីមិនបញ្ចេញឈ្មោះ ប៉ុន្តែអាចស្គាល់អត្តសញ្ញាណបាន គឺជាការរំលោភលើ៖",
+      "options": [
+        "Professional Secrecy / Confidentiality (Article 4) / ការរក្សាការណ៍សម្ងាត់វិជ្ជាជីវៈ (មាត្រា ៤)",
+        "Article 21 Fee splitting",
+        "START Triage",
+        "Article 11 CME"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 99,
+      "question": "A doctor holding an elected political office uses their public title to advertise their private clinic and attract clients. This violates: គ្រូពេទ្យដែលមានតួនាទីនយោបាយបោះឆ្នោត ប្រើប្រាស់តួនាទីសាធារណៈរបស់ខ្លួនដើម្បីផ្សព្វផ្សាយគ្លីនិកឯ និងទាក់ទាញអតិថិជន។ នេះបំពានលើ៖",
+      "options": [
+        "Article 25 of Sub-Decree No. 61 / មាត្រា ២៥ នៃអនុក្រឹត្យលេខ ៦១",
+        "Article 9 Emergency duty",
+        "Non-maleficence",
+        "Medical futility rules"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 100,
+      "question": "A terminally ill cancer patient in excruciating pain requests palliative pain management. The doctor provides adequate pain relief despite potential mild drowsiness side effects. This action primary aligns with: អ្នកជំងឺមហារីកដំណាក់កាលចុងក្រោយដែលមានការឈឺចាប់ខ្លាំង សុំការព្យាបាលសម្រាលការឈឺចាប់ (Palliative Care)។ គ្រូពេទ្យផ្តល់ថ្នាំបាត់ការឈឺចាប់សមស្រប។ សកម្មភាពនេះស្របតាម៖",
+      "options": [
+        "Beneficence and Palliative Ethics / Beneficence និងសីលធម៌នៃការថែទាំសម្រាល",
+        "Article 26 Fake certificates",
+        "Hard Paternalism",
+        "Article 21 Fee splitting"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 101,
+      "question": "According to the Cruess et al. framework, medical professionalism is defined as the combination of which two core dual roles of a physician?\nយោងតាមក្របខ័ណ្ឌ Cruess et al. ភាពជាអ្នកមានវិជ្ជាជីវៈវេជ្ជសាស្ត្រ ត្រូវបានកំណត់ថាជាការរួមផ្សំគ្នានៃតួនាទីពីរគ្រឹះអ្វីខ្លះរបស់គ្រូពេទ្យ?",
+      "options": [
+        "Businessman and Scientist / ពាណិជ្ជករ និងអ្នកវិទ្យាសាស្ត្រ",
+        "Healer and Professional / អ្នកព្យាបាល (Healer) និងអ្នកប្រកបវិជ្ជាជីវៈ (Professional)",
+        "Administrator and Politician / អ្នកគ្រប់គ្រង និងអ្នកនយោបាយ",
+        "Researcher and Educator only / អ្នកស្រាវជ្រាវ និងអ្នកអប់រំតែប៉ុណ្ណោះ"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 102,
+      "question": "Which attribute belongs specifically to the domain of the **Healer** (*អ្នកព្យាបាល*)?\nតើគុណលក្ខណៈមួយណាដែលស្ថិតនៅក្នុងដែនរបស់ **អ្នកព្យាបាល (Healer)** ដោយឡែក?",
+      "options": [
+        "Self-regulation / ការគ្រប់គ្រង និងវិន័យខ្លួនឯង",
+        "Caring and Compassion / ការយកចិត្តទុកដាក់ និងក្តីមេត្តាករុណា",
+        "Responsibility to society / ទំនួលខុសត្រូវចំពោះសង្គម",
+        "Institutional autonomy / ស្វ័យភាពស្ថាប័ន"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 103,
+      "question": "Which attribute belongs specifically to the domain of the **Professional** (*អ្នកប្រកបវិជ្ជាជីវៈ *)?\nតើគុណលក្ខណៈមួយណាដែលស្ថិតនៅក្នុងដែនរបស់ **អ្នកប្រកបវិជ្ជាជីវៈ (Professional)** ដោយឡែក?",
+      "options": [
+        "Insight and self-awareness / ការយល់ដឹងស៊ីជម្រៅ និងការដឹងខ្លួនឯង",
+        "Presence and accompanying / ការមានវត្តមាន និងការអមដំណើរអ្នកជំងឺ",
+        "Self-regulation and accountability / ការមានវិន័យខ្លួនឯង និងគណនេយ្យភាព",
+        "Respect for healing function / ការគោរពចំពោះមុខងារព្យាបាល"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 104,
+      "question": "Which set of attributes is **shared** (*រួមគ្នា*) by both the Healer and the Professional?\nតើក្រុមគុណលក្ខណៈមួយណាដែលជាគុណលក្ខណៈ **រួមគ្នា** ទាំងរបស់អ្នកព្យាបាល និងអ្នកប្រកបវិជ្ជាជីវៈ?",
+      "options": [
+        "Competence, Altruism, Integrity, Confidentiality, and Trustworthiness / សមត្ថភាព, លះបង់ដើម្បីអ្នកដទៃ, សុចរិតភាព, ការសម្ងាត់, និងភាពទុកចិត្តបាន",
+        "Commercial profit, Advertising, and Fee-splitting",
+        "Political campaign leadership and Public administration",
+        "Monopolistic pricing and Paternalistic control"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 105,
+      "question": "How is **Insight** (*การយល់ដឹងស៊ីជម្រៅ*) defined in the context of the Healer role?\nតើ «ការយល់ដឹងស៊ីជម្រៅ (Insight)» ត្រូវបានកំណត់និយមន័យដូចម្តេចក្នុងតួនាទីជាអ្នកព្យាបាល?",
+      "options": [
+        "Financial accounting skills",
+        "Self-awareness; the ability to recognize and understand patient and clinician actions, motivations, and emotions / ការដឹងខ្លួនឯង និងសមត្ថភាពយល់ពីសកម្មភាព និងអារម្មណ៍របស់អ្នកជំងឺ និងខ្លួនឯង",
+        "Ability to perform complex surgical cuts quickly",
+        "Memorizing medical formulas"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 106,
+      "question": "The attribute **Presence** (*វត្តមាន*) in the Healer role refers to:\nគុណលក្ខណៈ «វត្តមាន (Presence)» ក្នុងតួនាទីជាអ្នកព្យាបាល សំដៅលើ៖",
+      "options": [
+        "Being physically present in the hospital clinic for 24 hours continuously",
+        "Being fully present for a patient without distraction and accompanying them throughout care / ការមានវត្តមានយ៉ាងពេញលេញសម្រាប់អ្នកជំងឺដោយគ្មានការរំខាន និងអមដំណើរពេញមួយការព្យាបាល",
+        "Having a strong social media presence",
+        "Sitting in administrative board meetings"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 107,
+      "question": "What is the definition of **Altruism** (*អវត្មានិយម/ការលះបង់ដើម្បីអ្នកដទៃ*) in medical professionalism?\nតើអ្វីជា \"Altruism\" នៅក្នុងភាពជាអ្នកមានវិជ្ជាជីវៈវេជ្ជសាស្ត្រ?",
+      "options": [
+        "Maximizing financial return on medical investments",
+        "Placing the patient's welfare and medical needs above one's self-interest / ការតម្កល់សុខុមាលភាព និងតម្រូវការរបស់អ្នកជំងឺខ្ពស់ជាងផលប្រយោជន៍ផ្ទាល់ខ្លួន",
+        "Following only written government decrees",
+        "Accepting all gifts from pharmaceutical suppliers"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 108,
+      "question": "The attribute **Self-regulation** (*ការគ្រប់គ្រង និងវិន័យខ្លួនឯង*) grants the medical profession the privilege of:\nគុណលក្ខណៈ «Self-regulation» ផ្តល់អភ័យឯកសិទ្ធិដល់វិជ្ជាជីវៈវេជ្ជសាស្ត្រក្នុងការ៖",
+      "options": [
+        "Setting professional standards and being accountable for one's practice and colleagues' conduct / ការកំណត់ស្តង់ដារវិជ្ជាជីវៈ និងការទទួលខុសត្រូវចំពោះអាកប្បកិរិយារបស់ខ្លួន និងសហសេវិក",
+        "Charging fees without state oversight",
+        "Ignoring national patient safety laws",
+        "Practicing medicine without a university degree"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 109,
+      "question": "Which term describes the unselfish devotion to the welfare of others, placing patient needs first?\nតើពាក្យមួយណាដែលពិពណ៌នាអំពីការលះបង់ដោយឥតអត្មានិយមដើម្បីសុខុមាលភាពអ្នកដទៃ?",
+      "options": [
+        "Paternalism",
+        "Altruism / អវត្មានិយម (Altruism)",
+        "Commercialism",
+        "Egoism"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 110,
+      "question": "Why must a modern physician embody both roles (Healer + Professional)?\nហេតុអ្វីបានជាគ្រូពេទ្យសម័យទំនើបត្រូវតែមានតួនាទីទាំងពីរ (Healer + Professional)?",
+      "options": [
+        "To increase surgical speed only",
+        "Because scientific curing without compassionate caring is incomplete, and caring without competence is unsafe / ព្រោះការរព្យាបាលតាមវិទ្យាសាស្ត្រដោយគ្មានចិត្តមេត្តាគឺមិនគ្រប់ជ្រុងជ្រោយ ហើយចិត្តមេត្តាដោយខ្វះសមត្ថ",
+        "To satisfy private insurance requirements only",
+        "To avoid taking national medical licensing exams"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 111,
+      "question": "In the history of medical professionalism, when did formal legislation for state medical licensing begin to emerge globally?\nនៅក្នុងប្រវត្តិសាស្ត្រវិជ្ជាជីវៈវេជ្ជសាស្ត្រ តើច្បាប់ផ្លូវការសម្រាប់ការផ្តល់អាជ្ញាបណ្ណប្រកបវិជ្ជាជីវៈចាប់ផ្តើមលេចឡើងនៅពេលណា?",
+      "options": [
+        "Antiquity (Ancient Greece)",
+        "Middle Ages (1200s)",
+        "Mid-19th Century (~ 1850) / ពាក់កណ្តាលសតវត្សទី ១៩ (~)",
+        "Late 20th Century (1990)"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 112,
+      "question": "In the Middle Ages, medicine was categorized alongside theology and law as one of the:\nក្នុងយុគសម័យកណ្តាល វេជ្ជសាស្ត្រត្រូវបានចាត់ថ្នាក់រួមជាមួយសាសនា និងច្បាប់ជា៖",
+      "options": [
+        "Commercial trade guilds",
+        "\"Learned Professions\" / «វិជ្ជាជីវៈជឿនលឿន/រៀនសូត្រខ្ពង់ខ្ពស់»",
+        "Political lobbying groups",
+        "Military rank systems"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 113,
+      "question": "The **Social Contract** (*កិច្ចសន្យាសង្គម*) in medicine is an implicit agreement between the medical profession and:\n«កិច្ចសន្យាសង្គម» ក្នុងវិស័យវេជ្ជសាស្ត្រ គឺជាកិច្ចសន្យាមិនចែងជាលាយលក្ខណ៍អក្សររវាងវិជ្ជាជីវៈវេជ្ជសាស្ត្រ និង៖",
+      "options": [
+        "Pharmaceutical manufacturers",
+        "Society / សង្គម",
+        "Private banking institutions",
+        "Local police departments"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 114,
+      "question": "Under the Social Contract, what does **Society grant** to the medical profession?\nក្រោម «កិច្ចសន្យាសង្គម» តើ **សង្គមផ្តល់អ្វីខ្លះ** ដល់វិជ្ជាជីវៈវេជ្ជសាស្ត្រ?",
+      "options": [
+        "Tax exemption and free land",
+        "Monopoly over specialized knowledge, professional autonomy, and self-regulation privilege / សិទ្ធិផ្តាច់មុខលើចំណេះដឹងឯកទេស, ស្វ័យភាពវិជ្ជាជីវៈ, និងអភ័យឯកសិទ្ធិរៀបចំវិន័យខ្លួនឯង",
+        "Guaranteed political seats in parliament",
+        "Uncontrolled pricing power"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 115,
+      "question": "In return for the privileges granted by society, what does the medical profession **promise to Society**?\nជាការឆ្លើយតបទៅនឹងអភ័យឯកសិទ្ធិដែលសង្គមផ្តល់ឱ្យ តើវិជ្ជាជីវៈវេជ្ជសាស្ត្រ **សន្យាអ្វីខ្លះចំពោះសង្គម**?",
+      "options": [
+        "Maximum financial profit and clinic expansion",
+        "Competence, integrity, morality, altruism, and accountability for public good / សមត្ថភាព, សុចរិតភាព, សីលធម៌, អវត្មានិយម, និងគណនេយ្យភាពដើម្បីផលប្រយោជន៍សាធារណៈ",
+        "Discounted care for healthcare workers only",
+        "Unquestioned authority over all treatment choices"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 116,
+      "question": "When physicians engage in financial fraud, fee-splitting, or false advertising, how does it affect the Social Contract?\nនៅពេលគ្រូពេទ្យប្រព្រឹត្តអំពើពុករលួយហិរញ្ញវត្ថុ ការបែងចែកភាគរយ ឬការផ្សាយពាណិជ្ជកម្មភូតភរ តើវាប៉ះពាល់ដល់កិច្ចសន្យាសង្គមយ៉ាងដូចម្តេ",
+      "options": [
+        "Strengthens public trust",
+        "Breaches the Social Contract and erodes public trust / រំលោភលើកិច្ចសន្យាសង្គម និងបាត់បង់ទំនុកចិត្តសាធារណជន",
+        "Increases institutional autonomy",
+        "Has no effect on society"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 117,
+      "question": "The shift in modern medicine from traditional paternalism toward **Patient-Centered Care** emphasizes:\nការផ្លាស់ប្តូរក្នុងវេជ្ជសាស្ត្រទំនើបពីបិតុភាពនិយមបុរាណ ទៅជា «ការថែទាំដែលយកអ្នកជំងឺជាកណ្តាល» ផ្តោតសំខាន់លើ៖",
+      "options": [
+        "Absolute doctor authority",
+        "Patient Autonomy and shared decision-making / ស្វ័យភាពរបស់អ្នកជំងឺ និងការសម្រេចចិត្តរួមគ្នា",
+        "Reducing consultation times",
+        "Increasing hospital stay fees"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 118,
+      "question": "What is the core rationale for mandatory **Continuing Professional Development (CPD)** in medicine?\nតើអ្វីជាហេតុផលគ្រឹះសម្រាប់ «ការអភិវឌ្ឍវិជ្ជាជីវៈបន្តជានិរន្តរ៍ (CPD)» ក្នុងវិស័យវេជ្ជសាស្ត្រ?",
+      "options": [
+        "Fulfilling administrative paperwork only",
+        "Maintaining clinical competence and quality of patient care throughout one's career / ការរក្សាសមត្ថភាពគ្លីនិក និងគុណភាពនៃការថែទាំអ្នកជំងឺពេញមួយជីវិតវិជ្ជាជីវៈ",
+        "Increasing hospital popularity",
+        "Competing with private pharmacies"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 119,
+      "question": "When were the *Operational Guidelines for Clients' Rights and Providers' Rights-Duties* officially delivered by the Ministry of Health of Cambodia?\nតើ «គោលការណ៍ណែនាំប្រតិបត្តិស្តីពីសិទ្ធិអតិថិជន និងសិទ្ធិ-កាតព្វកិច្ចអ្នកផ្តល់សេវា» ត្រូវបានប្រកាសជាផ្លូវការដោយក្រសួងសុខាភិបាលកម្ពុជាធ",
+      "options": [
+        "1993",
+        "2003",
+        "2007",
+        "2016"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 120,
+      "question": "How many specific outpatient rights are explicitly highlighted in the MoH 2007 Operational Guidelines?\nតើមានសិទ្ធិជាក់លាក់សម្រាប់អ្នកជំងឺក្រៅ (Outpatient Rights) ចំនួនប៉ុន្មាន ដែលត្រូវបានគូសរំលេចក្នុងគោលការណ៍ណែនាំឆ្នាំ ២០០៧?",
+      "options": [
+        "4",
+        "6",
+        "8",
+        "12"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 121,
+      "question": "**Client Right 1 (Right to Equality)** mandates that patients should receive care without discrimination and be supported by fair systems such as:\n*សិទ្ធិអតិថិជនទី ១ (Right to Equality - សិទ្ធិទទួលបានសមភាព)** តម្រូវឱ្យអ្នកជំងឺទទួលបានសេវាដោយគ្មានការរើសអើង និងគាំទ្រដោយប្រព័ន្ធយុត្តិធម៌ ដូចជា៖",
+      "options": [
+        "VIP priority for wealthy individuals only",
+        "A fair queue/triage management system / ប្រព័ន្ធតម្រង់ជួរ/គ្រប់គ្រងអាទិភាពប្រកបដោយយុត្តិធម៌",
+        "Higher fees for complex ethnic groups",
+        "First-come, highest-payer first"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 122,
+      "question": "**Client Right 2 (Right to Access Information)** includes the patient's right to be fully informed about:\n*សិទ្ធិអតិថិជនទី ២ (Right to Access Information - សិទ្ធិទទួលបានព័ត៌មាន)** រាប់បញ្ចូលទាំងសិទ្ធិរបស់អ្នកជំងឺក្នុងការដឹងពេញលេញអំ",
+      "options": [
+        "The doctor's personal bank account balance",
+        "Health status, diagnosis, risks, benefits, and treatment alternatives / ស្ថានភាពសុខភាព រោគវិនិច្ឆ័យ ហានិភ័យ ផលប្រយោជន៍ និងជម្រើសព្យាបាល",
+        "Internal hospital staff salaries",
+        "Pharmaceutical factory production costs"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 123,
+      "question": "**Client Right 3 (Right to be Respected for Culture and Values)** allows patients to refuse medical interventions that conflict with their:\n*សិទ្ធិអតិថិជនទី ៣ (Right to be Respected for Culture and Values)** អនុញ្ញាតឱ្យអ្នកជំងឺបដិសេធការថែទាំដែលជល់នឹង៖",
+      "options": [
+        "Financial budget only",
+        "Personal beliefs or cultural values / ជំនឿផ្ទាល់ខ្លួន ឬតម្លៃវប្បធម៌របស់ពួកគាត់",
+        "Hospital operating hours",
+        "National public health laws"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 124,
+      "question": "**Client Right 5 (Right to Privacy)** specifically protects the patient's right to:\n*សិទ្ធិអតិថិជនទី ៥ (Right to Privacy - សិទ្ធិទទួលបានភាពឯកជន)** ការពារជាពិសេសលើ៖",
+      "options": [
+        "Free medication supplies",
+        "Physical privacy during medical examinations and procedures / ភាពឯកជនផ្នែករាងកាយអំឡុងពេលពិនិត្យ និងធ្វើនីតិវិធី",
+        "Refusing all hospital rules",
+        "Demanding private transport"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 125,
+      "question": "**Client Right 6 (Right to Choose and Change Physicians)** gives patients the freedom to:\n*សិទ្ធិអតិថិជនទី ៦ (Right to Choose and Change Physicians)** ផ្តល់សេរីភាពដល់អ្នកជំងឺក្នុងការ៖",
+      "options": [
+        "Demand doctors work without pay",
+        "Request a specific doctor or seek a second opinion / ស្វែងរកគ្រូពេទ្យជាក់លាក់ ឬសុំមតិពិគ្រោះទីពីរ (Second Opinion)",
+        "Dictate hospital administrative budgets",
+        "Perform their own surgery"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 126,
+      "question": "**Client Right 7 (Right to Refuse Intervention)** gives a competent patient the absolute right to:\n*សិទ្ធិអតិថិជនទី ៧ (Right to Refuse Intervention - សិទ្ធិបដិសេធអន្តរាគមន៍)** ផ្តល់សិទ្ធិដាច់ខាតដល់អ្នកជំងឺដែលមានស្មារតីគ្រប់គ្រាន",
+      "options": [
+        "Refuse any treatment or procedure they deem unwanted or unnecessary / បដិសេធការព្យាបាល ឬនីតិវិធីណាដែលពួកគាត់មិនចង់បាន ឬយល់ថាជារឿងមិនចាំបាច់",
+        "Leave the hospital without settling genuine bills",
+        "Force doctors to prescribe illegal narcotics",
+        "Demand unproven experimental remedies"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 127,
+      "question": "**Client Right 8 (Right to Express Opinion)** empowers patients to:\n*សិទ្ធិអតិថិជនទី ៨ (Right to Express Opinion - សិទ្ធិបញ្ចេញមតិ)** ផ្តល់អំណាចដល់អ្នកជំងឺក្នុងការ៖",
+      "options": [
+        "Publicly slander hospital staff without evidence",
+        "Offer feedback, constructive complaints, or suggestions regarding health services / ផ្តល់មតិកែលម្អ បណ្ដឹងតវ៉ាស្ថាបនា ឬអនុសាសន៍ទាក់ទងនឹងសេវាសុខាភិបាល",
+        "Sue the hospital automatically",
+        "Refuse following sanitary rules"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 128,
+      "question": "According to the study by Ban et al. (2020) on Clients' Rights at Khmer-Soviet Friendship Hospital, what is the key \"Hierarchy-of-Effects\" chain?\nយោងតាមការសិក្សារបស់ Ban et al. (២០២០) តើចង្វាក់សមត្ថភាព «Hierarchy-of-Effects» មានទម្រង់យ៉ាងដូចម្តេច?",
+      "options": [
+        "Action → Ignorance Complaint",
+        "Awareness → Understanding → Intention to Act→ Performance / ការយល់ដឹង → ការជ្រួតជ្រាប → បំណងប្រាថ្នាធ្វើ → ការអនុវត្តជាក់ស្តែង",
+        "Payment → Treatment → Discharge",
+        "Law Penalty Compliance"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 129,
+      "question": "What are the 5 essential elements required for a valid **Informed Consent** process?\nតើធាតុផ្សំគ្រឹះទាំង ៥ យ៉ាងណាខ្លះដែលតម្រូវឱ្យមានសម្រាប់ដំណើរការ **Informed Consent** ត្រឹមត្រូវ?",
+      "options": [
+        "Money, Contract, Signature, Hospital stamp, Police approval",
+        "Capacity, Disclosure, Understanding, Voluntariness, Decision/Consent / សមត្ថភាពស្មារតី, ការប្រាប់ព័ត៌មាន, ការយល់ដឹង, ភាពស្ម័គ្រចិត្ត, ការសម្រេចចិត្ត",
+        "Age, Gender, Nationality, Address, Income",
+        "Diagnosis, Surgery, Anesthesia, Recovery, Discharge"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 130,
+      "question": "If an adult patient with full decision-making capacity refuses a recommended procedure after receiving complete risk disclosure, this action is termed:\nបើអ្នកជំងឺពេញវ័យដែលមានស្មារតីគ្រប់គ្រាន់ បដិសេធនីតិវិធីដែលពេទ្យណែនាំ បន្ទាប់ពីបានស្តាប់ការប្រាប់ព័ត៌មានរួចរាល់ តើសកម្មភាពនេះហៅច",
+      "options": [
+        "Malpractice",
+        "Informed Refusal / ការបដិសេធបន្ទាប់ពីទទួលបានព័ត៌មាន (Informed Refusal)",
+        "Unjustified disobedience",
+        "Medical Futility"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 131,
+      "question": "Is obtaining a signed consent form on paper sufficient to fulfill the ethical requirement of Informed Consent?\nតើការទទួលបានស្នាមមេដៃ/ហត្ថលេខាលើលិខិតយល់ព្រម គ្រប់គ្រាន់ក្នុងការបំពេញលក្ខខណ្ឌសីលធម៌នៃ Informed Consent ដែរឬទេ?",
+      "options": [
+        "Yes, a signed paper is 100% legally and ethically sufficient",
+        "No, informed consent is a meaningful communication process, not merely a signature / IS ការយល់ព្រមគឺជាដំណើរការប្រាស្រ័យទាក់ទងមានន័យ មិនមែនត្រឹមតែជាហត្ថលេខានោះទេ",
+        "Yes, provided the hospital director signs as witness",
+        "No, unless notarized by a court judge"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 132,
+      "question": "Under what circumstance can the Informed Consent requirement be ethically and legally bypassed for an adult patient?\nតើក្នុងស្ថានភាពណាដែលការសុំ Informed Consent អាចត្រូវបានរំលងដោយស្របច្បាប់ និងសីលធម៌ចំពោះអ្នកជំងឺពេញវ័យ?",
+      "options": [
+        "When the doctor is too busy to explain",
+        "Unconscious patient with an immediate life-threatening emergency and no surrogate available / អ្នកជំងឺបាត់បង់ស្មារតី ក្នុងស្ថានភាពអាសន្នសង្គ្រោះជីវិត ហើយគ្មានអាណាព្យាបាល",
+        "When the patient does not speak the doctor's primary language",
+        "When the patient is poor"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 133,
+      "question": "For a pediatric patient (child) requiring non-emergency elective surgery, who must provide the legal consent?\nសម្រាប់អ្នកជំងឺកុមារដែលត្រូវធ្វើការវះកាត់ជ្រើសរើស (មិនបន្ទាន់) តើអ្នកណាជាអ្នកផ្តល់ការយល់ព្រមតាមច្បាប់?",
+      "options": [
+        "The child alone",
+        "Parents or legal guardians (*មាតាបិតា ឬអាណាព្យាបាល*)",
+        "The school principal",
+        "The primary nurse"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 134,
+      "question": "What is **Shared Decision-Making (SDM)** in modern patient care?\nតើ «Shared Decision-Making (SDM)» ក្នុងការថែទាំអ្នកជំងឺទំនើបសំដៅលើអ្វី?",
+      "options": [
+        "The doctor deciding everything independently",
+        "A collaborative process where clinician and patient make healthcare choices together based on clinical evidence and patient values / ដំណើរការរួមគ្នាដែលពេទ្យ និងអ្នកជំងឺសម្រេចចិត្តជាមួយគ្នា ផ្អែកលើភស្តុតាង និងតម្លៃរបស់អ្នកជំងឺ",
+        "Allowing the patient's neighbors to vote on treatment",
+        "Letting the hospital board vote on surgical plans"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 135,
+      "question": "When a patient expresses fear regarding a procedure's side effects, what is the doctor's primary ethical duty?\nនៅពេលអ្នកជំងឺបង្ហាញការភ័យខ្លាចចំពោះផលប៉ះពាល់នៃនីតិវិធី តើកាតព្វកិច្ចសីលធម៌ចម្បងរបស់ពេទ្យគឺអ្វី?",
+      "options": [
+        "Ignore the fear and proceed quickly",
+        "Listen attentively, address concerns transparently, clarify risks/benefits, and respect the patient's decision / ស្តាប់ដោយយកចិត្តទុកដាក់ ពន្យល់ដោយតម្លាភាព និងគោរពការសម្រេចចិត្តរបស់អ្នកជំងឺ",
+        "Discharge the patient immediately",
+        "Threaten the patient with legal action"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 136,
+      "question": "Which principle prohibits physicians from coercing or deceiving patients into accepting treatment?\nតើគោលការណ៍ណាដែលហាមឃាត់គ្រូពេទ្យមិនឱ្យបង្ខិតបង្ខំ ឬបោកប្រាស់អ្នកជំងឺឱ្យទទួលយកការព្យាបាល?",
+      "options": [
+        "Patient Autonomy and Integrity / ស្វ័យភាពរបស់អ្នកជំងឺ និងសុចរិតភាព",
+        "Hard Paternalism",
+        "Commercial flexibility",
+        "Administrative authority"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 137,
+      "question": "What is the core definition of **Paternalism** in biomedical ethics?\nតើអ្វីជាអត្ថន័យគ្រឹះនៃ «បិតុភាពនិយម (Paternalism)» ក្នុងជីវសីលធម៌?",
+      "options": [
+        "Treating every patient as a biological family relative",
+        "Intentionally overriding a person's known preferences or actions for their perceived good / ការរំលងលើការសម្រេចចិត្តរបស់អ្នកជំងឺដោយចេតនា ដើម្បីផលប្រយោជន៍ដែលពេទ្យយល់ថាជារឿងល្អ",
+        "Allowing patients to manage hospital administration",
+        "Requiring fatherly signatures for all medical bills"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 138,
+      "question": "**Soft Paternalism** (*បិតុភាពនិយមបែបស្រាល*) is ethically justifiable when an intervention protects a patient who:\n*Soft Paternalism** អាចទទួលយកបានតាមផ្លូវសីលធម៌ នៅពេលដែលការជ្រៀតជ្រែកធ្វើឡើងដើម្បីការពារអ្នកជំងឺដែល៖",
+      "options": [
+        "Is fully competent, voluntary, and well-informed",
+        "Lacks substantial decision-making autonomy (e.g., severe psychosis, extreme intoxication, or severe delirium) / ខ្វះសមត្ថភាពស្វ័យភាពក្នុងការសម្រេចចិត្ត (ឧ. វង្វេង, ស្រវឹងខ្លាំង, ជំងឺវិកលចរិត)",
+        "Refuses a minor blood draw calmly",
+        "Asks for a second medical opinion"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 139,
+      "question": "Overriding the informed, voluntary, and autonomous choice of a **fully capable adult** is defined as:\nការរំលោភលើការសម្រេចចិត្តដែលដឹងខ្លួន ស្ម័គ្រចិត្ត និងមានស្វ័យភាពរបស់ **មនុស្សពេញវ័យដែលមានសមត្ថភាពគ្រប់គ្រាន់** ហៅថា៖",
+      "options": [
+        "Soft Paternalism",
+        "Hard Paternalism / បិតុភាពនិយមបែបតឹងរ៉ឹង (Hard Paternalism)",
+        "Shared decision-making",
+        "Palliative care"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 140,
+      "question": "**Passive Paternalism** (*បិតុភាពនិយមអកម្ម*) occurs when a clinician:\n*Passive Paternalism** កើតឡើងនៅពេលដែលគ្រូពេទ្យ៖",
+      "options": [
+        "Forces a competent patient into surgery against their will",
+        "Refuses to perform a patient-requested procedure because it is medically futile or harmful / បដិសេធមិនធ្វើនីតិវិធីដែលអ្នកជំងឺស្នើសុំ ដោយសារវា គ្មានប្រយោជន៍គ្លីនិក ឬបង្កគ្រោះថ្នាក់",
+        "Agreeably performs every non-beneficial request",
+        "Abandons the hospital shift unannounced"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 141,
+      "question": "When a doctor exercises **Conscientious Refusal** (*ការបដិសេធតាមមនសិការ*) regarding a moral/religious conflict, what is their mandatory duty?\nនៅពេលគ្រូពេទ្យប្រើ «Conscientious Refusal» ដោយសារទំនាស់មនសិការ/សាសនា តើកាតព្វកិច្ចដាច់ខាតរបស់គ្រូពេទ្យគឺអ្វី?",
+      "options": [
+        "Abandon the patient immediately without notice",
+        "Provide advance notice, unbiased information, and a timely referral to another qualified provider / ជូនដំណឹងមុន, ផ្តល់ព័ត៌មានមិនលម្អៀង, និងបញ្ជូនបន្តទៅគ្រូពេទ្យផ្សេងទាន់ពេលវេលា",
+        "Publicly lecture the patient on moral behavior",
+        "Charge a refusal penalty fee"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 142,
+      "question": "In the **START Triage System** for mass-casualty events, what does a **YELLOW Tag** represent?\nក្នុងប្រព័ន្ធ **START Triage** សម្រាប់គ្រោះមហន្តរាយមហាជន តើ **ស្លាកពណ៌លឿង (YELLOW)** តំណាងឱ្យអ្វី?",
+      "options": [
+        "Immediate life-threatening injuries requiring instant intervention",
+        "Delayed care: Serious injuries but not immediately life-threatening / ការព្យាបាលពន្យារពេល៖ របួសធ្ងន់ធ្ងរ ប៉ុន្តែមិនទាន់ប្រឈមអាយុជីវិតភ្លាមៗ",
+        "Minor \"walking wounded\" injuries",
+        "Deceased or unsalvageable victims"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 143,
+      "question": "In the START Triage System, a **GREEN Tag** is assigned to:\nក្នុងប្រព័ន្ធ START Triage **ស្លាកពណ៌ខៀវ/បៃតង (GREEN)** ត្រូវបានផ្តល់ជូន៖",
+      "options": [
+        "Immediate surgical candidates",
+        "Deceased victims",
+        "\"Walking wounded\" patients with minor injuries / អ្នករបួសស្រាលដែលអាចដើរបាន (\"walking wounded\")",
+        "Patients requiring resuscitation"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 144,
+      "question": "**Medical Futility** (*អសមត្ថភាព/គ្មានប្រយោជន៍គ្លីនិក*) refers to interventions that:\n*Medical Futility** សំដៅលើអន្តរាគមន៍វេជ្ជសាស្ត្រដែល៖",
+      "options": [
+        "Are highly effective but expensive",
+        "Provide no physiological or medical benefit and merely prolong dying or suffering / គ្មានផ្តល់ផលប្រយោជន៍វេជ្ជ ហើយគ្រាន់តែពន្យារការឈឺចាប់ ឬការស្លាប់",
+        "Are requested by all hospital ethics boards",
+        "Carry zero clinical risks"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 145,
+      "question": "In the Paracentesis clinical case, an attending hepatologist evaluated a terminal liver cancer patient with controlled ascites on diuretics and ordered: *\"No paracentesis at this time, continue medical management.\"* What is the clinical status?\nក្នុងករណី Paracentesis គ្រូពេទ្យជំនាញដើមវាយតម្លៃអ្នកជំងឺមហារីកថ្លើមដំណាក់កាលចុងក្រោយដែលមានទឹកក្នុងពោះគ្រប់គ្រងបានល្អ ហើយណែនាំ៖ *«មិនត្រូវបូមទឹកក្នុងពោះទេ»*។ តើស្ថានភាពគ្លីនិកគឺ៖",
+      "options": [
+        "Acute life-threatening respiratory distress",
+        "Clinically stable with no indication for immediate paracentesis / មានស្ថេរភាពគ្លីនិក ដោយគ្មានការចង្អុលបង្ហាញឱ្យបូម",
+        "Severe abdominal infection requiring emergency surgery",
+        "Complete liver recovery"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 146,
+      "question": "When DES Gastro requested paracentesis, the patient and his wife refused because ascites was well controlled and they wished to follow the primary specialist's plan. What ethical right did they exercise?\nនៅពេល DES Gastro បូមទឹកក្នុងពោះ អ្នកជំងឺ និងភរិយាបានបដិសេធ ព្រោះទឹកក្នុងពោះគ្រប់គ្រងបានល្អ ហើយចង់តាមផែនការពេទ្យជំនាញ តើពួកគាត់ប្រើប្រាស់សិទ្ធិអ្វី?",
+      "options": [
+        "Right to free hospital transport",
+        "Informed Refusal based on Patient Autonomy / Informed Refusal ផ្អែកលើស្វ័យភាពរបស់អ្នកជំងឺ",
+        "Commercial compensation right",
+        "Right to discharge without medical advice"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 147,
+      "question": "Despite patient refusal and the primary specialist's order, paracentesis was performed anyway. The patient collapsed into fatal shock. What primary ethical violations occurred?\nទោះបីមានការបដិសេធរបស់អ្នកជំងឺ និងការណែនាំរបស់ពេទ្យដើម ក៏ការបូមទឹកនៅតែត្រូវធ្វើ រហូតអ្នកជំងឺ choc ស្លាប់។ តើមានការរំលោភសីលធ",
+      "options": [
+        "Violation of Patient Autonomy, Informed Consent, and Non-maleficence / ការរំលោភលើស្វ័យភាព, Informed Consent, និងការមិនបង្កគ្រោះថ្នាក់ (Non-maleficence)",
+        "Proper application of Soft Paternalism",
+        "Compliance with Sub-Decree 61 Article 9",
+        "Exemplary interprofessional teamwork"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 148,
+      "question": "In the Paracentesis case, what was the main failure in **interprofessional communication**?\nក្នុងករណី Paracentesis តើអ្វីជាកង្វះខាតចម្បងក្នុង **ការទំនាក់ទំនងរវាងក្រុមគ្រូពេទ្យ**?",
+      "options": [
+        "Bypassing the primary attending specialist and ignoring the patient's explicit refusal / ការរំលងគ្រូពេទ្យជំនាញ និងការមើលរំលងការបដិសេធរបស់អ្នកជំងឺ",
+        "Writing in English instead of Khmer",
+        "Charging too little for the procedure",
+        "Lack of social media documentation"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 149,
+      "question": "In the Alzheimer's disclosure dilemma, a son asks the doctor NOT to tell his father about a probable Alzheimer's diagnosis. The father is competent and asks the doctor directly. What should the doctor do?\nក្នុងករណី Alzheimer កូនប្រុសសុំពេទ្យមិនឱ្យប្រាប់ឪពុក។ ប៉ុន្តែឪពុកមានស្មារតីគ្រប់គ្រាន់ ហើយសួរពេទ្យដោយផ្ទាល់។ តើពេទ្យគួរធ្វើអ្វី?",
+      "options": [
+        "Lie to the father to satisfy the son",
+        "Respect the father's autonomy, gently disclose the truth with empathetic support, and address the family's concerns / គោរពស្វ័យភាពរបស់ឪពុក ប្រាប់ការពិតដោយទន់ភ្លន់ និងផ្តល់ការគាំទ្រ",
+        "Immediately discharge the patient unexamined",
+        "Report the family to law enforcement"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 150,
+      "question": "What is the ultimate take-home message of **MEDPro Session 3** regarding clinical decision-making?\nតើអ្វីជាសារអប់រំគន្លឹះចុងក្រោយនៃ **MEDPro វគ្គទី ៣** ទាក់ទងនឹងការសម្រេចចិត្តគ្លីនិក?",
+      "options": [
+        "Doctor authority overrides patient choices in 100% of cases",
+        "Patient safety, patient autonomy, transparent communication, and professional accountability must always come first / សុវត្ថិភាពអ្នកជំងឺ, ស្វ័យភាព, ការទំនាក់ទំនងតម្លាភាព, និងគណនេយ្យភាពវិជ្ជាជីវៈ ត្រូវតែជាអាទិភាពទី ១ ជានិច្ច",
+        "Clinical procedures should be performed regardless of consent",
+        "Commercial interests drive clinical care"
+      ],
+      "correctIndex": 1
+    }
+  ]
+}
