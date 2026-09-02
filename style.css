@@ -61,15 +61,60 @@ body {
   display: none !important;
 }
 
-/* --- Top Bar & Theme Toggle Button --- */
-.top-bar {
+/* --- Top Navigation Bar --- */
+.main-navbar {
   display: flex;
-  justify-content: flex-end;
-  margin-bottom: 1rem;
+  align-items: center;
+  justify-content: space-between;
+  background-color: var(--bg-subcard);
+  padding: 0.85rem 1.25rem;
+  border-radius: 8px;
+  margin-bottom: 1.5rem;
+  border: 1px solid var(--border-sub);
+}
+
+.nav-links {
+  display: flex;
+  gap: 1.25rem;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.nav-item {
+  background: none;
+  border: none;
+  color: var(--text-main);
+  font-weight: 600;
+  font-size: 0.85rem;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  cursor: pointer;
+  padding: 4px 0;
+  position: relative;
+  transition: color 0.2s ease;
+}
+
+.nav-item:hover {
+  color: var(--text-heading);
+}
+
+.nav-item::after {
+  content: '';
+  position: absolute;
+  width: 0;
+  height: 2px;
+  bottom: -2px;
+  left: 0;
+  background-color: var(--text-heading);
+  transition: width 0.2s ease;
+}
+
+.nav-item:hover::after {
+  width: 100%;
 }
 
 .theme-btn {
-  background-color: var(--bg-subcard);
+  background-color: var(--bg-card);
   color: var(--text-main);
   border: 1px solid var(--border-sub);
   padding: 6px 14px;
