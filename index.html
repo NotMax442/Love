@@ -226,14 +226,19 @@
     </div>
 
     <!-- KHQR Donation Modal -->
-    <div class="donate-info">
-  <p class="donate-tagline" data-i18n="donate_tagline">
-    Every little bit is greatly appreciated! Thank you for your support 😊
-  </p>
-  <h3 class="donate-cta" data-i18n="donate_cta">
-    You may donate through our KHQR here.
-  </h3>
-</div>
+    <div id="donate-modal" class="modal-overlay hidden">
+      <div class="modal-card donate-card-wide">
+        <button id="close-donate-btn" class="modal-close-icon">&times;</button>
+
+        <div class="donate-grid">
+          <div class="donate-info">
+            <p class="donate-tagline" data-i18n="donate_tagline">
+              Every little bit is greatly appreciated! Thank you for your support 😊
+            </p>
+            <h3 class="donate-cta" data-i18n="donate_cta">
+              You may donate through our KHQR here.
+            </h3>
+          </div>
 
           <div class="donate-qr-wrapper">
             <img src="assets/khqr.png" alt="KHQR Code" class="khqr-card-img">
