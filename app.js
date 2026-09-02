@@ -133,7 +133,18 @@ const translations = {
     btn_clear_missed: "🗑️ Clear Saved Missed",
     subjects_header: "Year {year} Subjects",
     missed_badge: "⚠️ {count} saved missed question(s)",
-    loading_text: "Loading Questions... / កំពុងទាញយកសំណួរ..."
+    loading_text: "Loading Questions...",
+    nav_donate: "☕ Support Us",
+    donate_modal_title: "☕ Support testforuhs.com",
+    donate_modal_desc: "Your donations help keep the platform free, maintain servers, and add new study features!",
+    btn_close: "Close",
+    donate_tagline: "1$, 3$, 5$, 10$, 20$ ... every little bit is greatly appreciated! Thank you for your support 😊",
+    donate_cta: "You may donate through our KHQR here.",
+    founder_quote: "\"A new step in the right direction, a more promising one\"",
+    founder_text_km: "ដោយមានជំនួយពីពួកអ្នក ពួគយើងនឹងបន្តធ្វើឱ្យ​ TestforUHS​ កាន់តែអស្ចារ្យឡើង។ សូមអរគុណក្នុងការគាំទ្ររហូតមក។",
+    founder_text_en: "With your help, together, we will push TestForUHS to its fullest potential.\nMy deepest gratitude for your supports all this way.",
+    founder_sig_title: "Much Obliged.",
+    founder_sig_sub: "FOUNDER OF TESTFORUHS"
   },
   km: {
     nav_home: "ទំព័រដើម",
@@ -170,7 +181,18 @@ const translations = {
     btn_clear_missed: "🗑️ លុបសំណួរខុស",
     subjects_header: "មុខវិជ្ជាឆ្នាំទី {year}",
     missed_badge: "⚠️ {count} សំណួរខុសដែលបានរក្សាទុក",
-    loading_text: "កំពុងទាញយកសំណួរ..."
+    loading_text: "កំពុងទាញយកសំណួរ...",
+    nav_donate: "☕ ឧបត្ថម្ភ",
+    donate_modal_title: "☕ ឧបត្ថម្ភ testforuhs.com",
+    donate_modal_desc: "ការឧបត្ថម្ភរបស់លោកអ្នកជួយគាំទ្រដល់ការចំណាយលើ Server និងអភិវឌ្ឍន៍កម្មវិធីសិក្សាឱ្យនៅតែឥតគិតថ្លៃ!",
+    btn_close: "បិទ",
+    donate_tagline: "ទៅតាមទឹកចិត្តរបស់អ្នករៀងៗខ្លួន។ តិចឬច្រើន គឺជាការលើកទឹកចិត្តយ៉ាងធំធេង! អរគុណសម្រាប់ការគាំទ្រ 😊",
+    donate_cta: "អ្នកអាចធ្វើការឧបត្ថម្ភតាមរយៈ KHQR នៅទីនេះ៖",
+    founder_quote: "\"ជំហានថ្មីក្នុងទិសដៅត្រឹមត្រូវ និងមានសង្ឃឹមជាងមុន\"",
+    founder_text_km: "ដោយមានជំនួយពីពួកអ្នក ពួគយើងនឹងបន្តធ្វើឱ្យ​ TestforUHS​ កាន់តែអស្ចារ្យឡើង។ សូមអរគុណក្នុងការគាំទ្ររហូតមក។",
+    founder_text_en: "With your help, together, we will push TestForUHS to its fullest potential.\nMy deepest gratitude for your supports all this way.",
+    founder_sig_title: "ដោយគោរពដ៏ខ្ពង់ខ្ពស់",
+    founder_sig_sub: "ស្ថាបនិក TESTFORUHS"
   }
 };
 
@@ -1450,3 +1472,23 @@ window.addEventListener('beforeunload', (e) => {
     e.returnValue = '';
   }
 });
+
+// ==========================================================================
+// ABA KHQR DONATION MODAL LOGIC
+// ==========================================================================
+
+const navDonateBtn = document.getElementById('nav-donate-btn');
+const donateModal = document.getElementById('donate-modal');
+const closeDonateBtn = document.getElementById('close-donate-btn');
+
+if (navDonateBtn) {
+  navDonateBtn.addEventListener('click', () => {
+    if (donateModal) donateModal.classList.remove('hidden');
+  });
+}
+
+if (closeDonateBtn) {
+  closeDonateBtn.addEventListener('click', () => {
+    if (donateModal) donateModal.classList.add('hidden');
+  });
+}
