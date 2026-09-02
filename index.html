@@ -21,8 +21,8 @@
       </div>
       <div class="nav-controls" style="display: flex; gap: 0.5rem; align-items: center;">
         <select id="language-select" class="lang-select">
-          <option value="en">🇬🇧 English</option>
-          <option value="km">🇰🇭 ភាសាខ្មែរ</option>
+          <option value="en">English</option>
+          <option value="km">ភាសាខ្មែរ</option>
         </select>
         <button id="theme-toggle-btn" class="theme-btn">🌙 Dark</button>
       </div>
@@ -226,43 +226,49 @@
     </div>
 
     <!-- KHQR Donation Modal -->
-    <div id="donate-modal" class="modal-overlay hidden">
-      <div class="modal-card donate-card-wide">
-        <button id="close-donate-btn" class="modal-close-icon">&times;</button>
+<div id="donate-modal" class="modal-overlay hidden">
+  <div class="modal-card donate-card-wide">
+    <!-- Top-Right Close Button -->
+    <button id="close-donate-btn" class="modal-close-icon" aria-label="Close modal">&times;</button>
 
-        <div class="donate-grid">
-          <div class="donate-info">
-            <p class="donate-tagline" data-i18n="donate_tagline">
-              Every little bit is greatly appreciated! Thank you for your support 😊
-            </p>
-            <h3 class="donate-cta" data-i18n="donate_cta">
-              You may donate through our KHQR here.
-            </h3>
-          </div>
+    <div class="donate-grid">
+      <div class="donate-info">
+        <p class="donate-tagline" data-i18n="donate_tagline">
+          Every little bit is greatly appreciated! Thank you for your support 😊
+        </p>
+        <h3 class="donate-cta" data-i18n="donate_cta">
+          You may donate through our KHQR here.
+        </h3>
+      </div>
 
-          <div class="donate-qr-wrapper">
-            <img src="assets/khqr.png" alt="KHQR Code" class="khqr-card-img">
-          </div>
-        </div>
-
-        <div class="donate-founder-section">
-          <blockquote class="founder-quote" data-i18n="founder_quote">
-            "A new step in the right direction, a more promising one"
-          </blockquote>
-          <p class="founder-text-km" data-i18n="founder_text_km">
-            ដោយមានជំនួយពីពួកអ្នក ពួគយើងនឹងបន្តធ្វើឱ្យ TestforUHS កាន់តែអស្ចារ្យឡើង។ សូមអរគុណក្នុងការគាំទ្ររហូតមក។
-          </p>
-          <p class="founder-text-en" data-i18n="founder_text_en">
-            With your help, together, we will push TestForUHS to its fullest potential.<br>
-            My deepest gratitude for your supports all this way.
-          </p>
-          <div class="founder-signature">
-            <span class="sig-title" data-i18n="founder_sig_title">Much Obliged.</span>
-            <span class="sig-subtitle" data-i18n="founder_sig_sub">FOUNDER OF TESTFORUHS</span>
-          </div>
-        </div>
+      <div class="donate-qr-wrapper">
+        <img src="assets/khqr.png" alt="KHQR Code" class="khqr-card-img">
       </div>
     </div>
+
+    <div class="donate-founder-section">
+      <blockquote class="founder-quote" data-i18n="founder_quote">
+        "A new step in the right direction, a more promising one"
+      </blockquote>
+      <p class="founder-text-km" data-i18n="founder_text_km">
+        ដោយមានជំនួយពីពួកអ្នក ពួគយើងនឹងបន្តធ្វើឱ្យ TestforUHS កាន់តែអស្ចារ្យឡើង។ សូមអរគុណក្នុងការគាំទ្ររហូតមក។
+      </p>
+      <p class="founder-text-en" data-i18n="founder_text_en">
+        With your help, together, we will push TestForUHS to its fullest potential.<br>
+        My deepest gratitude for your supports all this way.
+      </p>
+      <div class="founder-signature">
+        <span class="sig-title" data-i18n="founder_sig_title">Much Obliged.</span>
+        <span class="sig-subtitle" data-i18n="founder_sig_sub">FOUNDER OF TESTFORUHS</span>
+      </div>
+    </div>
+
+    <!-- Bottom Action Close Button -->
+    <div style="margin-top: 1.5rem; text-align: center;">
+      <button id="bottom-close-donate-btn" class="btn secondary-btn" style="width: 100%; max-width: 200px;" data-i18n="btn_close">Close</button>
+    </div>
+  </div>
+</div>
 
   </div>
 
