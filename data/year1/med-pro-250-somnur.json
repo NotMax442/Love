@@ -1,0 +1,2755 @@
+{
+  "questions": [
+    {
+      "id": 1,
+      "question": "What does MEDPro stand for?",
+      "options": [
+        "Medical Education and Professional Practice",
+        "Medical Ethics, Deontology and Professionalism",
+        "Medical Examination, Diagnosis and Prevention",
+        "Medical Ethics and Doctor-Patient Relations"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 2,
+      "question": "According to Prof. Rethy K. Chhem, what is a good doctor?",
+      "options": [
+        "A highly intelligent person",
+        "A person with excellent technical skills",
+        "A good person",
+        "A person with many years of experience"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 3,
+      "question": "Which of the following is one of the four Brahmavihāras mentioned in the lecture?",
+      "options": [
+        "Courage",
+        "Metta មេត្តា",
+        "Intelligence",
+        "Discipline"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 4,
+      "question": "What does Karuna refer to?",
+      "options": [
+        "Loving-kindness",
+        "Compassion",
+        "Equanimity",
+        "Non-attachment"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 5,
+      "question": "What does Mudita refer to?",
+      "options": [
+        "Joy in the success or happiness of others",
+        "Anger toward others",
+        "Indifference toward others",
+        "Fear of others"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 6,
+      "question": "What does Upekkha refer to?",
+      "options": [
+        "Compassion",
+        "Loving-kindness",
+        "Equanimity",
+        "Happiness"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 7,
+      "question": "Which of the following is a core competency in the Bachelor of Medical Sciences 2022 framework?",
+      "options": [
+        "Patient care",
+        "Business management",
+        "Computer programming",
+        "Financial accounting"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 8,
+      "question": "Which of the following is included in the core competency framework?",
+      "options": [
+        "Family and community healthcare",
+        "Pharmaceutical marketing",
+        "Hospital construction",
+        "Medical sales"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 9,
+      "question": "Which competency concerns working effectively with others?",
+      "options": [
+        "Research and education",
+        "Communication and collaboration",
+        "Management and leadership",
+        "Patient care"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 10,
+      "question": "Which of the following is one of the six core competencies?",
+      "options": [
+        "Management and leadership",
+        "Advertising and marketing",
+        "Economics and finance",
+        "Engineering and technology"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 11,
+      "question": "Which competency involves research and learning?",
+      "options": [
+        "Patient care",
+        "Research and education",
+        "Family healthcare",
+        "Communication"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 12,
+      "question": "What are the three stages of the Awareness-Practice-Reflection framework?",
+      "options": [
+        "Knowledge-Skill-Examination",
+        "Awareness-Practice-Reflection",
+        "Learn-Teach-Test",
+        "Observe-Diagnose-Treat"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 13,
+      "question": "What does reflection involve?",
+      "options": [
+        "Ignoring previous experiences",
+        "Thinking about one's actions and experiences",
+        "Avoiding professional development",
+        "Memorizing information only"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 14,
+      "question": "Which ethical framework focuses on the consequences of an action?",
+      "options": [
+        "Deontology",
+        "Virtue ethics",
+        "Consequentialism លក្ខ  នឹងសកម្មភាព",
+        "Professionalism"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 15,
+      "question": "Deontology primarily focuses on:",
+      "options": [
+        "Consequences",
+        "Rules, duties and obligations",
+        "Personal wealth",
+        "Happiness only"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 16,
+      "question": "Virtue ethics focuses mainly on:",
+      "options": [
+        "The character and virtues of a good person",
+        "The consequences of an action only",
+        "Legal punishment",
+        "Hospital regulations only"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 17,
+      "question": "Which ethical framework is concerned with the outcome of an action?",
+      "options": [
+        "Consequentialism",
+        "Deontology",
+        "Virtue ethics",
+        "Professionalism"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 18,
+      "question": "Which question best represents a deontological approach?",
+      "options": [
+        "What consequences will this action produce?",
+        "What rule or duty should I follow?",
+        "What will benefit me personally?",
+        "What will make me most popular?"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 19,
+      "question": "Which question is most closely related to virtue ethics?",
+      "options": [
+        "What kind of person should I be?",
+        "What punishment will I receive?",
+        "How much money will I make?",
+        "What is the fastest option?"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 20,
+      "question": "Which three areas are described as important in medicine?",
+      "options": [
+        "Medical ethics, deontology and professionalism",
+        "Anatomy, physiology and chemistry",
+        "Surgery, radiology and pathology",
+        "Finance, management and marketing"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 21,
+      "question": "What is Medical Ethics concerned with?",
+      "options": [
+        "Ethical issues in medical practice",
+        "Calculating drug doses",
+        "Diagnosing diseases",
+        "Hospital accounting"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 22,
+      "question": "Deontology is most closely associated with:",
+      "options": [
+        "Rules and duties",
+        "Personal feelings only",
+        "Financial benefits",
+        "Medical technology"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 23,
+      "question": "Professionalism is mainly concerned with:",
+      "options": [
+        "Professional conduct and behavior",
+        "Surgery only",
+        "Examination results",
+        "Prescribing medication only"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 24,
+      "question": "A medical student posts a hospital selfie on Facebook and patients can be seen in the background. What issue may this raise?",
+      "options": [
+        "Professionalism and confidentiality",
+        "Pharmacology",
+        "Anatomy",
+        "Nutrition"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 25,
+      "question": "Why can posting a hospital photograph online be problematic?",
+      "options": [
+        "It may expose patient information",
+        "It always improves professionalism",
+        "It has no effect on patients",
+        "It is required for medical students"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 26,
+      "question": "A patient gives a doctor a $100 food voucher after treatment. What should the doctor consider?",
+      "options": [
+        "Whether accepting the gift is appropriate",
+        "Whether the patient needs surgery",
+        "Whether to change specialty",
+        "Whether to prescribe more medication"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 27,
+      "question": "Which document concerning the Code of Ethics for Medical Doctors is mentioned in the lecture?",
+      "options": [
+        "Sub-Decree of 2003",
+        "Sub-Decree of 2010",
+        "Sub-Decree of 2016",
+        "Sub-Decree of 2022"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 28,
+      "question": "The Law on Management of Health Professionals mentioned in the lecture is from:",
+      "options": [
+        "2003",
+        "2010",
+        "2016",
+        "2022"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 29,
+      "question": "Which three dimensions does medicine always need?",
+      "options": [
+        "Medical Ethics, Deontology and Professionalism",
+        "Anatomy, Physiology and Biochemistry",
+        "Surgery, Medicine and Pediatrics",
+        "Research, Finance and Management"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 30,
+      "question": "Historically, what happened to the emphasis placed on the three dimensions of medicine?",
+      "options": [
+        "All three always received exactly equal emphasis",
+        "Some dimensions received more emphasis than others",
+        "Only professionalism was emphasized",
+        "None of them were emphasized"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 31,
+      "question": "A physician posts a photo on Facebook in which a patient can be seen in the background. What is the main concern?",
+      "options": [
+        "Patient confidentiality",
+        "Drug dosage",
+        "Clinical diagnosis",
+        "Hospital finance"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 32,
+      "question": "A patient gives a physician a $100 food voucher after receiving treatment. What issue should the physician consider?",
+      "options": [
+        "Whether accepting the gift is appropriate",
+        "Whether the patient needs another examination",
+        "Whether the hospital should increase fees",
+        "Whether the physician should change specialty"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 33,
+      "question": "A physician regularly arrives late to the hospital by 30 minutes. Which aspect of medical practice is most directly involved?",
+      "options": [
+        "Professionalism",
+        "Anatomy",
+        "Pharmacology",
+        "Biochemistry"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 34,
+      "question": "Which three dimensions are included in MEDPro?",
+      "options": [
+        "Medical Ethics, Deontology and Professionalism",
+        "Medicine, Diagnosis and Prevention",
+        "Ethics, Anatomy and Physiology",
+        "Deontology, Pharmacology and Surgery"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 35,
+      "question": "According to the lecture, medicine has always needed:",
+      "options": [
+        "Only medical ethics",
+        "Only deontology",
+        "All three dimensions",
+        "Only professionalism"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 36,
+      "question": "Historically, what happened to the emphasis placed on the three dimensions of medicine?",
+      "options": [
+        "Some dimensions received more emphasis than others",
+        "All dimensions received exactly equal emphasis",
+        "Only ethics was emphasized",
+        "None were emphasized"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 37,
+      "question": "Which Cambodian legal document concerning physicians' ethics is mentioned in the lecture?",
+      "options": [
+        "Sub-Decree on Physicians' Code of Ethics 2003",
+        "Law on Medical Education 2020",
+        "Hospital Management Act 2018",
+        "Pharmaceutical Law 2024"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 38,
+      "question": "The Law on Management of Health Professionals mentioned in the lecture dates from:",
+      "options": [
+        "2003",
+        "2010",
+        "2016",
+        "2022"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 39,
+      "question": "A medical student shares a patient-related story on Facebook. Which question should be considered first?",
+      "options": [
+        "Does the action violate ethical principles?",
+        "Is the story entertaining?",
+        "Will the post receive many likes?",
+        "Is the student's account popular?"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 40,
+      "question": "When evaluating a professional action, which question is relevant?",
+      "options": [
+        "What harm or risk could occur to patients and the public?",
+        "How many people will view it?",
+        "How quickly can it be completed?",
+        "How much money will it generate?"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 41,
+      "question": "When analyzing an ethical situation, which issue should be considered?",
+      "options": [
+        "Conflicts of interest",
+        "Physician's favorite subject",
+        "Hospital decoration",
+        "Patient's favorite color"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 42,
+      "question": "What should a physician consider when deciding what to do in an ethical dilemma?",
+      "options": [
+        "Alternative actions that could be taken",
+        "Social media popularity",
+        "Personal entertainment",
+        "Advertising opportunities"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 43,
+      "question": "Which principle emphasizes acting for the patient's benefit?",
+      "options": [
+        "Beneficence",
+        "Autonomy",
+        "Justice",
+        "Confidentiality"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 44,
+      "question": "Which principle emphasizes respecting a patient's independent decisions?",
+      "options": [
+        "Beneficence",
+        "Autonomy",
+        "Non-maleficence",
+        "Justice"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 45,
+      "question": "Paternalism involves a conflict between:",
+      "options": [
+        "Beneficence and respect for autonomy",
+        "Justice and confidentiality",
+        "Research and education",
+        "Diagnosis and treatment"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 46,
+      "question": "Traditionally, physicians relied heavily on their own judgments about:",
+      "options": [
+        "Patients' needs for information and treatment",
+        "Hospital financial decisions",
+        "Medical school examinations",
+        "Pharmaceutical advertising"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 47,
+      "question": "In the modern world, patients increasingly claim the right to:",
+      "options": [
+        "Receive information and make independent judgments",
+        "Choose the physician’s salary",
+        "Control hospital administration",
+        "Change medical laws"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 48,
+      "question": "Paternalism presupposes that the professional has:",
+      "options": [
+        "Superior training, knowledge and insights",
+        "Less knowledge than the patient",
+        "No responsibility for the patient",
+        "No authority in medical decisions"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 49,
+      "question": "In paternalism, the professional may believe that they are in a position to determine:",
+      "options": [
+        "The patient’s best interests",
+        "The patient’s financial status",
+        "The patient’s profession",
+        "The patient’s family history"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 50,
+      "question": "What does the principle of patient autonomy emphasize?",
+      "options": [
+        "The patient’s ability to make independent decisions",
+        "The physician’s authority over every decision",
+        "The hospital’s financial interests",
+        "The family’s control over treatment"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 51,
+      "question": "A physician decides not to tell a competent patient important information because the physician believes the information may lead to a poor decision. This is most closely related to:",
+      "options": [
+        "Paternalism",
+        "Justice",
+        "Confidentiality",
+        "Research ethics"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 52,
+      "question": "A physician must balance respect for patient autonomy with:",
+      "options": [
+        "Beneficence",
+        "Hospital advertising",
+        "Financial profit",
+        "Professional competition"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 53,
+      "question": "Which situation can create a conflict between autonomy and beneficence?",
+      "options": [
+        "A patient chooses an action that the physician believes could harm them",
+        "A patient asks for their medical record",
+        "A physician arrives on time",
+        "A student attends a lecture"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 54,
+      "question": "When considering whether to disclose information, a physician should consider:",
+      "options": [
+        "The potential benefits and risks of disclosure",
+        "The number of hospital staff present",
+        "The physician's social media followers",
+        "The patient's occupation only"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 55,
+      "question": "In the Alzheimer's disease case, what ethical dilemma does the physician face?",
+      "options": [
+        "Respect for autonomy versus beneficence",
+        "Justice versus confidentiality",
+        "Research versus education",
+        "Professionalism versus examination"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 56,
+      "question": "In the Alzheimer's case, why might disclosure potentially harm the patient?",
+      "options": [
+        "It could negatively affect coping and contribute to depression, agitation or paranoia",
+        "It would automatically cure the disease",
+        "It would improve memory immediately",
+        "It would eliminate the need for treatment"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 57,
+      "question": "What factor is important when considering whether a patient can make an autonomous decision?",
+      "options": [
+        "Whether the patient is competent",
+        "Whether the patient is wealthy",
+        "Whether the patient is popular",
+        "Whether the patient knows the physician personally"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 58,
+      "question": "Some patients may have difficulty making adequately reasoned decisions because they are:",
+      "options": [
+        "Depressed or addicted to potentially harmful drugs",
+        "Young medical students",
+        "Hospital employees",
+        "Physicians themselves"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 59,
+      "question": "When a competent patient makes a choice that a physician considers harmful, one possible response is:",
+      "options": [
+        "Attempting persuasion without interfering beyond that",
+        "Automatically making the decision for the patient",
+        "Ignoring the patient completely",
+        "Ending the physician-patient relationship"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 60,
+      "question": "Discussions of medical paternalism focus on how to:",
+      "options": [
+        "Balance ethical principles and determine when intervention is warranted",
+        "Increase hospital income",
+        "Reduce medical education",
+        "Eliminate patient autonomy entirely"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 61,
+      "question": "The word \"profession\" is related to which word?",
+      "options": [
+        "Practice",
+        "Profess",
+        "Professionalize",
+        "Proclaim"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 62,
+      "question": "According to the lecture, a profession is primarily based on:",
+      "options": [
+        "Physical ability",
+        "A complex body of knowledge and skills",
+        "Financial investment",
+        "Social status"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 63,
+      "question": "A profession uses its knowledge and skills primarily in the:",
+      "options": [
+        "Service of others",
+        "Service of the profession itself",
+        "Service of the government only",
+        "Pursuit of personal wealth"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 64,
+      "question": "Members of a profession are governed by:",
+      "options": [
+        "Personal preferences",
+        "Codes of ethics",
+        "Hospital administrators only",
+        "Patient preferences only"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 65,
+      "question": "Which is NOT specifically listed as a professional commitment?",
+      "options": [
+        "Competence",
+        "Integrity and morality",
+        "Altruism",
+        "Competition"
+      ],
+      "correctIndex": 3
+    },
+    {
+      "id": 66,
+      "question": "Professional commitments form the basis of a:",
+      "options": [
+        "Legal contract between doctors",
+        "Social contract between profession and society",
+        "Financial contract between hospital and patient",
+        "Personal contract between physician and family"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 67,
+      "question": "Society grants professions considerable:",
+      "options": [
+        "Political authority",
+        "Autonomy in practice",
+        "Financial independence",
+        "Immunity from accountability"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 68,
+      "question": "One privilege granted to professions is:",
+      "options": [
+        "Self-regulation",
+        "Freedom from ethics",
+        "Freedom from accountability",
+        "Control over patients"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 69,
+      "question": "Professionals are accountable to:",
+      "options": [
+        "Those served only",
+        "The profession only",
+        "Society only",
+        "Those served, the profession, and society"
+      ],
+      "correctIndex": 3
+    },
+    {
+      "id": 70,
+      "question": "Medical professionalism can be summarized as:",
+      "options": [
+        "Physician = scientist + researcher",
+        "Physician = healer + professional attributes",
+        "Physician = manager + administrator",
+        "Physician = technician + scientist"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 71,
+      "question": "Caring and compassion involve:",
+      "options": [
+        "Avoiding emotional involvement",
+        "Awareness of another's distress and desire to alleviate it",
+        "Following hospital rules only",
+        "Maintaining professional distance at all times"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 72,
+      "question": "Insight refers to:",
+      "options": [
+        "Knowledge of pharmacology",
+        "Self-awareness and understanding actions, motivations, and emotions",
+        "Ability to perform procedures",
+        "Ability to manage a hospital"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 73,
+      "question": "Openness means willingness to:",
+      "options": [
+        "Hear and accept the views of others",
+        "Reject criticism",
+        "Hide uncertainty",
+        "Avoid discussion"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 74,
+      "question": "Which attribute involves recognizing and fostering the power to heal inherent in each patient?",
+      "options": [
+        "Presence",
+        "Respect for the healing function",
+        "Self-regulation",
+        "Competence"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 75,
+      "question": "Respect for patient dignity and autonomy includes recognizing the patient's:",
+      "options": [
+        "Financial status",
+        "Personal freedom of choice",
+        "Social position",
+        "Family's authority over every decision"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 76,
+      "question": "A physician who allows a patient to participate fully in care demonstrates:",
+      "options": [
+        "Respect for dignity and autonomy",
+        "Self-regulation only",
+        "Responsibility to society only",
+        "Trustworthiness only"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 77,
+      "question": "\"Presence\" means:",
+      "options": [
+        "Being physically present but distracted",
+        "Being fully present and supporting the patient throughout care",
+        "Leaving decisions to colleagues",
+        "Avoiding communication"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 78,
+      "question": "Which belongs to the healer attributes?",
+      "options": [
+        "Teamwork",
+        "Self-regulation",
+        "Presence",
+        "Responsibility to society"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 79,
+      "question": "Which is an example of openness?",
+      "options": [
+        "Refusing to listen to another clinician",
+        "Listening to and dealing with another person's views",
+        "Ignoring patient concerns",
+        "Making decisions without discussion"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 80,
+      "question": "Respect for patient autonomy primarily concerns the patient's:",
+      "options": [
+        "Freedom of choice",
+        "Financial resources",
+        "Medical knowledge",
+        "Professional status"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 81,
+      "question": "Responsibility to the profession includes maintaining the:",
+      "options": [
+        "Financial nature of the profession",
+        "Moral and collegial integrity of the profession",
+        "Political power of the profession",
+        "Social popularity of the profession"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 82,
+      "question": "Self-regulation involves:",
+      "options": [
+        "Setting standards and being accountable for conduct",
+        "Avoiding responsibility",
+        "Allowing patients to set professional standards",
+        "Ignoring colleagues' conduct"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 83,
+      "question": "Responsibility to society requires professionals to use their expertise for:",
+      "options": [
+        "Personal benefit",
+        "Public good",
+        "Professional competition",
+        "Financial gain"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 84,
+      "question": "Teamwork requires recognition and respect for:",
+      "options": [
+        "Only the senior physician",
+        "The expertise of others",
+        "Only nurses",
+        "Only hospital management"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 85,
+      "question": "The primary focus of teamwork should be the:",
+      "options": [
+        "Best interest of the patient",
+        "Best interest of the most senior doctor",
+        "Convenience of the hospital",
+        "Financial benefit of the team"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 86,
+      "question": "Which is a professional attribute?",
+      "options": [
+        "Self-regulation",
+        "Presence",
+        "Caring and compassion",
+        "Respect for healing function"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 87,
+      "question": "A physician who accepts accountability for professional conduct demonstrates:",
+      "options": [
+        "Responsibility to the profession",
+        "Openness only",
+        "Presence only",
+        "Altruism only"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 88,
+      "question": "Using medical expertise for the public good demonstrates:",
+      "options": [
+        "Responsibility to society",
+        "Presence",
+        "Confidentiality",
+        "Insight"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 89,
+      "question": "Competence means:",
+      "options": [
+        "Knowing everything permanently",
+        "Mastering and keeping current relevant knowledge and skills",
+        "Working independently",
+        "Avoiding further education"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 90,
+      "question": "Commitment means acting:",
+      "options": [
+        "In the patient's best interest",
+        "Only according to personal interest",
+        "Only according to family wishes",
+        "According to financial benefit"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 91,
+      "question": "The lecture associates commitment with the:",
+      "options": [
+        "Declaration of Independence",
+        "Hippocratic Oath or modern equivalent",
+        "Hospital contract",
+        "Patient's insurance policy"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 92,
+      "question": "Confidentiality means:",
+      "options": [
+        "Never communicating with colleagues",
+        "Not divulging patient information without just cause",
+        "Sharing patient information freely",
+        "Hiding information from the patient"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 93,
+      "question": "Which principle directly concerns protection of patient information?",
+      "options": [
+        "Altruism",
+        "Confidentiality",
+        "Competence",
+        "Presence"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 94,
+      "question": "Altruism means:",
+      "options": [
+        "Putting self-interest first",
+        "Devotion to the welfare of others",
+        "Avoiding responsibility",
+        "Maintaining professional status"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 95,
+      "question": "A physician who places the patient's needs before personal self-interest demonstrates:",
+      "options": [
+        "Altruism",
+        "Self-regulation",
+        "Openness",
+        "Presence"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 96,
+      "question": "Integrity and honesty involve:",
+      "options": [
+        "Firm adherence to moral values",
+        "Protecting one's reputation at all costs",
+        "Avoiding difficult decisions",
+        "Following colleagues regardless of circumstances"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 97,
+      "question": "Morality and ethical conduct involve acting for:",
+      "options": [
+        "Personal advantage",
+        "Public good",
+        "Professional competition",
+        "Financial success"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 98,
+      "question": "Trustworthiness means being:",
+      "options": [
+        "Powerful",
+        "Reliable and worthy of trust",
+        "Independent",
+        "Popular"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 99,
+      "question": "Which is NOT listed under both healer and professional?",
+      "options": [
+        "Competence",
+        "Confidentiality",
+        "Altruism",
+        "Financial success"
+      ],
+      "correctIndex": 3
+    },
+    {
+      "id": 100,
+      "question": "A doctor who continually updates medical knowledge demonstrates:",
+      "options": [
+        "Competence",
+        "Presence",
+        "Openness",
+        "Self-regulation only"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 101,
+      "question": "In the case, the patient had:",
+      "options": [
+        "Early-stage liver disease",
+        "End-stage liver cancer",
+        "Kidney disease",
+        "Lung cancer"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 102,
+      "question": "The patient was receiving:",
+      "options": [
+        "Lenvatinib",
+        "Paracetamol",
+        "Insulin",
+        "Antibiotics"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 103,
+      "question": "The dose of Lenvatinib mentioned was:",
+      "options": [
+        "4 mg/day",
+        "8 mg/day",
+        "10 mg/day",
+        "20 mg/day"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 104,
+      "question": "The patient also had:",
+      "options": [
+        "Pleural effusion",
+        "Ascites",
+        "Pneumonia",
+        "Renal failure"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 105,
+      "question": "The ascites was initially being controlled with:",
+      "options": [
+        "Surgery",
+        "Medication",
+        "Radiation",
+        "Dialysis"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 106,
+      "question": "At that time, the patient did NOT have:",
+      "options": [
+        "Abdominal pain",
+        "Difficulty breathing",
+        "Significant discomfort",
+        "All of the above"
+      ],
+      "correctIndex": 3
+    },
+    {
+      "id": 107,
+      "question": "The responsible hepatologist initially advised:",
+      "options": [
+        "Immediate paracentesis",
+        "No paracentesis at that time",
+        "Emergency surgery",
+        "Stopping all medication"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 108,
+      "question": "The initial plan was to:",
+      "options": [
+        "Continue medication and monitor the patient",
+        "Perform surgery immediately",
+        "Stop all treatment",
+        "Discharge the patient without follow-up"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 109,
+      "question": "Paracentesis is used to:",
+      "options": [
+        "Remove ascitic fluid from the abdomen",
+        "Drain fluid from the lung",
+        "Treat liver cancer directly",
+        "Remove blood from the heart"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 110,
+      "question": "Paracentesis involves inserting:",
+      "options": [
+        "A needle or catheter into the abdomen",
+        "A tube into the lung",
+        "A catheter into the heart",
+        "A needle into the skull"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 111,
+      "question": "The patient and family were asked to consent to:",
+      "options": [
+        "Chemotherapy",
+        "Paracentesis",
+        "Liver transplantation",
+        "Radiation therapy"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 112,
+      "question": "They refused the procedure because:",
+      "options": [
+        "The patient had no symptoms",
+        "Ascites appeared controlled by medication",
+        "They wanted to follow the original hepatologist's plan",
+        "All of the above"
+      ],
+      "correctIndex": 3
+    },
+    {
+      "id": 113,
+      "question": "Despite the refusal, the specialist continued to:",
+      "options": [
+        "Encourage the procedure",
+        "Cancel all treatment",
+        "Discharge the patient",
+        "Stop communication"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 114,
+      "question": "A patient with decision-making capacity has the right to:",
+      "options": [
+        "Refuse a medical procedure",
+        "Be forced to accept treatment",
+        "Automatically transfer decisions to the doctor",
+        "Lose autonomy while hospitalized"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 115,
+      "question": "Patient autonomy means respecting the patient's:",
+      "options": [
+        "Freedom to make decisions about care",
+        "Financial situation",
+        "Family's wishes above all",
+        "Physician's authority"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 116,
+      "question": "If a competent patient clearly refuses a procedure, the decision should be:",
+      "options": [
+        "Ignored",
+        "Respected",
+        "Hidden",
+        "Automatically overridden"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 117,
+      "question": "Informed consent is:",
+      "options": [
+        "A formality only",
+        "Essential before a procedure",
+        "Necessary only for surgery",
+        "Optional"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 118,
+      "question": "\"Informed consent is essential, not a formality\" means:",
+      "options": [
+        "Signing a form alone is enough",
+        "The patient must receive and understand meaningful information",
+        "Consent is unnecessary",
+        "Only physicians need information"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 119,
+      "question": "Before a procedure, professionals should consider whether the patient:",
+      "options": [
+        "Received adequate information",
+        "Understood the information",
+        "Accepted or refused",
+        "All of the above"
+      ],
+      "correctIndex": 3
+    },
+    {
+      "id": 120,
+      "question": "Respecting autonomy is especially important when the patient:",
+      "options": [
+        "Has decision-making capacity",
+        "Is unconscious",
+        "Cannot communicate",
+        "Has no opportunity to decide"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 121,
+      "question": "Clear communication within the healthcare team is important for:",
+      "options": [
+        "Patient safety",
+        "Professional status",
+        "Competition",
+        "Avoiding documentation"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 122,
+      "question": "Communication across hierarchy should be:",
+      "options": [
+        "Clear",
+        "Avoided",
+        "Limited to senior doctors",
+        "Informal only"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 123,
+      "question": "The case raises communication concerns between:",
+      "options": [
+        "Healthcare professionals and the patient",
+        "Different levels of healthcare professionals",
+        "Both A and B",
+        "Neither A nor B"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 124,
+      "question": "A healthcare professional remains personally accountable even when:",
+      "options": [
+        "Working under hierarchical pressure",
+        "Working with colleagues",
+        "Treating a patient",
+        "Following professional standards"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 125,
+      "question": "Hierarchical pressure does NOT remove:",
+      "options": [
+        "Personal accountability",
+        "Medical knowledge",
+        "Job title",
+        "Working hours"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 126,
+      "question": "If professionals disagree about management, the disagreement should be:",
+      "options": [
+        "Ignored",
+        "Addressed through appropriate communication",
+        "Hidden",
+        "Settled only by rank"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 127,
+      "question": "A junior professional concerned about patient safety should:",
+      "options": [
+        "Remain silent",
+        "Communicate the concern appropriately",
+        "Ignore the concern",
+        "Leave the patient unattended"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 128,
+      "question": "Which principle is especially relevant during disagreement between junior and senior doctors?",
+      "options": [
+        "Communication and accountability",
+        "Financial interest",
+        "Competition",
+        "Silence"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 129,
+      "question": "Another senior hepatologist was consulted. This illustrates:",
+      "options": [
+        "Seeking additional professional input",
+        "Avoiding communication",
+        "Removing patient autonomy",
+        "Ignoring clinical information"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 130,
+      "question": "Before approving a procedure, the second senior hepatologist should consider:",
+      "options": [
+        "Clinical information",
+        "Patient wishes",
+        "Safety issues",
+        "All of the above"
+      ],
+      "correctIndex": 3
+    },
+    {
+      "id": 131,
+      "question": "Paracentesis was eventually performed:",
+      "options": [
+        "With clear acceptance",
+        "Despite the patient's refusal",
+        "Before any assessment",
+        "After discharge"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 132,
+      "question": "It was performed despite the original hepatologist's instruction:",
+      "options": [
+        "To perform immediately",
+        "Not to perform at that time",
+        "To stop medication",
+        "To discharge the patient"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 133,
+      "question": "After the procedure, the patient developed:",
+      "options": [
+        "Severe deterioration",
+        "Improvement only",
+        "No change",
+        "Mild symptoms only"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 134,
+      "question": "The lecture describes the patient as developing:",
+      "options": [
+        "Shock",
+        "Hypertension",
+        "Headache",
+        "Hyperglycemia"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 135,
+      "question": "The healthcare team attempted to:",
+      "options": [
+        "Resuscitate the patient",
+        "Ignore the event",
+        "Discharge the patient",
+        "Stop monitoring"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 136,
+      "question": "The patient ultimately:",
+      "options": [
+        "Recovered",
+        "Died",
+        "Was discharged normally",
+        "Refused further care"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 137,
+      "question": "The exact clinical cause of deterioration requires:",
+      "options": [
+        "Medical review and formal investigation",
+        "Immediate assumption",
+        "No investigation",
+        "Family opinion only"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 138,
+      "question": "The case raises concerns regarding:",
+      "options": [
+        "Decision-making",
+        "Informed consent",
+        "Communication",
+        "Patient safety",
+        "All of the above"
+      ],
+      "correctIndex": 4
+    },
+    {
+      "id": 139,
+      "question": "Before a procedure, which question is important?",
+      "options": [
+        "Did the patient receive enough information?",
+        "Did the patient understand it?",
+        "Did the patient accept or refuse?",
+        "All of the above"
+      ],
+      "correctIndex": 3
+    },
+    {
+      "id": 140,
+      "question": "Patient safety should be considered:",
+      "options": [
+        "After hierarchy",
+        "First and foremost",
+        "Only after complications",
+        "Only by senior doctors"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 141,
+      "question": "The lecture asks whether the proposed procedure aimed to:",
+      "options": [
+        "Benefit the patient",
+        "Benefit the physician",
+        "Increase hospital income",
+        "Train students only"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 142,
+      "question": "When analyzing an intervention, professionals should consider:",
+      "options": [
+        "Risks and harms",
+        "Benefits",
+        "Patient preferences",
+        "All of the above"
+      ],
+      "correctIndex": 3
+    },
+    {
+      "id": 143,
+      "question": "The principle of avoiding harm focuses on:",
+      "options": [
+        "Risks and potential harms",
+        "Cost only",
+        "Reputation",
+        "Hospital policy only"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 144,
+      "question": "Professional responsibility includes asking whether staff:",
+      "options": [
+        "Correctly performed their roles and responsibilities",
+        "Followed rank regardless of safety",
+        "Avoided documentation",
+        "Ignored patient preferences"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 145,
+      "question": "Patient wishes should be:",
+      "options": [
+        "Clearly communicated within the team",
+        "Ignored if inconvenient",
+        "Known only to family",
+        "Kept from the treating doctor"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 146,
+      "question": "Documentation should include:",
+      "options": [
+        "Consent and clinical reasoning",
+        "Patient preferences",
+        "Safety considerations",
+        "All of the above"
+      ],
+      "correctIndex": 3
+    },
+    {
+      "id": 147,
+      "question": "After a serious clinical event, the institution should:",
+      "options": [
+        "Respond appropriately and investigate",
+        "Hide the event",
+        "Ignore the family",
+        "Immediately blame one person"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 148,
+      "question": "Communication with the family after a serious event should be:",
+      "options": [
+        "Appropriate and clear",
+        "Avoided completely",
+        "Delayed indefinitely",
+        "Replaced by rumors"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 149,
+      "question": "A central ethical question in the case is whether the patient's:",
+      "options": [
+        "Autonomy was respected",
+        "Financial status was sufficient",
+        "Social status was appropriate",
+        "Insurance was valid"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 150,
+      "question": "Another major issue is whether:",
+      "options": [
+        "Informed consent was obtained",
+        "The hospital was busy",
+        "The doctor was popular",
+        "The patient had private insurance"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 151,
+      "question": "Patient autonomy must be respected when the patient:",
+      "options": [
+        "Has decision-making capacity",
+        "Is accompanied by family",
+        "Is a physician",
+        "Has medical knowledge"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 152,
+      "question": "Informed consent is:",
+      "options": [
+        "Essential",
+        "Merely paperwork",
+        "Optional",
+        "Administrative only"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 153,
+      "question": "Clear communication across hierarchy is key to:",
+      "options": [
+        "Patient safety",
+        "Financial management",
+        "Competition",
+        "Marketing"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 154,
+      "question": "Each healthcare professional is accountable for:",
+      "options": [
+        "Their own actions",
+        "Only senior doctors' actions",
+        "Hospital policies only",
+        "Patient decisions only"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 155,
+      "question": "Personal accountability remains even under:",
+      "options": [
+        "Hierarchical pressure",
+        "Normal working conditions only",
+        "Teamwork only",
+        "Continuing education only"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 156,
+      "question": "The highest priority emphasized in the lecture is:",
+      "options": [
+        "Patient safety",
+        "Professional reputation",
+        "Hierarchy",
+        "Financial efficiency"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 157,
+      "question": "Professionalism protects:",
+      "options": [
+        "Patients only",
+        "Healthcare workers only",
+        "Both patients and colleagues",
+        "Hospitals only"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 158,
+      "question": "Which combination best reflects the main lessons?",
+      "options": [
+        "Autonomy + informed consent + communication + accountability + safety",
+        "Finance + competition + hierarchy",
+        "Diagnosis + medication + surgery only",
+        "Administration + marketing + finance"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 159,
+      "question": "Which statement best reflects the lecture regarding a competent patient's refusal?",
+      "options": [
+        "It should be respected",
+        "It can always be overridden",
+        "Family can always override it",
+        "It has no ethical significance"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 160,
+      "question": "Which BEST summarizes the lecture?",
+      "options": [
+        "Seniority is more important than patient choice",
+        "Patient safety, autonomy, informed consent, communication, and accountability are central to professionalism",
+        "Procedures should always be performed if potentially beneficial",
+        "Written consent alone is enough"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 161,
+      "question": "What are the three major concepts introduced in the lecture?",
+      "options": [
+        "Anatomy, physiology, pathology",
+        "Medical ethics, deontology, professionalism",
+        "Diagnosis, treatment, prevention",
+        "Research, education, management"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 162,
+      "question": "Which of the following is one of the core competency areas of the Bachelor of Medical Sciences 2022?",
+      "options": [
+        "Patient care",
+        "Hospital finance",
+        "Marketing",
+        "Politics"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 163,
+      "question": "Which is another core competency area?",
+      "options": [
+        "Family and community healthcare",
+        "Business administration",
+        "Pharmaceutical sales",
+        "Hospital construction"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 164,
+      "question": "Which competency specifically concerns ethical conduct?",
+      "options": [
+        "Patient care",
+        "Ethics and professionalism",
+        "Research and education",
+        "Management and leadership"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 165,
+      "question": "Which competency concerns working effectively with others?",
+      "options": [
+        "Communication and collaboration",
+        "Patient care",
+        "Research",
+        "Leadership only"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 166,
+      "question": "Which competency includes organizing and directing healthcare activities?",
+      "options": [
+        "Management and leadership",
+        "Ethics",
+        "Patient care",
+        "Communication only"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 167,
+      "question": "Which is included among the six core competencies?",
+      "options": [
+        "Research and education",
+        "Advertising",
+        "Personal finance",
+        "Political science"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 168,
+      "question": "Which ethical principle means respecting the patient's self-determination?",
+      "options": [
+        "Justice",
+        "Autonomy",
+        "Beneficence",
+        "Non-maleficence"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 169,
+      "question": "Beneficence means:",
+      "options": [
+        "Respecting confidentiality",
+        "Acting for the patient's benefit",
+        "Avoiding all communication",
+        "Treating everyone identically"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 170,
+      "question": "Non-maleficence means:",
+      "options": [
+        "Do not cause harm",
+        "Always obey the family",
+        "Keep information secret",
+        "Treat only wealthy patients"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 171,
+      "question": "Justice refers to:",
+      "options": [
+        "Personal loyalty",
+        "Fairness and equality",
+        "Patient confidentiality",
+        "Physician autonomy"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 172,
+      "question": "Which principle focuses most directly on patient choice?",
+      "options": [
+        "Autonomy",
+        "Justice",
+        "Beneficence",
+        "Non-maleficence"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 173,
+      "question": "Which principle requires the physician to consider the patient's benefit?",
+      "options": [
+        "Autonomy",
+        "Beneficence",
+        "Justice",
+        "Confidentiality"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 174,
+      "question": "Which principle requires avoiding harm to the patient?",
+      "options": [
+        "Justice",
+        "Beneficence",
+        "Non-maleficence",
+        "Autonomy"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 175,
+      "question": "Which principle is concerned with equality and fairness?",
+      "options": [
+        "Justice",
+        "Autonomy",
+        "Confidentiality",
+        "Integrity"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 176,
+      "question": "Which of the following is listed as an ethical approach in the lecture?",
+      "options": [
+        "Consequentialism",
+        "Capitalism",
+        "Nationalism",
+        "Liberalism"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 177,
+      "question": "Deontology focuses primarily on:",
+      "options": [
+        "Duties and rules",
+        "Financial outcomes",
+        "Popularity",
+        "Emotions only"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 178,
+      "question": "Virtue ethics focuses on:",
+      "options": [
+        "Character and moral virtues",
+        "Hospital regulations only",
+        "Financial consequences",
+        "Patient diagnosis"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 179,
+      "question": "An ethical dilemma occurs when:",
+      "options": [
+        "There is an ethical conflict requiring a decision",
+        "The diagnosis is always obvious",
+        "There is no possible choice",
+        "A patient has no illness"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 180,
+      "question": "Informed consent means:",
+      "options": [
+        "The patient agrees without information",
+        "The patient gives consent after receiving appropriate information",
+        "The physician decides for the patient",
+        "The family always decides"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 181,
+      "question": "Respecting autonomy requires the doctor to:",
+      "options": [
+        "Make every decision for the patient",
+        "Respect the patient's decision",
+        "Ignore patient preferences",
+        "Always follow the family"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 182,
+      "question": "According to the lecture, patients have a right to know about:",
+      "options": [
+        "Their illness",
+        "Their treatment",
+        "Alternative treatments",
+        "All of the above"
+      ],
+      "correctIndex": 3
+    },
+    {
+      "id": 183,
+      "question": "A healthcare professional should explain treatment information:",
+      "options": [
+        "Clearly",
+        "Only if the patient asks",
+        "Using complicated terminology only",
+        "Only to the family"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 184,
+      "question": "Respecting autonomy includes:",
+      "options": [
+        "Not forcing treatment",
+        "Ignoring refusal",
+        "Hiding information",
+        "Making decisions secretly"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 185,
+      "question": "Which is a patient right mentioned in the lecture?",
+      "options": [
+        "Receiving relevant medical information",
+        "Demanding any treatment regardless of safety",
+        "Controlling other patients",
+        "Ignoring healthcare professionals"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 186,
+      "question": "Medical information is considered:",
+      "options": [
+        "Public information",
+        "Highly confidential information",
+        "Advertising material",
+        "Social media content"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 187,
+      "question": "Patient information should NOT normally be:",
+      "options": [
+        "Protected",
+        "Shared appropriately within care",
+        "Released publicly",
+        "Kept confidential"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 188,
+      "question": "Which should generally remain confidential?",
+      "options": [
+        "Patient photographs",
+        "Medical records",
+        "Diagnostic images",
+        "All of the above"
+      ],
+      "correctIndex": 3
+    },
+    {
+      "id": 189,
+      "question": "Posting details of a patient's case on Facebook or Telegram can violate:",
+      "options": [
+        "Confidentiality",
+        "Justice only",
+        "Beneficence only",
+        "Management principles"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 190,
+      "question": "An exception to confidentiality may occur when:",
+      "options": [
+        "The patient gives appropriate consent",
+        "The doctor wants publicity",
+        "The information is interesting",
+        "Friends ask for it"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 191,
+      "question": "Patient information should be disclosed when:",
+      "options": [
+        "There is an appropriate legal/professional justification",
+        "Someone is curious",
+        "The doctor wants attention",
+        "It would increase social-media followers"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 192,
+      "question": "A \"professional boundary\" refers to:",
+      "options": [
+        "Limits governing appropriate professional relationships and conduct",
+        "Hospital walls",
+        "A patient's home",
+        "A physician's working hours"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 193,
+      "question": "A \"grey zone\" refers to:",
+      "options": [
+        "A situation where the ethical answer may not be immediately clear",
+        "A clearly illegal action",
+        "A routine medical procedure",
+        "A hospital department"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 194,
+      "question": "When facing a grey-zone situation, a physician should:",
+      "options": [
+        "Consider ethical principles and professional standards",
+        "Always choose personal benefit",
+        "Ignore the situation",
+        "Follow social-media opinions"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 195,
+      "question": "The lecture presents the idea that doctors should maintain high standards of:",
+      "options": [
+        "Ethics and professionalism",
+        "Advertising",
+        "Personal wealth",
+        "Competition"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 196,
+      "question": "Professional conduct applies:",
+      "options": [
+        "Only inside the hospital",
+        "Both inside and outside professional work",
+        "Only during examinations",
+        "Only during surgery"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 197,
+      "question": "Physicians are expected to be careful about their:",
+      "options": [
+        "Decisions and behavior",
+        "Clothing brands",
+        "Social popularity",
+        "Personal entertainment"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 198,
+      "question": "Why should physicians be careful about their behavior outside work?",
+      "options": [
+        "Society's trust in the profession can be affected",
+        "They cannot have a private life",
+        "They must work 24 hours a day",
+        "They are never allowed personal activities"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 199,
+      "question": "The lecture presents a case involving a doctor working:",
+      "options": [
+        "During normal working hours only",
+        "Outside normal working hours",
+        "Only during holidays",
+        "Only during examinations"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 200,
+      "question": "The case asks whether the doctor's outside work is consistent with:",
+      "options": [
+        "Medical ethics, law, and professionalism",
+        "Hospital architecture",
+        "Medical diagnosis",
+        "Research methodology"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 201,
+      "question": "When assessing a physician's outside activity, an important consideration is:",
+      "options": [
+        "Whether it complies with professional and ethical standards",
+        "Whether it is popular",
+        "Whether colleagues like it",
+        "Whether it generates money"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 202,
+      "question": "In one case, a hospital provides a special:",
+      "options": [
+        "VIP floor",
+        "Research laboratory",
+        "Emergency department",
+        "Student ward"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 203,
+      "question": "VIP patients receive:",
+      "options": [
+        "Special accommodation and facilities",
+        "No medical treatment",
+        "Treatment only from students",
+        "Free treatment in every circumstance"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 204,
+      "question": "The ethical issue raised by the VIP case concerns:",
+      "options": [
+        "Justice and equality",
+        "Anatomy",
+        "Pharmacology",
+        "Research design"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 205,
+      "question": "Providing different services to patients raises the question of:",
+      "options": [
+        "Whether the practice is fair and ethically justified",
+        "Whether doctors should stop treating patients",
+        "Whether all patients need surgery",
+        "Whether medicine is scientific"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 206,
+      "question": "Which ethical principle is most relevant when considering fairness between VIP and ordinary patients?",
+      "options": [
+        "Justice",
+        "Confidentiality",
+        "Autonomy",
+        "Non-maleficence"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 207,
+      "question": "A company offered money to a medical student in exchange for:",
+      "options": [
+        "Promoting a medical product",
+        "Treating patients",
+        "Conducting surgery",
+        "Teaching anatomy"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 208,
+      "question": "The product involved in the case was a:",
+      "options": [
+        "White coat",
+        "Stethoscope",
+        "Medicine",
+        "Surgical instrument"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 209,
+      "question": "The company wanted the student to:",
+      "options": [
+        "Promote the product",
+        "Stop studying",
+        "Diagnose patients",
+        "Prescribe medicine"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 210,
+      "question": "Before accepting such an offer, the student should consider:",
+      "options": [
+        "Professional ethics",
+        "Conflict of interest",
+        "Appropriateness of advertising",
+        "All of the above"
+      ],
+      "correctIndex": 3
+    },
+    {
+      "id": 211,
+      "question": "A medical student promoting a product may raise concerns about:",
+      "options": [
+        "Professional integrity",
+        "Conflict of interest",
+        "Public trust",
+        "All of the above"
+      ],
+      "correctIndex": 3
+    },
+    {
+      "id": 212,
+      "question": "The classical version of the Hippocratic Oath dates to approximately:",
+      "options": [
+        "5th century BCE",
+        "5th century CE",
+        "15th century",
+        "20th century"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 213,
+      "question": "The lecture mentions a translation of the Hippocratic Oath by:",
+      "options": [
+        "Ludwig Edelstein",
+        "Louis Pasteur",
+        "William Osler",
+        "Hippocrates himself"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 214,
+      "question": "The modern oath mentioned in the lecture is associated with:",
+      "options": [
+        "Louis Lasagna",
+        "Ludwig Edelstein",
+        "Aristotle",
+        "Plato"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 215,
+      "question": "The modern oath mentioned dates from:",
+      "options": [
+        "1943",
+        "1954",
+        "1964",
+        "1974"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 216,
+      "question": "The Cambodian Medical Ethics Code mentioned in the lecture is associated with:",
+      "options": [
+        "Prakas No. 61",
+        "Law No. 1",
+        "Regulation No. 100",
+        "Decree No. 5"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 217,
+      "question": "The code was issued on:",
+      "options": [
+        "23 August 2003",
+        "23 August 2013",
+        "8 August 2026",
+        "1 January 2003"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 218,
+      "question": "The code contains:",
+      "options": [
+        "6 chapters and 111 articles",
+        "4 chapters and 50 articles",
+        "10 chapters and 100 articles",
+        "3 chapters and 25 articles"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 219,
+      "question": "Chapter 1 of the code concerns:",
+      "options": [
+        "General duties",
+        "Doctor-patient communication",
+        "Medical research",
+        "Administrative procedures"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 220,
+      "question": "Chapter 2 concerns:",
+      "options": [
+        "Relationships with patients",
+        "Relationships with hospitals",
+        "Medical education",
+        "Research ethics"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 221,
+      "question": "Chapter 3 concerns relationships between:",
+      "options": [
+        "Doctors and colleagues",
+        "Doctors and politicians",
+        "Doctors and pharmaceutical companies only",
+        "Doctors and students only"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 222,
+      "question": "Chapter 4 concerns:",
+      "options": [
+        "Medical professional practice",
+        "Patient nutrition",
+        "Hospital construction",
+        "Research funding"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 223,
+      "question": "Chapter 5 concerns:",
+      "options": [
+        "Practice within institutions",
+        "Doctor-patient diagnosis",
+        "Medical school admission",
+        "Social media"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 224,
+      "question": "Chapter 6 concerns:",
+      "options": [
+        "Miscellaneous/provisions",
+        "Anatomy",
+        "Pharmacology",
+        "Surgery"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 225,
+      "question": "Which organization is listed among important stakeholders?",
+      "options": [
+        "Ministry of Health",
+        "Medical Council",
+        "Medical school",
+        "All of the above"
+      ],
+      "correctIndex": 3
+    },
+    {
+      "id": 226,
+      "question": "The Ministry of Health is one of the bodies involved in:",
+      "options": [
+        "Healthcare regulation",
+        "Medical advertising only",
+        "Student examinations only",
+        "Private business"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 227,
+      "question": "The Medical Council is relevant to:",
+      "options": [
+        "Regulation of medical professionals",
+        "Restaurant licensing",
+        "Banking",
+        "Tourism"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 228,
+      "question": "Which group is also listed as an important stakeholder?",
+      "options": [
+        "Doctors",
+        "Medical students",
+        "General public and patients",
+        "All of the above"
+      ],
+      "correctIndex": 3
+    },
+    {
+      "id": 229,
+      "question": "A professional regulatory system helps ensure:",
+      "options": [
+        "Appropriate standards of medical practice",
+        "Increased competition",
+        "Personal wealth",
+        "Social-media popularity"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 230,
+      "question": "The lecture asks students to consider the future of:",
+      "options": [
+        "Medical ethics and professionalism in Cambodia",
+        "Hospital architecture",
+        "Pharmaceutical manufacturing",
+        "Medical tourism only"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 231,
+      "question": "One question concerns what medical professionalism in Cambodia might look like in:",
+      "options": [
+        "2035",
+        "2045",
+        "2050",
+        "2060"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 232,
+      "question": "The \"Future Triangle\" is associated with:",
+      "options": [
+        "Sohail Inayatullah",
+        "Louis Lasagna",
+        "Hippocrates",
+        "Ludwig Edelstein"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 233,
+      "question": "The Future Triangle is used to think about:",
+      "options": [
+        "Possible future developments",
+        "Patient diagnosis",
+        "Drug dosage",
+        "Surgical procedures"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 234,
+      "question": "Which principle is directly related to keeping patient information private?",
+      "options": [
+        "Confidentiality",
+        "Justice",
+        "Beneficence",
+        "Autonomy"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 235,
+      "question": "Which principle requires treating people fairly?",
+      "options": [
+        "Justice",
+        "Autonomy",
+        "Confidentiality",
+        "Integrity"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 236,
+      "question": "Which principle means acting in the patient's best interest?",
+      "options": [
+        "Beneficence",
+        "Justice",
+        "Autonomy",
+        "Confidentiality"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 237,
+      "question": "Which principle means avoiding harm?",
+      "options": [
+        "Non-maleficence",
+        "Justice",
+        "Autonomy",
+        "Integrity"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 238,
+      "question": "Which principle requires respecting a patient's decisions?",
+      "options": [
+        "Autonomy",
+        "Beneficence",
+        "Justice",
+        "Confidentiality"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 239,
+      "question": "Which concept refers to being honest and morally sound?",
+      "options": [
+        "Integrity",
+        "Autonomy",
+        "Justice",
+        "Grey zone"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 240,
+      "question": "Accountability means:",
+      "options": [
+        "Being responsible for one's actions and decisions",
+        "Avoiding responsibility",
+        "Following friends' opinions",
+        "Allowing others to take all responsibility"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 241,
+      "question": "What is a social contract?",
+      "options": [
+        "An understanding between a profession and society concerning responsibilities and expectations",
+        "A private contract between two doctors",
+        "A hospital employment contract",
+        "A patient's insurance contract"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 242,
+      "question": "Which concept describes the relationship between professional privileges and responsibilities to society?",
+      "options": [
+        "Social contract",
+        "Confidentiality",
+        "Autonomy",
+        "Grey zone"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 243,
+      "question": "A good physician should demonstrate:",
+      "options": [
+        "Ethical behavior",
+        "Professional competence",
+        "Respect for patients",
+        "All of the above"
+      ],
+      "correctIndex": 3
+    },
+    {
+      "id": 244,
+      "question": "The lecture's statement \"A good doctor is a good person\" emphasizes the importance of:",
+      "options": [
+        "Character and professionalism",
+        "Wealth",
+        "Social status",
+        "Technical skill alone"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 245,
+      "question": "Which combination best represents the four principles of medical ethics?",
+      "options": [
+        "Autonomy, beneficence, non-maleficence, justice",
+        "Integrity, confidentiality, leadership, research",
+        "Diagnosis, treatment, prevention, rehabilitation",
+        "Equality, wealth, autonomy, leadership"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 246,
+      "question": "Which of the following is most likely to create an ethical dilemma?",
+      "options": [
+        "A situation involving competing ethical considerations",
+        "A routine blood pressure measurement",
+        "A normal physical examination",
+        "Reading a textbook"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 247,
+      "question": "Why is confidentiality important?",
+      "options": [
+        "It protects patient privacy and trust",
+        "It increases advertising",
+        "It benefits pharmaceutical companies",
+        "It eliminates the need for consent"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 248,
+      "question": "Which action would most clearly violate confidentiality?",
+      "options": [
+        "Posting identifiable patient case details on social media",
+        "Discussing a case appropriately with the healthcare team",
+        "Keeping medical records secure",
+        "Explaining treatment to the patient"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 249,
+      "question": "Which situation most directly raises a conflict-of-interest concern?",
+      "options": [
+        "A company paying a medical student to promote its product",
+        "A doctor studying medicine",
+        "A patient asking questions",
+        "A doctor examining a patient"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 250,
+      "question": "The overall goal of medical ethics and professionalism is to promote:",
+      "options": [
+        "Ethical, responsible, patient-centered medical practice",
+        "Physician wealth",
+        "Competition between doctors",
+        "Social-media popularity"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}
