@@ -547,14 +547,14 @@ p {
   }
 }
 
-/* --- KHQR Donation Modal Styling --- */
+/* --- KHQR Donation Modal Styling (Desktop Proportional Polish) --- */
 .donate-card-wide {
   position: relative !important;
-  max-width: 680px !important;
+  max-width: 620px !important;
   width: 90% !important;
   max-height: 85vh !important;
   overflow-y: auto !important;
-  padding: 3.25rem 2rem 2rem 2rem !important;
+  padding: 2.5rem 2rem 1.75rem 2rem !important;
   text-align: left !important;
   align-items: stretch !important;
 }
@@ -587,30 +587,32 @@ p {
 
 .donate-grid {
   display: grid;
-  grid-template-columns: 1fr 230px;
-  gap: 2rem;
-  align-items: center;
-  margin-top: 0.75rem;
+  grid-template-columns: 1fr 190px; /* Balanced column proportion for 100% zoom */
+  gap: 1.75rem;
+  align-items: center; /* Vertically centers text and QR together */
+  margin-top: 0.5rem;
   margin-bottom: 1.5rem;
 }
 
 .donate-info {
   text-align: left;
-  align-self: start;
-  padding-top: 0.75rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 
 .donate-tagline {
   font-size: 0.95rem;
   color: var(--text-sub);
-  line-height: 1.5;
+  line-height: 1.6;
   margin-bottom: 0.75rem;
 }
 
 .donate-cta {
-  font-size: 1.15rem;
+  font-size: 1.2rem;
   font-weight: 700;
   color: var(--text-main);
+  line-height: 1.35;
   margin: 0;
 }
 
@@ -618,21 +620,19 @@ p {
   display: flex !important;
   justify-content: center !important;
   align-items: center !important;
-  align-self: center !important;
-  max-width: 220px !important;
-  margin: 0 auto !important;
+  width: 100% !important;
 }
 
 .donate-qr-wrapper img,
 .khqr-card-img {
   width: 100% !important;
-  max-width: 220px !important;
+  max-width: 190px !important;
+  max-height: 260px !important; /* Prevents standee image from blowing up vertically */
   height: auto !important;
   object-fit: contain !important;
   border-radius: 12px !important;
   box-shadow: 0 8px 24px rgba(0, 0, 0, 0.35);
 }
-
 .donate-founder-section {
   border-top: 1px solid var(--border-color);
   padding-top: 1.25rem;
