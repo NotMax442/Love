@@ -64,7 +64,9 @@ let currentQuestionIndex = 0;
 let userScore = 0;
 let studyAnsweredCount = 0;
 let activeExportSubjectKey = null;
-
+let currentScreen = 'landing-screen'; // Track active screen
+let currentYear = null;
+let currentSubject = '';
 // Bulk Selection State
 let isSelectMode = false;
 let selectedSubjectKeys = new Set();
@@ -214,6 +216,8 @@ window.addEventListener('beforeunload', (e) => {
 function navigateTo(screenId, isBackAction = false) {
   clearInterval(timerInterval);
   cancelAutoScroll();
+
+  currentScreen = screenId; // Update state
 
   screens.forEach(screen => screen.classList.add('hidden'));
   const targetScreen = document.getElementById(screenId);
@@ -974,7 +978,6 @@ const myFeedbackList = document.getElementById('my-feedback-list');
 
 let pendingFeedbackPayload = null;
 
-// --- Fetch Internet Time via Worker Proxy (Fixes CORS & Prevents Clock Tampering) ---
 async function getInternetTime() {
   try {
     const response = await fetch(`${WORKER_URL}/time`);
@@ -986,7 +989,6 @@ async function getInternetTime() {
   }
 }
 
-// --- Submit Form Listener ---
 if (feedbackForm) {
   feedbackForm.addEventListener('submit', async (e) => {
     e.preventDefault();
@@ -996,7 +998,7 @@ if (feedbackForm) {
 
     if (lastSentTime) {
       const elapsed = nowInternet - parseInt(lastSentTime, 10);
-      const cooldownMs = 30 * 60 * 1000; // 30 minutes
+      const cooldownMs = 30 * 60 * 1000;
 
       if (elapsed < cooldownMs) {
         const remainingMins = Math.ceil((cooldownMs - elapsed) / 60000);
@@ -1022,7 +1024,6 @@ if (cancelFeedbackBtn) {
   });
 }
 
-// --- Send Feedback via Cloudflare Worker Proxy ---
 if (confirmFeedbackBtn) {
   confirmFeedbackBtn.addEventListener('click', async () => {
     if (!pendingFeedbackPayload) return;
@@ -1031,7 +1032,6 @@ if (confirmFeedbackBtn) {
     confirmFeedbackBtn.textContent = "Sending... / កំពុងផ្ញើ...";
 
     const { text, file, timestamp } = pendingFeedbackPayload;
-    let telegramMsgId = null;
 
     try {
       const formData = new FormData();
@@ -1045,22 +1045,20 @@ if (confirmFeedbackBtn) {
         body: formData
       });
 
-      if (res.ok) {
-        const data = await res.json();
-        telegramMsgId = data.result ? data.result.message_id : null;
+      const data = await res.json();
+
+      if (data.ok && data.result) {
+        const telegramMsgId = data.result.message_id;
+        localStorage.setItem('last_feedback_internet_time', timestamp.toString());
+        saveLocalFeedbackLog(text, timestamp, telegramMsgId);
+
+        feedbackForm.reset();
+        alert("✅ Feedback Sent Successfully! / បានផ្ញើដោយជោគជ័យ!");
+      } else {
+        alert(`⚠️ Telegram Error:\n${data.description || 'Failed to deliver message.'}`);
       }
     } catch (err) {
-      console.error(err);
-    }
-
-    if (telegramMsgId) {
-      localStorage.setItem('last_feedback_internet_time', timestamp.toString());
-      saveLocalFeedbackLog(text, timestamp, telegramMsgId);
-
-      feedbackForm.reset();
-      alert("✅ Feedback Sent Successfully! / បានផ្ញើដោយជោគជ័យ!");
-    } else {
-      alert("⚠️ Submission failed. Please check your connection or try again later.");
+      alert(`⚠️ Connection Error:\n${err.message}`);
     }
 
     confirmFeedbackBtn.disabled = false;
@@ -1086,7 +1084,6 @@ function saveLocalFeedbackLog(text, timestamp, msgId) {
   localStorage.setItem('my_submitted_feedbacks', JSON.stringify(logs));
 }
 
-// --- Check Telegram Replies via Proxy ---
 async function syncFeedbackStatusWithTelegram() {
   const raw = localStorage.getItem('my_submitted_feedbacks');
   if (!raw) return;
@@ -1159,48 +1156,62 @@ async function renderMyFeedbacks() {
   });
 }
 
-const originalNavigateTo = navigateTo;
-navigateTo = function(screenId, isBackAction = false) {
-  originalNavigateTo(screenId, isBackAction);
+// ==========================================================================
+// ASYNC CUSTOM LEAVE CONFIRMATION MODAL & NAVIGATION GUARD
+// ==========================================================================
+
+function showLeaveConfirmModal() {
+  return new Promise((resolve) => {
+    const modal = document.getElementById('leave-confirm-modal');
+    const confirmBtn = document.getElementById('leave-confirm-btn');
+    const cancelBtn = document.getElementById('leave-cancel-btn');
+
+    if (!modal) return resolve(true);
+
+    modal.classList.remove('hidden');
+
+    const handleConfirm = () => {
+      cleanup();
+      resolve(true);
+    };
+
+    const handleCancel = () => {
+      cleanup();
+      resolve(false);
+    };
+
+    function cleanup() {
+      modal.classList.add('hidden');
+      confirmBtn.removeEventListener('click', handleConfirm);
+      cancelBtn.removeEventListener('click', handleCancel);
+    }
+
+    confirmBtn.addEventListener('click', handleConfirm);
+    cancelBtn.addEventListener('click', handleCancel);
+  });
+}
+
+const baseNavigateTo = navigateTo;
+
+navigateTo = async function(screenId, isBackAction = false) {
+  const isCurrentlyStudying = (currentScreen === 'quiz-screen');
+
+  if (isCurrentlyStudying && screenId !== currentScreen) {
+    const userWantsToLeave = await showLeaveConfirmModal();
+    if (!userWantsToLeave) return;
+  }
+
+  baseNavigateTo(screenId, isBackAction);
+
   if (screenId === 'contact-screen') {
     renderMyFeedbacks();
   }
 };
 
-// ==========================================================================
-// ACCIDENTAL LEAVE GUARD FOR ACTIVE STUDY SESSIONS
-// ==========================================================================
-
-// 1. Intercept internal navigation clicks (top navbar buttons)
-const baseNavigateTo = navigateTo;
-
-navigateTo = function(screenId, isBackAction = false) {
-  // Check if user is on the active study screen (e.g., 'quiz-screen' or 'study-screen')
-  // Adjust 'quiz-screen' to your exact active study screen element ID
-  const isCurrentlyStudying = (currentScreen === 'quiz-screen' || currentScreen === 'study-screen');
-
-  // If active and trying to navigate to a different screen
-  if (isCurrentlyStudying && screenId !== currentScreen) {
-    const confirmLeave = confirm(
-      "⚠️ Leave Study Session? / តើអ្នកពិតជាចង់ចាកចេញឬ?\n\n" +
-      "🇬🇧 Your active test progress will be lost.\n" +
-      "🇰🇭 ការវិវឌ្ឍនៃការធ្វើតេស្តរបស់អ្នកនឹងត្រូវបាត់បង់។"
-    );
-
-    if (!confirmLeave) {
-      return; // Stop navigation if user cancels
-    }
-  }
-
-  // Proceed with normal navigation if confirmed or not studying
-  baseNavigateTo(screenId, isBackAction);
-};
-
-// 2. Prevent accidental browser reload or closing the tab
 window.addEventListener('beforeunload', (e) => {
-  const isCurrentlyStudying = (currentScreen === 'quiz-screen' || currentScreen === 'study-screen');
+  const isCurrentlyStudying = (currentScreen === 'quiz-screen');
   if (isCurrentlyStudying) {
     e.preventDefault();
-    e.returnValue = ''; // Required trigger for modern browser warning dialogs
+    e.returnValue = '';
   }
 });
