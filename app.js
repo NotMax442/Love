@@ -138,7 +138,7 @@ const translations = {
     donate_modal_title: "☕ Support testforuhs.com",
     donate_modal_desc: "Your donations help keep the platform free, maintain servers, and add new study features!",
     btn_close: "Close",
-    donate_tagline: "1$, 3$, 5$, 10$, 20$ ... every little bit is greatly appreciated! Thank you for your support 😊",
+    donate_tagline: "Every little bit is greatly appreciated! Thank you for your support 😊",
     donate_cta: "You may donate through our KHQR here.",
     founder_quote: "\"A new step in the right direction, a more promising one\"",
     founder_text_km: "ដោយមានជំនួយពីពួកអ្នក ពួគយើងនឹងបន្តធ្វើឱ្យ​ TestforUHS​ កាន់តែអស្ចារ្យឡើង។ សូមអរគុណក្នុងការគាំទ្ររហូតមក។",
