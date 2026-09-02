@@ -805,3 +805,22 @@ p {
     border-radius: 8px !important;
   }
 }
+/* Center Support Us navigation button when wrapped onto its own row */
+#nav-donate-btn {
+  margin: 0 auto !important;
+  text-align: center !important;
+}
+
+@media (max-width: 640px) {
+  .nav-links {
+    display: flex !important;
+    flex-wrap: wrap !important;
+    justify-content: center !important;
+  }
+
+  #nav-donate-btn {
+    width: 100% !important;
+    max-width: 200px !important;
+    margin: 0.25rem auto 0 auto !important;
+  }
+}
