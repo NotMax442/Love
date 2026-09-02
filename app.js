@@ -1480,6 +1480,11 @@ window.addEventListener('beforeunload', (e) => {
 const navDonateBtn = document.getElementById('nav-donate-btn');
 const donateModal = document.getElementById('donate-modal');
 const closeDonateBtn = document.getElementById('close-donate-btn');
+const bottomCloseDonateBtn = document.getElementById('bottom-close-donate-btn');
+
+function closeDonateModal() {
+  if (donateModal) donateModal.classList.add('hidden');
+}
 
 if (navDonateBtn) {
   navDonateBtn.addEventListener('click', () => {
@@ -1487,8 +1492,14 @@ if (navDonateBtn) {
   });
 }
 
-if (closeDonateBtn) {
-  closeDonateBtn.addEventListener('click', () => {
-    if (donateModal) donateModal.classList.add('hidden');
+if (closeDonateBtn) closeDonateBtn.addEventListener('click', closeDonateModal);
+if (bottomCloseDonateBtn) bottomCloseDonateBtn.addEventListener('click', closeDonateModal);
+
+// Close modal when clicking outside on the backdrop
+if (donateModal) {
+  donateModal.addEventListener('click', (e) => {
+    if (e.target === donateModal) {
+      closeDonateModal();
+    }
   });
 }
