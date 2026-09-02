@@ -41,7 +41,10 @@ setInterval(() => {
   }
 }, 1000);
 
-// DOM Element Selectors
+// ==========================================================================
+// DOM ELEMENT SELECTORS
+// ==========================================================================
+
 const screens = document.querySelectorAll('.screen');
 const enterStudyBtn = document.getElementById('enter-study-btn');
 const yearCards = document.querySelectorAll('.year-card');
@@ -77,6 +80,10 @@ const progressBarFillEl = document.getElementById('progress-bar-fill');
 const reviewContainer = document.getElementById('review-container');
 const accountSubjectList = document.getElementById('account-subject-list');
 
+// Review Filter Selectors
+const filterWrongBtn = document.getElementById('filter-wrong-btn');
+const filterAllBtn = document.getElementById('filter-all-btn');
+
 // Theme Toggle Selector
 const themeToggleBtn = document.getElementById('theme-toggle-btn');
 
@@ -95,6 +102,10 @@ const ankiModal = document.getElementById('anki-modal');
 const ankiKeepBtn = document.getElementById('anki-keep-btn');
 const ankiClearBtn = document.getElementById('anki-clear-btn');
 const ankiCancelBtn = document.getElementById('anki-cancel-btn');
+
+// ==========================================================================
+// LOCALIZATION & TRANSLATIONS
+// ==========================================================================
 
 const translations = {
   en: {
@@ -222,7 +233,6 @@ function setLanguage(lang) {
   if (langSelect) langSelect.value = lang;
 }
 
-// Initialize Language Switcher on Load
 document.addEventListener('DOMContentLoaded', () => {
   const langSelect = document.getElementById('language-select');
   setLanguage(currentLang);
@@ -234,7 +244,10 @@ document.addEventListener('DOMContentLoaded', () => {
   }
 });
 
-// Corrected Global App State
+// ==========================================================================
+// GLOBAL APPLICATION STATE
+// ==========================================================================
+
 let currentYear = null;
 let currentSubject = '';
 let currentMode = 'study';
@@ -246,9 +259,10 @@ let userScore = 0;
 let studyAnsweredCount = 0;
 let activeExportSubjectKey = null;
 let currentScreen = 'landing-screen';
-let isSessionActive = false; // Track active study/quiz session state
+let isSessionActive = false; 
+let currentReviewFilter = 'wrong'; // Default review view: 'wrong' only
 
-// Bulk Select State
+// Bulk Selection State
 let isSelectMode = false;
 let selectedSubjectKeys = new Set();
 
@@ -267,7 +281,10 @@ const manifestData = {
   "6": ["MED-PRO"]
 };
 
-// --- Theme Toggle Logic ---
+// ==========================================================================
+// THEME SWITCHER
+// ==========================================================================
+
 function applyTheme(theme) {
   if (theme === 'light') {
     document.documentElement.setAttribute('data-theme', 'light');
@@ -295,7 +312,10 @@ function getStorageKey(year = currentYear, subject = currentSubject) {
   return `missed_y${year}_${subject.toLowerCase()}`;
 }
 
-// --- Vault Mastery Manager ---
+// ==========================================================================
+// VAULT MASTERY MANAGER (Streak >= 2 Removes Question Automatically)
+// ==========================================================================
+
 function recordQuestionResult(questionObj, isCorrect, year = currentYear, subject = currentSubject) {
   const key = getStorageKey(year, subject);
   const raw = localStorage.getItem(key);
@@ -351,7 +371,10 @@ window.addEventListener('keydown', (e) => {
   }
 });
 
-// --- Leave Confirmation Modal Helper ---
+// ==========================================================================
+// NAVIGATION ROUTER & MODAL GUARDS
+// ==========================================================================
+
 function showLeaveConfirmModal() {
   return new Promise((resolve) => {
     const modal = document.getElementById('leave-confirm-modal');
@@ -383,7 +406,6 @@ function showLeaveConfirmModal() {
   });
 }
 
-// --- Single Navigation & Screen Router ---
 async function navigateTo(screenId, isBackAction = false) {
   // Check if leaving an active session midway (bypassed if navigating to result screen)
   if (currentScreen === 'quiz-screen' && isSessionActive && screenId !== 'result-screen') {
@@ -525,7 +547,10 @@ if (quitSessionBtn) {
 
 const loadingOverlay = document.getElementById('loading-overlay');
 
-// --- Dynamic Localized Subject Cards Rendering ---
+// ==========================================================================
+// SUBJECT LISTING & CARDS
+// ==========================================================================
+
 function loadSubjectsForYear(year) {
   if (!subjectList) return;
   subjectList.innerHTML = '';
@@ -569,7 +594,10 @@ function loadSubjectsForYear(year) {
   });
 }
 
-// --- Session Initialization with Loading Spinner ---
+// ==========================================================================
+// SESSION INITIALIZATION & QUESTION LOADING
+// ==========================================================================
+
 async function startSession(subjectName, mode) {
   currentSubject = subjectName;
   currentMode = mode;
@@ -598,8 +626,9 @@ async function startSession(subjectName, mode) {
 
     if (mode === 'quiz') {
       processedQuestions = processedQuestions.slice(0, 60);
-      userAnswers = new Array(processedQuestions.length).fill(null);
     }
+
+    userAnswers = new Array(processedQuestions.length).fill(null);
 
     questions = processedQuestions.map(q => {
       const originalCorrectText = q.options[q.correctIndex];
@@ -630,7 +659,6 @@ async function startSession(subjectName, mode) {
   }
 }
 
-// --- Review Missed Session Launcher ---
 function startMissedSession(subjectName) {
   currentSubject = subjectName;
   currentMode = 'study';
@@ -648,6 +676,8 @@ function startMissedSession(subjectName) {
   if (sessionInfo) {
     sessionInfo.textContent = `Year ${currentYear} - ${subjectName} (REVIEW MISSED MODE)`;
   }
+
+  userAnswers = new Array(rawMissed.length).fill(null);
 
   questions = shuffleArray(rawMissed).map(q => {
     const originalCorrectText = q.options[q.correctIndex];
@@ -702,7 +732,10 @@ function updateTimerUI() {
   timerDisplay.textContent = `⏱️ ${formattedMins}:${formattedSecs}`;
 }
 
-// --- STUDY MODE ---
+// ==========================================================================
+// STUDY MODE LOGIC
+// ==========================================================================
+
 function renderStudyMode() {
   progressText.textContent = `Total Questions: ${questions.length}`;
   questionText.textContent = '';
@@ -740,6 +773,9 @@ function handleStudyOptionClick(qIndex, selectedIndex, selectedBtn, optsDiv) {
   const allBtns = optsDiv.querySelectorAll('.option-btn');
   const isCorrect = selectedIndex === q.correctIndex;
 
+  // Track answer for results review breakdown
+  userAnswers[qIndex] = selectedIndex;
+
   allBtns.forEach(btn => btn.style.pointerEvents = 'none');
 
   if (isCorrect) {
@@ -772,7 +808,10 @@ function handleStudyOptionClick(qIndex, selectedIndex, selectedBtn, optsDiv) {
   }, 1000);
 }
 
-// --- QUIZ MODE ---
+// ==========================================================================
+// QUIZ MODE LOGIC
+// ==========================================================================
+
 function renderQuizQuestion() {
   nextBtn.classList.add('hidden');
   optionsContainer.innerHTML = '';
@@ -841,24 +880,71 @@ function finishQuiz() {
     recordQuestionResult(q, isCorrect);
   });
   
-  isSessionActive = false; // Mark test completed
+  isSessionActive = false;
   showResults();
+}
+
+// ==========================================================================
+// RESULTS SCREEN & REVIEW BREAKDOWN (FILTER SUPPORT)
+// ==========================================================================
+
+if (filterWrongBtn) {
+  filterWrongBtn.addEventListener('click', () => {
+    currentReviewFilter = 'wrong';
+    renderReviewBreakdown();
+  });
+}
+
+if (filterAllBtn) {
+  filterAllBtn.addEventListener('click', () => {
+    currentReviewFilter = 'all';
+    renderReviewBreakdown();
+  });
 }
 
 function renderReviewBreakdown() {
   if (!reviewContainer) return;
   reviewContainer.innerHTML = '';
 
+  // Update button active styling
+  if (filterWrongBtn && filterAllBtn) {
+    if (currentReviewFilter === 'wrong') {
+      filterWrongBtn.className = 'btn primary-btn';
+      filterAllBtn.className = 'btn secondary-btn';
+    } else {
+      filterWrongBtn.className = 'btn secondary-btn';
+      filterAllBtn.className = 'btn primary-btn';
+    }
+  }
+
+  // Filter questions based on active toggle
+  const itemsToDisplay = [];
   questions.forEach((q, idx) => {
     const userChoiceIdx = userAnswers[idx];
     const isCorrect = userChoiceIdx !== null && userChoiceIdx === q.correctIndex;
 
+    if (currentReviewFilter === 'all' || !isCorrect) {
+      itemsToDisplay.push({ q, idx, userChoiceIdx, isCorrect });
+    }
+  });
+
+  // Display perfect score celebration if no wrong answers on 'wrong' filter
+  if (itemsToDisplay.length === 0 && currentReviewFilter === 'wrong') {
+    reviewContainer.innerHTML = `
+      <div class="score-card" style="text-align: center; padding: 1.5rem;">
+        <p style="margin: 0; color: #10b981; font-weight: 600;">🎉 Perfect score! You answered all questions correctly!</p>
+      </div>
+    `;
+    return;
+  }
+
+  itemsToDisplay.forEach(({ q, idx, userChoiceIdx, isCorrect }) => {
     const card = document.createElement('div');
     card.classList.add('review-card', isCorrect ? 'correct' : 'incorrect');
 
     const userChoiceText = (userChoiceIdx !== null && userChoiceIdx !== undefined)
       ? q.options[userChoiceIdx]
-      : "⚠️ No Answer (Timed Out)";
+      : "⚠️ Unanswered / Skipped";
 
     card.innerHTML = `
       <h4>${idx + 1}. ${q.question}</h4>
@@ -897,11 +983,11 @@ function showResults() {
     }, 150);
   }
 
-  if (currentMode === 'quiz') {
-    renderReviewBreakdown();
-  } else if (reviewContainer) {
-    reviewContainer.innerHTML = '';
-  }
+  // Reset filter to 'wrong' by default for every session completion
+  currentReviewFilter = 'wrong';
+
+  // Render review list for BOTH Quiz and Study modes
+  renderReviewBreakdown();
 
   const savedMissed = localStorage.getItem(getStorageKey());
   const missedList = savedMissed ? JSON.parse(savedMissed) : [];
