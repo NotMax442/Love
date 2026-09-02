@@ -53,6 +53,89 @@ const ankiKeepBtn = document.getElementById('anki-keep-btn');
 const ankiClearBtn = document.getElementById('anki-clear-btn');
 const ankiCancelBtn = document.getElementById('anki-cancel-btn');
 
+// ==========================================================================
+// TRANSLATION ENGINE & DICTIONARY
+// ==========================================================================
+
+const translations = {
+  en: {
+    nav_home: "HOME",
+    nav_about: "ABOUT",
+    nav_contact: "CONTACT US",
+    nav_account: "MY ACCOUNT",
+    landing_title: "Medical Study Platform",
+    landing_sub: "Select your year, review saved missed questions, or test your knowledge.",
+    btn_start_study: "🚀 Start Studying",
+    btn_cancel: "Cancel",
+    btn_leave: "Leave",
+    leave_modal_title: "⚠️ Leave Study Session?",
+    leave_modal_desc: "Your active test progress will be lost.",
+    contact_title: "Report Question Error",
+    contact_notice: "Found an incorrect question or answer? Send us a report below!",
+    contact_desc_label: "Description:",
+    contact_submit_btn: "📤 Send Feedback",
+    cooldown_alert: "⏱️ Cooldown Active:\nPlease wait {mins} minute(s) before sending feedback again."
+  },
+  km: {
+    nav_home: "ទំព័រដើម",
+    nav_about: "អំពីពួកយើង",
+    nav_contact: "ទំនាក់ទំនង",
+    nav_account: "គណនីខ្ញុំ",
+    landing_title: "កម្មវិធីសិក្សាវេជ្ជសាស្ត្រ",
+    landing_sub: "ជ្រើសរើសឆ្នាំសិក្សា រំលឹកសំណួរដែលខុស ឬប្រឡងតេស្តសមត្ថភាព។",
+    btn_start_study: "🚀 ចាប់ផ្តើមសិក្សា",
+    btn_cancel: "បោះបង់",
+    btn_leave: "ចាកចេញ",
+    leave_modal_title: "⚠️ តើអ្នកពិតជាចង់ចាកចេញឬ?",
+    leave_modal_desc: "ការវិវឌ្ឍនៃការធ្វើតេស្តរបស់អ្នកនឹងត្រូវបាត់បង់។",
+    contact_title: "ផ្តល់មតិត្រឡប់ / រាយការណ៍កំហុស",
+    contact_notice: "តើអ្នកប្រទះឃើញសំណួរ ឬចម្លើយមិនត្រឹមត្រូវមែនទេ? សូមផ្ញើការរាយការណ៍មកកាន់យើង!",
+    contact_desc_label: "ការបរិយាយ:",
+    contact_submit_btn: "📤 ផ្ញើការរាយការណ៍",
+    cooldown_alert: "⏱️ រយៈពេលរង់ចាំ:\nសូមរង់ចាំ {mins} នាទីទៀតមុនពេលផ្ញើម្តងទៀត។"
+  }
+};
+
+let currentLang = localStorage.getItem('app_language') || 'en';
+
+function setLanguage(lang) {
+  currentLang = lang;
+  localStorage.setItem('app_language', lang);
+  document.documentElement.setAttribute('lang', lang);
+
+  // Update text elements with data-i18n attribute
+  document.querySelectorAll('[data-i18n]').forEach(el => {
+    const key = el.getAttribute('data-i18n');
+    if (translations[lang] && translations[lang][key]) {
+      el.textContent = translations[lang][key];
+    }
+  });
+
+  // Update inputs/textareas with data-i18n-placeholder attribute
+  document.querySelectorAll('[data-i18n-placeholder]').forEach(el => {
+    const key = el.getAttribute('data-i18n-placeholder');
+    if (translations[lang] && translations[lang][key]) {
+      el.placeholder = translations[lang][key];
+    }
+  });
+
+  // Sync dropdown UI
+  const langSelect = document.getElementById('language-select');
+  if (langSelect) langSelect.value = lang;
+}
+
+// Initialize Language Switcher on Load
+document.addEventListener('DOMContentLoaded', () => {
+  const langSelect = document.getElementById('language-select');
+  setLanguage(currentLang);
+
+  if (langSelect) {
+    langSelect.addEventListener('change', (e) => {
+      setLanguage(e.target.value);
+    });
+  }
+});
+
 // Corrected App State
 let currentYear = null;
 let currentSubject = '';
