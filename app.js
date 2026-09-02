@@ -502,13 +502,8 @@ if (restartBtn) {
 }
 
 if (quitSessionBtn) {
-  quitSessionBtn.addEventListener('click', async () => {
-    const isConfirmed = await showCustomConfirm();
-    if (isConfirmed) {
-      clearInterval(timerInterval);
-      cancelAutoScroll();
-      navigateTo('subject-screen');
-    }
+  quitSessionBtn.addEventListener('click', () => {
+    navigateTo('subject-screen');
   });
 }
 
