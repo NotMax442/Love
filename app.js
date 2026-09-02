@@ -450,12 +450,16 @@ const loadingOverlay = document.getElementById('loading-overlay');
 
 // --- Dynamic Localized Subject Cards Rendering ---
 function loadSubjectsForYear(year) {
+  if (!subjectList) return;
   subjectList.innerHTML = '';
   const subjects = manifestData[year] || [];
   const t = translations[currentLang] || translations.en;
 
+  // Dynamically translate header
   if (selectedYearTitle) {
-    selectedYearTitle.textContent = t.subjects_header ? t.subjects_header.replace('{year}', year) : `Year ${year} Subjects`;
+    selectedYearTitle.textContent = t.subjects_header 
+      ? t.subjects_header.replace('{year}', year) 
+      : `Year ${year} Subjects`;
   }
 
   subjects.forEach(subject => {
@@ -466,7 +470,9 @@ function loadSubjectsForYear(year) {
     const subjectCard = document.createElement('div');
     subjectCard.classList.add('subject-card');
 
-    const badgeText = t.missed_badge ? t.missed_badge.replace('{count}', missedCount) : `⚠️ ${missedCount} saved missed questions`;
+    const badgeText = t.missed_badge 
+      ? t.missed_badge.replace('{count}', missedCount) 
+      : `⚠️ ${missedCount} saved missed question(s)`;
 
     subjectCard.innerHTML = `
       <h3>${subject}</h3>
@@ -486,7 +492,6 @@ function loadSubjectsForYear(year) {
     subjectList.appendChild(subjectCard);
   });
 }
-
 // --- Session Initialization with Loading Spinner ---
 async function startSession(subjectName, mode) {
   currentSubject = subjectName;
