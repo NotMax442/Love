@@ -1063,21 +1063,21 @@ function renderAccountDashboard() {
   });
 
   if (totalMissedAcrossApp === 0) {
-  if (toggleSelectModeBtn) toggleSelectModeBtn.classList.add('hidden');
-  if (bulkControls) bulkControls.classList.add('hidden');
-  
-  const emptyText = translations[currentLang]?.account_empty_vault 
-    || "🎉 Fantastic! You have 0 missed questions in your vault.";
+    if (toggleSelectModeBtn) toggleSelectModeBtn.classList.add('hidden');
+    if (bulkControls) bulkControls.classList.add('hidden');
+    
+    const emptyText = translations[currentLang]?.account_empty_vault 
+      || "🎉 Fantastic! You have 0 missed questions in your vault.";
 
-  accountSubjectList.innerHTML = `
-    <div class="score-card" style="text-align: center; padding: 2rem;">
-      <p style="margin: 0; color: var(--text-sub);" data-i18n="account_empty_vault">${emptyText}</p>
-    </div>
-  `;
-} else {
-  if (toggleSelectModeBtn) toggleSelectModeBtn.classList.remove('hidden');
-}
-
+    accountSubjectList.innerHTML = `
+      <div class="score-card" style="text-align: center; padding: 2rem;">
+        <p style="margin: 0; color: var(--text-sub);" data-i18n="account_empty_vault">${emptyText}</p>
+      </div>
+    `;
+  } else {
+    if (toggleSelectModeBtn) toggleSelectModeBtn.classList.remove('hidden');
+  }
+} 
 function launchAccountReview(year, subject) {
   currentYear = year;
   currentSubject = subject;
