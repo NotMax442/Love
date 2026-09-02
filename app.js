@@ -74,7 +74,10 @@ const translations = {
     contact_notice: "Found an incorrect question or answer? Send us a report below!",
     contact_desc_label: "Description:",
     contact_submit_btn: "📤 Send Feedback",
-    cooldown_alert: "⏱️ Cooldown Active:\nPlease wait {mins} minute(s) before sending feedback again."
+    cooldown_alert: "⏱️ Cooldown Active:\nPlease wait {mins} minute(s) before sending feedback again.",
+    btn_back: "⬅️ Back",
+    account_title: "My Account & Vault",
+    account_empty_vault: "🎉 Fantastic! You have 0 missed questions in your vault."
   },
   km: {
     nav_home: "ទំព័រដើម",
@@ -92,7 +95,10 @@ const translations = {
     contact_notice: "តើអ្នកប្រទះឃើញសំណួរ ឬចម្លើយមិនត្រឹមត្រូវមែនទេ? សូមផ្ញើការរាយការណ៍មកកាន់យើង!",
     contact_desc_label: "ការបរិយាយ:",
     contact_submit_btn: "📤 ផ្ញើការរាយការណ៍",
-    cooldown_alert: "⏱️ រយៈពេលរង់ចាំ:\nសូមរង់ចាំ {mins} នាទីទៀតមុនពេលផ្ញើម្តងទៀត។"
+    cooldown_alert: "⏱️ រយៈពេលរង់ចាំ:\nសូមរង់ចាំ {mins} នាទីទៀតមុនពេលផ្ញើម្តងទៀត។",
+    _back: "⬅️ ត្រឡប់ក្រោយ",
+    account_title: "គណនី និងឃ្លាំងសំណួររបស់ខ្ញុំ",
+    account_empty_vault: "🎉 អស្ចារ្យណាស់! អ្នកគ្មានសំណួរដែលខុសនៅក្នុងឃ្លាំងទេ។"
   }
 };
 
