@@ -1505,3 +1505,34 @@ if (donateModal) {
     }
   });
 }
+// ==========================================================================
+// PRIVACY POLICY MODAL LOGIC
+// ==========================================================================
+
+const openPrivacyBtn = document.getElementById('open-privacy-btn');
+const privacyModal = document.getElementById('privacy-modal');
+const closePrivacyBtn = document.getElementById('close-privacy-btn');
+const bottomClosePrivacyBtn = document.getElementById('bottom-close-privacy-btn');
+
+function closePrivacyModal() {
+  if (privacyModal) privacyModal.classList.add('hidden');
+}
+
+if (openPrivacyBtn) {
+  openPrivacyBtn.addEventListener('click', (e) => {
+    e.preventDefault();
+    if (privacyModal) privacyModal.classList.remove('hidden');
+  });
+}
+
+if (closePrivacyBtn) closePrivacyBtn.addEventListener('click', closePrivacyModal);
+if (bottomClosePrivacyBtn) bottomClosePrivacyBtn.addEventListener('click', closePrivacyModal);
+
+// Close modal when clicking dark background overlay
+if (privacyModal) {
+  privacyModal.addEventListener('click', (e) => {
+    if (e.target === privacyModal) {
+      closePrivacyModal();
+    }
+  });
+}
