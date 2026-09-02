@@ -717,3 +717,22 @@ p {
 .modal-close-icon:hover {
   color: #ef4444 !important;
 }
+
+/* Hard constraints for KHQR image size */
+.donate-qr-wrapper {
+  display: flex !important;
+  justify-content: center !important;
+  align-items: center !important;
+  max-width: 220px !important;
+  margin: 0 auto !important;
+}
+
+.donate-qr-wrapper img,
+.khqr-card-img {
+  width: 100% !important;
+  max-width: 220px !important;
+  height: auto !important;
+  object-fit: contain !important;
+  border-radius: 12px !important;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.35);
+}
