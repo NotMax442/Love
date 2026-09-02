@@ -140,25 +140,35 @@
 </div>
 
     <!-- Year Selection Screen -->
-    <div id="year-screen" class="screen hidden">
-      <button id="back-to-landing-btn" class="btn back-btn">⬅️ Back</button>
-      <h2>Select Academic Year</h2>
-      <div class="year-grid">
-        <div class="year-card" data-year="1">Year 1</div>
-        <div class="year-card" data-year="2">Year 2</div>
-        <div class="year-card" data-year="3">Year 3</div>
-        <div class="year-card" data-year="4">Year 4</div>
-        <div class="year-card" data-year="5">Year 5</div>
-        <div class="year-card" data-year="6">Year 6</div>
-      </div>
-    </div>
+<div id="year-screen" class="screen hidden">
+  <button id="back-to-landing-btn" class="btn back-btn" data-i18n="btn_back">⬅️ Back</button>
+  <h2 data-i18n="year_selection_title">Select Academic Year</h2>
+  <div class="year-grid">
+    <div class="year-card" data-year="1" data-i18n="year_1">Year 1</div>
+    <div class="year-card" data-year="2" data-i18n="year_2">Year 2</div>
+    <div class="year-card" data-year="3" data-i18n="year_3">Year 3</div>
+    <div class="year-card" data-year="4" data-i18n="year_4">Year 4</div>
+    <div class="year-card" data-year="5" data-i18n="year_5">Year 5</div>
+    <div class="year-card" data-year="6" data-i18n="year_6">Year 6</div>
+  </div>
+</div>
 
-    <!-- Subject Selection Screen -->
-    <div id="subject-screen" class="screen hidden">
-      <button id="back-to-years-btn" class="btn back-btn">⬅️ Back to Years</button>
-      <h2 id="selected-year-title">Subjects</h2>
-      <div id="subject-list" class="subject-grid"></div>
-    </div>
+<!-- Subject Selection Screen -->
+<div id="subject-screen" class="screen hidden">
+  <button id="back-to-years-btn" class="btn back-btn" data-i18n="btn_back_years">⬅️ Back to Years</button>
+  <h2 id="selected-year-title">Subjects</h2>
+  <div id="subject-list" class="subject-grid"></div>
+</div>
+
+<!-- Global Loading Overlay -->
+<div id="loading-overlay" class="modal-overlay hidden">
+  <div class="modal-card" style="text-align: center; padding: 2rem;">
+    <div class="spinner"></div>
+    <p style="margin-top: 1rem; font-weight: 600; color: var(--text-main);" data-i18n="loading_text">
+      Loading Questions... / កំពុងទាញយកសំណួរ...
+    </p>
+  </div>
+</div>
 
     <!-- Quiz / Study Screen -->
     <div id="quiz-screen" class="screen hidden">
