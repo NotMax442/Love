@@ -676,3 +676,20 @@ p {
   color: #10b981;
   border: 1px solid #10b981;
 }
+
+.lang-select {
+  background: var(--bg-card, #1e293b);
+  color: var(--text-main, #ffffff);
+  border: 1px solid var(--border-color, #334155);
+  padding: 0.4rem 0.6rem;
+  border-radius: 8px;
+  font-size: 0.85rem;
+  font-weight: 600;
+  cursor: pointer;
+  outline: none;
+  transition: border-color 0.2s ease;
+}
+
+.lang-select:hover {
+  border-color: var(--primary-color, #0284c7);
+}
