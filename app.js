@@ -53,10 +53,6 @@ const ankiKeepBtn = document.getElementById('anki-keep-btn');
 const ankiClearBtn = document.getElementById('anki-clear-btn');
 const ankiCancelBtn = document.getElementById('anki-cancel-btn');
 
-// ==========================================================================
-// TRANSLATION ENGINE & DICTIONARY
-// ==========================================================================
-
 const translations = {
   en: {
     nav_home: "HOME",
@@ -77,7 +73,23 @@ const translations = {
     cooldown_alert: "⏱️ Cooldown Active:\nPlease wait {mins} minute(s) before sending feedback again.",
     btn_back: "⬅️ Back",
     account_title: "My Account & Vault",
-    account_empty_vault: "🎉 Fantastic! You have 0 missed questions in your vault."
+    account_empty_vault: "🎉 Fantastic! You have 0 missed questions in your vault.",
+    // Year & Subject Selection Keys
+    year_selection_title: "Select Academic Year",
+    year_1: "Year 1",
+    year_2: "Year 2",
+    year_3: "Year 3",
+    year_4: "Year 4",
+    year_5: "Year 5",
+    year_6: "Year 6",
+    btn_back_years: "⬅️ Back to Years",
+    btn_study_all: "📖 Study All",
+    btn_quiz: "📝 Quiz",
+    btn_review_missed: "🎯 Review Missed",
+    btn_clear_missed: "🗑️ Clear Saved Missed",
+    subjects_header: "Year {year} Subjects",
+    missed_badge: "⚠️ {count} saved missed question(s)",
+    loading_text: "Loading Questions... / កំពុងទាញយកសំណួរ..."
   },
   km: {
     nav_home: "ទំព័រដើម",
@@ -96,9 +108,25 @@ const translations = {
     contact_desc_label: "ការបរិយាយ:",
     contact_submit_btn: "📤 ផ្ញើការរាយការណ៍",
     cooldown_alert: "⏱️ រយៈពេលរង់ចាំ:\nសូមរង់ចាំ {mins} នាទីទៀតមុនពេលផ្ញើម្តងទៀត។",
-    _back: "⬅️ ត្រឡប់ក្រោយ",
+    btn_back: "⬅️ ត្រឡប់ក្រោយ",
     account_title: "គណនី និងឃ្លាំងសំណួររបស់ខ្ញុំ",
-    account_empty_vault: "🎉 អស្ចារ្យណាស់! អ្នកគ្មានសំណួរដែលខុសនៅក្នុងឃ្លាំងទេ។"
+    account_empty_vault: "🎉 អស្ចារ្យណាស់! អ្នកគ្មានសំណួរដែលខុសនៅក្នុងឃ្លាំងទេ។",
+    // Year & Subject Selection Keys
+    year_selection_title: "ជ្រើសរើសឆ្នាំសិក្សា",
+    year_1: "ឆ្នាំទី ១",
+    year_2: "ឆ្នាំទី ២",
+    year_3: "ឆ្នាំទី ៣",
+    year_4: "ឆ្នាំទី ៤",
+    year_5: "ឆ្នាំទី ៥",
+    year_6: "ឆ្នាំទី ៦",
+    btn_back_years: "⬅️ ត្រឡប់ទៅឆ្នាំ",
+    btn_study_all: "📖 សិក្សាទាំងអស់",
+    btn_quiz: "📝 ប្រឡងតេស្ត",
+    btn_review_missed: "🎯 រំលឹកសំណួរខុស",
+    btn_clear_missed: "🗑️ លុបសំណួរខុស",
+    subjects_header: "មុខវិជ្ជាឆ្នាំទី {year}",
+    missed_badge: "⚠️ {count} សំណួរខុសដែលបានរក្សាទុក",
+    loading_text: "កំពុងទាញយកសំណួរ..."
   }
 };
 
@@ -417,11 +445,18 @@ if (quitSessionBtn) {
   });
 }
 
-// --- Subject Cards Rendering ---
+const loadingOverlay = document.getElementById('loading-overlay');
+
+// --- Dynamic Localized Subject Cards Rendering ---
 function loadSubjectsForYear(year) {
   subjectList.innerHTML = '';
   const subjects = manifestData[year] || [];
-  
+  const t = translations[currentLang] || translations.en;
+
+  if (selectedYearTitle) {
+    selectedYearTitle.textContent = t.subjects_header ? t.subjects_header.replace('{year}', year) : `Year ${year} Subjects`;
+  }
+
   subjects.forEach(subject => {
     const storageKey = getStorageKey(year, subject);
     const savedMissed = localStorage.getItem(storageKey);
@@ -429,19 +464,21 @@ function loadSubjectsForYear(year) {
 
     const subjectCard = document.createElement('div');
     subjectCard.classList.add('subject-card');
-    
+
+    const badgeText = t.missed_badge ? t.missed_badge.replace('{count}', missedCount) : `⚠️ ${missedCount} saved missed questions`;
+
     subjectCard.innerHTML = `
       <h3>${subject}</h3>
-      ${missedCount > 0 ? `<p class="missed-badge">⚠️ ${missedCount} saved missed question${missedCount > 1 ? 's' : ''}</p>` : ''}
+      ${missedCount > 0 ? `<p class="missed-badge">${badgeText}</p>` : ''}
       
       <div class="subject-actions">
-        <button class="btn study-btn" onclick="startSession('${subject}', 'study')">📖 Study All</button>
-        <button class="btn quiz-btn" onclick="startSession('${subject}', 'quiz')">📝 Quiz</button>
+        <button class="btn study-btn" onclick="startSession('${subject}', 'study')">${t.btn_study_all}</button>
+        <button class="btn quiz-btn" onclick="startSession('${subject}', 'quiz')">${t.btn_quiz}</button>
       </div>
 
       ${missedCount > 0 ? `
-        <button class="btn study-missed-btn" onclick="startMissedSession('${subject}')">🎯 Review Missed (${missedCount})</button>
-        <button class="btn clear-btn" onclick="clearSavedMissed('${subject}')">🗑️ Clear Saved Missed</button>
+        <button class="btn study-missed-btn" onclick="startMissedSession('${subject}')">${t.btn_review_missed} (${missedCount})</button>
+        <button class="btn clear-btn" onclick="clearSavedMissed('${subject}')">${t.btn_clear_missed}</button>
       ` : ''}
     `;
     
@@ -449,6 +486,67 @@ function loadSubjectsForYear(year) {
   });
 }
 
+// --- Session Initialization with Loading Spinner ---
+async function startSession(subjectName, mode) {
+  currentSubject = subjectName;
+  currentMode = mode;
+  currentQuestionIndex = 0;
+  userScore = 0;
+  studyAnsweredCount = 0;
+
+  const savedMissed = localStorage.getItem(getStorageKey());
+  missedQuestions = savedMissed ? JSON.parse(savedMissed) : [];
+
+  if (sessionInfo) {
+    sessionInfo.textContent = `Year ${currentYear} - ${subjectName} (${mode.toUpperCase()} MODE)`;
+  }
+
+  const filePath = `data/year${currentYear}/${subjectName.toLowerCase()}.json`;
+
+  // Show Loading Spinner
+  if (loadingOverlay) loadingOverlay.classList.remove('hidden');
+
+  try {
+    const response = await fetch(`${filePath}?t=${Date.now()}`);
+    if (!response.ok) throw new Error(`File not found at: ${filePath}`);
+    const data = await response.json();
+
+    let processedQuestions = shuffleArray(data.questions);
+
+    if (mode === 'quiz') {
+      processedQuestions = processedQuestions.slice(0, 60);
+      userAnswers = new Array(processedQuestions.length).fill(null);
+    }
+
+    questions = processedQuestions.map(q => {
+      const originalCorrectText = q.options[q.correctIndex];
+      const shuffledOptions = shuffleArray(q.options);
+      const newCorrectIndex = shuffledOptions.indexOf(originalCorrectText);
+
+      return {
+        ...q,
+        options: shuffledOptions,
+        correctIndex: newCorrectIndex
+      };
+    });
+
+    navigateTo('quiz-screen');
+
+    if (currentMode === 'study') {
+      if (timerDisplay) timerDisplay.classList.add('hidden');
+      renderStudyMode();
+    } else {
+      startQuizTimer();
+      renderQuizQuestion();
+    }
+  } catch (error) {
+    alert(`Could not load questions!\nMake sure your file exists at:\n"${filePath}"`);
+    console.error(error);
+  } finally {
+    // Hide Loading Spinner
+    if (loadingOverlay) loadingOverlay.classList.add('hidden');
+  }
+}
 // --- Review Missed Session Launcher ---
 function startMissedSession(subjectName) {
   currentSubject = subjectName;
