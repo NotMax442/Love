@@ -137,7 +137,6 @@ function setLanguage(lang) {
   localStorage.setItem('app_language', lang);
   document.documentElement.setAttribute('lang', lang);
 
-  // Update text elements with data-i18n attribute
   document.querySelectorAll('[data-i18n]').forEach(el => {
     const key = el.getAttribute('data-i18n');
     if (translations[lang] && translations[lang][key]) {
@@ -145,7 +144,6 @@ function setLanguage(lang) {
     }
   });
 
-  // Update inputs/textareas with data-i18n-placeholder attribute
   document.querySelectorAll('[data-i18n-placeholder]').forEach(el => {
     const key = el.getAttribute('data-i18n-placeholder');
     if (translations[lang] && translations[lang][key]) {
@@ -153,7 +151,11 @@ function setLanguage(lang) {
     }
   });
 
-  // Sync dropdown UI
+  // Re-render subjects if user is currently on subject-screen
+  if (currentScreen === 'subject-screen' && currentYear) {
+    loadSubjectsForYear(currentYear);
+  }
+
   const langSelect = document.getElementById('language-select');
   if (langSelect) langSelect.value = lang;
 }
@@ -169,7 +171,6 @@ document.addEventListener('DOMContentLoaded', () => {
     });
   }
 });
-
 // Corrected App State
 let currentYear = null;
 let currentSubject = '';
