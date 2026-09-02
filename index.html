@@ -8,15 +8,50 @@
 </head>
 <body>
   <div class="app-container">
-    <div class="top-bar">
-    <button id="theme-toggle-btn" class="theme-btn">🌙 Dark</button>
-  </div>
+
+    <!-- Top Navigation Bar -->
+    <nav class="main-navbar">
+      <div class="nav-links">
+        <button id="nav-home-btn" class="nav-item">HOME</button>
+        <button id="nav-about-btn" class="nav-item">ABOUT</button>
+        <button id="nav-contact-btn" class="nav-item">CONTACT US</button>
+        <button id="nav-account-btn" class="nav-item">MY ACCOUNT</button>
+      </div>
+      <button id="theme-toggle-btn" class="theme-btn">🌙 Dark</button>
+    </nav>
 
     <!-- Landing Screen -->
     <div id="landing-screen" class="screen">
       <h1>Medical Study Platform</h1>
       <p>Select your year, review saved missed questions, or test your knowledge.</p>
       <button id="enter-study-btn" class="btn primary-btn">🚀 Start Studying</button>
+    </div>
+
+    <!-- About Screen -->
+    <div id="about-screen" class="screen hidden">
+      <button id="back-from-about-btn" class="btn back-btn">⬅️ Back</button>
+      <h2>About Us</h2>
+      <div class="score-card" style="text-align: center; padding: 2rem;">
+        <p style="margin: 0; color: var(--text-sub);">Medical Study & Quiz Platform information coming soon!</p>
+      </div>
+    </div>
+
+    <!-- Contact Screen -->
+    <div id="contact-screen" class="screen hidden">
+      <button id="back-from-contact-btn" class="btn back-btn">⬅️ Back</button>
+      <h2>Contact Us</h2>
+      <div class="score-card" style="text-align: center; padding: 2rem;">
+        <p style="margin: 0; color: var(--text-sub);">Contact options and support details coming soon!</p>
+      </div>
+    </div>
+
+    <!-- My Account Screen -->
+    <div id="account-screen" class="screen hidden">
+      <button id="back-from-account-btn" class="btn back-btn">⬅️ Back</button>
+      <h2>My Account</h2>
+      <div class="score-card" style="text-align: center; padding: 2rem;">
+        <p style="margin: 0; color: var(--text-sub);">Account profile, stats, and settings coming soon!</p>
+      </div>
     </div>
 
     <!-- Year Selection Screen -->
@@ -61,27 +96,27 @@
     </div>
 
     <!-- Result Screen -->
-   <!-- Result Screen -->
-<div id="result-screen" class="screen hidden">
-  <h2>Session Complete!</h2>
-  <div class="score-card">
-    <p id="final-score"></p>
-    <div class="percentage-badge" id="score-percentage">0%</div>
-    <div class="progress-bar-bg">
-      <div id="progress-bar-fill" class="progress-bar-fill"></div>
+    <div id="result-screen" class="screen hidden">
+      <h2>Session Complete!</h2>
+      <div class="score-card">
+        <p id="final-score"></p>
+        <div class="percentage-badge" id="score-percentage">0%</div>
+        <div class="progress-bar-bg">
+          <div id="progress-bar-fill" class="progress-bar-fill"></div>
+        </div>
+      </div>
+
+      <!-- Detailed Question Breakdown Container -->
+      <div id="review-container" class="review-list"></div>
+
+      <div class="result-actions">
+        <button id="retry-missed-btn" class="btn warning-btn hidden">
+          🎯 Retry Missed Questions (<span id="missed-count">0</span>)
+        </button>
+        <button id="restart-btn" class="btn primary-btn">Return</button>
+      </div>
     </div>
-  </div>
 
-  <!-- Detailed Question Breakdown Container -->
-  <div id="review-container" class="review-list"></div>
-
-  <div class="result-actions">
-    <button id="retry-missed-btn" class="btn warning-btn hidden">
-      🎯 Retry Missed Questions (<span id="missed-count">0</span>)
-    </button>
-    <button id="restart-btn" class="btn primary-btn">Return</button>
-  </div>
-</div>
     <!-- Custom Exit Confirmation Modal -->
     <div id="confirm-modal" class="modal-overlay hidden">
       <div class="modal-card">
