@@ -53,23 +53,18 @@ const ankiKeepBtn = document.getElementById('anki-keep-btn');
 const ankiClearBtn = document.getElementById('anki-clear-btn');
 const ankiCancelBtn = document.getElementById('anki-cancel-btn');
 
-// App State
+// Corrected App State
 let currentYear = null;
 let currentSubject = '';
 let currentMode = 'study';
 let questions = [];
-let userAnswers = []; // Tracks user option picks in Quiz Mode
+let userAnswers = []; 
 let missedQuestions = [];
 let currentQuestionIndex = 0;
 let userScore = 0;
 let studyAnsweredCount = 0;
 let activeExportSubjectKey = null;
-let currentScreen = 'landing-screen'; // Track active screen
-let currentYear = null;
-let currentSubject = '';
-// Bulk Selection State
-let isSelectMode = false;
-let selectedSubjectKeys = new Set();
+let currentScreen = 'landing-screen';
 
 // Timer & Auto-scroll State
 let timerInterval = null;
