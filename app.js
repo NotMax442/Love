@@ -974,13 +974,13 @@ const myFeedbackList = document.getElementById('my-feedback-list');
 
 let pendingFeedbackPayload = null;
 
-// --- Fetch Internet Time (Prevents phone clock tampering) ---
+// --- Fetch Internet Time via Worker Proxy (Fixes CORS & Prevents Clock Tampering) ---
 async function getInternetTime() {
   try {
-    const response = await fetch('https://worldtimeapi.org/api/timezone/Etc/UTC');
+    const response = await fetch(`${WORKER_URL}/time`);
     if (!response.ok) throw new Error("Time API unavailable");
     const data = await response.json();
-    return new Date(data.utc_datetime).getTime();
+    return data.timestamp;
   } catch (err) {
     return Date.now();
   }
