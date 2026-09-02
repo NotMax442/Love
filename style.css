@@ -543,21 +543,22 @@ p {
 }
 
 /* --- KHQR Donation Modal Styling --- */
+/* --- Updated KHQR Donation Modal Layout --- */
 .donate-card-wide {
   position: relative !important;
-  max-width: 620px !important;
+  max-width: 680px !important;
   width: 90% !important;
   max-height: 85vh !important;
   overflow-y: auto !important;
-  padding: 2.5rem 1.5rem 1.5rem 1.5rem !important;
+  padding: 3.25rem 2rem 2rem 2rem !important; /* Increased top padding to give X button room */
   text-align: left !important;
   align-items: stretch !important;
 }
 
 .modal-close-icon {
   position: absolute !important;
-  top: 0.75rem !important;
-  right: 1rem !important;
+  top: 1rem !important;
+  right: 1.25rem !important;
   background: rgba(255, 255, 255, 0.1) !important;
   border: 1px solid var(--border-color, #334155) !important;
   color: var(--text-main, #ffffff) !important;
@@ -574,17 +575,12 @@ p {
   transition: all 0.2s ease !important;
 }
 
-.modal-close-icon:hover {
-  background: #ef4444 !important;
-  border-color: #ef4444 !important;
-  color: #ffffff !important;
-}
-
 .donate-grid {
   display: grid;
-  grid-template-columns: 1fr 220px;
-  gap: 1.5rem;
+  grid-template-columns: 1fr 240px;
+  gap: 2rem;
   align-items: center;
+  margin-top: 0.5rem; /* Pushes content safely below the X button zone */
   margin-bottom: 1.5rem;
 }
 
