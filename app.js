@@ -407,15 +407,20 @@ function showLeaveConfirmModal() {
 }
 
 async function navigateTo(screenId, isBackAction = false) {
-  // Check if leaving an active session midway (bypassed if navigating to result screen)
+  // Check if leaving an active session midway
   if (currentScreen === 'quiz-screen' && isSessionActive && screenId !== 'result-screen') {
     const userWantsToLeave = await showLeaveConfirmModal();
     if (!userWantsToLeave) return;
-    isSessionActive = false; // Mark session inactive upon confirmed leave
+    isSessionActive = false; 
   }
 
   clearInterval(timerInterval);
   cancelAutoScroll();
+
+  // 🎯 FIX: Always reset scroll position to top when switching screens
+  window.scrollTo(0, 0);
+  document.body.scrollTop = 0; // For Safari
+  document.documentElement.scrollTop = 0;
 
   currentScreen = screenId;
 
