@@ -32,9 +32,26 @@ const timerDisplay = document.getElementById('timer-display');
 const scorePercentageEl = document.getElementById('score-percentage');
 const progressBarFillEl = document.getElementById('progress-bar-fill');
 const reviewContainer = document.getElementById('review-container');
+const accountSubjectList = document.getElementById('account-subject-list');
 
 // Theme Toggle Selector
 const themeToggleBtn = document.getElementById('theme-toggle-btn');
+
+// Bulk Selection & Deletion Selectors
+const toggleSelectModeBtn = document.getElementById('toggle-select-mode-btn');
+const bulkControls = document.getElementById('bulk-controls');
+const selectAllBtn = document.getElementById('select-all-btn');
+const deleteSelectedBtn = document.getElementById('delete-selected-btn');
+const deleteConfirmModal = document.getElementById('delete-confirm-modal');
+const confirmDeleteBtn = document.getElementById('confirm-delete-btn');
+const cancelDeleteBtn = document.getElementById('cancel-delete-btn');
+const deleteWarningText = document.getElementById('delete-warning-text');
+
+// Anki Export Modal Selectors
+const ankiModal = document.getElementById('anki-modal');
+const ankiKeepBtn = document.getElementById('anki-keep-btn');
+const ankiClearBtn = document.getElementById('anki-clear-btn');
+const ankiCancelBtn = document.getElementById('anki-cancel-btn');
 
 // App State
 let currentYear = null;
@@ -46,6 +63,11 @@ let missedQuestions = [];
 let currentQuestionIndex = 0;
 let userScore = 0;
 let studyAnsweredCount = 0;
+let activeExportSubjectKey = null;
+
+// Bulk Selection State
+let isSelectMode = false;
+let selectedSubjectKeys = new Set();
 
 // Timer & Auto-scroll State
 let timerInterval = null;
@@ -85,9 +107,41 @@ if (themeToggleBtn) {
   });
 }
 
-// Helper: Generates unique key for local storage per year & subject
-function getStorageKey() {
-  return `missed_y${currentYear}_${currentSubject.toLowerCase()}`;
+// Storage Key Helper
+function getStorageKey(year = currentYear, subject = currentSubject) {
+  return `missed_y${year}_${subject.toLowerCase()}`;
+}
+
+// --- Vault Mastery Manager (Streak >= 2 Removes Question Automatically) ---
+function recordQuestionResult(questionObj, isCorrect, year = currentYear, subject = currentSubject) {
+  const key = getStorageKey(year, subject);
+  const raw = localStorage.getItem(key);
+  let vault = raw ? JSON.parse(raw) : [];
+
+  const existingIndex = vault.findIndex(item => item.question === questionObj.question);
+
+  if (!isCorrect) {
+    // Answered wrong: Add to vault or reset streak counter to 0
+    if (existingIndex >= 0) {
+      vault[existingIndex].streak = 0;
+    } else {
+      vault.push({ ...questionObj, streak: 0 });
+    }
+  } else {
+    // Answered correct: Increment streak. If streak >= 2, question is Mastered (removed)
+    if (existingIndex >= 0) {
+      vault[existingIndex].streak = (vault[existingIndex].streak || 0) + 1;
+      if (vault[existingIndex].streak >= 2) {
+        vault.splice(existingIndex, 1);
+      }
+    }
+  }
+
+  if (vault.length > 0) {
+    localStorage.setItem(key, JSON.stringify(vault));
+  } else {
+    localStorage.removeItem(key);
+  }
 }
 
 // --- Fisher-Yates Shuffle Algorithm ---
@@ -100,7 +154,7 @@ function shuffleArray(array) {
   return shuffled;
 }
 
-// --- Cancel Auto-scroll on User Manual Input ---
+// --- Cancel Auto-scroll on Manual Input ---
 function cancelAutoScroll() {
   if (autoScrollTimer) {
     clearTimeout(autoScrollTimer);
@@ -116,7 +170,7 @@ window.addEventListener('keydown', (e) => {
   }
 });
 
-// --- Custom Promise-Based Confirm Modal ---
+// --- Custom Exit Confirm Modal ---
 function showCustomConfirm() {
   return new Promise((resolve) => {
     const modal = document.getElementById('confirm-modal');
@@ -148,16 +202,15 @@ function showCustomConfirm() {
   });
 }
 
-// --- Warn User Before Refreshing Active Session ---
 window.addEventListener('beforeunload', (e) => {
   const quizScreen = document.getElementById('quiz-screen');
   if (quizScreen && !quizScreen.classList.contains('hidden')) {
     e.preventDefault();
-    e.returnValue = ''; // Standard browser refresh prompt
+    e.returnValue = '';
   }
 });
 
-// --- Navigation & Session Storage State ---
+// --- Navigation & Screen Storage State ---
 function navigateTo(screenId, isBackAction = false) {
   clearInterval(timerInterval);
   cancelAutoScroll();
@@ -168,11 +221,14 @@ function navigateTo(screenId, isBackAction = false) {
     targetScreen.classList.remove('hidden');
   }
 
+  if (screenId === 'account-screen') {
+    renderAccountDashboard();
+  }
+
   if (!isBackAction) {
     history.pushState({ screenId: screenId }, '');
   }
 
-  // Save location to sessionStorage (fallback active quiz to subject screen on hard refresh)
   if (screenId === 'quiz-screen' || screenId === 'result-screen') {
     sessionStorage.setItem('lastScreen', 'subject-screen');
   } else {
@@ -180,7 +236,7 @@ function navigateTo(screenId, isBackAction = false) {
   }
 }
 
-// --- Intercept Browser Back Button & Alt + Left Arrow ---
+// --- Browser Back/Forward Button Handler ---
 window.addEventListener('popstate', async (event) => {
   const quizScreen = document.getElementById('quiz-screen');
   const isQuizActive = quizScreen && !quizScreen.classList.contains('hidden');
@@ -235,8 +291,7 @@ if (backFromAboutBtn) backFromAboutBtn.addEventListener('click', () => navigateT
 if (backFromContactBtn) backFromContactBtn.addEventListener('click', () => navigateTo('landing-screen'));
 if (backFromAccountBtn) backFromAccountBtn.addEventListener('click', () => navigateTo('landing-screen'));
 
-// --- Navigation & Exit Action Event Listeners ---
-enterStudyBtn.addEventListener('click', () => navigateTo('year-screen'));
+if (enterStudyBtn) enterStudyBtn.addEventListener('click', () => navigateTo('year-screen'));
 
 yearCards.forEach(card => {
   card.addEventListener('click', () => {
@@ -248,15 +303,9 @@ yearCards.forEach(card => {
   });
 });
 
-if (backToLandingBtn) {
-  backToLandingBtn.addEventListener('click', () => navigateTo('landing-screen'));
-}
+if (backToLandingBtn) backToLandingBtn.addEventListener('click', () => navigateTo('landing-screen'));
+if (backToYearsBtn) backToYearsBtn.addEventListener('click', () => navigateTo('year-screen'));
 
-if (backToYearsBtn) {
-  backToYearsBtn.addEventListener('click', () => navigateTo('year-screen'));
-}
-
-// Return Button: Navigates back to Subject Selection for active year
 if (restartBtn) {
   restartBtn.addEventListener('click', () => {
     if (currentYear) {
@@ -286,7 +335,7 @@ function loadSubjectsForYear(year) {
   const subjects = manifestData[year] || [];
   
   subjects.forEach(subject => {
-    const storageKey = `missed_y${year}_${subject.toLowerCase()}`;
+    const storageKey = getStorageKey(year, subject);
     const savedMissed = localStorage.getItem(storageKey);
     const missedCount = savedMissed ? JSON.parse(savedMissed).length : 0;
 
@@ -312,7 +361,7 @@ function loadSubjectsForYear(year) {
   });
 }
 
-// --- Launch Session with Only Saved Missed Questions ---
+// --- Review Missed Session Launcher ---
 function startMissedSession(subjectName) {
   currentSubject = subjectName;
   currentMode = 'study';
@@ -355,7 +404,7 @@ function clearSavedMissed(subjectName) {
 // --- 60-Minute Countdown Timer for Quiz Mode ---
 function startQuizTimer() {
   clearInterval(timerInterval);
-  timeRemaining = 3600; // 60 minutes
+  timeRemaining = 3600;
   updateTimerUI();
 
   if (timerDisplay) timerDisplay.classList.remove('hidden');
@@ -424,15 +473,13 @@ async function startSession(subjectName, mode) {
       };
     });
 
-    // 1. Navigate to screen first (clears old timers safely)
     navigateTo('quiz-screen');
 
-    // 2. Start mode UI and timer AFTER screen navigation
     if (currentMode === 'study') {
       if (timerDisplay) timerDisplay.classList.add('hidden');
       renderStudyMode();
     } else {
-      startQuizTimer(); // Timer starts cleanly after navigation completes
+      startQuizTimer();
       renderQuizQuestion();
     }
   } catch (error) {
@@ -477,31 +524,23 @@ function renderStudyMode() {
 function handleStudyOptionClick(qIndex, selectedIndex, selectedBtn, optsDiv) {
   const q = questions[qIndex];
   const allBtns = optsDiv.querySelectorAll('.option-btn');
+  const isCorrect = selectedIndex === q.correctIndex;
 
   allBtns.forEach(btn => btn.style.pointerEvents = 'none');
 
-  if (selectedIndex === q.correctIndex) {
+  if (isCorrect) {
     selectedBtn.style.backgroundColor = '#10b981';
     selectedBtn.style.color = '#ffffff';
     userScore++;
-
-    missedQuestions = missedQuestions.filter(item => item.question !== q.question);
-    if (missedQuestions.length > 0) {
-      localStorage.setItem(getStorageKey(), JSON.stringify(missedQuestions));
-    } else {
-      localStorage.removeItem(getStorageKey());
-    }
   } else {
     selectedBtn.style.backgroundColor = '#ef4444';
     selectedBtn.style.color = '#ffffff';
     allBtns[q.correctIndex].style.backgroundColor = '#10b981';
     allBtns[q.correctIndex].style.color = '#ffffff';
-
-    if (!missedQuestions.some(item => item.question === q.question)) {
-      missedQuestions.push(q);
-      localStorage.setItem(getStorageKey(), JSON.stringify(missedQuestions));
-    }
   }
+
+  // Update streak / mastery in permanent storage
+  recordQuestionResult(q, isCorrect);
 
   studyAnsweredCount++;
 
@@ -577,33 +616,20 @@ if (nextBtn) {
   });
 }
 
-// --- EVALUATE QUIZ & DISPLAY RESULTS ---
 function finishQuiz() {
   clearInterval(timerInterval);
 
   userScore = 0;
   questions.forEach((q, idx) => {
     const chosen = userAnswers[idx];
-    if (chosen !== null && chosen === q.correctIndex) {
-      userScore++;
-      missedQuestions = missedQuestions.filter(item => item.question !== q.question);
-    } else {
-      if (!missedQuestions.some(item => item.question === q.question)) {
-        missedQuestions.push(q);
-      }
-    }
+    const isCorrect = chosen !== null && chosen === q.correctIndex;
+    if (isCorrect) userScore++;
+    recordQuestionResult(q, isCorrect);
   });
-
-  if (missedQuestions.length > 0) {
-    localStorage.setItem(getStorageKey(), JSON.stringify(missedQuestions));
-  } else {
-    localStorage.removeItem(getStorageKey());
-  }
 
   showResults();
 }
 
-// --- RENDER DETAILED BREAKDOWN ---
 function renderReviewBreakdown() {
   if (!reviewContainer) return;
   reviewContainer.innerHTML = '';
@@ -635,7 +661,6 @@ function renderReviewBreakdown() {
   });
 }
 
-// --- RESULTS DISPLAY ---
 function showResults() {
   clearInterval(timerInterval);
   cancelAutoScroll();
@@ -657,30 +682,30 @@ function showResults() {
     }, 150);
   }
 
-  // Render question-by-question breakdown
   if (currentMode === 'quiz') {
     renderReviewBreakdown();
   } else if (reviewContainer) {
-    reviewContainer.innerHTML = ''; // Hide breakdown for study mode
+    reviewContainer.innerHTML = '';
   }
 
-  if (missedQuestions.length > 0) {
-    if (missedCountEl) missedCountEl.textContent = missedQuestions.length;
+  const savedMissed = localStorage.getItem(getStorageKey());
+  const missedList = savedMissed ? JSON.parse(savedMissed) : [];
+
+  if (missedList.length > 0) {
+    if (missedCountEl) missedCountEl.textContent = missedList.length;
     if (retryMissedBtn) retryMissedBtn.classList.remove('hidden');
   } else {
     if (retryMissedBtn) retryMissedBtn.classList.add('hidden');
-    localStorage.removeItem(getStorageKey());
   }
 
   navigateTo('result-screen');
 }
 
-// Retry Missed Questions Click Handler
 if (retryMissedBtn) {
   retryMissedBtn.addEventListener('click', () => {
-    questions = shuffleArray(missedQuestions);
-    missedQuestions = [];
-    localStorage.removeItem(getStorageKey());
+    const savedMissed = localStorage.getItem(getStorageKey());
+    if (!savedMissed) return;
+    questions = shuffleArray(JSON.parse(savedMissed));
     currentQuestionIndex = 0;
     userScore = 0;
     studyAnsweredCount = 0;
@@ -695,3 +720,467 @@ if (retryMissedBtn) {
     }
   });
 }
+
+// ==========================================================================
+// MY ACCOUNT DASHBOARD, BULK DELETION & ANKI EXPORT (.TXT) LOGIC
+// ==========================================================================
+
+// --- Toggle Select Mode ---
+if (toggleSelectModeBtn) {
+  toggleSelectModeBtn.addEventListener('click', () => {
+    isSelectMode = !isSelectMode;
+    selectedSubjectKeys.clear();
+    
+    if (isSelectMode) {
+      toggleSelectModeBtn.textContent = '❌ Cancel';
+      if (bulkControls) bulkControls.classList.remove('hidden');
+    } else {
+      toggleSelectModeBtn.textContent = '☑️ Select';
+      if (bulkControls) bulkControls.classList.add('hidden');
+    }
+    
+    updateDeleteButtonState();
+    renderAccountDashboard();
+  });
+}
+
+// --- Select / Deselect All ---
+if (selectAllBtn) {
+  selectAllBtn.addEventListener('click', () => {
+    const allCheckboxes = document.querySelectorAll('.card-checkbox');
+    const allKeys = Array.from(allCheckboxes).map(cb => cb.getAttribute('data-key'));
+
+    if (selectedSubjectKeys.size === allKeys.length) {
+      selectedSubjectKeys.clear();
+    } else {
+      allKeys.forEach(key => selectedSubjectKeys.add(key));
+    }
+
+    updateDeleteButtonState();
+    renderAccountDashboard();
+  });
+}
+
+function updateDeleteButtonState() {
+  if (!deleteSelectedBtn) return;
+  const count = selectedSubjectKeys.size;
+  deleteSelectedBtn.textContent = `🗑️ Delete Selected (${count})`;
+  deleteSelectedBtn.disabled = count === 0;
+  
+  if (selectAllBtn) {
+    const totalCards = document.querySelectorAll('.card-checkbox').length;
+    selectAllBtn.textContent = (totalCards > 0 && selectedSubjectKeys.size === totalCards) 
+      ? 'Deselect All' 
+      : 'Select All';
+  }
+}
+
+// --- Trigger Delete Warning Modal ---
+if (deleteSelectedBtn) {
+  deleteSelectedBtn.addEventListener('click', () => {
+    if (selectedSubjectKeys.size === 0) return;
+    if (deleteWarningText) {
+      deleteWarningText.textContent = `Are you sure you want to permanently delete missed questions from ${selectedSubjectKeys.size} selected subject(s)?`;
+    }
+    if (deleteConfirmModal) deleteConfirmModal.classList.remove('hidden');
+  });
+}
+
+if (cancelDeleteBtn) {
+  cancelDeleteBtn.addEventListener('click', () => {
+    if (deleteConfirmModal) deleteConfirmModal.classList.add('hidden');
+  });
+}
+
+// --- Execute Bulk Deletion ---
+if (confirmDeleteBtn) {
+  confirmDeleteBtn.addEventListener('click', () => {
+    selectedSubjectKeys.forEach(key => {
+      localStorage.removeItem(key);
+    });
+
+    selectedSubjectKeys.clear();
+    isSelectMode = false;
+    if (toggleSelectModeBtn) toggleSelectModeBtn.textContent = '☑️ Select';
+    if (bulkControls) bulkControls.classList.add('hidden');
+    if (deleteConfirmModal) deleteConfirmModal.classList.add('hidden');
+    
+    updateDeleteButtonState();
+    renderAccountDashboard();
+  });
+}
+
+// --- Render Account Vault Dashboard ---
+function renderAccountDashboard() {
+  if (!accountSubjectList) return;
+  accountSubjectList.innerHTML = '';
+
+  let totalMissedAcrossApp = 0;
+
+  Object.keys(manifestData).forEach(year => {
+    manifestData[year].forEach(subject => {
+      const key = getStorageKey(year, subject);
+      const rawData = localStorage.getItem(key);
+      const missedArray = rawData ? JSON.parse(rawData) : [];
+
+      if (missedArray.length > 0) {
+        totalMissedAcrossApp += missedArray.length;
+
+        const card = document.createElement('div');
+        card.classList.add('subject-card');
+        if (selectedSubjectKeys.has(key)) {
+          card.classList.add('selected-for-delete');
+        }
+
+        const isChecked = selectedSubjectKeys.has(key) ? 'checked' : '';
+        const checkboxHTML = isSelectMode 
+          ? `<input type="checkbox" class="card-checkbox" data-key="${key}" ${isChecked}>` 
+          : '';
+
+        card.innerHTML = `
+          <div style="display: flex; gap: 1rem; align-items: flex-start;">
+            ${checkboxHTML}
+            <div style="flex: 1;">
+              <h3>Year ${year} - ${subject}</h3>
+              <p class="missed-badge">⚠️ ${missedArray.length} Missed Question${missedArray.length > 1 ? 's' : ''} Saved</p>
+              ${!isSelectMode ? `
+                <div class="subject-actions" style="flex-direction: column;">
+                  <button class="btn study-missed-btn" onclick="launchAccountReview('${year}', '${subject}')">🎯 Practice Missed (${missedArray.length})</button>
+                  <button class="btn primary-btn" onclick="promptAnkiExport('${key}', 'Year_${year}_${subject}')">📦 Export to Anki (.txt)</button>
+                </div>
+              ` : ''}
+            </div>
+          </div>
+        `;
+
+        if (isSelectMode) {
+          card.addEventListener('click', (e) => {
+            if (e.target.tagName !== 'INPUT') {
+              const cb = card.querySelector('.card-checkbox');
+              if (cb) cb.checked = !cb.checked;
+            }
+            
+            if (selectedSubjectKeys.has(key)) {
+              selectedSubjectKeys.delete(key);
+            } else {
+              selectedSubjectKeys.add(key);
+            }
+            
+            updateDeleteButtonState();
+            renderAccountDashboard();
+          });
+        }
+
+        accountSubjectList.appendChild(card);
+      }
+    });
+  });
+
+  if (totalMissedAcrossApp === 0) {
+    if (toggleSelectModeBtn) toggleSelectModeBtn.classList.add('hidden');
+    if (bulkControls) bulkControls.classList.add('hidden');
+    accountSubjectList.innerHTML = `
+      <div class="score-card" style="text-align: center; padding: 2rem;">
+        <p style="margin: 0; color: var(--text-sub);">🎉 Fantastic! You have 0 missed questions in your vault.</p>
+      </div>
+    `;
+  } else {
+    if (toggleSelectModeBtn) toggleSelectModeBtn.classList.remove('hidden');
+  }
+}
+
+function launchAccountReview(year, subject) {
+  currentYear = year;
+  currentSubject = subject;
+  sessionStorage.setItem('lastYear', year);
+  startMissedSession(subject);
+}
+
+// --- Anki Export Handlers ---
+function promptAnkiExport(storageKey, subjectFilenameTag) {
+  activeExportSubjectKey = storageKey;
+  if (ankiModal) ankiModal.classList.remove('hidden');
+}
+
+if (ankiCancelBtn) {
+  ankiCancelBtn.addEventListener('click', () => {
+    if (ankiModal) ankiModal.classList.add('hidden');
+  });
+}
+
+if (ankiKeepBtn) {
+  ankiKeepBtn.addEventListener('click', () => {
+    executeAnkiDownload(false);
+  });
+}
+
+if (ankiClearBtn) {
+  ankiClearBtn.addEventListener('click', () => {
+    executeAnkiDownload(true);
+  });
+}
+
+function executeAnkiDownload(shouldClearAfter) {
+  if (!activeExportSubjectKey) return;
+
+  const raw = localStorage.getItem(activeExportSubjectKey);
+  if (!raw) return;
+
+  const questionsList = JSON.parse(raw);
+  
+  // Format as Tab-Separated Values for direct Anki import
+  let fileContent = "#separator:Tab\n#html:true\n";
+
+  questionsList.forEach(q => {
+    let optionsText = q.options.map((opt, idx) => {
+      const letter = String.fromCharCode(65 + idx);
+      return `<div><b>${letter})</b> ${opt}</div>`;
+    }).join('');
+
+    const front = `<div style='font-size:1.1em; font-weight:bold; margin-bottom:8px;'>${q.question}</div>${optionsText}`;
+    const correctLetter = String.fromCharCode(65 + q.correctIndex);
+    const back = `<div><b>Correct Choice:</b> ${correctLetter}) ${q.options[q.correctIndex]}</div>`;
+
+    fileContent += `${front}\t${back}\n`;
+  });
+
+  const blob = new Blob([fileContent], { type: 'text/plain;charset=utf-8' });
+  const downloadLink = document.createElement('a');
+  downloadLink.href = URL.createObjectURL(blob);
+  downloadLink.download = `Anki_${activeExportSubjectKey}.txt`;
+  downloadLink.click();
+
+  if (shouldClearAfter) {
+    localStorage.removeItem(activeExportSubjectKey);
+    renderAccountDashboard();
+  }
+
+  if (ankiModal) ankiModal.classList.add('hidden');
+}
+
+// ==========================================================================
+// TELEGRAM FEEDBACK, COOLDOWN & STATUS SYNC LOGIC
+// ==========================================================================
+
+const TELEGRAM_BOT_TOKEN = "8757492792:AAGj5G-kCqMNSIVWrzjO07qD4sp9ivi3TyI";
+const TELEGRAM_CHAT_ID = "1145051277";
+
+const feedbackForm = document.getElementById('feedback-form');
+const feedbackText = document.getElementById('feedback-text');
+const feedbackImage = document.getElementById('feedback-image');
+const contactConfirmModal = document.getElementById('contact-confirm-modal');
+const confirmFeedbackBtn = document.getElementById('confirm-feedback-btn');
+const cancelFeedbackBtn = document.getElementById('cancel-feedback-btn');
+const myFeedbackList = document.getElementById('my-feedback-list');
+
+let pendingFeedbackPayload = null;
+
+// --- Fetch Internet Time (Prevents phone clock tampering) ---
+async function getInternetTime() {
+  try {
+    const response = await fetch('https://worldtimeapi.org/api/timezone/Etc/UTC');
+    if (!response.ok) throw new Error("Time API unavailable");
+    const data = await response.json();
+    return new Date(data.utc_datetime).getTime();
+  } catch (err) {
+    return Date.now();
+  }
+}
+
+// --- Submit Form Listener ---
+if (feedbackForm) {
+  feedbackForm.addEventListener('submit', async (e) => {
+    e.preventDefault();
+
+    const lastSentTime = localStorage.getItem('last_feedback_internet_time');
+    const nowInternet = await getInternetTime();
+
+    if (lastSentTime) {
+      const elapsed = nowInternet - parseInt(lastSentTime, 10);
+      const cooldownMs = 30 * 60 * 1000; // 30 minutes
+
+      if (elapsed < cooldownMs) {
+        const remainingMins = Math.ceil((cooldownMs - elapsed) / 60000);
+        alert(`⏱️ Cooldown Active / រយៈពេលរង់ចាំ:\n🇬🇧 Please wait ${remainingMins} minute(s) before sending feedback again.\n🇰🇭 សូមរង់ចាំ ${remainingMins} នាទីទៀតមុនពេលផ្ញើម្តងទៀត។`);
+        return;
+      }
+    }
+
+    pendingFeedbackPayload = {
+      text: feedbackText.value,
+      file: feedbackImage.files[0] || null,
+      timestamp: nowInternet
+    };
+
+    if (contactConfirmModal) contactConfirmModal.classList.remove('hidden');
+  });
+}
+
+if (cancelFeedbackBtn) {
+  cancelFeedbackBtn.addEventListener('click', () => {
+    if (contactConfirmModal) contactConfirmModal.classList.add('hidden');
+    pendingFeedbackPayload = null;
+  });
+}
+
+// --- Send to Telegram API ---
+if (confirmFeedbackBtn) {
+  confirmFeedbackBtn.addEventListener('click', async () => {
+    if (!pendingFeedbackPayload) return;
+
+    confirmFeedbackBtn.disabled = true;
+    confirmFeedbackBtn.textContent = "Sending... / កំពុងផ្ញើ...";
+
+    const { text, file, timestamp } = pendingFeedbackPayload;
+    let telegramMsgId = null;
+
+    try {
+      let res;
+      if (file) {
+        const formData = new FormData();
+        formData.append('chat_id', TELEGRAM_CHAT_ID);
+        formData.append('caption', `📝 **New Question Report**\n\n${text}`);
+        formData.append('photo', file);
+
+        res = await fetch(`https://api.telegram.org/bot${TELEGRAM_BOT_TOKEN}/sendPhoto`, {
+          method: 'POST',
+          body: formData
+        });
+      } else {
+        res = await fetch(`https://api.telegram.org/bot${TELEGRAM_BOT_TOKEN}/sendMessage`, {
+          method: 'POST',
+          headers: { 'Content-Type': 'application/json' },
+          body: JSON.stringify({
+            chat_id: TELEGRAM_CHAT_ID,
+            text: `📝 **New Question Report**\n\n${text}`,
+            parse_mode: 'Markdown'
+          })
+        });
+      }
+
+      if (res.ok) {
+        const data = await res.json();
+        telegramMsgId = data.result ? data.result.message_id : null;
+      }
+    } catch (err) {
+      console.error(err);
+    }
+
+    if (telegramMsgId) {
+      localStorage.setItem('last_feedback_internet_time', timestamp.toString());
+      saveLocalFeedbackLog(text, timestamp, telegramMsgId);
+
+      feedbackForm.reset();
+      alert("✅ Feedback Sent Successfully! / បានផ្ញើដោយជោគជ័យ!");
+    } else {
+      alert("⚠️ Submission failed. Please check your connection or Telegram bot configuration.");
+    }
+
+    confirmFeedbackBtn.disabled = false;
+    confirmFeedbackBtn.textContent = "Send / ផ្ញើ";
+    if (contactConfirmModal) contactConfirmModal.classList.add('hidden');
+    pendingFeedbackPayload = null;
+    renderMyFeedbacks();
+  });
+}
+
+function saveLocalFeedbackLog(text, timestamp, msgId) {
+  const raw = localStorage.getItem('my_submitted_feedbacks');
+  const logs = raw ? JSON.parse(raw) : [];
+  
+  logs.unshift({
+    id: Date.now(),
+    telegram_msg_id: msgId,
+    text: text,
+    date: new Date(timestamp).toLocaleDateString() + ' ' + new Date(timestamp).toLocaleTimeString([], { hour: '2-digit', minute: '2-digit' }),
+    status: 'Pending ⏳'
+  });
+
+  localStorage.setItem('my_submitted_feedbacks', JSON.stringify(logs));
+}
+
+// --- Check Telegram API for Admin Replies ---
+async function syncFeedbackStatusWithTelegram() {
+  const raw = localStorage.getItem('my_submitted_feedbacks');
+  if (!raw) return;
+
+  let logs = JSON.parse(raw);
+  const pendingLogs = logs.filter(l => l.status === 'Pending ⏳' && l.telegram_msg_id);
+
+  if (pendingLogs.length === 0) return;
+
+  try {
+    const res = await fetch(`https://api.telegram.org/bot${TELEGRAM_BOT_TOKEN}/getUpdates`);
+    if (!res.ok) return;
+
+    const data = await res.json();
+    if (!data.result || !Array.isArray(data.result)) return;
+
+    let updated = false;
+
+    data.result.forEach(update => {
+      // Check direct messages, edited messages, or channel/group posts
+      const msg = update.message || update.edited_message || update.channel_post || update.edited_channel_post;
+      
+      if (msg && msg.reply_to_message) {
+        const repliedId = msg.reply_to_message.message_id;
+        
+        // Match IDs reliably using string conversion
+        const matchedLog = logs.find(l => String(l.telegram_msg_id) === String(repliedId));
+        
+        if (matchedLog && matchedLog.status !== 'Checked ✅') {
+          matchedLog.status = 'Checked ✅';
+          updated = true;
+        }
+      }
+    });
+
+    if (updated) {
+      localStorage.setItem('my_submitted_feedbacks', JSON.stringify(logs));
+    }
+  } catch (err) {
+    console.error("Failed to sync Telegram status:", err);
+  }
+}
+
+async function renderMyFeedbacks() {
+  if (!myFeedbackList) return;
+
+  // Sync with Telegram first
+  await syncFeedbackStatusWithTelegram();
+
+  myFeedbackList.innerHTML = '';
+  const raw = localStorage.getItem('my_submitted_feedbacks');
+  const logs = raw ? JSON.parse(raw) : [];
+
+  if (logs.length === 0) {
+    myFeedbackList.innerHTML = `<p style="color: var(--text-sub); font-size: 0.9rem;">No submitted reports yet. / មិនទាន់មានប្រវត្តិរាយការណ៍នៅឡើយទេ។</p>`;
+    return;
+  }
+
+  logs.forEach(log => {
+    const card = document.createElement('div');
+    card.classList.add('subject-card');
+    card.style.padding = '1rem';
+
+    const statusClass = log.status === 'Checked ✅' ? 'status-checked' : 'status-pending';
+
+    card.innerHTML = `
+      <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom:0.5rem;">
+        <span style="font-size:0.8rem; color:var(--text-sub);">${log.date}</span>
+        <span class="feedback-status-badge ${statusClass}">${log.status}</span>
+      </div>
+      <p style="margin:0; font-size:0.95rem; color:var(--text-main); line-height:1.4;">${log.text}</p>
+    `;
+    myFeedbackList.appendChild(card);
+  });
+}
+
+// Navigation override
+const originalNavigateTo = navigateTo;
+navigateTo = function(screenId, isBackAction = false) {
+  originalNavigateTo(screenId, isBackAction);
+  if (screenId === 'contact-screen') {
+    renderMyFeedbacks();
+  }
+};

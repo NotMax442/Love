@@ -36,23 +36,86 @@
       </div>
     </div>
 
-    <!-- Contact Screen -->
-    <div id="contact-screen" class="screen hidden">
-      <button id="back-from-contact-btn" class="btn back-btn">⬅️ Back</button>
-      <h2>Contact Us</h2>
-      <div class="score-card" style="text-align: center; padding: 2rem;">
-        <p style="margin: 0; color: var(--text-sub);">Contact options and support details coming soon!</p>
-      </div>
-    </div>
+    <!-- Contact / Bug Report Screen -->
+<div id="contact-screen" class="screen hidden">
+  <button id="back-from-contact-btn" class="btn back-btn">⬅️ Back</button>
+  <h2>Report Question Error / ផ្តល់មតិត្រឡប់</h2>
+  
+  <div class="score-card" style="text-align: left; padding: 1.5rem;">
+    <p style="margin-bottom: 0.5rem; color: var(--text-main); font-weight: 600;">
+      🇬🇧 Found an incorrect question or answer? Send us a report below!
+    </p>
+    <p style="margin-bottom: 1.25rem; color: var(--text-sub); font-size: 0.95rem;">
+      🇰🇭 តើអ្នកប្រទះឃើញសំណួរ ឬចម្លើយមិនត្រឹមត្រូវមែនទេ? សូមផ្ញើការរាយការណ៍មកកាន់យើងនៅខាងក្រោម!
+    </p>
 
-    <!-- My Account Screen -->
-    <div id="account-screen" class="screen hidden">
-      <button id="back-from-account-btn" class="btn back-btn">⬅️ Back</button>
-      <h2>My Account</h2>
-      <div class="score-card" style="text-align: center; padding: 2rem;">
-        <p style="margin: 0; color: var(--text-sub);">Account profile, stats, and settings coming soon!</p>
-      </div>
+    <form id="feedback-form">
+      <label style="display:block; margin-bottom: 0.5rem; font-weight: 600;">Description / ការបរិយាយ:</label>
+      <textarea id="feedback-text" rows="4" placeholder="Describe what is wrong with the question... / រៀបរាប់ពីចំណុចខុសឆ្គង..." style="width:100%; padding:0.75rem; border-radius:8px; border:1px solid var(--border-sub); background:var(--bg-subcard); color:var(--text-main); margin-bottom:1rem;" required></textarea>
+
+      <label style="display:block; margin-bottom: 0.5rem; font-weight: 600;">Upload Screenshot (Optional) / រូបភាព (ជម្រើស):</label>
+      <input type="file" id="feedback-image" accept="image/*" style="margin-bottom: 1.25rem; display:block;">
+
+      <button type="submit" id="submit-feedback-btn" class="btn primary-btn" style="width: 100%;">📤 Send Feedback / ផ្ញើការរាយការណ៍</button>
+    </form>
+  </div>
+
+  <!-- User's Submitted Feedbacks Tracker -->
+  <h3 style="margin: 1.5rem 0 1rem 0;">My Submitted Reports / ប្រវត្តិការរាយការណ៍</h3>
+  <div id="my-feedback-list" class="subject-grid"></div>
+</div>
+
+<!-- Contact Cooldown Confirmation Modal -->
+<div id="contact-confirm-modal" class="modal-overlay hidden">
+  <div class="modal-card">
+    <h3>⚠️ Confirm Submission / បញ្ជាក់ការផ្ញើ</h3>
+    <p style="margin-bottom: 0.5rem; font-weight: 600;">🇬🇧 Are you sure? You can only send feedback once every 30 minutes.</p>
+    <p style="margin-bottom: 1.5rem; color: var(--text-sub); font-size: 0.9rem;">🇰🇭 តើអ្នកប្រាកដទេ? អ្នកអាចផ្ញើការរាយការណ៍បានតែម្តងគត់ក្នុងមួយរយៈពេល 30 នាទី។</p>
+    <div class="modal-actions">
+      <button id="cancel-feedback-btn" class="btn secondary-btn">Cancel / បោះបង់</button>
+      <button id="confirm-feedback-btn" class="btn primary-btn">Send / ផ្ញើ</button>
     </div>
+  </div>
+</div>
+
+<div id="account-screen" class="screen hidden">
+  <button id="back-from-account-btn" class="btn back-btn">⬅️ Back</button>
+  <h2>My Account & Vault</h2>
+
+  <div class="account-toolbar">
+    <button id="toggle-select-mode-btn" class="btn secondary-btn">☑️ Select</button>
+    <div id="bulk-controls" class="hidden" style="display: flex; gap: 0.5rem; align-items: center; flex-wrap: wrap;">
+      <button id="select-all-btn" class="btn secondary-btn">Select All</button>
+      <button id="delete-selected-btn" class="btn danger-btn" disabled>🗑️ Delete Selected (0)</button>
+    </div>
+  </div>
+
+  <div id="account-subject-list" class="subject-grid"></div>
+</div>
+
+<div id="delete-confirm-modal" class="modal-overlay hidden">
+  <div class="modal-card">
+    <h3>⚠️ Are you sure?</h3>
+    <p id="delete-warning-text">Are you sure you want to delete these saved missed questions? This action cannot be undone.</p>
+    <div class="modal-actions">
+      <button id="cancel-delete-btn" class="btn secondary-btn">Cancel</button>
+      <button id="confirm-delete-btn" class="btn danger-btn">Yes, Delete</button>
+    </div>
+  </div>
+</div>
+
+<!-- Anki Export Confirmation Modal -->
+<div id="anki-modal" class="modal-overlay hidden">
+  <div class="modal-card">
+    <h3>📦 Export to Anki (.txt)</h3>
+    <p>How would you like to process these questions after downloading?</p>
+    <div class="modal-actions" style="flex-direction: column; gap: 0.5rem;">
+      <button id="anki-keep-btn" class="btn primary-btn" style="width: 100%;">📥 Export & Keep in Vault</button>
+      <button id="anki-clear-btn" class="btn warning-btn" style="width: 100%;">🗑️ Export & Clear Subject Vault</button>
+      <button id="anki-cancel-btn" class="btn secondary-btn" style="width: 100%;">Cancel</button>
+    </div>
+  </div>
+</div>
 
     <!-- Year Selection Screen -->
     <div id="year-screen" class="screen hidden">

@@ -454,7 +454,7 @@ p {
   gap: 0.75rem;
 }
 
-/* --- Custom Confirmation Modal Overlay --- */
+/* --- Custom Confirmation & Delete Warning Modal Overlays --- */
 .modal-overlay {
   position: fixed;
   top: 0;
@@ -475,10 +475,13 @@ p {
   border: 1px solid var(--border-color);
   border-radius: 12px;
   padding: 2rem;
-  max-width: 450px;
+  max-width: 440px;
   width: 100%;
   box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.5);
   text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
   animation: modalFadeIn 0.15s ease-out;
 }
 
@@ -486,18 +489,46 @@ p {
   font-size: 1.3rem;
   color: var(--text-main);
   margin-bottom: 0.75rem;
+  width: 100%;
 }
 
 .modal-card p {
   font-size: 0.95rem;
   color: var(--text-sub);
   margin-bottom: 1.5rem;
+  line-height: 1.5;
+  width: 100%;
 }
 
 .modal-actions {
   display: flex;
-  justify-content: flex-end;
+  justify-content: center;
+  align-items: center;
   gap: 0.75rem;
+  width: 100%;
+}
+
+.modal-actions .btn {
+  flex: 1;
+  text-align: center;
+  padding: 10px 16px;
+}
+
+/* --- Anki Modal Stacked Buttons --- */
+#anki-modal .modal-card {
+  max-width: 420px;
+}
+
+#anki-modal .modal-actions {
+  display: flex;
+  flex-direction: column;
+  gap: 0.65rem;
+  width: 100%;
+}
+
+#anki-modal .modal-actions .btn {
+  width: 100%;
+  text-align: center;
 }
 
 @keyframes modalFadeIn {
@@ -511,16 +542,12 @@ p {
   }
 }
 
-/* ==========================================================================
-   MOBILE & TABLET RESPONSIVE OVERRIDES
-   ========================================================================== */
-
+/* --- Mobile & Tablet Overrides --- */
 @media (max-width: 768px) {
   .app-container {
     padding: 1rem;
   }
 
-  /* Compact Navbar for mobile screens */
   .main-navbar {
     flex-direction: column;
     align-items: stretch;
@@ -547,20 +574,10 @@ p {
     margin-top: 0.25rem;
   }
 
-  /* Responsive Headings */
-  h1 {
-    font-size: 1.6rem;
-  }
+  h1 { font-size: 1.6rem; }
+  h2 { font-size: 1.3rem; }
+  p { font-size: 0.95rem; }
 
-  h2 {
-    font-size: 1.3rem;
-  }
-
-  p {
-    font-size: 0.95rem;
-  }
-
-  /* 2-column Grid for Academic Years on Mobile */
   .year-grid {
     grid-template-columns: repeat(2, 1fr);
     gap: 0.75rem;
@@ -571,49 +588,91 @@ p {
     font-size: 1rem;
   }
 
-  /* Quiz header & question options touch targets */
   .quiz-header {
     flex-direction: column;
     align-items: flex-start;
     gap: 0.5rem;
   }
 
-  .quiz-header h2 {
-    font-size: 1.1rem;
-  }
-
-  .question-box h3 {
-    font-size: 1.05rem;
-  }
+  .quiz-header h2 { font-size: 1.1rem; }
+  .question-box h3 { font-size: 1.05rem; }
 
   .option-btn {
     padding: 12px 14px;
     font-size: 0.9rem;
   }
 
-  /* Results Screen Mobile Scaling */
-  .percentage-badge {
-    font-size: 2.2rem;
-  }
-
-  .score-card {
-    padding: 1.25rem;
-  }
+  .percentage-badge { font-size: 2.2rem; }
+  .score-card { padding: 1.25rem; }
 }
 
 @media (max-width: 480px) {
-  /* Extra tight spacing for smaller phones */
   .nav-links {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     text-align: center;
   }
 
-  .nav-item {
-    padding: 4px;
-  }
+  .nav-item { padding: 4px; }
+  .subject-actions { flex-direction: column; }
+}
 
-  .subject-actions {
-    flex-direction: column;
-  }
+/* --- Account Toolbar & Selection Mode --- */
+.account-toolbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 0.75rem;
+  margin-bottom: 1.25rem;
+  padding: 0.85rem 1.25rem;
+  background-color: var(--bg-subcard);
+  border-radius: 8px;
+  border: 1px solid var(--border-sub);
+}
+
+.subject-card-selectable {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  cursor: pointer;
+}
+
+.card-checkbox {
+  width: 20px;
+  height: 20px;
+  cursor: pointer;
+  accent-color: #ef4444;
+  align-self: center;
+}
+
+.subject-card.selected-for-delete {
+  border-color: #ef4444;
+  background-color: rgba(239, 68, 68, 0.08);
+}
+
+/* --- Contact Feedback Form Polish --- */
+#feedback-text:focus {
+  outline: none;
+  border-color: var(--text-heading);
+}
+
+.feedback-status-badge {
+  display: inline-block;
+  padding: 4px 10px;
+  border-radius: 12px;
+  font-size: 0.8rem;
+  font-weight: 600;
+  margin-top: 0.5rem;
+}
+
+.status-pending {
+  background-color: rgba(245, 158, 11, 0.15);
+  color: #f59e0b;
+  border: 1px solid #f59e0b;
+}
+
+.status-checked {
+  background-color: rgba(16, 185, 129, 0.15);
+  color: #10b981;
+  border: 1px solid #10b981;
 }
