@@ -693,3 +693,27 @@ p {
 .lang-select:hover {
   border-color: var(--primary-color, #0284c7);
 }
+
+.donate-card-wide {
+  position: relative !important;
+  padding-top: 2.5rem !important;
+}
+
+.modal-close-icon {
+  position: absolute !important;
+  top: 1rem !important;
+  right: 1.25rem !important;
+  background: transparent !important;
+  border: none !important;
+  color: var(--text-sub, #94a3b8) !important;
+  font-size: 1.75rem !important;
+  font-weight: bold;
+  cursor: pointer !important;
+  line-height: 1 !important;
+  z-index: 10;
+  transition: color 0.2s ease;
+}
+
+.modal-close-icon:hover {
+  color: #ef4444 !important;
+}
