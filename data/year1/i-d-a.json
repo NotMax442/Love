@@ -1,0 +1,2930 @@
+{
+  "questions": [
+    {
+      "id": 1,
+      "question": "Coronavirus បង្កជំងឺ COVID-19",
+      "options": [
+        "បង្ករដោយមេរោគ SARS-CoV1",
+        "បង្កដោយមេរោគ MERS-CoV",
+        "ជាមេរោគមិនបង្កជំងឺផ្លូវដង្ហើមលើមនុស្ស",
+        "បង្កដោយមេរោគ SARS-CoV2"
+      ],
+      "correctIndex": 3
+    },
+    {
+      "id": 2,
+      "question": "SARS-CoV2 បង្កជំងឺ COVID-19",
+      "options": [
+        "ជា បានមិនបង្កជំងឺផ្លូវដង្ហើមលើមនុស្ស",
+        "មិនចំលងខ្លាំងតាមផ្លូវដង្ហើមទេ",
+        "មិនមានវ៉ាក់សាំងសំរាប់ការពារជំងឺCOVID",
+        "មានវ៉ាក់សាំងសំរាប់ការពារ COVID-19បង្កដោយមេរោគ SARS-2"
+      ],
+      "correctIndex": 3
+    },
+    {
+      "id": 3,
+      "question": "Which phylum do cestodes belong to",
+      "options": [
+        "Nematoda",
+        "Platyhelminthes",
+        "Annelida",
+        "Arthropoda"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 4,
+      "question": "The three main parts of a cestode body are:",
+      "options": [
+        "Head, thorax, abdomen",
+        "Scolex, neck, strobila",
+        "Anterior, middle, posterior",
+        "Oral, genital, anal segments"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 5,
+      "question": "Cestodes absorb nutrients through:",
+      "options": [
+        "Their digestive tract",
+        "Specialized feeding tubes",
+        "The tegument",
+        "Oral suckers"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 6,
+      "question": "The scolex of Taenia saginata has",
+      "options": [
+        "4 suckers with hooks",
+        "4 suckers without hooks",
+        "2 bothria",
+        "6 suckers"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 7,
+      "question": "Gravid proglottids of Taenia saginata have how many lateral uterine branches?",
+      "options": [
+        "7-13",
+        "15-30",
+        "5-10",
+        "20-25"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 8,
+      "question": "The intermediate host for Taenia saginata is:",
+      "options": [
+        "Pigs",
+        "Fish",
+        "Cattle",
+        "Rodents"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 9,
+      "question": "Taenia saginata can cause:",
+      "options": [
+        "Cysticercosis",
+        "Only intestinal taeniasis",
+        "Hydatid disease",
+        "Neurocysticercosis"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 10,
+      "question": "The adult length of Taenia saginata can reach:",
+      "options": [
+        "2-7 meters",
+        "4-10 meters (up to 25m)",
+        "20-80 cm",
+        "3-6 mm"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 11,
+      "question": "What distinguishes Taenia solium scolex from Taenia saginata?",
+      "options": [
+        "Number of suckers",
+        "Presence of hooks on rostellum",
+        "Size of suckers",
+        "Color"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 12,
+      "question": "Gravid proglottids of Taenia solium have",
+      "options": [
+        "15-30 uterine branches",
+        "7-13 uterine branches",
+        "No uterine branches",
+        "25-35 uterine branches"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 13,
+      "question": "Cysticercosis is caused by:",
+      "options": [
+        "Adult Taenia solium in intestine",
+        "Taenia solium eggs developing into larvae in human tissues",
+        "Taenia saginata eggs",
+        "Echinococcus larvae"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 14,
+      "question": "Neurocysticercosis can cause:",
+      "options": [
+        "Only headaches",
+        "Seizures, hydrocephalus, focal neurological deficits",
+        "Only vision problems",
+        "Liver damage"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 15,
+      "question": "The intermediate host for Taenia solium is:",
+      "options": [
+        "Cattle",
+        "Pigs",
+        "Fish",
+        "Dogs"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 16,
+      "question": "Echinococcus granulosus adult worms are found in:",
+      "options": [
+        "Human intestines",
+        "Sheep intestines",
+        "Dog intestines",
+        "Pig intestines"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 17,
+      "question": "The adult E. granulosus measures",
+      "options": [
+        "4-10 meters",
+        "20-80 cm",
+        "3-6 mm",
+        "2-7 meters"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 18,
+      "question": "How many proglottids does adult Echinococcus granulosus have?",
+      "options": [
+        "1,000-2,000",
+        "100-200",
+        "3 (immature, mature, gravid)",
+        "3,000"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 19,
+      "question": "Hydatid cysts most commonly occur in",
+      "options": [
+        "Brain only",
+        "Liver (70%) and lungs (20%)",
+        "Muscles only",
+        "Kidneys only"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 20,
+      "question": "The contents of hydatid cysts include:",
+      "options": [
+        "Only fluid",
+        "Fluid and brood capsules with protoscolices",
+        "Only adult worms",
+        "Blood and pus"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 21,
+      "question": "Hymenolepis nana is called the dwarf tapeworm because",
+      "options": [
+        "It infects small children",
+        "It's the smallest tapeworm (2-4 cm)",
+        "It has small eggs",
+        "lives in small intestine"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 22,
+      "question": "H. nana eggs are characterized by",
+      "options": [
+        "Operculum",
+        "Polar filaments",
+        "Large size (70-85 µm)",
+        "Smooth shell"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 23,
+      "question": "The life cycle of H. nana is unique because:",
+      "options": [
+        "It requires two intermediate hosts",
+        "It's direct (no intermediate host required)",
+        "It only infects animals",
+        "Eggs are not infective immediately"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 24,
+      "question": "Autoinfection in H. nana means:",
+      "options": [
+        "The worm reproduces asexually",
+        "Eggs can hatch and reinfect the same host",
+        "The host infects itself through wounds",
+        "Multiple species can cross-infect"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 25,
+      "question": "H. nana is the most common",
+      "options": [
+        "Nematode infection",
+        "Trematode infection",
+        "Human cestode infection worldwide",
+        "Protozoan infection"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 26,
+      "question": "Diphyllobothrium latum belongs to which order?",
+      "options": [
+        "Cyclophyllidea",
+        "Pseudophyllidea",
+        "Monogenea",
+        "Digenea"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 27,
+      "question": "The scolex of Diphyllobothrium latum has:",
+      "options": [
+        "4 suckers",
+        "Hooks",
+        "Two bothria (sucking grooves)",
+        "4 suckers with hooks"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 28,
+      "question": "Diphyllobothrium latum eggs are",
+      "options": [
+        "Round with thick shell",
+        "Oval and operculated",
+        "Have polar filaments",
+        "Lack embryo"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 29,
+      "question": "Diphyllobothrium latum can cause:",
+      "options": [
+        "Cysticercosis",
+        "Hydatid disease",
+        "Vitamin B12 deficiency",
+        "Neurocysticercosis"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 30,
+      "question": "The first intermediate host of Diphyllobothrium latum is:",
+      "options": [
+        "Fish",
+        "Copepods",
+        "Cattle",
+        "Pigs"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 31,
+      "question": "Which tapeworm is most likely to cause megaloblastic anemia?",
+      "options": [
+        "Taenia saginata",
+        "Taenia solium",
+        "Diphyllobothrium latum",
+        "Hymenolepis nana"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 32,
+      "question": "Neurocysticercosis is diagnosed by:",
+      "options": [
+        "Stool microscopy only",
+        "CT/MRI imaging and serology",
+        "Blood smear",
+        "Urine examination"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 33,
+      "question": "Which medication is the drug of choice for most cestode infections?",
+      "options": [
+        "Metronidazole",
+        "Albendazole only",
+        "Praziquantel",
+        "Ivermectin"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 34,
+      "question": "Hydatid cyst rupture can cause",
+      "options": [
+        "Megaloblastic anemia",
+        "Anaphylaxis and secondary cysts",
+        "Vitamin B12 deficiency",
+        "Neurocysticercosis"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 35,
+      "question": "Cysticercosis can be prevented by",
+      "options": [
+        "Cooking beef thoroughly",
+        "Proper sanitation and avoiding fecal contamination",
+        "Deworming fish",
+        "Avoiding dairy products"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 36,
+      "question": "Which tapeworm infection is associated with eating sushi or raw fish?",
+      "options": [
+        "Taenia saginata",
+        "Taenia solium",
+        "Diphyllobothrium latum",
+        "Hymenolepis nana"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 37,
+      "question": "The most effective way to prevent hydatid disease is",
+      "options": [
+        "Cooking pork thoroughly",
+        "Regular deworming of dogs and avoiding fecal contamination",
+        "Boiling water",
+        "Avoiding beef"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 38,
+      "question": "Which class do trematodes belong to?",
+      "options": [
+        "Cestoda",
+        "Trematoda",
+        "Nematoda",
+        "Platyhelminthes"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 39,
+      "question": "What is the most medically important subclass of trematodes?",
+      "options": [
+        "Aspidogastrea",
+        "Monogenea",
+        "Digenea",
+        "Polyopisthocotylea"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 40,
+      "question": "Which type of intermediate host is commonly involved in trematode life cycles?",
+      "options": [
+        "Mosquitoes",
+        "Freshwater snails",
+        "Ticks",
+        "Fleas"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 41,
+      "question": "What is the drug of choice for most trematode infections?",
+      "options": [
+        "Albendazole",
+        "Ivermectin",
+        "Metronidazole",
+        "Praziquantel"
+      ],
+      "correctIndex": 3
+    },
+    {
+      "id": 42,
+      "question": "Trematodes are characterized by having:",
+      "options": [
+        "One sucker only",
+        "Two suckers (oral and ventral)",
+        "Three suckers",
+        "No suckers"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 43,
+      "question": "Which Schistosoma species primarily affects the urinary bladder?",
+      "options": [
+        "Schistosoma mansoni",
+        "Schistosoma japonicum",
+        "Schistosoma haematobium",
+        "Schistosoma intercalatum"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 44,
+      "question": "Schistosoma mansoni is found in which geographic regions?",
+      "options": [
+        "East Asia only",
+        "Africa, South America, Caribbean",
+        "Europe and North America",
+        "Australia and New Zealand"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 45,
+      "question": "The pathogenesis of schistosomiasis is primarily caused by:",
+      "options": [
+        "Adult worms in blood vessels",
+        "Cercariae penetrating skin",
+        "Immune reaction to eggs trapped in tissues",
+        "Miracidia in freshwater"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 46,
+      "question": "Which clinical sign is most characteristic of S. haematobium infection?",
+      "options": [
+        "Hepatosplenomegaly",
+        "Hematuria (blood in urine)",
+        "Chronic cough",
+        "Jaundice"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 47,
+      "question": "Schistosoma eggs are typically found in",
+      "options": [
+        "Blood samples only",
+        "Urine or stool samples",
+        "Saliva samples",
+        "Cerebrospinal fluid"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 48,
+      "question": "Fasciola hepatica is commonly known as",
+      "options": [
+        "Blood fluke",
+        "Lung fluke",
+        "Liver fluke",
+        "Intestinal fluke"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 49,
+      "question": "Humans become infected with F. hepatica by",
+      "options": [
+        "Swimming in contaminated water",
+        "Eating raw freshwater fish",
+        "Ingesting contaminated aquatic plants",
+        "Insect bites"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 50,
+      "question": "The drug of choice for treating fascioliasis is",
+      "options": [
+        "Praziquantel",
+        "Triclabendazole",
+        "Albendazole",
+        "Bithionol"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 51,
+      "question": "Fasciola hepatica adults mature in the:",
+      "options": [
+        "Lungs",
+        "Small intestine",
+        "Bile ducts",
+        "Blood vessels"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 52,
+      "question": "The intermediate host for F. hepatica is:",
+      "options": [
+        "Freshwater crabs",
+        "Freshwater fish",
+        "Freshwater snails",
+        "Aquatic plants"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 53,
+      "question": "Paragonimus westermani is commonly called:",
+      "options": [
+        "Liver fluke",
+        "Lung fluke",
+        "Blood fluke",
+        "Intestinal fluke"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 54,
+      "question": "Humans become infected with P. westermani by eating:",
+      "options": [
+        "Raw aquatic plants",
+        "Contaminated water",
+        "Raw or undercooked freshwater crustaceans",
+        "Raw freshwater fish"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 55,
+      "question": "The most characteristic symptom of paragonimiasis:",
+      "options": [
+        "Hematuria",
+        "Hemoptysis (coughing up blood)",
+        "Jaundice",
+        "Diarrhea"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 56,
+      "question": "P. westermani is most commonly found in:",
+      "options": [
+        "Africa and Middle East",
+        "South America",
+        "East and Southeast Asia",
+        "Europe and North America"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 57,
+      "question": "The second intermediate host for P. westermani includes:",
+      "options": [
+        "Snails",
+        "Fish",
+        "Freshwater crabs and crayfish",
+        "Aquatic plants"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 58,
+      "question": "The infective stage of Fasciola hepatica for humans is:",
+      "options": [
+        "Miracidia",
+        "Cercariae",
+        "Metacercariae",
+        "Adult worms"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 59,
+      "question": "Which diagnostic method is most commonly used for trematode infections:",
+      "options": [
+        "Blood culture",
+        "Microscopic examination of eggs",
+        "PCR testing",
+        "Skin biopsy"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 60,
+      "question": "Schistosoma cercariae infect humans by:",
+      "options": [
+        "Ingestion",
+        "Inhalation",
+        "Skin penetration",
+        "Insect vectors"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 61,
+      "question": "The first larval stage that emerges from trematode eggs is called:",
+      "options": [
+        "Cercaria",
+        "Metacercaria",
+        "Redia",
+        "Miracidium"
+      ],
+      "correctIndex": 3
+    },
+    {
+      "id": 62,
+      "question": "Eosinophilia is commonly associated with which phase of trematode infections?",
+      "options": [
+        "Acute phase only",
+        "Chronic phase only",
+        "Both acute and chronic phases",
+        "Neither phase"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 63,
+      "question": "The most effective prevention method for schistosomiasis is:",
+      "options": [
+        "Vaccination",
+        "Avoiding contact with contaminated freshwater",
+        "Taking prophylactic antibiotics",
+        "Using insect repellent"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 64,
+      "question": "Control of trematode infections often involves:",
+      "options": [
+        "Mosquito control programs",
+        "Snail control programs",
+        "Vaccination programs",
+        "Quarantining infected people"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 65,
+      "question": "To prevent fascioliasis, people should avoid:",
+      "options": [
+        "Swimming in freshwater",
+        "Eating raw aquatic plants like watercress",
+        "Contact with infected animals",
+        "Drinking well water"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 66,
+      "question": "Preventive chemotherapy with praziquantel is recommended for:",
+      "options": [
+        "All trematode infections",
+        "Schistosomiasis in endemic areas",
+        "Fascioliasis only",
+        "Paragonimiasis only"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 67,
+      "question": "Which of the following is NOT a recommended prevention method for trematode infections?",
+      "options": [
+        "Improving sanitation",
+        "Health education",
+        "Insecticide spraying",
+        "Proper food preparation"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 68,
+      "question": "A 28-year-old man presents with bloody diarrhea, abdominal pain, and weight loss. Which parasite is the most likely cause?",
+      "options": [
+        "Giardia lamblia",
+        "Entamoeba histolytica",
+        "Balantidium coli",
+        "Trichomonas vaginalis"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 69,
+      "question": "Which of the following is true about the mature cyst stage of Entamoeba histolytica?",
+      "options": [
+        "Has one nucleus only",
+        "Quadrinucleate form is infective",
+        "Found only in extraintestinal lesions",
+        "Cannot survive outside the host"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 70,
+      "question": "A child has greasy, foul-smelling stools without blood. Microscopy shows pear-shaped trophozoites with two nuclei that resemble \"eyes.\" Which parasite is responsible?",
+      "options": [
+        "Giardia lamblia",
+        "Entamoeba coli",
+        "Balantidium coli",
+        "Entamoeba histolytica"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 71,
+      "question": "Which intestinal protozoan attached to the mucosa of the intestinal, leading to disrupt absorption?",
+      "options": [
+        "Entamoeba histolytica",
+        "Giardia lamblia",
+        "Balantidium coli",
+        "Blastocystis hominis"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 72,
+      "question": "A farmer develops dysentery after contact with pigs. Stool examination shows Large trophozoite, oval shape, covered with cilia for motility. Which is the most likely pathogen?",
+      "options": [
+        "Entamoeba histolytica",
+        "Giardia lamblia",
+        "Balantidium coli",
+        "Cryptosporidium parvum"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 73,
+      "question": "In Balantidium coli infection, the most severe case which clinical feature following?",
+      "options": [
+        "Amebic liver abscess",
+        "Dysentery-like illness, possible intestinal perforation",
+        "Malabsorption syndrome",
+        "Urogenital infection"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 74,
+      "question": "A 25-year-old woman presents with frothy, yellow-green discharge, itching, and a strawberry cervix on exam. Wet mount reveals motile trophozoites. What is the most likely organism?",
+      "options": [
+        "Trichomonas vaginalis",
+        "Candida albicans",
+        "Giardia lamblia",
+        "Entamoeba histolytica"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 75,
+      "question": "Which of the following statements about Trichomonas vaginalis is correct?",
+      "options": [
+        "Has both cyst and trophozoite forms",
+        "Transmitted by ingestion of contaminated food",
+        "Only trophozoite stage exists, transmitted sexually",
+        "Causes bloody dysentery"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 76,
+      "question": "Which protozoan is diagnosed most reliably by a direct saline wet mount of vaginal discharge?",
+      "options": [
+        "Giardia lamblia",
+        "Trichomonas vaginalis",
+        "Entamoeba histolytica",
+        "Balantidium coli"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 77,
+      "question": "A stool sample from a patient with chronic diarrhea shows cysts containing 4 nuclei. Which parasite is most likely?",
+      "options": [
+        "Entamoeba histolytica",
+        "Giardia lamblia",
+        "Balantidium coli",
+        "Isospora belli"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 78,
+      "question": "Which of the following protozoa is associated with mal absorption of fat and vitamins (A,D,E,K)?",
+      "options": [
+        "Entamoeba histolytica",
+        "Giardia lamblia",
+        "Balantidium coli",
+        "Trichomonas vaginalis"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 79,
+      "question": "Which feature differentiates Trichomonas vaginalis from intestinal protozoa?",
+      "options": [
+        "Presence of trophozoite stage",
+        "Transmission through contaminated water",
+        "Lack of cyst stage and sexual transmission",
+        "Ability to invade intestinal mucosa"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 80,
+      "question": "Which of the following is the primary reason Gram-positive bacteria appear purple under microscopy?",
+      "options": [
+        "Thin peptidoglycan layer",
+        "Thick peptidoglycan layer that retains crystal violet",
+        "Presence of an outer membrane",
+        "High lipid content in cell wall"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 81,
+      "question": "The arrangement of Staphylococcus species is best described as:",
+      "options": [
+        "Chains",
+        "Pairs (diplococci)",
+        "Irregular clusters resembling grapes",
+        "Single cocci"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 82,
+      "question": "Which test is used to differentiate Staphylococcus from Streptococcus?",
+      "options": [
+        "Coagulase test",
+        "Catalase test",
+        "Optochin test",
+        "PYR test"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 83,
+      "question": "Which Staphylococcus species is coagulase positive?",
+      "options": [
+        "Staphylococcus epidermidis",
+        "Staphylococcus saprophyticus",
+        "Staphylococcus aureus",
+        "All of the above"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 84,
+      "question": "Staphylococcus saprophyticus is most commonly associated with:",
+      "options": [
+        "Endocarditis",
+        "Food poisoning",
+        "Urinary tract infections in young women",
+        "Prosthetic device infections"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 85,
+      "question": "Which antibiotic would be first-line treatment for MRSA?",
+      "options": [
+        "Penicillin",
+        "Nafcillin",
+        "Vancomycin",
+        "Cefazolin"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 86,
+      "question": "Streptococcus pyogenes (Group A) typically shows which hemolysis pattern?",
+      "options": [
+        "α-hemolysis (greenish zone)",
+        "β-hemolysis (clear zone)",
+        "γ-hemolysis (no hemolysis)",
+        "Variable hemolysis"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 87,
+      "question": "The bacitracin sensitivity test is used to identify:",
+      "options": [
+        "Streptococcus pneumoniae",
+        "Streptococcus pyogenes (Group A)",
+        "Streptococcus agalactiae (Group B)",
+        "Enterococcus species"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 88,
+      "question": "Which of the following is characteristic of Group A streptococcal infection?",
+      "options": [
+        "Necrotizing fasciitis",
+        "Neonatal sepsis",
+        "Meningitis",
+        "Postpartum infections"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 89,
+      "question": "Streptococcus agalactiae (Group B) is particularly important in:",
+      "options": [
+        "Neonatal sepsis and meningitis",
+        "Community acquired pneumonia",
+        "Urinary tract infections",
+        "Pharyngitis"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 90,
+      "question": "Which tests are positive for Streptococcus pneumoniae?",
+      "options": [
+        "Optochin sensitivity and bile solubility",
+        "Catalase and coagulase",
+        "PYR and salt tolerance",
+        "Bacitracin sensitivity"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 91,
+      "question": "The major virulence factor of Streptococcus pneumoniae is:",
+      "options": [
+        "M protein",
+        "Protein A",
+        "Polysaccharide capsule",
+        "Coagulase"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 92,
+      "question": "Which vaccine type is recommended for infants against pneumococcal disease?",
+      "options": [
+        "PPSV23",
+        "PCV13",
+        "Both simultaneously",
+        "Neither (not recommended for infants)"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 93,
+      "question": "Enterococcus species are distinguished from other streptococci by:",
+      "options": [
+        "Growth in 6.5% NaCl and positive PYR test",
+        "α-hemolysis on blood agar",
+        "Catalase positivity",
+        "Optochin sensitivity"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 94,
+      "question": "Which Enterococcus species is most commonly isolated?",
+      "options": [
+        "Enterococcus faecium",
+        "Enterococcus faecalis",
+        "Enterococcus gallinarum",
+        "Enterococcus casseliflavus"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 95,
+      "question": "Vancomycin-resistant Enterococcus (VRE) infections are typically treated with:",
+      "options": [
+        "High-dose penicillin",
+        "Cephalosporins",
+        "Linezolid or daptomycin",
+        "Clindamycin"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 96,
+      "question": "A 25-year-old woman presents with dysuria and frequency. Urine culture grows Gram-positive cocci in clusters that are catalase positive and coagulase negative. The most likely organism is:",
+      "options": [
+        "Staphylococcus aureus",
+        "Staphylococcus epidermidis",
+        "Staphylococcus saprophyticus",
+        "Enterococcus faecalis"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 97,
+      "question": "A 2-month-old infant presents with fever and irritability. CSF culture grows Gram-positive cocci in chains that are catalase negative and β-hemolytic. The most likely organism is:",
+      "options": [
+        "Streptococcus pyogenes",
+        "Streptococcus agalactiae",
+        "Streptococcus pneumoniae",
+        "Enterococcus faecalis"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 98,
+      "question": "Food poisoning with rapid onset (1-6 hours) after eating potato salad at a picnic is most likely caused by:",
+      "options": [
+        "Staphylococcus aureus enterotoxin",
+        "Streptococcus pneumoniae",
+        "Enterococcus faecalis",
+        "Streptococcus pyogenes"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 99,
+      "question": "A patient with a prosthetic heart valve develops endocarditis. Blood cultures grow Gram-positive cocci in clusters that are catalase positive and coagulase negative. The organism is most likely:",
+      "options": [
+        "Staphylococcus aureus",
+        "Staphylococcus epidermidis",
+        "Streptococcus viridans",
+        "Enterococcus faecalis"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 100,
+      "question": "Which medium is selective for Staphylococcus species?",
+      "options": [
+        "Blood agar",
+        "MacConkey agar",
+        "Mannitol salt agar",
+        "Chocolate agar"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 101,
+      "question": "A Gram-positive coccus that is α-hemolytic (greenish zone) which species is most likely?",
+      "options": [
+        "Streptococcus pneumoniae",
+        "Streptococcus pyogenes",
+        "Viridans group streptococci",
+        "Enterococcus species"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 102,
+      "question": "The PYR test (Pyrrolidonyl Arylamidase test) is used primarily to identify:",
+      "options": [
+        "Staphylococcus aureus",
+        "Streptococcus pneumoniae",
+        "Group A streptococci and Enterococci",
+        "Viridans group streptococci"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 103,
+      "question": "Which parasite is most commonly associated with intestinal obstruction in heavy infection?",
+      "options": [
+        "Enterobius vermicularis",
+        "Ascaris lumbricoides",
+        "Loa loa",
+        "Onchocerca volvulus"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 104,
+      "question": "A child has intense perianal itching at night. Which diagnostic test is most appropriate?",
+      "options": [
+        "Thick blood smear",
+        "Skin snip biopsy",
+        "Cellophane tape test",
+        "Sputum microscopy"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 105,
+      "question": "Which intestinal nematode is classically associated with Iron-deficiency anemia?",
+      "options": [
+        "Hookworm",
+        "Trichuris trichiura",
+        "Enterobius vermicularis",
+        "Dracunculus medinensis"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 106,
+      "question": "Which parasite has the unique ability to cause autoinfection and severe hyperinfection in immunosuppressed patients?",
+      "options": [
+        "Ascaris lumbricoides",
+        "Trichuris trichiura",
+        "Wuchereria bancrofti",
+        "Strongyloides stercoralis"
+      ],
+      "correctIndex": 3
+    },
+    {
+      "id": 107,
+      "question": "Which parasite is transmitted mainly by ingestion of embryonated eggs from contaminated soil?",
+      "options": [
+        "Hookworm",
+        "Onchocerca volvulus",
+        "Ascaris lumbricoides",
+        "Dracunculus medinensis"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 108,
+      "question": "Which parasite is commonly known as the \"whipworm\"?",
+      "options": [
+        "Trichuris trichiura",
+        "Enterobius vermicularis",
+        "Loa loa",
+        "Necator americanus"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 109,
+      "question": "Lymphatic filariasis is mainly caused by which of the following parasites?",
+      "options": [
+        "Dracunculus medinensis and Loa loa",
+        "Wuchereria bancrofti and Brugia malayi",
+        "Ascaris lumbricoides and Trichuris trichiura",
+        "Enterobius vermicularis and Strongyloides stercoralis"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 110,
+      "question": "Which vector transmits Onchocerca volvulus?",
+      "options": [
+        "Mosquito",
+        "Blackfly",
+        "Deer fly",
+        "Water flea"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 111,
+      "question": "A patient presents with transient swelling of the arm and a worm moving across the eye. Which parasite is most likely?",
+      "options": [
+        "Loa loa",
+        "Wuchereria bancrofti",
+        "Ancylostoma duodenale",
+        "Strongyloides stercoralis"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 112,
+      "question": "Guinea worm disease is caused by which parasite?",
+      "options": [
+        "Trichuris trichiura",
+        "Brugia malayi",
+        "Dracunculus medinensis",
+        "Onchocerca volvulus"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 113,
+      "question": "Which of the following correctly describes members of the Enterobacteriaceae family?",
+      "options": [
+        "Large, gram-positive cocci that form endospores",
+        "Small, gram-negative rods measuring approximately 2-5 x 0.5 µm",
+        "Spiral-shaped, gram-variable bacteria with flagella at both poles",
+        "Acid-fast bacilli that contain mycolic acids in their cell wall"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 114,
+      "question": "Which bacterial family is most commonly associated with gram-negative, facultative anaerobic, non-spore-forming rods?",
+      "options": [
+        "Bacillaceae",
+        "Enterobacteriaceae",
+        "Mycobacteriaceae",
+        "Streptococcaceae"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 115,
+      "question": "Which Salmonella species is most frequently associated with foodborne gastroenteritis, especially from contaminated poultry and eggs?",
+      "options": [
+        "Salmonella typhimurium",
+        "Salmonella enteritidis",
+        "Salmonella typhi",
+        "Salmonella paratyphi A"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 116,
+      "question": "What is the gold standard for the diagnosis of Salmonella infections such as typhoid fever?",
+      "options": [
+        "Urine test",
+        "Blood culture",
+        "Widal test",
+        "Stool microscopy"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 117,
+      "question": "The Widal test detects which of the following in a patient's serum?",
+      "options": [
+        "Bacterial toxins",
+        "Antibodies against Salmonella antigens",
+        "Salmonella DNA",
+        "White blood cell response"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 118,
+      "question": "What is the most effective way to prevent the spread of Salmonella infection?",
+      "options": [
+        "Avoiding antibiotics",
+        "Regular handwashing and proper food handling",
+        "Taking vitamins",
+        "Using insect repellents"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 119,
+      "question": "Which of the following helps prevent Salmonella foodborne infections?",
+      "options": [
+        "Eating raw eggs and undercooked poultry",
+        "Storing food at room temperature",
+        "Cooking food thoroughly and refrigerating promptly",
+        "Avoiding all fruits and vegetables"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 120,
+      "question": "Which of the following best describes protozoa?",
+      "options": [
+        "Multicellular prokaryotes",
+        "Unicellular eukaryotes",
+        "Multicellular eukaryotes",
+        "Unicellular prokaryotes"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 121,
+      "question": "Protozoa reproduce by which of the following methods?",
+      "options": [
+        "Only sexual reproduction",
+        "Only asexual reproduction",
+        "Both asexual and sexual reproduction",
+        "By forming spores only"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 122,
+      "question": "Protozoa can live and multiply:",
+      "options": [
+        "Only on the skin surface",
+        "Only inside host cells (intracellular)",
+        "Both inside and outside host cells (intracellular and extracellular)",
+        "Only in the environment"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 123,
+      "question": "Which of the following protozoal diseases is transmitted by a vector?",
+      "options": [
+        "Giardiasis",
+        "Malaria",
+        "Amebiasis",
+        "Toxoplasmosis (ingestion)"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 124,
+      "question": "Which of the following is the best method to prevent malaria, a vector-borne protozoal disease?",
+      "options": [
+        "Avoiding dairy products",
+        "Using insecticide-treated bed nets",
+        "Taking antibiotics regularly",
+        "Wearing thick clothing indoors"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 125,
+      "question": "Which of the following food-handling practices helps prevent protozoal infection?",
+      "options": [
+        "Eating raw vegetables without washing",
+        "Cooking meat thoroughly before eating",
+        "Storing food at room temperature",
+        "Avoiding all fresh produce"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 126,
+      "question": "In bacterial nomenclature, the genus name is:",
+      "options": [
+        "Lowercase, abbreviated",
+        "Uppercase, italicized",
+        "Uppercase, underlined",
+        "Lowercase, underlined"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 127,
+      "question": "Which colour of Gram-positive bacteria appear after Gram staining?",
+      "options": [
+        "Red",
+        "Pink",
+        "Purple",
+        "Colorless"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 128,
+      "question": "Endotoxins are mainly associated with:",
+      "options": [
+        "Gram-positive bacteria",
+        "Gram-negative bacteria",
+        "Both Gram-positive and Gram-negative",
+        "Fungi"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 129,
+      "question": "Exotoxins are typically:",
+      "options": [
+        "Lipid components of cell walls",
+        "Secreted proteins",
+        "Genetic material",
+        "Capsule polysaccharides"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 130,
+      "question": "Most bacteria prefer which pH for optimal growth?",
+      "options": [
+        "4.5",
+        "5.5",
+        "7.0",
+        "9.0"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 131,
+      "question": "Which bacterial growth phase shows no cell division, only adaptation?",
+      "options": [
+        "Lag phase",
+        "Log phase",
+        "Stationary phase",
+        "Death phase"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 132,
+      "question": "Which of the following is a general feature of Enterobacteriaceae?",
+      "options": [
+        "Oxidase-positive",
+        "Ferment glucose",
+        "Non-nitrate reducers",
+        "Gram-positive cocci"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 133,
+      "question": "The endotoxin of Gram-negative Enterobacteriaceae is mainly composed of:",
+      "options": [
+        "Lipopolysaccharide (LPS)",
+        "Peptidoglycan",
+        "Teichoic acid",
+        "Mycolic acid"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 134,
+      "question": "Which of the following is TRUE for all Enterobacteriaceae?",
+      "options": [
+        "Gram-positive, oxidase-positive",
+        "Gram-negative, oxidase-negative",
+        "Gram-negative, oxidase-positive",
+        "Gram-positive, catalase-negative"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 135,
+      "question": "Which of the following is the main component responsible for septic shock in Enterobacteriaceae?",
+      "options": [
+        "Capsule polysaccharide",
+        "Lipopolysaccharide (endotoxin)",
+        "Peptidoglycan fragments",
+        "Pili proteins"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 136,
+      "question": "The O antigen in Enterobacteriaceae refers to:",
+      "options": [
+        "Flagellar antigen",
+        "Capsular antigen",
+        "Somatic cell wall antigen",
+        "Exotoxin component"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 137,
+      "question": "Among Enterobacteriaceae, H antigen is present only in:",
+      "options": [
+        "Non-motile species",
+        "Flagellated (motile) species",
+        "Capsule-producing species",
+        "Spore-forming species"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 138,
+      "question": "A hospitalized patient with \"currant jelly sputum\" is most likely infected with:",
+      "options": [
+        "Escherichia coli",
+        "Klebsiella pneumoniae",
+        "Proteus mirabilis",
+        "Yersinia pestis"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 139,
+      "question": "The genus Klebsiella was named after:",
+      "options": [
+        "Alexandre Yersin",
+        "Gustav Hauser",
+        "Edwin Klebs",
+        "Robert Koch"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 140,
+      "question": "Klebsiella is best known for being:",
+      "options": [
+        "Motile and spore-forming",
+        "Non-motile and capsulated",
+        "Swarming on agar",
+        "Oxidase positive"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 141,
+      "question": "Which patient group is most at risk for Klebsiella pneumoniae pneumonia?",
+      "options": [
+        "Young children in daycare",
+        "Alcoholics and diabetics",
+        "Healthy adolescents with daily coffee drinking",
+        "Patients with viral hepatitis"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 142,
+      "question": "In Klebsiella pneumonia, the characteristic sputum is:",
+      "options": [
+        "Rust-colored",
+        "Frothy and yellow",
+        "Currant jelly-like",
+        "Purulent green"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 143,
+      "question": "Klebsiella pneumoniae can be identified in the lab by:",
+      "options": [
+        "Bipolar staining",
+        "Urease positivity and lactose fermentation",
+        "Swarming motility",
+        "H2S positivity on TSI agar"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 144,
+      "question": "Which of the following is a hallmark of Proteus on culture plates?",
+      "options": [
+        "Bipolar safety-pin appearance",
+        "Swarming motility",
+        "Currant jelly colonies",
+        "Mucoid colonies"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 145,
+      "question": "Proteus infections are commonly associated with:",
+      "options": [
+        "Bacterial meningitis",
+        "Kidney stone formation (struvite)",
+        "Tuberculosis-like lesions",
+        "Plague outbreaks"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 146,
+      "question": "On MacConkey agar, Proteus appears as:",
+      "options": [
+        "Lactose fermenter (pink colonies)",
+        "Non-lactose fermenter (pale colonies)",
+        "Bipolar safety-pin appearance",
+        "Black colonies"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 147,
+      "question": "A catheterized patient develops fever and alkaline urine. Which enzyme produced by Proteus is responsible?",
+      "options": [
+        "Catalase",
+        "Urease",
+        "Oxidase",
+        "Hemolysin"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 148,
+      "question": "The plague pathogen is:",
+      "options": [
+        "Yersinia enterocolitica",
+        "Yersinia pseudotuberculosis",
+        "Yersinia pestis",
+        "Klebsiella pestis"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 149,
+      "question": "Which transmission route is typical for bubonic plague?",
+      "options": [
+        "Inhalation of aerosols",
+        "Flea bites from infected rodents",
+        "Contaminated food",
+        "Person-to-person sexual contact"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 150,
+      "question": "The clinical hallmark of bubonic plague is:",
+      "options": [
+        "Hemoptysis",
+        "Buboes (painful swollen lymph nodes)",
+        "Bloody diarrhea",
+        "Currant jelly sputum"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 151,
+      "question": "Yersinia pestis appears in microscopy with:",
+      "options": [
+        "Swarming motility",
+        "Safety-pin bipolar staining",
+        "Capsule visible by Quellung",
+        "Pink lactose-fermenting colonies"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 152,
+      "question": "What is parasitology?",
+      "options": [
+        "The study of parasites, their hosts, and their relationships",
+        "The study of bacteria and fungi",
+        "The study of viruses and vectors",
+        "The study of animal physiology"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 153,
+      "question": "Which of the following best defines a parasite?",
+      "options": [
+        "An organism that lives independently from others",
+        "An organism that benefits while harming its host",
+        "A microorganism causing viral infections",
+        "A non-living infectious particle"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 154,
+      "question": "Which of the following is a protozoan parasite?",
+      "options": [
+        "Ascaris lumbricoides",
+        "Plasmodium falciparum",
+        "Taenia saginata",
+        "Schistosoma mekongi"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 155,
+      "question": "Which parasite causes ascariasis?",
+      "options": [
+        "Plasmodium vivax",
+        "Giardia lamblia",
+        "Ascaris lumbricoides",
+        "Entamoeba histolytica"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 156,
+      "question": "The transmission of Ascaris lumbricoides occurs mainly through:",
+      "options": [
+        "Mosquito bite",
+        "Skin penetration",
+        "Blood transfusion",
+        "Fecal-oral route via contaminated soil"
+      ],
+      "correctIndex": 3
+    },
+    {
+      "id": 157,
+      "question": "Which of the following pairs is correct?",
+      "options": [
+        "Taenia saginata - waterborne",
+        "Plasmodium spp. - mosquito bite",
+        "Schistosoma mekongi - ingestion of raw meat",
+        "Entamoeba histolytica - inhalation"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 158,
+      "question": "Schistosoma mekongi infection occurs mainly through:",
+      "options": [
+        "Eating unwashed vegetables",
+        "Drinking contaminated water",
+        "Skin contact with infested water",
+        "Mosquito bite"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 159,
+      "question": "Ectoparasites are characterized by:",
+      "options": [
+        "Living inside the host's body",
+        "Requiring multiple hosts to complete life cycle",
+        "Living on the surface of the host",
+        "Having no vector role"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 160,
+      "question": "Which of the following is an example of an arthropod vector?",
+      "options": [
+        "Hookworm",
+        "Mosquito",
+        "Ascaris",
+        "Taenia"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 161,
+      "question": "Plasmodium vivax is transmitted by which vector?",
+      "options": [
+        "Aedes mosquito",
+        "Anopheles mosquito",
+        "Tsetse fly",
+        "Flea"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 162,
+      "question": "Which of the following is a nematode (roundworm)?",
+      "options": [
+        "Ascaris lumbricoides",
+        "Taenia saginata",
+        "Schistosoma mekongi",
+        "Entamoeba histolytica"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 163,
+      "question": "The definitive host is defined as:",
+      "options": [
+        "Host where parasite reproduces sexually",
+        "Host that provides temporary shelter",
+        "Host transmitting the infection",
+        "Host that carries larval stage"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 164,
+      "question": "The main cause of malaria in Cambodia is:",
+      "options": [
+        "Wuchereria bancrofti",
+        "Plasmodium falciparum",
+        "Entamoeba histolytica",
+        "Giardia lamblia"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 165,
+      "question": "In Cambodia, filariasis is transmitted by:",
+      "options": [
+        "Ticks",
+        "Fleas",
+        "Mosquitoes",
+        "Lice"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 166,
+      "question": "Which is NOT a mode of transmission of parasitic infections?",
+      "options": [
+        "Ingestion",
+        "Inhalation",
+        "Direct contact",
+        "Magnetic radiation"
+      ],
+      "correctIndex": 3
+    },
+    {
+      "id": 167,
+      "question": "The most common diagnostic method for intestinal parasites is:",
+      "options": [
+        "MRI",
+        "Stool microscopy",
+        "Chest X-ray",
+        "ECG"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 168,
+      "question": "Which of the following measures is primary prevention against Ascaris infection?",
+      "options": [
+        "Deworming every six months",
+        "Health education and sanitation improvement",
+        "Nutritional rehabilitation",
+        "Stool examination"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 169,
+      "question": "What is the main effect of parasitic infection on the host?",
+      "options": [
+        "Improved immunity",
+        "Nutritional depletion and tissue damage",
+        "Muscle hypertrophy",
+        "Increased metabolism"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 170,
+      "question": "Which parasite is transmitted via contaminated water and causes diarrhea?",
+      "options": [
+        "Giardia lamblia",
+        "Taenia saginata",
+        "Schistosoma mekongi",
+        "Wuchereria bancrofti"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 171,
+      "question": "Protein A, found in Staphylococcus aureus, functions to:",
+      "options": [
+        "Bind to portion of Immunoglobulin G",
+        "Cause hemolysis",
+        "Form biofilms",
+        "Resist phagocytosis"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 172,
+      "question": "Which statement best describes the Cambodian context of parasitic diseases?",
+      "options": [
+        "Mostly eradicated due to urbanization",
+        "Rare due to high socioeconomic status",
+        "Common due to tropical climate and poor sanitation",
+        "Found only among travelers"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 173,
+      "question": "Which of the following best defines Hypereosinophilic Syndrome (HES)?",
+      "options": [
+        "Any eosinophil count above 500",
+        "Eosinophilia due to allergic rhinitis",
+        "Persistent eosinophil count >1,500/µL with organ damage",
+        "Elevated WBC count due to bacterial infection"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 174,
+      "question": "Which of the following parasitic infections is MOST commonly associated with hypereosinophilia in Cambodia?",
+      "options": [
+        "Entamoeba histolytica",
+        "Schistosoma japonicum",
+        "Plasmodium falciparum",
+        "Giardia lamblia"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 175,
+      "question": "What is the main immune mechanism responsible for eosinophilia in parasitic infections?",
+      "options": [
+        "Increased IgM antibodies",
+        "Interleukin-5 (IL-5) stimulation",
+        "T cell suppression",
+        "Complement activation"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 176,
+      "question": "In Hypereosinophilic Syndrome, which organ is most at risk of life-threatening damage?",
+      "options": [
+        "Heart",
+        "Skin",
+        "Kidney",
+        "Eyes"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 177,
+      "question": "Which of the following investigations helps confirm a parasitic cause of HES?",
+      "options": [
+        "Serum creatinine",
+        "ECG",
+        "Chest percussion",
+        "Stool examination for ova and parasites"
+      ],
+      "correctIndex": 3
+    },
+    {
+      "id": 178,
+      "question": "A 27-year-old Cambodian farmer presents with fever, hepatomegaly, and eosinophil count of 4,800/µL. Stool shows Schistosoma eggs. What type of HES is this?",
+      "options": [
+        "Primary (clonal)",
+        "Secondary (reactive)",
+        "Idiopathic",
+        "Familial"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 179,
+      "question": "Which cytokine primarily drives eosinophil overproduction in parasitic infections?",
+      "options": [
+        "IL-5",
+        "TNF-α",
+        "IFN-γ",
+        "IL-2"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 180,
+      "question": "Which of the following is the most likely non-parasitic cause of secondary eosinophilia?",
+      "options": [
+        "Allergic rhinitis",
+        "Ascaris lumbricoides infection",
+        "Strongyloides stercoralis infection",
+        "Schistosoma mekongi infection"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 181,
+      "question": "In endemic settings like Cambodia, what is the public-health importance of identifying eosinophilia early?",
+      "options": [
+        "To detect viral epidemics early",
+        "To prevent transmission of bacterial diseases",
+        "To control parasitic infections and prevent chronic organ damage",
+        "To promote antibiotic use in communities"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 182,
+      "question": "A patient with chronic eosinophilia after river exposure in Kratie Province most likely has which infection?",
+      "options": [
+        "Trichinella spiralis",
+        "Schistosoma mekongi",
+        "Giardia lamblia",
+        "Toxoplasma gondii"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 183,
+      "question": "Hypereosinophilia is defined as:",
+      "options": [
+        "Absolute eosinophil count > 500 cells/µL once",
+        "Absolute eosinophil count > 500 cells/µL twice",
+        "Absolute eosinophil count > 1,500 cells/µL on ≥2 occasions",
+        "Absolute eosinophil count > 5,000 cells/µL once"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 184,
+      "question": "What is the normal eosinophil count in peripheral blood?",
+      "options": [
+        "<100 cells/µL",
+        "<500 cells/µL",
+        "<1,500 cells/µL",
+        "<5,000 cells/µL"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 185,
+      "question": "Which parasitic group is most commonly associated with eosinophilia?",
+      "options": [
+        "Protozoa",
+        "Cestodes",
+        "Nematodes",
+        "Viruses"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 186,
+      "question": "A Cambodian patient living near the Mekong River develops marked eosinophilia. The likely infection is:",
+      "options": [
+        "Giardiasis",
+        "Malaria",
+        "Amebiasis",
+        "Schistosomiasis japonicum"
+      ],
+      "correctIndex": 3
+    },
+    {
+      "id": 187,
+      "question": "Which test confirms presence of parasitic infection in eosinophilia?",
+      "options": [
+        "CBC",
+        "Stool Ova & Parasite exam",
+        "Liver enzymes",
+        "ECG"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 188,
+      "question": "First step in evaluating suspected parasitic HES:",
+      "options": [
+        "Biopsy",
+        "Bone marrow exam",
+        "Detailed travel and exposure history",
+        "CT scan"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 189,
+      "question": "First-line therapy for parasitic HES:",
+      "options": [
+        "Chemotherapy",
+        "Antibiotics",
+        "Anti-parasitic agents (e.g., albendazole, ivermectin, praziquantel)",
+        "Immunotherapy"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 190,
+      "question": "When organ damage is present, adjunctive treatment should include:",
+      "options": [
+        "Corticosteroids",
+        "Paracetamol",
+        "Antihistamines",
+        "Antihypertensives"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 191,
+      "question": "Which statement about HES types is correct?",
+      "options": [
+        "Primary HES is due to parasitic infection",
+        "Secondary HES is reactive to infection or allergy",
+        "Idiopathic HES is always malignant",
+        "Clonal HES is always caused by drugs"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 192,
+      "question": "What is Mycology?",
+      "options": [
+        "The study of bacteria",
+        "The study of viruses",
+        "The study of fungi",
+        "The study of parasites"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 193,
+      "question": "Which of the following best describes yeasts?",
+      "options": [
+        "Multicellular organisms forming hyphae",
+        "Unicellular fungi reproducing by budding",
+        "Filamentous fungi reproducing by spores",
+        "Obligate intracellular organisms"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 194,
+      "question": "The main component of the fungal cell wall is:",
+      "options": [
+        "Peptidoglycan",
+        "Lipopolysaccharide",
+        "Chitin",
+        "Mycolic acid"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 195,
+      "question": "Candida albicans can form pseudohyphae because:",
+      "options": [
+        "Some budding cells fail to detach and elongate",
+        "It reproduces sexually",
+        "It forms septate hyphae",
+        "It grows only at 37°C"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 196,
+      "question": "Fungi that grow as molds at 25°C and as yeasts at 37°C are called:",
+      "options": [
+        "Thermophilic",
+        "Dimorphic",
+        "Saprophytic",
+        "Opportunistic"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 197,
+      "question": "Which of the following is NOT a component of the fungal cell wall?",
+      "options": [
+        "Chitin",
+        "Glucans",
+        "Peptidoglycan",
+        "Mannoprotein"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 198,
+      "question": "Cryptococcus neoformans causes meningitis primarily in:",
+      "options": [
+        "HIV/AIDS patients",
+        "Children",
+        "Diabetics",
+        "Healthy adults"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 199,
+      "question": "India ink stain is used to identify:",
+      "options": [
+        "Cryptococcus neoformans",
+        "Candida albicans",
+        "Aspergillus fumigatus",
+        "Mucor spp."
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 200,
+      "question": "Which fungal infection is associated with pigeon droppings?",
+      "options": [
+        "Aspergillosis",
+        "Cryptococcosis",
+        "Mucormycosis",
+        "Histoplasmosis"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 201,
+      "question": "Fungal infections limited to skin, hair, or nails are called:",
+      "options": [
+        "Subcutaneous mycoses",
+        "Cutaneous mycoses",
+        "Systemic mycoses",
+        "Opportunistic mycoses"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 202,
+      "question": "Which stain is best for detecting fungi in histopathology?",
+      "options": [
+        "PAS or GMS stain",
+        "Gram stain",
+        "Ziehl-Neelsen stain",
+        "Acid-fast stain"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 203,
+      "question": "The asexual reproductive form of fungi is known as:",
+      "options": [
+        "Teleomorph",
+        "Anamorph",
+        "Basidiospore",
+        "Zygospore"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 204,
+      "question": "Mucor and Rhizopus typically infect which group?",
+      "options": [
+        "Diabetics in ketoacidosis",
+        "Healthy individuals",
+        "Children",
+        "Travelers"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 205,
+      "question": "Which is NOT a true antifungal mechanism?",
+      "options": [
+        "Inhibiting ergosterol synthesis",
+        "Binding ergosterol",
+        "Blocking peptidoglycan synthesis",
+        "Inhibiting β-glucan synthesis"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 206,
+      "question": "The fungal cell membrane contains which sterol?",
+      "options": [
+        "Cholesterol",
+        "Ergosterol",
+        "Lanosterol",
+        "Sitosterol"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 207,
+      "question": "Yeasts reproduce primarily by:",
+      "options": [
+        "Binary fission",
+        "Budding",
+        "Spore fusion",
+        "Fragmentation"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 208,
+      "question": "The fungus that causes meningitis in HIV/AIDS patients is:",
+      "options": [
+        "Aspergillus fumigatus",
+        "Cryptococcus neoformans",
+        "Candida tropicalis",
+        "Mucor spp."
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 209,
+      "question": "Which statement best describes fungi?",
+      "options": [
+        "Prokaryotic organisms",
+        "Eukaryotic organisms",
+        "Contain chlorophyll",
+        "Do not have nuclei"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 210,
+      "question": "What is the branch of microbiology that studies fungi?",
+      "options": [
+        "Bacteriology",
+        "Mycology",
+        "Virology",
+        "Parasitology"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 211,
+      "question": "Which preventive measure is most important to reduce fungal infections?",
+      "options": [
+        "Daily antifungal prophylaxis",
+        "Avoiding contact with water",
+        "High-protein diet",
+        "Control of diabetes and immunosuppression"
+      ],
+      "correctIndex": 3
+    },
+    {
+      "id": 212,
+      "question": "Quel est le phylum des nématodes ?",
+      "options": [
+        "Platyhelminthes",
+        "Annelida",
+        "Nematoda",
+        "Arthropoda"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 213,
+      "question": "Quelle est la forme caractéristique du corps des nématodes ?",
+      "options": [
+        "Segmentée",
+        "Cylindrique non segmentée",
+        "Plate",
+        "En spirale"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 214,
+      "question": "Quel nématode intestinal est responsable de l'ascaridiose ?",
+      "options": [
+        "Enterobius vermicularis",
+        "Trichuris trichiura",
+        "Strongyloides stercoralis",
+        "Ascaris lumbricoides"
+      ],
+      "correctIndex": 3
+    },
+    {
+      "id": 215,
+      "question": "Quel est le mode principal de transmission de l'ascaridiose ?",
+      "options": [
+        "Piqûre de moustique",
+        "Ingestion d'œufs embryonnés",
+        "Contact cutané",
+        "Transmission sexuelle"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 216,
+      "question": "Quel nématode est la cause principale de l'oxyurose ?",
+      "options": [
+        "Ascaris lumbricoides",
+        "Enterobius vermicularis",
+        "Trichuris trichiura",
+        "Strongyloides stercoralis"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 217,
+      "question": "Quel symptôme est typique de l'infection par Enterobius vermicularis ?",
+      "options": [
+        "Diarrhée sévère",
+        "Prurit anal vespéral",
+        "Ascite",
+        "Fièvre élevée"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 218,
+      "question": "Quel test est principalement utilisé pour diagnostiquer l'oxyurose ?",
+      "options": [
+        "Examen des selles par coloration",
+        "Test de Graham (adhésif sur marge anale)",
+        "Biopsie intestinale",
+        "Sérologie"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 219,
+      "question": "Quelle est la principale caractéristique des œufs d'Ascaris lumbricoides ?",
+      "options": [
+        "Asymétriques et lisses",
+        "Ovoïdes avec coque brunâtre mamelonnée",
+        "Transparents sans coque",
+        "Ovalaire asymétrique et lisse"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 220,
+      "question": "Où vivent principalement les nématodes filaires ?",
+      "options": [
+        "Intestin grêle",
+        "Vaisseaux lymphatiques et tissus sous-cutanés",
+        "Poumons",
+        "Foie"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 221,
+      "question": "Quel insecte transmet Wuchereria bancrofti ?",
+      "options": [
+        "Papillon",
+        "Puce",
+        "Moustique",
+        "Tique"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 222,
+      "question": "Quelle maladie est provoquée par Onchocerca volvulus ?",
+      "options": [
+        "Dracunculose",
+        "Filariose lymphatique",
+        "Cécité des rivières (Onchocercose)",
+        "Ankylostomose"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 223,
+      "question": "Quelle est la caractéristique principale de la larve de Strongyloides stercoralis chez l'homme ?",
+      "options": [
+        "Seulement mâles adultes présents",
+        "Seules les femelles parthénogénétiques adultes sont présentes",
+        "Cycle uniquement externe",
+        "Larves incapables de pénétrer la peau"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 224,
+      "question": "Quelle molécule est recommandée en dose unique pour le traitement de l'ascaridiose ?",
+      "options": [
+        "Mebendazole 400 mg",
+        "Albendazole 400 mg",
+        "Pamoate de pyrantel",
+        "Diéthylcarbamazine"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 225,
+      "question": "Quelle est la principale voie de contamination de l'ankylostomose (anguillulose) ?",
+      "options": [
+        "Ingestion d'eau contaminée",
+        "Piqûre d'insecte",
+        "Marche pieds nus sur sol contaminé",
+        "Contact sexuel"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 226,
+      "question": "Quelle est la période pendant laquelle la recherche des microfilaires doit être effectuée pour Wuchereria bancrofti ?",
+      "options": [
+        "Le matin",
+        "En soirée",
+        "De nuit",
+        "À midi"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 227,
+      "question": "Quel est le rôle principal des crustacés du genre Cyclops dans la dracunculose ?",
+      "options": [
+        "Hôte secondaire",
+        "Hôte définitif",
+        "Hôte intermédiaire",
+        "Vecteur de transmission par piqûre"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 228,
+      "question": "Quelle est la complication majeure de la filariose lymphatique ?",
+      "options": [
+        "Ulcères cutanés",
+        "Anémie sévère",
+        "Eléphantiasis",
+        "Kystes ovariens"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 229,
+      "question": "Quel est le principal symptôme clinique du passage de Loa loa sous la conjonctive ?",
+      "options": [
+        "Photophobie et œdème péri-orbitaire",
+        "Diarrhée",
+        "Toux sèche",
+        "Douleur articulaire"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 230,
+      "question": "Quel traitement est indiqué pour la filariose à Loa loa, en prenant en compte l'hyperinfection ?",
+      "options": [
+        "Albendazole seule",
+        "Diéthylcarbamazine (DEC)",
+        "Ivermectine seule",
+        "Pamoate de pyrantel"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 231,
+      "question": "Quelle technique est la meilleure pour détecter les microfilaires d'onchocercose ?",
+      "options": [
+        "Test sanguin en journée",
+        "Test de Graham (cellophane)",
+        "Biopsie cutanée (scarification)",
+        "Radiographie"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 232,
+      "question": "Quelle mesure préventive est recommandée pour éviter les infections à nématodes intestinaux ?",
+      "options": [
+        "Vaccination",
+        "Lavage fréquent des mains avec savon",
+        "Antibiothérapie prophylactique",
+        "Usage de moustiquaires"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 233,
+      "question": "Quel médicament est utilisé comme traitement d'appoint pour Enterobius vermicularis ?",
+      "options": [
+        "Albendazole",
+        "Pamoate de pyrantel",
+        "Ivermectine",
+        "Diéthylcarbamazine"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 234,
+      "question": "Quel est le principal vecteur de la filariose lymphatique ?",
+      "options": [
+        "Puce",
+        "Mouche Tsé-tsé",
+        "Moustique",
+        "Chrysops"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 235,
+      "question": "Quelle est la forme infectante des nématodes filaires dans le sang ou les tissus ?",
+      "options": [
+        "Œufs",
+        "Larves rhabditoïdes",
+        "Microfilaires",
+        "Adultes mâles"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 236,
+      "question": "Quelles recommandations font partie de la prévention contre la filariose lymphatique ?",
+      "options": [
+        "Port régulier de chaussures",
+        "Traitement annuel combiné Albendazole + Ivermectine/DEC",
+        "Usage d'antibiotiques",
+        "Hygiène alimentaire stricte"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 237,
+      "question": "Laquelle des propositions définit le mieux un virus ?",
+      "options": [
+        "Cellule vivante",
+        "Protéine infectieuse",
+        "Agent infectieux acellulaire",
+        "Organisme bactérien"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 238,
+      "question": "Quelle caractéristique commune partagent tous les virus ?",
+      "options": [
+        "Génome d'ADN double brin",
+        "Réplication uniquement dans le cytoplasme",
+        "Paroi cellulaire rigide",
+        "Parasite intracellulaire obligatoire"
+      ],
+      "correctIndex": 3
+    },
+    {
+      "id": 239,
+      "question": "Les virus sont dépourvus de quelle structure cellulaire ?",
+      "options": [
+        "ADN",
+        "Ribosomes",
+        "Génome",
+        "Capside"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 240,
+      "question": "Qui a découvert le VIH comme cause du SIDA ?",
+      "options": [
+        "Jonas Salk",
+        "Albert Sabin",
+        "Luc Montagnier et Françoise Barré-Sinoussi",
+        "Robert Koch"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 241,
+      "question": "À quel genre et à quelle famille appartient le VIH ?",
+      "options": [
+        "Enterovirus, Picornaviridae",
+        "Lentivirus, Retroviridae",
+        "Orthomyxovirus, Influenzae",
+        "Herpesvirus, Herpesviridae"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 242,
+      "question": "Quelle caractéristique distingue le VIH-2 du VIH-1 ?",
+      "options": [
+        "Plus répandu dans le monde",
+        "Virulence accrued",
+        "Origine principalement en Afrique de l'Ouest",
+        "Infecte uniquement les animaux"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 243,
+      "question": "Quel type d'acide nucléique est présent dans le VIH ?",
+      "options": [
+        "ADN double brin",
+        "ARN double brin",
+        "ARN simple brin positif",
+        "ARN simple brin négatif"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 244,
+      "question": "Quelle protéine virale se lie au récepteur CD4 ?",
+      "options": [
+        "gp24",
+        "gp120",
+        "p17",
+        "RT"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 245,
+      "question": "Quel est le rôle principal de la transcriptase inverse du VIH ?",
+      "options": [
+        "Assemblage des particules virales",
+        "Intégration de l'ADN viral dans le génome hôte",
+        "Synthèse des protéines virales",
+        "Conversion de l'ARN viral en ADN"
+      ],
+      "correctIndex": 3
+    },
+    {
+      "id": 246,
+      "question": "Quelle voie n'est PAS un mode principal de transmission du VIH ?",
+      "options": [
+        "Rapport sexuel non protégé",
+        "Transfusion sanguine",
+        "Piqûre de moustique",
+        "Transmission de la mère à l'enfant"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 247,
+      "question": "Quel marqueur sanguin sert au dépistage précoce du VIH ?",
+      "options": [
+        "p17",
+        "Antigène p24",
+        "gp41",
+        "VP3"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 248,
+      "question": "Quelle stratégie peut prévenir la transmission du VIH après une exposition ?",
+      "options": [
+        "Antibiotiques",
+        "ART (Traitement antirétroviral)",
+        "PEP (Prophylaxie post-exposition) / Immunoglobulines",
+        "Vaccin"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 249,
+      "question": "À quelle famille appartient le poliovirus ?",
+      "options": [
+        "Flaviviridae",
+        "Rhabdoviridae",
+        "Picornaviridae",
+        "Hepadnaviridae"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 250,
+      "question": "Quelle est la structure du poliovirus ?",
+      "options": [
+        "Virus à ARN enveloppé, hélicoïdal",
+        "Virus à ARN non enveloppé, icosaédrique",
+        "Virus à ADN circulaire enveloppé",
+        "Virus à ARN enveloppé sphérique"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 251,
+      "question": "Quel symptôme est caractéristique de la poliomyélite paralytique ?",
+      "options": [
+        "Éruption et fièvre",
+        "Paralysie flasque",
+        "Toux",
+        "Convulsions"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 252,
+      "question": "Comment le poliovirus est-il principalement transmis ?",
+      "options": [
+        "Gouttelettes aéroportées",
+        "Contact sexuel",
+        "Voie oro-fécale",
+        "Morsures animales"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 253,
+      "question": "Quelle protéine forme la partie interne de la capside du poliovirus ?",
+      "options": [
+        "VP1",
+        "VP2",
+        "VP3",
+        "VP4"
+      ],
+      "correctIndex": 3
+    },
+    {
+      "id": 254,
+      "question": "Quel est le principal site initial de réplication du poliovirus ?",
+      "options": [
+        "Cellules du foie",
+        "Reins",
+        "Cellules épithéliales du tube digestif",
+        "Cellules sanguines"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 255,
+      "question": "Quelle méthode de diagnostic est la plus sensible au début de l'infection par poliovirus ?",
+      "options": [
+        "Hémoculture",
+        "Culture d'expectoration",
+        "PCR sur selles",
+        "Test urinaire"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 256,
+      "question": "Quel vaccin antipoliomyélitique est administré par voie orale ?",
+      "options": [
+        "VPI (inactivé)",
+        "Vaccin HPV",
+        "Vaccin Hépatite B",
+        "VPO (vivant atténué)"
+      ],
+      "correctIndex": 3
+    },
+    {
+      "id": 257,
+      "question": "L'entérovirus 71 provoque le plus souvent quel syndrome clinique ?",
+      "options": [
+        "Herpangine",
+        "Maladie pieds-mains-bouche",
+        "Hépatite",
+        "Grippe"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 258,
+      "question": "Quelle complication grave EV71 peut-il causer chez le jeune enfant ?",
+      "options": [
+        "Encéphalite et atteinte du tronc cérébral",
+        "Tuberculose",
+        "Diabète",
+        "Infarctus du myocarde"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 259,
+      "question": "Quel type d'acide nucléique possède EV71 ?",
+      "options": [
+        "ADN double brin",
+        "ARN simple brin positif",
+        "ADN simple brin négatif",
+        "ARN double brin"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 260,
+      "question": "Quel tissu EV71 infecte-t-il initialement ?",
+      "options": [
+        "Cœur",
+        "Moelle osseuse",
+        "Épithélium buccal et intestinal",
+        "Foie"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 261,
+      "question": "Quelle est une stratégie clé pour prévenir l'infection par EV71 ?",
+      "options": [
+        "Vaccination uniquement",
+        "Hygiène des mains et désinfection des surfaces",
+        "Port de masque",
+        "Isolement en salle à pression négative"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 262,
+      "question": "Laquelle n'est PAS une méthode reconnue pour diagnostiquer EV71 ?",
+      "options": [
+        "RT-PCR",
+        "Culture de prélèvements cliniques",
+        "Sérologie des anticorps",
+        "Radiographie thoracique"
+      ],
+      "correctIndex": 3
+    },
+    {
+      "id": 263,
+      "question": "Où EV71 se transmet-il le plus facilement ?",
+      "options": [
+        "Fermes rurales",
+        "Maisons de retraite",
+        "Crèches et écoles",
+        "Villages isolés"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 264,
+      "question": "Lequel de ces virus possède une enveloppe ?",
+      "options": [
+        "Poliovirus",
+        "EV71",
+        "VIH",
+        "Tous sont enveloppés"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 265,
+      "question": "Quel virus est le plus neurotrope, causant fréquemment des complications au niveau du SNC ?",
+      "options": [
+        "VIH",
+        "Virus influenza",
+        "Poliovirus",
+        "Entérovirus 71"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 266,
+      "question": "Quel prélèvement est préférable pour la détection précoce du poliovirus ?",
+      "options": [
+        "Sang",
+        "Urine",
+        "Selles",
+        "Grattage cutané"
+      ],
+      "correctIndex": 2
+    }
+  ]
+}

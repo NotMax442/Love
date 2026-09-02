@@ -1,0 +1,408 @@
+/* --- Reset & Core Layout --- */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+}
+
+body {
+  background-color: #0f172a;
+  color: #f8fafc;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 1rem;
+}
+
+.app-container {
+  width: 100%;
+  max-width: 650px;
+  background-color: #1e293b;
+  border: 1px solid #334155;
+  border-radius: 12px;
+  padding: 2rem;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.4);
+  position: relative;
+}
+
+/* --- Utilities --- */
+.hidden {
+  display: none !important;
+}
+
+/* --- Typography & Headings --- */
+h1 {
+  font-size: 1.8rem;
+  margin-bottom: 0.75rem;
+  color: #38bdf8;
+}
+
+h2 {
+  font-size: 1.4rem;
+  margin-bottom: 1.25rem;
+  color: #f1f5f9;
+}
+
+p {
+  color: #94a3b8;
+  margin-bottom: 1.5rem;
+  line-height: 1.5;
+}
+
+/* --- Buttons --- */
+.btn {
+  display: inline-block;
+  padding: 10px 18px;
+  font-size: 0.95rem;
+  font-weight: 600;
+  border-radius: 8px;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.2s ease, transform 0.1s ease;
+}
+
+.btn:active {
+  transform: scale(0.98);
+}
+
+.primary-btn {
+  background-color: #0284c7;
+  color: #ffffff;
+}
+
+.primary-btn:hover {
+  background-color: #0369a1;
+}
+
+.secondary-btn {
+  background-color: #475569;
+  color: #ffffff;
+}
+
+.secondary-btn:hover {
+  background-color: #334155;
+}
+
+.warning-btn {
+  background-color: #d97706;
+  color: #ffffff;
+}
+
+.warning-btn:hover {
+  background-color: #b45309;
+}
+
+.danger-btn {
+  background-color: #ef4444;
+  color: #ffffff;
+}
+
+.danger-btn:hover {
+  background-color: #dc2626;
+}
+
+.back-btn {
+  background-color: #334155;
+  color: #cbd5e1;
+  margin-bottom: 1rem;
+}
+
+.back-btn:hover {
+  background-color: #475569;
+}
+
+.back-btn-warning {
+  background-color: #475569;
+  color: #ffffff;
+  padding: 8px 14px;
+  font-size: 0.85rem;
+}
+
+.back-btn-warning:hover {
+  background-color: #334155;
+}
+
+/* --- Year Grid --- */
+.year-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(130px, 1fr));
+  gap: 1rem;
+}
+
+.year-card {
+  background-color: #334155;
+  padding: 1.5rem;
+  border-radius: 8px;
+  text-align: center;
+  font-weight: bold;
+  font-size: 1.1rem;
+  cursor: pointer;
+  border: 1px solid #475569;
+  transition: border-color 0.2s, background-color 0.2s;
+}
+
+.year-card:hover {
+  background-color: #0284c7;
+  border-color: #38bdf8;
+}
+
+/* --- Subject List & Cards --- */
+.subject-grid {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.subject-card {
+  background-color: #0f172a;
+  border: 1px solid #334155;
+  border-radius: 8px;
+  padding: 1.25rem;
+}
+
+.subject-card h3 {
+  font-size: 1.1rem;
+  color: #38bdf8;
+  margin-bottom: 0.5rem;
+}
+
+.missed-badge {
+  color: #f59e0b;
+  font-size: 0.85rem;
+  font-weight: 600;
+  margin-bottom: 0.75rem;
+}
+
+.subject-actions {
+  display: flex;
+  gap: 0.75rem;
+  margin-bottom: 0.5rem;
+}
+
+.study-btn {
+  background-color: #0284c7;
+  color: white;
+  flex: 1;
+}
+
+.quiz-btn {
+  background-color: #10b981;
+  color: white;
+  flex: 1;
+}
+
+.study-missed-btn {
+  background-color: #d97706;
+  color: #ffffff;
+  width: 100%;
+  margin-top: 6px;
+}
+
+.study-missed-btn:hover {
+  background-color: #b45309;
+}
+
+.clear-btn {
+  background-color: #334155;
+  color: #94a3b8;
+  width: 100%;
+  margin-top: 6px;
+  font-size: 0.8rem;
+  padding: 6px;
+}
+
+.clear-btn:hover {
+  background-color: #ef4444;
+  color: white;
+}
+
+/* --- Quiz / Study Session Screen --- */
+.quiz-header {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  margin-bottom: 1.25rem;
+}
+
+.quiz-meta {
+  display: flex;
+  justify-content: space-between;
+  font-size: 0.85rem;
+  color: #94a3b8;
+  margin-bottom: 1.25rem;
+  padding-bottom: 0.5rem;
+  border-bottom: 1px solid #334155;
+}
+
+.question-box h3 {
+  font-size: 1.1rem;
+  line-height: 1.5;
+  margin-bottom: 1.25rem;
+}
+
+.options-grid {
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+  margin-bottom: 1.5rem;
+}
+
+.option-btn {
+  width: 100%;
+  text-align: left;
+  padding: 12px 16px;
+  background-color: #334155;
+  color: #f8fafc;
+  border: 1px solid #475569;
+  border-radius: 8px;
+  font-size: 0.95rem;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+.option-btn:hover {
+  background-color: #475569;
+}
+
+/* --- Results Screen --- */
+.score-card {
+  background-color: #0f172a;
+  border: 1px solid #334155;
+  border-radius: 8px;
+  padding: 1.5rem;
+  text-align: center;
+  margin-bottom: 1.5rem;
+}
+
+.percentage-badge {
+  font-size: 2.5rem;
+  font-weight: bold;
+  color: #38bdf8;
+  margin: 1rem 0;
+}
+
+.progress-bar-bg {
+  width: 100%;
+  height: 10px;
+  background-color: #334155;
+  border-radius: 5px;
+  overflow: hidden;
+}
+
+.progress-bar-fill {
+  height: 100%;
+  width: 0%;
+  background-color: #10b981;
+  transition: width 0.6s ease-in-out;
+}
+
+.result-actions {
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+}
+
+/* --- Custom Confirmation Modal Overlay --- */
+.modal-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background-color: rgba(15, 23, 42, 0.85);
+  backdrop-filter: blur(4px);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 9999;
+  padding: 1rem;
+}
+
+.modal-card {
+  background-color: #1e293b;
+  border: 1px solid #475569;
+  border-radius: 12px;
+  padding: 1.75rem;
+  max-width: 420px;
+  width: 100%;
+  box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.5);
+  text-align: center;
+  animation: modalFadeIn 0.15s ease-out;
+}
+
+.modal-card h3 {
+  font-size: 1.25rem;
+  color: #f8fafc;
+  margin-bottom: 0.75rem;
+}
+
+.modal-card p {
+  font-size: 0.95rem;
+  color: #94a3b8;
+  margin-bottom: 1.5rem;
+}
+
+.modal-actions {
+  display: flex;
+  justify-content: flex-end;
+  gap: 0.75rem;
+}
+
+@keyframes modalFadeIn {
+  from {
+    opacity: 0;
+    transform: scale(0.95);
+  }
+  to {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+/* --- Review Breakdown List --- */
+.review-list {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  max-height: 350px;
+  overflow-y: auto;
+  margin-bottom: 1.5rem;
+  padding-right: 0.5rem;
+}
+
+.review-card {
+  background-color: #0f172a;
+  border: 1px solid #334155;
+  border-radius: 8px;
+  padding: 1rem;
+  text-align: left;
+}
+
+.review-card.correct {
+  border-left: 5px solid #10b981;
+}
+
+.review-card.incorrect {
+  border-left: 5px solid #ef4444;
+}
+
+.review-card h4 {
+  font-size: 0.95rem;
+  margin-bottom: 0.5rem;
+  color: #f8fafc;
+  line-height: 1.4;
+}
+
+.review-answer {
+  font-size: 0.85rem;
+  margin-bottom: 0.25rem;
+}
+
+.text-correct {
+  color: #10b981;
+}
+
+.text-incorrect {
+  color: #ef4444;
+}

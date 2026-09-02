@@ -1,0 +1,1109 @@
+{
+  "questions": [
+    {
+      "id": 1,
+      "question": "An elderly patient with terminal cancer clearly states they wish to cease chemotherapy to spend their remaining time at home. The medical team believes continuing treatment could extend life by two months, but they respect the patient's request. This action primarily demonstrates:",
+      "options": [
+        "Beneficence by prioritizing the quality of life over duration.",
+        "Autonomy by respecting the patient's right to make decisions about their own body.",
+        "Non-maleficence by avoiding the side effects of chemotherapy.",
+        "Justice by redistributing oncology resources to patients with better prognoses."
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 2,
+      "question": "During a routine consultation, a physician proactively discusses an \"advance care plan\" with a patient, meticulously documenting their specific healthcare wishes for future scenarios where they might lack capacity. This proactive documentation is a requirement of:",
+      "options": [
+        "Protecting patient autonomy.",
+        "Navigating the limits of justice.",
+        "Ensuring evidence-based beneficence.",
+        "Determining the \"Do no harm\" threshold."
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 3,
+      "question": "A clinical lead reviews several competing treatment protocols for a patient with a complex infection. They choose the protocol that offers the highest probability of a full recovery, despite it being more labor-intensive for the staff. This decision is driven by:",
+      "options": [
+        "The duty of Justice to provide equal care.",
+        "The principle of Non-maleficence to avoid clinical errors.",
+        "The principle of Beneficence to act in the patient's best interest.",
+        "The Standard of Practice regarding documentation."
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 4,
+      "question": "A public health doctor organizes a voluntary vaccination drive and health education seminar in an underserved province. Under which ethical pillar does this effort to improve community wellness fall?",
+      "options": [
+        "Autonomy",
+        "Justice",
+        "Non-maleficence",
+        "Beneficence"
+      ],
+      "correctIndex": 3
+    },
+    {
+      "id": 5,
+      "question": "A surgeon evaluates a patient for an elective cosmetic procedure but decides to decline the case because the patient's underlying medical conditions create a high risk of surgical complications that outweigh any aesthetic gain. This is an application of:",
+      "options": [
+        "Non-maleficence",
+        "Autonomy",
+        "Distributive Justice",
+        "Professional Accountability"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 6,
+      "question": "A hospital committee decides to immediately suspend the use of a specific medical device after two patients reported minor burns. This swift action to prevent further injury represents:",
+      "options": [
+        "Due process under the principle of Justice.",
+        "The application of Non-maleficence.",
+        "Beneficence through resource allocation.",
+        "Deontological duty to the institution."
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 7,
+      "question": "A health administrator is tasked with allocating a new shipment of high-quality diagnostic equipment. They ensure that the equipment is distributed based on clinical need rather than the patient's ability to pay or social status. This is an example of:",
+      "options": [
+        "Beneficence",
+        "Autonomy",
+        "Justice",
+        "Professional Identity"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 8,
+      "question": "When a public hospital faces a shortage of intensive care beds, the Ethics Committee establishes a \"due process\" protocol to determine admission criteria. This effort to find a fair limit on healthcare is defined as:",
+      "options": [
+        "Navigating Justice.",
+        "Maximizing Beneficence.",
+        "Ensuring Non-maleficence.",
+        "Protecting Autonomy."
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 9,
+      "question": "Under the 2016 Law, which of the following is the absolute legal prerequisite for a health professional to commence practice in Cambodia?",
+      "options": [
+        "A university degree and a recommendation from a senior doctor.",
+        "Completion of a clinical internship and a workshop certificate.",
+        "Valid registration with the appropriate Professional Council and a valid license.",
+        "A clean criminal record and membership in a medical association."
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 10,
+      "question": "The Law on the Regulation of Health Practitioners 2016 was enacted to ensure that all practitioners meet which three specific criteria?",
+      "options": [
+        "Academic, Financial, and Ethical.",
+        "Qualified, Competent, and Legally Authorized.",
+        "Experienced, Supervised, and Local.",
+        "Insured, Licensed, and Nominated."
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 11,
+      "question": "A clinic owner permits an unlicensed medical assistant to diagnose patients and write prescriptions during peak hours, noting that the assistant has \"ten years of experience.\" What is the legal status of this arrangement?",
+      "options": [
+        "It is legal if the supervising doctor co-signs the prescriptions later.",
+        "It is illegal; the supervising doctor remains legally and professionally responsible.",
+        "It is legal under the \"Emergency Exception\" of the 2016 Law.",
+        "It is illegal; however, only the assistant can be prosecuted."
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 12,
+      "question": "If a practitioner is found to be practicing beyond their authorized scope or in a manner that endangers patient safety, which of the following represents a potential legal outcome under the 2016 Law?",
+      "options": [
+        "Mandatory transfer to a rural health center.",
+        "A public apology on the Ministry of Health website.",
+        "License suspension or revocation, fine, or imprisonment.",
+        "Automatic requirement to retake medical school exams."
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 13,
+      "question": "A physician is highly skilled in a specific advanced procedure through self-study and unofficial observation. However, the Medical Council has not granted them the specific authorization to perform it. Which regulatory principle applies here?",
+      "options": [
+        "Competence equals permission to practice.",
+        "\"Good intention\" overrides the need for formal licensing.",
+        "Competence does not equal permission; practice must be authorized.",
+        "Authorization is only required for practitioners in the public sector."
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 14,
+      "question": "Which entity is primarily empowered by the 2016 Law to hold health practitioners accountable for professional misconduct and to manage licensing?",
+      "options": [
+        "The National Assembly.",
+        "The Ministry of Interior.",
+        "Professional Councils (e.g., Medical Council of Cambodia).",
+        "The Hospital Management Committee."
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 15,
+      "question": "A doctor provides medical services in a remote village without a license, arguing that their \"good intentions\" to help the poor should exempt them from the 2016 Law. How does the law address this?",
+      "options": [
+        "Intention is a valid defense against licensing requirements.",
+        "Good intention is not enough; practice must be legal, competent, and authorized.",
+        "The law only applies to practitioners who charge a fee for services.",
+        "Practice is legal if the village chief provides a written waiver."
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 16,
+      "question": "In the 2024 regulatory framework, the \"Scope of Practice\" is defined by which three essential pillars?",
+      "options": [
+        "University degree, Residency, and Internship.",
+        "Educated, Competent, and Authorized.",
+        "Knowledgeable, Efficient, and Ethical.",
+        "Nominated, Qualified, and Licensed."
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 17,
+      "question": "Dr. Nita, a general practitioner, attends a two-day \"filler workshop\" and begins performing cosmetic injections in her clinic. She does not hold a formal certification or Council authorization for cosmetic surgery. If a complication occurs, what is the primary regulatory failure?",
+      "options": [
+        "Lack of high-quality equipment in the private clinic.",
+        "Violation of the Scope of Practice by acting without formal authorization.",
+        "Failure to provide the patient with a refund for the complication.",
+        "Inadequate communication regarding the price of the procedure."
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 18,
+      "question": "What is the legal and professional definition of the \"Standard of Practice\" according to the 2024 guidelines?",
+      "options": [
+        "The highest possible clinical outcome achievable in modern medicine.",
+        "The average performance of practitioners within a specific province.",
+        "The minimum acceptable level of professional performance.",
+        "Following international guidelines regardless of local Cambodian laws."
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 19,
+      "question": "A General Practitioner (GP) is presented with a patient showing symptoms of a rare neurodegenerative disease. According to the 2024 Standards, the GP's primary duty is to:",
+      "options": [
+        "Attempt a trial of medication to see if the patient improves.",
+        "Refer the patient to a specialist when the case exceeds their competence.",
+        "Conduct independent research and treat the patient to build competence.",
+        "Ask the patient to wait until the GP completes a relevant training course."
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 20,
+      "question": "Which of the following is a mandatory component of the 2024 Standard of Practice?",
+      "options": [
+        "Achieving the highest possible clinical outcome for every patient.",
+        "Maintaining accurate and timely documentation of patient care.",
+        "Marketing clinical success stories on personal social media pages.",
+        "Using the most expensive medications to ensure the best care."
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 21,
+      "question": "Dr. Vannak, a GP in a rural hospital with no surgeon, encounters a patient with a ruptured appendix. The referral will take 4 hours, and the patient is unstable. Dr. Vannak has only observed this surgery. Which action aligns with the 2024 professional standards?",
+      "options": [
+        "Immediately attempt the surgery as \"emergency necessity\" always overrides the law.",
+        "Stabilize the patient, seek real-time remote advice from a surgeon, and refer immediately.",
+        "Delegate the surgery to a senior nurse who has more years of experience.",
+        "Perform the surgery alone but only if the family signs a liability waiver."
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 22,
+      "question": "The 2024 Standards of Practice are designed to ensure that healthcare provided in Cambodia is:",
+      "options": [
+        "Primarily focused on the financial sustainability of the hospital.",
+        "Safe, effective, ethical, and of high quality for all.",
+        "Reserved for those who can provide informed consent.",
+        "Exclusive to urban centers with specialized equipment."
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 23,
+      "question": "Who determines the \"Scope of Practice\" for a health professional in Cambodia?",
+      "options": [
+        "The practitioner themselves based on their years of experience.",
+        "The patient's family based on their specific healthcare needs.",
+        "Laws, Professional/Medical Councils, and formal Education/Training.",
+        "The Director of the hospital based on daily staffing needs."
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 24,
+      "question": "Dara, a Year 6 medical student, is left alone in a ward. A patient's family demands he prescribe a sedative. Dara is unsure of the dosage and his authority. His professional responsibility is to:",
+      "options": [
+        "Prescribe the medication to prevent family anger.",
+        "Know his limitations, refuse to act beyond his scope, and seek immediate supervision.",
+        "Ask a medical assistant to sign the prescription for him.",
+        "Guess the dosage based on previous observations of the doctor."
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 25,
+      "question": "In the event of a medical error involving a student acting under the \"verbal instruction\" of a busy supervisor, who holds the ultimate legal and professional accountability?",
+      "options": [
+        "The student, as they performed the physical act.",
+        "The patient, for agreeing to be treated by a student.",
+        "The supervising doctor, as delegation does not transfer responsibility.",
+        "The university where the student is enrolled."
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 26,
+      "question": "A physician posts a photo of a rare skin condition on a public Facebook group to discuss it with colleagues, leaving the patient's face visible. This is:",
+      "options": [
+        "Acceptable, as it contributes to medical education.",
+        "A violation of digital professionalism and patient confidentiality.",
+        "Commendable, as it builds the doctor's professional image.",
+        "Acceptable only if the doctor does not name the hospital."
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 27,
+      "question": "A resident uses a WhatsApp group to mock a senior professor's surgical technique. What are the potential professional consequences of this digital behavior?",
+      "options": [
+        "Promotion for demonstrating critical thinking.",
+        "No consequences, as social media is considered \"private\" behavior.",
+        "Loss of trust, harm to professional identity, and potential disciplinary action.",
+        "A requirement to lead the next surgical seminar."
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 28,
+      "question": "A practitioner is asked to perform a lumbar puncture but has not performed one in three years and feels \"rusty.\" Following the \"Clinical Reflection\" logic, the correct sequence of actions is:",
+      "options": [
+        "Attempt the procedure to regain the skill, then document any errors.",
+        "Delegate the procedure to a junior intern to observe their technique.",
+        "Ask for supervision, consult a senior, or refer appropriately.",
+        "Tell the patient the procedure is unnecessary to avoid the risk."
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 29,
+      "question": "Dr. Sarin is a general practitioner at a rural health center. A patient has a severe limb injury requiring orthopedic surgery. The nearest surgeon is five hours away. Although Dr. Sarin observed a similar operation during internship, he has never performed it independently. The patient's family asks him to \"just try\" the surgery to avoid the transfer. According to the 2024 Scope and Standard of Practice and the 2016 Law on the Regulation of Health Practitioners in Cambodia, what is the most professional and legally appropriate action?",
+      "options": [
+        "Perform the surgery to reduce further pain and act in the patient's best interest (Beneficence).",
+        "Attempt the surgery because the patient's family has given consent (Autonomy).",
+        "Stabilize the patient and urgently refer them to the provincial hospital because the procedure is beyond his competence and authorized scope.",
+        "Perform the surgery and document the lack of an available specialist to avoid legal responsibility."
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 30,
+      "question": "Which of the following is an identified consequence of \"Poor Practice\" beyond legal imprisonment?",
+      "options": [
+        "Increased clinic revenue due to faster patient turnover.",
+        "Loss of Trust and Harm to Patients.",
+        "Automatic promotion to an administrative role.",
+        "Exemption from future professional development requirements."
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 31,
+      "question": "Utilitarianism focuses on:",
+      "options": [
+        "Following rules and obligations",
+        "The consequences of actions and maximizing overall good",
+        "Developing good character traits",
+        "Respecting patient choices"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 32,
+      "question": "Deontology is best described as:",
+      "options": [
+        "Ethics based on duties and moral rules",
+        "Ethics based on the greatest happiness principle",
+        "Ethics based on personal virtues",
+        "Ethics based on evidence-based medicine"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 33,
+      "question": "Virtue ethics focuses on:",
+      "options": [
+        "The consequences of actions",
+        "The duties of the healthcare provider",
+        "The moral character of the individual",
+        "Following institutional policies, clinical protocols and rules"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 34,
+      "question": "An ethical dilemma is:",
+      "options": [
+        "A situation where clinical guidelines offer a solution",
+        "A disagreement between a patient and a doctor about treatment preferences",
+        "A situation where two or more ethical principles conflict",
+        "A case that can be solved by following hospital policies"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 35,
+      "question": "Which of the following scenarios is an example of an ethical dilemma?",
+      "options": [
+        "A patient requests their medical records and the clinic provides them as required by law.",
+        "A patient refuses chemotherapy, but their family insists the doctor proceed with treatment.",
+        "A physician completes a referral to a specialist as requested by the patient.",
+        "A nurse notices a patient is in severe pain but has no standing orders for pain relief."
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 36,
+      "question": "A doctor delegates a procedure to a junior colleague who is not fully competent to perform it independently. The patient is harmed. What is the MOST appropriate judgment regarding responsibility?",
+      "options": [
+        "Responsibility lies mainly with the junior colleague who performed the procedure",
+        "Responsibility lies mainly with the delegating doctor for inappropriate delegation and supervision",
+        "Responsibility is shared equally between the doctor and the junior colleague",
+        "Responsibility lies with the system rather than individuals"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 37,
+      "question": "Two patients need dialysis, but only one machine is available. One patient has a significantly higher chance of survival with treatment. What is the MOST ethically justifiable approach?",
+      "options": [
+        "Treat the patient who arrived first to ensure fairness in access",
+        "Divide treatment time equally between both patients",
+        "Allocate the machine to the patient with the better prognosis",
+        "Select randomly to avoid bias",
+        "Prioritize the patient who is younger who has higher chance of survival contributing to more social benefits in the long run"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 38,
+      "question": "A conscious adult patient is assessed to have decision-making capacity and refuses a recommended life-saving surgery after receiving adequate information. The patient's family strongly disagrees and insists that the surgery should proceed. What is the MOST appropriate action?",
+      "options": [
+        "Proceed with surgery in the patient's best interest despite refusal",
+        "Respect the patient's decision after confirming capacity and ensuring informed refusal",
+        "Delay the decision and negotiate with the family until agreement is reached",
+        "Seek legal intervention to override the patient's refusal",
+        "Allow the family to decide, as they will provide ongoing care"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 39,
+      "question": "In a busy hospital setting, many doctors routinely provide only brief explanations before procedures due to time constraints. A junior doctor adopts this practice without ensuring that patients fully understand the risks and alternatives. Which statement is the MOST accurate ethical judgment?",
+      "options": [
+        "Acceptable because it reflects common practice in the institution",
+        "Acceptable if patients do not raise concerns or complaints",
+        "Unethical despite being common, as it compromises valid informed consent",
+        "Justifiable in high workload settings where efficiency is necessary",
+        "Acceptable if the procedure is low risk"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 40,
+      "question": "A doctor prescribes a chemotherapy drug that causes significant side effects but offers a high chance of survival. Which principle BEST justifies this action?",
+      "options": [
+        "Autonomy",
+        "Non-maleficence",
+        "Beneficence",
+        "Justice"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 41,
+      "question": "A patient previously expressed refusal of a recommended surgery during a consultation. The patient is now unconscious and presents in an emergency where the same intervention is immediately required to save life. No family members are present, and no formal documentation of the prior refusal is available. What is the MOST appropriate action?",
+      "options": [
+        "Respect the prior refusal and withhold treatment",
+        "Proceed with life-saving treatment under the presumption of implied consent in emergencies",
+        "Delay intervention until the patient regains capacity",
+        "Wait for family members to provide consent",
+        "Transfer the patient to another facility for further decision-making"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 42,
+      "question": "A licensed doctor appears in a commercial skincare advertisement wearing a white coat and presenting general information about skin health. The product is shown but not explicitly claimed to be superior or prescribed by the doctor. What is the MOST accurate ethical concern?",
+      "options": [
+        "Acceptable if the information provided is accurate and not misleading",
+        "Acceptable if no direct endorsement or prescription is made",
+        "Potential misuse of professional identity for commercial influence and implicit endorsement",
+        "Acceptable if the activity occurs outside the clinical setting",
+        "Only problematic if the product is proven to be unsafe"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 43,
+      "question": "An elderly patient with confusion refuses treatment. It is unclear if they understand the situation. What is the BEST next step?",
+      "options": [
+        "Respect refusal immediately",
+        "Ignore refusal",
+        "Assess decision-making capacity",
+        "Ask family to decide"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 44,
+      "question": "You see a colleague posting unprofessional content online about patients. What is the MOST appropriate action?",
+      "options": [
+        "Ignore it",
+        "Publicly criticize them",
+        "Privately address the colleague first",
+        "Inform the head of department"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 45,
+      "question": "A doctor performs a procedure outside their formal training due to lack of specialists in a rural area. What is the BEST ethical judgment?",
+      "options": [
+        "Always acceptable in low-resource settings",
+        "Always unethical",
+        "Justifiable only if within competence and necessity",
+        "Acceptable if patient consents"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 46,
+      "question": "A patient asks about their terminal diagnosis. The family asks the doctor not to tell them. What is the BEST approach?",
+      "options": [
+        "Follow family request",
+        "Tell patient everything immediately",
+        "Assess patient preference for information",
+        "Avoid discussion"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 47,
+      "question": "Which of the following BEST explains the primary purpose of the Law on Regulation of Health Practitioners 2016 in Cambodia?",
+      "options": [
+        "To establish standardized procedures for registration, licensing, and disciplinary oversight of health practitioners",
+        "To protect the public by ensuring practitioners are qualified, competent, and fit to practice",
+        "To strengthen the authority and independence of Medical Council of Cambodia in regulating doctors",
+        "To provide a legal framework for managing professional misconduct and complaints against healthcare providers"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 48,
+      "question": "A doctor possesses a valid medical doctor diploma recognized by the Ministry of Health and has registered with the Medical Council of Cambodia and currently is still applying for license. Which statement is MOST accurate?",
+      "options": [
+        "The doctor may legally practice under supervision",
+        "The doctor may practice only in public hospitals",
+        "The doctor cannot legally practice medicine independently",
+        "The doctor may practice if patients are informed"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 49,
+      "question": "Which of the following BEST distinguishes \"registration\" from a \"health practitioner license\"?",
+      "options": [
+        "Registration confirms professional identity, while the license authorizes practice",
+        "Registration is optional, while licensing is mandatory",
+        "Registration is issued by the Ministry of Health, while licenses are issued by Medical Council of Cambodia",
+        "Registration applies only to specialists"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 50,
+      "question": "A physician develops severe alcohol dependence that begins affecting clinical judgment and patient safety. Under the concept of fitness to practice in the Law on Regulation of Health Professionals 2016, what is the MOST appropriate concern?",
+      "options": [
+        "The physician may continue practicing if clinical knowledge and technical skills remain adequate professionally",
+        "Impairment affecting judgment and safe practice may render the physician unfit to practice",
+        "Regulatory intervention is justified only if the physician has committed a criminal offense related to alcohol use",
+        "Personal health conditions should generally remain outside professional regulatory oversight unless patients formally complain"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 51,
+      "question": "Which of the following situations BEST represents professional misconduct?",
+      "options": [
+        "A doctor continues working while experiencing fatigue and emotional exhaustion after repeated overnight duties",
+        "A doctor makes a prescribing error despite exercising reasonable clinical care and following accepted standards",
+        "A doctor knowingly issues a false medical certificate",
+        "A doctor adopts a different but evidence-supported treatment approach from that preferred by a senior colleague"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 52,
+      "question": "A patient complains that a physician repeatedly prescribed medications without proper examination. Which institution is MOST likely to address the concern first?",
+      "options": [
+        "Ministry of Health",
+        "Medical Council of Cambodia",
+        "Hospital",
+        "Court"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 54,
+      "question": "A health practitioner continues practicing despite repeated concerns that cognitive impairment is affecting clinical judgment and placing patients at risk. What ethical principle MOST strongly justifies regulatory intervention?",
+      "options": [
+        "Respect for the doctor's autonomy, professional independence and right to continue working",
+        "The obligation to maintain collegial support and avoid stigmatizing impaired practitioners",
+        "The duty to protect patient safety and maintain public trust in the healthcare profession",
+        "The importance of preserving the practitioner's professional reputation"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 55,
+      "question": "Which of the following BEST reflects the relationship between medical qualification and licensure?",
+      "options": [
+        "A medical degree alone automatically grants lifelong authority to practice",
+        "Licensure and regulation remain necessary even after graduation",
+        "Registration replaces the need for professional competence",
+        "Clinical experience alone is sufficient for legal practice"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 56,
+      "question": "A doctor unknowingly allows another person to use their expired license certificate to obtain employment in a clinic. Which concern is MOST relevant?",
+      "options": [
+        "Failure to maintain adequate oversight of professional credentials, potentially compromising patient safety",
+        "Risk of unlawful practice and erosion of public trust in professional regulation and licensure",
+        "Primarily an employment issue that should be resolved internally by the clinic administration",
+        "A minor administrative lapse unless direct patient harm can be demonstrated"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 57,
+      "question": "Which of the following BEST reflects the relationship between medical qualification and licensure?",
+      "options": [
+        "Graduation with a MD diploma establishes academic qualification, while registration and licensure are still required for lawful professional practice",
+        "A medical degree is generally sufficient for independent practice unless concerns about misconduct later arise",
+        "Continued clinical experience may substitute for formal registration and renewal requirements once competence is established",
+        "Licensure primarily confirms completion of medical education rather than ongoing professional accountability and fitness to practice"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 58,
+      "question": "Which of the following BEST describes the ethical significance of licensing and professional regulation?",
+      "options": [
+        "They provide a structured system for recognizing qualified practitioners and maintaining public confidence in the profession",
+        "They primarily serve to protect the professional autonomy and social status of healthcare practitioners",
+        "They help ensure minimum standards of competence, accountability, and patient safety in professional practice",
+        "They function mainly as administrative mechanisms for monitoring workforce participation and legal compliance"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 59,
+      "question": "A doctor posts online that professional regulation is unnecessary because \"patients can judge competence themselves.\" What is the STRONGEST counterargument?",
+      "options": [
+        "Patients and the public may not have sufficient expertise to independently assess professional competence, safety, and ethical practice",
+        "Professional regulation is necessary because healthcare decisions should be determined primarily by regulatory authorities rather than patient judgment",
+        "Public trust in healthcare depends mainly on maintaining the reputation and authority of the medical profession",
+        "Licensing and regulation are important mainly because they help standardize administrative and legal oversight of healthcare practice"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 60,
+      "question": "A physician submits faked continuing professional development (CPD) certificates to renew a professional license. Which professional attribute is MOST directly violated?",
+      "options": [
+        "Accountability",
+        "Integrity",
+        "Commitment to excellence",
+        "Professional responsibility"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 61,
+      "question": "A physician is asked to treat a patient outside the physician's approved scope of practice. What is the most appropriate action?",
+      "options": [
+        "Perform the procedure to avoid delay",
+        "Refer the patient to a qualified practitioner",
+        "Allow a nurse to perform the procedure independently",
+        "Perform the procedure after obtaining verbal consent"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 62,
+      "question": "The primary purpose of professional regulation is to:",
+      "options": [
+        "Increase physician income",
+        "Protect public health and patient safety",
+        "Promote hospital reputation",
+        "Reduce healthcare costs"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 63,
+      "question": "Which document establishes the ethical obligations of physicians?",
+      "options": [
+        "Hospital policy manual",
+        "Employment contract",
+        "Physicians' Code of Ethics",
+        "Medical record"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 64,
+      "question": "A physician discloses confidential patient information without consent. This is justified only when:",
+      "options": [
+        "The patient's relatives request it",
+        "The physician is curious",
+        "Required by law or to prevent serious harm",
+        "The patient has unpaid bills"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 65,
+      "question": "A physician accepts expensive gifts from a pharmaceutical company before prescribing its products. This is an example of:",
+      "options": [
+        "Beneficence",
+        "Professional collaboration",
+        "Conflict of interest",
+        "Quality improvement"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 66,
+      "question": "Before an elective surgical procedure, informed consent requires:",
+      "options": [
+        "Patient signature only",
+        "Explanation of risks, benefits, and alternatives",
+        "Family approval only",
+        "Nurse approval"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 67,
+      "question": "Which principle requires physicians to avoid causing unnecessary harm?",
+      "options": [
+        "Justice",
+        "Fidelity",
+        "Non-maleficence",
+        "Accountability"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 68,
+      "question": "A physician intentionally falsifies a patient's medical record. This behavior is:",
+      "options": [
+        "Acceptable if corrected later",
+        "Professional misconduct",
+        "Quality assurance",
+        "Ethical practice"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 69,
+      "question": "A licensed physician who changes workplace should:",
+      "options": [
+        "Continue working without notification",
+        "Inform the appropriate regulatory authority if required",
+        "Notify only colleagues",
+        "Wait until license renewal"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 70,
+      "question": "Which action best demonstrates respect for patient autonomy?",
+      "options": [
+        "Choosing treatment without discussion",
+        "Respecting an informed patient's decision",
+        "Following only family wishes",
+        "Refusing patient questions"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 71,
+      "question": "Practicing medicine without valid registration primarily violates:",
+      "options": [
+        "Financial regulations",
+        "Health professional regulations",
+        "Hospital policy only",
+        "Insurance policy"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 72,
+      "question": "A physician notices a colleague repeatedly practicing while intoxicated. The most appropriate action is to:",
+      "options": [
+        "Ignore the behavior",
+        "Report through appropriate professional channels",
+        "Discuss it with patients",
+        "Post it on social media"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 73,
+      "question": "Professional accountability means physicians are responsible for:",
+      "options": [
+        "Their clinical decisions and professional conduct",
+        "Hospital profits only",
+        "Patient financial status",
+        "Government policy"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 74,
+      "question": "The best example of maintaining patient confidentiality is:",
+      "options": [
+        "Discussing cases in elevators",
+        "Sharing records with friends",
+        "Accessing records only when involved in care",
+        "Posting anonymized photos without permission"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 75,
+      "question": "Which action best reflects professionalism?",
+      "options": [
+        "Respecting patients regardless of social status",
+        "Accepting bribes for faster service",
+        "Refusing emergency patients",
+        "Ignoring clinical guidelines"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 76,
+      "question": "A physician makes a medication error. The most ethical response is to:",
+      "options": [
+        "Hide the mistake",
+        "Inform the patient and manage the consequences appropriately",
+        "Blame the pharmacist",
+        "Alter the medical record"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 77,
+      "question": "Continuing professional development is primarily intended to:",
+      "options": [
+        "Increase vacation time",
+        "Maintain and improve professional competence",
+        "Reduce working hours",
+        "Increase private income"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 78,
+      "question": "When treating a minor, informed consent is generally obtained from:",
+      "options": [
+        "The media",
+        "Hospital director",
+        "Parent or legal guardian (unless exceptions apply)",
+        "Other patients"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 79,
+      "question": "Which principle promotes fair and equitable treatment of patients?",
+      "options": [
+        "Justice",
+        "Confidentiality",
+        "Fidelity",
+        "Compassion"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 80,
+      "question": "A physician advertises guaranteed cure rates without scientific evidence. This is:",
+      "options": [
+        "Ethical marketing",
+        "Professional misconduct",
+        "Evidence-based practice",
+        "Patient advocacy"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 81,
+      "question": "A physician is requested by a patient's employer to disclose the patient's diagnosis without permission. What is the most appropriate response?",
+      "options": [
+        "Disclose immediately",
+        "Refuse unless patient consents or law requires",
+        "Tell coworkers",
+        "Provide verbal summary"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 82,
+      "question": "Which best demonstrates integrity in medical practice?",
+      "options": [
+        "Hiding errors",
+        "Providing truthful and accurate information",
+        "Altering records",
+        "Accepting referral payments"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 83,
+      "question": "Refusing to treat because of religion violates:",
+      "options": [
+        "Justice",
+        "Beneficence",
+        "Confidentiality",
+        "Accountability"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 84,
+      "question": "The main purpose of maintaining accurate medical records is to:",
+      "options": [
+        "Increase revenue",
+        "Support continuity of care and legal documentation",
+        "Reduce workload",
+        "Advertise services"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 85,
+      "question": "A physician delegates a procedure to an unqualified assistant. Why is the physician responsible?",
+      "options": [
+        "Delegation removes responsibility",
+        "Physicians remain accountable for delegation",
+        "Assistant solely responsible",
+        "Patient accepted risk"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 86,
+      "question": "Which is professional misconduct?",
+      "options": [
+        "Maintaining confidentiality",
+        "Practicing under the influence",
+        "Continuing education",
+        "Consulting colleagues"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 87,
+      "question": "Receiving another patient's confidential report by mistake, the physician should:",
+      "options": [
+        "Read it",
+        "Return/delete per policy",
+        "Share it",
+        "Post it"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 88,
+      "question": "Beneficence requires physicians to:",
+      "options": [
+        "Follow family wishes",
+        "Act in patient's best interests",
+        "Maximize profits",
+        "Avoid difficult patients"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 89,
+      "question": "A competent patient refuses treatment. The physician should:",
+      "options": [
+        "Force treatment",
+        "Respect the informed refusal",
+        "Call security",
+        "Ignore"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 90,
+      "question": "Public trust is promoted by:",
+      "options": [
+        "Honest ethical competent practice",
+        "Guaranteed success ads",
+        "Financial incentives",
+        "Unnecessary investigations"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 91,
+      "question": "A colleague forged a license. You should:",
+      "options": [
+        "Ignore",
+        "Report appropriately",
+        "Warn patients",
+        "Post online"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 92,
+      "question": "Conflict of interest example:",
+      "options": [
+        "Conference",
+        "Financially motivated prescribing",
+        "Consultation",
+        "Ethics-approved research"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 93,
+      "question": "Professional licensing ensures physicians:",
+      "options": [
+        "Are competent to practice safely",
+        "Earn equal salaries",
+        "Work privately",
+        "Receive funding"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 94,
+      "question": "Before publishing a patient photograph:",
+      "options": [
+        "Nurse permission",
+        "Written informed consent",
+        "Security approval",
+        "Another physician approval"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 95,
+      "question": "Respect for colleagues is shown by:",
+      "options": [
+        "Humiliating juniors",
+        "Respectful collaboration",
+        "Ignoring consults",
+        "Withholding information"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 96,
+      "question": "Knowingly issuing a false medical certificate is:",
+      "options": [
+        "Acceptable",
+        "Professional misconduct",
+        "Advocacy",
+        "Flexible administration"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 97,
+      "question": "Responsibility for maintaining competence belongs to:",
+      "options": [
+        "The physician",
+        "Family",
+        "Accountant",
+        "Insurer"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 98,
+      "question": "Patient privacy is best protected by:",
+      "options": [
+        "Public discussions",
+        "Sharing only with authorized care team",
+        "Friends",
+        "Social media"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 99,
+      "question": "If beliefs conflict with lawful treatment:",
+      "options": [
+        "Abandon patient",
+        "Ensure continuity via appropriate referral",
+        "Insult patient",
+        "Refuse future care"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 100,
+      "question": "The ultimate goal of medical professionalism is:",
+      "options": [
+        "Increase authority",
+        "Protect patients with safe ethical care",
+        "Reduce oversight",
+        "Increase income"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 100,
+      "question": "Which institution is primarily responsible for issuing a Doctor of Medicine (MD) diploma in Cambodia?",
+      "options": [
+        "Ministry of Health",
+        "Medical Council of Cambodia",
+        "Medical school",
+        "Cambodian Medical Association"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

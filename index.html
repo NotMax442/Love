@@ -1,25 +1,98 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Mini Google</title>
-    <link rel="stylesheet" href="styles.css">
-    <script async src="https://cse.google.com/cse.js?cx=f5f2e3b5f5bdd40e0"></script>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Study & Quiz Platform</title>
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div class="container">
-        <div class="logo">
-            <img src="https://www.google.com/images/branding/googlelogo/2x/googlelogo_color_92x30dp.png" alt="Google Logo">
-        </div>
-        <div class="search-container">
-            <input type="text" id="searchInput" placeholder="Search...">
-            <button onclick="search()">Search</button>
-        </div>
-        <div id="searchResults"></div>
-        <button id="seeMoreButton" onclick="seeMore()" style="display: none;">See More</button>
-        <button id="betterSearchButton" onclick="betterSearch()" style="display: none;">Better Search</button>
+  <div class="app-container">
+
+    <!-- Landing Screen -->
+    <div id="landing-screen" class="screen">
+      <h1>Medical Study Platform</h1>
+      <p>Select your year, review saved missed questions, or test your knowledge.</p>
+      <button id="enter-study-btn" class="btn primary-btn">🚀 Start Studying</button>
     </div>
-    <script src="script.js"></script>
+
+    <!-- Year Selection Screen -->
+    <div id="year-screen" class="screen hidden">
+      <button id="back-to-landing-btn" class="btn back-btn">⬅️ Back</button>
+      <h2>Select Academic Year</h2>
+      <div class="year-grid">
+        <div class="year-card" data-year="1">Year 1</div>
+        <div class="year-card" data-year="2">Year 2</div>
+        <div class="year-card" data-year="3">Year 3</div>
+        <div class="year-card" data-year="4">Year 4</div>
+        <div class="year-card" data-year="5">Year 5</div>
+        <div class="year-card" data-year="6">Year 6</div>
+      </div>
+    </div>
+
+    <!-- Subject Selection Screen -->
+    <div id="subject-screen" class="screen hidden">
+      <button id="back-to-years-btn" class="btn back-btn">⬅️ Back to Years</button>
+      <h2 id="selected-year-title">Subjects</h2>
+      <div id="subject-list" class="subject-grid"></div>
+    </div>
+
+    <!-- Quiz / Study Screen -->
+    <div id="quiz-screen" class="screen hidden">
+      <div class="quiz-header">
+        <button id="quit-session-btn" class="btn back-btn-warning">⬅️ Exit Session</button>
+        <h2 id="session-info"></h2>
+      </div>
+
+      <div class="quiz-meta">
+        <span id="progress-text"></span>
+        <span id="timer-display" class="hidden">⏱️ 60:00</span>
+      </div>
+
+      <div class="question-box">
+        <h3 id="question-text"></h3>
+        <div id="options-container" class="options-grid"></div>
+      </div>
+
+      <button id="next-btn" class="btn primary-btn hidden">Next Question ➡️</button>
+    </div>
+
+    <!-- Result Screen -->
+   <!-- Result Screen -->
+<div id="result-screen" class="screen hidden">
+  <h2>Session Complete!</h2>
+  <div class="score-card">
+    <p id="final-score"></p>
+    <div class="percentage-badge" id="score-percentage">0%</div>
+    <div class="progress-bar-bg">
+      <div id="progress-bar-fill" class="progress-bar-fill"></div>
+    </div>
+  </div>
+
+  <!-- Detailed Question Breakdown Container -->
+  <div id="review-container" class="review-list"></div>
+
+  <div class="result-actions">
+    <button id="retry-missed-btn" class="btn warning-btn hidden">
+      🎯 Retry Missed Questions (<span id="missed-count">0</span>)
+    </button>
+    <button id="restart-btn" class="btn primary-btn">Return</button>
+  </div>
+</div>
+    <!-- Custom Exit Confirmation Modal -->
+    <div id="confirm-modal" class="modal-overlay hidden">
+      <div class="modal-card">
+        <h3>⚠️ Exit Active Session?</h3>
+        <p>Are you sure you want to exit? Your progress in this active session will be lost.</p>
+        <div class="modal-actions">
+          <button id="modal-cancel-btn" class="btn secondary-btn">Cancel</button>
+          <button id="modal-confirm-btn" class="btn danger-btn">Exit Session</button>
+        </div>
+      </div>
+    </div>
+
+  </div>
+
+  <script src="app.js"></script>
 </body>
 </html>
