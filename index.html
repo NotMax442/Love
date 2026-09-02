@@ -11,21 +11,43 @@
 
     <!-- Top Navigation Bar -->
     <nav class="main-navbar">
-      <div class="nav-links">
-        <button id="nav-home-btn" class="nav-item">HOME</button>
-        <button id="nav-about-btn" class="nav-item">ABOUT</button>
-        <button id="nav-contact-btn" class="nav-item">CONTACT US</button>
-        <button id="nav-account-btn" class="nav-item">MY ACCOUNT</button>
-      </div>
-      <button id="theme-toggle-btn" class="theme-btn">🌙 Dark</button>
-    </nav>
+  <div class="nav-links">
+    <button id="nav-home-btn" class="nav-item" data-i18n="nav_home">HOME</button>
+    <button id="nav-about-btn" class="nav-item" data-i18n="nav_about">ABOUT</button>
+    <button id="nav-contact-btn" class="nav-item" data-i18n="nav_contact">CONTACT US</button>
+    <button id="nav-account-btn" class="nav-item" data-i18n="nav_account">MY ACCOUNT</button>
+  </div>
+  <div class="nav-controls" style="display: flex; gap: 0.5rem; align-items: center;">
+    <select id="language-select" class="lang-select">
+      <option value="en">🇬🇧 English</option>
+      <option value="km">🇰🇭 ភាសាខ្មែរ</option>
+    </select>
+    <button id="theme-toggle-btn" class="theme-btn">🌙 Dark</button>
+  </div>
+</nav>
 
-    <!-- Landing Screen -->
-    <div id="landing-screen" class="screen">
-      <h1>Medical Study Platform</h1>
-      <p>Select your year, review saved missed questions, or test your knowledge.</p>
-      <button id="enter-study-btn" class="btn primary-btn">🚀 Start Studying</button>
+<!-- Landing Screen -->
+<div id="landing-screen" class="screen">
+  <h1 data-i18n="landing_title">Medical Study Platform</h1>
+  <p data-i18n="landing_sub">Select your year, review saved missed questions, or test your knowledge.</p>
+  <button id="enter-study-btn" class="btn primary-btn" data-i18n="btn_start_study">🚀 Start Studying</button>
+</div>
+
+<!-- Leave Confirmation Modal -->
+<div id="leave-confirm-modal" class="modal-overlay hidden">
+  <div class="modal-card">
+    <h3 style="margin-top:0; font-size:1.1rem; color:var(--text-main);" data-i18n="leave_modal_title">
+      ⚠️ Leave Study Session?
+    </h3>
+    <p style="font-size:0.9rem; color:var(--text-sub); line-height:1.5;" data-i18n="leave_modal_desc">
+      Your active test progress will be lost.
+    </p>
+    <div class="modal-actions">
+      <button id="leave-cancel-btn" class="btn secondary-btn" data-i18n="btn_cancel">Cancel</button>
+      <button id="leave-confirm-btn" class="btn danger-btn" data-i18n="btn_leave">Leave</button>
     </div>
+  </div>
+</div>
 
     <!-- About Screen -->
     <div id="about-screen" class="screen hidden">
@@ -191,23 +213,7 @@
         </div>
       </div>
     </div>
-    <!-- Custom Leave Confirmation Modal -->
-<div id="leave-confirm-modal" class="modal-overlay hidden">
-  <div class="modal-card">
-    <h3 style="margin-top:0; font-size:1.1rem; color:var(--text-main);">
-      ⚠️ Leave Study Session? / តើអ្នកពិតជាចង់ចាកចេញឬ?
-    </h3>
-    <p style="font-size:0.9rem; color:var(--text-sub); line-height:1.5;">
-      🇬🇧 Your active test progress will be lost.<br>
-      🇰🇭 ការវិវឌ្ឍនៃការធ្វើតេស្តរបស់អ្នកនឹងត្រូវបាត់បង់។
-    </p>
-    <div class="modal-actions">
-      <button id="leave-cancel-btn" class="btn-secondary">Cancel / បោះបង់</button>
-      <button id="leave-confirm-btn" class="btn-danger">Leave / ចាកចេញ</button>
-    </div>
-  </div>
-</div>
-
+    
   </div>
 
   <script src="app.js"></script>
