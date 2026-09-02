@@ -393,19 +393,35 @@ window.addEventListener('beforeunload', (e) => {
 
 // --- Navigation & Screen Storage State ---
 function navigateTo(screenId, isBackAction = false) {
+  // 1. Check leave confirmation using 'screenId'
+  if (currentScreen === 'quiz-screen' && isSessionActive && screenId !== 'result-screen') {
+    showLeaveConfirmModal(screenId);
+    return;
+  }
+
   clearInterval(timerInterval);
   cancelAutoScroll();
 
   currentScreen = screenId; // Update state
 
+  // 2. Hide all screens and show target screen
   screens.forEach(screen => screen.classList.add('hidden'));
-  const targetScreen = document.getElementById(screenId);
-  if (targetScreen) {
-    targetScreen.classList.remove('hidden');
+  const targetElement = document.getElementById(screenId);
+  if (targetElement) {
+    targetElement.classList.remove('hidden');
   }
 
   if (screenId === 'account-screen') {
     renderAccountDashboard();
+  }
+
+  // 3. Trigger AdSense refresh when entering the result screen
+  if (screenId === 'result-screen') {
+    try {
+      (window.adsbygoogle = window.adsbygoogle || []).push({});
+    } catch (e) {
+      // Suppresses error if adblocker is active
+    }
   }
 
   if (!isBackAction) {
@@ -871,7 +887,7 @@ if (nextBtn) {
 
 function finishQuiz() {
   clearInterval(timerInterval);
-
+  cancelAutoScroll();
   userScore = 0;
   questions.forEach((q, idx) => {
     const chosen = userAnswers[idx];
@@ -879,7 +895,8 @@ function finishQuiz() {
     if (isCorrect) userScore++;
     recordQuestionResult(q, isCorrect);
   });
-
+  
+  isSessionActive = false;
   showResults();
 }
 
