@@ -1166,3 +1166,41 @@ navigateTo = function(screenId, isBackAction = false) {
     renderMyFeedbacks();
   }
 };
+
+// ==========================================================================
+// ACCIDENTAL LEAVE GUARD FOR ACTIVE STUDY SESSIONS
+// ==========================================================================
+
+// 1. Intercept internal navigation clicks (top navbar buttons)
+const baseNavigateTo = navigateTo;
+
+navigateTo = function(screenId, isBackAction = false) {
+  // Check if user is on the active study screen (e.g., 'quiz-screen' or 'study-screen')
+  // Adjust 'quiz-screen' to your exact active study screen element ID
+  const isCurrentlyStudying = (currentScreen === 'quiz-screen' || currentScreen === 'study-screen');
+
+  // If active and trying to navigate to a different screen
+  if (isCurrentlyStudying && screenId !== currentScreen) {
+    const confirmLeave = confirm(
+      "⚠️ Leave Study Session? / តើអ្នកពិតជាចង់ចាកចេញឬ?\n\n" +
+      "🇬🇧 Your active test progress will be lost.\n" +
+      "🇰🇭 ការវិវឌ្ឍនៃការធ្វើតេស្តរបស់អ្នកនឹងត្រូវបាត់បង់។"
+    );
+
+    if (!confirmLeave) {
+      return; // Stop navigation if user cancels
+    }
+  }
+
+  // Proceed with normal navigation if confirmed or not studying
+  baseNavigateTo(screenId, isBackAction);
+};
+
+// 2. Prevent accidental browser reload or closing the tab
+window.addEventListener('beforeunload', (e) => {
+  const isCurrentlyStudying = (currentScreen === 'quiz-screen' || currentScreen === 'study-screen');
+  if (isCurrentlyStudying) {
+    e.preventDefault();
+    e.returnValue = ''; // Required trigger for modern browser warning dialogs
+  }
+});
