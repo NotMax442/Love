@@ -23,6 +23,9 @@ const scorePercentageEl = document.getElementById('score-percentage');
 const progressBarFillEl = document.getElementById('progress-bar-fill');
 const reviewContainer = document.getElementById('review-container');
 
+// Theme Toggle Selector
+const themeToggleBtn = document.getElementById('theme-toggle-btn');
+
 // App State
 let currentYear = null;
 let currentSubject = '';
@@ -48,6 +51,29 @@ const manifestData = {
   "5": [],
   "6": ["MED-PRO"]
 };
+
+// --- Theme Toggle Logic ---
+function applyTheme(theme) {
+  if (theme === 'light') {
+    document.documentElement.setAttribute('data-theme', 'light');
+    if (themeToggleBtn) themeToggleBtn.textContent = '☀️ Light';
+  } else {
+    document.documentElement.removeAttribute('data-theme');
+    if (themeToggleBtn) themeToggleBtn.textContent = '🌙 Dark';
+  }
+}
+
+const savedTheme = localStorage.getItem('app_theme') || 'dark';
+applyTheme(savedTheme);
+
+if (themeToggleBtn) {
+  themeToggleBtn.addEventListener('click', () => {
+    const isLight = document.documentElement.getAttribute('data-theme') === 'light';
+    const newTheme = isLight ? 'dark' : 'light';
+    applyTheme(newTheme);
+    localStorage.setItem('app_theme', newTheme);
+  });
+}
 
 // Helper: Generates unique key for local storage per year & subject
 function getStorageKey() {
