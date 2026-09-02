@@ -951,7 +951,14 @@ function showResults() {
     if (retryMissedBtn) retryMissedBtn.classList.add('hidden');
   }
 
-  navigateTo('result-screen');
+ navigateTo('result-screen');
+
+  // Trigger Google AdSense refresh for result screen
+  try {
+    (window.adsbygoogle = window.adsbygoogle || []).push({});
+  } catch (e) {
+    // Suppresses errors if adblocker is active
+  }
 }
 
 if (retryMissedBtn) {
