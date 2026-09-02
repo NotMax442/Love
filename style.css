@@ -37,21 +37,17 @@ body {
   background-color: var(--bg-body);
   color: var(--text-main);
   min-height: 100vh;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  padding: 1rem;
+  margin: 0;
+  padding: 0;
   transition: background-color 0.3s ease, color 0.3s ease;
 }
 
 .app-container {
   width: 100%;
-  max-width: 650px;
+  max-width: 100%;
+  min-height: 100vh;
   background-color: var(--bg-card);
-  border: 1px solid var(--border-color);
-  border-radius: 12px;
   padding: 2rem;
-  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
   position: relative;
   transition: background-color 0.3s ease, border-color 0.3s ease;
 }
@@ -69,13 +65,13 @@ body {
   background-color: var(--bg-subcard);
   padding: 0.85rem 1.25rem;
   border-radius: 8px;
-  margin-bottom: 1.5rem;
+  margin-bottom: 2rem;
   border: 1px solid var(--border-sub);
 }
 
 .nav-links {
   display: flex;
-  gap: 1.25rem;
+  gap: 1.5rem;
   align-items: center;
   flex-wrap: wrap;
 }
@@ -131,13 +127,13 @@ body {
 
 /* --- Typography & Headings --- */
 h1 {
-  font-size: 1.8rem;
+  font-size: 2.2rem;
   margin-bottom: 0.75rem;
   color: var(--text-heading);
 }
 
 h2 {
-  font-size: 1.4rem;
+  font-size: 1.6rem;
   margin-bottom: 1.25rem;
   color: var(--text-main);
 }
@@ -146,13 +142,14 @@ p {
   color: var(--text-sub);
   margin-bottom: 1.5rem;
   line-height: 1.5;
+  font-size: 1.05rem;
 }
 
 /* --- Buttons --- */
 .btn {
   display: inline-block;
-  padding: 10px 18px;
-  font-size: 0.95rem;
+  padding: 12px 22px;
+  font-size: 1rem;
   font-weight: 600;
   border-radius: 8px;
   border: none;
@@ -204,7 +201,7 @@ p {
   background-color: var(--bg-subcard);
   color: var(--text-main);
   border: 1px solid var(--border-sub);
-  margin-bottom: 1rem;
+  margin-bottom: 1.25rem;
 }
 
 .back-btn:hover {
@@ -226,18 +223,18 @@ p {
 /* --- Year Grid --- */
 .year-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(130px, 1fr));
-  gap: 1rem;
+  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+  gap: 1.25rem;
 }
 
 .year-card {
   background-color: var(--bg-subcard);
   color: var(--text-main);
-  padding: 1.5rem;
+  padding: 2rem;
   border-radius: 8px;
   text-align: center;
   font-weight: bold;
-  font-size: 1.1rem;
+  font-size: 1.2rem;
   cursor: pointer;
   border: 1px solid var(--border-sub);
   transition: border-color 0.2s, background-color 0.2s;
@@ -260,11 +257,11 @@ p {
   background-color: var(--bg-inner);
   border: 1px solid var(--border-color);
   border-radius: 8px;
-  padding: 1.25rem;
+  padding: 1.5rem;
 }
 
 .subject-card h3 {
-  font-size: 1.1rem;
+  font-size: 1.2rem;
   color: var(--text-heading);
   margin-bottom: 0.5rem;
 }
@@ -331,36 +328,36 @@ p {
 .quiz-meta {
   display: flex;
   justify-content: space-between;
-  font-size: 0.85rem;
+  font-size: 0.95rem;
   color: var(--text-sub);
-  margin-bottom: 1.25rem;
+  margin-bottom: 1.5rem;
   padding-bottom: 0.5rem;
   border-bottom: 1px solid var(--border-color);
 }
 
 .question-box h3 {
-  font-size: 1.1rem;
+  font-size: 1.25rem;
   line-height: 1.5;
-  margin-bottom: 1.25rem;
+  margin-bottom: 1.5rem;
   color: var(--text-main);
 }
 
 .options-grid {
   display: flex;
   flex-direction: column;
-  gap: 0.75rem;
+  gap: 0.85rem;
   margin-bottom: 1.5rem;
 }
 
 .option-btn {
   width: 100%;
   text-align: left;
-  padding: 12px 16px;
+  padding: 14px 18px;
   background-color: var(--bg-subcard);
   color: var(--text-main);
   border: 1px solid var(--border-sub);
   border-radius: 8px;
-  font-size: 0.95rem;
+  font-size: 1rem;
   cursor: pointer;
   transition: background-color 0.2s, border-color 0.2s;
 }
@@ -374,13 +371,13 @@ p {
   background-color: var(--bg-inner);
   border: 1px solid var(--border-color);
   border-radius: 8px;
-  padding: 1.5rem;
+  padding: 2rem;
   text-align: center;
   margin-bottom: 1.5rem;
 }
 
 .percentage-badge {
-  font-size: 2.5rem;
+  font-size: 3rem;
   font-weight: bold;
   color: var(--text-heading);
   margin: 1rem 0;
@@ -388,9 +385,9 @@ p {
 
 .progress-bar-bg {
   width: 100%;
-  height: 10px;
+  height: 12px;
   background-color: var(--bg-subcard);
-  border-radius: 5px;
+  border-radius: 6px;
   overflow: hidden;
 }
 
@@ -406,7 +403,7 @@ p {
   display: flex;
   flex-direction: column;
   gap: 1rem;
-  max-height: 350px;
+  max-height: 450px;
   overflow-y: auto;
   margin-bottom: 1.5rem;
   padding-right: 0.5rem;
@@ -416,7 +413,7 @@ p {
   background-color: var(--bg-inner);
   border: 1px solid var(--border-color);
   border-radius: 8px;
-  padding: 1rem;
+  padding: 1.2rem;
   text-align: left;
 }
 
@@ -429,14 +426,14 @@ p {
 }
 
 .review-card h4 {
-  font-size: 0.95rem;
+  font-size: 1rem;
   margin-bottom: 0.5rem;
   color: var(--text-main);
   line-height: 1.4;
 }
 
 .review-answer {
-  font-size: 0.85rem;
+  font-size: 0.9rem;
   margin-bottom: 0.25rem;
 }
 
@@ -474,8 +471,8 @@ p {
   background-color: var(--bg-card);
   border: 1px solid var(--border-color);
   border-radius: 12px;
-  padding: 1.75rem;
-  max-width: 420px;
+  padding: 2rem;
+  max-width: 450px;
   width: 100%;
   box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.5);
   text-align: center;
@@ -483,7 +480,7 @@ p {
 }
 
 .modal-card h3 {
-  font-size: 1.25rem;
+  font-size: 1.3rem;
   color: var(--text-main);
   margin-bottom: 0.75rem;
 }
