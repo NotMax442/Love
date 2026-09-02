@@ -748,3 +748,60 @@ p {
   border-radius: 12px !important;
   box-shadow: 0 8px 24px rgba(0, 0, 0, 0.35);
 }
+/* ==========================================================================
+   RESPONSIVE MOBILE NAVBAR OVERHAUL
+   ========================================================================== */
+@media (max-width: 640px) {
+  .main-navbar {
+    padding: 0.75rem 0.5rem !important;
+    display: flex !important;
+    flex-direction: column !important;
+    align-items: center !important;
+    gap: 0.75rem !important;
+  }
+
+  /* Wrap nav buttons cleanly into balanced touch pills */
+  .nav-links {
+    display: flex !important;
+    flex-wrap: wrap !important;
+    justify-content: center !important;
+    align-items: center !important;
+    gap: 0.4rem 0.5rem !important;
+    width: 100% !important;
+  }
+
+  .nav-item {
+    font-size: 0.75rem !important;
+    padding: 0.4rem 0.65rem !important;
+    border-radius: 8px !important;
+    background: rgba(255, 255, 255, 0.05) !important;
+    border: 1px solid var(--border-color, #334155) !important;
+    font-weight: 600 !important;
+    text-align: center !important;
+  }
+
+  /* Separate controls with a divider line and equalize button sizes */
+  .nav-controls {
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
+    width: 100% !important;
+    gap: 0.5rem !important;
+    border-top: 1px solid var(--border-color, rgba(255, 255, 255, 0.1)) !important;
+    padding-top: 0.65rem !important;
+  }
+
+  .lang-select,
+  .theme-btn {
+    flex: 1 !important;
+    max-width: 140px !important;
+    text-align: center !important;
+    font-size: 0.8rem !important;
+    padding: 0.4rem 0.5rem !important;
+    height: 36px !important;
+    display: inline-flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+    border-radius: 8px !important;
+  }
+}
