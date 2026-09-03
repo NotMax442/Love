@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Study & Quiz Platform</title>
+  <title>TestforUHS - Medical Study & Quiz Platform</title>
   <link rel="icon" href="data:,">
   <link rel="stylesheet" href="style.css">
 
@@ -17,11 +17,11 @@
     <!-- Top Navigation Bar -->
     <nav class="main-navbar">
       <div class="nav-links">
-        <button id="nav-home-btn" class="nav-item" data-i18n="nav_home">HOME</button>
-        <button id="nav-about-btn" class="nav-item" data-i18n="nav_about">ABOUT</button>
-        <button id="nav-contact-btn" class="nav-item" data-i18n="nav_contact">CONTACT US</button>
-        <button id="nav-account-btn" class="nav-item" data-i18n="nav_account">MY ACCOUNT</button>
-        <button id="nav-donate-btn" class="nav-item" data-i18n="nav_donate" style="color: #f59e0b; font-weight: 700;">☕ Support Us</button>
+        <a href="index.html" class="nav-item active" data-i18n="nav_home">HOME</a>
+        <a href="about.html" class="nav-item" data-i18n="nav_about">ABOUT</a>
+        <a href="contact.html" class="nav-item" data-i18n="nav_contact">CONTACT US</a>
+        <a href="account.html" class="nav-item" data-i18n="nav_account">MY ACCOUNT</a>
+        <button id="nav-donate-btn" class="nav-item" data-i18n="nav_donate" style="color: #f59e0b; font-weight: 700; background: none; border: none; cursor: pointer;">☕ Support Us</button>
       </div>
       <div class="nav-controls" style="display: flex; gap: 0.5rem; align-items: center;">
         <select id="language-select" class="lang-select">
@@ -32,67 +32,16 @@
       </div>
     </nav>
 
-    <!-- Landing Screen -->
+    <!-- 1. Hero Landing Section -->
     <div id="landing-screen" class="screen">
       <h1 data-i18n="landing_title">Medical Study Platform</h1>
-      <p data-i18n="landing_sub">Select your year, review saved missed questions, or test your knowledge.</p>
-      <button id="enter-study-btn" class="btn primary-btn" data-i18n="btn_start_study">🚀 Start Studying</button>
+      <p data-i18n="landing_sub">Select your academic year, review saved missed questions, or test your knowledge.</p>
+      <button id="enter-study-btn" class="btn primary-btn" style="margin-top: 1.5rem; font-size: 1.1rem; padding: 0.75rem 2rem;" data-i18n="btn_start_study">🚀 Start Studying</button>
     </div>
 
-    <!-- About Screen -->
-    <div id="about-screen" class="screen hidden">
-      <button id="back-from-about-btn" class="btn back-btn" data-i18n="btn_back">⬅️ Back</button>
-      <h2 data-i18n="nav_about">About Us</h2>
-      <div class="score-card" style="text-align: center; padding: 2rem;">
-        <p style="margin: 0; color: var(--text-sub);">Medical Study & Quiz Platform information coming soon!</p>
-      </div>
-    </div>
-
-    <!-- Contact / Bug Report Screen -->
-    <div id="contact-screen" class="screen hidden">
-      <button id="back-from-contact-btn" class="btn back-btn" data-i18n="btn_back">⬅️ Back</button>
-      <h2 data-i18n="contact_title">Report Question Error</h2>
-      
-      <div class="score-card" style="text-align: left; padding: 1.5rem;">
-        <p data-i18n="contact_notice" style="margin-bottom: 1.25rem; color: var(--text-main); font-weight: 600;">
-          Found an incorrect question or answer? Send us a report below!
-        </p>
-
-        <form id="feedback-form">
-          <label data-i18n="contact_desc_label" style="display:block; margin-bottom: 0.5rem; font-weight: 600;">Description:</label>
-          <textarea id="feedback-text" rows="4" placeholder="Describe what is wrong with the question..." style="width:100%; padding:0.75rem; border-radius:8px; border:1px solid var(--border-sub); background:var(--bg-subcard); color:var(--text-main); margin-bottom:1rem;" required></textarea>
-
-          <label style="display:block; margin-bottom: 0.5rem; font-weight: 600;">Upload Screenshot (Optional):</label>
-          <input type="file" id="feedback-image" accept="image/*" style="margin-bottom: 1.25rem; display:block;">
-
-          <button type="submit" id="submit-feedback-btn" class="btn primary-btn" style="width: 100%;" data-i18n="contact_submit_btn">📤 Send Feedback</button>
-        </form>
-      </div>
-
-      <!-- User's Submitted Feedbacks Tracker -->
-      <h3 style="margin: 1.5rem 0 1rem 0;">My Submitted Reports</h3>
-      <div id="my-feedback-list" class="subject-grid"></div>
-    </div>
-
-    <!-- My Account Screen -->
-    <div id="account-screen" class="screen hidden">
-      <button id="back-from-account-btn" class="btn back-btn" data-i18n="btn_back">⬅️ Back</button>
-      <h2 data-i18n="account_title">My Account & Vault</h2>
-
-      <div class="account-toolbar">
-        <button id="toggle-select-mode-btn" class="btn secondary-btn">☑️ Select</button>
-        <div id="bulk-controls" class="hidden" style="display: flex; gap: 0.5rem; align-items: center; flex-wrap: wrap;">
-          <button id="select-all-btn" class="btn secondary-btn">Select All</button>
-          <button id="delete-selected-btn" class="btn danger-btn" disabled>🗑️ Delete Selected (0)</button>
-        </div>
-      </div>
-
-      <div id="account-subject-list" class="subject-grid"></div>
-    </div>
-
-    <!-- Year Selection Screen -->
-    <div id="year-screen" class="screen hidden">
-      <button id="back-to-landing-btn" class="btn back-btn" data-i18n="btn_back">⬅️ Back</button>
+    <!-- 2. Year Selection Section (Hidden by default) -->
+    <div id="year-screen" class="screen hidden" style="margin-top: 1rem;">
+      <button id="back-to-landing-btn" class="btn back-btn" style="margin-bottom: 1rem;" data-i18n="btn_back">⬅️ Back</button>
       <h2 data-i18n="year_selection_title">Select Academic Year</h2>
       <div class="year-grid">
         <div class="year-card" data-year="1" data-i18n="year_1">Year 1</div>
@@ -104,76 +53,29 @@
       </div>
     </div>
 
-    <!-- Subject Selection Screen -->
-    <div id="subject-screen" class="screen hidden">
-      <button id="back-to-years-btn" class="btn back-btn" data-i18n="btn_back_years">⬅️ Back to Years</button>
+    <!-- 3. Subject Selection Section (Hidden by default) -->
+    <div id="subject-screen" class="screen hidden" style="margin-top: 1rem;">
+      <button id="back-to-years-btn" class="btn back-btn" style="margin-bottom: 1rem;" data-i18n="btn_back_years">⬅️ Back to Years</button>
       <h2 id="selected-year-title">Subjects</h2>
       <div id="subject-list" class="subject-grid"></div>
     </div>
 
-    <!-- Quiz / Study Screen -->
-    <div id="quiz-screen" class="screen hidden">
-      <div class="quiz-header">
-        <button id="quit-session-btn" class="btn back-btn-warning">⬅️ Exit Session</button>
-        <h2 id="session-info"></h2>
-      </div>
-
-      <div class="quiz-meta">
-        <span id="progress-text"></span>
-        <span id="timer-display" class="hidden">⏱️ 60:00</span>
-      </div>
-
-      <div class="question-box">
-        <h3 id="question-text"></h3>
-        <div id="options-container" class="options-grid"></div>
-      </div>
-
-      <button id="next-btn" class="btn primary-btn hidden">Next Question ➡️</button>
-    </div>
-
-    <!-- Result Screen -->
-    <div id="result-screen" class="screen hidden">
-      <h2>Session Complete!</h2>
-      <div class="score-card">
-        <p id="final-score"></p>
-        <div class="percentage-badge" id="score-percentage">0%</div>
-        <div class="progress-bar-bg">
-          <div id="progress-bar-fill" class="progress-bar-fill"></div>
-        </div>
-      </div>
-
-      <!-- 🎯 Review Filter Buttons (Wrong Only vs All Questions) -->
-      <div id="review-filter-container" style="display: flex; gap: 0.5rem; justify-content: center; margin: 1.25rem 0 0.75rem 0;">
-        <button id="filter-wrong-btn" class="btn primary-btn" style="font-size: 0.85rem; padding: 6px 14px;">❌ Wrong Only</button>
-        <button id="filter-all-btn" class="btn secondary-btn" style="font-size: 0.85rem; padding: 6px 14px;">📋 All Questions</button>
-      </div>
-
-      <div id="review-container" class="review-list"></div>
-
-      <!-- 🎯 Post-Quiz & Study Relief Zone Ad Unit -->
-      <div class="result-ad-container">
-        <span class="ad-label">Sponsored</span>
-        <ins class="adsbygoogle"
-             style="display:block"
-             data-ad-client="ca-pub-4210272281940886"
-             data-ad-format="auto"
-             data-full-width-responsive="true"></ins>
-      </div>
-
-      <div class="result-actions">
-        <button id="retry-missed-btn" class="btn warning-btn hidden">
-          🎯 Retry Missed Questions (<span id="missed-count">0</span>)
-        </button>
-        <button id="restart-btn" class="btn primary-btn">Return</button>
-      </div>
+    <!-- Home Page AdSense Banner Unit -->
+    <div class="home-ad-container" style="margin: 2.5rem 0 1rem 0; text-align: center; min-height: 90px; background: var(--bg-subcard); padding: 1rem; border-radius: 8px; border: 1px solid var(--border-sub);">
+      <span class="ad-label" style="display: block; font-size: 0.75rem; color: var(--text-sub); margin-bottom: 0.5rem; text-transform: uppercase; letter-spacing: 0.05em;">Sponsored</span>
+      <ins class="adsbygoogle"
+           style="display:block"
+           data-ad-client="ca-pub-4210272281940886"
+           data-ad-format="auto"
+           data-full-width-responsive="true"></ins>
     </div>
 
     <!-- Site Footer -->
-    <footer class="main-footer" style="margin-top: 3rem; padding-top: 1.5rem; border-top: 1px solid var(--border-color); text-align: center; font-size: 0.85rem; color: var(--text-sub);">
+    <footer class="main-footer" style="margin-top: 1.5rem; padding-top: 1.5rem; border-top: 1px solid var(--border-color); text-align: center; font-size: 0.85rem; color: var(--text-sub);">
       <p>© 2026 TestforUHS. All rights reserved. | <a href="#" id="open-privacy-btn" style="color: var(--text-heading); text-decoration: underline;">Privacy Policy</a></p>
     </footer>
 
-  </div> <!-- End of .app-container -->
+  </div>
 
   <!-- Global Loading Overlay -->
   <div id="loading-overlay" class="modal-overlay hidden">
@@ -185,129 +87,41 @@
     </div>
   </div>
 
-  <!-- Custom Leave Confirmation Modal -->
-  <div id="leave-confirm-modal" class="modal-overlay hidden">
-    <div class="modal-card">
-      <h3 style="margin-top:0; font-size:1.1rem; color:var(--text-main);" data-i18n="leave_modal_title">
-        ⚠️ Leave Study Session?
-      </h3>
-      <p style="font-size:0.9rem; color:var(--text-sub); line-height:1.5;" data-i18n="leave_modal_desc">
-        Your active test progress will be lost.
-      </p>
-      <div class="modal-actions">
-        <button id="leave-cancel-btn" class="btn secondary-btn" data-i18n="btn_cancel">Cancel</button>
-        <button id="leave-confirm-btn" class="btn danger-btn" data-i18n="btn_leave">Leave</button>
-      </div>
-    </div>
-  </div>
-
-  <!-- Contact Cooldown Confirmation Modal -->
-  <div id="contact-confirm-modal" class="modal-overlay hidden">
-    <div class="modal-card">
-      <h3>⚠️ Confirm Submission</h3>
-      <p style="margin-bottom: 0.5rem; font-weight: 600;">Are you sure? You can only send feedback once every 30 minutes.</p>
-      <div class="modal-actions">
-        <button id="cancel-feedback-btn" class="btn secondary-btn" data-i18n="btn_cancel">Cancel</button>
-        <button id="confirm-feedback-btn" class="btn primary-btn">Send</button>
-      </div>
-    </div>
-  </div>
-
-  <!-- Bulk Delete Confirmation Modal -->
-  <div id="delete-confirm-modal" class="modal-overlay hidden">
-    <div class="modal-card">
-      <h3>⚠️ Are you sure?</h3>
-      <p id="delete-warning-text">Are you sure you want to delete these saved missed questions? This action cannot be undone.</p>
-      <div class="modal-actions">
-        <button id="cancel-delete-btn" class="btn secondary-btn" data-i18n="btn_cancel">Cancel</button>
-        <button id="confirm-delete-btn" class="btn danger-btn">Yes, Delete</button>
-      </div>
-    </div>
-  </div>
-
-  <!-- Anki Export Confirmation Modal -->
-  <div id="anki-modal" class="modal-overlay hidden">
-    <div class="modal-card">
-      <h3>📦 Export to Anki (.txt)</h3>
-      <p>How would you like to process these questions after downloading?</p>
-      <div class="modal-actions" style="flex-direction: column; gap: 0.5rem;">
-        <button id="anki-keep-btn" class="btn primary-btn" style="width: 100%;">📥 Export & Keep in Vault</button>
-        <button id="anki-clear-btn" class="btn warning-btn" style="width: 100%;">🗑️ Export & Clear Subject Vault</button>
-        <button id="anki-cancel-btn" class="btn secondary-btn" style="width: 100%;" data-i18n="btn_cancel">Cancel</button>
-      </div>
-    </div>
-  </div>
-
-  <!-- KHQR Donation Modal -->
+  <!-- Shared Modals (Donation & Privacy) -->
   <div id="donate-modal" class="modal-overlay hidden">
     <div class="modal-card donate-card-wide">
       <button id="close-donate-btn" class="modal-close-icon" aria-label="Close modal">&times;</button>
-
       <div class="donate-grid">
         <div class="donate-info">
-          <p class="donate-tagline" data-i18n="donate_tagline">
-            Every little bit is greatly appreciated! Thank you for your support 😊
-          </p>
-          <h3 class="donate-cta" data-i18n="donate_cta">
-            You may donate through our KHQR here.
-          </h3>
+          <p class="donate-tagline" data-i18n="donate_tagline">Every little bit is greatly appreciated! Thank you for your support 😊</p>
+          <h3 class="donate-cta" data-i18n="donate_cta">You may donate through our KHQR here.</h3>
         </div>
-
-        <div class="donate-qr-wrapper">
-          <img src="assets/khqr.png" alt="KHQR Code" class="khqr-card-img">
-        </div>
+        <div class="donate-qr-wrapper"><img src="assets/khqr.png" alt="KHQR Code" class="khqr-card-img"></div>
       </div>
-
-      <div class="donate-founder-section">
-        <blockquote class="founder-quote" data-i18n="founder_quote">
-          "A new step in the right direction, a more promising one"
-        </blockquote>
-        <p class="founder-text-km" data-i18n="founder_text_km">
-          ដោយមានជំនួយពីពួកអ្នក ពួគយើងនឹងបន្តធ្វើឱ្យ TestforUHS កាន់តែអស្ចារ្យឡើង។ សូមអរគុណក្នុងការគាំទ្ររហូតមក។
-        </p>
-        <p class="founder-text-en" data-i18n="founder_text_en">
-          With your help, together, we will push TestForUHS to its fullest potential.<br>
-          My deepest gratitude for your supports all this way.
-        </p>
-        <div class="founder-signature">
-          <span class="sig-title" data-i18n="founder_sig_title">Much Obliged.</span>
-          <span class="sig-subtitle" data-i18n="founder_sig_sub">FOUNDER OF TESTFORUHS</span>
-        </div>
-      </div>
-
       <div style="margin-top: 1.5rem; text-align: center;">
         <button id="bottom-close-donate-btn" class="btn secondary-btn" style="width: 100%; max-width: 200px;" data-i18n="btn_close">Close</button>
       </div>
     </div>
   </div>
 
-  <!-- Privacy Policy Modal for AdSense Compliance -->
   <div id="privacy-modal" class="modal-overlay hidden">
     <div class="modal-card" style="max-width: 600px; text-align: left; max-height: 80vh; overflow-y: auto; position: relative; padding: 2.5rem 1.5rem 1.5rem 1.5rem;">
       <button id="close-privacy-btn" class="modal-close-icon" aria-label="Close modal">&times;</button>
-      
       <h3 style="margin-bottom: 1rem; color: var(--text-main);">Privacy Policy</h3>
-      
       <div style="font-size: 0.85rem; line-height: 1.6; color: var(--text-sub);">
         <p>At <strong>TestforUHS</strong> (accessible from testforuhs.com), visitor privacy is one of our main priorities.</p>
-
         <h4 style="color: var(--text-main); margin: 1.25rem 0 0.5rem;">Google DoubleClick DART Cookie & AdSense</h4>
-        <p>Google is a third-party vendor on our site. It uses cookies, known as DART cookies, to serve ads to our site visitors based upon their visit to testforuhs.com and other sites on the internet.</p>
-        <p style="margin-top: 0.5rem;">Visitors may choose to decline the use of DART cookies by visiting the Google ad and content network Privacy Policy at <a href="https://policies.google.com/technologies/ads" target="_blank" rel="noopener" style="color: var(--text-heading);">https://policies.google.com/technologies/ads</a>.</p>
-
-        <h4 style="color: var(--text-main); margin: 1.25rem 0 0.5rem;">Third-Party Privacy Policies</h4>
-        <p>TestforUHS's Privacy Policy does not apply to other advertisers or websites. We advise you to consult the respective Privacy Policies of these third-party ad servers for more detailed information.</p>
-
+        <p>Google is a third-party vendor on our site. It uses cookies, known as DART cookies, to serve ads to our site visitors based upon their visit to testforuhs.com.</p>
         <h4 style="color: var(--text-main); margin: 1.25rem 0 0.5rem;">Log Files & Local Storage</h4>
-        <p>TestforUHS follows a standard procedure of using log files and browser Local Storage to save user progress, quiz results, and user preferences locally on your device.</p>
+        <p>TestforUHS uses browser Local Storage to save user progress, quiz results, and user preferences locally on your device.</p>
       </div>
-
       <div style="margin-top: 1.5rem; text-align: center;">
         <button id="bottom-close-privacy-btn" class="btn secondary-btn" style="width: 100%; max-width: 200px;" data-i18n="btn_close">Close</button>
       </div>
     </div>
   </div>
 
-  <script src="app.js"></script>
+  <script src="shared.js"></script>
+  <script src="home.js"></script>
 </body>
 </html>

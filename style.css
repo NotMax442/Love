@@ -859,3 +859,8 @@ p {
   margin-bottom: 0.5rem;
   opacity: 0.7;
 }
+
+/* Automatically collapse empty AdSense slots when no ad is served */
+ins.adsbygoogle[data-ad-status="unfilled"] {
+  display: none !important;
+}

@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>About Us - TestforUHS</title>
+  <link rel="icon" href="data:,">
+  <link rel="stylesheet" href="style.css">
+
+  <!-- Google AdSense Master Verification Script -->
+  <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-4210272281940886"
+       crossorigin="anonymous"></script>
+</head>
+<body>
+  <div class="app-container">
+
+    <!-- Top Navigation Bar -->
+    <nav class="main-navbar">
+      <div class="nav-links">
+        <a href="index.html" class="nav-item" data-i18n="nav_home">HOME</a>
+        <a href="about.html" class="nav-item active" data-i18n="nav_about">ABOUT</a>
+        <a href="contact.html" class="nav-item" data-i18n="nav_contact">CONTACT US</a>
+        <a href="account.html" class="nav-item" data-i18n="nav_account">MY ACCOUNT</a>
+        <button id="nav-donate-btn" class="nav-item" data-i18n="nav_donate" style="color: #f59e0b; font-weight: 700; background: none; border: none; cursor: pointer;">☕ Support Us</button>
+      </div>
+      <div class="nav-controls" style="display: flex; gap: 0.5rem; align-items: center;">
+        <select id="language-select" class="lang-select">
+          <option value="en">English</option>
+          <option value="km">ភាសាខ្មែរ</option>
+        </select>
+        <button id="theme-toggle-btn" class="theme-btn">🌙 Dark</button>
+      </div>
+    </nav>
+
+    <!-- About Screen Content -->
+<div id="about-screen" class="screen" style="max-width: 800px; margin: 0 auto; line-height: 1.6;">
+  
+  <h1 style="margin-bottom: 0.5rem;" data-i18n="about_title">About TestforUHS</h1>
+  <p style="color: var(--text-sub); margin-bottom: 2rem;" data-i18n="about_sub">A free, dedicated study and self-assessment platform for medical students.</p>
+
+  <!-- Mission Card -->
+  <div class="info-card" style="background: var(--bg-subcard); padding: 1.5rem; border-radius: 8px; border: 1px solid var(--border-sub); margin-bottom: 1.5rem;">
+    <h3 style="margin-top: 0; color: var(--text-main);" data-i18n="about_mission_title">🎯 Our Mission</h3>
+    <p style="color: var(--text-sub); margin-bottom: 0;" data-i18n="about_mission_desc">
+      TestforUHS was created to give medical students an intuitive, accessible way to review questions, practice exam simulation, and track missed topics across their academic years—100% free of charge.
+    </p>
+  </div>
+
+  <!-- Transparency & Funding Card -->
+  <div class="info-card" style="background: var(--bg-subcard); padding: 1.5rem; border-radius: 8px; border: 1px solid var(--border-sub); margin-bottom: 1.5rem;">
+    <h3 style="margin-top: 0; color: #f59e0b; display: flex; align-items: center; gap: 0.5rem;" data-i18n="about_funding_title">
+      🤝 How TestforUHS Stays Free & Funded
+    </h3>
+    <p style="color: var(--text-sub); margin-bottom: 1rem;" data-i18n="about_funding_desc">
+      To keep this platform open and free for everyone without charging subscriptions or putting study materials behind paywalls, we cover server, domain, and maintenance costs using two transparent methods:
+    </p>
+
+    <div style="display: flex; flex-direction: column; gap: 1rem;">
+      
+      <!-- Ad Transparency -->
+      <div style="padding: 1rem; background: var(--bg-main); border-radius: 6px; border-left: 4px solid #0284c7;">
+        <h4 style="margin: 0 0 0.5rem 0; color: var(--text-main);" data-i18n="about_ad_title">1. Non-Intrusive Advertisements (Google AdSense)</h4>
+        <ul style="margin: 0; padding-left: 1.25rem; color: var(--text-sub); font-size: 0.9rem;">
+          <li data-i18n="about_ad_loc"><strong>Where ads appear:</strong> Only at the bottom of the Home page and on the Session Results summary page.</li>
+          <li data-i18n="about_ad_zero"><strong>Zero Interruptions:</strong> We never place ads inside active quiz screens or study sessions so your focus remains 100% on learning.</li>
+          <li data-i18n="about_ad_filter"><strong>Strict Content Filtering:</strong> All advertisements are heavily filtered. We strictly block adult content, social casino/gambling, clickbait, and misleading supplements.</li>
+        </ul>
+      </div>
+
+      <!-- Donation Transparency -->
+      <div style="padding: 1rem; background: var(--bg-main); border-radius: 6px; border-left: 4px solid #10b981;">
+        <h4 style="margin: 0 0 0.5rem 0; color: var(--text-main);" data-i18n="about_donate_title">2. Voluntary Community Support (KHQR Donations)</h4>
+        <p style="margin: 0; color: var(--text-sub); font-size: 0.9rem;" data-i18n="about_donate_desc">
+          If TestforUHS helps you in your studies, you can voluntarily support platform development via our Support Us button (KHQR). Every contribution directly covers domain fees and hosting infrastructure. Donations are completely optional and unlock no special privileges—every student receives full access to all features.
+        </p>
+      </div>
+
+    </div>
+  </div>
+
+  <!-- Privacy & Data Commitment -->
+  <div class="info-card" style="background: var(--bg-subcard); padding: 1.5rem; border-radius: 8px; border: 1px solid var(--border-sub);">
+    <h3 style="margin-top: 0; color: var(--text-main);" data-i18n="about_privacy_title">🔒 Our Privacy Promise</h3>
+    <p style="color: var(--text-sub); margin-bottom: 0;" data-i18n="about_privacy_desc">
+      Your study progress, missed questions, and test scores are stored locally inside your browser (localStorage). We do not track your personal study choices or sell student data to third parties.
+    </p>
+  </div>
+
+</div>
+
+    <!-- Site Footer -->
+    <footer class="main-footer" style="margin-top: 3rem; padding-top: 1.5rem; border-top: 1px solid var(--border-color); text-align: center; font-size: 0.85rem; color: var(--text-sub);">
+      <p>© 2026 TestforUHS. All rights reserved. | <a href="#" id="open-privacy-btn" style="color: var(--text-heading); text-decoration: underline;">Privacy Policy</a></p>
+    </footer>
+
+  </div>
+
+  <!-- Shared Modals (Donation & Privacy) -->
+  <div id="donate-modal" class="modal-overlay hidden">
+    <div class="modal-card donate-card-wide">
+      <button id="close-donate-btn" class="modal-close-icon" aria-label="Close modal">&times;</button>
+      <div class="donate-grid">
+        <div class="donate-info">
+          <p class="donate-tagline" data-i18n="donate_tagline">Every little bit is greatly appreciated! Thank you for your support 😊</p>
+          <h3 class="donate-cta" data-i18n="donate_cta">You may donate through our KHQR here.</h3>
+        </div>
+        <div class="donate-qr-wrapper"><img src="assets/khqr.png" alt="KHQR Code" class="khqr-card-img"></div>
+      </div>
+      <div style="margin-top: 1.5rem; text-align: center;">
+        <button id="bottom-close-donate-btn" class="btn secondary-btn" style="width: 100%; max-width: 200px;" data-i18n="btn_close">Close</button>
+      </div>
+    </div>
+  </div>
+
+  <div id="privacy-modal" class="modal-overlay hidden">
+    <div class="modal-card" style="max-width: 600px; text-align: left; max-height: 80vh; overflow-y: auto; position: relative; padding: 2.5rem 1.5rem 1.5rem 1.5rem;">
+      <button id="close-privacy-btn" class="modal-close-icon" aria-label="Close modal">&times;</button>
+      <h3 style="margin-bottom: 1rem; color: var(--text-main);">Privacy Policy</h3>
+      <div style="font-size: 0.85rem; line-height: 1.6; color: var(--text-sub);">
+        <p>At <strong>TestforUHS</strong>, visitor privacy is one of our main priorities.</p>
+        <h4 style="color: var(--text-main); margin: 1.25rem 0 0.5rem;">Google DoubleClick DART Cookie & AdSense</h4>
+        <p>Google is a third-party vendor on our site. It uses cookies to serve ads based upon visits to testforuhs.com.</p>
+      </div>
+      <div style="margin-top: 1.5rem; text-align: center;">
+        <button id="bottom-close-privacy-btn" class="btn secondary-btn" style="width: 100%; max-width: 200px;" data-i18n="btn_close">Close</button>
+      </div>
+    </div>
+  </div>
+
+  <script src="shared.js"></script>
+  <script src="about.js"></script>
+</body>
+</html>
