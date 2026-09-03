@@ -23,6 +23,11 @@ document.addEventListener('DOMContentLoaded', async () => {
   }
 
   sessionConfig = JSON.parse(rawConfig);
+
+  // Sync navigation view back to subject selection
+  localStorage.setItem('lastView', 'subject');
+  localStorage.setItem('lastActiveYear', sessionConfig.year);
+
   setupNavigationGuards();
   await initSession();
 });
@@ -52,7 +57,6 @@ window.addEventListener('keydown', (e) => {
 });
 
 // Navigation Guard Modal for Leave Prevention
-// Navigation Guard Modal for Leave Prevention
 function showLeaveConfirmModal() {
   if (isModalOpen) return Promise.resolve(false);
   isModalOpen = true;
@@ -68,7 +72,6 @@ function showLeaveConfirmModal() {
       return resolve(true);
     }
 
-    // Set contextual message based on session mode
     if (descEl) {
       const isKm = currentLang === 'km';
       if (sessionConfig && sessionConfig.mode === 'study') {
@@ -78,21 +81,14 @@ function showLeaveConfirmModal() {
       } else {
         descEl.textContent = isKm
           ? "ការវិវឌ្ឍនៃការធ្វើតេស្តប្រឡងរបស់អ្នកនឹងត្រូវបាត់បង់។"
-          : "Your active timed quiz progress will be lost.";
+          : "Are you sure you want to leave? Your active timed quiz progress will be lost.";
       }
     }
 
     modal.classList.remove('hidden');
 
-    const onConfirm = () => {
-      cleanup();
-      resolve(true);
-    };
-
-    const onCancel = () => {
-      cleanup();
-      resolve(false);
-    };
+    const onConfirm = () => { cleanup(); resolve(true); };
+    const onCancel = () => { cleanup(); resolve(false); };
 
     function cleanup() {
       modal.classList.add('hidden');
@@ -108,19 +104,14 @@ function showLeaveConfirmModal() {
 
 function setupNavigationGuards() {
   const pushGuardState = () => {
-    try {
-      history.pushState({ guard: true }, '', window.location.href);
-    } catch (e) {}
+    try { history.pushState({ guard: true }, '', window.location.href); } catch (e) {}
   };
 
   pushGuardState();
 
-  // 1. Intercept Browser Back Button / Mobile Back Swipe
   window.addEventListener('popstate', (e) => {
     if (!isSessionActive) return;
-
     pushGuardState();
-
     if (isModalOpen) return;
 
     showLeaveConfirmModal().then((wantsToLeave) => {
@@ -131,17 +122,14 @@ function setupNavigationGuards() {
     });
   });
 
-  // 2. Intercept Keyboard Shortcuts for Back (Alt + Left Arrow / Cmd + [)
   window.addEventListener('keydown', (e) => {
     if (!isSessionActive) return;
-
     const isAltBack = e.altKey && (e.key === 'ArrowLeft' || e.code === 'ArrowLeft');
     const isCmdBack = (e.metaKey || e.ctrlKey) && e.key === '[';
 
     if (isAltBack || isCmdBack) {
       e.preventDefault();
       e.stopPropagation();
-
       if (isModalOpen) return;
 
       showLeaveConfirmModal().then((wantsToLeave) => {
@@ -153,7 +141,6 @@ function setupNavigationGuards() {
     }
   });
 
-  // 3. Intercept Top Navbar Nav Links
   const navGuards = document.querySelectorAll('.nav-leave-guard');
   navGuards.forEach(link => {
     link.addEventListener('click', async (e) => {
@@ -172,7 +159,6 @@ function setupNavigationGuards() {
     });
   });
 
-  // 4. Intercept Built-In Back Button
   const quitBtn = document.getElementById('quit-session-btn');
   if (quitBtn) {
     quitBtn.addEventListener('click', async () => {
@@ -189,7 +175,6 @@ function setupNavigationGuards() {
     });
   }
 
-  // 5. Intercept Tab Close / Hard Reload
   window.addEventListener('beforeunload', (e) => {
     if (isSessionActive) {
       e.preventDefault();
@@ -215,7 +200,7 @@ async function initSession() {
 
   const studyProgressKey = `saved_study_y${year}_${subject.toLowerCase()}`;
 
-  // Resuming Saved Study Progress
+  // Resume saved Study progress ONLY
   if (mode === 'study' && resume) {
     const savedStudyRaw = localStorage.getItem(studyProgressKey);
     if (savedStudyRaw) {
@@ -318,7 +303,7 @@ function updateTimerUI() {
   timerDisplay.textContent = `⏱️ ${minutes}:${seconds}`;
 }
 
-// Helper to save active study session to localStorage
+// Auto-save Study progress ONLY
 function saveStudyProgress() {
   if (sessionConfig && sessionConfig.mode === 'study') {
     const studyProgressKey = `saved_study_y${sessionConfig.year}_${sessionConfig.subject.toLowerCase()}`;
@@ -389,7 +374,6 @@ function renderStudyMode() {
     optionsContainer.appendChild(qCard);
   });
 
-  // Auto-scroll to first unanswered question when resuming
   if (sessionConfig.resume) {
     const firstUnansweredIndex = userAnswers.findIndex(ans => ans === null);
     if (firstUnansweredIndex > 0) {
@@ -425,7 +409,6 @@ function handleStudyOptionClick(qIndex, selectedIndex, selectedBtn, optsDiv) {
   recordQuestionResult(q, isCorrect, sessionConfig.year, sessionConfig.subject);
   studyAnsweredCount++;
 
-  // Auto-save progress to localStorage
   saveStudyProgress();
 
   const progressText = document.getElementById('progress-text');
@@ -519,7 +502,7 @@ function finishSession() {
   clearInterval(timerInterval);
   cancelAutoScroll();
 
-  // Clear mid-session study progress from localStorage upon completion
+  // Remove saved study progress when finished
   if (sessionConfig && sessionConfig.mode === 'study') {
     const studyProgressKey = `saved_study_y${sessionConfig.year}_${sessionConfig.subject.toLowerCase()}`;
     localStorage.removeItem(studyProgressKey);

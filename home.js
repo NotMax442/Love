@@ -19,63 +19,78 @@ document.addEventListener('DOMContentLoaded', () => {
     (window.adsbygoogle = window.adsbygoogle || []).push({});
   } catch (e) {}
 
-  // Check if returning with a saved year state in session
-  const savedYear = sessionStorage.getItem('lastYear');
-  if (savedYear) {
+  // Retrieve saved navigation state across sessions
+  const savedView = localStorage.getItem('lastView');
+  const savedYear = localStorage.getItem('lastActiveYear');
+
+  // Smart restore: Return to subject selection if leaving mid-session or mid-navigation
+  if (savedView === 'subject' && savedYear) {
     currentYear = savedYear;
     if (landingScreen) landingScreen.classList.add('hidden');
     if (yearScreen) yearScreen.classList.add('hidden');
     if (subjectScreen) subjectScreen.classList.remove('hidden');
     showSubjects(currentYear);
+  } else if (savedView === 'year') {
+    if (landingScreen) landingScreen.classList.add('hidden');
+    if (yearScreen) yearScreen.classList.remove('hidden');
+    if (subjectScreen) subjectScreen.classList.add('hidden');
+  } else {
+    // Default to hero landing screen
+    if (landingScreen) landingScreen.classList.remove('hidden');
+    if (yearScreen) yearScreen.classList.add('hidden');
+    if (subjectScreen) subjectScreen.classList.add('hidden');
   }
 
-  // Click "🚀 Start Studying" -> Show Year Screen
+  // Click "🚀 Start Studying" -> Show Year Selection Screen
   if (enterStudyBtn) {
     enterStudyBtn.addEventListener('click', () => {
+      localStorage.setItem('lastView', 'year');
       if (landingScreen) landingScreen.classList.add('hidden');
       if (yearScreen) yearScreen.classList.remove('hidden');
+      if (subjectScreen) subjectScreen.classList.add('hidden');
     });
   }
 
-  // Click "⬅️ Back" in Year Screen -> Show Landing Screen
+  // Click "⬅️ Back" in Year Screen -> Return to Landing Screen
   if (backToLandingBtn) {
     backToLandingBtn.addEventListener('click', () => {
+      localStorage.setItem('lastView', 'landing');
+      localStorage.removeItem('lastActiveYear');
       if (yearScreen) yearScreen.classList.add('hidden');
       if (landingScreen) landingScreen.classList.remove('hidden');
-      sessionStorage.removeItem('lastYear');
+      if (subjectScreen) subjectScreen.classList.add('hidden');
     });
   }
 
-  // Click Year Card -> Show Subject Screen
+  // Click Year Card -> Show Subject Selection Screen
   yearCards.forEach(card => {
     card.addEventListener('click', () => {
       currentYear = card.getAttribute('data-year');
-      sessionStorage.setItem('lastYear', currentYear);
+      localStorage.setItem('lastActiveYear', currentYear);
+      localStorage.setItem('lastView', 'subject');
+
+      if (landingScreen) landingScreen.classList.add('hidden');
       if (yearScreen) yearScreen.classList.add('hidden');
       if (subjectScreen) subjectScreen.classList.remove('hidden');
       showSubjects(currentYear);
     });
   });
 
-  // Click "⬅️ Back to Years" -> Show Year Screen
+  // Click "⬅️ Back to Years" -> Return to Year Selection Screen
   if (backToYearsBtn) {
     backToYearsBtn.addEventListener('click', () => {
+      localStorage.setItem('lastView', 'year');
       if (subjectScreen) subjectScreen.classList.add('hidden');
       if (yearScreen) yearScreen.classList.remove('hidden');
-      sessionStorage.removeItem('lastYear');
+      if (landingScreen) landingScreen.classList.add('hidden');
     });
   }
 });
 
 function showSubjects(year) {
-  const yearScreen = document.getElementById('year-screen');
-  const subjectScreen = document.getElementById('subject-screen');
   const selectedYearTitle = document.getElementById('selected-year-title');
-
-  if (yearScreen) yearScreen.classList.add('hidden');
-  if (subjectScreen) subjectScreen.classList.remove('hidden');
-
   const t = translations[currentLang] || translations.en;
+
   if (selectedYearTitle) {
     selectedYearTitle.textContent = t.subjects_header 
       ? t.subjects_header.replace('{year}', year) 
@@ -98,13 +113,11 @@ function loadSubjectsForYear(year) {
     const savedMissed = localStorage.getItem(storageKey);
     const missedCount = savedMissed ? JSON.parse(savedMissed).length : 0;
 
-    // Check for saved mid-session study progress
-    const studyProgressKey = `saved_study_y${year}_${subject.toLowerCase()}`;
-    const savedStudyRaw = localStorage.getItem(studyProgressKey);
+    // Check saved Study progress ONLY (Quiz mode is strictly non-persistent)
+    const studyKey = `saved_study_y${year}_${subject.toLowerCase()}`;
+    const savedStudyRaw = localStorage.getItem(studyKey);
     let studyProgress = null;
-    if (savedStudyRaw) {
-      try { studyProgress = JSON.parse(savedStudyRaw); } catch(e) {}
-    }
+    if (savedStudyRaw) { try { studyProgress = JSON.parse(savedStudyRaw); } catch(e) {} }
 
     const subjectCard = document.createElement('div');
     subjectCard.classList.add('subject-card');
@@ -119,7 +132,7 @@ function loadSubjectsForYear(year) {
     if (studyProgress && studyProgress.studyAnsweredCount > 0) {
       const answered = studyProgress.studyAnsweredCount;
       const total = studyProgress.questions ? studyProgress.questions.length : 0;
-      continueBtnHTML = `<button class="btn primary-btn" style="background:#10b981; border-color:#059669;" onclick="continueStudySession('${subject}')">▶️ Continue Study (${answered}/${total})</button>`;
+      continueBtnHTML = `<button class="btn primary-btn" style="background:#10b981; border-color:#059669; margin-bottom: 0.5rem;" onclick="continueStudySession('${subject}')">▶️ Continue Study (${answered}/${total})</button>`;
       studyBtnLabel = "🔄 Restart Study All";
     }
 
@@ -144,11 +157,14 @@ function loadSubjectsForYear(year) {
 }
 
 function startSession(subjectName, mode) {
-  // If starting fresh study, clear old saved study progress for this subject
+  // If starting fresh study, clear old saved study progress
   if (mode === 'study') {
-    const studyProgressKey = `saved_study_y${currentYear}_${subjectName.toLowerCase()}`;
-    localStorage.removeItem(studyProgressKey);
+    const studyKey = `saved_study_y${currentYear}_${subjectName.toLowerCase()}`;
+    localStorage.removeItem(studyKey);
   }
+
+  localStorage.setItem('lastView', 'subject');
+  localStorage.setItem('lastActiveYear', currentYear);
 
   const sessionConfig = {
     year: currentYear,
@@ -161,6 +177,9 @@ function startSession(subjectName, mode) {
 }
 
 function continueStudySession(subjectName) {
+  localStorage.setItem('lastView', 'subject');
+  localStorage.setItem('lastActiveYear', currentYear);
+
   const sessionConfig = {
     year: currentYear,
     subject: subjectName,
@@ -172,6 +191,9 @@ function continueStudySession(subjectName) {
 }
 
 function startMissedSession(subjectName) {
+  localStorage.setItem('lastView', 'subject');
+  localStorage.setItem('lastActiveYear', currentYear);
+
   const sessionConfig = {
     year: currentYear,
     subject: subjectName,
