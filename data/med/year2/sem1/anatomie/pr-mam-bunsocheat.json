@@ -1,0 +1,340 @@
+{
+  "questions": [
+    {
+      "id": 1,
+      "question": "Les propositions suivantes concernent le carpe :",
+      "options": [
+        "Il est constitué de sept os disposés en deux rangées.",
+        "L'articulation médio-carpienne est une sphéroïde.",
+        "Le scaphoïde est situé sur la seconde rangée des os du carpe.",
+        "Le bord médial ou interne comprend l'os triquetrum, l'os hamatum et l'os pisiforme.",
+        "Les ligaments du carpe sont situés en ventral, dorsal et latéral."
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 2,
+      "question": "Les propositions suivantes concernent la clavicule :",
+      "options": [
+        "Le bord ventral présente une concavité vers l'avant dans sa partie médiale.",
+        "La surface articulaire acromiale regarde en haut.",
+        "Le tubercule conoïde est situé en médial de la ligne trapézoïde.",
+        "La gouttière sous-clavière est située au tiers médial de la face caudale de la clavicule.",
+        "Elle est réunie à l'acromion par les ligaments trapézoïde et conoïde."
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 3,
+      "question": "Les propositions suivantes concernent le membre thoracique :",
+      "options": [
+        "L'ensemble des articulations du carpe sont des trochoïdes.",
+        "L'ulna tourne autour du radius au niveau de leur articulation distale.",
+        "Le ler et le 2ème métacarpiens sont dépendants l'un de l'autre.",
+        "Les fracture du carpe concernent à 95% l'os lunatum.",
+        "Les articulations interphalangiennes sont des ginglymes."
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 4,
+      "question": "Les propositions suivantes concernent le massif carpien :",
+      "options": [
+        "Le ligament ulno-carpien dorsal participe à la cohésion du carpe.",
+        "Son bord latéral est constitué par le scaphoide et le trapézoide.",
+        "La première rangée comprend de dehors en dedans: scaphoïde, capitatum, triquetrum et pisiforme.",
+        "La première rangée s'articule avec le ligament triangulaire et l'articulation radio-ulnaire distale.",
+        "S'articule avec le premier métacarpien par une articulation ellipsoïde."
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 5,
+      "question": "A propos des propositions suivantes, vrai ou faux :",
+      "options": [
+        "Le rayon de courbure de la cavité glénoïdale est inférieur à celui de la tête de l'humérus.",
+        "Les fractures du col chirurgical sont les plus fréquentes.",
+        "L'angle de rétroversion (ou d'inclinaison) de l'humérus est de 130.",
+        "Le nerf médian est celui de la supination.",
+        "Le territoire sensitif du nerf médian est le côté ulnaire de la main."
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 6,
+      "question": "Les propositions suivantes concernent la clavicule :",
+      "options": [
+        "Elle s'articule avec le processus coracoïde.",
+        "Elle s'articule avec la première côte.",
+        "Elle est réunie à l'acromion par les ligaments trapézoide et conoide.",
+        "Elle donne insertion au muscle grand dentelé.",
+        "Elle donne insertion au muscle grand pectoral."
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 7,
+      "question": "Des structures osseuses suivantes sont superficielles et donc palpables :",
+      "options": [
+        "L'épine iliaque ventro-caudale (épine iliaque antéro- inférieure).",
+        "Le grand trochanter.",
+        "Le processus coronoïde de l'ulna.",
+        "La surface poplitée.",
+        "La glène de l'omoplate."
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 8,
+      "question": "les propositions suivantes concernent l'os frontal:",
+      "options": [
+        "L'écaille a la particularité de s'aplatir pour former la tempe.",
+        "La suture métopique est observable en vue endocranienne.",
+        "L'arcade sourcilière est un arc concave vers le bas, plus marqué chez les femmes.",
+        "Le nerf supra orbitaire V2, passe par le foramen (ou parfois l'incisure) supra orbitaire.",
+        "L'os frontal s'articule avec la face par les processus zygomatiques en médial et les processus maxillaires en latéral."
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 9,
+      "question": "les propositions suivantes concernent l'os frontal :",
+      "options": [
+        "La fossette trochléaire est une impression du muscle droit inférieur.",
+        "Le sinus frontal se draine dans le méat moyen grâce au canal naso frontal.",
+        "Il s'articule entre autre avec les os pariétaux, le sphénoïde, l'ethmoïde, mais pas avec les os du nez ni les os zygomatique.",
+        "Les bords supra-orbitaires sont limités latéralement par une zone non articulaire qui les réunit aux os zygomatique.",
+        "L'écaille du frontal est marquée par l'incisure ethmoïdale comblée par la lame criblée de l'ethmoïde."
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 10,
+      "question": "les propositions suivantes concernent l'os ethmoïde :",
+      "options": [
+        "Du fait de sa fragilité, la fracture de la lame criblée est fréquente, mais toutefois peu grave.",
+        "Le processus crista-galli est percé de nombreux orifices laissant passer les filets nerveux du nerf olfactif (I).",
+        "La lame perpendiculaire s'appuie en arrière sur le corps du sphénoïde et constitue en avant la partie la plus antérieure de la cloison nasale.",
+        "La lame perpendiculaire s'appuie sur le pied de la cloison nasale.",
+        "Le processus crista-galli est triangulaire et mousse."
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 11,
+      "question": "les propositions suivantes concernent l'os temporal :",
+      "options": [
+        "Le processus zygomatique est poursuivit par la crête supra-mastoïdienne, concave en bas et en avant.",
+        "La fissure ptérygo-tympanique est en arrière et en dehors de la fissure ptérygo-squameuse.",
+        "La pyramide pétreuse repose sur sa face inférieure.",
+        "Le rocher est traversé de part en part par l'artère carotide interne, le nerf vestibulo-cochléaire (VIII), et contient l'oreille interne.",
+        "Le rocher a trois faces endocrâniennes et une face exocrânienne."
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 12,
+      "question": "les propositions suivantes concernent l'os occipital:",
+      "options": [
+        "La crête occipitale interne est située au dessus de la protubérance occipitale interne..",
+        "En latéral du foramen magnum, on trouve, de ventral à dorsal, le canal condylaire puis le canal de l'hypoglosse.",
+        "Le sillon du sinus pétreux inférieur est en arrière de l'incisure jugulaire.",
+        "Il s'articule avec le clivus du sphénoïde.",
+        "La protubérance occipitale externe est sur l'arrière de la partie basilaire."
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 13,
+      "question": "les propositions suivantes concernent l'os maxillaire :",
+      "options": [
+        "C'est un os impair et symétrique.",
+        "Il entre dans la formation des cavités de la face (orbitaires, nasales et buccale).",
+        "L'essentiel de son volume est constitué par les fosses nasales.",
+        "On le compare à une pyramide quadrangulaire, à sommet latéral.",
+        "Il participe à la formation de l'étage antérieur de la base du crâne."
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 14,
+      "question": "Les propositions suivantes concernent les os de la jambe :",
+      "options": [
+        "La fibula est placée en dedans du tibia.",
+        "La face médiale de la diaphyse du tibia est sous-cutanée.",
+        "Le bord médial de la diaphyse du tibia est aussi appelé bord interosseux",
+        "La malléole médiale descend plus bas que la malléole latérale.",
+        "L'articulation fémoro-tibiale est une articulation synoviale plane."
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 15,
+      "question": "les propositions suivantes concernent la clavicule:",
+      "options": [
+        "Le tubercule conoide est en lateral de la ligne trapezoide.",
+        "La surface articulaire sternale est concave de cranial en caudal et convexe de ventral en dorsal.",
+        "Il y a trois empreintes ligamentaires en tout sur sa face inferieure.",
+        "Sur sa face inferieure, on trouve de medial en lateral: la ligne trapezoide, le tubercule conoide, la gouttiere subclaviere et l'empreinte du ligament costo-claviculaire.",
+        "Le bord ventral est concave en ventral dans son tiers lateral."
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 16,
+      "question": "L'os lunatum s'articule avec les os suivants :",
+      "options": [
+        "Le trapèze.",
+        "Le scaphoïde.",
+        "Le triquetrum et le scaphoïde",
+        "Le III métacarpien.",
+        "Le pisiforme."
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 17,
+      "question": "Les propositions suivantes concernent l'articulation scapulo-humérale :",
+      "options": [
+        "Il s'agit d'une sphéroide.",
+        "Le fibrocartilage se place au centre de la cavité glénoïde.",
+        "Annulé.",
+        "L'abduction complète du bras suppose une bascule ou rotation externe de la scapula et Il s'agit d'une sphéroide",
+        "Les propositions suivantes concernent la ceinture scapulaire :"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 18,
+      "question": "Les propositions suivantes concernent la pronosupination :",
+      "options": [
+        "Elle met en jeu l'articulation radio ulnaire proximale et en supination la paume de la main regarde en avant, pouce en dehors et le col du radius est orienté en latéral et distal.",
+        "En supination la paume de la main regarde en avant, pouce en dehors.",
+        "Le col du radius est orienté en latéral et distal.",
+        "La tête radiale pivote autour du processus styloïde de l'ulna.",
+        "Le ligament triangulaire est tendu du bord de l'incisure ulnaire du radius à la styloïde de l'ulna."
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 19,
+      "question": "Les propositions suivantes concernent la ceinture scapulaire :",
+      "options": [
+        "L'articulation sterno-claviculaire (sterno-costo-claviculaire) est une articulation synoviale plane.",
+        "L'articulation sterno-claviculaire (sterno-costo-claviculaire) met en jeu l'extrémité médiale de la clavicule, l'incisure claviculaire du sternum et le premier cartilage costal et la syssarcose scapulo-thoracique est divisée en 2 par le grand dentelé.",
+        "Le ligament costo-claviculaire est tendu de la clavicule à la deuxième côte.",
+        "Annulé.",
+        "La syssarcose scapulo-thoracique est divisée en 2 par le grand dentelé."
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 20,
+      "question": "Les propositions suivantes concernent l'orientation de la main :",
+      "options": [
+        "L'articulation radio-carpienne est une ellipsoïde et le ligament collatéral ulnaire du poignet s'oppose à l'inclinaison radiale du poignet.",
+        "Le ligament collatéral radial se termine sur le scaphoïde et l'hamatum.",
+        "Le ligament collatéral ulnaire du poignet s'oppose à l'inclinaison radiale du poignet.",
+        "La flexion (flexion palmaire) du poignet dépend du nerf musculo-cutané.",
+        "L'adduction de la main dépend du nerf médian."
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 21,
+      "question": "Les propositions suivantes concernent le pouce:",
+      "options": [
+        "L'articulation carpo-métacarpienne du pouce est une articulation en selle et la colonne du pouce est constituée de 5 os.",
+        "Le pouce possède 3 phalanges.",
+        "La colonne du pouce est constituée de 5 os.",
+        "L'articulation métacarpo-métacarpienne est plane.",
+        "Il est constitué entre autre des os trapèze et lunatum et est notre doigt le plus médial en position anatomique."
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 22,
+      "question": "Les propositions suivantes concernent les doigts longs (quatre derniers doigts):",
+      "options": [
+        "Les articulations interphalangiennes sont des ginglymes et Ils sont composés de 3 phalanges contrairement au doigt le plus latéral de la main.",
+        "Les muscles interosseux fléchissent les articulations interphalangiennes et étendent les articulations métacarpophalangiennes.",
+        "80% des fractures des métacarpiens sont celles du col du 3ème.",
+        "La phalange la plus proximale est appelée P3 tandis que le plus distales est appelée P1.",
+        "Ils sont composés de 3 phalanges contrairement au doigt le plus latéral de la main."
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 23,
+      "question": "Les propositions suivantes concernent l'articulation scapulo-humérale :",
+      "options": [
+        "La clavicule est orientée dans l'axe du membre.",
+        "C'est l'articulation proximale de l'humérus et est une articulation relativement instable.",
+        "La cavité glénoïde est orientée en haut, en dehors et en avant tandis que l'épiphyse proximale de l'humérus est orientée en haut, en dedans et en arrière.",
+        "Est une articulation relativement instable.",
+        "C'est une ellipsoïde."
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 24,
+      "question": "les propositions suivantes concernent l'os coxal:",
+      "options": [
+        "Le bord inférieur est sous-cutané.",
+        "La tubérosité iliaque est ventrale par rapport a la surface auriculaire.",
+        "Sur le bord dorsal, on trouve de crânial en caudal: les épines iliaques dorso-crâniale et dorsocaudale, la grande échancrure sciatique, l'épine sciatique et la petite echancrure sciatique et Le foramen obture est limite par les branches crâniales et caudales du pubis.",
+        "Sur le bord ventral, on trouve l'éminence ilio-pubienne entre les épines ventro-crâniale et ventrocaudale.",
+        "Le foramen obture est limite par les branches crâniales et caudales du pubis."
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 25,
+      "question": "Les propositions suivantes concernent le fémur :",
+      "options": [
+        "En crânial, la ligne âpre se trifurque et donne de médial en latéral la tubérosité gluteale, la ligne pectinée et la ligne spiralée.",
+        "La ligne spiralée se poursuit par le petit trochanter.",
+        "La tête présente 130 de déclinaison et 15 d'inclinaison.",
+        "L'épiphyse distale porte une surface articulaire qui se divise en dorsal en deux condyles et La partie ventrale de la surface articulaire distale est destinée a la patella, la partie dorsale au tibia.",
+        "La partie ventrale de la surface articulaire distale est destinée a la patella, la partie dorsale au tibia."
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 26,
+      "question": "les propositions suivantes concernent le fémur et la patella :",
+      "options": [
+        "La fosse intercondylaire est une zone d'insertion ligamentaire et la face ventrale de la patella est une zone d'insertion tendineuse.",
+        "L'apex de la patella est crânial.",
+        "La face ventrale de la patella est articulaire.",
+        "La face ventrale de la patella est une zone d'insertion tendineuse.",
+        "C'est la partie inférieure de la face dorsale de la patella qui porte les surfaces articulaires fémorales."
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 27,
+      "question": "Les propositions suivantes concernent le sacrum :",
+      "options": [
+        "Il naît de la fusion de 5 vertèbres sacrées lors de l'embryogenèse et On dénombre 4 paires de foramen sacraux en vues ventrale et dorsale.",
+        "Il est globalement triangulaire a sommet supérieur.",
+        "On dénombre 4 paires de foramen sacraux en vues ventrale et dorsale.",
+        "4 lignes transverses relient les foramens d'une même paire en vue dorsale.",
+        "On compte 4 crêtes horizontales en vue dorsale."
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 28,
+      "question": "Les propositions suivantes concernent le sacrum :",
+      "options": [
+        "Le canal sacral vertical existe sur toute la hauteur du sacrum et prolonge le canal vertébral.",
+        "Le canal sacral abrite la moelle épinière.",
+        "La crête médiane provient de la fusion des processus épineux, la crête latérale de la fusion des processus transverses et La surface articulaire coxale a une forme auriculaire.",
+        "En vue latérale on observe la tubérosité sacrale logée en ventral dans la concavité de la surface articulaire pour l'os coxal.",
+        "La surface articulaire coxale a une forme auriculaire."
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

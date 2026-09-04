@@ -1,26 +1,54 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>My Account & Vault - TestforUHS</title>
-  <link rel="icon" href="data:,">
+  <meta name="title" content="My Account & Vault - TestforUHS">
+  <meta name="description"
+    content="Manage your saved missed questions, track subject progress, and export flashcards to Anki.">
+
+  <!-- Open Graph / Telegram / Facebook -->
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://testforuhs.com/account.html">
+  <meta property="og:site_name" content="TestforUHS">
+  <meta property="og:title" content="My Account & Vault - TestforUHS">
+  <meta property="og:description"
+    content="Manage your saved missed questions, track subject progress, and export flashcards to Anki.">
+  <meta property="og:image" content="https://testforuhs.com/assets/logo.png">
+
+  <!-- Twitter -->
+  <meta property="twitter:card" content="summary_large_image">
+  <meta property="twitter:url" content="https://testforuhs.com/account.html">
+  <meta property="twitter:title" content="My Account & Vault - TestforUHS">
+  <meta property="twitter:description"
+    content="Manage your saved missed questions, track subject progress, and export flashcards to Anki.">
+  <meta property="twitter:image" content="https://testforuhs.com/assets/logo.png">
+
+  <!-- Icons & CSS -->
+  <link rel="icon" type="image/png" href="assets/logo.png">
+  <link rel="apple-touch-icon" href="assets/logo.png">
   <link rel="stylesheet" href="style.css">
 
+  <!-- Google AdSense -->
   <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-4210272281940886"
-       crossorigin="anonymous"></script>
+    crossorigin="anonymous"></script>
 </head>
+
 <body>
   <div class="app-container">
 
     <!-- Top Navigation Bar -->
     <nav class="main-navbar">
       <div class="nav-links">
-        <a href="index.html" class="nav-item" data-i18n="nav_home">HOME</a>
-        <a href="about.html" class="nav-item" data-i18n="nav_about">ABOUT</a>
-        <a href="contact.html" class="nav-item" data-i18n="nav_contact">CONTACT US</a>
-        <a href="account.html" class="nav-item active" data-i18n="nav_account">MY ACCOUNT</a>
-        <button id="nav-donate-btn" class="nav-item" data-i18n="nav_donate" style="color: #f59e0b; font-weight: 700; background: none; border: none; cursor: pointer;">☕ Support Us</button>
+        <a href="/" class="nav-item" data-i18n="nav_home">HOME</a>
+        <a href="/about" class="nav-item" data-i18n="nav_about">ABOUT</a>
+        <a href="/contact" class="nav-item" data-i18n="nav_contact">CONTACT US</a>
+        <a href="/account" class="nav-item" data-i18n="nav_account">MY ACCOUNT</a>
+        <button id="nav-donate-btn" class="nav-item" data-i18n="nav_donate"
+          style="color: #f59e0b; font-weight: 700; background: none; border: none; cursor: pointer;">☕ Support
+          Us</button>
       </div>
       <div class="nav-controls" style="display: flex; gap: 0.5rem; align-items: center;">
         <select id="language-select" class="lang-select">
@@ -32,14 +60,56 @@
     </nav>
 
     <!-- My Account Screen -->
-    <div id="account-screen" class="screen">
-      <h2 data-i18n="account_title">My Account & Vault</h2>
+    <div id="account-screen" class="screen" style="max-width: 800px; margin: 0 auto;">
+      <h1 style="margin-bottom: 0.5rem;" data-i18n="account_title">My Account & Vault</h1>
+      <p style="color: var(--text-sub); margin-bottom: 1.5rem;" data-i18n="account_sub">Manage your preferences, saved
+        missed questions, and local study vault.</p>
 
-      <div class="account-toolbar">
-        <button id="toggle-select-mode-btn" class="btn secondary-btn">☑️ Select</button>
-        <div id="bulk-controls" class="hidden" style="display: flex; gap: 0.5rem; align-items: center; flex-wrap: wrap;">
-          <button id="select-all-btn" class="btn secondary-btn">Select All</button>
-          <button id="delete-selected-btn" class="btn danger-btn" disabled>🗑️ Delete Selected (0)</button>
+      <!-- 1. Quiz Preferences Card -->
+<div class="info-card" style="background: var(--bg-subcard); padding: 1.5rem; border-radius: 8px; border: 1px solid var(--border-sub); margin-bottom: 2rem;">
+  <h3 style="margin-top: 0; color: var(--text-main);" data-i18n="account_pref_title">⚙️ Quiz Preferences</h3>
+
+  <!-- Auto advance toggle -->
+  <div style="display: flex; justify-content: space-between; align-items: center; gap: 1rem; margin-top: 1rem;">
+    <div>
+      <h4 style="margin: 0; color: var(--text-main);" data-i18n="account_autoadv_title">Auto-advance in Quiz Mode</h4>
+      <p style="margin: 0.25rem 0 0 0; font-size: 0.85rem; color: var(--text-sub);" data-i18n="account_autoadv_desc">
+        Automatically move to the next question after selecting an option without having to click "Next Question".
+      </p>
+    </div>
+    <label class="switch">
+      <input type="checkbox" id="auto-advance-toggle">
+      <span class="slider"></span>
+    </label>
+  </div>
+
+  <!-- Review Layout Switcher -->
+  <div style="display: flex; justify-content: space-between; align-items: center; gap: 1rem; margin-top: 1.25rem; padding-top: 1.25rem; border-top: 1px solid var(--border-sub); flex-wrap: wrap;">
+    <div style="flex: 1; min-width: 200px;">
+      <h4 style="margin: 0; color: var(--text-main);" data-i18n="account_review_style_title">Result Review Display Style</h4>
+      <p style="margin: 0.25rem 0 0 0; font-size: 0.85rem; color: var(--text-sub);" data-i18n="account_review_style_desc">
+        Choose whether to display result reviews as a compact text summary or full study-style options.
+      </p>
+    </div>
+    <select id="review-style-select" class="lang-select" style="padding: 0.5rem 0.8rem; font-weight: 600;">
+      <option value="compact" data-i18n="option_style_compact">Compact (Text Summary)</option>
+      <option value="full" data-i18n="option_style_full">Full Options (Study Style)</option>
+    </select>
+  </div>
+</div>
+
+      <!-- 2. Missed Questions Vault Section -->
+      <div
+        style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 1rem; flex-wrap: wrap; gap: 0.5rem;">
+        <h3 style="margin: 0; color: var(--text-main);" data-i18n="account_vault_title">📦 Missed Questions Vault</h3>
+
+        <div class="account-toolbar" style="display: flex; gap: 0.5rem; align-items: center;">
+          <button id="toggle-select-mode-btn" class="btn secondary-btn" data-i18n="btn_select">☑️ Select</button>
+          <div id="bulk-controls" class="hidden"
+            style="display: flex; gap: 0.5rem; align-items: center; flex-wrap: wrap;">
+            <button id="select-all-btn" class="btn secondary-btn" data-i18n="btn_select_all">Select All</button>
+            <button id="delete-selected-btn" class="btn danger-btn" disabled>🗑️ Delete Selected (0)</button>
+          </div>
         </div>
       </div>
 
@@ -47,8 +117,10 @@
     </div>
 
     <!-- Site Footer -->
-    <footer class="main-footer" style="margin-top: 3rem; padding-top: 1.5rem; border-top: 1px solid var(--border-color); text-align: center; font-size: 0.85rem; color: var(--text-sub);">
-      <p>© 2026 TestforUHS. All rights reserved. | <a href="#" id="open-privacy-btn" style="color: var(--text-heading); text-decoration: underline;">Privacy Policy</a></p>
+    <footer class="main-footer"
+      style="margin-top: 3rem; padding-top: 1.5rem; border-top: 1px solid var(--border-color); text-align: center; font-size: 0.85rem; color: var(--text-sub);">
+      <p>© 2026 TestforUHS. All rights reserved. | <a href="#" id="open-privacy-btn"
+          style="color: var(--text-heading); text-decoration: underline;">Privacy Policy</a></p>
     </footer>
 
   </div>
@@ -56,11 +128,12 @@
   <!-- Bulk Delete Confirmation Modal -->
   <div id="delete-confirm-modal" class="modal-overlay hidden">
     <div class="modal-card">
-      <h3>⚠️ Are you sure?</h3>
-      <p id="delete-warning-text">Are you sure you want to delete these saved missed questions? This action cannot be undone.</p>
+      <h3 data-i18n="delete_modal_title">⚠️ Are you sure?</h3>
+      <p id="delete-warning-text" data-i18n="delete_modal_desc">Are you sure you want to delete these saved missed
+        questions? This action cannot be undone.</p>
       <div class="modal-actions">
         <button id="cancel-delete-btn" class="btn secondary-btn" data-i18n="btn_cancel">Cancel</button>
-        <button id="confirm-delete-btn" class="btn danger-btn">Yes, Delete</button>
+        <button id="confirm-delete-btn" class="btn danger-btn" data-i18n="btn_confirm_delete">Yes, Delete</button>
       </div>
     </div>
   </div>
@@ -68,42 +141,49 @@
   <!-- Anki Export Confirmation Modal -->
   <div id="anki-modal" class="modal-overlay hidden">
     <div class="modal-card">
-      <h3>📦 Export to Anki (.txt)</h3>
-      <p>How would you like to process these questions after downloading?</p>
+      <h3 data-i18n="anki_modal_title">📦 Export to Anki (.txt)</h3>
+      <p data-i18n="anki_modal_desc">How would you like to process these questions after downloading?</p>
       <div class="modal-actions" style="flex-direction: column; gap: 0.5rem;">
-        <button id="anki-keep-btn" class="btn primary-btn" style="width: 100%;">📥 Export & Keep in Vault</button>
-        <button id="anki-clear-btn" class="btn warning-btn" style="width: 100%;">🗑️ Export & Clear Subject Vault</button>
-        <button id="anki-cancel-btn" class="btn secondary-btn" style="width: 100%;" data-i18n="btn_cancel">Cancel</button>
+        <button id="anki-keep-btn" class="btn primary-btn" style="width: 100%;" data-i18n="btn_anki_keep">📥 Export & Keep
+          in Vault</button>
+        <button id="anki-clear-btn" class="btn warning-btn" style="width: 100%;" data-i18n="btn_anki_clear">🗑️ Export
+          & Clear Subject Vault</button>
+        <button id="anki-cancel-btn" class="btn secondary-btn" style="width: 100%;"
+          data-i18n="btn_cancel">Cancel</button>
       </div>
     </div>
   </div>
 
-  <!-- Shared Modals -->
+  <!-- Shared Modals (Donation & Privacy) -->
   <div id="donate-modal" class="modal-overlay hidden">
     <div class="modal-card donate-card-wide">
       <button id="close-donate-btn" class="modal-close-icon" aria-label="Close modal">&times;</button>
       <div class="donate-grid">
         <div class="donate-info">
-          <p class="donate-tagline" data-i18n="donate_tagline">Every little bit is greatly appreciated! Thank you for your support 😊</p>
+          <p class="donate-tagline" data-i18n="donate_tagline">Every little bit is greatly appreciated! Thank you for
+            your support 😊</p>
           <h3 class="donate-cta" data-i18n="donate_cta">You may donate through our KHQR here.</h3>
         </div>
         <div class="donate-qr-wrapper"><img src="assets/khqr.png" alt="KHQR Code" class="khqr-card-img"></div>
       </div>
       <div style="margin-top: 1.5rem; text-align: center;">
-        <button id="bottom-close-donate-btn" class="btn secondary-btn" style="width: 100%; max-width: 200px;" data-i18n="btn_close">Close</button>
+        <button id="bottom-close-donate-btn" class="btn secondary-btn" style="width: 100%; max-width: 200px;"
+          data-i18n="btn_close">Close</button>
       </div>
     </div>
   </div>
 
   <div id="privacy-modal" class="modal-overlay hidden">
-    <div class="modal-card" style="max-width: 600px; text-align: left; max-height: 80vh; overflow-y: auto; position: relative; padding: 2.5rem 1.5rem 1.5rem 1.5rem;">
+    <div class="modal-card"
+      style="max-width: 600px; text-align: left; max-height: 80vh; overflow-y: auto; position: relative; padding: 2.5rem 1.5rem 1.5rem 1.5rem;">
       <button id="close-privacy-btn" class="modal-close-icon" aria-label="Close modal">&times;</button>
       <h3 style="margin-bottom: 1rem; color: var(--text-main);">Privacy Policy</h3>
       <div style="font-size: 0.85rem; line-height: 1.6; color: var(--text-sub);">
         <p>At <strong>TestforUHS</strong>, visitor privacy is one of our main priorities.</p>
       </div>
       <div style="margin-top: 1.5rem; text-align: center;">
-        <button id="bottom-close-privacy-btn" class="btn secondary-btn" style="width: 100%; max-width: 200px;" data-i18n="btn_close">Close</button>
+        <button id="bottom-close-privacy-btn" class="btn secondary-btn" style="width: 100%; max-width: 200px;"
+          data-i18n="btn_close">Close</button>
       </div>
     </div>
   </div>
@@ -111,4 +191,5 @@
   <script src="shared.js"></script>
   <script src="account.js"></script>
 </body>
+
 </html>

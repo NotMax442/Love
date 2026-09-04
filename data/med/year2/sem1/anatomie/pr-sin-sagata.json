@@ -1,0 +1,124 @@
+{
+  "questions": [
+    {
+      "id": 1,
+      "question": "ការលើកឡើងដូចតទៅ វាគឺមានការទាក់ទងទៅនឹង les péritoines។ វាមានចម្លើយត្រឹមត្រូវមួយប៉ុណ្ណោះ ៖",
+      "options": [
+        "La muqueuse du tube digestif មិនអាចមាន ជួនកាល វាមាន Un rôle de sécrétion និងជួន កាល វាមាន Un rôle d'absorption ទៅតាមផ្នែកនីមួយៗ digestif",
+        "Le péritoine viséral បង្កើតជា La couche externe ou séreuse របស់ Les parois du tube",
+        "La partie cervicale du tube digestif មិនឃើញមាន Sa couche séreuse",
+        "Les mésos គឺមិនបត់បង្កើតឡើងដោយ Deux feuillets de péritoine ដែលរួមគ្នារវាង Le péritoine pariétal ទៅនឹង Le péritoine viscéral",
+        "Les épiploons (ou omentum) គឺមិនបត់បង្កើតឡើងដោយ Deux feuillets ដែលលាតសន្ធឹង ចន្លោះ Deux organes intra-abdominaux"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 2,
+      "question": "គេលើកឡើងពី Le développement du péritoine វាមានចម្លើយត្រឹមត្រូវតែមួយប៉ុណ្ណោះ ៖",
+      "options": [
+        "Les mésodermes somatiques et splanchiques គឺទាក់ទងទៅនឹង Une cavité cœlomique",
+        "Le mésodorsal ឱ្យជា Le péritoine pariétal",
+        "Le mésoderme somatique ឱ្យជា Le feuillet viscéral des membranes séreuses",
+        "ការវិវត្តន៍របស់ Le mésoderme splanchnique បន្តមកពីការវិវត្តន៍ Le tube digestif",
+        "Les cavités cœlomiques នឹងចែកបន្តមកទៀតជា La cavité pleurales, Péricardiques និង Péritonéales"
+      ],
+      "correctIndex": 3
+    },
+    {
+      "id": 3,
+      "question": "ការលើកឡើងដូចតទៅ វាទាក់ទងនឹង Les péritoines ៖",
+      "options": [
+        "Le mésocôlon transverse ផ្ទុកនូវ Les branches de l'artère mésentérique inférieure",
+        "Le mésocôlon transverse ផ្ទុកនូវ Les branches de l'artère mésentérique supérieure",
+        "Le mésocôlon transverseគឺ Fixe",
+        "La racine du mésocôlon transverse គឺ Verticale",
+        "Le mésocôlon transverse បង្កើតពី Un double feuillet péritonéal"
+      ],
+      "correctIndex": 4
+    },
+    {
+      "id": 4,
+      "question": "ការលើកឡើងដូចតទៅ វាទាក់ទងទៅនឹង Les péritoines ៖",
+      "options": [
+        "Le mésocôlon transverse មាន Un feuillet de péritoine",
+        "Le mésentère ភ្ជាប់ទៅនឹង Le périoine pariétal postérieur",
+        "Le mésocôlon transverse គឺ Fixe",
+        "Le mésocôlon ascendant គឺ Mobile",
+        "Le côlon sigmoïde ភ្ជាប់ទៅនឹង La paroi postérieure ដោយសារ Le mésentère"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 5,
+      "question": "ការលើកឡើងដូចតទៅ វាទាក់ទងនឹង La cavité péritonéale ៖",
+      "options": [
+        "Les mésos ភ្ជាប់ Le tube digestif ទៅនឹង Le péritoine viscéral",
+        "La grande cavité péritonéale គឺញែកចេញជា Les régions sushépatique, Supramésocolique, Inframésocolique និង Pelvienne ដោយសារ Le grand omentum",
+        "គេហៅថាការស្អិតរវាង Le péritoine pariétal និង Le péritoine viscéral",
+        "គេហៅថា Les récessus ចំពោះ Les diverticules និង Les culs-de-sacs physiologiques péritonéaux",
+        "នៅខាងក្នុង La cavité péritonéale មានជាស្រេចនូវ Un espace virtuel ដែលជាផ្នែក ខាងក្រោមបំផុតគឺ Le récessus recto-vésical ចំពោះស្រី"
+      ],
+      "correctIndex": 3
+    },
+    {
+      "id": 6,
+      "question": "ការលើកឡើងគឺទាក់ទងនឹង Les péritoines ៖",
+      "options": [
+        "La zone dépéritonisée ទៅនឹង La partie postérieure du foie វាមានឈ្មោះថា L'area nuda",
+        "La bourse omentale មិនមែនជា Une cavité ដែលស្ថិតនៅខាងក្រោយន L'estomac ទេ",
+        "L'artère mésentérique supérieure មិនមានដំណើរនៅក្នុង La racine du mésentère 19",
+        "L'estomac ស្ថិតក្នុង Le rétropéritoine",
+        "Le ligament falciforme du foie គឺហៅថា Le ligament de la veine cave"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 7,
+      "question": "Le péritoine pariétal បង្ហាញ ៖",
+      "options": [
+        "Une partie antérieure ដែលសម្គាល់ដោយសារ Le pli ombilical médian",
+        "Une partie postérieure ដែលសម្គាល់ដោយសារ Deux plis ombilicaux ហើយវា លើកឡើងលើដោយសារ Les ligaments ombilicaux médiaux",
+        "Les ligaments ombilicaux médiaux គឺមិនមែនជា Les vestiges des artères ombilicales",
+        "Une partie antérieure ក្រាលពាស Les reins និង Le pancréas",
+        "Une partie latérale ក្រាលពាស Les reins និង Le pancréas"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 8,
+      "question": "ការលើកឡើងតែមួយប៉ុណ្ណោះដែលត្រឹមត្រូវ ៖",
+      "options": [
+        "La cavité péritonéale គឺអាចកើតមាន",
+        "ចំពោះមនុស្សប្រុសក្នុងស្ថានភាពឈរ Le point déclive de la cavité péritonéale គឺមិនមែន ជា Le cul-de-sac recto-vésical 19",
+        "ចំពោះមនុស្សប្រុសក៏ដូចមនុស្សស្រីដែរ La cavité péritonéale គឺបិទជិត",
+        "Le péritoine មិនរ៉ាប់រង La résorption des liquides intra-péritonéaux 19",
+        "Le péritoine មិនមានមុខងារទ្រទ្រង់ទេ"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 9,
+      "question": "ព្រំដែនកំណត់នៃ La bourse omentale ៖",
+      "options": [
+        "Le mésocôlon transverse នៅខាងក្រោម",
+        "La face antérieurse de l'estomac នៅខាងមុខ",
+        "La face postérieure de l'estomac ក្របដណ្តប់ដោយសារ Le péritoine នៅខាង ក្រោយ",
+        "Le corps du pancréas គ្របដណ្តប់ដោយសារ Le péritoine នៅខាងមុខ",
+        "La face antérieure de l'estomac នៅចំហៀង"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 10,
+      "question": "La grande cavité péritonéal ៖",
+      "options": [
+        "គឺបែងចែកជា Deux régions: supra (sus) និង Infra (sous)-mésocôliques",
+        "នៅក្នុង La région supra-mésocôlique វាបង្ហាញនូវ Le ligament gastro-spléniques",
+        "នៅក្នុង La région supra-mésocôlique វាផ្ទុកនូវ Les anses grêles",
+        "នៅក្នុង La région infra-mésocôlique វាបង្ហាញនូវ Le petit omentum",
+        "ការបែងចែករវាង Les régions supra និង Infra-mésocôliques គឺអាចកើតមាននិងមិនត្រឹមត្រូវនៅត្រង់ La plan ombilical ៖"
+      ],
+      "correctIndex": 1
+    }
+  ]
+}

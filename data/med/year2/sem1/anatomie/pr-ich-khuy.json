@@ -1,0 +1,735 @@
+{
+  "questions": [
+    {
+      "id": 1,
+      "question": "A propos de l'articulation sterno-costo-claviculaire, on peut dire:",
+      "options": [
+        "Elle a un ménisque,",
+        "Elle a 3 ligaments,",
+        "Elle a 2 surfaces articulaires,",
+        "Elle a une synoviale,",
+        "Elle effectue de movement de rotation de l'épaule."
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 2,
+      "question": "A propos de l'articulation Acromio-claviculaire, on peut dire:",
+      "options": [
+        "Elle a toujours un ménisque",
+        "Elle a 2 groupes de ligament",
+        "Ligament Coraco-claviculaire renforce la capsule,",
+        "Ligament Trapézoïde appartient au ligament Acromio-claviculaire,",
+        "Il est un énarthrose."
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 3,
+      "question": "Concernant le complexe articulaire de l'épaule, le bourrelet s'insère:",
+      "options": [
+        "Au pourtour du col huméral,",
+        "Autour de la surface articulaire de l'accromion,",
+        "Autour de la surface articulaire de la clavicule,",
+        "Au pourtour de la cavité glénoidal,",
+        "Autour de la surface articulaire de la tête humérale."
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 4,
+      "question": "Angle inclinaison du col de l'humérus est de :",
+      "options": [
+        "110 degrés,",
+        "120 degrés,",
+        "130 degrés,",
+        "140 degrés,",
+        "150 degrés."
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 5,
+      "question": "A propos de ligament de l'articulation scapula-humérale, on peut dire :",
+      "options": [
+        "Ligament coraco-glénoïdal est un ligament actif,",
+        "Ligament coraco-glénoïdal se termine par 2 ligaments sur le même tubercule mineur,",
+        "Ligament coraco-glénoïdal se termine sur le bord supérieur de la cavité glénoïdale,",
+        "Ligament gléno-huméral supérieur prend origine à la partie inférieure de la cavité glénoïdale,",
+        "Ligament gléno-huméral supérieur se termine au dessous du tubercule mineur."
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 6,
+      "question": "A propos de ligament Gléno- humeral inférieur, il prend son origine :",
+      "options": [
+        "Au bord antérieur de la cavité glénoïdale,",
+        "Au bord supérieur de la cavité glénoïdale,",
+        "Au bord postérieur de la cavité glénoïdale,",
+        "Au bord inférieur de la cavité glénoïdale,",
+        "Au bord latéral de la cavité glénoïdale."
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 7,
+      "question": "Concernant l'articulation Gléno-humérale, le tendon Biceps brachial se trouve :",
+      "options": [
+        "En bas de la cavité glénoïdale, à sa face périphérique,",
+        "Médial de la cavité glénoïdale, au niveau de l'insertion du bourrelet à la capsule,",
+        "Latéral de la cavité, à sa face périphérique,",
+        "En haut de la cavité glénoïdale, au niveau de l'insertion du Bourrelet à la capsule,",
+        "En haut de la cavité glénoïdale sur le col de l'Omoplate."
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 8,
+      "question": "Concernant l'articulation Gléno-humérale, le tendon triceps brachial se trouve :",
+      "options": [
+        "En bas de la cavité glénoïdale, au niveau de l'insertion du bourrelet à la capsule,",
+        "Médial de la cavité glénoïdale, au niveau de l'insertion du bourrelet à la capsule,",
+        "Latéral de la cavité à sa face périphérique,",
+        "En haut de la cavité glénoïdale, au niveau de l'insertion du bourrelet à la capsule,",
+        "En bas de la cavité glénoïdale, sur le tubercule sous-glénoïdal."
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 9,
+      "question": "Concernant l'articulation Gléno-humérale, les ligaments actifs sont au nombre de :",
+      "options": [
+        "2, le sus-épineux et le sous-épineux,",
+        "3, le sus-épineux, le sous-épineux et le petit rond,",
+        "4, le sus-épineux, le sous-épineux, le petit rond et le grand rond,",
+        "4, le sus-épineux, le sous-épineux, le petit rond et le souscapulaire,",
+        "3, le sus-épineux, le sous-épineux et le souscapulaire."
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 10,
+      "question": "Concernant la physiologie articulaire de l'articulation de l'épaule, l'amplitude du mouvement dans le plan horizontal est :",
+      "options": [
+        "140 degrés en antépulsion et adduction antérieure, 30 degrés, rétropulsion et adduction postérieure,",
+        "100 degrés en antépulsion et adduction antérieure, 60 degrés rétropulsion et adduction postérieure,",
+        "130 degrés en antépulsion et adduction antérieure, 50 degrés rétropulsion et adduction postérieure,",
+        "140 degrés en antépulsion et adduction antérieure, 45 degrés rétropulsion et adduction postérieure,",
+        "100 degrés en antépulsion et adduction antérieure, 30 degrés rétropulsion et adduction postérieure."
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 11,
+      "question": "Concernant les muscles du bras, il y a:",
+      "options": [
+        "2 groups musculaies, 1 groupe antérieur et 1 groupe postérieur,",
+        "3 groupes musculaires, 1 groupe antérieur, 1groupe postérieur et 1groupe interne,",
+        "4 groupes musculaires, 1groupe antérieur, 1 groupe postérieur, Igroupe interne, 1 groupe externe,",
+        "4 proupes musculaires, 2 groupes antéreurs, 1 groupe postérieur, 1 groupe interne,",
+        "3 groupes musculaires, 2 groupes antérieurs, 1 groupe postérieur."
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 12,
+      "question": "Concernant les muscles du bras, le coracobrachial est un muscle",
+      "options": [
+        "Du plan superficiel du groupe musculaire antérieur,",
+        "Du plan profond du groupe musculaire antérieur,",
+        "Du plan profond du groupe musculaire postérieur,",
+        "Du plan superficiel du groupe musculaire postérieur,",
+        "Du groupe musculaire interne."
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 13,
+      "question": "Concernant les muscles du bras, le brachial antérieur est un muscle :",
+      "options": [
+        "Du plan superficiel du groupe musculaire antérieur,",
+        "Du plan superficiel du groupe musculaire postérieur,",
+        "Du plan profond du groupe musculaire antérieur,",
+        "Du plan profond du groupe musculaire postérieur,",
+        "Du groupe musculaire interne."
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 14,
+      "question": "Concernant les muscles du bras, le Biceps brachial est un muscle",
+      "options": [
+        "Du plan superficiel du groupe musculaire antérieur,",
+        "Du plan profond du groupe musculaire postérieur,",
+        "Du plan profond du groupe musculaire antérieur,",
+        "Du groupe musculaire interne."
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 15,
+      "question": "Concernant les muscles du bras, le triceps est un muscle:",
+      "options": [
+        "Du plan superficiel du groupe musculaire antérieur,",
+        "Du plan profond du groupe musculaire antérieur,",
+        "Du plan superficiel du groupe musculaire postérieur,",
+        "Du groupe musculaire interne,",
+        "Du groupe musculaire postérieur."
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 16,
+      "question": "Concernant l'innervation des muscles du bras, on peut dire:",
+      "options": [
+        "Le triceps brachial est innervé par le nerf Radial,",
+        "Le Biceps brachial est innervé le nerf Radial,",
+        "Le coracobrachial est innervé par le nerf Radial,",
+        "Le brachial antérieur est innervé par le nerf Radial,",
+        "Le triceps brachial est innervé par le nerf Ulnar."
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 17,
+      "question": "Concernant l'innervation des muscles du bras, on peut dire:",
+      "options": [
+        "Le triceps brachial est innervé par le nerf Ulnar,",
+        "Le Coracobrachial est innervé par le nerf musculo-cutané,",
+        "Le Biceps brachial est innervé par le nerf Ulnar,",
+        "Le Brachial antérieur est innervé par le nerf Ulnar,",
+        "Le Biceps brachial est innervé par le nerf Radial."
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 18,
+      "question": "Concernant l'innervation des muscles du bras, on peut dire:",
+      "options": [
+        "Le triceps est innervé par le nerf Musculo-cutané,",
+        "Le coracobrachial est innervé le nerf ulnar,",
+        "Le Biceps brachial est innervé par le nerf Musculo-cutané,",
+        "Le Brachial antérieur est innervé par le nerf radial,",
+        "Le coraco-brachial est innervé par le nerf Radial."
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 19,
+      "question": "Concernant l'action des muscles du bras, on peut dire:",
+      "options": [
+        "Le triceps est le flechisseur de l'avant bras sur le bras,",
+        "Le Biceps est l'extenseur de l'avant bras sur le bras.",
+        "Le Brachial antérieur est le flechisseur de l'avant bras sur le bras,",
+        "Le Coracobrachial est l'extenseur de l'avant bras sur le bras,",
+        "Le Brachial antérieur est le supinateur."
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 20,
+      "question": "Concernant l'action des muscles du bras, on peut dire:",
+      "options": [
+        "Le triceps est le supinateur,",
+        "Le brachial antérieur est un supinateur,",
+        "Le coracobrachial est un supinateur,",
+        "Le brachial antérieur est l'extenseur de l'avant bras sur le bras,",
+        "Le biceps brachial est le supinateur."
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 21,
+      "question": "Concernant l'action des muscles du bras, on peut dire:",
+      "options": [
+        "Le triceps est un extenseur de l'avant bras sur le bras,",
+        "Le biceps est un extenseur de l'avantbras sur le bras,",
+        "Le coraco-brachial est un extenseur de l'avant bras sur le bras,",
+        "Le Brachial antérieur est un extenseur de lávant bras sur le bras,",
+        "Le brachial antérieur est un supinateur."
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 22,
+      "question": "Les muscles qui s'insèrent sur l'épicondyle latéral de l'humérus sauf une laquelle ?",
+      "options": [
+        "Le muscle court extenseur radial du carpe.",
+        "Le muscle extenseur des doigts.",
+        "Le muscle fléchisseur radial du carpe.",
+        "Le muscle anconé.",
+        "Le muscle extenseur du petit doigt."
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 23,
+      "question": "Le muscle fléchisseur ulnaire du carpe:",
+      "options": [
+        "Est abducteur de la main.",
+        "Est fléchisseur et adducteur de la main.",
+        "Est fléchisseur de l'avant-bras lorsque celui-ci est en position fonctionnelle.",
+        "Est tenseur de l'aponévrose palmaire.",
+        "Est supinateur de l'avant-bras."
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 24,
+      "question": "Quel est le muscle qui s'insère sur l'épicondyle médial de l'humérus ?",
+      "options": [
+        "Le muscle rond pronateur.",
+        "Le muscle extenseur des doigts.",
+        "Le muscle long fléchisseur du pouce.",
+        "Le muscle court extenseur radial du carpe.",
+        "Le muscle court extenseur du pouce."
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 25,
+      "question": "Le nerf radial innerve les muscles sauf un laquelle ?",
+      "options": [
+        "Anconé.",
+        "Long extenseur du pouce.",
+        "Court extenseur radial du carpe.",
+        "Carré pronateur.",
+        "Extenseur des doigts."
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 26,
+      "question": "Le nerf median innerve:",
+      "options": [
+        "Le muscle fléchisseur ulnaire du carpe.",
+        "Le muscle supinateur.",
+        "Le muscle long extenseur radial du carpe.",
+        "Le muscle exrenseur de l'index.",
+        "Le muscle rond pronateur."
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 27,
+      "question": "Le nerf ulnaire innerve les muscles:",
+      "options": [
+        "Extenseur ulnaire du carpe.",
+        "Fléchisseur profond des doigts.",
+        "Fléchisseur superficiel des doigts.",
+        "Extenseur des doigts.",
+        "Long extenseur radial du carpe."
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 28,
+      "question": "Le muscle fléchisseur superficiel des doigts:",
+      "options": [
+        "Est innerve par le nerf médian et ulnaire.",
+        "Le chef huméro-ulnaire nait du bord antérieur de l'humérus.",
+        "Est innerve par le nerf médian.",
+        "Se termine sur les phalanges distales des doigts II à V.",
+        "Se termine sur les phalanges proximales des doigts II à V."
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 29,
+      "question": "A propos des muscles de l'avant bras:",
+      "options": [
+        "Les tendons du muscle fléchisseur surperficiel des doigts passent sous le retinaculum des fléchisseurs,",
+        "Le muscle long palmaire se termine par un large tendon qui s'étale,",
+        "Le muscle rond pronateur est principalement supinateur de l'avant bras,",
+        "Le muscle brachio-radial est extenseur de l'avant bras,",
+        "Le chef ulnaire du muscle rond pronateur est plus volumineux que le chef humérale."
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 30,
+      "question": "La face antérieure de la diaphyse du radius donne insertion :",
+      "options": [
+        "Sur sa face antérieure, au muscle court extenseur du pouce,",
+        "Sur sa tubérosité radiale, au muscle triceps brachial,",
+        "Sur sa face antérieure, au muscle carré pronateur,",
+        "Sur sa face antérieure, au muscle long abducteur du Pouce,",
+        "Sur son bord antérieur, au muscle fléchisseur profond des doigts."
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 31,
+      "question": "Le muscle extenseur ulnaire du carpe s'insère sur:",
+      "options": [
+        "L'épicondyle medial,",
+        "L'épicondyle lateral,",
+        "Membrane interosseux,",
+        "Le col du radius,",
+        "Le métacarpien."
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 32,
+      "question": "L'articulation du coude: toutes les propositions suivante sont exactes, sauf une, laquelle?",
+      "options": [
+        "L'articulation huméro-ulnaire est une ginglyme,",
+        "La tête radiale est en segment de cylindre imparfait,",
+        "La tête radiale est plus haute latéralement,",
+        "Le muscle anconé est un muscle extenseur stabilisateur,",
+        "Le ligament carré s'insère sur le bord inférieur de l'incisure radial."
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 33,
+      "question": "La circonférence articulaire de la tête radiale:",
+      "options": [
+        "Hauteur latérale plus grand que médiale,",
+        "S'articule avec l'incisure trochléaire de l'extrémité proximale de l'ulna,",
+        "Répond au capitulum de l'extrémité inferieure de l'humérus,",
+        "S'articule avec le ligament annulaire du radius,",
+        "Donne insertion au muscle supinateur."
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 34,
+      "question": "L'articulation radio-ulnaire proximale :",
+      "options": [
+        "Est de type ginglyme.",
+        "Est de type sphéroïde.",
+        "Est de type trochoide.",
+        "Possède une cavité articulaire indépendante des articulations huméro-ulnaire et huméro-radiale.",
+        "Intervient dans les mouvements de flexion-extension du coude."
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 35,
+      "question": "L'articulation du coude:",
+      "options": [
+        "Présente une flexion active de 1400,",
+        "Est fléchie grâce au muscle triceps brachial,",
+        "Présente un cubitus varus physiologique.",
+        "Présente comme position de fonction, l'extension de l'avant-bras.",
+        "Possède un degré de liberté."
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 36,
+      "question": "La position de fonction du coude est :",
+      "options": [
+        "L'extension complète de l'avant-bras.",
+        "La flexion complète de l'avant-bras.",
+        "La flexion à 900 de l'avant-bras en pronation complète.",
+        "La flexion à 900 de l'avant-bras en pronation de 200 environ.",
+        "La flexion à 900 de l'avant-bras en supination complète."
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 37,
+      "question": "Quelle sont les bourses synoviales péri-articulaire du coude:",
+      "options": [
+        "La bourse bicipito-radiale postérieur.",
+        "La bourse intra-tendineuse du muscle biceps brachial.",
+        "La bourse sous cutanée retro-trochléaire.",
+        "La bourse sous cutanée olécranienne.",
+        "Toutes les propositions sont exactes."
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 38,
+      "question": "Le ligament collatéral ulnaire du coude:",
+      "options": [
+        "A un faisceau antérieur allant de l'épicondyle médial au bord médial du processus coronoïde.",
+        "A un faisceau postérieur allant de l'épicondyle médial au bord médial de l'olécrane.",
+        "A un faisceau arciforme allant du tubercule coronoïde à la base de l'olécrane.",
+        "A un faisceau moyen allant de l'épicondyle médial au tubercule coronoïde.",
+        "Toutes les propositions sont exactes."
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 39,
+      "question": "Concernant les surfaces articulaires du coude:",
+      "options": [
+        "Le versant latéral de la trochlée humérale est plus large que le versant médial.",
+        "La fossette articulaire de la tête radiale répond au capitulum en bas et à la zone capitulo-trochléaire médialement.",
+        "Le capitulum est médial à la trochlée.",
+        "L'incisure radiale se trouve à la face médiale du processus coronoïde.",
+        "En extension, les épicondyles et olécrane forment, vus de dos, un triangle isocèle."
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 40,
+      "question": "Concernant l'articulation du coude: toutes les propositions suivantes sont exactes, sauf une, laquelle?,",
+      "options": [
+        "L'articulation huméro-ulnaire est une ginglyme,",
+        "L'articulation radio-ulnaire proximale est une trochoïde,",
+        "L'articulation huméro-radiale est une articulation sphéroïde,",
+        "Le ligament annulaire du radius s'insère sur le col du radius,",
+        "Le ligament collatéral radial s'étend de l'épicondyle latéral au bord latéral de l'incisure trochléaire."
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 41,
+      "question": "Concernant la mécanique articulaire du coude: toutes les propositions suivante sont exactes, sauf une, laquelle ?,",
+      "options": [
+        "L'extension est limitée à 00,",
+        "Le muscle brachial est uniquement fléchisseur du coude,",
+        "Le muscle biceps brachial est uniquement fléchisseur du coude,",
+        "Le muscle triceps brachial est extenseur du coude,",
+        "La rotation externe de la tête du radius est assurée par le muscle supinateuret le muscle biceps brachial."
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 42,
+      "question": "Concernant l'artère du membre supérieur, Elle prend l'origine de:",
+      "options": [
+        "Artère brachiale,",
+        "Artère Axillaire,",
+        "Artère de l'arcade palmaire,",
+        "Artère Radiale,",
+        "Artère ulnaire."
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 43,
+      "question": "Concernant l'artère du membre supérieur, Artère brachiale termine:",
+      "options": [
+        "Au bord supérieur du petit palmer,",
+        "Au bord inférieur du grand palmer,",
+        "Au bord supérieur du rond pronateur,",
+        "Au bord inférieur du court supinateur,",
+        "Au bord supérieur du long supinateur."
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 44,
+      "question": "Artère brachiale dans son chemin est accompagné par 2 nerfs qui sont :",
+      "options": [
+        "Nerf Médian et nerf Ulnar,",
+        "Nerf Médian et nerf Radial,",
+        "Nerf Ulnar et nerf Radial,",
+        "Nerf musculo-cutané et nerf Ulnar,",
+        "Nerf musculo-cutané et nerf Radial."
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 45,
+      "question": "Artère Radiale prend son origine au niveau :",
+      "options": [
+        "Plie du coude,",
+        "1cm au dessous de la plie du coude,",
+        "2cm au dessous du plié du coude,",
+        "3cm au dessous du plié du coude,",
+        "4cm au dessous du plié du coude."
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 46,
+      "question": "Au niveau de la main artère radiale gagne la paume par:",
+      "options": [
+        "1ère espace intermétacarpien,",
+        "2 ème espace intermétacarpien,",
+        "3ème espace intermétacarpien,",
+        "4ème espace intermétacarpien,",
+        "5ème espace intermétacarpien."
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 47,
+      "question": "Artère cubitale prend son origine au niveau:",
+      "options": [
+        "Plie du coude,",
+        "1cm au dessous du plié du coude,",
+        "2 cm au dessous du plié du coude,",
+        "3 cm au dessous du plié du coude,",
+        "4 cm au dessous du plié du coude."
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 48,
+      "question": "Concernant artère cubitale, on peut dire:",
+      "options": [
+        "Il a 3 segments,",
+        "Il descend jusqu'á bord supérieur du scaphoïde,",
+        "Il fait suite de l'artère Radiale,",
+        "Il passé à travers la gouttière du poul,",
+        "Le tronc des interosseuses est sa branche de bifurcation."
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 49,
+      "question": "Artère Interosseuse est:",
+      "options": [
+        "La branche antérieure du tronc interosseuse,",
+        "La branche postérieure de l'artère brachiale,",
+        "La branche latérale de l'artère Radiale,",
+        "La branche médiale de l'artère Cubitale,",
+        "La branche postérieure du tronc récurrence cubitale."
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 50,
+      "question": "Les veines du membre supérieur, on peut dire:",
+      "options": [
+        "Le réseau superficiel est la veine satellite de l'artère,",
+        "La veine céphalique se jette dans veine axillaire,",
+        "La veine basilique est la veine latérale de l'avant bras,",
+        "La veine céphalique est la veine profonde,",
+        "La veine brachiale est la veine superficielle du membre supérieur"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 51,
+      "question": "Concernant le rapport de l'artère radiale, au niveau de l'avant bras, le muscle en dehors est:",
+      "options": [
+        "Le court supinateur,",
+        "Le rond pronateur,",
+        "Le long supinateur,",
+        "Le carré pronateur,",
+        "Le Fléchisseur commun superficiel des doigts."
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 52,
+      "question": "Le plexus brachial prend l'origine de la branche antérieure de la racine:",
+      "options": [
+        "C3C4C5C6C7,",
+        "C4C5C6C7C8,",
+        "C5C6C7C8T1,",
+        "C6C7C8T1T2,",
+        "C2C3C4C5C6."
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 53,
+      "question": "Concernant le tronc primaire du plexus brachial, Le tronc moyen est formé par:",
+      "options": [
+        "C5,",
+        "C5C6,",
+        "C6,",
+        "C6C7,",
+        "C7."
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 54,
+      "question": "Concernant le tronc primaire du plexus brachial, le tronc supérieur est formé par:",
+      "options": [
+        "C5,",
+        "C5C6,",
+        "C6,",
+        "C7 T1,",
+        "T1."
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 55,
+      "question": "Concernant le tronc primaire du plexus brachial, le tronc inférieur est formé par :",
+      "options": [
+        "C5,",
+        "C5C6,",
+        "C7,",
+        "C7T1,",
+        "T1."
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 56,
+      "question": "Concernant le tronc secondaire du plexus brachial, le faisceau latérale est formé par:",
+      "options": [
+        "Branche antérieure du tronc supérieur,",
+        "Branche antérieure du tronc supérieur et moyen,",
+        "Branche antérieure du tronc moyen,",
+        "Branche antérieur du tronc moyen et tronc inférieur,",
+        "Branche antérieure du tronc inférieur."
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 57,
+      "question": "Concernant le tronc secondaire du plexus brachial, le faisceau médial est formé par:",
+      "options": [
+        "Branche antérieure du tronc supérieur,",
+        "Branche antérieure du tronc supérieur et moyen,",
+        "Branche antérieure du tronc moyen,",
+        "Branche antérieure du tronc moyen et inférieur,",
+        "Branche antérieure du tronc inférieur."
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 58,
+      "question": "Concernant le tronc secondaire du plexus brachial, le faisceau postérieur est formé par:",
+      "options": [
+        "Branche postérieure du tronc supérieur,",
+        "Branche postérieure du tronc moyen,",
+        "Branche postérieur du tronc supérieur et branche postérieure du tronc moyen,",
+        "Branche postérieure du tronc inférieur,",
+        "Branche postérieure des 3 trounces."
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 59,
+      "question": "Concernant les branches terminales du plexus brachial, le faisceau latéral donne:",
+      "options": [
+        "Nerf Musculo-cutané et racine latérale du nerf médian,",
+        "Nerf median et Ulnar,",
+        "Nerf médian et nerf Axillaire,",
+        "Nerf Axillaire et nerf Radial,",
+        "Nerf Ulna et racine médial du nerf médian."
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 60,
+      "question": "A propos du nerf Radial, on peut dire:",
+      "options": [
+        "Il est un nerf moteur,",
+        "Il prend origine du faisceau médial du tronc secondaire du plexus brachial,",
+        "Il innerve le long supinateur,",
+        "Il est accompagné par l'artère humérale superficielle au niveau du bras,",
+        "Il passe vers la loge postérieure à 10 cm de l'épicondyle latérale."
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 61,
+      "question": "A propos du nerf Ulnaire, on peut dire:",
+      "options": [
+        "Il prend l'origine du faisceau latéral du tronc secondaire du plexus brachial,",
+        "Il passe en avant du petit pectoral,",
+        "Au niveau du poignet, il passe à travers le canal carpien,",
+        "Il innerve les muscles de l'éminence hypothénar,",
+        "Il est extenseur du pouce."
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

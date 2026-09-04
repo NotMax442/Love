@@ -1,0 +1,244 @@
+{
+  "questions": [
+    {
+      "id": 1,
+      "question": "Le muscle principal de la région fessière est :",
+      "options": [
+        "Grand fessier",
+        "Petit fessier",
+        "Moyen fessier",
+        "Pyramidal du bassin",
+        "Jumeaux"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 2,
+      "question": "តើសាច់ដុំណាខ្លះដែលមាន Action abducteur de la cuisse ?",
+      "options": [
+        "Le muscle petit fessier",
+        "Le muscle moyen fessier",
+        "Obturateur externe",
+        "Les jumeaux",
+        "Le pyramidal, les jumeaux, muscle moyen fessier, muscle petite fessier"
+      ],
+      "correctIndex": 4
+    },
+    {
+      "id": 3,
+      "question": "Les muscles pelvi-trochantériens ci-dessous, le quel est situé le plus supérieur?",
+      "options": [
+        "Jumeaux",
+        "Obturateur interne",
+        "Obturateur externe",
+        "Pisiforme",
+        "Carré crural"
+      ],
+      "correctIndex": 3
+    },
+    {
+      "id": 4,
+      "question": "pédicule supérieur et pédicule inférieur des vaisseaux fessiers ត្រូវបានខណ្ឌចែកដោយសាច់ដុំអ្វី?",
+      "options": [
+        "les jumeaux",
+        "carré crural",
+        "le pyramidal (Pisiforme)",
+        "obturateur externe",
+        "obturateur interne"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 5,
+      "question": "Les pédicules vasculo-nerveux de la région lutéale situent:",
+      "options": [
+        "Sous cutané",
+        "Sous le muscle petit fessier",
+        "Sous le muscle grand fessier",
+        "Sus le muscle grand fessier",
+        "Sous le muscle moyen fessier"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 6,
+      "question": "L'insertion du Moyen fessier est:",
+      "options": [
+        "Sur les 3/4 antérieur de la crête iliaque & sur la fosse iliaque ext. (entre les 2 lignes 1/2 circulaires)",
+        "Sur postérieur de la crête iliaque",
+        "Sur colonne sacro-coccygienne",
+        "Sur le grand trochanter",
+        "Sur toute la crête iliaque"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 7,
+      "question": "Le nerf grand sciatique est placé:",
+      "options": [
+        "En dedans de l'artère fessière inférieure",
+        "En dehors de l'artère fessière inférieure et sous le muscle Pisiforme",
+        "Au-dessous de l'artère fessière inférieure",
+        "Au-dessus de l'artère fessière inférieure",
+        "En dedans et au-dessous de de l'artère fessière inférieure"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 8,
+      "question": "Quels sont les muscles du plan profond de la région fessière?",
+      "options": [
+        "Grand fessier",
+        "Moyen fessier",
+        "Petit fessier et pelvi-trochantériens",
+        "Carré crural",
+        "Ischio-jambier"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 9,
+      "question": "Dans l'opération de la région fessière, il faut faire attention au nerf:",
+      "options": [
+        "Glutéal supérieur",
+        "Glutéal inférieur",
+        "Honteux",
+        "Sciatique",
+        "Cutané supérieur de la cuisse"
+      ],
+      "correctIndex": 3
+    },
+    {
+      "id": 10,
+      "question": "Les actions du muscle grand fessier ci-dessous le quel est le plus important ?",
+      "options": [
+        "Stabilité de la station de debout",
+        "Stabilité de la hanche.",
+        "Extenseur de la hanche.",
+        "Rotateur latéral.",
+        "Tous les actions sont importantes"
+      ],
+      "correctIndex": 4
+    },
+    {
+      "id": 11,
+      "question": "L'articulation du genou ជាសន្លាក់រវាង:",
+      "options": [
+        "La surface articulaire inférieur du fémur et la surface articulaire supérieur du tibia",
+        "La surface articulaire inférieur du fémur avec la rotule",
+        "La surface articulaire inférieur du fémur et la surface articulaire supérieur du tibia et la rotule",
+        "La surface articulaire du fémur avec l'extremité supérieur de la péroné et la rotule",
+        "l'extremité inférieur du fémur avec l'extremité supérieur du tibia, péroné et la rotule"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 12,
+      "question": "Appareil extenseur du genou មាន:",
+      "options": [
+        "Ligaments croisés, ligament latéral externe, ligament latéral interne",
+        "Les ménisques articulaires, ligament croisé antérieur, ligament croisé postérieur",
+        "Tendon du quadriceps, ligaments croisés, capsule articulaire",
+        "Tendon du quadriceps, rotule et Ligament rotulien",
+        "Bourse supra patellaire, bourse pré patellaire, bourse infra patellaire"
+      ],
+      "correctIndex": 3
+    },
+    {
+      "id": 13,
+      "question": "Tous les mouvements de l'articulation du genou, lequel est la plus grande amplitude?",
+      "options": [
+        "Extension",
+        "Flexion",
+        "Rotation interne",
+        "Rotation externe",
+        "Inclinaison latéral"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 14,
+      "question": "L'articulation du genou est une articulation qui peut faire grande amplitude? Elle s'appelle comment?",
+      "options": [
+        "Articulation fibreuse",
+        "Articulation cartilagineuse",
+        "Articulation synoviale",
+        "Articulation mixte",
+        "Pas de réponse"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 15,
+      "question": "La surface postérieur de la rotule répondant à la :",
+      "options": [
+        "Trochlée fémorale",
+        "Condyle fémorale",
+        "Plateau tibiale",
+        "Ménisque",
+        "Tous surfaces articulaires du genou"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 16,
+      "question": "La rotule est située dans:",
+      "options": [
+        "Le ligament collatéral médial du genou",
+        "Le ligament collatéral latéral du genou",
+        "Le ligament croisé antérieur",
+        "Le tendon du muscle quadriceps",
+        "Réponse all sont incorrecte"
+      ],
+      "correctIndex": 3
+    },
+    {
+      "id": 17,
+      "question": "Les surfaces articulaires du genou recouvre par:",
+      "options": [
+        "Le cartilage hyalin",
+        "Couche sous chondral",
+        "La peau",
+        "Os compact",
+        "Os spongieux"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 18,
+      "question": "Le moyen d'union du genou le plus important pour stabilité central est:",
+      "options": [
+        "Ligament para-patellaire",
+        "Ligaments croisés antérieur et croisé postérieur",
+        "Ligament rotulien",
+        "Muscle du quadriceps",
+        "Ligament croisé antérieur"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 19,
+      "question": "L'artère très important de la région du genou est:",
+      "options": [
+        "Artère fémorale",
+        "Artère tibial antérieur",
+        "Artère péroné",
+        "Artère circonflexes",
+        "Artère creux poplité"
+      ],
+      "correctIndex": 4
+    },
+    {
+      "id": 20,
+      "question": "Le nerf le plus dangereux au niveau de la région du genou est :",
+      "options": [
+        "Sciatique poplité externe",
+        "Grand sciatique",
+        "Fibula",
+        "Tibial antérieur",
+        "Circonflexes"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

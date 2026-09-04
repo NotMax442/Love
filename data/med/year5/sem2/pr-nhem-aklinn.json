@@ -1,0 +1,334 @@
+{
+  "questions": [
+    {
+      "id": 1,
+      "question": "តើទីតាំងរបស់បេះដូងស្ថិតនៅកន្លែងណា?",
+      "options": [
+        "ផ្នែកខាងលើនៃតំបន់ médiastin antérieure",
+        "ផ្នែកខាងក្រោមនៃតំបន់ médiastin antérieure",
+        "ផ្នែកខាងលើនៃតំបន់ médiastin postérieure",
+        "ផ្នែកខាងក្រោមនៃតំបន់ médiastin postérieure"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 2,
+      "question": "Point du Cœur ស្ថិតនៅច់ ចំនុចប្រសព្វរវាង",
+      "options": [
+        "ចន្លោះឆ្អឹងជំនីទី 5 ខាងឆ្វេង និង ligne axillaire moyenne",
+        "ចន្លោះឆ្អឹងជំនីទី 4 ខាងឆ្វេង និង ligne axillaire moyenne",
+        "ចន្លោះឆ្អឹងជំនីទី 5 ខាងឆ្វេង និង ligne médio claviculaire",
+        "ចន្លោះឆ្អឹងជំនីទី 4 ខាងឆ្វេង និង ligne médio claviculaire"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 3,
+      "question": "Point du Cœur ជាផ្នែកមួយរបស់",
+      "options": [
+        "Ventricule gauche",
+        "Ventricule droit",
+        "Septum inter ventriculaire",
+        "Ventricule droit និង Ventricule gauche"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 4,
+      "question": "បេះដូងមានទំនាក់ទំនងផ្នែកខាងក្រោយជាមួយ",
+      "options": [
+        "Trachée និង œsophage",
+        "Trachée និង aorte descendant",
+        "Esophage និង aorte descendant",
+        "Poumons"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 5,
+      "question": "នៅលើ face antérieure du cœur តើផ្នែកណាដែលមានទំហំធំជាងគេ?",
+      "options": [
+        "Oreillette droite",
+        "Oreillette gauche",
+        "Ventricule gauche",
+        "Ventricule droite"
+      ],
+      "correctIndex": 3
+    },
+    {
+      "id": 6,
+      "question": "នៅលើ face antérieure du cœur តើផ្នែកណាដែលមានទំហំតូចជាងគេ?",
+      "options": [
+        "Oreillette droite",
+        "Oreillette gauche",
+        "Ventricule gauche",
+        "Ventricule droite"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 7,
+      "question": "មួយផ្នែកធំនៃ base du cœur តំណាងដោយ",
+      "options": [
+        "Oreillette droite",
+        "Oreillette gauche",
+        "Ventricule gauche",
+        "Ventricule droite"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 8,
+      "question": "នៅលើ Cliché thoracique de face arc inférieur droit នៃស្រមោល បេះដូង ឆ្លើយតបទៅនិងផ្នែកណាមួយនៃបេះដូង?",
+      "options": [
+        "Oreillette droite",
+        "Veine cave supérieure",
+        "Ventricule gauche",
+        "Ventricule droite"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 9,
+      "question": "នៅលើ Cliché thoracique de face arc inférieur gauche នៃស្រមោល បេះដូង ឆ្លើយតបទៅនិងផ្នែកណាមួយនៃបេះដូង?",
+      "options": [
+        "Oreillette droite",
+        "Veine cave supérieure",
+        "Ventricule gauche",
+        "Ventricule droite"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 10,
+      "question": "នៅលើ Cliché thoracique de face arc moyen gauche នៃស្រមោល បេះដូង ឆ្លើយតបទៅនិងផ្នែកណាមួយនៃបេះដូង?",
+      "options": [
+        "Crosse de l'aorte",
+        "Veine cave supérieure",
+        "Ventricule gauche",
+        "Tronc de l'artère pulmonaire និង auricule gauche"
+      ],
+      "correctIndex": 3
+    },
+    {
+      "id": 11,
+      "question": "ក្នុងចំណោម gros vaisseaux de la base du Cœur តើមាន veine ចំនួនប៉ុន្មាន?",
+      "options": [
+        "2",
+        "4",
+        "6",
+        "8"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 12,
+      "question": "Fosse ovale ស្ថិតនៅលើ",
+      "options": [
+        "Septum inter auriculaire",
+        "Septum inter ventriculaire",
+        "Paroi postérieure de l'oreillette droite",
+        "Paroi postérieure de l'oreillette gauche"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 13,
+      "question": "sinus coronaire នាំឈាមចូលទៅកន្លែងណា?",
+      "options": [
+        "Veine cave supérieure",
+        "Veine cave inférieure",
+        "Oreillette droite",
+        "Ventricule droit"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 14,
+      "question": "ក្នុងករណីមានប្រហោងនៅលើ Septum inter auriculaire គេអោយឈ្មោះថា",
+      "options": [
+        "CIA",
+        "ICA",
+        "CIV",
+        "IVC"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 15,
+      "question": "veine pulmonaire មានចំនួនប៉ុន្មាន?",
+      "options": [
+        "1",
+        "2",
+        "3",
+        "4"
+      ],
+      "correctIndex": 3
+    },
+    {
+      "id": 16,
+      "question": "ក្នុងករណីមានប្រហោងនៅលើ Septum inter ventriculaire គេអោយឈ្មោះថា",
+      "options": [
+        "CIA",
+        "ICA",
+        "CIV",
+        "IVC"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 17,
+      "question": "Pilier គឺជា",
+      "options": [
+        "សាច់ដុំបេះដូងសំរាប់ភ្ជាប់ពីparoi du ventricule ទៅ septum inter ventriculaire",
+        "សាច់ដុំបេះដូងរាងរឆេញរឆុញនៅលើ paroi interne du ventricule",
+        "សាច់ដុំបេះដូងរាងជាកោនសំរាប់ភ្ជាប់ cordages tendineux ទៅនិង paroi interne du ventricule",
+        "សាច់ដុំបេះដូងរាងជាកោនសំរាប់ភ្ជាប់ Feuillet valvulaire ទៅនិង paroi interne du ventricule"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 18,
+      "question": "Septum membraneuse ស្ថិតនៅលើ",
+      "options": [
+        "Septum inter ventriculaire ខាងក្រោម feuillet septal de la valve tricuspide",
+        "Septum inter ventriculaire ជាប់និង valve pulmonaire",
+        "Septum inter ventriculaire ជាប់និង point du cœur",
+        "ចំកណ្តាល Septum inter ventriculaire"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 19,
+      "question": "paroi cardiaque នៅកន្លែងណាដែលមានកំរាស់ ស្តើងជាងគេ?",
+      "options": [
+        "Oreillette droite",
+        "Oreillette gauche",
+        "Ventricule gauche",
+        "Ventricule droite"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 20,
+      "question": "Foyer d'auscultation de la valve aortique ស្ថិតនៅកន្លែងណា?",
+      "options": [
+        "នៅត្រង់ appendice xyphoïde",
+        "នៅផ្នែកខាងស្តាំ sternum ត្រង់ចន្លោះឆ្អឹងជំនីទី2",
+        "នៅផ្នែកខាងឆ្វេង sternum ត្រង់ចន្លោះឆ្អឹងជំនីទី2",
+        "នៅត្រង់ point du Cœur"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 21,
+      "question": "Foyer d'auscultation de la valve mitrale ស្ថិតនៅកន្លែងណា?",
+      "options": [
+        "នៅត្រង់ appendice xyphoïde",
+        "នៅផ្នែកខាងស្តាំ sternum ត្រង់ចន្លោះឆ្អឹងជំនីទី2",
+        "នៅផ្នែកខាងឆ្វេង sternum ត្រង់ចន្លោះឆ្អឹងជំនីទី2",
+        "នៅត្រង់ point du Cœur"
+      ],
+      "correctIndex": 3
+    },
+    {
+      "id": 22,
+      "question": "Foyer d'auscultation de la valve pulmonaire ស្ថិតនៅកន្លែងណា?",
+      "options": [
+        "នៅត្រង់ appendice xyphoïde",
+        "នៅផ្នែកខាងស្តាំ sternum ត្រង់ចន្លោះឆ្អឹងជំនីទី2",
+        "នៅផ្នែកខាងឆ្វេង sternum ត្រង់ចន្លោះឆ្អឹងជំនីទី2",
+        "នៅត្រង់ point du Cœur"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 23,
+      "question": "Foyer d'auscultation de la valve tricuspide ស្ថិតនៅកន្លែងណា?",
+      "options": [
+        "នៅត្រង់ appendice xyphoïde",
+        "នៅផ្នែកខាងស្តាំ sternum ត្រង់ចន្លោះឆ្អឹងជំនីទី2",
+        "នៅផ្នែកខាងឆ្វេង sternum ត្រង់ចន្លោះឆ្អឹងជំនីទី2",
+        "នៅត្រង់ point du Cœur"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 24,
+      "question": "Cavité péricardique ស្ថិតនៅចន្លោះស្រទាប់",
+      "options": [
+        "Péricarde séreux pariétal និង épicarde",
+        "Péricarde fibreux pariétal និង épicarde",
+        "Péricarde séreux pariétal និង Péricarde fibreux pariétal",
+        "Epicarde និង endocarde"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 25,
+      "question": "Noeud sino-auriculaire ស្ថិតនៅកន្លែងណា?",
+      "options": [
+        "នៅលើ face postérieure de la veine cave supérieure",
+        "នៅលើ face postérieure de l'oreillette droite កន្លែងតភ្ជាប់ជាមួយ veine cave supérieure",
+        "នៅលើ face postérieure de l'oreillette droite កន្លែងតភ្ជាប់ជាមួយ veine cave inférieure",
+        "នៅក្នុង triangle de Koch"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 26,
+      "question": "Noeud auriculo-ventriculaire ស្ថិតនៅកន្លែងណា?",
+      "options": [
+        "នៅលើ septum membraneux",
+        "នៅលើ face postérieure de l'oreillette droite កន្លែងតភ្ជាប់ជាមួយ veine cave supérieure",
+        "នៅក្នុង triangle de Koch",
+        "នៅលើជិត point du cœur"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 27,
+      "question": "Artère ដែលនាំឈាមទៅចិញ្ចឹមពី 50%-60% នៃ paroi du ventricule gauche មានឈ្មោះថា",
+      "options": [
+        "Artère inter ventriculaire antérieure",
+        "Artère inter ventriculaire postérieure",
+        "Artère coronaire droite",
+        "Artère circonflexe"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 28,
+      "question": "Artère diagonale ជា branche របស់",
+      "options": [
+        "Artère coronaire droite",
+        "Artère circonflexe",
+        "Artère inter ventriculaire antérieure",
+        "Artère inter ventriculaire postérieure"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 29,
+      "question": "Artère septal ជា branche របស់",
+      "options": [
+        "Artère coronaire droite",
+        "Artère circonflexe",
+        "Artère inter ventriculaire antérieure",
+        "Artère inter ventriculaire postérieure"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 30,
+      "question": "Artère marginale gauche branche របស់",
+      "options": [
+        "Artère coronaire droite",
+        "Artère circonflexe",
+        "Artère inter ventriculaire antérieure",
+        "Artère inter ventriculaire postérieure"
+      ],
+      "correctIndex": 1
+    }
+  ]
+}

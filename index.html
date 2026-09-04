@@ -1,27 +1,54 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>TestforUHS - Medical Study & Quiz Platform</title>
-  <link rel="icon" href="data:,">
+  <meta name="title" content="TestforUHS - Medical Study & Quiz Platform">
+  <meta name="description"
+    content="Free interactive medical quiz and study platform for UHS students. Practice Year 1 to Year 6 subjects, review missed questions, and export to Anki.">
+
+  <!-- Open Graph / Telegram / Facebook -->
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://testforuhs.com/">
+  <meta property="og:site_name" content="TestforUHS">
+  <meta property="og:title" content="TestforUHS - Medical Study & Quiz Platform">
+  <meta property="og:description"
+    content="Free interactive medical quiz and study platform for UHS students. Practice Year 1 to Year 6 subjects, review missed questions, and export to Anki.">
+  <meta property="og:image" content="https://testforuhs.com/assets/logo.png">
+
+  <!-- Twitter -->
+  <meta property="twitter:card" content="summary_large_image">
+  <meta property="twitter:url" content="https://testforuhs.com/">
+  <meta property="twitter:title" content="TestforUHS - Medical Study & Quiz Platform">
+  <meta property="twitter:description"
+    content="Free interactive medical quiz and study platform for UHS students. Practice Year 1 to Year 6 subjects, review missed questions, and export to Anki.">
+  <meta property="twitter:image" content="https://testforuhs.com/assets/logo.png">
+
+  <!-- Icons & CSS -->
+  <link rel="icon" type="image/png" href="assets/logo.png">
+  <link rel="apple-touch-icon" href="assets/logo.png">
   <link rel="stylesheet" href="style.css">
 
-  <!-- Google AdSense Master Verification Code -->
+  <!-- Google AdSense -->
   <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-4210272281940886"
-       crossorigin="anonymous"></script>
+    crossorigin="anonymous"></script>
 </head>
+
 <body>
   <div class="app-container">
 
     <!-- Top Navigation Bar -->
     <nav class="main-navbar">
       <div class="nav-links">
-        <a href="index.html" class="nav-item active" data-i18n="nav_home">HOME</a>
-        <a href="about.html" class="nav-item" data-i18n="nav_about">ABOUT</a>
-        <a href="contact.html" class="nav-item" data-i18n="nav_contact">CONTACT US</a>
-        <a href="account.html" class="nav-item" data-i18n="nav_account">MY ACCOUNT</a>
-        <button id="nav-donate-btn" class="nav-item" data-i18n="nav_donate" style="color: #f59e0b; font-weight: 700; background: none; border: none; cursor: pointer;">☕ Support Us</button>
+        <a href="/" class="nav-item" data-i18n="nav_home">HOME</a>
+        <a href="/about" class="nav-item" data-i18n="nav_about">ABOUT</a>
+        <a href="/contact" class="nav-item" data-i18n="nav_contact">CONTACT US</a>
+        <a href="/account" class="nav-item" data-i18n="nav_account">MY ACCOUNT</a>
+        <button id="nav-donate-btn" class="nav-item" data-i18n="nav_donate"
+          style="color: #f59e0b; font-weight: 700; background: none; border: none; cursor: pointer;">☕ Support
+          Us</button>
       </div>
       <div class="nav-controls" style="display: flex; gap: 0.5rem; align-items: center;">
         <select id="language-select" class="lang-select">
@@ -35,14 +62,57 @@
     <!-- 1. Hero Landing Section -->
     <div id="landing-screen" class="screen">
       <h1 data-i18n="landing_title">Medical Study Platform</h1>
-      <p data-i18n="landing_sub">Select your academic year, review saved missed questions, or test your knowledge.</p>
-      <button id="enter-study-btn" class="btn primary-btn" style="margin-top: 1.5rem; font-size: 1.1rem; padding: 0.75rem 2rem;" data-i18n="btn_start_study">🚀 Start Studying</button>
+      <p data-i18n="landing_sub">Select your major, year, subject, and professor to start studying.</p>
+
+      <!-- Action Button Row -->
+      <div class="landing-btn-group"
+        style="display: flex; gap: 1rem; justify-content: center; align-items: center; margin-top: 1.5rem;">
+        <button id="enter-study-btn" class="btn primary-btn" data-i18n="btn_start_study"
+          style="font-size: 1.1rem; padding: 0.75rem 2rem;">🚀 Start Studying</button>
+        <button id="update-info-btn" class="btn secondary-btn" style="font-size: 1.1rem; padding: 0.75rem 1.5rem;">📢
+          Update Info</button>
+      </div>
     </div>
 
-    <!-- 2. Year Selection Section (Hidden by default) -->
+    <!-- Place fixed overlays at the bottom of <body>, outside all screen containers -->
+    <div id="update-modal" class="modal-overlay hidden">
+      <div class="update-modal-content">
+        <div class="update-modal-header">
+          <div class="update-title-group">
+            <h3>Patch Notes</h3>
+            <span id="update-version-badge" class="version-badge">v1.0.0</span>
+          </div>
+          <div class="update-lang-toggle">
+            <button id="update-lang-en" class="lang-btn active">EN</button>
+            <button id="update-lang-km" class="lang-btn">KM</button>
+          </div>
+        </div>
+        <div class="update-modal-body">
+          <div id="update-text-container">Loading release notes...</div>
+        </div>
+        <div class="update-modal-footer">
+          <button id="close-update-modal-btn" class="btn">Got it!</button>
+        </div>
+      </div>
+    </div>
+
+    <!-- 2. Major Selection Screen -->
+    <div id="major-screen" class="screen hidden" style="margin-top: 1rem;">
+      <button id="back-to-landing-btn" class="btn back-btn" data-i18n="btn_back_home" style="margin-bottom: 1rem;">⬅️
+        Back to Home</button>
+      <h2 data-i18n="title_select_major">Select Major</h2>
+      <div id="major-grid" class="year-grid">
+        <div class="year-card" data-major="MED" data-i18n="major_med">
+          Medicine (MED)
+        </div>
+      </div>
+    </div>
+
+    <!-- 3. Year Selection Section -->
     <div id="year-screen" class="screen hidden" style="margin-top: 1rem;">
-      <button id="back-to-landing-btn" class="btn back-btn" style="margin-bottom: 1rem;" data-i18n="btn_back">⬅️ Back</button>
-      <h2 data-i18n="year_selection_title">Select Academic Year</h2>
+      <button id="back-to-majors-btn" class="btn back-btn" data-i18n="btn_back_majors" style="margin-bottom: 1rem;">⬅️
+        Back to Majors</button>
+      <h2 id="selected-major-title">Select Academic Year</h2>
       <div class="year-grid">
         <div class="year-card" data-year="1" data-i18n="year_1">Year 1</div>
         <div class="year-card" data-year="2" data-i18n="year_2">Year 2</div>
@@ -53,26 +123,47 @@
       </div>
     </div>
 
-    <!-- 3. Subject Selection Section (Hidden by default) -->
+    <!-- 3. Semester Selection Screen -->
+    <div id="semester-screen" class="screen hidden" style="margin-top: 1rem;">
+      <button id="back-to-years-btn" class="btn back-btn" data-i18n="btn_back_years" style="margin-bottom: 1rem;">⬅️
+        Back to Years</button>
+      <h2 id="selected-year-title">Select Semester</h2>
+      <div class="year-grid">
+        <div class="year-card" data-semester="1" data-i18n="semester_1">Semester 1</div>
+        <div class="year-card" data-semester="2" data-i18n="semester_2">Semester 2</div>
+      </div>
+    </div>
+
+    <!-- 4. Subject Selection Section -->
     <div id="subject-screen" class="screen hidden" style="margin-top: 1rem;">
-      <button id="back-to-years-btn" class="btn back-btn" style="margin-bottom: 1rem;" data-i18n="btn_back_years">⬅️ Back to Years</button>
-      <h2 id="selected-year-title">Subjects</h2>
+      <button id="back-to-semesters-btn" class="btn back-btn" data-i18n="btn_back_semesters"
+        style="margin-bottom: 1rem;">⬅️ Back to Semesters</button>
+      <h2 id="selected-subject-screen-title">Subjects</h2>
       <div id="subject-list" class="subject-grid"></div>
     </div>
 
+    <!-- 5. Professor Selection Section -->
+    <div id="professor-screen" class="screen hidden" style="margin-top: 1rem;">
+      <button id="back-to-subjects-btn" class="btn back-btn" data-i18n="btn_back_subjects"
+        style="margin-bottom: 1rem;">⬅️ Back to Subjects</button>
+      <h2 id="selected-prof-screen-title">Professors</h2>
+      <div id="professor-list" class="subject-grid"></div>
+    </div>
+
     <!-- Home Page AdSense Banner Unit -->
-    <div class="home-ad-container" style="margin: 2.5rem 0 1rem 0; text-align: center; min-height: 90px; background: var(--bg-subcard); padding: 1rem; border-radius: 8px; border: 1px solid var(--border-sub);">
-      <span class="ad-label" style="display: block; font-size: 0.75rem; color: var(--text-sub); margin-bottom: 0.5rem; text-transform: uppercase; letter-spacing: 0.05em;">Sponsored</span>
-      <ins class="adsbygoogle"
-           style="display:block"
-           data-ad-client="ca-pub-4210272281940886"
-           data-ad-format="auto"
-           data-full-width-responsive="true"></ins>
+    <div class="home-ad-container"
+      style="margin: 2.5rem 0 1rem 0; text-align: center; min-height: 90px; background: var(--bg-subcard); padding: 1rem; border-radius: 8px; border: 1px solid var(--border-sub);">
+      <span class="ad-label"
+        style="display: block; font-size: 0.75rem; color: var(--text-sub); margin-bottom: 0.5rem; text-transform: uppercase; letter-spacing: 0.05em;">Sponsored</span>
+      <ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-4210272281940886" data-ad-format="auto"
+        data-full-width-responsive="true"></ins>
     </div>
 
     <!-- Site Footer -->
-    <footer class="main-footer" style="margin-top: 1.5rem; padding-top: 1.5rem; border-top: 1px solid var(--border-color); text-align: center; font-size: 0.85rem; color: var(--text-sub);">
-      <p>© 2026 TestforUHS. All rights reserved. | <a href="#" id="open-privacy-btn" style="color: var(--text-heading); text-decoration: underline;">Privacy Policy</a></p>
+    <footer class="main-footer"
+      style="margin-top: 1.5rem; padding-top: 1.5rem; border-top: 1px solid var(--border-color); text-align: center; font-size: 0.85rem; color: var(--text-sub);">
+      <p>© 2026 TestforUHS. All rights reserved. | <a href="#" id="open-privacy-btn"
+          style="color: var(--text-heading); text-decoration: underline;">Privacy Policy</a></p>
     </footer>
 
   </div>
@@ -93,30 +184,37 @@
       <button id="close-donate-btn" class="modal-close-icon" aria-label="Close modal">&times;</button>
       <div class="donate-grid">
         <div class="donate-info">
-          <p class="donate-tagline" data-i18n="donate_tagline">Every little bit is greatly appreciated! Thank you for your support 😊</p>
+          <p class="donate-tagline" data-i18n="donate_tagline">Every little bit is greatly appreciated! Thank you for
+            your support 😊</p>
           <h3 class="donate-cta" data-i18n="donate_cta">You may donate through our KHQR here.</h3>
         </div>
         <div class="donate-qr-wrapper"><img src="assets/khqr.png" alt="KHQR Code" class="khqr-card-img"></div>
       </div>
       <div style="margin-top: 1.5rem; text-align: center;">
-        <button id="bottom-close-donate-btn" class="btn secondary-btn" style="width: 100%; max-width: 200px;" data-i18n="btn_close">Close</button>
+        <button id="bottom-close-donate-btn" class="btn secondary-btn" style="width: 100%; max-width: 200px;"
+          data-i18n="btn_close">Close</button>
       </div>
     </div>
   </div>
 
   <div id="privacy-modal" class="modal-overlay hidden">
-    <div class="modal-card" style="max-width: 600px; text-align: left; max-height: 80vh; overflow-y: auto; position: relative; padding: 2.5rem 1.5rem 1.5rem 1.5rem;">
+    <div class="modal-card"
+      style="max-width: 600px; text-align: left; max-height: 80vh; overflow-y: auto; position: relative; padding: 2.5rem 1.5rem 1.5rem 1.5rem;">
       <button id="close-privacy-btn" class="modal-close-icon" aria-label="Close modal">&times;</button>
       <h3 style="margin-bottom: 1rem; color: var(--text-main);">Privacy Policy</h3>
       <div style="font-size: 0.85rem; line-height: 1.6; color: var(--text-sub);">
-        <p>At <strong>TestforUHS</strong> (accessible from testforuhs.com), visitor privacy is one of our main priorities.</p>
+        <p>At <strong>TestforUHS</strong> (accessible from testforuhs.com), visitor privacy is one of our main
+          priorities.</p>
         <h4 style="color: var(--text-main); margin: 1.25rem 0 0.5rem;">Google DoubleClick DART Cookie & AdSense</h4>
-        <p>Google is a third-party vendor on our site. It uses cookies, known as DART cookies, to serve ads to our site visitors based upon their visit to testforuhs.com.</p>
+        <p>Google is a third-party vendor on our site. It uses cookies, known as DART cookies, to serve ads to our site
+          visitors based upon their visit to testforuhs.com.</p>
         <h4 style="color: var(--text-main); margin: 1.25rem 0 0.5rem;">Log Files & Local Storage</h4>
-        <p>TestforUHS uses browser Local Storage to save user progress, quiz results, and user preferences locally on your device.</p>
+        <p>TestforUHS uses browser Local Storage to save user progress, quiz results, and user preferences locally on
+          your device.</p>
       </div>
       <div style="margin-top: 1.5rem; text-align: center;">
-        <button id="bottom-close-privacy-btn" class="btn secondary-btn" style="width: 100%; max-width: 200px;" data-i18n="btn_close">Close</button>
+        <button id="bottom-close-privacy-btn" class="btn secondary-btn" style="width: 100%; max-width: 200px;"
+          data-i18n="btn_close">Close</button>
       </div>
     </div>
   </div>
@@ -124,4 +222,5 @@
   <script src="shared.js"></script>
   <script src="home.js"></script>
 </body>
+
 </html>

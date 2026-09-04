@@ -1,5 +1,5 @@
 // ==========================================================================
-// QUIZ & STUDY RUNNER LOGIC (quiz.html)
+// QUIZ & STUDY RUNNER LOGIC (quiz.js)
 // ==========================================================================
 
 let sessionConfig = null;
@@ -16,21 +16,87 @@ let timeRemaining = 3600;
 let autoScrollTimer = null;
 
 document.addEventListener('DOMContentLoaded', async () => {
+  // Detect page refresh inside active session -> Redirect back to home
+  const navEntries = performance.getEntriesByType('navigation');
+  if (navEntries.length > 0 && navEntries[0].type === 'reload') {
+    const rawConfig = sessionStorage.getItem('activeSessionConfig');
+    if (rawConfig) {
+      try {
+        const config = JSON.parse(rawConfig);
+        sessionStorage.setItem('lastView', 'professor');
+        sessionStorage.setItem('lastActiveMajor', config.major);
+        sessionStorage.setItem('lastActiveYear', config.year);
+        sessionStorage.setItem('lastActiveSemester', config.semester);
+        sessionStorage.setItem('lastActiveSubject', config.subject);
+      } catch (e) {}
+    }
+    window.location.href = '/';
+    return;
+  }
+
   const rawConfig = sessionStorage.getItem('activeSessionConfig');
   if (!rawConfig) {
-    window.location.href = 'index.html';
+    window.location.href = '/';
     return;
   }
 
   sessionConfig = JSON.parse(rawConfig);
 
-  // Sync navigation view back to subject selection
-  localStorage.setItem('lastView', 'subject');
-  localStorage.setItem('lastActiveYear', sessionConfig.year);
+  // Sync navigation view state
+  sessionStorage.setItem('lastView', 'professor');
+  sessionStorage.setItem('lastActiveMajor', sessionConfig.major);
+  sessionStorage.setItem('lastActiveYear', sessionConfig.year);
+  sessionStorage.setItem('lastActiveSemester', sessionConfig.semester);
+  sessionStorage.setItem('lastActiveSubject', sessionConfig.subject);
+
+  // Wire up Fullscreen Button
+  const fullscreenBtn = document.getElementById('fullscreen-btn');
+  if (fullscreenBtn) {
+    fullscreenBtn.addEventListener('click', toggleFullscreen);
+  }
+
+  // Wire up "Next Question" button click handler
+  const nextBtn = document.getElementById('next-btn');
+  if (nextBtn) {
+    nextBtn.addEventListener('click', () => {
+      if (currentQuestionIndex < questions.length - 1) {
+        currentQuestionIndex++;
+        renderQuizQuestion();
+      } else {
+        finishSession();
+      }
+    });
+  }
+
+  // Floating Navigation Handlers
+  const scrollTopBtn = document.getElementById('scroll-top-btn');
+  const goLatestQBtn = document.getElementById('go-latest-q-btn');
+
+  if (scrollTopBtn) {
+    scrollTopBtn.addEventListener('click', () => {
+      window.scrollTo({ top: 0, behavior: 'smooth' });
+    });
+  }
+
+  if (goLatestQBtn) {
+    goLatestQBtn.addEventListener('click', () => {
+      scrollToLatestUnansweredQuestion();
+    });
+  }
 
   setupNavigationGuards();
   await initSession();
 });
+
+// Helper for generating filename/storage key slugs
+function getProfSlug(profName) {
+  if (!profName) return '';
+  return profName
+    .toLowerCase()
+    .replace(/\./g, '')           // Strip dots ("Pr." -> "pr")
+    .replace(/\s+/g, '-')         // Convert spaces to dashes
+    .replace(/[^a-z0-9-&]/g, ''); // Retain letters, numbers, dashes, and ampersands
+}
 
 function shuffleArray(array) {
   const shuffled = [...array];
@@ -73,15 +139,10 @@ function showLeaveConfirmModal() {
     }
 
     if (descEl) {
-      const isKm = currentLang === 'km';
       if (sessionConfig && sessionConfig.mode === 'study') {
-        descEl.textContent = isKm 
-          ? "តើអ្នកពិតជាចង់ចាកចេញឬ? កុំបារម្ភ ការវិវឌ្ឍរបស់អ្នកត្រូវបានរក្សាទុក!"
-          : "Are you sure you want to leave? Your progress will be saved, don't worry!";
+        descEl.textContent = getTranslation('leave_modal_desc_study');
       } else {
-        descEl.textContent = isKm
-          ? "ការវិវឌ្ឍនៃការធ្វើតេស្តប្រឡងរបស់អ្នកនឹងត្រូវបាត់បង់។"
-          : "Are you sure you want to leave? Your active timed quiz progress will be lost.";
+        descEl.textContent = getTranslation('leave_modal_desc_quiz');
       }
     }
 
@@ -104,12 +165,12 @@ function showLeaveConfirmModal() {
 
 function setupNavigationGuards() {
   const pushGuardState = () => {
-    try { history.pushState({ guard: true }, '', window.location.href); } catch (e) {}
+    try { history.pushState({ guard: true }, '', window.location.href); } catch (e) { }
   };
 
   pushGuardState();
 
-  window.addEventListener('popstate', (e) => {
+  window.addEventListener('popstate', () => {
     if (!isSessionActive) return;
     pushGuardState();
     if (isModalOpen) return;
@@ -117,7 +178,7 @@ function setupNavigationGuards() {
     showLeaveConfirmModal().then((wantsToLeave) => {
       if (wantsToLeave) {
         isSessionActive = false;
-        window.location.href = 'index.html';
+        window.location.href = '/';
       }
     });
   });
@@ -135,7 +196,7 @@ function setupNavigationGuards() {
       showLeaveConfirmModal().then((wantsToLeave) => {
         if (wantsToLeave) {
           isSessionActive = false;
-          window.location.href = 'index.html';
+          window.location.href = '/';
         }
       });
     }
@@ -167,10 +228,10 @@ function setupNavigationGuards() {
         const wantsToLeave = await showLeaveConfirmModal();
         if (wantsToLeave) {
           isSessionActive = false;
-          window.location.href = 'index.html';
+          window.location.href = '/';
         }
       } else {
-        window.location.href = 'index.html';
+        window.location.href = '/';
       }
     });
   }
@@ -185,12 +246,13 @@ function setupNavigationGuards() {
 
 // Session Initialization
 async function initSession() {
-  const { year, subject, mode, resume } = sessionConfig;
+  const { major, year, semester, subject, professor, mode, resume } = sessionConfig;
   const sessionInfo = document.getElementById('session-info');
   const loadingOverlay = document.getElementById('loading-overlay');
 
   if (sessionInfo) {
-    sessionInfo.textContent = `Year ${year} - ${subject} (${mode.toUpperCase()} MODE)`;
+    const modeLabel = getTranslation(`mode_${mode}`).toUpperCase();
+    sessionInfo.textContent = `${major} Y${year} S${semester} - ${subject} (${professor}) [${modeLabel} MODE]`;
   }
 
   isSessionActive = true;
@@ -198,9 +260,10 @@ async function initSession() {
   currentQuestionIndex = 0;
   studyAnsweredCount = 0;
 
-  const studyProgressKey = `saved_study_y${year}_${subject.toLowerCase()}`;
+  const profSlug = getProfSlug(professor);
+  const studyProgressKey = `saved_study_${major.toLowerCase()}_y${year}_s${semester}_${subject.toLowerCase()}_${profSlug}`;
 
-  // Resume saved Study progress ONLY
+  // Resume saved Study progress
   if (mode === 'study' && resume) {
     const savedStudyRaw = localStorage.getItem(studyProgressKey);
     if (savedStudyRaw) {
@@ -213,16 +276,20 @@ async function initSession() {
 
         renderStudyMode();
         return;
-      } catch (e) {}
+      } catch (e) { }
     }
   }
 
+  // Load Missed Vault
   if (mode === 'missed') {
-    const key = getStorageKey(year, subject);
+    const key = (typeof getStorageKey === 'function')
+      ? getStorageKey(major, year, semester, subject, professor)
+      : `missed_${major.toLowerCase()}_y${year}_s${semester}_${subject.toLowerCase()}_${profSlug}`;
+
     const rawMissed = localStorage.getItem(key);
     if (!rawMissed) {
-      alert("No saved missed questions found for this subject!");
-      window.location.href = 'index.html';
+      alert(getTranslation('no_missed_alert'));
+      window.location.href = '/';
       return;
     }
     const missedList = JSON.parse(rawMissed);
@@ -232,7 +299,8 @@ async function initSession() {
     return;
   }
 
-  const filePath = `data/year${year}/${subject.toLowerCase()}.json`;
+  // JSON Fetch Path
+  const filePath = `data/${major.toLowerCase()}/year${year}/sem${semester}/${subject.toLowerCase()}/${profSlug}.json`;
   if (loadingOverlay) loadingOverlay.classList.remove('hidden');
 
   try {
@@ -255,8 +323,8 @@ async function initSession() {
       renderQuizQuestion();
     }
   } catch (error) {
-    alert(`Could not load questions!\nMake sure your file exists at:\n"${filePath}"`);
-    window.location.href = 'index.html';
+    alert(getTranslation('load_error_alert', { path: filePath }));
+    window.location.href = '/';
   } finally {
     if (loadingOverlay) loadingOverlay.classList.add('hidden');
   }
@@ -289,7 +357,7 @@ function startQuizTimer() {
 
     if (timeRemaining <= 0) {
       clearInterval(timerInterval);
-      alert("⏱️ Time is up! Submitting your quiz now.");
+      alert(getTranslation('time_up_alert'));
       finishSession();
     }
   }, 1000);
@@ -303,10 +371,13 @@ function updateTimerUI() {
   timerDisplay.textContent = `⏱️ ${minutes}:${seconds}`;
 }
 
-// Auto-save Study progress ONLY
+// Auto-save Study progress
 function saveStudyProgress() {
   if (sessionConfig && sessionConfig.mode === 'study') {
-    const studyProgressKey = `saved_study_y${sessionConfig.year}_${sessionConfig.subject.toLowerCase()}`;
+    const { major, year, semester, subject, professor } = sessionConfig;
+    const profSlug = getProfSlug(professor);
+    const studyProgressKey = `saved_study_${major.toLowerCase()}_y${year}_s${semester}_${subject.toLowerCase()}_${profSlug}`;
+
     const progressData = {
       questions: questions,
       userAnswers: userAnswers,
@@ -326,7 +397,12 @@ function renderStudyMode() {
   const optionsContainer = document.getElementById('options-container');
   const nextBtn = document.getElementById('next-btn');
 
-  if (progressText) progressText.textContent = `Total Questions: ${questions.length} (Answered: ${studyAnsweredCount})`;
+  if (progressText) {
+    progressText.textContent = getTranslation('study_progress', {
+      total: questions.length,
+      answered: studyAnsweredCount
+    });
+  }
   if (questionText) questionText.textContent = '';
   if (optionsContainer) optionsContainer.innerHTML = '';
   if (nextBtn) nextBtn.classList.add('hidden');
@@ -383,6 +459,14 @@ function renderStudyMode() {
       }, 300);
     }
   }
+
+  const studyNavControls = document.getElementById('study-nav-controls');
+  if (studyNavControls) {
+    studyNavControls.classList.remove('hidden');
+    window.removeEventListener('scroll', handleStudyScroll);
+    window.addEventListener('scroll', handleStudyScroll);
+    handleStudyScroll();
+  }
 }
 
 function handleStudyOptionClick(qIndex, selectedIndex, selectedBtn, optsDiv) {
@@ -406,13 +490,28 @@ function handleStudyOptionClick(qIndex, selectedIndex, selectedBtn, optsDiv) {
     }
   }
 
-  recordQuestionResult(q, isCorrect, sessionConfig.year, sessionConfig.subject);
+  if (typeof recordQuestionResult === 'function') {
+    recordQuestionResult(
+      q,
+      isCorrect,
+      sessionConfig.major,
+      sessionConfig.year,
+      sessionConfig.semester,
+      sessionConfig.subject,
+      sessionConfig.professor
+    );
+  }
   studyAnsweredCount++;
 
   saveStudyProgress();
 
   const progressText = document.getElementById('progress-text');
-  if (progressText) progressText.textContent = `Total Questions: ${questions.length} (Answered: ${studyAnsweredCount})`;
+  if (progressText) {
+    progressText.textContent = getTranslation('study_progress', {
+      total: questions.length,
+      answered: studyAnsweredCount
+    });
+  }
 
   if (studyAnsweredCount === questions.length) {
     cancelAutoScroll();
@@ -432,7 +531,6 @@ function handleStudyOptionClick(qIndex, selectedIndex, selectedBtn, optsDiv) {
 
 // Quiz Mode Renderer
 function renderQuizQuestion() {
-  window.scrollTo(0, 0);
   const nextBtn = document.getElementById('next-btn');
   const optionsContainer = document.getElementById('options-container');
   const progressText = document.getElementById('progress-text');
@@ -442,13 +540,18 @@ function renderQuizQuestion() {
   if (optionsContainer) optionsContainer.innerHTML = '';
 
   const q = questions[currentQuestionIndex];
-  if (progressText) progressText.textContent = `Question ${currentQuestionIndex + 1} of ${questions.length}`;
+  if (progressText) {
+    progressText.textContent = getTranslation('quiz_progress', {
+      current: currentQuestionIndex + 1,
+      total: questions.length
+    });
+  }
   if (questionText) questionText.textContent = q.question;
 
   if (nextBtn) {
-    nextBtn.textContent = (currentQuestionIndex === questions.length - 1) 
-      ? "Finish Quiz 🏁" 
-      : "Next Question ➡️";
+    nextBtn.textContent = (currentQuestionIndex === questions.length - 1)
+      ? getTranslation('btn_finish_quiz')
+      : getTranslation('btn_next_question');
   }
 
   q.options.forEach((optionText, index) => {
@@ -483,18 +586,20 @@ function handleQuizOptionClick(selectedIndex, selectedBtn) {
   selectedBtn.style.borderColor = '#38bdf8';
 
   if (nextBtn) nextBtn.classList.remove('hidden');
-}
 
-const nextBtn = document.getElementById('next-btn');
-if (nextBtn) {
-  nextBtn.addEventListener('click', () => {
-    if (currentQuestionIndex < questions.length - 1) {
-      currentQuestionIndex++;
-      renderQuizQuestion();
-    } else {
-      finishSession();
-    }
-  });
+  const isAutoAdvance = localStorage.getItem('auto_advance_quiz') === 'true';
+  if (isAutoAdvance) {
+    allOptionBtns.forEach(btn => btn.style.pointerEvents = 'none');
+
+    setTimeout(() => {
+      if (currentQuestionIndex < questions.length - 1) {
+        currentQuestionIndex++;
+        renderQuizQuestion();
+      } else {
+        finishSession();
+      }
+    }, 400);
+  }
 }
 
 // Session Completion Handler
@@ -502,9 +607,10 @@ function finishSession() {
   clearInterval(timerInterval);
   cancelAutoScroll();
 
-  // Remove saved study progress when finished
   if (sessionConfig && sessionConfig.mode === 'study') {
-    const studyProgressKey = `saved_study_y${sessionConfig.year}_${sessionConfig.subject.toLowerCase()}`;
+    const { major, year, semester, subject, professor } = sessionConfig;
+    const profSlug = getProfSlug(professor);
+    const studyProgressKey = `saved_study_${major.toLowerCase()}_y${year}_s${semester}_${subject.toLowerCase()}_${profSlug}`;
     localStorage.removeItem(studyProgressKey);
   }
 
@@ -514,7 +620,17 @@ function finishSession() {
       const chosen = userAnswers[idx];
       const isCorrect = chosen !== null && chosen === q.correctIndex;
       if (isCorrect) userScore++;
-      recordQuestionResult(q, isCorrect, sessionConfig.year, sessionConfig.subject);
+      if (typeof recordQuestionResult === 'function') {
+        recordQuestionResult(
+          q,
+          isCorrect,
+          sessionConfig.major,
+          sessionConfig.year,
+          sessionConfig.semester,
+          sessionConfig.subject,
+          sessionConfig.professor
+        );
+      }
     });
   }
 
@@ -524,11 +640,87 @@ function finishSession() {
     questions: questions,
     userAnswers: userAnswers,
     userScore: userScore,
+    major: sessionConfig.major,
     year: sessionConfig.year,
+    semester: sessionConfig.semester,
     subject: sessionConfig.subject,
+    professor: sessionConfig.professor,
     mode: sessionConfig.mode
   };
 
   sessionStorage.setItem('lastQuizResult', JSON.stringify(lastQuizResult));
-  window.location.href = 'result.html';
+  window.location.href = '/result';
 }
+
+function handleStudyScroll() {
+  const scrollTopBtn = document.getElementById('scroll-top-btn');
+  const goLatestQBtn = document.getElementById('go-latest-q-btn');
+  const currentScroll = window.scrollY || document.documentElement.scrollTop || document.body.scrollTop || 0;
+
+  if (currentScroll > 150) {
+    if (scrollTopBtn) scrollTopBtn.classList.remove('hidden');
+  } else {
+    if (scrollTopBtn) scrollTopBtn.classList.add('hidden');
+  }
+
+  const targetIndex = userAnswers.findIndex(ans => ans === null);
+  if (targetIndex === -1) {
+    if (goLatestQBtn) goLatestQBtn.classList.add('hidden');
+    return;
+  }
+
+  const targetCard = document.getElementById(`q-card-${targetIndex}`);
+  if (targetCard) {
+    const rect = targetCard.getBoundingClientRect();
+    const isOutOfView = rect.bottom < 0 || rect.top > window.innerHeight;
+    if (isOutOfView) {
+      if (goLatestQBtn) goLatestQBtn.classList.remove('hidden');
+    } else {
+      if (goLatestQBtn) goLatestQBtn.classList.add('hidden');
+    }
+  }
+}
+
+function scrollToLatestUnansweredQuestion() {
+  const targetIndex = userAnswers.findIndex(ans => ans === null);
+  if (targetIndex !== -1) {
+    const targetCard = document.getElementById(`q-card-${targetIndex}`);
+    if (targetCard) {
+      targetCard.scrollIntoView({ behavior: 'smooth', block: 'center' });
+    }
+  }
+}
+
+// Fullscreen Toggle Logic
+function toggleFullscreen() {
+  const docEl = document.documentElement;
+  const isFs = document.fullscreenElement || document.webkitFullscreenElement || document.msFullscreenElement;
+
+  if (!isFs) {
+    if (docEl.requestFullscreen) {
+      docEl.requestFullscreen().catch((err) => console.warn(`Fullscreen error: ${err.message}`));
+    } else if (docEl.webkitRequestFullscreen) {
+      docEl.webkitRequestFullscreen();
+    } else if (docEl.msRequestFullscreen) {
+      docEl.msRequestFullscreen();
+    }
+  } else {
+    if (document.exitFullscreen) {
+      document.exitFullscreen();
+    } else if (document.webkitExitFullscreen) {
+      document.webkitExitFullscreen();
+    } else if (document.msExitFullscreen) {
+      document.msExitFullscreen();
+    }
+  }
+}
+
+['fullscreenchange', 'webkitfullscreenchange', 'msfullscreenchange'].forEach(eventType => {
+  document.addEventListener(eventType, () => {
+    const fsBtn = document.getElementById('fullscreen-btn');
+    const isFs = document.fullscreenElement || document.webkitFullscreenElement || document.msFullscreenElement;
+    if (fsBtn) {
+      fsBtn.textContent = isFs ? getTranslation('btn_exit_fullscreen') : getTranslation('btn_fullscreen');
+    }
+  });
+});

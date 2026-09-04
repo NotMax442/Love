@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -9,19 +10,21 @@
 
   <!-- Google AdSense Master Script -->
   <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-4210272281940886"
-       crossorigin="anonymous"></script>
+    crossorigin="anonymous"></script>
 </head>
+
 <body>
   <div class="app-container">
 
     <!-- Top Navigation Bar -->
     <nav class="main-navbar">
       <div class="nav-links">
-        <a href="index.html" class="nav-item" data-i18n="nav_home">HOME</a>
-        <a href="about.html" class="nav-item" data-i18n="nav_about">ABOUT</a>
-        <a href="contact.html" class="nav-item" data-i18n="nav_contact">CONTACT US</a>
-        <a href="account.html" class="nav-item" data-i18n="nav_account">MY ACCOUNT</a>
-        <button id="nav-donate-btn" class="nav-item" data-i18n="nav_donate" style="color: #f59e0b; font-weight: 700; background: none; border: none; cursor: pointer;">☕ Support Us</button>
+        <a href="/" class="nav-item" data-i18n="nav_home">HOME</a>
+        <a href="/about" class="nav-item" data-i18n="nav_about">ABOUT</a>
+        <a href="/contact" class="nav-item" data-i18n="nav_contact">CONTACT US</a>
+        <a href="/account" class="nav-item" data-i18n="nav_account">MY ACCOUNT</a>
+        <button id="nav-donate-btn" class="nav-item" data-i18n="nav_donate"
+          style="color: #f59e0b; font-weight: 700; background: none; border: none; cursor: pointer;">☕ Support Us</button>
       </div>
       <div class="nav-controls" style="display: flex; gap: 0.5rem; align-items: center;">
         <select id="language-select" class="lang-select">
@@ -34,49 +37,85 @@
 
     <!-- Results Screen Content -->
     <div id="result-screen" class="screen">
-      <h2>Session Complete!</h2>
+      <h2 data-i18n="result_session_complete">Session Complete!</h2>
+
+      <!-- Morale Boost Banner for <50% scores -->
+      <div id="morale-boost-banner" class="hidden"></div>
 
       <!-- Score Summary Card -->
-      <div class="score-card" style="padding: 1.5rem; text-align: center;">
-        <p id="final-score" style="font-size: 1.1rem; color: var(--text-main); font-weight: 600; margin-bottom: 0.5rem;">Calculating score...</p>
-        <div class="percentage-badge" id="score-percentage" style="font-size: 2.2rem; font-weight: 800; color: #10b981; margin-bottom: 1rem;">0%</div>
-        
-        <div class="progress-bar-bg" style="width: 100%; height: 10px; background: var(--bg-subcard); border-radius: 5px; overflow: hidden; border: 1px solid var(--border-sub);">
-          <div id="progress-bar-fill" class="progress-bar-fill" style="width: 0%; height: 100%; background: #10b981; transition: width 0.8s ease-in-out;"></div>
+      <div class="score-card">
+        <h2 data-i18n="result_title">Quiz Results</h2>
+
+        <!-- SVG Animated Two-Phase Pie Chart Container -->
+        <div class="pie-chart-container">
+          <svg class="pie-chart-svg" viewBox="0 0 100 100">
+            <!-- Neutral background ring -->
+            <circle class="pie-ring bg-ring" cx="50" cy="50" r="40" />
+            <!-- Green correct answers ring -->
+            <circle id="correct-arc" class="pie-ring correct-ring" cx="50" cy="50" r="40" />
+            <!-- Red incorrect answers ring -->
+            <circle id="incorrect-arc" class="pie-ring incorrect-ring" cx="50" cy="50" r="40" />
+          </svg>
+          <div class="pie-center-text">
+            <span id="center-percent">0%</span>
+            <span class="center-label" data-i18n="label_accuracy">Accuracy</span>
+          </div>
+        </div>
+
+        <!-- Synchronized Stats Counter Grid -->
+        <div class="stats-summary-grid">
+          <div class="stat-card correct-card">
+            <span class="stat-label" data-i18n="label_correct">Correct</span>
+            <span id="correct-count-display" class="stat-value">0</span>
+            <span id="correct-percent-display" class="stat-sub">0%</span>
+          </div>
+          <div class="stat-card incorrect-card">
+            <span class="stat-label" data-i18n="label_incorrect">Incorrect</span>
+            <span id="incorrect-count-display" class="stat-value">0</span>
+            <span id="incorrect-percent-display" class="stat-sub">0%</span>
+          </div>
         </div>
       </div>
 
-      <!-- Review Filter Buttons -->
-      <div id="review-filter-container" style="display: flex; gap: 0.5rem; justify-content: center; margin: 1.5rem 0 1rem 0;">
-        <button id="filter-wrong-btn" class="btn primary-btn" style="font-size: 0.85rem; padding: 6px 16px;">❌ Wrong Only</button>
-        <button id="filter-all-btn" class="btn secondary-btn" style="font-size: 0.85rem; padding: 6px 16px;">📋 All Questions</button>
+      <!-- Review Filter & Instant Layout Toggle Controls -->
+      <div id="review-filter-container"
+        style="display: flex; gap: 0.5rem; justify-content: space-between; align-items: center; flex-wrap: wrap; margin: 1.5rem 0 1rem 0;">
+        <div style="display: flex; gap: 0.5rem; flex-wrap: wrap;">
+          <button id="filter-wrong-btn" class="btn primary-btn" style="font-size: 0.85rem; padding: 6px 16px;" data-i18n="filter_wrong">❌ Wrong Only</button>
+          <button id="filter-all-btn" class="btn secondary-btn" style="font-size: 0.85rem; padding: 6px 16px;" data-i18n="filter_all">📋 All Questions</button>
+        </div>
+        <button id="toggle-style-btn" class="btn secondary-btn" style="font-size: 0.85rem; padding: 6px 16px; display: flex; align-items: center; gap: 0.4rem;">
+          ⚙️ <span id="toggle-style-label" data-i18n="option_style_compact">Compact View</span>
+        </button>
       </div>
 
       <!-- Question Review List -->
       <div id="review-container" class="review-list" style="display: flex; flex-direction: column; gap: 1rem;"></div>
 
       <!-- Google AdSense Container -->
-      <div class="result-ad-container" style="margin: 2rem 0; text-align: center; min-height: 100px; background: var(--bg-subcard); padding: 1rem; border-radius: 8px; border: 1px solid var(--border-sub);">
-        <span class="ad-label" style="display: block; font-size: 0.75rem; color: var(--text-sub); margin-bottom: 0.5rem; text-transform: uppercase; letter-spacing: 0.05em;">Sponsored</span>
-        <ins class="adsbygoogle"
-             style="display:block"
-             data-ad-client="ca-pub-4210272281940886"
-             data-ad-format="auto"
-             data-full-width-responsive="true"></ins>
+      <div class="result-ad-container"
+        style="margin: 2rem 0; text-align: center; min-height: 100px; background: var(--bg-subcard); padding: 1rem; border-radius: 8px; border: 1px solid var(--border-sub);">
+        <span class="ad-label"
+          style="display: block; font-size: 0.75rem; color: var(--text-sub); margin-bottom: 0.5rem; text-transform: uppercase; letter-spacing: 0.05em;" data-i18n="label_sponsored">Sponsored</span>
+        <ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-4210272281940886" data-ad-format="auto"
+          data-full-width-responsive="true"></ins>
       </div>
 
       <!-- Action Buttons -->
-      <div class="result-actions" style="display: flex; gap: 1rem; justify-content: center; flex-wrap: wrap; margin-top: 1.5rem;">
+      <div class="result-actions"
+        style="display: flex; gap: 1rem; justify-content: center; flex-wrap: wrap; margin-top: 1.5rem;">
         <button id="retry-missed-btn" class="btn warning-btn hidden">
-          🎯 Retry Missed Questions (<span id="missed-count">0</span>)
+          <span data-i18n="btn_retry_missed">🎯 Retry Missed Questions</span> (<span id="missed-count">0</span>)
         </button>
-        <button id="restart-btn" class="btn primary-btn">Return Home</button>
+        <button id="restart-btn" class="btn primary-btn" data-i18n="btn_return_home">Return Home</button>
       </div>
     </div>
 
     <!-- Site Footer -->
-    <footer class="main-footer" style="margin-top: 3rem; padding-top: 1.5rem; border-top: 1px solid var(--border-color); text-align: center; font-size: 0.85rem; color: var(--text-sub);">
-      <p>© 2026 TestforUHS. All rights reserved. | <a href="#" id="open-privacy-btn" style="color: var(--text-heading); text-decoration: underline;">Privacy Policy</a></p>
+    <footer class="main-footer"
+      style="margin-top: 3rem; padding-top: 1.5rem; border-top: 1px solid var(--border-color); text-align: center; font-size: 0.85rem; color: var(--text-sub);">
+      <p>© 2026 TestforUHS. All rights reserved. | <a href="#" id="open-privacy-btn"
+          style="color: var(--text-heading); text-decoration: underline;" data-i18n="privacy_link">Privacy Policy</a></p>
     </footer>
 
   </div>
@@ -93,20 +132,23 @@
         <div class="donate-qr-wrapper"><img src="assets/khqr.png" alt="KHQR Code" class="khqr-card-img"></div>
       </div>
       <div style="margin-top: 1.5rem; text-align: center;">
-        <button id="bottom-close-donate-btn" class="btn secondary-btn" style="width: 100%; max-width: 200px;" data-i18n="btn_close">Close</button>
+        <button id="bottom-close-donate-btn" class="btn secondary-btn" style="width: 100%; max-width: 200px;"
+          data-i18n="btn_close">Close</button>
       </div>
     </div>
   </div>
 
   <div id="privacy-modal" class="modal-overlay hidden">
-    <div class="modal-card" style="max-width: 600px; text-align: left; max-height: 80vh; overflow-y: auto; position: relative; padding: 2.5rem 1.5rem 1.5rem 1.5rem;">
+    <div class="modal-card"
+      style="max-width: 600px; text-align: left; max-height: 80vh; overflow-y: auto; position: relative; padding: 2.5rem 1.5rem 1.5rem 1.5rem;">
       <button id="close-privacy-btn" class="modal-close-icon" aria-label="Close modal">&times;</button>
-      <h3 style="margin-bottom: 1rem; color: var(--text-main);">Privacy Policy</h3>
+      <h3 style="margin-bottom: 1rem; color: var(--text-main);" data-i18n="about_privacy_title">Privacy Policy</h3>
       <div style="font-size: 0.85rem; line-height: 1.6; color: var(--text-sub);">
-        <p>At <strong>TestforUHS</strong>, visitor privacy is one of our main priorities.</p>
+        <p data-i18n="about_privacy_desc">At <strong>TestforUHS</strong>, visitor privacy is one of our main priorities.</p>
       </div>
       <div style="margin-top: 1.5rem; text-align: center;">
-        <button id="bottom-close-privacy-btn" class="btn secondary-btn" style="width: 100%; max-width: 200px;" data-i18n="btn_close">Close</button>
+        <button id="bottom-close-privacy-btn" class="btn secondary-btn" style="width: 100%; max-width: 200px;"
+          data-i18n="btn_close">Close</button>
       </div>
     </div>
   </div>
@@ -114,4 +156,5 @@
   <script src="shared.js"></script>
   <script src="result.js"></script>
 </body>
+
 </html>

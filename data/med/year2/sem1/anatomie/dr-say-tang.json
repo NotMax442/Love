@@ -1,0 +1,103 @@
+{
+  "questions": [
+    {
+      "id": 1,
+      "question": "Quel a d'origine arthère axillaire ? fait suite au dessou du milieu de la clavicule à",
+      "options": [
+        "Artère carotide commune",
+        "Artère thoracique interne",
+        "Artère sous-clavière",
+        "Artère sub-clavière"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 2,
+      "question": "A trajet de vein axillaire",
+      "options": [
+        "Oblique en bas et en dehors",
+        "Oblique en haute et en dedans sur le flanc médial",
+        "Accompagné de l'artère axillaire",
+        "Oblique en haute dans le planc profound"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 3,
+      "question": "A trajet de l'artère axillaire",
+      "options": [
+        "Oblique en bas et en dehors",
+        "Oblique en haute et en dedans sur le flanc médial",
+        "Accompagné de l'artère axillaire",
+        "Oblique en haute dans le planc profound"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 4,
+      "question": "Origine de la plexus brachial du tronc inférieure à quel? vous avez choisir :",
+      "options": [
+        "C5, C6",
+        "C7",
+        "C8, D1",
+        "Les 3 branches"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 5,
+      "question": "Les groupes des muscles: Trapèze, grand dorsal, élévateur, rhumboide Supra et infra épineux, grande rond..., toutes les muscles dans le paroi:",
+      "options": [
+        "Antérieur",
+        "Postérieur",
+        "latérale",
+        "Médial"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 6,
+      "question": "Origine de la plexus brachial du tronc supérieur à quel? vous avez choisir :",
+      "options": [
+        "C5, C6",
+        "C7",
+        "C8, D1",
+        "Les 3 branches"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 7,
+      "question": "Quels sont les muscles péri-thoracique à paroi antérieur ?",
+      "options": [
+        "les muscles: trapeze, grand dorsale, scapula, épineux, grand rond",
+        "les muscles: grand pectoral, sub clavier, petit pectoral",
+        "le muscle dentelé,",
+        "les muscles: coraco-brachial, biceps"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 8,
+      "question": "Le branche terminal dans le tronc secondaire postérieur divise en",
+      "options": [
+        "nerf radial et circonflex",
+        "nerf musculo-cutané et racine du nerf médian",
+        "nerf médian, le nerf cubital",
+        "nerf périphérique de l'avant bras"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 9,
+      "question": "Le branche terminal dans le tronc antéro-médial divise en",
+      "options": [
+        "nerf radial et circonflex",
+        "nerf musculo-cutané et racine du nerf médian",
+        "nerf médian, le nerf cubital",
+        "nerf périphérique de l'avant bras"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

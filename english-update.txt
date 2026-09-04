@@ -1,0 +1,14 @@
+## 🚀 NEW FEATURES
+- Added **Anatomy Y2 S1** subject modules and professor lists.
+- Introduced **"Coming Soon!"** placeholders for empty semesters.
+- Added an **Update Info** modal to track patch notes easily.
+
+## ⚡ IMPROVEMENTS
+- Enhanced security using **Telegram Webhook secret tokens**.
+- Implemented dynamic **CORS origin handling** across all GitHub Pages domains.
+- Added automatic **Markdown text formatting** for patch notes.
+
+## 🐛 BUG FIXES
+- Fixed script crash caused by duplicate functions in `home.js`.
+- Resolved `NetworkError` blocking feedback submissions on alternate domains.
+- Converted empty-state cards to static displays to prevent hover animations.

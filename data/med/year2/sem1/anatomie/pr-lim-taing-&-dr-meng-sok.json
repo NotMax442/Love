@@ -1,0 +1,136 @@
+{
+  "questions": [
+    {
+      "id": 1,
+      "question": "Parmi les propositions suivantes concernant Articulation de Chopart, laquelle est exacte :",
+      "options": [
+        "Articulation médio-tarsienne",
+        "Articulation tarso-métatarsienne",
+        "Articulation talo-crural",
+        "Articulation tibio-fiubaire distal sous-talienne",
+        "Avant-pied"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 2,
+      "question": "Parmi les propositions suivantes concernant Articulation de lisfranc, laquelle est exacte :",
+      "options": [
+        "Articulation médio-tarsienne",
+        "Articulation tarso-métatarsienne",
+        "Articulation talo-crural",
+        "Articulation tibio-fiubaire distal sous-talienne",
+        "Avant-pied"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 3,
+      "question": "les ménisques (une ou pusieures proposition(s)exact(s))?",
+      "options": [
+        "Les ménisques sont tirés vers l'arrière en flexion du genou",
+        "Les ménisques sont tirés vers l'avant en flexion du genou",
+        "Les ménisques sont tirés vers l'arrière en extension du genou",
+        "Le ménisque a la forme de E",
+        "Les cornes des ménisques sont maintenues par des ligaments croisés antérieur et postérieur."
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 4,
+      "question": "Parmi les propositions suivantes concernant les os de l'articulation du genou, laquelle est exacte :",
+      "options": [
+        "2 os (fémur et rotule)",
+        "3 os (fémur, rotule et tibia)",
+        "2 os (fémur et tibia)",
+        "4 os (femur, tibia, rotule et péroné)",
+        "5 os (femur, tibia, rotule, péroné et astragal)"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 5,
+      "question": "Les deux condyle arrondis qui reposent sur le plateau plat ne sont pas stable, sa stabilité dépend de combien de ligaments principals qui maintiennent en place le fémur et le tibia?",
+      "options": [
+        "2",
+        "3",
+        "4",
+        "5",
+        "6"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 6,
+      "question": "Quel est le role des ligaments latérale externe ou collatéral lateral?",
+      "options": [
+        "Amortisser l' action du fémur sur le tibia.",
+        "Empêcher le femur de glisser en avant sur le tibia",
+        "Empêcher le femur de glisser postérieur sur le tibia",
+        "Assurer la congruence des surfaces articulaires",
+        "Stabilité transversale du genou."
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 7,
+      "question": "Quel est le role du ligament croisé antérieur du genou?",
+      "options": [
+        "Amortisser l' action du fémur sur le tibia.",
+        "Empêcher le femur de glisser en avant sur le tibia",
+        "Empêcher le femur de glisser postérieur sur le tibia",
+        "Assurer la congruence des surfaces articulaires",
+        "Stabilité transversale du genou."
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 8,
+      "question": "Quel est le role du ligament croisé postérieur du genou?",
+      "options": [
+        "Amortisser l' action du fémur sur le tibia.",
+        "Empêcher le femur de glisser en avant sur le tibia",
+        "Empêcher le femur de glisser postérieur sur le tibia",
+        "Assurer la congruence des surfaces articulaires",
+        "Stabilité transversale du genou."
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 9,
+      "question": "Quel est le role des ménisque interne et externe?",
+      "options": [
+        "Amortisser l' action de la rotule sur le fémur",
+        "Empêcher le femur de glisser en avant sur le tibia",
+        "Empêcher le femur de glisser postérieur sur le tibia",
+        "Assurer la congruence des surfaces articulaires",
+        "Stabilité transversale du genou."
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 10,
+      "question": "Le tarse postérieur (une ou plusieurs proposition(s) exacte(s)) :",
+      "options": [
+        "Cuboïde et os naviculaire",
+        "Les 3 cunéiformes",
+        "Talus et astragal",
+        "Cuboïde, Naviculaire et les cuneiforms",
+        "Métatarses"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 11,
+      "question": "Le tarse antérieur (une ou plusieurs proposition(s) exacte(s)) :",
+      "options": [
+        "Cuboïde et os naviculaire",
+        "Les 3 cunéiformes",
+        "Talus et astragal",
+        "Cuboïde, Naviculaire et les cunéiforms",
+        "Métatarses"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}
