@@ -36,6 +36,7 @@ jobs:
               --string-array-encoding 'base64' \
               --string-array-threshold 1 \
               --reserved-names "^adsbygoogle$" \
+              --reserved-strings "^adsbygoogle$" \
               --control-flow-flattening true \
               --control-flow-flattening-threshold 0.5
           done
