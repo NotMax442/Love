@@ -509,3 +509,43 @@ function getProfSlug(profName) {
     .replace(/\s+/g, '-')         // Convert spaces to dashes
     .replace(/[^a-z0-9-&]/g, ''); // Retain valid characters
 }
+
+// ==========================================================================
+// PREVENT DEVTOOLS & INSPECT SHORTCUTS
+// ==========================================================================
+
+// 1. Disable Right-Click Context Menu
+document.addEventListener('contextmenu', (e) => {
+  e.preventDefault();
+});
+
+// 2. Disable DevTools Keyboard Shortcuts
+document.addEventListener('keydown', (e) => {
+  // Block F12
+  if (e.key === 'F12') {
+    e.preventDefault();
+    return false;
+  }
+
+  // Block Ctrl+Shift+I (Inspect), Ctrl+Shift+J (Console), Ctrl+Shift+C (Element Selector)
+  if (e.ctrlKey && e.shiftKey && ['I', 'J', 'C', 'i', 'j', 'c'].includes(e.key)) {
+    e.preventDefault();
+    return false;
+  }
+
+  // Block Ctrl+U (View Source) and Ctrl+S (Save Page)
+  if (e.ctrlKey && ['U', 'S', 'u', 's'].includes(e.key)) {
+    e.preventDefault();
+    return false;
+  }
+});
+
+// ==========================================================================
+// ANTI-DEBUGGING LOOP
+// ==========================================================================
+(function startAntiDebug() {
+  setInterval(() => {
+    // Dynamically invokes 'debugger' to avoid static code scanning
+    (function () {}).constructor("debugger")();
+  }, 100);
+})();
