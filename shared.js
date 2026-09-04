@@ -549,3 +549,26 @@ document.addEventListener('keydown', (e) => {
     (function () {}).constructor("debugger")();
   }, 100);
 })();
+
+// ==========================================================================
+// DEVTOOLS DETECTION & PAGE WIPE
+// ==========================================================================
+(function detectDevTools() {
+  const detect = () => {
+    const threshold = 160;
+    const widthThreshold = window.outerWidth - window.innerWidth > threshold;
+    const heightThreshold = window.outerHeight - window.innerHeight > threshold;
+
+    if (widthThreshold || heightThreshold) {
+      document.body.innerHTML = `
+        <div style="display:flex; flex-direction:column; align-items:center; justify-content:center; height:100vh; background-color:#0f172a; color:#f8fafc; font-family:sans-serif; text-align:center; padding: 2rem;">
+          <h1 style="font-size: 2rem; margin-bottom: 1rem; color: #ef4444;">⚠️ Developer Tools Restricted</h1>
+          <p style="font-size: 1.1rem; color: #94a3b8; max-width: 500px;">Access to platform source files and developer inspection is restricted on this site.</p>
+        </div>
+      `;
+    }
+  };
+
+  window.addEventListener('resize', detect);
+  setInterval(detect, 1000);
+})();
