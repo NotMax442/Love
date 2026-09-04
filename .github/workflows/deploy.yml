@@ -1,0 +1,60 @@
+name: Obfuscate and Deploy to GitHub Pages
+
+on:
+  push:
+    branches:
+      - main # Runs automatically whenever you push code to main
+
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+
+jobs:
+  build-and-deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout Code
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: Install Obfuscator Tool
+        run: npm install -g javascript-obfuscator
+
+      - name: Obfuscate JS Files
+        run: |
+          javascript-obfuscator ./shared.js --output ./shared.js \
+            --compact true \
+            --self-defending true \
+            --string-array true \
+            --string-array-encoding 'base64' \
+            --string-array-threshold 1 \
+            --split-strings true \
+            --control-flow-flattening true \
+            --control-flow-flattening-threshold 0.75 \
+            --debug-protection true \
+            --disable-console-output true
+
+          javascript-obfuscator ./home.js --output ./home.js \
+            --compact true \
+            --self-defending true \
+            --string-array true \
+            --string-array-encoding 'base64' \
+            --string-array-threshold 1 \
+            --split-strings true \
+            --control-flow-flattening true \
+            --control-flow-flattening-threshold 0.75 \
+            --debug-protection true \
+            --disable-console-output true
+
+      - name: Upload Artifact for GitHub Pages
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: '.'
+
+      - name: Deploy to GitHub Pages
+        uses: actions/deploy-pages@v4
