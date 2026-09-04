@@ -3,7 +3,7 @@ name: Obfuscate and Deploy to GitHub Pages
 on:
   push:
     branches:
-      - main # Runs automatically whenever you push code to main
+      - main
 
 permissions:
   contents: write
@@ -32,15 +32,12 @@ jobs:
             echo "Obfuscating $file..."
             javascript-obfuscator "$file" --output "$file" \
               --compact true \
-              --self-defending true \
               --string-array true \
               --string-array-encoding 'base64' \
               --string-array-threshold 1 \
-              --split-strings true \
+              --reserved-names "^adsbygoogle$" \
               --control-flow-flattening true \
-              --control-flow-flattening-threshold 0.75 \
-              --debug-protection true \
-              --disable-console-output true
+              --control-flow-flattening-threshold 0.5
           done
 
       - name: Upload Artifact for GitHub Pages
