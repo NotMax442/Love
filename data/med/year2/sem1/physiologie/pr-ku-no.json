@@ -1,0 +1,404 @@
+{
+  "questions": [
+    {
+      "id": 1,
+      "question": "Concernant la première ligne de défense immunitaire, quels sont les intervenants de la défense ?",
+      "images": [],
+      "image": "",
+      "options": [
+        "La peau et les muqueuses",
+        "Les immunoglobulines (G)",
+        "Les lymphocytes (B)",
+        "Les phagocytes"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 2,
+      "question": "Les cellules impliquées dans la destruction des cellules tumorales sont représentées par :",
+      "images": [],
+      "image": "",
+      "options": [
+        "Les mastocytes",
+        "Les polynucléaires neutrophiles",
+        "Les cellules NK",
+        "Les polynucléaires éosinophiles"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 3,
+      "question": "Les organes lymphoïdes périphériques, Indiquer une proposition juste.",
+      "images": [],
+      "image": "",
+      "options": [
+        "Sont la moelle osseuse rouge et le thymus",
+        "Sont riches en polynucléaires",
+        "Sont des lieux de rencontre privilégiée entre les antigènes et les lymphocytes",
+        "Sont riches en monocytes"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 4,
+      "question": "Parmi les classes et sous classes d'immunoglobulines suivantes indiquer celle qui passe dans la circulation fœtale par transfert placentaire :",
+      "images": [],
+      "image": "",
+      "options": [
+        "IgM",
+        "IgG",
+        "IgE",
+        "IgA"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 5,
+      "question": "Dans la réponse immunitaire à médiation cellulaire deux types de cellules jouent en rôle déterminant. Ces types de cellules sont :",
+      "images": [],
+      "image": "",
+      "options": [
+        "Des monocytes et lymphocytes (B)",
+        "Des lymphocytes (T) et (B)",
+        "Les monocytes et lymphocytes T",
+        "Les polynucléaires"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 6,
+      "question": "Concernant les réactions inflammatoires: lesquelles sont correctes?",
+      "images": [],
+      "image": "",
+      "options": [
+        "Se mettent en place à la suite d'infections locale",
+        "Débutent par la libération de médiateurs chimiques",
+        "Sont caractérisées par les symptômes: rougeur, chaleur, œdème et douleur",
+        "Se mettent en place à la suite d'infections locale, Débutent par la libération de médiateurs chimiques, Sont caractérisées par les symptômes: rougeur, chaleur, œdème et douleur",
+        "Peuvent s'accompagner de fièvre"
+      ],
+      "correctIndex": 3
+    },
+    {
+      "id": 7,
+      "question": "Concernant les agents pathogènes, le quel est correct?",
+      "images": [],
+      "image": "",
+      "options": [
+        "Sont forcément nocifs",
+        "Sont toujours des bactéries",
+        "Sont des organismes ou des molécules susceptibles de provoquer des malades",
+        "Sont tous favorisée d'immunogénécité"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 8,
+      "question": "Concernant la mémoire immunitaire, Indiquer les propositions correctes.",
+      "images": [],
+      "image": "",
+      "options": [
+        "Est des cellules qui ont déjà été exposées à un antigène",
+        "Repose sur la mise en place de clones de lymphocytes spécifiques",
+        "Est conséquence d'un remaniement allélique des gènes codant les récepteurs spécifiques antigéniques",
+        "N'est pas définitive",
+        "Est des cellules qui ont déjà été exposées à un antigène, Repose sur la mise en place de clones de lymphocytes spécifiques, Est conséquence d'un remaniement allélique des gènes codant les récepteurs spécifiques antigéniques"
+      ],
+      "correctIndex": 4
+    },
+    {
+      "id": 9,
+      "question": "Concernant la vaccination, laquelle est correcte ?",
+      "images": [],
+      "image": "",
+      "options": [
+        "Est un transfert d'immunité passive",
+        "Confère une immunité active",
+        "Un vaccin atténué est obtenu par l'utilisation d'un antiseptique",
+        "Ne nécessite pas un ou plusieurs rappels en fonction du pouvoir antigénique du vaccin"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 10,
+      "question": "Concernant les cellules dendritiques, lesquelles sont correctes:",
+      "images": [],
+      "image": "",
+      "options": [
+        "Sont présentes dans les muqueuses",
+        "Sont des cellules présentatrices d'antigènes",
+        "Ne sont pas douées de mobilité",
+        "Sont présentes dans les muqueuses, Sont des cellules présentatrices d'antigènes, Ne sont pas douées de mobilité"
+      ],
+      "correctIndex": 3
+    },
+    {
+      "id": 11,
+      "question": "Les cellules cytotoxiques qui jouent un rôle dans la défense anti-tumorale et dont l'activité est augmentée par l'interféron sont :",
+      "images": [],
+      "image": "",
+      "options": [
+        "Cellules (B)",
+        "Cellules (T)",
+        "Polynucléaires neutrophiles",
+        "Cellules NK"
+      ],
+      "correctIndex": 3
+    },
+    {
+      "id": 12,
+      "question": "En réponse primaire à un antigène thymo-dépendant, les anticorps sériques sont :",
+      "images": [],
+      "image": "",
+      "options": [
+        "Seulement des IgM",
+        "Seulement des IgG",
+        "Des IgM puis des IgG",
+        "Des IgG puis des IgM",
+        "Simutanément des IgM et des IgG"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 13,
+      "question": "Quelle est l'immunoglobuline humaine qui ne passe pas le placenta et qui est capable d'activer la voie classique du complément ?",
+      "images": [],
+      "image": "",
+      "options": [
+        "IgG",
+        "Ig (D)",
+        "IgE",
+        "IgM"
+      ],
+      "correctIndex": 3
+    },
+    {
+      "id": 14,
+      "question": "A l'âge de 3 jours, les anticorps d'un nouveau-né sont constitués en grande partie par :",
+      "images": [],
+      "image": "",
+      "options": [
+        "Les IgA sériques maternelles",
+        "Les IgM maternelles",
+        "Les IgG maternelles",
+        "Les IgE qu'il a synthétisé",
+        "Les IgG qu'il a synthétisé"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 15,
+      "question": "La demi-vie plasmatique des IgG chez l'homme est de :",
+      "images": [],
+      "image": "",
+      "options": [
+        "12 heures",
+        "24 heures",
+        "3 jours",
+        "3 semaines",
+        "6 semaines"
+      ],
+      "correctIndex": 3
+    },
+    {
+      "id": 16,
+      "question": "La manifestation clinique la plus fréquente de la maladie sérique est :",
+      "images": [],
+      "image": "",
+      "options": [
+        "Asthme chronique",
+        "Urticaire généralisé",
+        "Collapsus vasculaire",
+        "Arthrite",
+        "Toux avec râles crépitants à l'auscultation"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 17,
+      "question": "Une des cellules inflammatoires suivantes est évocatrice d'une inflammation allergique, laquelle ?",
+      "images": [],
+      "image": "",
+      "options": [
+        "Lymphocyte",
+        "Polynucléaires neutrophile",
+        "Polynucléaires éosinophile",
+        "Plasmocyte",
+        "Polynucléaire basophile"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 18,
+      "question": "Parmi les médiateurs suivants, il en est un qui n'a pas l'interféron, lequel ?",
+      "images": [],
+      "image": "",
+      "options": [
+        "Inhibition de la croissance cellulaire",
+        "Diminution des réponses à médiation cellulaire observées au début de l'infection virale",
+        "Augmentation de l'expression des AG HLA de classe I pour les IFNa/B et les AG HLA de classe II pour les IFNy,",
+        "Augmentation de la croissance cellulaire"
+      ],
+      "correctIndex": 3
+    },
+    {
+      "id": 19,
+      "question": "Interféron gamma est produite par :",
+      "images": [],
+      "image": "",
+      "options": [
+        "N'importe quelle cellule infectée par un virus",
+        "Fibroblastes infectés par un virus",
+        "Lymphocytes T activés",
+        "Polynucléaires",
+        "Macrophage"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 20,
+      "question": "Interleukine jouant un rôle majeur dans la croissance des plasmocytes:",
+      "images": [],
+      "image": "",
+      "options": [
+        "IL2",
+        "IL3",
+        "IL4",
+        "IL5",
+        "IL6"
+      ],
+      "correctIndex": 4
+    },
+    {
+      "id": 21,
+      "question": "Chez l'homme, le chromosome qui porte les gènes du complexe majeur d'histocompatibilité est le chromosome:",
+      "images": [],
+      "image": "",
+      "options": [
+        "2",
+        "6",
+        "12",
+        "14",
+        "22"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 22,
+      "question": "Parmi les propositions suivantes, lequel concerne les organes lymphoïdes primaires?",
+      "images": [],
+      "image": "",
+      "options": [
+        "Ganglion lymphatique",
+        "Rate",
+        "Tissu lymphoïde muqueux",
+        "Thymus,"
+      ],
+      "correctIndex": 3
+    },
+    {
+      "id": 23,
+      "question": "Parmi les propositions suivantes, lequel n'a pas concerné des organes lymphoïdes secondaires ?",
+      "images": [],
+      "image": "",
+      "options": [
+        "Ganglion lymphatique",
+        "Rate",
+        "Tissu lymphoïde muqueux",
+        "Moelle osseux"
+      ],
+      "correctIndex": 3
+    },
+    {
+      "id": 24,
+      "question": "Parmi les cellules suivantes quelle est variété qui fabrique les anticorps",
+      "images": [],
+      "image": "",
+      "options": [
+        "Lymphocytes (T)",
+        "Plasmocytes",
+        "Monocytes",
+        "Macrophages"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 25,
+      "question": "Lors de la première rencontre avec un antigène, quelle est la famille d'immunoglobuline synthétisée ?",
+      "images": [],
+      "image": "",
+      "options": [
+        "Ig (A)",
+        "IgM",
+        "IgG",
+        "Ig (D)"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 26,
+      "question": "Lequel des mécanismes suivants n'est pas un moyen de défense non spécifique ?",
+      "images": [],
+      "image": "",
+      "options": [
+        "Lymphocyte",
+        "Complément",
+        "Mastocyte",
+        "Polynucléaire"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 27,
+      "question": "Quelle est, parmi les suivantes, les cellules qui appartiennent à l'immunitaire cellulaire ?",
+      "images": [],
+      "image": "",
+      "options": [
+        "Lymphocytes (B)",
+        "Lymphocytes (T)",
+        "Lymphocytes killer",
+        "Plasmocytes"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 28,
+      "question": "Quelle est parmi les suivantes les principales cellules qui modulent l'activité des lymphocytes T cytotoxiques ?",
+      "images": [],
+      "image": "",
+      "options": [
+        "Macrophages",
+        "Lymphocytes(B)",
+        "Lymphocytes CD4",
+        "Lymphocytes suppresseurs"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 29,
+      "question": "Parmi les propositions suivantes, lequel n'a pas trouvé dans le système immunitaire ?",
+      "images": [],
+      "image": "",
+      "options": [
+        "Ganglion",
+        "Rate",
+        "Tissu lymphoïde muqueux",
+        "Cartilage"
+      ],
+      "correctIndex": 3
+    },
+    {
+      "id": 30,
+      "question": "Parmi les propositions suivantes, lequel n'a pas les cellules sanguines ?",
+      "images": [],
+      "image": "",
+      "options": [
+        "Hématie",
+        "Plaquette",
+        "Leucocyte",
+        "Fibroblaste"
+      ],
+      "correctIndex": 3
+    }
+  ]
+}

@@ -1,0 +1,3616 @@
+{
+  "questions": [
+    {
+      "id": 1,
+      "question": "Which of the following is NOT a membranous organelle?",
+      "image": "",
+      "options": [
+        "Lysosomes",
+        "Peroxisomes",
+        "Mitochondria",
+        "Ribosomes",
+        "Endoplasmic reticulum"
+      ],
+      "correctIndex": 3
+    },
+    {
+      "id": 2,
+      "question": "Which organelle contains digestive enzymes?",
+      "image": "",
+      "options": [
+        "Rough endoplasmic reticulum",
+        "Smooth endoplasmic reticulum",
+        "Lysosome",
+        "Golgi apparatus",
+        "Mitochondria"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 3,
+      "question": "Which organelle is considered the powerhouse of the cell?",
+      "image": "",
+      "options": [
+        "Rough endoplasmic reticulum",
+        "Smooth endoplasmic reticulum",
+        "Lysosome",
+        "Golgi apparatus",
+        "Mitochondria"
+      ],
+      "correctIndex": 4
+    },
+    {
+      "id": 4,
+      "question": "What structure is at the base of cilia?",
+      "image": "",
+      "options": [
+        "Ribosomes",
+        "Peroxisome",
+        "Microfilaments",
+        "Centrioles",
+        "Nucleoli"
+      ],
+      "correctIndex": 3
+    },
+    {
+      "id": 5,
+      "question": "Which of the following is NOT considered an inclusion?",
+      "image": "",
+      "options": [
+        "Pigment",
+        "Glycogen",
+        "Lipid",
+        "Secretory granules",
+        "Mitochondria"
+      ],
+      "correctIndex": 4
+    },
+    {
+      "id": 6,
+      "question": "Collectively, what is the cytoplasm and nucleus called?",
+      "image": "",
+      "options": [
+        "Plasmalemma",
+        "Glycocalyx",
+        "Protoplasm",
+        "Cristae",
+        "Ground substance"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 7,
+      "question": "What is the term for the general process that cells use to expunge material from the cell?",
+      "image": "",
+      "options": [
+        "Endocytosis",
+        "Exocytosis",
+        "Pinocytosis",
+        "Phagocytosis",
+        "Active transport"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 8,
+      "question": "Which organelle sorts and packages proteins within a cell?",
+      "image": "",
+      "options": [
+        "Rough endoplasmic reticulum",
+        "Smooth endoplasmic reticulum",
+        "Lysosome",
+        "Golgi apparatus",
+        "Mitochondria"
+      ],
+      "correctIndex": 3
+    },
+    {
+      "id": 9,
+      "question": "Which of the following is NOT a membranous organelle?",
+      "image": "",
+      "options": [
+        "Lysosomes",
+        "Filaments",
+        "Peroxisomes",
+        "Mitochondria",
+        "Endoplasmic reticulum"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 10,
+      "question": "What are the folds on the inner mitochodrial membrane called?",
+      "image": "",
+      "options": [
+        "Plasmalemma",
+        "Glycocalyx",
+        "Protoplasm",
+        "Cristae",
+        "Ground substance"
+      ],
+      "correctIndex": 3
+    },
+    {
+      "id": 11,
+      "question": "Which organelle is involved in lipid metabolism?",
+      "image": "",
+      "options": [
+        "Rough endoplasmic reticulum",
+        "Smooth endoplasmic reticulum",
+        "Lysosome",
+        "Golgi apparatus",
+        "Mitochondria"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 12,
+      "question": "Which organelle contains detoxifying enzymes?",
+      "image": "",
+      "options": [
+        "Ribosomes",
+        "Peroxisome",
+        "Microfilaments",
+        "Centrioles",
+        "Nucleoli"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 13,
+      "question": "Which of the following is NOT a membranous organelle?",
+      "image": "",
+      "options": [
+        "Microtubules",
+        "Lysosomes",
+        "Peroxisomes",
+        "Mitochondria",
+        "Endoplasmic reticulum"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 14,
+      "question": "What is the limiting membrane of a cell?",
+      "image": "",
+      "options": [
+        "Plasmalemma",
+        "Glycocalyx",
+        "Protoplasm",
+        "Cristae",
+        "Ground substance"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 15,
+      "question": "What is also called a low resistance junction?",
+      "image": "",
+      "options": [
+        "Tight junction",
+        "Gap junction",
+        "Junctional epithelium",
+        "Junctional complex",
+        "None of the above"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 16,
+      "question": "Which of the following is an organelle?",
+      "image": "",
+      "options": [
+        "Pigment",
+        "Glycogen",
+        "Lipid",
+        "Secretory granules",
+        "Mitochondria"
+      ],
+      "correctIndex": 4
+    },
+    {
+      "id": 17,
+      "question": "What is the term for the general process that cells use to bring things into the cell?",
+      "image": "",
+      "options": [
+        "Endocytosis",
+        "Exocytosis",
+        "Pinocytosis",
+        "Phagocytosis",
+        "Active transport"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 18,
+      "question": "Which organelle produces protein for export?",
+      "image": "",
+      "options": [
+        "Rough endoplasmic reticulum",
+        "Smooth endoplasmic reticulum",
+        "Lysosome",
+        "Golgi apparatus",
+        "Mitochondria"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 19,
+      "question": "Where are ribosomes constructed?",
+      "image": "",
+      "options": [
+        "Cytoskeleton",
+        "Peroxisome",
+        "Microfilaments",
+        "Centrioles",
+        "Nucleoli"
+      ],
+      "correctIndex": 4
+    },
+    {
+      "id": 20,
+      "question": "What is the term for the process used by cells for the transport in of particulate matter?",
+      "image": "",
+      "options": [
+        "Endocytosis",
+        "Exocytosis",
+        "Pinocytosis",
+        "Phagocytosis",
+        "Active transport"
+      ],
+      "correctIndex": 3
+    },
+    {
+      "id": 21,
+      "question": "What is another term for the cytoplasm outside of organelles?",
+      "image": "",
+      "options": [
+        "Plasmalemma",
+        "Glycocalyx",
+        "Protoplasm",
+        "Cristae",
+        "Ground substance"
+      ],
+      "correctIndex": 4
+    },
+    {
+      "id": 22,
+      "question": "What is the a small clear space within a cell?",
+      "image": "",
+      "options": [
+        "Space of Disse",
+        "Space of Mall",
+        "Vacuole",
+        "Lacuna",
+        "Howship's lacuna"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 23,
+      "question": "Which of the following is NOT a membranous organelle?",
+      "image": "",
+      "options": [
+        "Lysosomes",
+        "Peroxisomes",
+        "Centrioles",
+        "Mitochondria",
+        "Endoplasmic reticulum"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 24,
+      "question": "What is the polysaccharide coating that is sometimes found on the cell membrane?",
+      "image": "",
+      "options": [
+        "Plasmalemma",
+        "Glycocalyx",
+        "Protoplasm",
+        "Cristae",
+        "Ground substance"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 25,
+      "question": "What process is nicknamed \"cell drinking\"?",
+      "image": "",
+      "options": [
+        "Endocytosis",
+        "Exocytosis",
+        "Pinocytosis",
+        "Phagocytosis",
+        "Active transport"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 26,
+      "question": "Which organelle is studded with ribosomes?",
+      "image": "",
+      "options": [
+        "Rough endoplasmic reticulum",
+        "Smooth endoplasmic reticulum",
+        "Lysosome",
+        "Golgi apparatus",
+        "Mitochondria"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 27,
+      "question": "Where is the site of protein synthesis?",
+      "image": "",
+      "options": [
+        "Ribosomes",
+        "Peroxisome",
+        "Microfilaments",
+        "Centrioles",
+        "Nucleoli"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 28,
+      "question": "What structure contributes to the cells cytoskeleton?",
+      "image": "",
+      "options": [
+        "Ribosomes",
+        "Peroxisome",
+        "Microfilaments",
+        "Centrioles",
+        "Nucleoli"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 29,
+      "question": "Which of the following is NOT primarily composed of connective tissue?",
+      "image": "",
+      "options": [
+        "Blood",
+        "Bone",
+        "Tendon",
+        "Intervertebral disc",
+        "Myometrium"
+      ],
+      "correctIndex": 4
+    },
+    {
+      "id": 30,
+      "question": "Which connective tissue cell type contains properties of smooth muscle cells?",
+      "image": "",
+      "options": [
+        "Fibroblast",
+        "Myofibroblast",
+        "Histiocyte",
+        "Plasma cell",
+        "Mast cell"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 31,
+      "question": "Which cell is a connective tissue macrophage?",
+      "image": "",
+      "options": [
+        "Kupffer cells",
+        "Histiocyte",
+        "Dust cell",
+        "Langerhans cell",
+        "Microglia"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 32,
+      "question": "Which of the following can be classified as \"specialized connective tissue\"?",
+      "image": "",
+      "options": [
+        "Mesenchyme",
+        "Mucous connective tissue",
+        "Dense connective tissue",
+        "Blood",
+        "Loose connective tissue"
+      ],
+      "correctIndex": 3
+    },
+    {
+      "id": 33,
+      "question": "Which of the following can be classified as \"embryonic connective tissue\"?",
+      "image": "",
+      "options": [
+        "Cartilage",
+        "Mucous connective tissue",
+        "Adipose tissue",
+        "Bone",
+        "Blood"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 34,
+      "question": "What type of tissue makes up the dermis of the skin?",
+      "image": "",
+      "options": [
+        "Mucous connective tissue",
+        "Mesenchyme",
+        "Loose irregular connective tissue",
+        "Dense irregular connective tissue",
+        "Dense regular connective tissue"
+      ],
+      "correctIndex": 3
+    },
+    {
+      "id": 35,
+      "question": "What type of adipose tissue tends to increase as humans age?",
+      "image": "",
+      "options": [
+        "Brown adipose tissue",
+        "White adipose tissue",
+        "Unilocular adipose tissue",
+        "Multilocular adipose tissue",
+        "White adipose tissue, Unilocular adipose tissue"
+      ],
+      "correctIndex": 4
+    },
+    {
+      "id": 36,
+      "question": "Which of the following is NOT primarily composed of connective tissue?",
+      "image": "",
+      "options": [
+        "Bone marrow",
+        "Articular cartilage",
+        "Heart",
+        "Mesenchyme",
+        "Fat"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 37,
+      "question": "Which one of these cells is not a cell type routinely found in loose connective tissue?",
+      "image": "",
+      "options": [
+        "Fibroblast",
+        "Microglia",
+        "Histiocyte",
+        "Plasma cell",
+        "Mast cell"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 38,
+      "question": "Which connective tissue cell is a tissue macrophage?",
+      "image": "",
+      "options": [
+        "Fibroblast",
+        "Myofibroblast",
+        "Histiocyte",
+        "Plasma cell",
+        "Mast cell"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 39,
+      "question": "Which of the following can be classified as \"specialized connective tissue\"?",
+      "image": "",
+      "options": [
+        "Cartilage",
+        "Loose connective tissue",
+        "Mesenchyme",
+        "Dense connective tissue",
+        "Mucous connective tissue"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 40,
+      "question": "Which of the following can be classified as \"connective tissue proper\"?",
+      "image": "",
+      "options": [
+        "Adipose tissue",
+        "Dense irregular connective tissue",
+        "Bone",
+        "Blood",
+        "Cartilage"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 41,
+      "question": "What type of tissue is Wharton's jelly?",
+      "image": "",
+      "options": [
+        "Mucous connective tissue",
+        "Mesenchyme",
+        "Loose irregular connective tissue",
+        "Dense irregular connective tissue",
+        "Dense regular connective tissue"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 42,
+      "question": "What type of tissue is a tendon composed of?",
+      "image": "",
+      "options": [
+        "Mucous connective tissue",
+        "Mesenchyme",
+        "Loose irregular connective tissue",
+        "Dense irregular connective tissue",
+        "Dense regular connective tissue"
+      ],
+      "correctIndex": 4
+    },
+    {
+      "id": 43,
+      "question": "What does connective tissue develop from?",
+      "image": "",
+      "options": [
+        "Mesothelium",
+        "Mesenchyme",
+        "Mesangial cells",
+        "Mesentery",
+        "Wharton's jelly"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 44,
+      "question": "What color do elastic fibers stain with Verhoeff Elastic stain?",
+      "image": "",
+      "options": [
+        "Red/Orange",
+        "Pink/red",
+        "Purple/Red",
+        "Blue/black",
+        "Green/blue"
+      ],
+      "correctIndex": 3
+    },
+    {
+      "id": 45,
+      "question": "Which of the following is a component of the ground substance?",
+      "image": "",
+      "options": [
+        "Hyaluronic acid",
+        "Proteoglycans",
+        "Glycosaminoglycans",
+        "Chondroitin sulfate",
+        "All of the above"
+      ],
+      "correctIndex": 4
+    },
+    {
+      "id": 46,
+      "question": "Which of the following is NOT primarily composed of connective tissue?",
+      "image": "",
+      "options": [
+        "Spinal cord",
+        "Pubic symphysis",
+        "Ligament",
+        "Areolar tissue",
+        "Organ capsule"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 47,
+      "question": "Which connective tissue cell type produces the ground substance in connective tissue?",
+      "image": "",
+      "options": [
+        "Fibroblast",
+        "Myofibroblast",
+        "Histiocyte",
+        "Plasma cell",
+        "Mast cell"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 48,
+      "question": "Which connective tissue cell is derived from B lymphocytes?",
+      "image": "",
+      "options": [
+        "Fibroblast",
+        "Myofibroblast",
+        "Histiocyte",
+        "Plasma cell",
+        "Mast cell"
+      ],
+      "correctIndex": 3
+    },
+    {
+      "id": 49,
+      "question": "Which of the following can be classified as \"specialized connective tissue\"?",
+      "image": "",
+      "options": [
+        "Mesenchyme",
+        "Bone",
+        "Dense connective tissue",
+        "Mucous connective tissue",
+        "Loose connective tissue"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 50,
+      "question": "Which of the following can be classified as \"connective tissue proper\"?",
+      "image": "",
+      "options": [
+        "Bone",
+        "Blood",
+        "Adipose tissue",
+        "Loose irregular connective tissue",
+        "Cartilage"
+      ],
+      "correctIndex": 3
+    },
+    {
+      "id": 51,
+      "question": "What type of connective tissue is an undifferentiated tissue found in the embryo?",
+      "image": "",
+      "options": [
+        "Mucous connective tissue",
+        "Mesenchyme",
+        "Loose irregular connective tissue",
+        "Dense irregular connective tissue",
+        "Dense regular connective tissue"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 52,
+      "question": "What type of tissue is a ligament composed of?",
+      "image": "",
+      "options": [
+        "Mucous connective tissue",
+        "Mesenchyme",
+        "Loose irregular connective tissue",
+        "Dense irregular connective tissue",
+        "Dense regular connective tissue"
+      ],
+      "correctIndex": 4
+    },
+    {
+      "id": 53,
+      "question": "Which of the following is not associated with connective tissue?",
+      "image": "",
+      "options": [
+        "Tightly packed cells",
+        "Extracellular fibers",
+        "Tissue fluid",
+        "Ground substance",
+        "None of the above; all of the above are seen with connective tissue"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 54,
+      "question": "Which of the following would be best suited to visualize lipid?",
+      "image": "",
+      "options": [
+        "Wright's stain",
+        "Hematoxylin and eosin stain",
+        "Sudan stain",
+        "Silver impregnation",
+        "Masson's trichrome stain"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 55,
+      "question": "A beauty treatment for the reduction of wrinkles is the injection of hyaluronic acid into the wrinkle. What is hyaluronic acid?",
+      "image": "",
+      "options": [
+        "Dermatan sulfate",
+        "Proteoglycan",
+        "Glycosaminoglycan",
+        "Chondroitin sulfate",
+        "Keratan sulfate"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 56,
+      "question": "Which is the most abundant fiber in connective tissue?",
+      "image": "",
+      "options": [
+        "Collagen fiber",
+        "Elastic fiber",
+        "Reticular fiber",
+        "Purkinje fiber",
+        "Muscle fibers"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 57,
+      "question": "Which connective tissue cell type produces collagen?",
+      "image": "",
+      "options": [
+        "Fibroblast",
+        "Connective tissue macrophage",
+        "Histiocyte",
+        "Plasma cell",
+        "Mast cell"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 58,
+      "question": "Which connective tissue cell type secretes histamine?",
+      "image": "",
+      "options": [
+        "Fibroblast",
+        "Myofibroblast",
+        "Histiocyte",
+        "Plasma cell",
+        "Mast cell"
+      ],
+      "correctIndex": 4
+    },
+    {
+      "id": 59,
+      "question": "Which of the following can be classified as \"specialized connective tissue\"?",
+      "image": "",
+      "options": [
+        "Loose connective tissue",
+        "Mesenchyme",
+        "Adipose tissue",
+        "Mucous connective tissue",
+        "Dense connective tissue"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 60,
+      "question": "Which of the following can be classified as \"embryonic connective tissue\"?",
+      "image": "",
+      "options": [
+        "Adipose tissue",
+        "Bone",
+        "Blood",
+        "Cartilage",
+        "Mesenchyme"
+      ],
+      "correctIndex": 4
+    },
+    {
+      "id": 61,
+      "question": "What is areolar tissue?",
+      "image": "",
+      "options": [
+        "Mucous connective tissue",
+        "Mesenchyme",
+        "Loose irregular connective tissue",
+        "Dense irregular connective tissue",
+        "Dense regular connective tissue"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 62,
+      "question": "What type of adipose tissue tends to decrease as humans age?",
+      "image": "",
+      "options": [
+        "Brown adipose tissue",
+        "White adipose tissue",
+        "Unilocular adipose tissue",
+        "Multilocular adipose tissue",
+        "Brown adipose tissue and Multilocular adipose tissue"
+      ],
+      "correctIndex": 4
+    },
+    {
+      "id": 63,
+      "question": "What type of tissue lines the bladder?",
+      "image": "",
+      "options": [
+        "Simple squamous epithelium",
+        "Simple cuboidal epithelium",
+        "Simple columnar epithelium",
+        "Stratified squamous epithelium",
+        "Transitional epithelium"
+      ],
+      "correctIndex": 4
+    },
+    {
+      "id": 64,
+      "question": "What type of tissue lines most ducts?",
+      "image": "",
+      "options": [
+        "Simple squamous epithelium",
+        "Simple cuboidal epithelium",
+        "Simple columnar epithelium",
+        "Stratified squamous epithelium",
+        "Transitional epithelium"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 65,
+      "question": "What type of epithelium is associated with goblet cells?",
+      "image": "",
+      "options": [
+        "Simple squamous epithelium",
+        "Simple cuboidal epithelium",
+        "Simple columnar epithelium",
+        "Stratified squamous epithelium",
+        "Pseudostratified epithelium"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 66,
+      "question": "What type of epithelial cells are as tall as they are wide?",
+      "image": "",
+      "options": [
+        "Simple",
+        "Stratified",
+        "Squamous",
+        "Cuboidal",
+        "Columnar"
+      ],
+      "correctIndex": 3
+    },
+    {
+      "id": 67,
+      "question": "What do you call the simple squamous epithelium that lines the blood vessels?",
+      "image": "",
+      "options": [
+        "Epithelioid tissue",
+        "Mesothelium",
+        "Endothelium",
+        "Transitional",
+        "Pseudostratified"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 68,
+      "question": "What cell type makes up the mucosa of the gallbladder?",
+      "image": "",
+      "options": [
+        "Simple squamous epithelium",
+        "Simple cuboidal epithelium",
+        "Simple columnar epithelium",
+        "Stratified squamous epithelium",
+        "Transitional epithelium"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 69,
+      "question": "Which of the following is lined by a serosa?",
+      "image": "",
+      "options": [
+        "Genitourinary tract",
+        "Peritoneal cavity",
+        "Respiratory tract",
+        "Alimentary canal",
+        "All of the above are lined by a serosa"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 70,
+      "question": "What type of gland secretes its product through a duct or tube?",
+      "image": "",
+      "options": [
+        "Endocrine gland",
+        "Multicellular gland",
+        "Exocrine gland",
+        "All of the above",
+        "None of the above"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 71,
+      "question": "What is a gland called if the secretory portion is flask shaped?",
+      "image": "",
+      "options": [
+        "Simple gland",
+        "Compound gland",
+        "Tubular",
+        "Alveolar",
+        "Tubuloalveolar"
+      ],
+      "correctIndex": 3
+    },
+    {
+      "id": 72,
+      "question": "What forms the brush border?",
+      "image": "",
+      "options": [
+        "Microvilli",
+        "Stereocilia",
+        "Cilia",
+        "Keratinization",
+        "Microvilli, Stereocilia"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 73,
+      "question": "What type of epithelium lines the trachea?",
+      "image": "",
+      "options": [
+        "Simple squamous epithelium",
+        "Simple cuboidal epithelium",
+        "Simple columnar epithelium",
+        "Stratified squamous epithelium",
+        "Pseudostratified epithelium"
+      ],
+      "correctIndex": 4
+    },
+    {
+      "id": 74,
+      "question": "What type of tissue lines blood vessels?",
+      "image": "",
+      "options": [
+        "Simple squamous epithelium",
+        "Simple cuboidal epithelium",
+        "Simple columnar epithelium",
+        "Stratified squamous epithelium",
+        "Transitional epithelium"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 75,
+      "question": "What type of epithelium is more than one layer thick?",
+      "image": "",
+      "options": [
+        "Simple",
+        "Stratified",
+        "Squamous",
+        "Cuboidal",
+        "Columnar"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 76,
+      "question": "What do you call a tissue composed of a conglomeration of cells which are tightly packed together, yet which does not have a free surface? An example of such a tissue would be the parenchyma of the adrenal gland.",
+      "image": "",
+      "options": [
+        "Epithelioid tissue",
+        "Mesothelium",
+        "Endothelium",
+        "Transitional",
+        "Pseudostratified"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 77,
+      "question": "What type of epithelium appears stratified, but is not?",
+      "image": "",
+      "options": [
+        "Epithelioid tissue",
+        "Mesothelium",
+        "Endothelium",
+        "Transitional",
+        "Pseudostratified"
+      ],
+      "correctIndex": 4
+    },
+    {
+      "id": 78,
+      "question": "Which of the following is lined by a mucosa?",
+      "image": "",
+      "options": [
+        "Peritoneal cavity",
+        "Pericardial cavity",
+        "Pleural cavity",
+        "Alimentary canal",
+        "All of the above are lined by a mucosa"
+      ],
+      "correctIndex": 3
+    },
+    {
+      "id": 79,
+      "question": "What type of gland secretes its product directly into the bloodstream?",
+      "image": "",
+      "options": [
+        "Endocrine gland",
+        "Multicellular gland",
+        "Exocrine gland",
+        "All of the above",
+        "None of the above"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 80,
+      "question": "What is a gland called if it has an unbranched duct?",
+      "image": "",
+      "options": [
+        "Simple gland",
+        "Compound gland",
+        "Tubular",
+        "Alveolar",
+        "Tubuloalveolar"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 81,
+      "question": "What is a gland called if the secretory portion is tube shaped ending in a flask shaped area at the terminus?",
+      "image": "",
+      "options": [
+        "Simple gland",
+        "Compound gland",
+        "Tubular",
+        "Alveolar",
+        "Tubuloalveolar"
+      ],
+      "correctIndex": 4
+    },
+    {
+      "id": 82,
+      "question": "What is the surface modification seen on the cells of the epididymis?",
+      "image": "",
+      "options": [
+        "Microvilli",
+        "Stereocilia",
+        "Cilia",
+        "Keratinization",
+        "Microvilli, Stereocilia"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 83,
+      "question": "What type of epithelium forms the epidermis?",
+      "image": "",
+      "options": [
+        "Simple squamous epithelium",
+        "Simple cuboidal epithelium",
+        "Simple columnar epithelium",
+        "Stratified squamous epithelium",
+        "Pseudostratified epithelium"
+      ],
+      "correctIndex": 3
+    },
+    {
+      "id": 84,
+      "question": "What type of tissue lines most of the gastrointestinal tract?",
+      "image": "",
+      "options": [
+        "Simple squamous epithelium",
+        "Simple cuboidal epithelium",
+        "Simple columnar epithelium",
+        "Stratified squamous epithelium",
+        "Transitional epithelium"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 85,
+      "question": "What type of tissue forms the alveoli in the lung?",
+      "image": "",
+      "options": [
+        "Simple squamous epithelium",
+        "Simple cuboidal epithelium",
+        "Simple columnar epithelium",
+        "Stratified squamous epithelium",
+        "Pseudostratified epithelium"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 86,
+      "question": "What type of epithelium is composed of flat cells?",
+      "image": "",
+      "options": [
+        "Simple",
+        "Stratified",
+        "Squamous",
+        "Cuboidal",
+        "Columnar"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 87,
+      "question": "Which germ layer(s) form epithelial tissue?",
+      "image": "",
+      "options": [
+        "mesoderm only",
+        "ectoderm and endoderm only",
+        "ectoderm only",
+        "ectoderm, endoderm, and mesoderm",
+        "endoderm only"
+      ],
+      "correctIndex": 3
+    },
+    {
+      "id": 88,
+      "question": "What do you call the simple squamous epithelium that lines the abdominal cavity?",
+      "image": "",
+      "options": [
+        "Epithelioid tissue",
+        "Mesothelium",
+        "Endothelium",
+        "Transitional",
+        "Pseudostratified"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 89,
+      "question": "What type of epithelium is composed of cells which all touch the basement membrane and is only one cell layer thick?",
+      "image": "",
+      "options": [
+        "Stratified squamous epithelium",
+        "Transitional epithelium",
+        "Stratified cuboidal epithelium",
+        "None of the above"
+      ],
+      "correctIndex": 3
+    },
+    {
+      "id": 90,
+      "question": "Which of the following is NOT lined by a mucosa?",
+      "image": "",
+      "options": [
+        "Genitourinary tract",
+        "Pericardial cavity",
+        "Respiratory tract",
+        "Alimentary canal",
+        "All of the above are lined by a mucosa"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 91,
+      "question": "What is a gland called if it has an branched duct?",
+      "image": "",
+      "options": [
+        "Simple gland",
+        "Compound gland",
+        "Tubular",
+        "Alveolar",
+        "Tubuloalveolar"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 92,
+      "question": "What are finger like projections on the surface of some cells called?",
+      "image": "",
+      "options": [
+        "Microvilli",
+        "Stereocilia",
+        "Cilia",
+        "Keratinization",
+        "Microvilli and Stereocilia"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 93,
+      "question": "What cell surface modification is made of microtubules?",
+      "image": "",
+      "options": [
+        "Microvilli",
+        "Stereocilia",
+        "Cilia",
+        "Keratinization",
+        "Microvilli and Stereocilia"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 94,
+      "question": "What type of tissue composes the kidney tubules?",
+      "image": "",
+      "options": [
+        "Simple squamous epithelium",
+        "Simple cuboidal epithelium",
+        "Simple columnar epithelium",
+        "Stratified squamous epithelium",
+        "Transitional epithelium"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 95,
+      "question": "What type of tissue lines the esophagus?",
+      "image": "",
+      "options": [
+        "Simple squamous epithelium",
+        "Simple cuboidal epithelium",
+        "Simple columnar epithelium",
+        "Stratified squamous epithelium",
+        "Transitional epithelium"
+      ],
+      "correctIndex": 3
+    },
+    {
+      "id": 96,
+      "question": "What type of epithelium is one cell layer thick?",
+      "image": "",
+      "options": [
+        "Simple",
+        "Stratified",
+        "Squamous",
+        "Cuboidal",
+        "Columnar"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 97,
+      "question": "What type of epithelial cells are taller than they are wide?",
+      "image": "",
+      "options": [
+        "Simple",
+        "Stratified",
+        "Squamous",
+        "Cuboidal",
+        "Columnar"
+      ],
+      "correctIndex": 4
+    },
+    {
+      "id": 98,
+      "question": "What type of epithelium has dome shaped cells on the apical surface?",
+      "image": "",
+      "options": [
+        "Epithelioid tissue",
+        "Mesothelium",
+        "Endothelium",
+        "Transitional",
+        "Pseudostratified"
+      ],
+      "correctIndex": 3
+    },
+    {
+      "id": 99,
+      "question": "Which of the following is NOT lined by a serosa?",
+      "image": "",
+      "options": [
+        "Peritoneal cavity",
+        "Pericardial cavity",
+        "Pleural cavity",
+        "Respiratory tract",
+        "All of the above are lined by a serosa"
+      ],
+      "correctIndex": 3
+    },
+    {
+      "id": 100,
+      "question": "What forms the striated border?",
+      "image": "",
+      "options": [
+        "Microvilli",
+        "Stereocilia",
+        "Cilia",
+        "Keratinization",
+        "Microvilli and Stereocilia"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 101,
+      "question": "What is a characteristic of the cells in the epidermis of the skin?",
+      "image": "",
+      "options": [
+        "Microvilli",
+        "Stereocilia",
+        "Cilia",
+        "Keratinization",
+        "Microvilli and Stereocilia"
+      ],
+      "correctIndex": 3
+    },
+    {
+      "id": 102,
+      "question": "What is another term for an acinar gland?",
+      "image": "",
+      "options": [
+        "Simple gland",
+        "Compound gland",
+        "Tubular",
+        "Alveolar",
+        "Tubuloalveolar"
+      ],
+      "correctIndex": 3
+    },
+    {
+      "id": 103,
+      "question": "What type of basic tissue type is cartilage?",
+      "image": "",
+      "options": [
+        "Muscle",
+        "Nervous",
+        "Cartilage",
+        "Epithelium",
+        "Connective tissue"
+      ],
+      "correctIndex": 4
+    },
+    {
+      "id": 104,
+      "question": "How many types of cartilage are there?",
+      "image": "",
+      "options": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 105,
+      "question": "What do you call the space where a chondrocyte sits in?",
+      "image": "",
+      "options": [
+        "Space of Disse",
+        "Space of Mall",
+        "Vacuole",
+        "Lacuna",
+        "Howship's Lacuna"
+      ],
+      "correctIndex": 3
+    },
+    {
+      "id": 106,
+      "question": "Which type of cartilage is found in the walls of the eustachian tube?",
+      "image": "",
+      "options": [
+        "Hyaline cartilage",
+        "Elastic cartilage",
+        "Fibrocartilage",
+        "All of the above",
+        "None of the above"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 107,
+      "question": "Which type of cartilage forms the skeleton of the fetus?",
+      "image": "",
+      "options": [
+        "Hyaline cartilage",
+        "Elastic cartilage",
+        "Fibrocartilage",
+        "All of the above",
+        "None of the above"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 108,
+      "question": "What type of tissue makes up the \"Adam's apple\"?",
+      "image": "",
+      "options": [
+        "Hyaline cartilage",
+        "Fibrocartilage",
+        "Elastic cartilage",
+        "Hyaline cartilage Fibrocartilage",
+        "Hyaline cartilage, Elastic cartilage"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 109,
+      "question": "Which type of cartilage forms the intervertebral disc?",
+      "image": "",
+      "options": [
+        "Hyaline cartilage",
+        "Elastic cartilage",
+        "Fibrocartilage",
+        "All of the above",
+        "None of the above"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 110,
+      "question": "Which type of cartilage forms the hammer, anvil and stirrup?",
+      "image": "",
+      "options": [
+        "Hyaline cartilage",
+        "Elastic cartilage",
+        "Fibrocartilage",
+        "All of the above",
+        "None of the above"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 111,
+      "question": "Which type of cartilage is characterized by the presence of elastic fibers?",
+      "image": "",
+      "options": [
+        "Hyaline cartilage",
+        "Elastic cartilage",
+        "Fibrocartilage",
+        "All of the above",
+        "None of the above"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 112,
+      "question": "Which type of cartilage is highly vascular?",
+      "image": "",
+      "options": [
+        "Hyaline cartilage",
+        "Elastic cartilage",
+        "Fibrocartilage",
+        "All of the above",
+        "None of the above"
+      ],
+      "correctIndex": 4
+    },
+    {
+      "id": 113,
+      "question": "What cell produces the cartilaginous matrix?",
+      "image": "",
+      "options": [
+        "Chondrocyte",
+        "Chondroblast",
+        "Osteocyte",
+        "Osteoclast",
+        "Bone lining cell"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 114,
+      "question": "Which type of cartilage is found in the larynx?",
+      "image": "",
+      "options": [
+        "Hyaline cartilage",
+        "Elastic cartilage",
+        "Fibrocartilage",
+        "Hyaline cartilage and Elastic cartilage",
+        "All of the above"
+      ],
+      "correctIndex": 3
+    },
+    {
+      "id": 115,
+      "question": "Which of the following is NOT a glycosaminoglycan in cartilage?",
+      "image": "",
+      "options": [
+        "Chondroitin sulfate",
+        "Proteoglycans",
+        "Keratan sulfate",
+        "Hyaluronic acid",
+        "All of the above are glycosaminoglycans in cartilage"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 116,
+      "question": "Which type of cartilage is characterized by a glassy matrix?",
+      "image": "",
+      "options": [
+        "Hyaline cartilage",
+        "Elastic cartilage",
+        "Fibrocartilage",
+        "All of the above",
+        "None of the above"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 117,
+      "question": "Which type of cartilage is characterized by the presence of chondrocytes sitting in lacunae?",
+      "image": "",
+      "options": [
+        "Hyaline cartilage",
+        "Elastic cartilage",
+        "Fibrocartilage",
+        "All of the above",
+        "None of the above"
+      ],
+      "correctIndex": 3
+    },
+    {
+      "id": 118,
+      "question": "Which type of cartilage is the most abundant?",
+      "image": "",
+      "options": [
+        "Hyaline cartilage",
+        "Elastic",
+        "Hyaline cartilage and elastic cartilage equally",
+        "Elastic cartilage and fibrocartilage equally cartilage",
+        "Fibrocartilage"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 119,
+      "question": "Which type of cartilage forms the articular surface on bones?",
+      "image": "",
+      "options": [
+        "Hyaline cartilage",
+        "Elastic cartilage",
+        "Fibrocartilage",
+        "All of the above",
+        "None of the above"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 120,
+      "question": "Which type of cartilage is found in the external ear?",
+      "image": "",
+      "options": [
+        "Hyaline cartilage",
+        "Elastic cartilage",
+        "Fibrocartilage",
+        "All of the above",
+        "None of the above"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 121,
+      "question": "Costal cartilage is composed of what type of cartilage?",
+      "image": "",
+      "options": [
+        "Hyaline cartilage",
+        "Elastic cartilage",
+        "Fibrocartilage",
+        "All of the above",
+        "None of the above"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 122,
+      "question": "Which type of cartilage forms the symphysis pubis?",
+      "image": "",
+      "options": [
+        "Hyaline cartilage",
+        "Elastic cartilage",
+        "Fibrocartilage",
+        "All of the above",
+        "None of the above"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 123,
+      "question": "What structure is called white cartilage?",
+      "image": "",
+      "options": [
+        "Hyaline cartilage",
+        "Elastic cartilage",
+        "Fibrocartilage",
+        "Compact bone",
+        "Spongy bone"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 124,
+      "question": "What is the connective tissue covering which surrounds cartilage?",
+      "image": "",
+      "options": [
+        "Perimysium",
+        "Periosteum",
+        "Perichondrium",
+        "Perineurium",
+        "Endosteum"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 125,
+      "question": "Where does cartilage come from?",
+      "image": "",
+      "options": [
+        "Ectoderm",
+        "Endoderm",
+        "Mesenchyme",
+        "Connective tissue",
+        "None of the above"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 126,
+      "question": "What is the mature cell in cartilage called?",
+      "image": "",
+      "options": [
+        "Chondrocyte",
+        "Chondroblast",
+        "Osteocyte",
+        "Osteoclast",
+        "Bone lining cell"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 127,
+      "question": "Regarding the blood supply to cartilage:",
+      "image": "",
+      "options": [
+        "Cartilage has minimal circulation",
+        "Cartilage has a duel circulation",
+        "Cartilage is highly vascular",
+        "Cartilage is avascular",
+        "There is nothing unique about the blood supply to cartilage"
+      ],
+      "correctIndex": 3
+    },
+    {
+      "id": 128,
+      "question": "Which type of cartilage is characterized by the presence of thick bundles of collagen fibers?",
+      "image": "",
+      "options": [
+        "Hyaline cartilage",
+        "Elastic cartilage",
+        "Fibrocartilage",
+        "All of the above",
+        "None of the above"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 129,
+      "question": "Which type of cartilage forms the epiphyseal growth plate?",
+      "image": "",
+      "options": [
+        "Hyaline cartilage",
+        "Elastic cartilage",
+        "Fibrocartilage",
+        "All of the above",
+        "None of the above"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 130,
+      "question": "What type of tissue makes up the rings of the trachea?",
+      "image": "",
+      "options": [
+        "Hyaline cartilage",
+        "Fibrocartilage",
+        "Elastic cartilage",
+        "Hyaline cartilage and Fibrocartilage",
+        "Hyaline cartilage and Elastic cartilage"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 131,
+      "question": "What type of tissue makes up the epiglottis?",
+      "image": "",
+      "options": [
+        "Hyaline cartilage",
+        "Fibrocartilage",
+        "Elastic cartilage",
+        "Hyaline cartilage and Fibrocartilage",
+        "Hyaline cartilage and Elastic cartilage"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 132,
+      "question": "Which type of cartilage is present in the temporomandibular joint?",
+      "image": "",
+      "options": [
+        "Hyaline cartilage",
+        "Elastic cartilage",
+        "Fibrocartilage",
+        "All of the above",
+        "None of the above"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 133,
+      "question": "What is compact bone?",
+      "image": "",
+      "options": [
+        "Dense bone",
+        "Woven bone",
+        "Immature bone",
+        "Cancellous bone",
+        "Spongy bone"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 134,
+      "question": "What cell is involved in bone resorption?",
+      "image": "",
+      "options": [
+        "Osteoclast",
+        "Osteon",
+        "Osteocyte",
+        "Osteoblast",
+        "Osteoid"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 135,
+      "question": "What type of basic tissue type is bone?",
+      "image": "",
+      "options": [
+        "Epithelium",
+        "Connective tissue",
+        "Muscle",
+        "Nervous",
+        "Bone"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 136,
+      "question": "What is woven bone?",
+      "image": "",
+      "options": [
+        "Cancellous bone",
+        "Compact bone",
+        "Dense bone",
+        "Immature bone",
+        "Spongy bone"
+      ],
+      "correctIndex": 3
+    },
+    {
+      "id": 137,
+      "question": "What are the spicules on spongy bone called?",
+      "image": "",
+      "options": [
+        "Canaliculi",
+        "Sharpey's fibers",
+        "Trabeculae",
+        "Tome's process",
+        "Lacuna"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 138,
+      "question": "Which cell type is responsible for bone breakdown?",
+      "image": "",
+      "options": [
+        "Chondrocyte",
+        "Chondroblast",
+        "Osteocyte",
+        "Osteoclast",
+        "Bone lining cell"
+      ],
+      "correctIndex": 3
+    },
+    {
+      "id": 139,
+      "question": "What is bone formation called when the bone is formed directly, without using a cartilage template?",
+      "image": "",
+      "options": [
+        "Intraosseous",
+        "En bloc",
+        "Intramembranous",
+        "Endochondral",
+        "Endosteum"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 140,
+      "question": "What forms the epiphyseal growth plate?",
+      "image": "",
+      "options": [
+        "Elastic cartilage",
+        "Fibrocartilage",
+        "Hyaline cartilage",
+        "Compact bone",
+        "Spongy bone"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 141,
+      "question": "Which type of bone has spicules?",
+      "image": "",
+      "options": [
+        "Immature bone",
+        "Dense bone",
+        "Compact bone",
+        "Cancellous bone",
+        "Woven bone"
+      ],
+      "correctIndex": 3
+    },
+    {
+      "id": 142,
+      "question": "What sits in a lacuna?",
+      "image": "",
+      "options": [
+        "Osteoclast",
+        "Osteon",
+        "Osteocyte",
+        "Osteoblast",
+        "Osteoid"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 143,
+      "question": "What is dense bone?",
+      "image": "",
+      "options": [
+        "Immature bone",
+        "Cancellous bone",
+        "Compact bone",
+        "Woven bone",
+        "Spongy bone"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 144,
+      "question": "Which cell is a resting osteoblast?",
+      "image": "",
+      "options": [
+        "Chondrocyte",
+        "Chondroblast",
+        "Osteocyte",
+        "Osteoclast",
+        "Bone lining cell"
+      ],
+      "correctIndex": 4
+    },
+    {
+      "id": 145,
+      "question": "What are the mineral crystals in bone called?",
+      "image": "",
+      "options": [
+        "Hydroxyapatite",
+        "Calcite",
+        "Tourmaline",
+        "Rubellite",
+        "Indicolite"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 146,
+      "question": "What is the cylindrical structure in compact bone?",
+      "image": "",
+      "options": [
+        "Osteoclast",
+        "Osteon",
+        "Osteocyte",
+        "Osteoblast",
+        "Osteoid"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 147,
+      "question": "What is the space that an osteocyte rests in?",
+      "image": "",
+      "options": [
+        "Canaliculi",
+        "Sharpey's fibers",
+        "Trabeculae",
+        "Tome's process",
+        "Lacuna"
+      ],
+      "correctIndex": 4
+    },
+    {
+      "id": 148,
+      "question": "What is bone formation called when the bone is formed from a cartilage template?",
+      "image": "",
+      "options": [
+        "Intraosseous",
+        "En bloc",
+        "Intramembranous",
+        "Endochondral",
+        "Endosteum"
+      ],
+      "correctIndex": 3
+    },
+    {
+      "id": 149,
+      "question": "What is the primary component of red marrow?",
+      "image": "",
+      "options": [
+        "Hematopoietic tissue",
+        "Fat",
+        "Cartilage",
+        "Fibrous tissue",
+        "Bone"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 150,
+      "question": "What cell is an immature bone cell?",
+      "image": "",
+      "options": [
+        "Osteoclast",
+        "Osteon",
+        "Osteocyte",
+        "Osteoblast",
+        "Osteoid"
+      ],
+      "correctIndex": 3
+    },
+    {
+      "id": 151,
+      "question": "What is bundle bone?",
+      "image": "",
+      "options": [
+        "Cancellous bone",
+        "Compact bone",
+        "Dense bone",
+        "Spongy bone",
+        "Immature bone"
+      ],
+      "correctIndex": 4
+    },
+    {
+      "id": 152,
+      "question": "What is cancellous bone?",
+      "image": "",
+      "options": [
+        "Dense bone",
+        "Woven bone",
+        "Immature bone",
+        "Compact bone",
+        "Spongy bone"
+      ],
+      "correctIndex": 4
+    },
+    {
+      "id": 153,
+      "question": "What cell is involved in laying down new bone?",
+      "image": "",
+      "options": [
+        "Osteoclast",
+        "Osteon",
+        "Osteocyte",
+        "Osteoblast",
+        "Osteoid"
+      ],
+      "correctIndex": 3
+    },
+    {
+      "id": 154,
+      "question": "What is in the bone matrix?",
+      "image": "",
+      "options": [
+        "Elastic fibers",
+        "Collagen fibers",
+        "Reticular fibers",
+        "Dense irregular connective tissue",
+        "Dense regular connective tissue"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 155,
+      "question": "What are the small tunnels seen in bone?",
+      "image": "",
+      "options": [
+        "Canaliculi",
+        "Sharpey's fibers",
+        "Trabeculae",
+        "Tome's process",
+        "Lacuna"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 156,
+      "question": "What is the hollow area underneath an osteoclast called?",
+      "image": "",
+      "options": [
+        "Space of Disse",
+        "Space of Mall",
+        "Vacuole",
+        "Lacuna",
+        "Howship's lacuna"
+      ],
+      "correctIndex": 4
+    },
+    {
+      "id": 157,
+      "question": "What is the covering of a bone surface?",
+      "image": "",
+      "options": [
+        "Perimysium",
+        "Periosteum",
+        "Perichondrium",
+        "Perineurium",
+        "Endosteum"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 158,
+      "question": "What forms the articular surface on bones?",
+      "image": "",
+      "options": [
+        "Spongy bone",
+        "Compact bone",
+        "Hyaline cartilage",
+        "Elastic cartilage",
+        "Fibrocartilage"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 159,
+      "question": "What is the primary component of yellow marrow?",
+      "image": "",
+      "options": [
+        "Hematopoietic tissue",
+        "Fat",
+        "Cartilage",
+        "Fibrous tissue",
+        "Bone"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 160,
+      "question": "What is another term for the Haversian system?",
+      "image": "",
+      "options": [
+        "Osteoclast",
+        "Osteon",
+        "Osteocyte",
+        "Osteoblast",
+        "Osteoid"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 161,
+      "question": "What is nonlamellar bone?",
+      "image": "",
+      "options": [
+        "Woven bone",
+        "Dense bone",
+        "Cancellous bone",
+        "Compact bone",
+        "Spongy bone"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 162,
+      "question": "What is the mature bone cell called?",
+      "image": "",
+      "options": [
+        "Osteoclast",
+        "Osteon",
+        "Osteocyte",
+        "Osteoblast",
+        "Osteoid"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 163,
+      "question": "What is immature bone?",
+      "image": "",
+      "options": [
+        "Dense bone",
+        "Woven bone",
+        "Cancellous bone",
+        "Compact bone",
+        "Spongy bone"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 164,
+      "question": "What is unmineralized bone matrix?",
+      "image": "",
+      "options": [
+        "Osteoclast",
+        "Osteon",
+        "Osteocyte",
+        "Osteoblast",
+        "Osteoid"
+      ],
+      "correctIndex": 4
+    },
+    {
+      "id": 165,
+      "question": "What are the collagen fibers that extend into bone at an angle called?",
+      "image": "",
+      "options": [
+        "Canaliculi",
+        "Sharpey's fibers",
+        "Trabeculae",
+        "Tome's process",
+        "Lacuna"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 166,
+      "question": "Which cell is the mature bone cell?",
+      "image": "",
+      "options": [
+        "Chondrocyte",
+        "Chondroblast",
+        "Osteocyte",
+        "Osteoclast",
+        "Bone lining cell"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 167,
+      "question": "What is the lining of the inner bone on the side which abuts the medullary cavity?",
+      "image": "",
+      "options": [
+        "Perimysium",
+        "Periosteum",
+        "Perichondrium",
+        "Perineurium",
+        "Endosteum"
+      ],
+      "correctIndex": 4
+    },
+    {
+      "id": 168,
+      "question": "What forms the skeleton of the fetus?",
+      "image": "",
+      "options": [
+        "Elastic cartilage",
+        "Hyaline cartilage",
+        "Fibrocartilage",
+        "Spongy bone",
+        "Compact bone"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 169,
+      "question": "Which of the following is a multinucleated cell?",
+      "image": "",
+      "options": [
+        "Osteoclast",
+        "Osteon",
+        "Osteocyte",
+        "Osteoblast",
+        "Osteoid"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 170,
+      "question": "What is spongy bone",
+      "image": "",
+      "options": [
+        "Immature bone",
+        "Compact bone",
+        "Cancellous bone",
+        "Dense bone",
+        "Woven bone"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 171,
+      "question": "Which of the four basic tissue types does blood belong to?",
+      "image": "",
+      "options": [
+        "Epithelium",
+        "Connective tissue",
+        "Muscle",
+        "Nervous tissue",
+        "Blood"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 172,
+      "question": "Which of the following formed elements do not contain a nucleus?",
+      "image": "",
+      "options": [
+        "Platelets",
+        "Erythrocytes",
+        "Leukocytes",
+        "Monocytes",
+        "Platelets and Erythrocytes"
+      ],
+      "correctIndex": 4
+    },
+    {
+      "id": 173,
+      "question": "What comes from a megakaryocyte?",
+      "image": "",
+      "options": [
+        "Lymphocytes",
+        "Basophils",
+        "Erythrocytes",
+        "Monocytes",
+        "Platelets"
+      ],
+      "correctIndex": 4
+    },
+    {
+      "id": 174,
+      "question": "Which leukocyte is the most abundant in a peripheral smear of blood?",
+      "image": "",
+      "options": [
+        "Lymphocytes",
+        "Basophils",
+        "Neutrophil",
+        "Monocytes",
+        "Eosinophils"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 175,
+      "question": "Which of the following is not a granulocyte?",
+      "image": "",
+      "options": [
+        "Lymphocytes",
+        "Neutrophil",
+        "PMN",
+        "Eosinophils",
+        "Basophils"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 176,
+      "question": "Which of the following is a granulocyte?",
+      "image": "",
+      "options": [
+        "Thrombocyte",
+        "Lymphocyte",
+        "Eosinophil",
+        "Monocyte",
+        "Erythrocyte"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 177,
+      "question": "Which of the following is NOT a term used for a neutrophil?",
+      "image": "",
+      "options": [
+        "Polymorphonuclear neutrophils",
+        "Poly's",
+        "PMN",
+        "NP",
+        "Polymorph"
+      ],
+      "correctIndex": 3
+    },
+    {
+      "id": 178,
+      "question": "Which leukocyte has a multi-lobed (3-5 lobes) nucleus?",
+      "image": "",
+      "options": [
+        "Neutrophil",
+        "Lymphocytes",
+        "Monocytes",
+        "Eosinophil",
+        "Basophils"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 179,
+      "question": "Which cell has large blue granules, often obscuring the nucleus?",
+      "image": "",
+      "options": [
+        "Neutrophil",
+        "Lymphocytes",
+        "Monocytes",
+        "Eosinophil",
+        "Basophils"
+      ],
+      "correctIndex": 4
+    },
+    {
+      "id": 180,
+      "question": "Which of the following is not considered a \"formed element\"?",
+      "image": "",
+      "options": [
+        "Plasma",
+        "Erythrocytes",
+        "Platelets",
+        "Leukocytes",
+        "Red blood cells"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 181,
+      "question": "Which of the following is the most abundant in a peripheral smear of blood?",
+      "image": "",
+      "options": [
+        "Neutrophils",
+        "Basophils",
+        "Erythrocytes",
+        "Leukocytes",
+        "Platelets"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 182,
+      "question": "Which leukocyte is the least abundant in a peripheral smear of blood?",
+      "image": "",
+      "options": [
+        "Lymphocytes",
+        "Basophils",
+        "Neutrophil",
+        "Monocytes",
+        "Eosinophils"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 183,
+      "question": "Which of the following is not a granulocyte?",
+      "image": "",
+      "options": [
+        "PMN",
+        "Basophils",
+        "Neutrophil",
+        "Monocytes",
+        "Eosinophils"
+      ],
+      "correctIndex": 3
+    },
+    {
+      "id": 184,
+      "question": "Which of the following is a granulocyte?",
+      "image": "",
+      "options": [
+        "Thrombocyte",
+        "Monocyte",
+        "Lymphocyte",
+        "Basophil",
+        "Erythrocyte"
+      ],
+      "correctIndex": 3
+    },
+    {
+      "id": 185,
+      "question": "Which of the following is described as having a \"central pallor\"?",
+      "image": "",
+      "options": [
+        "Leukocytes",
+        "Monocytes",
+        "Eosinophils",
+        "Platelets",
+        "Erythrocytes"
+      ],
+      "correctIndex": 4
+    },
+    {
+      "id": 186,
+      "question": "Which is the smallest leukocyte?",
+      "image": "",
+      "options": [
+        "Neutrophil",
+        "Lymphocytes",
+        "Monocytes",
+        "Eosinophil",
+        "Basophils"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 187,
+      "question": "Which leukocyte usually has a bi-lobed nucleus?",
+      "image": "",
+      "options": [
+        "Neutrophil",
+        "Lymphocytes",
+        "Monocytes",
+        "Eosinophil",
+        "Basophils"
+      ],
+      "correctIndex": 3
+    },
+    {
+      "id": 188,
+      "question": "What is the buffy coat?",
+      "image": "",
+      "options": [
+        "Leukocytes",
+        "Platelets",
+        "Erythrocytes",
+        "Plasma",
+        "Leukocytes and Platelets"
+      ],
+      "correctIndex": 4
+    },
+    {
+      "id": 189,
+      "question": "What is another term for a platelet?",
+      "image": "",
+      "options": [
+        "Thrombocyte",
+        "Monocyte",
+        "Lymphocyte",
+        "Basophil",
+        "Erythrocyte"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 190,
+      "question": "What is the connective tissue covering of a muscle fascicle?",
+      "image": "",
+      "options": [
+        "Sarcolemma",
+        "Endomysium",
+        "Epimysium",
+        "Sarcoplasm",
+        "Perimysium"
+      ],
+      "correctIndex": 4
+    },
+    {
+      "id": 191,
+      "question": "What is actin?",
+      "image": "",
+      "options": [
+        "Myofilament",
+        "Myosin",
+        "Muscle fibers",
+        "Myofibrils",
+        "Myocardium"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 192,
+      "question": "Which of the following is composed of smooth muscle?",
+      "image": "",
+      "options": [
+        "Upper esophagus",
+        "Heart",
+        "Tongue",
+        "Biceps muscle",
+        "Walls of the visceral organs"
+      ],
+      "correctIndex": 4
+    },
+    {
+      "id": 193,
+      "question": "What is a receptor in muscle?",
+      "image": "",
+      "options": [
+        "Motor unit",
+        "Motor neuron",
+        "Motor end plate",
+        "Neuromuscular spindle",
+        "Neurotransmitter"
+      ],
+      "correctIndex": 3
+    },
+    {
+      "id": 194,
+      "question": "Which fiber type is larger in diameter?",
+      "image": "",
+      "options": [
+        "Red fibers",
+        "White fibers",
+        "Intermediate fibers",
+        "All of the above",
+        "None of the above"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 195,
+      "question": "Which fiber type is make up fast-twitch muscle?",
+      "image": "",
+      "options": [
+        "Red fibers",
+        "White fibers",
+        "Intermediate fibers",
+        "All of the above",
+        "None of the above"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 196,
+      "question": "Which fiber type has more myoglobin?",
+      "image": "",
+      "options": [
+        "Red fibers",
+        "White fibers",
+        "Intermediate fibers",
+        "All of the above",
+        "None of the above"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 197,
+      "question": "Which fiber type gets its energy primarily from glycogen?",
+      "image": "",
+      "options": [
+        "Red fibers",
+        "White fibers",
+        "Intermediate fibers",
+        "All of the above",
+        "None of the above"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 198,
+      "question": "Which fiber type is seen in skeletal muscle?",
+      "image": "",
+      "options": [
+        "Red fibers",
+        "White fibers",
+        "Intermediate fibers",
+        "All of the above",
+        "None of the above"
+      ],
+      "correctIndex": 3
+    },
+    {
+      "id": 199,
+      "question": "What is line that bisects the dark band in striated muscle?",
+      "image": "",
+      "options": [
+        "A band",
+        "I band",
+        "Z line",
+        "H band",
+        "M line"
+      ],
+      "correctIndex": 3
+    },
+    {
+      "id": 200,
+      "question": "What is the outer connective tissue covering of a muscle?",
+      "image": "",
+      "options": [
+        "Epimysium",
+        "Sarcoplasm",
+        "Perimysium",
+        "Sarcolemma",
+        "Endomysium"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 201,
+      "question": "What is myosin?",
+      "image": "",
+      "options": [
+        "Muscle fibers",
+        "Myofibrils",
+        "Myocardium",
+        "Myofilament",
+        "Muscle cell"
+      ],
+      "correctIndex": 3
+    },
+    {
+      "id": 202,
+      "question": "Where is cardiac muscle found?",
+      "image": "",
+      "options": [
+        "Myofilaments",
+        "Myosin",
+        "Muscle fibers",
+        "Myofibrils",
+        "Myocardium"
+      ],
+      "correctIndex": 4
+    },
+    {
+      "id": 203,
+      "question": "What type of muscle has visible cross striations?",
+      "image": "",
+      "options": [
+        "Skeletal muscle",
+        "Cardiac muscle",
+        "Smooth muscle",
+        "Skeletal muscle and Cardiac muscle",
+        "Skeletal muscle, Cardiac muscle and Smooth muscle"
+      ],
+      "correctIndex": 3
+    },
+    {
+      "id": 204,
+      "question": "What type of muscle is specialized for contraction?",
+      "image": "",
+      "options": [
+        "Skeletal muscle",
+        "Cardiac muscle",
+        "Smooth muscle",
+        "Skeletal muscle and Cardiac muscle",
+        "Skeletal muscle, Cardiac muscle and Smooth muscle"
+      ],
+      "correctIndex": 4
+    },
+    {
+      "id": 205,
+      "question": "What is released at a synapse?",
+      "image": "",
+      "options": [
+        "Motor unit",
+        "Motor neuron",
+        "Motor end plate",
+        "Neuromuscular spindle",
+        "Neurotransmitter"
+      ],
+      "correctIndex": 4
+    },
+    {
+      "id": 206,
+      "question": "Which muscle fiber type is more resistant to fatigue?",
+      "image": "",
+      "options": [
+        "Red fibers",
+        "White fibers",
+        "Intermediate fibers",
+        "All of the above",
+        "None of the above"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 207,
+      "question": "What region of a sarcomere is made of thin filaments?",
+      "image": "",
+      "options": [
+        "A band",
+        "I band",
+        "Z line",
+        "H band",
+        "M line"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 208,
+      "question": "On a cross section of a muscle, how many thin filaments surround each thick filament?",
+      "image": "",
+      "options": [
+        "2",
+        "3",
+        "4",
+        "6",
+        "8"
+      ],
+      "correctIndex": 3
+    },
+    {
+      "id": 209,
+      "question": "What is the plasma membrane of a muscle cell called?",
+      "image": "",
+      "options": [
+        "Endomysium",
+        "Sarcolemma",
+        "Sarcoplasm",
+        "Perimysium",
+        "Epimysium"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 210,
+      "question": "What are the thin filaments?",
+      "image": "",
+      "options": [
+        "Myocardium",
+        "Myofibrils",
+        "Myofilaments",
+        "Muscle fibers",
+        "Myosin"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 211,
+      "question": "Which of the following is composed of skeletal muscle?",
+      "image": "",
+      "options": [
+        "Tongue",
+        "Blood vessel",
+        "Walls of the visceral organs",
+        "Lower esophagus",
+        "Heart"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 212,
+      "question": "What type of muscle is composed of spindle shaped cells?",
+      "image": "",
+      "options": [
+        "Skeletal muscle",
+        "Cardiac muscle",
+        "Smooth muscle",
+        "Skeletal muscle and Cardiac muscle",
+        "Skeletal muscle, Cardiac muscle and Smooth muscle"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 213,
+      "question": "What type of muscle is always multinucleated?",
+      "image": "",
+      "options": [
+        "Skeletal muscle",
+        "Cardiac muscle",
+        "Smooth muscle",
+        "Skeletal muscle and Cardiac muscle",
+        "Skeletal muscle, Cardiac muscle and Smooth muscle"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 214,
+      "question": "Which fiber type is smaller in diameter?",
+      "image": "",
+      "options": [
+        "Red fibers",
+        "White fibers",
+        "Intermediate fibers",
+        "All of the above",
+        "None of the above"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 215,
+      "question": "Which fiber type fatigues more readily?",
+      "image": "",
+      "options": [
+        "Red fibers",
+        "White fibers",
+        "Intermediate fibers",
+        "All of the above",
+        "None of the above"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 216,
+      "question": "What is line that bisects the light band in muscle?",
+      "image": "",
+      "options": [
+        "A band",
+        "I band",
+        "Z line",
+        "H band",
+        "M line"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 217,
+      "question": "What is the name of the tissue which surrounds muscle fascicles?",
+      "image": "",
+      "options": [
+        "Perimysium",
+        "Periosteum",
+        "Perichondrium",
+        "Perineurium",
+        "Endosteum"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 218,
+      "question": "What is the covering of an individual muscle fiber?",
+      "image": "",
+      "options": [
+        "Sarcoplasm",
+        "Perimysium",
+        "Endomysium",
+        "Epimysium",
+        "Sarcolemma"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 219,
+      "question": "What are the thick filaments composed of?",
+      "image": "",
+      "options": [
+        "Myofilaments",
+        "Myosin",
+        "Muscle fibers",
+        "Myofibrils",
+        "Myocardium"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 220,
+      "question": "Which of the following is composed of cardiac muscle?",
+      "image": "",
+      "options": [
+        "Biceps muscle",
+        "Tongue",
+        "Heart",
+        "Upper esophagus",
+        "Walls of the visceral organs"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 221,
+      "question": "What type of muscle contains centrally placed nuclei?",
+      "image": "",
+      "options": [
+        "Smooth muscle",
+        "Cardiac muscle",
+        "Skeletal muscle",
+        "Smooth muscle, Cardiac muscle",
+        "Smooth muscle, Cardiac muscle and Skeletal muscle"
+      ],
+      "correctIndex": 3
+    },
+    {
+      "id": 222,
+      "question": "What is the point that a neuron contacts a muscle called?",
+      "image": "",
+      "options": [
+        "Motor unit",
+        "Motor neuron",
+        "Motor end plate",
+        "Neuromuscular spindle",
+        "Neurotransmitter"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 223,
+      "question": "Which fiber type makes up slow-twitch muscle?",
+      "image": "",
+      "options": [
+        "Red fibers",
+        "White fibers",
+        "Intermediate fibers",
+        "All of the above",
+        "None of the above"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 224,
+      "question": "Which fiber type uses more anaerobic metabolism?",
+      "image": "",
+      "options": [
+        "Red fibers",
+        "White fibers",
+        "Intermediate fibers",
+        "All of the above",
+        "None of the above"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 225,
+      "question": "What is the dark band in muscle?",
+      "image": "",
+      "options": [
+        "A band",
+        "I band",
+        "Z line",
+        "H band",
+        "M line"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 226,
+      "question": "What bisects the H band",
+      "image": "",
+      "options": [
+        "A band",
+        "I band",
+        "Z line",
+        "E band",
+        "M line"
+      ],
+      "correctIndex": 4
+    },
+    {
+      "id": 227,
+      "question": "What type of muscle has intercalated discs?",
+      "image": "",
+      "options": [
+        "Skeletal muscle",
+        "Cardiac muscle",
+        "Smooth muscle",
+        "Skeletal muscle, Cardiac muscle",
+        "Skeletal muscle, Cardiac muscle and Smooth muscle"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 228,
+      "question": "What are the supporting cells in the central nervous system called?",
+      "image": "",
+      "options": [
+        "Schwann cells",
+        "Basket cells",
+        "Ganglion",
+        "Neuroglia",
+        "Satellite cells"
+      ],
+      "correctIndex": 3
+    },
+    {
+      "id": 229,
+      "question": "Which of the following is an element of the peripheral nervous system?",
+      "image": "",
+      "options": [
+        "Receptors",
+        "Brachial plexus",
+        "Ganglia",
+        "Sciatic nerve",
+        "All of the above"
+      ],
+      "correctIndex": 4
+    },
+    {
+      "id": 230,
+      "question": "What are most neurons in the body?",
+      "image": "",
+      "options": [
+        "Unipolar",
+        "Pseudounipolar",
+        "Bipolar",
+        "Multipolar",
+        "Unipolar, Pseudounipolar"
+      ],
+      "correctIndex": 3
+    },
+    {
+      "id": 231,
+      "question": "What is the cell body of a neuron called?",
+      "image": "",
+      "options": [
+        "Ganglion",
+        "Perikaryon",
+        "Astrocyte",
+        "Nissl",
+        "Terminal bouton"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 232,
+      "question": "Which cell is a macrophage found in the central nervous system?",
+      "image": "",
+      "options": [
+        "Kupffer cells",
+        "Histiocyte",
+        "Dust cell",
+        "Langerhans cell",
+        "Microglia"
+      ],
+      "correctIndex": 4
+    },
+    {
+      "id": 233,
+      "question": "Which type of neuron is multipolar?",
+      "image": "",
+      "options": [
+        "Motor neurons",
+        "Interneurons",
+        "Sensory neurons",
+        "Motor neurons and Interneurons",
+        "All of the above"
+      ],
+      "correctIndex": 3
+    },
+    {
+      "id": 234,
+      "question": "What provides tensile strength to a neuron?",
+      "image": "",
+      "options": [
+        "Meninges",
+        "Myelinated nerve fibers",
+        "Cell bodies",
+        "Nodes of Ranvier",
+        "Neurofilaments"
+      ],
+      "correctIndex": 4
+    },
+    {
+      "id": 235,
+      "question": "Which meninx is made of a delicate web like connective tissue?",
+      "image": "",
+      "options": [
+        "Dura mater",
+        "Arachnoid",
+        "Pia mater",
+        "Dura mater and Arachnoid",
+        "All of the above"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 236,
+      "question": "What are the conglomerations of gray matter deep within the cerebrum and cerebellum called?",
+      "image": "",
+      "options": [
+        "Tracts",
+        "Islets",
+        "Soma",
+        "Cortex",
+        "Nuclei"
+      ],
+      "correctIndex": 4
+    },
+    {
+      "id": 237,
+      "question": "Which of the following is involved in the blood brain barrier?",
+      "image": "",
+      "options": [
+        "Astrocytes",
+        "Ependymal cells",
+        "Oligodendrocytes",
+        "Microglia",
+        "Schwann cells"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 238,
+      "question": "Which of the following forms myelin in the peripheral nervous system?",
+      "image": "",
+      "options": [
+        "Schwann cells",
+        "Basket cells",
+        "Ganglion",
+        "Neuroglia",
+        "Satellite cells"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 239,
+      "question": "Which of the following is an element of the central nervous system?",
+      "image": "",
+      "options": [
+        "Receptors",
+        "Brachial plexus",
+        "Sciatic nerve",
+        "Ganglia",
+        "Spinal cord"
+      ],
+      "correctIndex": 4
+    },
+    {
+      "id": 240,
+      "question": "What are motor neurons?",
+      "image": "",
+      "options": [
+        "Unipolar",
+        "Pseudounipolar",
+        "Bipolar",
+        "Multipolar",
+        "Unipolar and Pseudounipolar"
+      ],
+      "correctIndex": 3
+    },
+    {
+      "id": 241,
+      "question": "What is a collection of cell bodies outside the CNS called?",
+      "image": "",
+      "options": [
+        "Ganglion",
+        "Perikaryon",
+        "Astrocyte",
+        "Nissl",
+        "Terminal bouton"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 242,
+      "question": "What is tissue which surrounds a nerve fascicle?",
+      "image": "",
+      "options": [
+        "Perimysium",
+        "Periosteum",
+        "Perichondrium",
+        "Perineurium",
+        "Endosteum"
+      ],
+      "correctIndex": 3
+    },
+    {
+      "id": 243,
+      "question": "The colloquialism \"gray matter\" refers to somebody using his intellect or reasoning ability. In reality, what is gray matter?",
+      "image": "",
+      "options": [
+        "Meninges",
+        "Myelinated nerve fibers",
+        "Cell bodies",
+        "Nodes of Ranvier",
+        "Neurofilaments"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 244,
+      "question": "Where is the cerebrospinal fluid?",
+      "image": "",
+      "options": [
+        "Between the dura mater and bone",
+        "Subdural space",
+        "Subarachnoid space",
+        "Between the pia mater and brain",
+        "None of the above"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 245,
+      "question": "Which of the following are considered to be part of the meninges?",
+      "image": "",
+      "options": [
+        "Dura mater",
+        "Arachnoid",
+        "Pia mater",
+        "Both a and c",
+        "All of the above"
+      ],
+      "correctIndex": 4
+    },
+    {
+      "id": 246,
+      "question": "What is the outer gray matter of the brain called?",
+      "image": "",
+      "options": [
+        "Tracts",
+        "Islets",
+        "Soma",
+        "Cortex",
+        "Nuclei"
+      ],
+      "correctIndex": 3
+    },
+    {
+      "id": 247,
+      "question": "Which of the following is the most abundant neuroglia cell?",
+      "image": "",
+      "options": [
+        "Astrocytes",
+        "Ependymal cells",
+        "Oligodendrocytes",
+        "Microglia",
+        "Schwann cells"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 248,
+      "question": "Which of the following is a supporting cell found in the ganglia?",
+      "image": "",
+      "options": [
+        "Schwann cells",
+        "Basket cells",
+        "Ganglion",
+        "Neuroglia",
+        "Satellite cells"
+      ],
+      "correctIndex": 4
+    },
+    {
+      "id": 249,
+      "question": "Which of the following is an element of the central nervous system?",
+      "image": "",
+      "options": [
+        "Receptors",
+        "Brachial plexus",
+        "Brain",
+        "Ganglia",
+        "Sciatic nerve"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 250,
+      "question": "What are interneurons?",
+      "image": "",
+      "options": [
+        "Unipolar",
+        "Pseudounipolar",
+        "Bipolar",
+        "Multipolar",
+        "Both a and b"
+      ],
+      "correctIndex": 3
+    },
+    {
+      "id": 251,
+      "question": "Which of the following is supporting cell of the central nervous system?",
+      "image": "",
+      "options": [
+        "Ganglion",
+        "Perikaryon",
+        "Astrocyte",
+        "Nissl",
+        "Terminal bouton"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 252,
+      "question": "What are the gaps that occur within the myelin sheath?",
+      "image": "",
+      "options": [
+        "Meninges",
+        "Myelinated nerve fibers",
+        "Cell bodies",
+        "Nodes of Ranvier",
+        "Neurofilaments"
+      ],
+      "correctIndex": 3
+    },
+    {
+      "id": 253,
+      "question": "What is the dura mater composed of?",
+      "image": "",
+      "options": [
+        "Loose irregular connective tissue",
+        "Dense irregular connective tissue",
+        "Dense regular connective tissue",
+        "Simple squamous epithelium",
+        "Nervous tissue"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 254,
+      "question": "Where is gray matter?",
+      "image": "",
+      "options": [
+        "Outer surface of the cerebrum and cerebellum",
+        "Outer surface of the spinal cord",
+        "Inner portion of the spinal cord",
+        "Outer surface of the cerebrum and cerebellum and Outer surface of the spinal cord",
+        "Outer surface of the cerebrum and cerebellum and Inner portion of the spinal cord"
+      ],
+      "correctIndex": 4
+    },
+    {
+      "id": 255,
+      "question": "What surrounds a nerve?",
+      "image": "",
+      "options": [
+        "Neurium",
+        "Perineurium",
+        "Epineurium",
+        "Endoneurium",
+        "None of the above"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 256,
+      "question": "Which of the following lines the ventricles?",
+      "image": "",
+      "options": [
+        "Astrocytes",
+        "Ependymal cells",
+        "Oligodendrocytes",
+        "Microglia"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 257,
+      "question": "What is a collection of nerve cell bodies outside of the central nervous system called?",
+      "image": "",
+      "options": [
+        "Schwann cells",
+        "Basket cells",
+        "Ganglion",
+        "Neuroglia",
+        "Satellite cells"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 258,
+      "question": "What are sensory neurons?",
+      "image": "",
+      "options": [
+        "Unipolar",
+        "Pseudounipolar",
+        "Bipolar",
+        "Multipolar",
+        "Unipolar and Pseudounipolar"
+      ],
+      "correctIndex": 4
+    },
+    {
+      "id": 259,
+      "question": "What is the end of an axon called?",
+      "image": "",
+      "options": [
+        "Ganglion",
+        "Perikaryon",
+        "Astrocyte",
+        "Nissl",
+        "Terminal bouton"
+      ],
+      "correctIndex": 4
+    },
+    {
+      "id": 260,
+      "question": "What is the connective tissue covering around the brain and spinal cord?",
+      "image": "",
+      "options": [
+        "Meninges",
+        "Myelinated nerve fibers",
+        "Cell bodies",
+        "Nodes of Ranvier",
+        "Neurofilaments"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 261,
+      "question": "Which meninge is made of a dense irregular connective tissue?",
+      "image": "",
+      "options": [
+        "Dura mater",
+        "Arachnoid",
+        "Pia mater",
+        "Both a and b",
+        "All of the above"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 262,
+      "question": "What is a group of fibers traveling together?",
+      "image": "",
+      "options": [
+        "Tracts",
+        "Islets",
+        "Soma",
+        "Cortex",
+        "Nuclei"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 263,
+      "question": "Where is white matter?",
+      "image": "",
+      "options": [
+        "Outer surface of the cerebrum and cerebellum",
+        "Outer surface of the spinal cord",
+        "Inner portion of the brain",
+        "Outer surface of the cerebrum and cerebellum and Outer surface of the spinal cord",
+        "Outer surface of the spinal cord and Inner portion of the brain"
+      ],
+      "correctIndex": 4
+    },
+    {
+      "id": 264,
+      "question": "Which of the following forms myelin in the central nervous system?",
+      "image": "",
+      "options": [
+        "Astrocytes",
+        "Ependymal cells",
+        "Oligodendrocytes",
+        "Microglia",
+        "Schwann cells"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 265,
+      "question": "What is the primary component of myelin?",
+      "image": "",
+      "options": [
+        "Amino acids",
+        "Protein",
+        "Carbohydrate",
+        "Lipid",
+        "Both b and c Amino acids, Protein, Carbohydrate"
+      ],
+      "correctIndex": 3
+    },
+    {
+      "id": 266,
+      "question": "Which type(s) of muscle tissue visible striations and intercalated discs?",
+      "image": "",
+      "options": [
+        "both skeletal and cardiac muscle",
+        "cardiac muscle only",
+        "both skeletal and smooth muscle",
+        "skeletal muscle only",
+        "smooth muscle only"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 267,
+      "question": "A goblet cell is best described as a(n)",
+      "image": "",
+      "options": [
+        "multicellular exocrine gland.",
+        "unicellular endocrine gland.",
+        "multicellular endocrine gland.",
+        "apocrine gland.",
+        "unicellular exocrine gland."
+      ],
+      "correctIndex": 4
+    },
+    {
+      "id": 268,
+      "question": "Lymphoidal organs are composed primarily of",
+      "image": "",
+      "options": [
+        "reticular connective tissue.",
+        "dense regular connective tissue.",
+        "dense irregular connective tissue.",
+        "pseudostratified columnar epithelium.",
+        "adipose tissue."
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 269,
+      "question": "Which type of tissue transmits electrical signals?",
+      "image": "",
+      "options": [
+        "muscle tissue",
+        "epithelial membrane",
+        "connective tissue",
+        "nervous tissue",
+        "epithelial tissue"
+      ],
+      "correctIndex": 3
+    },
+    {
+      "id": 270,
+      "question": "The matrix of blood is composed of",
+      "image": "",
+      "options": [
+        "white blood cells only.",
+        "red blood cells, white blood cells, and platelets.",
+        "platelets only.",
+        "red blood cells only.",
+        "plasma only."
+      ],
+      "correctIndex": 4
+    },
+    {
+      "id": 271,
+      "question": "Which of the following structures is not composed of hyaline cartilage?",
+      "image": "",
+      "options": [
+        "ear",
+        "embryonic skeleton",
+        "costal cartilage",
+        "nose",
+        "ends of long bones"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 272,
+      "question": "Which of the following tissue types is avascular?",
+      "image": "",
+      "options": [
+        "reticular connective tissue",
+        "cartilage",
+        "bone",
+        "blood",
+        "adipose tissue"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 273,
+      "question": "Your skin consists of",
+      "image": "",
+      "options": [
+        "nonkeratinized simple epithelium",
+        "keratinized simple epithelium",
+        "nonkeratinized stratified epithelium",
+        "keratinized stratified epithelium",
+        "nonkeratinized pseudostratified epithelium"
+      ],
+      "correctIndex": 3
+    },
+    {
+      "id": 274,
+      "question": "The basement membrane in connective tissue is made up of",
+      "image": "",
+      "options": [
+        "basal lamina only.",
+        "reticular lamina only.",
+        "basal lamina and lamina propria.",
+        "lamina propria only.",
+        "basal lamina and reticular lamina."
+      ],
+      "correctIndex": 4
+    },
+    {
+      "id": 275,
+      "question": "Intervertebral discs are composed of",
+      "image": "",
+      "options": [
+        "dense irregular connective tissue.",
+        "dense regular connective tissue.",
+        "fibrocartilage.",
+        "elastic cartilage.",
+        "hyaline cartilage."
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 276,
+      "question": "If a sample of epithelial tissue has many cell layers and those cells are flat, the sample is most likely from",
+      "image": "",
+      "options": [
+        "simple squamous epithelium.",
+        "simple columnar epithelium.",
+        "stratified columnar epithelium.",
+        "stratified squamous epithelium.",
+        "stratified cuboidal epithelium."
+      ],
+      "correctIndex": 3
+    },
+    {
+      "id": 277,
+      "question": "Chondrocytes are present in",
+      "image": "",
+      "options": [
+        "blood.",
+        "bone.",
+        "hylaline cartilage.",
+        "mesenchyme.",
+        "adipose tissue."
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 278,
+      "question": "Which type of cell is found in the bone matrix?",
+      "image": "",
+      "options": [
+        "fibroblast",
+        "hemocytoblast",
+        "hematopoietic stem cell",
+        "osteoblast",
+        "chondroblast"
+      ],
+      "correctIndex": 3
+    }
+  ]
+}

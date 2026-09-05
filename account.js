@@ -2,6 +2,8 @@
 // MY ACCOUNT & VAULT LOGIC (account.js)
 // ==========================================================================
 
+const IMAGE_BASE_URL = 'https://notmax442.github.io/testforuhs-images/';
+
 let isSelectMode = false;
 let selectedSubjectKeys = new Set();
 let activeExportSubjectKey = null;
@@ -29,7 +31,7 @@ document.addEventListener('DOMContentLoaded', () => {
     });
   }
 
-  // 2. Initialize Vault Dashboard & Listeners
+  // 3. Initialize Vault Dashboard & Listeners
   renderAccountDashboard();
 
   const toggleSelectModeBtn = document.getElementById('toggle-select-mode-btn');
@@ -165,16 +167,24 @@ function renderAccountDashboard() {
     if (missedArray.length > 0) {
       totalMissedAcrossApp += missedArray.length;
 
-      // Key format: missed_{major}_y{year}_{subject}_{profSlug}
+      // Key format: missed_{major}_y{year}_s{semester}_{subject}_{profSlug}
       const parts = key.split('_');
       let major = 'MED';
       let year = '1';
+      let semester = '1';
       let subject = '';
       let profSlug = '';
 
-      if (parts.length >= 5) {
+      if (parts.length >= 6 && parts[3].startsWith('s')) {
         major = parts[1].toUpperCase();
         year = parts[2].replace('y', '');
+        semester = parts[3].replace('s', '');
+        subject = parts[4].toUpperCase();
+        profSlug = parts.slice(5).join('_');
+      } else if (parts.length >= 5) {
+        major = parts[1].toUpperCase();
+        year = parts[2].replace('y', '');
+        semester = '1';
         subject = parts[3].toUpperCase();
         profSlug = parts.slice(4).join('_');
       } else {
@@ -183,7 +193,12 @@ function renderAccountDashboard() {
 
       const formattedProf = profSlug
         .split('-')
-        .map(word => word.charAt(0).toUpperCase() + word.slice(1))
+        .map(word => {
+          if (word === '&') return '&';
+          if (word === 'pr') return 'Pr.';
+          if (word === 'dr') return 'Dr.';
+          return word.charAt(0).toUpperCase() + word.slice(1);
+        })
         .join(' ');
 
       const card = document.createElement('div');
@@ -202,12 +217,12 @@ function renderAccountDashboard() {
         <div style="display: flex; gap: 1rem; align-items: flex-start;">
           ${checkboxHTML}
           <div style="flex: 1;">
-            <h3>${major} Year ${year} - ${subject}</h3>
+            <h3>${major} Year ${year} Sem ${semester} - ${subject}</h3>
             <p style="margin: 0 0 0.25rem 0; font-size: 0.9rem; color: var(--text-heading); font-weight: 600;">${profText}</p>
             <p class="missed-badge">${missedText}</p>
             ${!isSelectMode ? `
               <div class="subject-actions" style="flex-direction: column;">
-                <button class="btn study-missed-btn" onclick="launchAccountReview('${major}', '${year}', '${subject}', '${formattedProf}')">${getTranslation('card_practice_missed', { count: missedArray.length })}</button>
+                <button class="btn study-missed-btn" onclick="launchAccountReview('${major}', '${year}', '${semester}', '${subject}', '${formattedProf}')">${getTranslation('card_practice_missed', { count: missedArray.length })}</button>
                 <button class="btn primary-btn" onclick="promptAnkiExport('${key}')">${getTranslation('card_export_anki')}</button>
               </div>
             ` : ''}
@@ -249,12 +264,14 @@ function renderAccountDashboard() {
   }
 }
 
-function launchAccountReview(major, year, subject, professor) {
+function launchAccountReview(major, year, semester, subject, professor) {
   const sessionConfig = {
     major: major,
     year: year,
+    semester: semester,
     subject: subject,
     professor: professor,
+    isSubjectWide: false,
     mode: 'missed'
   };
   sessionStorage.setItem('activeSessionConfig', JSON.stringify(sessionConfig));
@@ -267,27 +284,79 @@ function promptAnkiExport(storageKey) {
   if (ankiModal) ankiModal.classList.remove('hidden');
 }
 
-function executeAnkiDownload(shouldClearAfter) {
+// Helper: Fetch remote image URL and convert to Base64 Data URL
+async function fetchImageAsBase64(url) {
+  try {
+    const response = await fetch(url);
+    if (!response.ok) return null;
+    const blob = await response.blob();
+    return new Promise((resolve) => {
+      const reader = new FileReader();
+      reader.onloadend = () => resolve(reader.result);
+      reader.onerror = () => resolve(null);
+      reader.readAsDataURL(blob);
+    });
+  } catch (e) {
+    console.warn(`Could not convert image to Base64: ${url}`, e);
+    return null;
+  }
+}
+
+// Anki Export Executor with Base64 Offline Image Embedding
+async function executeAnkiDownload(shouldClearAfter) {
   if (!activeExportSubjectKey) return;
 
   const raw = localStorage.getItem(activeExportSubjectKey);
   if (!raw) return;
 
   const questionsList = JSON.parse(raw);
+
+  // Loading Feedback UI
+  const ankiKeepBtn = document.getElementById('anki-keep-btn');
+  const ankiClearBtn = document.getElementById('anki-clear-btn');
+  const origKeepText = ankiKeepBtn ? ankiKeepBtn.textContent : '';
+  const origClearText = ankiClearBtn ? ankiClearBtn.textContent : '';
+
+  if (ankiKeepBtn) { ankiKeepBtn.disabled = true; ankiKeepBtn.textContent = 'Preparing Export...'; }
+  if (ankiClearBtn) { ankiClearBtn.disabled = true; ankiClearBtn.textContent = 'Preparing Export...'; }
+
   let fileContent = "#separator:Tab\n#html:true\n";
 
-  questionsList.forEach(q => {
+  for (const q of questionsList) {
     let optionsText = q.options.map((opt, idx) => {
       const letter = String.fromCharCode(65 + idx);
       return `<div><b>${letter})</b> ${opt}</div>`;
     }).join('');
 
-    const front = `<div style='font-size:1.1em; font-weight:bold; margin-bottom:8px;'>${q.question}</div>${optionsText}`;
+    let imgHTML = '';
+    const imgList = (Array.isArray(q.images) && q.images.length > 0)
+      ? q.images
+      : (q.image ? [q.image] : []);
+
+    if (imgList.length > 0) {
+      const b64Promises = imgList.map(imgName => {
+        const fullUrl = `${IMAGE_BASE_URL}${imgName.trim()}`;
+        return fetchImageAsBase64(fullUrl);
+      });
+
+      const b64Results = await Promise.all(b64Promises);
+
+      imgHTML = b64Results.map((b64Data, idx) => {
+        const src = b64Data || `${IMAGE_BASE_URL}${imgList[idx].trim()}`;
+        return `<br><img src="${src}" style="max-height:300px;" />`;
+      }).join('');
+    }
+
+    const front = `<div style='font-size:1.1em; font-weight:bold; margin-bottom:8px;'>${q.question}</div>${imgHTML}${optionsText}`;
     const correctLetter = String.fromCharCode(65 + q.correctIndex);
     const back = `<div><b>Correct Choice:</b> ${correctLetter}) ${q.options[q.correctIndex]}</div>`;
 
     fileContent += `${front}\t${back}\n`;
-  });
+  }
+
+  // Restore Button UI
+  if (ankiKeepBtn) { ankiKeepBtn.disabled = false; ankiKeepBtn.textContent = origKeepText; }
+  if (ankiClearBtn) { ankiClearBtn.disabled = false; ankiClearBtn.textContent = origClearText; }
 
   const blob = new Blob([fileContent], { type: 'text/plain;charset=utf-8' });
   const downloadLink = document.createElement('a');

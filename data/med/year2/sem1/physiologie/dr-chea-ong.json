@@ -1,0 +1,212 @@
+{
+  "questions": [
+    {
+      "id": 1,
+      "question": "L'épiglotte crée une barrière lors du passage du bol alimentaire dans le pharynx: elle empêche l'accès à :",
+      "images": [],
+      "image": "",
+      "options": [
+        "La trachée",
+        "La cavité nasale",
+        "L'œsophage",
+        "L'antre pylorique",
+        "L'estomac"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 2,
+      "question": "Dans quel organe sont déversés la bile et les sucs digestifs provenant du foie et du pancréas ?",
+      "images": [],
+      "image": "",
+      "options": [
+        "Dans l'œsophage",
+        "Dans le duodénum",
+        "Dans la vésicule biliaire",
+        "Dans le jéjunum",
+        "Dans le caecum"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 3,
+      "question": "Énumérez les différents segments de l'intestin grêle, dans l'ordre que suit le chyme lors de son passage.",
+      "images": [],
+      "image": "",
+      "options": [
+        "Jéjunum > iléon > duodénum",
+        "Iléon > duodénum > jéjunum",
+        "Jéjunum > duodénum > iléon",
+        "Duodénum > jéjunum > iléon",
+        "Duodénum > iléon > jéjunum"
+      ],
+      "correctIndex": 3
+    },
+    {
+      "id": 4,
+      "question": "Les reflux de chyme du gros intestin vers l'intestin grêle sont empêchés par :",
+      "images": [],
+      "image": "",
+      "options": [
+        "Le sphincter pylorique",
+        "L'ampoule de Vater",
+        "Le sphincter d'Oddi",
+        "Le cardia",
+        "La valve iléo-cæcale"
+      ],
+      "correctIndex": 4
+    },
+    {
+      "id": 5,
+      "question": "Où a lieu l'absorption des nutriments (leur passage dans les vaisseaux sanguins et lymphatiques)?",
+      "images": [],
+      "image": "",
+      "options": [
+        "Dans le fundus",
+        "Dans le canal cholédoque",
+        "Dans le jéjunum",
+        "Dans le canal de Wirsung",
+        "Dans le duodénum"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 6,
+      "question": "Détaillons un peu plus ces différentes étapes :",
+      "images": [],
+      "image": "",
+      "options": [
+        "Ingestion > déglutition > péristaltisme > digestion mécanique > digestion chimique > absorption > défécation",
+        "Ingestion > péristaltisme > digestion mécanique > déglutition > défécation > absorption > digestion chimique",
+        "Ingestion > péristaltisme > déglutition > digestion mécanique > absorption > digestion chimique > défécation",
+        "Ingestion > digestion mécanique > péristaltisme > digestion chimique > déglutition > absorption > défécation",
+        "Ingestion > péristaltisme > digestion chimique > déglutition > digestion mécanique > absorption > défécation"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 7,
+      "question": "Les cellules de Cajal :",
+      "images": [],
+      "image": "",
+      "options": [
+        "Sont stimulé au niveau de la musculaire circulante",
+        "Sont stimulé au niveau de la musculaire longitudinale",
+        "Sont stimulé au niveau de la musculaire oblique",
+        "Sont stimulé au niveau de la muqueuse",
+        "Ont des canaux de fuite K+"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 8,
+      "question": "L'ouverture du sphincter œsophagien inférieure SOI se fait par",
+      "images": [],
+      "image": "",
+      "options": [
+        "Le nerf vague",
+        "La gastrine",
+        "La graisse",
+        "L'histamine"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 9,
+      "question": "Les factures qui augmentent la pression du sphincter œsophagienne inférieure :",
+      "images": [],
+      "image": "",
+      "options": [
+        "Acétylcholine",
+        "VIP",
+        "CCK",
+        "GIP",
+        "Chocolat"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 10,
+      "question": "La sécrétion salivaire est :",
+      "images": [],
+      "image": "",
+      "options": [
+        "Diminuée par le parasympathique",
+        "Diminuée par le sympathique",
+        "Diminuée par le nerf V",
+        "Augmentation par la distension utérine",
+        "Diminuée par le nerf vague"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 11,
+      "question": "La sécrétion gastrique d'HCL est stimulée par :",
+      "images": [],
+      "image": "",
+      "options": [
+        "Les anti-H2",
+        "Les IPP",
+        "La somatostatine",
+        "L'hyperglycémie",
+        "L'hypoglycémie"
+      ],
+      "correctIndex": 4
+    },
+    {
+      "id": 12,
+      "question": "\"Les sels biliaires constituent des enzymes hépatiques.\"",
+      "images": [],
+      "image": "",
+      "options": [
+        "Vrai",
+        "Non ce sont des sels qui émulsionnent les graisses",
+        "Oui: ce sont des amylases pancréatiques",
+        "Ce sont bien des enzymes, mais elles ne proviennent pas du foie."
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 13,
+      "question": "Parmi les propositions suivantes, indiquer celle qui est exacte. Dans les conditions physiologiques, le pH le plus élevé est mesuré dans:",
+      "images": [],
+      "image": "",
+      "options": [
+        "Le suc gastrique",
+        "La bile vésiculaire",
+        "Le suc pancréatique",
+        "La salive",
+        "Les sécrétions intestinales"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 14,
+      "question": "La trypsine est:",
+      "images": [],
+      "image": "",
+      "options": [
+        "Sécrété par les cellules acineuses",
+        "Sécrété par les cellules canalaires",
+        "Stimule par la sécrétine",
+        "Diminuée par le nerf vague",
+        "Diminuée le CCK"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 15,
+      "question": "Les glandes de Lieberkuhn sécrétent par voie endocrine :",
+      "images": [],
+      "image": "",
+      "options": [
+        "Les bicarbonates",
+        "VIP",
+        "La Motiline",
+        "La somatostatine",
+        "L'histamine"
+      ],
+      "correctIndex": 2
+    }
+  ]
+}

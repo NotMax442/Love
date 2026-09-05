@@ -1,0 +1,1822 @@
+{
+  "questions": [
+    {
+      "id": 1,
+      "question": "កំឡុងពេល contraction musculaire ATPចូលរួមក្នុងសកម្មភាពណាមួយខាងក្រោម?",
+      "images": [],
+      "image": "",
+      "options": [
+        "ការសំយោគ créatine phosphate",
+        "ការសំយោគគ្លីកូហ្សែន",
+        "Respiration cellulaire",
+        "ចលនាMyofilaments"
+      ],
+      "correctIndex": 3
+    },
+    {
+      "id": 2,
+      "question": "តើការពន្យល់ណាមួយខាងក្រោមត្រឹមត្រូវទាក់ទងទៅនឹងpériode réfractaire? Période réfractaire ជារយៈពេលមួយដែលក្នុងនោះកោសិកា",
+      "images": [],
+      "image": "",
+      "options": [
+        "កំពុងចាប់ផ្តើមប្រែប្រួលនូវ potentiel",
+        "ស្ថិតក្នុងស្ថានភាព potentiel de repos",
+        "ស្ថិតក្នុងស្ថានភាពPériode de contraction",
+        "មិនឆ្លើយតបទៅនឹងរំញោចដ៏ទៃទៀត"
+      ],
+      "correctIndex": 3
+    },
+    {
+      "id": 3,
+      "question": "តើការពន្យល់ខាងក្រោមណាមួយត្រឹមត្រូវទាក់ទងទៅនឹងLoi du tou - ou- rien?",
+      "images": [],
+      "image": "",
+      "options": [
+        "គ្រប់សាច់ដុំទាំងអស់ក្នុងតំបន់មួយត្រូវបានកន្ត្រាក់ទាំងស្រុង",
+        "សាច់ដុំកន្ត្រាក់ទាំងស្រុងពេលfibres musculaires ទាំងអស់ត្រូវបានភ្លេច",
+        "សាច់ដុំកន្ត្រាក់ទាំងស្រុងពេលដែល fibre musculaire មួយកន្ត្រាក់",
+        "ATP ត្រូវបំឡែងទៅជាADPពេលដែលfibre musculaireមួយកន្ត្រាក់"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 4,
+      "question": "ប្រសិនជាអាសេទីលកូលីនដែលជា neurotransmetteurរបស់សាច់ដុំឆ្កួតត្រូវបានបំផ្លាញឆាប់ពេក តើស្ថានភាពនៃការកន្ត្រាក់របស់សាច់ដុំណាមួយខាងក្រោមដែលឆ្លើយតបទៅនឹងលក្ខ័ណដែលបានរៀបរាប់?",
+      "images": [],
+      "image": "",
+      "options": [
+        "ការកន្ត្រាក់របស់សាច់ដុំគ្មានប្រែប្រួល",
+        "ការកន្ត្រាក់របស់សាច់ដុំកើនឡើង",
+        "ការកន្ត្រាក់របស់សាច់ដុំថយចុះ",
+        "ការកន្ត្រាក់របស់សាច់ដុំត្រូវបានបញ្ឈប់"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 5,
+      "question": "បរិមាណអុកស៊ីហ្សែនដែលត្រូវការដើម្បីបំប្លែងacide lactiqueទៅជា glycogèneនិងcréatine phosphate ទៅកម្រិតធម្មតាវិញហៅថា",
+      "images": [],
+      "image": "",
+      "options": [
+        "Métabolisme aerobie",
+        "Dette oxygène",
+        "Métabolisme anaerobie",
+        "Comsommation de l'oxygene"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 6,
+      "question": "តើសំណើណាមួយខាងក្រោមឆ្លើយតបទៅ និង fibre musculaire à contraction lente?",
+      "images": [],
+      "image": "",
+      "options": [
+        "មាន mitochondrie ច្រើន",
+        "មាន capillairesកិច",
+        "មាន myoglobine ច្រើន",
+        "Respiration anaerobie"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 7,
+      "question": "Tension សាច់ដុំដែលកើតឡើងកម្លាំងពេលការកន្ត្រាក់សាច់ដុំអាស្រ័យទៅនឹងបំរែបំរួលប្រវែងនៃsarcomère ។ តើ រែបំរួលណាមួយខាងក្រោមដែលបង្កឲ្យ tension ក្នុងសាច់ដុំទាបជាងគេ?",
+      "images": [],
+      "image": "",
+      "options": [
+        "Sarcomère ត្រូវបានទាញចូល២០%Slonguer optimal",
+        "Sarcomère ត្រូវបានទាញចូល៣០%នៃlonguer optimal",
+        "Sarcomère ត្រូវបានទាញចូល៤០%នៃlonguer optimal",
+        "Sarcomère ត្រូវបានទាញចូល៥០%នៃSlonguer optimal",
+        "Sarcomère ត្រូវបានទាញចូល៦០%នៃlonguer optimal"
+      ],
+      "correctIndex": 4
+    },
+    {
+      "id": 8,
+      "question": "Tension សាច់ដុំដែលកើតឡើងកម្លាំងពេលការកន្ត្រាក់សាច់ដុំអាស្រ័យទៅនឹងបំរែបំរួលប្រវែងនៃsarcomère ។ តើ រែបំរួលណាមួយខាងក្រោមដែលបង្កឲ្យ tension ក្នុងសាច់ដុំខ្ពស់ជាងគេ?",
+      "images": [],
+      "image": "",
+      "options": [
+        "Sarcomère ត្រូវបានទាញចេញ២០% នៃlonguer optimal",
+        "Sarcomère ត្រូវបានទាញចេញ៣០%នៃlonguer optimal",
+        "Sarcomère ត្រូវបានទាញចេញ៤០% នៃlonguer optimal",
+        "Sarcomère ត្រូវបានទាញចេញ៥០% នៃlonguer optimal",
+        "Sarcomère ត្រូវបានទាញចេញ៦០%នៃlonguer optimal"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 9,
+      "question": "តើសំណើណាមួយខាងក្រោមឆ្លើយតបទៅនឹង relachement du fibre musculaire",
+      "images": [],
+      "image": "",
+      "options": [
+        "កំហាប់ Adénosine TriPhosphateកើនឡើង",
+        "Ca2+ ត្រូវស្រូបចូលreticulum sarcoplasmique",
+        "Activité acetylcholinesterase កើនឡើង",
+        "កម្រិតនៃររំញាចត្រូវបានកើនឡើង"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 10,
+      "question": "សំណើណាមួយខាងក្រោមឆ្លើយតបទៅនឹងការកន្ត្រាក់របស់សាច់ដុំរលីង?",
+      "images": [],
+      "image": "",
+      "options": [
+        "Calcium ភ្ជាប់ជាមួយនិង troponin.",
+        "Caveole ភ្ជាប់ជាមួយនិង calcium",
+        "Troponinនិង tropomyosin មានចលនា",
+        "Calcium ភ្ជាប់ជាមួយនិង calmodulin"
+      ],
+      "correctIndex": 3
+    },
+    {
+      "id": 11,
+      "question": "ប្រសិនជា permeabilité de la membrane plasmique កើនឡើងចំពោះ Na+ លទ្ធផលទទួលបានគឺ",
+      "images": [],
+      "image": "",
+      "options": [
+        "Depolarization de la membrane plasmique",
+        "Repolarization de la membrane plasmique",
+        "Polarisation de la membrane plasmique",
+        "Hyperpolarisation de la membrane plasmique"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 12,
+      "question": "នៅក្នុងការកន្ត្រាក់របស់សាច់ដុំ តើទីតាំងណាមួយខាងក្រោមអាចបំបែកម៉ូលេគុលATP?",
+      "images": [],
+      "image": "",
+      "options": [
+        "Actine globulaire",
+        "Tête de myosine",
+        "Troponine",
+        "Tropomyosine"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 13,
+      "question": "តើសំណើណាមួយខាងក្រោមត្រឹមត្រូវទាក់ទងទៅនឹងការកកើតនៃSommation temporelle ?",
+      "images": [],
+      "image": "",
+      "options": [
+        "Intensité នៃរំញោចត្រូវបានកើនឡើង",
+        "កើនឡើងនូវចំនួនសសៃប្រសាទដែលត្រូវខ្មោច",
+        "ចំនួនដងនៃរំញោចត្រូវបានកើនឡើង",
+        "Relachement complet ពីរំញោចមួយទៅមួយ"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 14,
+      "question": "តើការពន្យល់ណាមួយខាងក្រោមឆ្លើយតបទៅនឹង type de contraction isotonique?",
+      "images": [],
+      "image": "",
+      "options": [
+        "កង់ ងសាច់ដុំនិងប្រវែងសាច់ដុំប្រែប្រួល",
+        "គង់ ងសាច់ដុំនិងប្រវែងសាច់ដុំគ្មានការប្រែប្រួល",
+        "កង់ ងសាច់ដុំបេនិងប្រវែងសាច់ដុំប្រែប្រួល",
+        "កង់ ងសាច់ដុំប្រែប្រួលនិងប្រវែងសាច់ដុំបេ"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 15,
+      "question": "សំណើណាមួយខាងក្រោមដែលអាចបញ្ឈប់ការកន្ត្រាក់សាច់ដុំ ?",
+      "images": [],
+      "image": "",
+      "options": [
+        "Fermeture du récepteur postsynaptique de l'acétylcholine",
+        "Suppression de l'acétylcholine de la jonction neuromusculaire",
+        "Suppression du calcium du terminaison du neurone moteur",
+        "Retour des récepteur de dihydropyridine en confirguration normale",
+        "Suppression du calcium de réticulum sarcoplasmique"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 16,
+      "question": "តើសំណើណាមួយខាងក្រោមដែលមានមុខងារនិងរចនាសម្ព័នដូចcalmoduline?",
+      "images": [],
+      "image": "",
+      "options": [
+        "Actine golbulaire",
+        "Myosine à chaine leger",
+        "Tropomyosine",
+        "Troponine.C"
+      ],
+      "correctIndex": 3
+    },
+    {
+      "id": 17,
+      "question": "តើរចនាសម្ព័នណាមួយខាងក្រោមដែលថយចុះប្រវែងកម្លាំងពេលសាច់ដុំធ្លកកន្ត្រាក់?",
+      "images": [],
+      "image": "",
+      "options": [
+        "Bande A du sarcomère",
+        "Bande I du sarcomère",
+        "Filaments épais",
+        "Filaments mains",
+        "Ligne Z du sarcomère"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 18,
+      "question": "កម្លាំងពេលដែលមាន Contraction tétanique នៃសាច់ដុំឆ្កួតមួយ តើកំហាប់សារធាតុណាមួយខាងក្រោមដែល កើនឡើងក្នុងកោសិកា?",
+      "images": [],
+      "image": "",
+      "options": [
+        "ATP",
+        "Calcium",
+        "Potassium",
+        "Sodium",
+        "Troponine"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 19,
+      "question": "លំហាត់ប្រាណដោយលើកទំងន់ លទ្ធផលទទួលបានគឺការកើនឡើងនូវ masse musculaire យ៉ាងសមស្របទៅតាមកម្រិតនៃលំហាត់ប្រាណ។ តើការកើនឡើងនូវ masse musculaire នេះមានការចូលរួមជាដំបូងពីកត្តាណាមួយខាងក្រោម?",
+      "images": [],
+      "image": "",
+      "options": [
+        "Fusion des sarcomères entre les myofibres adjacents",
+        "Hypertrophie du chaque fibre musculaire",
+        "Augmentation des vaisseaux sanguins du muscles striés",
+        "Augmentation du nombre du neurone moteur",
+        "Augmentation du nombre du jonctions neuromusculaires"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 20,
+      "question": "ការចាប់ផ្តើមកន្ត្រាក់សាច់ដុំរលីងមានការយឺតយ៉ាវនិងការកន្ត្រាក់មានរយៈពេលយូរ ព្រមទាំងមានកម្លាំងខ្លាំងបើប្រៀបធៀបជាមួយសាច់ដុំឆ្កួត។ តើការរៀបរាប់ណាមួយខាងក្រោមដែលឆ្លើយតបទៅនឹងលក្ខណៈដែលបានរៀបរាប់ខាងលើ?",
+      "images": [],
+      "image": "",
+      "options": [
+        "សាច់ដុំរលឹងមាន filament des myosines ច្រើន",
+        "តម្រូវការឋាមពលខ្ពស់របស់សាច់ដុំរលីង",
+        "ការតម្រៀបរបស់ myosines et actinesខុសពីសាច់ដុំឆ្កួត",
+        "ការភ្ជាប់ tête des myosines et actines មានសភាពយឺតក",
+        "ការចាប់យកកាល់ស្យូមមានសភាពយឺតបន្ទាប់ពីសាច់ដុំកន្ត្រាក់"
+      ],
+      "correctIndex": 3
+    },
+    {
+      "id": 21,
+      "question": "បុរសវ័យជំទង់ម្នាក់បានទទួលរងនូវបាក់ឆ្អឹងជើងឆ្វេង(tibia)។ បន្ទាប់ពីបានព្យាបាលអស់រយៈពេល៨ សប្តាហ៍ដោយអបជើងបាក់ដោយឧបករណ៍ជំនួយ សង្កេតឃើញថាសាច់ដុំកំភួនជើងឆ្វេងរបស់គាត់មានទំហំតូចជាងមុនពេលដែលឆ្អឹងបាក់។ តើការពន្យល់ណាមួយខាងក្រោមត្រឹមត្រូវ?",
+      "images": [],
+      "image": "",
+      "options": [
+        "ថយចុះចំនួន fibre musculaireនីមួយៗនៅសាច់ដុំកំភួនជើងឆ្វេង",
+        "ថយចុះលំហួឈាមទៅចិញ្ចឹមសាច់ដុំដោយសារឧបករណ៍អបជើង",
+        "ថយចុះមួយរយៈពេលនូវការសំយោគប្រូតេអ៊ីនក្នុងactine et myosine",
+        "កើនឡើងនូវ activité de glycolyse នៅសាច់ដុំដែលរងរបួស",
+        "ថយចុះនូវរំញោចពីប្រពន្ធ័សសៃប្រសាទបន្តិចម្តងៗចំពោះសាច់ដុំរបួស"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 22,
+      "question": "ការកន្ត្រាក់របស់ muscle lisse ចាប់ផ្តើមបានបន្ទាប់ពីactivation de la tête du myosineរួច។ តើការពន្យល់ណាមួយខាងក្រោមត្រឹមត្រូវទាក់ទងទៅនឹងចលការនេះ?",
+      "images": [],
+      "image": "",
+      "options": [
+        "កាល់ស្យូមត្រូវភ្ជាប់ជាមួយ système tropomyosine/actine",
+        "កាល់ស្យូមត្រូវភ្ជាប់ជាមួយនឹង la troponine .C",
+        "កាល់ស្យូមត្រូវភ្ជាប់ជាមួយនឹង de chaines legères de myosine",
+        "កាល់ស្យូម- calmodulineត្រូវភ្ជាប់ជាមួយនឹង chaines legères de myosine",
+        "កាល់ស្យូម-calmodulineត្រូវភ្ជាប់ជាមួយkinase de chaines legères de myosine"
+      ],
+      "correctIndex": 4
+    },
+    {
+      "id": 23,
+      "question": "តើការពន្យល់ណាមួយខាងក្រោមត្រឹមត្រូវទាក់ទងនឹងកាល់ស្យូមក្នុង la contraction du muslce lisse?",
+      "images": [],
+      "image": "",
+      "options": [
+        "ពឹងផ្អែកទាំងស្រុងទៅលើ système troponine /tropomyosine",
+        "ភាគច្រើនត្រូវបានបញ្ចេញពី réticulum sarcoplasmique",
+        "កើនឡើងក្នុងកោសិកានាំឲ្យលំ Ca2+ ពីក្រៅកោសិកាកើនឡើង",
+        "កើនឡើងក្នុងកោសិកានាំឲ្យលំ Ca2+ réticulum sarcoplasmique"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 24,
+      "question": "តើការពន្យល់ណាមួយខាងក្រោមត្រឹមត្រូវទាក់ទងនឹងmuslce lisseកំឡុងពេលមាន hypoxie?",
+      "images": [],
+      "image": "",
+      "options": [
+        "ជាទូទៅបង្កឲ្យមាន relachement du muscle lisse",
+        "ជាទូទៅបង្កឲ្យមាន contraction du muscle lisse",
+        "គ្មានឥទ្ធិពលទៅលើ contraction du muscle lisse",
+        "មិនបង្កឲ្យមានcontraction des muscles lisses unitaires"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 25,
+      "question": "សាច់ដុំឆ្កួតអាចកន្ត្រាក់បាន បន្ទាប់ពីការមកដល់នៃរំញោចនៅក្រង់ jonction neuromusculaire ។ តើអីយ៉ុងណា មួយខាងក្រោមដែលបង្កឲ្យមានការបើក canaux ioniques récepteurs du plaque motrice?",
+      "images": [],
+      "image": "",
+      "options": [
+        "Ca2+",
+        "Mg2+",
+        "H+",
+        "CI-",
+        "NA+"
+      ],
+      "correctIndex": 4
+    },
+    {
+      "id": 26,
+      "question": "ចំពោះសាច់ដុំឆ្កួត ប្រសិនជារំញោចត្រូវបានកាត់ផ្តាច់តើ caracteristiques ណាមួយខាងក្រោមដែលសាច់ដុំបាត់បង់មុនគេ?",
+      "images": [],
+      "image": "",
+      "options": [
+        "Exensibilité",
+        "Elasticité",
+        "Excitabilité",
+        "Contractilité"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 27,
+      "question": "តើការពន្យល់ណាមួយខាងក្រោមដែលបញ្ជាក់ថាសាច់ដុំស្ថិតក្នុងស្ថានភាពrelachement?",
+      "images": [],
+      "image": "",
+      "options": [
+        "រំញោចមកដល់plaque motrice",
+        "កាល់ស្យូមនៅក្នុងកោសិកាកើនឡើង",
+        "Neurotransmetteurs ត្រូវបានបំផ្លាញ",
+        "Tension នៅក្នុងសាច់ដុំកើនឡើង"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 28,
+      "question": "តើការពន្យល់ណាមួយខាងក្រោមដែលបញ្ជាក់ថាសាច់ដុំស្ថិតក្នុងស្ថានភាព contraction?",
+      "images": [],
+      "image": "",
+      "options": [
+        "រំញោចមកដល់plaque motrice",
+        "Ca2+ត្រូវស្រូបចូល réticulum sarcoplasmique",
+        "Tension នៅក្នុងសាច់ដុំកើនឡើង",
+        "Acetylcholine ត្រូវបានបំផ្លាញ"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 29,
+      "question": "តើការពន្យល់ណាមួយខាងក្រោមដែលបញ្ជាក់ថាសាច់ដុំស្ថិតក្នុងស្ថានភាព excitation?",
+      "images": [],
+      "image": "",
+      "options": [
+        "រំញោចមកដល់plaque motrice",
+        "Ca2+កើនឡើងក្នុងកោសិកាសាច់ដុំយ៉ាងខ្លាំង",
+        "Acetylcholines ភ្ជាប់ récepteursនៃ plaques motrices",
+        "Tension នៅក្នុងសាច់ដុំចាប់ផ្តើមកើនឡើងសន្សឹមៗ",
+        "Sarcomèresចាប់ផ្តើមទាញចូលគ្នាបន្តិចម្តងៗ"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 30,
+      "question": "លំហាត់ប្រាណទៀងទាត់ នាំមកនៅភាពធន់របស់សាច់ដុំទៅនឹងការហត់នឿយ។ តើការពន្យល់ណាមួយខាងក្រោមត្រឹមត្រូវទាក់ទងទៅនឹងភាពធន់របស់សាច់ដុំទៅនឹងការហត់នឿយនេះ?",
+      "images": [],
+      "image": "",
+      "options": [
+        "កើនឡើងចំនួនកោសិកាសាច់ដុំ",
+        "មានតែexercise contre la résistanceតែប៉ុណ្ណោះ",
+        "កើនឡើងប្រសិទ្ធភាពការប្រើប្រាស់អុកស៊ីហ្សែន",
+        "ពឹងផ្អែកទាំងស្រុងទៅនឹងទំ សាច់ដុំទាំងមូល"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 31,
+      "question": "តើការពន្យល់ណាមួយខាងក្រោមត្រឹមត្រូវទាក់ទងទៅនឹងcapacité de consommation maximale de l'oxygène (VO2max)? VO2max មានកម្រិត",
+      "images": [],
+      "image": "",
+      "options": [
+        "ស្មើគ្នាច់ពោះមនុស្សគ្រប់វ័យ",
+        "កើនឡើងចំពោះមនុស្សទៅតាមវ័យ",
+        "ប្រហែលគ្នារវាងអ្នកកីឡានិងអ្នកធម្មតា",
+        "កើនឡើងចំពោះអ្នកកីឡា"
+      ],
+      "correctIndex": 3
+    },
+    {
+      "id": 32,
+      "question": "នៅក្នុងឆ្អឹង តើការពន្យល់ណាមួយខាងក្រោមឆ្លើយតបទៅនឹងការលូតលាស់ cartilage en apposition?",
+      "images": [],
+      "image": "",
+      "options": [
+        "Chondrocyte ស្ថិតនៅផ្នែកកណ្តាលនៃ cartilagesបង្កើតmaticeថ្មី",
+        "Fibroblastes ផលិតពួក chondroblastes ថ្មី",
+        "Chondroblastes នៅក្នុងperichondreផលិត matrix ថ្មី",
+        "Ostéons ថ្មីត្រូវបានកកើតឡើងពី ostéoblastes"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 33,
+      "question": "តើសំណើណាមួយខាងក្រោមត្រឹមត្រូវទាក់ទងទៅនឹង ossification endochondrale?",
+      "images": [],
+      "image": "",
+      "options": [
+        "កើតឡើងដំបូងបំផុតនៅក្នុងឆ្អឹងលលាដ៍ក្បាល",
+        "ចូលរួមក្នុង calcification de matrix du cartilage",
+        "ផលិកឆ្អឹងក្នុងmembrane du tissu conjonctif",
+        "កើតឡើងនូវពេលchondrocytesជំនួសostéoblastes ក្នុងmatrice"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 34,
+      "question": "តើការរៀបរាប់ណាមួយខាងក្រោមឆ្លើយតបទៅនឹង centre de l'ossification secondaireនៅក្នុង ossification endochondrale?",
+      "images": [],
+      "image": "",
+      "options": [
+        "មានទីតាំងស្ថិតនៅក្នុង diaphyse",
+        "មានទីតាំងស្ថិតនៅក្នុង épiphyse",
+        "មានទីតាំងស្ថិតនៅក្នុង fontanelle",
+        "កើតឡើងក្នុងដំណាក់កាលដំបូងនៃការលូតលាស់"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 35,
+      "question": "តើការរៀបរាប់ណាមួយខាងក្រោមត្រឹមត្រូវទាក់ទងទៅនឹងការលូតលាស់របស់ឆ្អឹង (croissance)?",
+      "images": [],
+      "image": "",
+      "options": [
+        "ការលូតលាស់មានសភាពលឿនដោយសារការកើនឡើងនូវ testostéone et oestrogene",
+        "Plaque epiphysaire មិនអាចវិវត្តទៅជាឆ្អឹងដោយសារ testostéone et oestrogene",
+        "ការលូតលាស់កើនឡើងយ៉ាងខ្លាំងបើទុកជាhormone de croissanceមានតិចក៏ដោយ",
+        "Régulation mécanique មានសារៈសំខាន់ក្នុងការធានាកំហាប់ពពួកអឺយ៉ុងក្នុងឈាម"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 36,
+      "question": "តើការរៀបរាប់ណាមួយខាងក្រោមត្រឹមត្រូវទាក់ទងទៅនឹងការលូតលាស់របស់ឆ្អឹងវែង en longeur ត្រូវបាន បញ្ឈប់?",
+      "images": [],
+      "image": "",
+      "options": [
+        "Cartilarge articulaire ក្លាយជាឆ្អឹងទាំងស្រុង",
+        "Plaque épiphysaire ក្លាយជាឆ្អឹងទាំងស្រុង",
+        "Croissance en appositionSipériosteត្រូវបានបញ្ឈប់",
+        "Ossification intramembraneuse ត្រូវបានបញ្ចប់"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 37,
+      "question": "នៅក្នុងឆ្អឹង remaniement osseux ជាចលនការមួយដែលធានានូវ homéostasie osseuse តើការពន្យល់ណាមួយខាងក្រោមដែលឆ្លើយតបទៅនឹង remaniement osseux?",
+      "images": [],
+      "image": "",
+      "options": [
+        "ឆ្អឹងដែល Développement ក្នុង période foetale នឹងស្ថិតនៅដោយគ្មានប្រែប្រួល",
+        "ការបំផ្លាញឆ្អឹងចាស់ដោយ ostéoclastes និងបង្កើតឆ្អឹងថ្មីដោយ ostéoblastes",
+        "មានការកកើតឆ្អឹងថ្មីដើម្បីទៅជំនួសនៅត្រង់ទីតាំងឆ្អឹងដែលបាក់",
+        "មានការបង្កើតឆ្អឹងនៅជុំវិញសសៃឈាមដើម្បីបង្កើត canal central"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 38,
+      "question": "នៅក្នុងឆ្អឹង ប្រសិនជា fibre collagene et sels minérausត្រូវបានយកចេញ តើរចនាសម្ព័នរបស់ឆ្អឹងមានសភាពដូចម្តេច?",
+      "images": [],
+      "image": "",
+      "options": [
+        "មានសភាពរឹងនិងផុយ",
+        "គ្មានភាពខុសគ្នាកើតឡើង",
+        "មានសភាពទន់និងយឺត",
+        "បែកជាបំណែកឆ្អឹងតូចៗ"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 39,
+      "question": "ឆ្អឹងមានមុខងារជាច្រើនក្នុងនោះមុខងារមួយគឺ “equilibre électrolytique\" តើសំណើណាមួយខាងក្រោមដែល ឆ្លើយតបទៅនឹងមុខងានេះ?",
+      "images": [],
+      "image": "",
+      "options": [
+        "ឆ្អឹងធ្វើការផ្លាស់ប្តូរអេឡិចត្រូលីតគ្រប់ប្រភេទជាមួយឆ្អឹងនិងឆ្អឹងខ្ចី",
+        "ឆ្អឹងស្លឹកកាល់ស្យូមនិងphosphates និងបញ្ចេញទៅក្នុងឈាមពេលត្រូវការ",
+        "ឆ្អឹងស្លឹកកាល់ស្យូមនិងphosphatesបំ បញ្ចេញទៅក្នុងឈាមតិចតួច",
+        "ឆ្អឹងគឺជាទីតាំងសម្រាប់ស្លកអេឡិចត្រូលីត ប្រូតេអ៊ីន ខ្លាញ់និងសារធាតុដែក"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 40,
+      "question": "ការលូតលាស់របស់ឆ្អឹងមានmecanismes២គឺ៖ ការលូតលាស់តាមបណ្តោយឆ្អឹងនិងការលូតលាស់ en apposition។ តើការរៀបរាប់ណាមួយខាងក្រោមត្រឹមត្រូវទាក់ទងទៅ នឹងការលូតលាស់នេះ?",
+      "images": [],
+      "image": "",
+      "options": [
+        "ផ្នែកកណ្តាលនិងផ្នែកសងខាង",
+        "ផ្នែកខាងក្នុងនិងផ្ទៃខាងក្រៅ",
+        "ផ្នែកខាងដើមនិងផ្នែកខាងចុង",
+        "ផ្នែកខាងឆ្វេងនិងផ្នែកខាងស្តាំ"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 41,
+      "question": "ឆ្អឹងត្រូវការអ័ម៉ូនដើម្បីធានានូវការលូតលាស់។ តើអ័ម៉ូនណាខាងក្រោមដែលចូលរួម ក្នុងការលូតលាស់របស់ឆ្អឹង",
+      "images": [],
+      "image": "",
+      "options": [
+        "Parathormone et calcitonine",
+        "Hormone de croissance et Calcitonine",
+        "Hormones thyroidiennes et parathormone",
+        "Horomone de croissance et hormones thyroidiennes"
+      ],
+      "correctIndex": 3
+    },
+    {
+      "id": 42,
+      "question": "Ossification intramembraneuse គឺជាការវិវត្តន៍របស់ឆ្អឹងដែលក្នុងនោះឆ្អឹងសំប៉ែតរបស់សរីរាង្គនឹងវិវត្តពីទម្រង់ នេះ។តើ វិវត្តនេះចាប់ផ្តើម ក្នុងដំណាក់កាលណាមួយខាងក្រោម?",
+      "images": [],
+      "image": "",
+      "options": [
+        "Periode embryonnaire",
+        "Période foetale",
+        "Période de l'enfance",
+        "Période de naissance"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 43,
+      "question": "Remaniement osseux គឺជាចលនការមួយមានprocessus2 formation osseuseទទួលខុសត្រូវដោយ ostéoblastes et resorption osseuse ទទួលខុសត្រូវដោយ ostéoclastes។ តើការពន្យល់ណាមួយត្រឹមត្រូវទាក់ទងទៅនឹងមុខងាររបស់ ostéoclastesនៅទីតាំងដែលមានrésorption osseuse?",
+      "images": [],
+      "image": "",
+      "options": [
+        "ធ្វើឲ្យក្លាយទៅជា milieu alcalin",
+        "ធ្វើឲ្យក្លាយទៅជា milieu acide",
+        "ធ្វើឲ្យក្លាយទៅជា milieu neuter",
+        "ធ្វើឲ្យក្លាយទៅជា milieu normal"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 44,
+      "question": "ស្រីម្នាក់ត្រូវបាគេធ្វើរោគវិនិច្ឆ័យថាមានដុំមួយដែលបញ្ចេញអ័ម៉ូន parathormone។ តើសំណើណាមួយខាង ក្រោមដែលនឹងត្រូវកើនឡើងដោយសារការកើនឡើងនូវ parathormones:?",
+      "images": [],
+      "image": "",
+      "options": [
+        "Résorption osseuse",
+        "Formation osseuse",
+        "ការបញ្ចេញ Ca2+ពីពោះវៀន",
+        "ការស្រូប HPO43-ពីពោះវៀន",
+        "ការស្រូប HPO43-ពីតម្រងនោម"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 45,
+      "question": "តើប្រតិកម្មគីមីណាមួយខាងក្រោមដែលជាប្រតិកម្ម anabolisme?",
+      "images": [],
+      "image": "",
+      "options": [
+        "Glycogenese",
+        "Glycogenolyse",
+        "Néoglucogenese",
+        "Cetogenese"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 46,
+      "question": "តើសារធាតុណាមួយខាងក្រោមដែលមិនមែនជាចំណីអាហារចាំបាច់សម្រាប់សរីរាង្គ?",
+      "images": [],
+      "image": "",
+      "options": [
+        "Glucides",
+        "Protéine",
+        "Vitamines",
+        "Phosphate"
+      ],
+      "correctIndex": 3
+    },
+    {
+      "id": 47,
+      "question": "បុរសម្នាក់ត្រូវបានធ្វើរោគវិនិច្ឆ័យថាមានជម្ងឺស្ទះថង់ទឹកប្រម៉ាត់ តើវីតាមីនណាមួយខាងក្រោមនឹងថយចុះ?",
+      "images": [],
+      "image": "",
+      "options": [
+        "Vitamine.C",
+        "Vitamine B",
+        "Vitamine.D",
+        "Folate"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 48,
+      "question": "ក្មេងប្រុសម្នាក់អាយុ២៤ឆ្នាំ ស្ថិតក្នុងតំបន់មួយដែលមានសីតុណ្ហភាព៤១អង្សាសេ និងសំណើមបរិយាកាស មាន ២០%។ តើចលការណាមួយខាងក្រោមដែលឆ្លើយ តបទៅនិងការផ្លាស់ប្តូរកំដៅ រវាងក្មេងប្រុសនេះជា មួយនិងបរិយាកាស।",
+      "images": [],
+      "image": "",
+      "options": [
+        "Conduction à l'air",
+        "Conduction à l'object",
+        "Convection",
+        "Evaporation",
+        "Radiation"
+      ],
+      "correctIndex": 3
+    },
+    {
+      "id": 49,
+      "question": "voie métabolique ណាមួយខាងក្រោមដែលផ្តល់ឋាមពលច្រើនជាងគេពី យកូស១ម៉ូលេគុល?",
+      "images": [],
+      "image": "",
+      "options": [
+        "Cycle de l'acide cytrique",
+        "Glycogenese",
+        "Glycogenolyse",
+        "Glycolyse",
+        "Phosphorylation oxidative"
+      ],
+      "correctIndex": 4
+    },
+    {
+      "question": "ចំពោះមនុស្សម្នាក់ដែលមិនសូវមានactivité physique តើឋាមពលដែលត្រូវប្រើប្រាស់ក្នុងមួយថ្ងៃសម្រាប់សកម្មភាពណាមួយខាងក្រោម?",
+      "images": [],
+      "image": "",
+      "options": [
+        "Taux de metabolism basal",
+        "Maintenance de posture",
+        "Nonshivering thermogenesis",
+        "Effet thermogenique de l'aliment"
+      ],
+      "correctIndex": 0,
+      "id": 50
+    },
+    {
+      "id": 51,
+      "question": "voie métabolique ណាមួយខាងក្រោមដែលអាចផ្តល់ឋាមពលសម្រាប់ធ្វើសកម្មភាពយ៉ាងខ្លាំង(activité intense) ក្នុងរយៈពេលលើសពី៥ទៅ១០វិនាទីតែមិនលើសពី១ទៅ២នាទី?",
+      "images": [],
+      "image": "",
+      "options": [
+        "Adénosine Tri Phosphate",
+        "Glycolyse anaérobie",
+        "Oxydation de hydrate de carbones",
+        "Oxydation de l'acide lactique",
+        "Conversion de l'acide lactique en acide pyruvique"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 52,
+      "question": "តើសារធាតុណាមួយខាងក្រោមដែលកកើតឡើងពីការបំឡែងរបស់អាម៉ូញ៉ាក់ដែលបានមកពីប្រតិកម្ម deamination de l'acide aminé?",
+      "images": [],
+      "image": "",
+      "options": [
+        "Ammonium",
+        "Carbone dioxide",
+        "Citrulline",
+        "Ornithine",
+        "Urée"
+      ],
+      "correctIndex": 4
+    },
+    {
+      "id": 53,
+      "question": "គ្រាប់ឈាមក្រហមចាស់ៗត្រូវបានបំផ្លាញនិងជំនួសមកវិញដោយកោសិកាថ្មីយ៉ាងទៀងទាត់។ តើសារធាតុអ្វីត្រូវបានបំឡែងពី Hemeមុននឹងត្រូវបានបញ្ចេញចោលពីសរីរាង្គ?",
+      "images": [],
+      "image": "",
+      "options": [
+        "Bilirubine",
+        "Cholesterole",
+        "Acide cholique",
+        "Globine",
+        "Acide glucuronique"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 54,
+      "question": "តើសារធាតុណាមួយខាងក្រោមដែលធ្វើឲ្យការឃ្លានអាហារថយចុះ?",
+      "images": [],
+      "image": "",
+      "options": [
+        "កើនឡើងការបញ្ចេញendorphins",
+        "កើនឡើងការបញ្ចេញ ghrelin ពីក្រពះ",
+        "កើនឡើងការបញ្ចេញ PYY ពីពោះវៀន",
+        "កើនឡើងការបញ្ចេញNPYពីhypothalamus",
+        "កើនឡើងការបញ្ចេញcortisol surrénale"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 55,
+      "question": "ចំពោះមនុស្សម្នាក់ដែលអត់អាហារអស់រយៈពេល២៤ម៉ោងហើយ តើការប្រែប្រួលណាមួយខាងក្រោមដែលអាចឲ្យគាត់ឃ្លានអាហារឡើងវិញ?",
+      "images": [],
+      "image": "",
+      "options": [
+        "កើនឡើងការបញ្ចេញ NPY",
+        "កើនឡើងការបញ្ចេញ leptine",
+        "កើនឡើងការបញ្ចេញ PYY",
+        "បន្ថយការបញ្ចេញពួក ghreline",
+        "កើនឡើងការបញ្ចេញពួក CCK"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 56,
+      "question": "តើកង្វះវីតាមីនណាមួយខាងក្រោមដែលបង្កឲ្យគំហើញពេលយប់ថយចុះ?",
+      "images": [],
+      "image": "",
+      "options": [
+        "Vitamine A",
+        "Vitamine B1",
+        "Vitamine.C",
+        "Vitamine D",
+        "Vitamine.E"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 57,
+      "question": "តើកត្តាណាមួយខាងក្រោមដែលមានសារសំខាន់ជាងគេ ក្នុងការចូលរួមធ្វើឲ្យឆ្អែតបន្ទាប់ពីហូបអាហារ ដ៏ច្រើនសំបូរដោយពួក យស៊ីត (៥០%) ខ្លាញ់ (៤០%) និងសាច់ (១០%)",
+      "images": [],
+      "image": "",
+      "options": [
+        "បញ្ចេញពួកcholecystokinine ពីពោះវៀនតូច",
+        "ថយចុះការបញ្ចេញពួក leptine",
+        "កើនឡើងការបញ្ចេញពួក endorphines",
+        "កើនឡើងការបញ្ចេញពួក ghreline ពីក្រពះ",
+        "ថយចុះការបញ្ចេញពួក PYYពីពោះវៀនតូច"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 58,
+      "question": "តើកង្វះវីតាមីនណាមួយខាងក្រោមដែលអាចប៉ះពាល់ដល់ចលការឃាត់ឈាម?",
+      "images": [],
+      "image": "",
+      "options": [
+        "Vitamine A",
+        "Vitamine B6",
+        "Vitamine.C",
+        "Vitamine .D",
+        "Vitamine.K"
+      ],
+      "correctIndex": 4
+    },
+    {
+      "id": 59,
+      "question": "ការរៀបរាប់ខាងក្រោមកើតឡើងកម្លាំងពេលក្មេងប្រុសម្នាក់ឡើងកម្ដៅ (១) សសៃឈាមក្រោមស្បែករីកនិងបែកញើស (២) ការវិលត្រឡប់មកសភាពធម្មតាវិញនៃសីតុណ្ហភាព (៣) ការកើនឡើងសីតុណ្ហភាពដល់ 39,5អង្សាសេនិង(៤) ញាក់ ត្រជាក់និងសសៃឈាមនៅក្រោមស្បែករួមតូច។ តើចលការខាងក្រោមណាមួយដែលត្រឹមត្រូវទាក់ទងទៅនិងការកើនកម្ដៅចំពោះក្មេងប្រុសនេះ?",
+      "images": [],
+      "image": "",
+      "options": [
+        "4, 3, 2, 1",
+        "3, 4, 2, 1",
+        "2, 1, 4, 3",
+        "4, 2, 1, 3",
+        "3, 4, 1, 2"
+      ],
+      "correctIndex": 4
+    },
+    {
+      "id": 60,
+      "question": "បុរសវ័យចំណាស់ម្នាក់មានប្រវត្តិញៀនស្រា២៥ឆ្នាំមកហើយ និងមានជម្ងឺថ្លើមបានទៅពិនិត្យសុខភាពនៅគ្លីនិកមួយកន្លែងដោយសារការកើនទំងន់លឿនពេក។ ១ ឆ្នាំកន្លងមកគាត់មាន BMI =24,9kg/m2 បច្ចុប្បន្នគាត់មាន BMI= =28,5kg/m2 ការពិនិត្យរាងកាយបង្ហាញថា មានហើមនៅជើង និងមានascite បន្តិចបន្តួច ។ តើលក្ខណ៍ណាមួយខាងក្រោមដែលបង្កឲ្យមានការកកើតឡើងនូវមានហើមនៅជើងនិងមានascite?",
+      "images": [],
+      "image": "",
+      "options": [
+        "Diminution du pression hydrostatique capillaire",
+        "Diminution du pression osmotique du plasma",
+        "Augmentation du pression hydrostatique capillaire",
+        "Augmentation du pression osmotique du plasma"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 61,
+      "question": "អ្នកមុជទឹកម្នាក់ពាក់ឧបករណ៍មុជទឹក ដើម្បីពិនិត្រល់ ក់អែភ្នំភ្លើងក្រោមទឹកដែលនៅទីនោះទឹក មានសីតុណ្ហភាព 38,8 °C ។ mechanism ណាមួយ នៃការផ្លាស់ប្តូរកម្ដៅខាងក្រោមដែលមានប្រសិទ្ធភាពចំពោះបុរសនេះ?",
+      "images": [],
+      "image": "",
+      "options": [
+        "Evaporation គ្មាន radiation គ្មាន convection គ្មាន conduction មាន",
+        "Evaporation គ្មាន radiation គ្មាន convection គ្មាន conduction គ្មាន",
+        "Evaporation មាន radiation មាន convection គ្មាន conduction មាន",
+        "Evaporation គ្មាន radiation មាន convection គ្មាន conduction មាន",
+        "Evaporation មាន radiation មាន convection មាន conduction មាន"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 62,
+      "question": "ស្ត្រីវ័យក្មេងម្នាក់ក្នុងដំណើកំសាន្តបោះជំរុះជាមួយមិត្តរួមក្រុម ហាក់ដូចជាមិនសូវយកចិត្តទុកដាក់ចំពោះ សីតុណ្ហភាពក្រជាក់នាពេលល្ងាច បានដណ្តប់ភួយក្រណាត់ស្តើងpolyester ដែលមានស្រទាប់ខាងក្រៅការពារមិនឲ្យមានការបាត់កំដៅ និងធ្វើឲ្យគាត់មានអារម្មណ៍ថាមានភាពកក់ក្តៅភ្លាមៗ។តើ mechanisme ខាងក្រោមណា មួយនៃការផ្លាស់ប្តូរកម្ដៅដែលឲ្យក្មួយនេះមានប្រសិទ្ធភាព?",
+      "images": [],
+      "image": "",
+      "options": [
+        "Conduction à l'aire",
+        "Conduction à l'objet",
+        "Convetion",
+        "Radiation",
+        "Evaporation"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 63,
+      "question": "បុរសម្នាក់ត្រូវបានដាក់ឲ្យសម្រាកពេទ្យ ដោយសារការកើនឡើងនូវការឈឺចាប់ជាប្រចាំនាផ្នែកខាងលើ និងខាងស្តាំពោះគាត់មានកួតចង្អោ hematocrite =30, ultrasonographyបង្ហាញថាមានដុំគ្រួសក្នុងថង់ទឹកប្រម៉ាត់ ។ តើសារធាតុណាមួយខាងក្រោមដែលជាសមាសធាតុផ្សំដ៏សំខាន់របស់ដុំគ្រួសក្នុងថង់ទឹកប្រម៉ាត់ នេះ?",
+      "images": [],
+      "image": "",
+      "options": [
+        "Pigments biliaires",
+        "Calcium carbonate",
+        "Calcium oxalate",
+        "Cholesterol"
+      ],
+      "correctIndex": 3
+    },
+    {
+      "id": 64,
+      "question": "ស្ត្រីម្នាក់ទើបតែរងការវះកាត់នាពេលថ្មីៗនេះទៅលើ ligament du genou។ លំហាត់ប្រាណក្រោយវះកាត់ត្រូវ ធ្វើចាំបាច់រហូតដល់អស់កម្លាំងមានរយៈពេលប្រហែល១នាទី។ តើប្រព័ន្ធហមពលណាមួយខាងក្រោមត្រូវ ប្រើប្រាស់ក្នុងលំហាត់ប្រាណនេះ?",
+      "images": [],
+      "image": "",
+      "options": [
+        "Stokage de l'adénosine triphosphate",
+        "Système de creatine phosphate",
+        "Cycle de l'acide cytrique",
+        "Phospharylation oxydative",
+        "Métabolisme de l'acide lactique"
+      ],
+      "correctIndex": 4
+    },
+    {
+      "id": 65,
+      "question": "បុរសម្នាក់ត្រាំទឹកអាងមួយដែលមានសីតុណ្ហភាព៣៨អង្សាសេ។ តើមេកានីសនៃការផ្លាស់ប្តូរកំដៅខាងក្រោមណាមួយសមស្របទៅនឹងលក្ខ័ណនេះ?",
+      "images": [],
+      "image": "",
+      "options": [
+        "Evaporation",
+        "Radiation",
+        "Conduction",
+        "Transpiration"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 66,
+      "question": "តើការពន្យល់ណាមួយត្រឹមត្រូវទាក់ទងទៅនឹង le frisson thermique?",
+      "images": [],
+      "image": "",
+      "options": [
+        "គឺជាមេកានីសមួយនៃការបញ្ជូនកំដៅ",
+        "មានការកើនឡើងមេតាបូលីស",
+        "សកម្មភាពឆន្ទៈរបស់សាច់ដុំធ្លក",
+        "សកម្មភាពអឆន្ទៈរបបស់សាច់ដុំរលីង",
+        "មានការរីកនូវសសៃឈាម"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 67,
+      "question": "តើមេកានីសនៃការផ្លាស់ប្តូរកំដៅខាងក្រោម ណាមួយមានប្រសិទ្ធភាពជាងគេពេល ដែលសីតុណ្ហភាពមជ្ឈដ្ឋានក្រៅខ្ពស់ជាងសីតុណ្ហភាពរបស់ស្បែក?",
+      "images": [],
+      "image": "",
+      "options": [
+        "Radiation",
+        "Evaporation",
+        "Convection",
+        "Sudation",
+        "Vasoconstriction"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 68,
+      "question": "តើការពន្យល់ណាមួយខាងក្រោមត្រឹមត្រូវទាក់ទងទៅនឹងការផ្លាស់ប្តូរកំដៅតាមradiation?",
+      "images": [],
+      "image": "",
+      "options": [
+        "ជាចលនការសម្របសម្រួលកំដៅ",
+        "ជាចលនការនៃការផ្លាស់ប្តូរកំដៅ តាមរយៈកាប៉ះពាល់ផ្ទាល់ជាមួយវត្ថុ",
+        "តាមរយៈរលកនៃកំដៅដែលភាយចេញ"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 69,
+      "question": "តើការពន្យល់ណាមួយខាងក្រោមត្រឹមត្រូវទាក់ទងទៅនឹងការផ្លាស់ប្តូរកំដៅតាម évaporation?",
+      "images": [],
+      "image": "",
+      "options": [
+        "ជាចលនការសម្របសម្រួលកំដៅ",
+        "តាមរយៈរលកនៃកំដៅដែលភាយចេញ",
+        "តាមរយៈកាប៉ះពាល់ផ្ទាល់ជាមួយវត្ថុ",
+        "តាមរយៈបាតុភូតរំហួត"
+      ],
+      "correctIndex": 3
+    },
+    {
+      "id": 70,
+      "question": "ក្នុងលក្ខ័ណធម្មតា ចំពោះមនុស្សពេញវ័យតើរបបអាហារសំខាន់ៗប្រចាំថ្ងៃខាងក្រោមណាមួយត្រូវបានចាត់ទុកថាមានលំនឹង?",
+      "images": [],
+      "image": "",
+      "options": [
+        "ក្លាយស៊ីត១០% លីពីត ១០% ប្រូតេអ៊ុន៥%",
+        "ក្លាយស៊ីត២០% លីពីត ១៥% ប្រូតេអ៊ីន៨%",
+        "ក្លាយស៊ីត៤៥% លីពីត ៣០% ប្រូតេអ៊ីន១៥%",
+        "ក្លាយស៊ីត៥០% លីពីត ៤០% ប្រូតេអ៊ុន២៥%",
+        "លុយស៊ីត៧០% លីពីត ៥០% ប្រូតេអ៊ុន៤០%"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 71,
+      "question": "ប្រសិនជាមនុស្សម្នាក់ស្ថិតក្នុងរយៈពេល៣ម៉ោងក្រោយការញ៉ាំអាហារ តើបាតុភូតណាមួយណាខាងក្រោមដែលឆ្លើយតបនឿនឹងលក្ខ័ណនេះ?",
+      "images": [],
+      "image": "",
+      "options": [
+        "Glycogenèse",
+        "Glycogenolyse",
+        "Gluconeogenese",
+        "Lipolyse"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 72,
+      "question": "ប្រសិនជាមនុស្សម្នាក់ស្ថិតក្នុងរយៈពេល៦ម៉ោងក្រោយការញាំអាហារ តើបាតុភូតណាមួយខាងក្រោមដែលអាចកើតឡើង?",
+      "images": [],
+      "image": "",
+      "options": [
+        "Glycogenese",
+        "Gluconeogenese",
+        "Lipogenese",
+        "Glycogenolyse"
+      ],
+      "correctIndex": 3
+    },
+    {
+      "id": 73,
+      "question": "តើការពន្យល់ណាមួយត្រឹមត្រូវទាក់ទងទៅនឹងoxidants?",
+      "images": [],
+      "image": "",
+      "options": [
+        "មានប្រភពតែនៅក្នុងសរីរាង្គតែប៉ុណ្ណោះ",
+        "អាចបំផ្លាញបានតាមរយៈReaction enzymatiqueប៉ុណ្ណោះ",
+        "មានប្រភពមកពីខាងក្រៅសរីរាង្គតែប៉ុណ្ណោះ",
+        "អាចបំផ្លាញបានតាម Réaction enzymatique et non enzymatique"
+      ],
+      "correctIndex": 3
+    },
+    {
+      "id": 74,
+      "question": "ប្រសិនជាមនុស្សម្នាក់ត្រូវបានស្ថិតក្នុងស្ថានភាពអត់អាហាររយៈពេលជាច្រើនថ្ងៃ តើប្រតិកម្មណាមួយខាងក្រោមដែលជាប្រភពនៃការផ្តល់ឋាមពលដល់កោសិកា?",
+      "images": [],
+      "image": "",
+      "options": [
+        "Glycogenolyse",
+        "Neoglucogenese",
+        "Glycolyse",
+        "Glycogenese"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 75,
+      "question": "មនុស្សម្នាក់ស្ថិតនៅក្នុងទីតាំងមួយដែលមានសម្ពាធបរិយាកាសទាប(មានអុកស៊ីហ្សែនកិច) រយពេលប៉ុន្មានដើម្បីឲ្យខួរឆ្អឹងអាចបង្កើនការផលិតពួក Réticulocytes",
+      "images": [],
+      "image": "",
+      "options": [
+        "១ថ្ងៃ",
+        "៣ថ្ងៃ",
+        "៥ថ្ងៃ",
+        "៩ថ្ងៃ"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 76,
+      "question": "តើពួកកោសិកា phagocytes ណាមួយខាងក្រោមដែលអាចបញ្ចេញកាកសំណល់នៃការរំលាយ ហើយបន្ត រស់នៅនិងបំពេញមុខងារបានជាច្រើនខែ?",
+      "images": [],
+      "image": "",
+      "options": [
+        "Neutrophiles",
+        "Basophiles",
+        "Macrophages",
+        "Eosinophiles"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 77,
+      "question": "បុរសម្នាក់មានអាយុ៤៥ឆ្នាំ ត្រូវបាននាំចូលក្នុងបន្ទប់សង្គ្រោះបន្ទាន់ដោយរាគ២សប្តាហ៍មកហើយ ការវិវត្តន៍នៃអាការៈរោកកាន់តែអាក្រក់ទៅបន្តិចម្តងៗក្នុងប៉ុន្មានថ្ងៃចុងក្រោយនេះ។ គាត់មានទឹកនោមបន្តិចបន្តួចនិងត្រូវបានឲ្យសម្រាកពេទ្យដោយសារបាត់បង់ជាតិទឹក។ ការពិនិត្យលាមកបង្ហាញថាមានវត្តមានពងប៉ារ៉ាស៊ីត។ តើគ្រាប់ឈាមសប្រភេទណាមួយអាចនឹងមានចំនួនកើនឡើង?",
+      "images": [],
+      "image": "",
+      "options": [
+        "Eosinophiles",
+        "Neutrophiles",
+        "Lymphocytes.T",
+        "Lymphocytes B",
+        "Monocytes"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 78,
+      "question": "តើការបញ្ចូលឈាមណាមួយខាងក្រោមដែលអាចនាំឲ្យមានប្រតិកម្មភ្លាមៗនៃការចាក់បញ្ចូលឈាម?",
+      "images": [],
+      "image": "",
+      "options": [
+        "Sang total ដែលមានក្រុមឈាម O Rhesus-negatif ផ្តល់ឲ្យអ្នកជម្ងឺមានក្រុមឈាម O Rhesus-positif",
+        "Sang total ដែលមានក្រុមឈាមA Rhesus-negatif ផ្តល់ឲ្យអ្នកជម្ងឺមានក្រុមឈាម B Rhesus-negatif",
+        "Sang total ដែលមានក្រុមឈាមAB Rhesus-negatif ផ្តល់ឲ្យអ្នកជម្ងឺមានក្រុមឈាម AB Rhesus-positif",
+        "Sang total ដែលមានក្រុមឈាម B Rhesus-negatif ផ្តល់ឲ្យអ្នកជម្ងឺមានក្រុមឈាម B Rhesus-negatif"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 79,
+      "question": "តើក្រុមឈាមណាមួយខាងក្រោមដែលអាចបង្កឲ្យមានផលវិបាកកិចតួចនៃប្រតិកម្មភ្លាមៗនៃការបញ្ចូល ឈាម ចំពោះអ្នកទទួលដែលមានក្រុមឈាម B, Rhesus positif?",
+      "images": [],
+      "image": "",
+      "options": [
+        "Sang total ដែលមានក្រុមឈាមA, Rhesus positif",
+        "Sang total ដែលមានក្រុមឈាម O Rhesus positif",
+        "Sang total ដែលមានក្រុមឈាម AB, Rhesus positif",
+        "គ្រាប់ឈាមក្រហមក្រុម O, Rhesus positif",
+        "គ្រាប់ឈាមក្រហមក្រុម AB, Rhesus negatif"
+      ],
+      "correctIndex": 3
+    },
+    {
+      "id": 80,
+      "question": "ទារកម្នាក់មានអាយុ២ឆ្នាំហូរឈាមយ៉ាងច្រើន បន្ទាប់ពីទទួលរងរបួសបន្តិចបន្តួចនិងធ្លាប់មានហូរឈាមនៅអញ្ចាញធ្មេញ។ ជីការបស់ម្តាយទារកមានវិបត្តិកំណកឈាម។ ការពិនិត្យទៅលើរងកាយទារកបង្ហាញថានៅត្រង់ជង្គង់មានសភាពទន់ៗបន្តិច និងមានដក់ជាតិទឹកត្រង់សន្លាក់ជង្គង់។ facteurs de coagulationណា មួយអ្នកសង្ស័យថាខ្វះ?",
+      "images": [],
+      "image": "",
+      "options": [
+        "Activateur de la Prothrombine",
+        "Facteur II",
+        "Facteur VIII",
+        "Facteur.X"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 81,
+      "question": "Voie de coagulation ណាមួយចាប់ផ្តើមសកម្មភាពជាមួយនិង thromboplastine tissulaire ?",
+      "images": [],
+      "image": "",
+      "options": [
+        "Voie Extrinsèque",
+        "Voie Intrinsèque",
+        "Voie Commune",
+        "Stabilisation de fibrine"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 82,
+      "question": "ក្នុងចលនការនៃការបង្កើតគ្រាប់ឈាមក្នុងខួរឆ្អឹង វីតាមីនB12 និងacide folique មានមុខងារអ្វីនៅក្នុងការរៀបរាប់ខាងក្រោម?",
+      "images": [],
+      "image": "",
+      "options": [
+        "ទ្រទ្រង់ការផលិតពួក porphyrine",
+        "ជា Cofacteurs សម្រាប់ចាប់យកសារធាតុដែក",
+        "ទ្រទ្រង់differenciation terminale des cellules myeloides",
+        "ទ្រទ្រង់ការផលិតពួក thymidine triphosphate"
+      ],
+      "correctIndex": 3
+    },
+    {
+      "id": 83,
+      "question": "ស្ត្រីម្នាក់អាយុ៤០ឆ្នាំមានសុខភាពល្អ ទៅពិនិត្យសុខភាពជាទម្លាប់នាគ្លីនិកមួយ។ រយៈពេល២ ខែដែលគាត់បានចំណាយពេលកំសាន្ត របស់គាត់តាមរយៈការឡើងភ្នំខ្ពស់ៗជាមួយមិត្តរួមអាជីពគាត់។ parmatetres biologiques ដែលអាចមានការប្រែប្រួល ក្នុងការពិនិត្យឈាមរបស់គាត់?",
+      "images": [],
+      "image": "",
+      "options": [
+        "Hématocrite កើនឡើង Hématie កើនឡើង Globule blanchកើនឡើង",
+        "Hématocrite កើនឡើង Hématie កើនឡើង Globule blanchថយចុះ",
+        "Hématocrite កើនឡើង Hématie កើនឡើង Globule blanchធម្មតា",
+        "C Hématocrite កើនឡើង Hématie ធម្មតា Globule blanchធម្មតា"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 84,
+      "question": "បុរសម្នាក់មានជម្ងឺរ៉ាំរ៉ៃ កាក់មានអការៈហេវហត់អស់កម្លាំងមានរយៈពេល៦ខែកន្លងមកហើយ។ ការហូបចុករបស់គាត់មានសភាពធម្មតា ក៏ប៉ុន្តែមានរយៈ១ ឆ្នាំហើយដែលគាត់មិនបរិភោគបន្លែដោយភ័យថាមានជាតិពុលក្នុងបន្លែ។ ការពិនិត្យរាងកាយនិងសសៃប្រសាទមានសភាពធម្មតា។ ការពិនិត្យឈាមានHb=9,1 g/dl, GB=10.000/ul39 ផ្អែកលើលទ្ធផលនេះតើរោគវិនិច្ឆ័យណាមួយខាងក្រោមដែលសមស្រប?",
+      "images": [],
+      "image": "",
+      "options": [
+        "Anemie aigue",
+        "Drépanocytose",
+        "Anemie hemolytique",
+        "Anémie carentielle"
+      ],
+      "correctIndex": 3
+    },
+    {
+      "id": 85,
+      "question": "តើការចាក់បញ្ចូលឈាមណាមួយខាងក្រោមនឹងបង្កឲ្យមានប្រតិកម្មនៃការចាក់បញ្ចូលឈាម។ ដោយសន្មតិថាអ្នកជម្ងឺមិនធ្លាប់មានប្រវត្តិនៃការចាក់បញ្ចូលឈាម?",
+      "images": [],
+      "image": "",
+      "options": [
+        "គ្រាប់ឈាមក្រហមក្រុម Rh negatif ផ្តល់ឲ្យអ្នកជំងឺមានក្រុមឈាម AB Rh postif",
+        "គ្រាប់ឈាមក្រហមក្រុមA Rh positif ផ្តល់ឲ្យអ្នកជំងឺមានក្រុមឈាម Rh positif",
+        "គ្រាប់ឈាមក្រហមក្រុមA Rh positif ផ្តល់ឲ្យអ្នកជំងឺមានក្រុមឈាម A Rh negatif",
+        "គ្រាប់ឈាមក្រហមក្រុមAB Rh positif ផ្តល់ឲ្យអ្នកជំងឺមានក្រុមឈាម AB Rh positif"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 86,
+      "question": "ក្មេងប្រុសម្នាក់ចូលទៅពិនិត្យសុខភាពជាញឹកញាប់នាគ្លីនិក មួយដោយសារមានឆ្លងរោគនៅស្បែកជាប់ជាប្រចាំនិងមិនជាសះស្បើយទៅតាមពេលវេលា។ ក្មេងនេះជាសះស្បើយធម្មភាពីជម្ងឺកព្រិល។ ការពិនិត្យរកមើលអត្រា anticorps ក្នុងឈាម បង្ហាញថាមានការឆ្លើយតបធម្មតាបន្ទាប់ពីការចាក់ថ្នាំបង្ការ។ តើមុខងារកោសិកាណាមួយខាងក្រោមថយចុះ ដែលជាមូលហេតុនាំឲ្យមានការឆ្លងរោគជាប្រចាំ?",
+      "images": [],
+      "image": "",
+      "options": [
+        "Lymphocyte B",
+        "Lymphocyte T",
+        "Neutrophile",
+        "Macrophage"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 87,
+      "question": "ស្ត្រីម្នាក់ដែលមានក្រុមឈាមប្រភេទA, Rh positif ទើបតែនិងផ្តល់កំណើតទារកប្រុសលើកទី២ របស់គាត់ដែលមានក្រុមឈាមប្រភេទ O, Rh négatif ។ ប្តីគាត់មានក្រុមឈាមប្រភេទ, Rh négatif។ តើការរៀបរាប់ណាមួយខាងក្រោមដែលអាចកើតមានចំពោះទារកនេះ?",
+      "images": [],
+      "image": "",
+      "options": [
+        "មានបែកគ្រាប់ឈាមក្រហមដោយសារភាពមិនត្រូវគ្នានៃប្រពន្ធ័ Rhesus",
+        "មានបែកគ្រាប់ឈាមក្រហមដោយសារភាពមិនត្រូវគ្នានៃប្រពន្ធ័ABO",
+        "មានបែកគ្រាប់ឈាមក្រហមដោយសារភាពមិនត្រូវគ្នានៃប្រពន្ធ័Rhesusនិងប្រពន្ធ័ABO",
+        "មិនមានជម្ងឺបែកគ្រាប់ឈាមក្រហមទេដោយសារភាពត្រូវគ្នានៃប្រពន្ធ័Rhesus"
+      ],
+      "correctIndex": 3
+    },
+    {
+      "id": 88,
+      "question": "តើសំណើណាមួយខាងក្រោមត្រឹមត្រូវទាក់ទងទៅនឹងការចាក់បញ្ចូលឈាម?",
+      "images": [],
+      "image": "",
+      "options": [
+        "ក្រុមឈាម AB, Rh positif ត្រូវបានចាត់ទុកជាអ្នកទទួលមានលក្ខណៈសកល",
+        "នៅក្នុងគ្រោះថ្នាក់នៃការចាក់បញ្ចូលឈាម មាន agglutinationកើតឡើងក្នុងឈាមអ្នកផ្តល់",
+        "មុខងារតម្រងនោមឈប់ដំណើរការបន្ទាប់ពីប្រតិកម្មនៃការចាក់បញ្ចូលឈាមកើតឡើងសន្សឹមៗ",
+        "មានប្រតិកម្មនៃការចាក់បញ្ចូលឈាមភ្លាមៗនៅពេលបញ្ចូលឈាមនៃក្រុមឈាម Rhesus ខុសគ្នា"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 89,
+      "question": "សំណើណាមួយខាងក្រោមត្រឹមត្រូវទាក់ទង ទៅនឹងជម្ងឺបែកគ្រាប់ឈាមក្រហមរបស់ទារកទើបនឹងកើត (maladie hémolytique du nouveau né)? ជម្ងឺនេះ",
+      "images": [],
+      "image": "",
+      "options": [
+        "កើតឡើងដោយសារម្តាយមាន Rh positif ទារកមាន Rh négatif",
+        "អាចកាពារបានតាមរយៈបញ្ចូលឈាមទៅឲ្យម្តាយ",
+        "អាចកាពារបានតាមរយៈបញ្ចូលឈាមបន្ទាប់ពីផ្តល់កំណើតទី១",
+        "អាចកើតឡើងបានលុះត្រាតែឪពុករបស់ទារកមាន Rh positif"
+      ],
+      "correctIndex": 3
+    },
+    {
+      "id": 90,
+      "question": "ស្ត្រីម្នាក់មានក្រុមឈាមប្រភេទ A, Rh positif និងជាទូទៅមានសុខភាពល្អទើបតែផ្តល់កំណើតកូនទី២។ ឪពុកទារកនេះមានឈាមប្រភេទ(), Rh negatif។ ដោយសារទារកមានឈាមប្រភេទ, Rh negatif សំណើខាងក្រោមណាមួយត្រឹមត្រូវទាក់ទងនឹងទារកនេះ?",
+      "images": [],
+      "image": "",
+      "options": [
+        "Maladie hémolytique du nouveau เកើតឡើងដោយសារភាពខុសគ្នានៃ Rhesus",
+        "Maladie hémolytique du nouveau เកើតឡើងដោយសារ facteurs de Rhesus",
+        "Maladie hémolytique du nouveau เកើតឡើងដោយសារភាពខុសគ្នានៃ ABO",
+        "Maladie hémolytique du nouveau មិនអាចកើតឡើងបានទេ"
+      ],
+      "correctIndex": 3
+    },
+    {
+      "id": 91,
+      "question": "អ្នកជម្ងឺកង្វះអាហាររូបត្ថម្ភ គាត់ហូរឈាមយ៉ាងច្រើននូវពេលដែលរងរបួស។ តើមូលហតុណាមួយខាងក្រោម ដែលអាចជាមូលហេតុបង្កឲ្យ មានការហូរឈាមនេះ?",
+      "images": [],
+      "image": "",
+      "options": [
+        "កង្វះពួកវីតាមីនK",
+        "Plaquetteបាល់នៅក្នុងថ្លើម",
+        "កើន Bilirubine du plasma",
+        "វិបត្ត facteur III"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 92,
+      "question": "អ្នកជម្ងឺម្នាក់មានកង្វះ facteur XIII (facteur de stabilisation du fibrine) ពីកំណើត។ សំណើខាងក្រោមណាមួយត្រឹមត្រូវទាក់ទងទៅនឹងកង្វះ facteur de coagulations:?",
+      "images": [],
+      "image": "",
+      "options": [
+        "កើនឡើងTemps de prothrombine",
+        "កើនឡើងនូវពេលវេលានៃការឃាត់ឈាម",
+        "កើនឡើងនូវ temps de thromboplastine",
+        "កំណកឈាមងាយនិងរលាយទៅវិញ"
+      ],
+      "correctIndex": 3
+    },
+    {
+      "id": 93,
+      "question": "បណ្តាសំណើខាងក្រោមណាមួយដែលឆ្លើយតបទៅនឹងការកើនឡើងនូវពពួកគ្រាប់ឈាមស?",
+      "images": [],
+      "image": "",
+      "options": [
+        "Leukopénie",
+        "Thrombopénie",
+        "Leucémie",
+        "Anemie",
+        "Leukopoièse"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 94,
+      "question": "បណ្តាការពន្យល់ខាងក្រោមណាមួយដែលឆ្លើយតបទៅនឹង hématocrite?",
+      "images": [],
+      "image": "",
+      "options": [
+        "បរិមាណអេម៉ូកឋិនក្នុងមាឌឈាមកំណត់មួយ",
+        "ភាគរយនៃមាឌឈាមទាំងអស់ដែលផ្សំពីគ្រាប់ឈាមក្រហម",
+        "ភាគរយនៃមាឌឈាមទាំងអស់ដែលផ្សំពីគ្រាប់ឈាមស",
+        "ភាគរយនៃមាឌឈាមទាំងអស់ដែលផ្សំពីplaquettes",
+        "ភាគរយនៃគ្រាប់ឈាមក្រហមដែលបែកចែកពីភាគរយរបស់គ្រាប់ឈាមស"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 95,
+      "question": "បណ្តាការពន្យល់ខាងក្រោមណាមួយត្រឹមត្រូវទាក់ទងទៅនឹងcoagulation?",
+      "images": [],
+      "image": "",
+      "options": [
+        "Voie intrinsèque et extrinsèque បង្កើត prothrombinase",
+        "Coagulation ភាគច្រើនផ្សំពីពួក thrombine",
+        "Coagulation ត្រូវការពពួកវីតាមីន និងជាតិដែក",
+        "Voie extrinsèque ចាប់ផ្តើមនូវពេលសសៃឈាមរបួស"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 96,
+      "question": "បណ្តាសំណើខាងក្រោមណាដែលត្រឹមត្រូវទាក់ទងsystème rhesus ទៅនឹងការផ្តល់ឈាម?",
+      "images": [],
+      "image": "",
+      "options": [
+        "ក្រុមឈាមA, Rh negatif អាចផ្តល់ឈាមឲ្យអ្នកមានក្រុមឈាមA, Rh negatif",
+        "គ្មាន Anticorps anti facteur Rhទេបើអ្នកRh positif មិនប៉ះពាល់ឈាម Rh negatif",
+        "ភាគច្រើននៅក្នុងប្រជាជនទូទៅមានក្រុមឈាម Rh negatif",
+        "ម្តាយមាន Rh negatif មិនអាចផ្តល់កំណើតទារកមានRh positif",
+        "មានAnticorps ប្រឆាំងនឹង facteur Rh ពីកំណើត"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 97,
+      "question": "បុរសម្នាក់ចូលទៅពិគ្រោះជម្ងឺនៅគ្លីនិកមួយបន្ទាប់ពីវិលត្រឡប់ មកពីដំណើរកំសាន្តវិញដោយសារក្តៅខ្លួនខ្លាំងពេកនិងក្អក។ ការពិនិត្យរាងកាយគ្មានអ្វីកូឲ្យកត់សំគាល់ កំដៅមាន៤០អង្សាសេ។ការពិនិត្យឈាមបង្ហាញថា globules blanchs total 13×109/L neurophiles 9×109/L,basophiles 0.1×109/L, éosinophiles 0.4×109/L, lymphocytes 3×109/L* តើរោគវិនិច្ឆ័យប្រហាក់ប្រហែលណាមួយខដែលសមស្របចំពោះអ្នកជម្ងឺនេះ?",
+      "images": [],
+      "image": "",
+      "options": [
+        "Infection virale",
+        "Infection parasitaire",
+        "Infection bactérienne",
+        "Infection fongique"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 98,
+      "question": "ពពួកគ្រាប់ឈាមសណាមួយខាងក្រោមដែលផលិតពួក héparine et histamine មានមុខងារក្នុង réaction allergique et inflammation?",
+      "images": [],
+      "image": "",
+      "options": [
+        "Basophiles",
+        "Neutrophiles",
+        "Éosinophiles",
+        "Lymphocytes",
+        "Monocytes"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 99,
+      "question": "ស្រីម្នាក់នាំកូនប្រុសអាយុ៤ឆ្នាំទៅពិគ្រោះជម្ងឺនៅគ្លីនិកមួយដោយសារក្តៅខ្លួនខ្លាំងពេក ក្អកនិងហៀសំបោរប្រហែល១ សប្តាហ៍មុនបងស្រីរបស់កុមារនេះមានរោគសញ្ញាដូចគ្នា។ ការពិនិត្យរាងកាយបង្ហាញថាក់ដៅមាន៤០ អង្សាសេ។កុមារត្រូវបានសង្ស័យថាមានinfection។ តើការស្នើសុំពិនិត្យឈាមណាមួយខាងក្រោមសមស្រប?",
+      "images": [],
+      "image": "",
+      "options": [
+        "Globules rouges",
+        "Plaquesttes",
+        "Globules blanchs",
+        "Hématocrites"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 100,
+      "question": "តើសាធាតុណាមួយខាងក្រោមដែលចូលរួមក្នុង fibrinolyse?",
+      "images": [],
+      "image": "",
+      "options": [
+        "Fibrinogène",
+        "Antithrombine",
+        "Heparine",
+        "Thrombine",
+        "Plasmine"
+      ],
+      "correctIndex": 4
+    },
+    {
+      "id": 101,
+      "question": "តើការពន្យល់ណាមួយត្រឹមត្រូវទាក់ទងទៅនឹងsystème ABO?",
+      "images": [],
+      "image": "",
+      "options": [
+        "អ្នកមានក្រុមឈាម O អាចផ្តល់ឈាមឲ្យអ្នកមានឈាមក្រុមA, et B, ប៉ុណ្ណោះ",
+        "អ្នកមានក្រុមឈាម O មាន antigène A, et Bលើភ្នាសគ្រាប់ឈាមក្រហម",
+        "អ្នកមានក្រុមឈាម មាន antigène A, et Bលើភ្នាសគ្រាប់ឈាមក្រហម",
+        "Antigène មានលើភ្នាសគ្រាប់ឈាមក្រហមនិង anticorps មាននៅក្នុងប្លាស្មា",
+        "អ្នកមានក្រុមឈាមABមាន anticorps A, or B នៅក្នុងប្លាស្មា"
+      ],
+      "correctIndex": 3
+    },
+    {
+      "id": 102,
+      "question": "Plaquettes មានមុខងារសំខាន់ក្នុងការឃាត់ឈាម។តើសំណើណាមួយត្រឹមត្រូវទាក់ទងទៅនឹងសកម្មភាពនៃការចូលរួមរបស់ Plaquettes ក្នុងការឃាត់ឈាម?",
+      "images": [],
+      "image": "",
+      "options": [
+        "Adhesion activation sécrétion aggrégation",
+        "Activation adhesion sécrétion aggrégation",
+        "Sécrétion activation aggrégation adhesion",
+        "Activation aggrégation adhesion sécrétion",
+        "Aggrégation → adhesion activation → sécrétion"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 103,
+      "question": "Hématopoièse ប្រព្រឹត្តទៅក្នុងខួឆ្អឹងដែលផ្តល់កំណើតដល់កោសិកាឈាមជាច្រើន។ តើmyéloblaste ផ្តល់កំណើតឲ្យ កោសិកាណាមួយខាងក្រោម?",
+      "images": [],
+      "image": "",
+      "options": [
+        "Erythrocyte",
+        "Basophile",
+        "Lymphocyte",
+        "Plaquette",
+        "Monocyte"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 104,
+      "question": "នៅក្នុងcoagulation មានការចូលរួមពី facteurs de coagulationជាច្រើនដើម្បីបង្កើតជាcaillot។ សំណើណាមួយ ខាងក្រោម ដែលជាsèquence ត្រឹមត្រូវនៃការបង្កើតcaillot?",
+      "images": [],
+      "image": "",
+      "options": [
+        "Fibrine fibrinogène activateur prothombine thrombine facteur tissulaire",
+        "facteur tissulaire → fibrine",
+        "Activateur prothombine fibrine fibrinogène facteur tissulaire thrombine",
+        "Thrombine fibrine fibrinogène activateur prothombine facteur tissulaire",
+        "Facteur tissulaire activateur prothombine thrombine fibrinogène → fibrine"
+      ],
+      "correctIndex": 4
+    },
+    {
+      "id": 105,
+      "question": "តើកត្តាណាមួយខាងក្រោមនឹងត្រូវកើនឡើងដែលនាំឲ្យលំហូរបស់ឈាមចូលក្នុងសសៃឈាមមួយថយចុះ",
+      "images": [],
+      "image": "",
+      "options": [
+        "Gradient de pression à travers les vaisseaux",
+        "Diamètre des vaisseaux",
+        "Pression osmotique du plasma",
+        "Viscosité du sang",
+        "Concentration du sodium plasmatique"
+      ],
+      "correctIndex": 3
+    },
+    {
+      "id": 106,
+      "question": "តើការកើនឡើងកត្តាណាមួយខាងក្រោមដែលបង្កឲ្យមានការថយចុះនូវ Taux de filtration capillaire?",
+      "images": [],
+      "image": "",
+      "options": [
+        "Pression hydrostatique capillaire",
+        "Pression osmotique du plasma",
+        "Pression osmotique interstitiel",
+        "Pression hydrostatique veineux",
+        "Diamètre artériolaire"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 107,
+      "question": "សាធាតុណាមួយខាងក្រោម នឹងត្រូវបានកើនឡើងបន្ទាប់ពីមនុស្សម្នាក់បង្កើនការនាំចូលសូដ្យូម មានរយៈពេល២ សប្តាហ៍មកហើយ?",
+      "images": [],
+      "image": "",
+      "options": [
+        "Secrétion de l'Angiotensine II",
+        "Sécrétion de l'Aldosterone",
+        "Excrétion du Potassium",
+        "Facteur Natriuretique Auriculaire"
+      ],
+      "correctIndex": 3
+    },
+    {
+      "id": 108,
+      "question": "តើការថយចុះនូវកត្តាណាមួយខាងក្រោមដែលបង្កឲ្យមានការកើនឡើងល់ហូររបស់ Lymphe?",
+      "images": [],
+      "image": "",
+      "options": [
+        "Pression hydrostatique capillaire",
+        "Pression hydrostatique interstitiel",
+        "Pression osmotique du plasma",
+        "Activité du pompe lymphatique",
+        "Diametre du artériole"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 109,
+      "question": "capillaires ណាមួយខាងក្រោមដែលមាន permeabilité ទាបជាងគេចំពោះម៉ូលេគុលរបស់ប្លាស្នា?",
+      "images": [],
+      "image": "",
+      "options": [
+        "Glomerule",
+        "Foie",
+        "Muscle",
+        "Intestin",
+        "Encéphale"
+      ],
+      "correctIndex": 4
+    },
+    {
+      "id": 110,
+      "question": "បណ្តារចនាសម្ព័នរៀបរាប់ខាងក្រោមណាមួយ ដែលមានផ្ទុកឈាមច្រើនជាងគេ?",
+      "images": [],
+      "image": "",
+      "options": [
+        "Système artériel",
+        "Système veineux",
+        "Artère pulmonaire",
+        "Veine pulmonaire",
+        "Cavités du Coeur"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 111,
+      "question": "បុរសម្នាក់មានចង្វាក់បេះដូង ៧៥/min សំពាធឈាម ១៣០/៨០ mmHg។ កើតម្លៃណាមួយខាងក្រោមដែលដំណាងឲ្យpresssion arterielle moyenne របស់គាត់?",
+      "images": [],
+      "image": "",
+      "options": [
+        "៩០ mmHg",
+        "៩៧ mmHg",
+        "១០៥ mmHg",
+        "១១០ mmHg"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 112,
+      "question": "ស្រីម្នាក់មានមានប្រវត្តិវិលមុខ៤ខែមកហើយនូវពេលដែលគាត់ក្រោកពីគ្រែនាពេលព្រឹកនិងពេលក្រោកឈរ។ គាត់មានសំពាធឈាមមធ្យម (pression arterielle moyenne) 130/90 mmHg កំឡុងពេលសម្រាកលើគ្រែ និង 95/60 mm Hg ពេលអង្គុយ។ តើសំណើណាមួយខាងក្រោមជាការប្រែប្រួលឆ្លើយតបទៅនឹងការផ្លាស់ប្តូរ ស្ថានភាពនេះ?",
+      "images": [],
+      "image": "",
+      "options": [
+        "Activité du sytème sympathiqueកើន activité du sytème parasympathique កើន activité de rénineកើន",
+        "Activité du sytème sympathiqueកើន Activité du sytème parasympathique ថយ activité de rénineកើន",
+        "Activité du sytème sympathiqueកើន Activité du sytème parasympathique ថយ activité de rénineថយ",
+        "Activité du sytème sympathiqueថយ Activité du sytème parasympathique កើន activité de rénineកើន",
+        "Activité du sytème sympathique ថយ Activité du sytème parasympathique ថយ activité de rénineកើន"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 113,
+      "question": "ស្រីម្នាក់ចូលរួមក្នុងកម្មវិធីរត់ក្រណាំងមួយចម្ងាយ៥គីឡូម៉ែត្រ។ តើការប្រែប្រួលណាមួយដែលអាចកើតឡើងចំពោះសាច់ដុំរបស់ស្ត្រីនេះក្នុងកំឡុងពេលរត់?",
+      "images": [],
+      "image": "",
+      "options": [
+        "Diamètre de l'arterioleកើន flux sanguinកើន concentration de l'oxygene dans les tissusកើន",
+        "Diamètre de l'arterioleកើន flux sanguin ថយ concentration de l'oxygene dans les tissusថយ",
+        "Diamètre de l'arterioleកើន flux sanguin ថយ concentration de l'oxygene dans les tissusកើន",
+        "Diamètre de l'arteriole flux sanguin concentration de l'oxygene dans les tissusថយ",
+        "Diamètre de l'arterioleកើន flux sanguin កើន concentration de l'oxygene dans les tissusថយ"
+      ],
+      "correctIndex": 4
+    },
+    {
+      "id": 114,
+      "question": "នៅក្នុងlit capillaire ប្រសិនជាមានការកើនឡើងនូវអង្កត់ផ្ចិតរបស់ arterioles précapillaires តើបំរែបំរួលណាមួយខាងក្រោមដែលទំនងជាថយចុះ?",
+      "images": [],
+      "image": "",
+      "options": [
+        "Taux de filtration capillaire",
+        "Flux sanguin capillaire",
+        "Pression hydrostatique capillaire",
+        "Resistance arteriolaire"
+      ],
+      "correctIndex": 3
+    },
+    {
+      "id": 115,
+      "question": "ប្រសិនជាមានការថយចុះនូវអង្កត់ផ្ចិតរបស់ arterioles précapillaires du lit capillaire នៅក្នុងសាច់ដុំ បំរែបំរួលណាមួយខាងក្រោមដែលទំនងជាអាចកើតឡើង?",
+      "images": [],
+      "image": "",
+      "options": [
+        "ថយចុះ Taux de filtration capillaire",
+        "កើនឡើង volume du liquide interstitiel",
+        "កើនឡើងFlux du lymphe",
+        "កើនឡើង pression hydrostatique capillaire",
+        "ថយចុះ Résistance arteriolaire"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 116,
+      "question": "សសៃឈាម២មានប្រវែងស្មើគ្នាA et Bដោយផ្អែកលើparametres រៀបរាប់ខាងក្រោម តើសសៃឈាមណា មួយដែលមានលំ ឈាមខ្ពស់ជាងគេ?",
+      "images": [],
+      "image": "",
+      "options": [
+        "Gradient de pression: 100 rayon:1 viscosité: 10",
+        "Gradient de pression:50 rayon 2 viscosité :5",
+        "Gradient de pression:25 rayon:4 viscosité: 2",
+        "Gradient de pression: 10 rayon:6 viscosité :4"
+      ],
+      "correctIndex": 3
+    },
+    {
+      "id": 117,
+      "question": "បុរសម្នាក់ត្រូវបានគេដឹកចូលផ្នែកសង្គ្រោះបន្ទាន់ នៃមន្ទីរពេទ្យមួយបន្ទាប់ពីមានការហូរឈាមយ៉ាងខ្លាំងដោយសារគ្រោះថ្នាក់ចរាចរម៉ូតូបុកគ្នា ។ គាត់បាត់បង់ឈាមប្រហែល៧០០ មិល្លីលីត្រ និងមានសំពាធឈាម 90/55 mmHg ។ តើការប្រែប្រួលណាមួយខាងក្រោម ដែលឆ្លើយតបទៅនឹងការហូរឈាមនេះ?",
+      "images": [],
+      "image": "",
+      "options": [
+        "Fréqence cardiaqueកើន activité du système sympathique កើន résistance périphérique totaleកើន",
+        "Fréqence cardiaqueថយ activité du système sympathiqueថយ résistance périphérique totaleកើន",
+        "Fréqence cardiaqueថយ activité du système sympathique résistance périphérique totaleថយ",
+        "Fréqence cardiaqueថយ activité du système sympathique កើន résistance périphérique totale",
+        "Fréqence cardiaque activité du système sympathique résistance périphérique totaleថយ"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 118,
+      "question": "ស្រីម្នាក់មានសុខភាពល្អបានក្រោកឈបន្ទាប់ពីគេងលើគ្រែសម្រាកមួយរយៈពេលខ្លី។ ការងើបពីស្ថានភាពគេងលើគ្រែទៅឈរនាំឲ្យមានការថយចុះសំពាធឈាមក្នុងរយៈពេលខ្លី។ តើបំរែបំរួល système cardiovasculaire ដូចម្តេចដើម្បីឆ្លើយតបទៅនឹងការថយចុះនូវសំពាធឈាមនេះ?",
+      "images": [],
+      "image": "",
+      "options": [
+        "Pression de remplissage កើន contraction cardiaqueកើន activité du système sympathiqueកើន",
+        "Pression de remplissage កើន contraction cardiaque activité du système sympathiqueថយ",
+        "Pression de remplissage កើន contraction cardiaqueថយ activité du système sympathiqueកើន",
+        "Pression de remplissage ថយ contraction cardiaqueកើន activité du système sympathiqueកើន",
+        "Pression de remplissage contraction cardiaqueថយ activité du système sympathiqueកើន"
+      ],
+      "correctIndex": 3
+    },
+    {
+      "id": 119,
+      "question": "បុរសម្នាក់ត្រូវគេបញ្ជូនទៅផ្នែកសង្គ្រោះបន្ទាន់នៃមន្ទីរពេទ្យមួយ ដោយសារគ្រោះថ្នាក់ក្នុង វាលស្រែ បង្ក ឲ្យមានដាច់សសៃឈាមនិងបាត់បង់ឈាមប្រែហល៨០០មីលីលីត្រ។ គាត់មានPression artérelle moyenne 65 mmHg និងចង្វាក់បេះដូងកើនឡើងដែលជាលទ្ធផលនៃ reflexe de chimiorécepteur។ តើការប្រែប្រួល ណាមួយក្នុងប្លាស្នាដែលអាចកើតមានដើម្បីបង្កឲ្យមាន reflexe de chimiorécepteur?",
+      "images": [],
+      "image": "",
+      "options": [
+        "Oxygène កើន dioxyde de carbone កើន ions H+ កើន",
+        "Oxygène កើន dioxyde de carbone ថយ ions H+ កើន",
+        "Oxygène ថយ dioxyde de carbone ថយ ions H+ ថយ",
+        "Oxygène កើន dioxyde de carbone កើន ions H+ ថយ",
+        "Oxygène ថយ dioxyde de carbone កើន ions H+ កើន"
+      ],
+      "correctIndex": 4
+    },
+    {
+      "id": 120,
+      "question": "ក្នុងលក្ខណ៍ធម្មតា លំហូរឈាមចូលទៅ សាច់ដុំត្រូវបានកំណត់ដោយកត្តាណាមួយរៀបរាប់ខាងក្រោម",
+      "images": [],
+      "image": "",
+      "options": [
+        "Système nerveux sympathique",
+        "Besoin métabolique",
+        "Angiotensione II",
+        "Vasopressine",
+        "Pression hydrostatique capillaire"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 121,
+      "question": "តើផ្នែកណាមួយនៃប្រពន្ធ័បេះដូងសសៃឈាមខាងក្រោមដែលមានrésistance ខ្ពស់ជាងគេ?",
+      "images": [],
+      "image": "",
+      "options": [
+        "Débit sanguin 1000 ml/min gradient de pression 100 mmHg",
+        "Débit sanguin 1200 ml/min gradient de pression 60 mmHg",
+        "Débit sanguin 400 ml/min gradient de pression 20 mmHg",
+        "Débit sanguin 1600 ml/min gradient de pression 80 mmHg",
+        "Débit sanguin 1800 ml/min gradient de pression 40 mmHg"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 122,
+      "question": "តើការកើនឡើងនូវប៉ារ៉ាម៉ែត្រណាមួយ ខាងក្រោមដែលនាំឲ្យមានការកើនឡើងនូវការដឹកជញ្ជូនអុកស៊ីហ្សែនឆ្លងកាត់ capillaires ?",
+      "images": [],
+      "image": "",
+      "options": [
+        "Pression hydrostatique capillaire",
+        "Fente intetercellulaire des capillaires",
+        "Gradient de concentration de l'O2",
+        "Pression osmotique du plasma",
+        "Permeabilité du capillaire"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 123,
+      "question": "តើការកើនឡើងនូវប៉ារ៉ាម៉ែត្រណាមួយខាងក្រោមដែលជាការឆ្លើយតបទៅនឹងការកើនឡើងនូវសំពាធឈាម?",
+      "images": [],
+      "image": "",
+      "options": [
+        "Angiotensine II",
+        "Aldostérone",
+        "Angiotensinogene",
+        "Système nerveux sympaathique",
+        "Facteur Natriurétique Auriculaire"
+      ],
+      "correctIndex": 4
+    },
+    {
+      "id": 124,
+      "question": "តើផ្នែកណាមួយនៃប្រពន្ធ័បេះដូងសសៃឈាមខាងក្រោមដែលមានផ្ទៃមុខកាត់សរុបធំជាងគេ?",
+      "images": [],
+      "image": "",
+      "options": [
+        "Aorte",
+        "Artérioles",
+        "Capillaires",
+        "Veinules",
+        "Veine cave"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 125,
+      "question": "Autoregulationនៃលំហូរឈាមចូលទៅក្នុងជាលិកាដែលឆ្លើយតបទៅនិងការកើនឡើងនៃសំពាធឈាមក្នុងសសៃអាទែ តើជាលទ្ធផលរបស់កត្តាណាមួយខាងក្រោម?",
+      "images": [],
+      "image": "",
+      "options": [
+        "ថយចុះ Résistance vasculaire",
+        "ថយចុះ tension du paroi vasculaire",
+        "កើនឡើងការផ្តល់ចំណីអាហារទៅជាលិកា",
+        "ថយចុះមេតាបូលីសរបស់ជាលិកា"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 126,
+      "question": "តើសំណើណាមួយខាងក្រោមដែលបង្កឲ្យមានការកើនឡើងនូវសំពាធក្នុងថតលើបេះដូង?",
+      "images": [],
+      "image": "",
+      "options": [
+        "ថយចុះ facteur natriuretique auriculaire",
+        "កើនឡើងកំហាប់ angiotensine II plasmatique",
+        "កើនឡើងកំហាប់ aldosterone plasmatique",
+        "កើនឡើងការបញ្ចេញនូវពួកសង្ឃឹម"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 127,
+      "question": "ប្រហែល២សប្តាហ៍ បន្ទាប់ពីមានការថយចុះសំពាធក្នុងអាទែរបស់កម្រងនោម៥០% តើ រែបំរួលណាមួយ ខាងក្រោម ដែលអាចនឹងកើតមានឡើង?",
+      "images": [],
+      "image": "",
+      "options": [
+        "Rénine plasmatique កើន aldostérone plasmatique កើន taux de filtration glomerulaire កើន",
+        "Rénine plasmatique កើន aldosterone plasmatique កើន taux de filtration glomérulaire ថយ",
+        "Rénine plasmatique កើន aldosterone plasmatique ថយ taux de filtration glomérulaire ថយ",
+        "Rénine plasmatique កើន aldostérone plasmatique ថយ taux de filtration glomérulaire កើន",
+        "Rénine plasmatique ថយ aldosterone plasmatique ថយ taux de filtration glomérulaire ថយ"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 128,
+      "question": "អ្នកជម្ងឺម្នាក់មានជម្ងឺលើសសំពាធឈាមរ៉ាំរ៉ៃ។ តើសារធាតុណាមួយខាងក្រោមអាចនឹងថយចុះ?",
+      "images": [],
+      "image": "",
+      "options": [
+        "Aldosterone",
+        "Thromboxane",
+        "Angiotensine II",
+        "Oxyde nitrique"
+      ],
+      "correctIndex": 3
+    },
+    {
+      "id": 129,
+      "question": "តើការកើនឡើងនូវកត្តាខាងក្រោមណាមួយ ដែលបង្កឲ្យមានការកើនឡើងនូវចលនា យកូសឆ្លងកាត់ capillaires?",
+      "images": [],
+      "image": "",
+      "options": [
+        "Augmentatiion de la concentration du sodium plasmatique",
+        "Augmentaion de la difference de concentration du glucose à travers les capillaires",
+        "Diminution du permeabilité des capillaire pour la glucose",
+        "Diminution de la surface des capillaires",
+        "Diminution de la concentration plasmatique du potassium"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 130,
+      "question": "តើផ្នែកណាមួយខាងក្រោមនៃប្រពន្ធ័បេះដូងសសៃឈាមដែលមាន compliance ខ្ពស់ជាគេ?",
+      "images": [],
+      "image": "",
+      "options": [
+        "Capillaires",
+        "Artères",
+        "Veines",
+        "Aorte",
+        "Artérioles"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 131,
+      "question": "តើការថយចុះនូវកត្តាណាមួយខាងក្រោមដែលបង្កឲ្យមានការកើនឡើងនូវ pression differentielle?",
+      "images": [],
+      "image": "",
+      "options": [
+        "Pression systolique",
+        "Volume systolique",
+        "Compliance artérielle",
+        "Retour veineux",
+        "Volume plasmatique"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 132,
+      "question": "តើ បំរែបំរួលណាមួយខាងក្រោម ដែលអាចកើតមានឡើងចំពោះមនុស្សម្នាក់ ដែលក្រោកឈរបន្ទាប់ពីសម្រាកលើផ្ទៃរាបស្មើ?",
+      "images": [],
+      "image": "",
+      "options": [
+        "Pression hydrostatique veineuse កើន fréquence cardiaque កើន flux sanguin rénal កើន",
+        "Pression hydrostatique veineuse កើន fréquence cardiaque កើន flux sanguin rénal ថយ",
+        "Pression hydrostatique veineuse កើន fréquence cardiaque ថយ flux sanguin rénal ថយ",
+        "Pression hydrostatique veineuse ថយ fréquence cardiaque ថយ flux sanguin rénal ថយ",
+        "Pression hydrostatique veineuse ថយ fréquence cardiaque ថយ flux sanguin rénal កើន"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 133,
+      "question": "ជាទូទៅល់ហួឈាមទៅជាលិកាផ្សេងៗ មានសភាពថេរបើទោះជាការថយចុះនូវសំពាធឈាម ដោយសារមេកានីស autoregulation។ តើ បំរែបំរួលណាមួយខាងក្រោមអាចកើតមានក្នុងការឆ្លើយតបទៅនឹង ការថយចុះនៃសំពាធឈាម?",
+      "images": [],
+      "image": "",
+      "options": [
+        "Diminution du conductance",
+        "Diminution du CO2 dans les tissus",
+        "Augmentation du O2 dans les tissus",
+        "Diminution du résistance vasculaire",
+        "Diminution du diametre artériolaire"
+      ],
+      "correctIndex": 3
+    },
+    {
+      "id": 134,
+      "question": "ពេលដែលសំពាធឈាមថយចុះពីកម្រិតធម្មតាតើមេកានីស នៃការសម្របសម្រួលសំពាធឈាមណាមួយត្រឹមត្រូវ ដើម្បីធ្វើឲ្យសំពាធឈាមវិលមករកស្ថានភាពធម្មតាវិញ?",
+      "images": [],
+      "image": "",
+      "options": [
+        "Barrorécepteur centre vasomoteur centre cardioinhibiteur",
+        "Centre vasomoteur centre cardioaccelerateur Barrorécepteur",
+        "Centre cardioaccelerateur Barrorécepteur centre vasomoteur",
+        "Barrorécepteur Centre cardioinhibiteur centre vasomoteur",
+        "Barrorécepteur centre vasomoteur centre cardioaccelerateur"
+      ],
+      "correctIndex": 4
+    },
+    {
+      "id": 135,
+      "question": "ពេលដែលសំពាធកើនឡើងពីកម្រិកធម្មតាតើមេកានីសនៃការសម្របសម្រួល សំពាធឈាមណាមួយត្រឹមត្រូវ ដើម្បីធ្វើឲ្យសំពាធឈាមវិលមករកស្ថានភាពធម្មតាវិញ?",
+      "images": [],
+      "image": "",
+      "options": [
+        "Barrorécepteur centre vasomoteur centre cardioaccélerateur",
+        "Barrorécepteur centre vasomoteur centre cardioinhibiteur",
+        "Centre vasomoteur barrorécepteur centre cardioaccelerateur",
+        "Centre cardioinhibiteur barrorécepteur centre vasomoteur",
+        "Barrorécepteur centre cardioinhibiteur centre vasomoteur"
+      ],
+      "correctIndex": 4
+    }
+  ]
+}

@@ -1,0 +1,620 @@
+{
+  "questions": [
+    {
+      "id": 1,
+      "question": "Le mouvement de l'eau entre le compartiment intracellulaire et le compartiment extracellulaire se fait principalement par:",
+      "images": [],
+      "image": "",
+      "options": [
+        "Par diffusion des ions Na+",
+        "Grâce à la pression oncotique",
+        "Par pression de filtration",
+        "En réponse à un gradient osmotique",
+        "Grâce à la pression interstitielle"
+      ],
+      "correctIndex": 3
+    },
+    {
+      "id": 2,
+      "question": "Lorsqu'une solution hypertonique est administrée par voie intraveineuse, il se produit",
+      "images": [],
+      "image": "",
+      "options": [
+        "L'entrée d'eau dans les cellules provoquant leur gonflement",
+        "La sortie d'eau des cellules provoquant leur rétrécissement",
+        "L'entrée de l'urée dans les cellules",
+        "Aucun changement dans les cellules",
+        "L'entrée de protéine dans les cellules"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 3,
+      "question": "Quelle force favorise le mouvement de l'eau des capillaires vers le liquide interstitiel?",
+      "images": [],
+      "image": "",
+      "options": [
+        "La pression oncotique capillaire",
+        "La pression hydrostatique interstitielle",
+        "La pression hydrostatique capillaire",
+        "La pression de glucose interstitielle",
+        "La pression osmotique intracapillaire"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 4,
+      "question": "Quelle force attire le liquide vers l'intérieur des capillaires?",
+      "images": [],
+      "image": "",
+      "options": [
+        "La pression hydrostatique capillaire",
+        "La pression hydrostatique interstitielle",
+        "La pression oncotique capillaire",
+        "La pression oncotique interstitielle",
+        "La pression du liquide lymphatique"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 5,
+      "question": "Quel ion est le plus abondant dans le compartiment intracellulaire?",
+      "images": [],
+      "image": "",
+      "options": [
+        "Na+",
+        "Cl-",
+        "K+",
+        "Ca++",
+        "Mg++"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 6,
+      "question": "L'ADH (hormone antidiurétique) agit principalement en :",
+      "images": [],
+      "image": "",
+      "options": [
+        "Augmentant la réabsorption d'eau dans le néphron distal",
+        "favorisant l'excrétion de Na+ dans l'urine",
+        "Diminuant la réabsorption de potassium dans les reins",
+        "Inhibant la filtration glomérulaire",
+        "La sécrétion des ions H+"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 7,
+      "question": "Un patient souffrant d'hypernatrémie présente un risque de :",
+      "images": [],
+      "image": "",
+      "options": [
+        "L'oedème cérébral",
+        "La déshydratation cellulaire",
+        "L' hypotonie musculaire due à un excès de K+ intracellulaire",
+        "Aucune modification hydrique",
+        "L'hyperhydratation intracellulaire"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 8,
+      "question": "Quelle structure régule le mouvement des ions dans et en dehors de la cellule?",
+      "images": [],
+      "image": "",
+      "options": [
+        "La membrane cellulaire",
+        "Le cytoplasme",
+        "La membrane nucléaire membrane",
+        "Le nucléole",
+        "La vacuole"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 9,
+      "question": "Quel mécanisme est principalement responsable du mouvement de l'eau entre les compartiments intracellulaire et extracellulaire?",
+      "images": [],
+      "image": "",
+      "options": [
+        "Diffusion",
+        "Osmose",
+        "Filtration",
+        "Endocytose",
+        "Entraînement par solvant"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 10,
+      "question": "Quels sont les deux principaux compartiments Liquidiens de l'organisme?",
+      "images": [],
+      "image": "",
+      "options": [
+        "Le plasma et la lymphe",
+        "La Lymphe et le liquide interstitiel",
+        "Le Liquide intracellulaire et le liquide interstitiel",
+        "Le Liquide intracellulaire et le liquide extracellulaire",
+        "Le plasma et les globules sanguins"
+      ],
+      "correctIndex": 3
+    },
+    {
+      "id": 11,
+      "question": "Quel est le liquide dont le pourcetage est le plus élevé que les autres dans l'organisme?",
+      "images": [],
+      "image": "",
+      "options": [
+        "Liquide interstitiel",
+        "Liquide intracellulaire",
+        "Plasma",
+        "Liquide lymphatique",
+        "Liquide trans-cellulaire"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 12,
+      "question": "Normalement, l'eau sort en dehors des vaisseaux au niveau:",
+      "images": [],
+      "image": "",
+      "options": [
+        "Des veinules",
+        "Des capillaères artériolaires",
+        "Des capillaires veineuses",
+        "Des artérioles afférentes",
+        "De l'aorte descendant"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 13,
+      "question": "L'eau est réabsorbée principalement au niveau :",
+      "images": [],
+      "image": "",
+      "options": [
+        "Du tubule proximal",
+        "Du tubule collecteur",
+        "Des glomérules",
+        "De la capsule de Bowman",
+        "De la branche descendante de l'anse de Henle"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 14,
+      "question": "En cas d'hypernatrémie, l'eau:",
+      "images": [],
+      "image": "",
+      "options": [
+        "Entre dans les cellules pour diluer le sodium",
+        "Sort des cellules pour équilibrer l'osmolarité extracellulaire",
+        "Ne subit aucun mouvement",
+        "Est excrétée uniquement par transpiration.",
+        "Sort du compartiment intravasculaire"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 15,
+      "question": "L'eau dans l'organisme est répartie entre les compartiments:",
+      "images": [],
+      "image": "",
+      "options": [
+        "Intracellulaire et plasmatique uniquement",
+        "Intracellulaire, extracellulaire et trans-cellulaire",
+        "Cellulaire et interstitiel uniquemart",
+        "Vasculaire et interstitied uniquement.",
+        "Interstitiel et lymphatique"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 16,
+      "question": "Quel est le principal site de filtration dans le néphron?",
+      "images": [],
+      "image": "",
+      "options": [
+        "Le tube proximal",
+        "Le glomérule",
+        "L'anse de Henle",
+        "Le tube collecteur",
+        "Le tube distal"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 17,
+      "question": "L' aldosterone agit principalement sur:",
+      "images": [],
+      "image": "",
+      "options": [
+        "Le glomérule",
+        "La branche descendante de l'anse de Henle",
+        "Le tube contourné distal et le tube collecteur",
+        "Le tube contourné proximal",
+        "Le tubule proximal et le tubule distal"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 18,
+      "question": "La sécrétion tubulaire permet principalement à:",
+      "images": [],
+      "image": "",
+      "options": [
+        "La réabsorption du glucose",
+        "L'excrêtión de substances comme H+ et K+",
+        "La filtration des protéines plasmatiques",
+        "La production d' urée",
+        "L'excrétion des ions calcium et magnésium"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 19,
+      "question": "La réabsorption du glucose se fait :",
+      "images": [],
+      "image": "",
+      "options": [
+        "Dans le glomérule",
+        "Dans le tubule contourné proximal",
+        "Dans le tubule contourné distal",
+        "Dans le tubule collecteur",
+        "Au niveau de l'anse de Henle"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 20,
+      "question": "La majorité du sodium filtré par le glomérule est réabsorbée dans :",
+      "images": [],
+      "image": "",
+      "options": [
+        "Le tubule contourné proximal",
+        "La branche descendante de l'anse de Henle",
+        "Le tubule contourné distal",
+        "Le tubule collecteur",
+        "La branche ascendante"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 21,
+      "question": "La réabsorption de l'eau dans le néphron se produit sous l'influence de l'A.D.H. dans",
+      "images": [],
+      "image": "",
+      "options": [
+        "Le tube collecteur et tubule contourné distal",
+        "La branche ascendante de l'anse de Henle",
+        "La branche descendante de l'anse de Henle",
+        "Le tubule contourné proximal",
+        "La capsule de Bowman"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 22,
+      "question": "Fonctions des tubules sont:",
+      "images": [],
+      "image": "",
+      "options": [
+        "Fonctions de réabsorption et de sécrétion",
+        "Formation de l'urine primitive",
+        "Sécrétion de la rénine",
+        "Fonction de filtration",
+        "Sécrétion d'érythropoïétine"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 23,
+      "question": "Normalement, le fitrat glomérulaire présente :",
+      "images": [],
+      "image": "",
+      "options": [
+        "Beaucoup de protéines",
+        "Quelques globules sanguins",
+        "Beaucoup de plaquettes",
+        "De cellules épittiétiales",
+        "De Na+ et de glucose"
+      ],
+      "correctIndex": 4
+    },
+    {
+      "id": 24,
+      "question": "Le potassium est réabsorbé principalement :",
+      "images": [],
+      "image": "",
+      "options": [
+        "Au niveau de la capsule de Bowman",
+        "Au niveau du tube collecteur",
+        "Au niveau des capillaires artériolaires",
+        "Au niveau de la branche descendante",
+        "Au niveau du tubule contourné proximal"
+      ],
+      "correctIndex": 4
+    },
+    {
+      "id": 25,
+      "question": "L'ion le plus abondant dans le compartiment intra cellulaire",
+      "images": [],
+      "image": "",
+      "options": [
+        "Cl-",
+        "Na+",
+        "Ca++",
+        "K+",
+        "Mg++"
+      ],
+      "correctIndex": 3
+    },
+    {
+      "id": 26,
+      "question": "Normalement, l'urée est réabsorbée :",
+      "images": [],
+      "image": "",
+      "options": [
+        "Totalement dans le tube collecteur",
+        "60% au niveau du tubule proximal",
+        "85% auc-niveau del'anse de Henle",
+        "Totalement au niveau du tubule distal.",
+        "Au niveau de la capsule de Bowman"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 27,
+      "question": "Hormone qui favorise la sécrétion tubulaire de K+et H+:",
+      "images": [],
+      "image": "",
+      "options": [
+        "ADH",
+        "Aldostérone",
+        "Rénine",
+        "Erythropoïétine",
+        "Tyroxine"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 28,
+      "question": "La déperdition de l'eau de l'organisme se fait en majeure partie par :",
+      "images": [],
+      "image": "",
+      "options": [
+        "La respiration",
+        "La transpiration",
+        "La sueur",
+        "La miction",
+        "La fièvre"
+      ],
+      "correctIndex": 3
+    },
+    {
+      "id": 29,
+      "question": "Dans quelle situation, la sécrétion de la rénine est. elle augmentée ?",
+      "images": [],
+      "image": "",
+      "options": [
+        "Augmentation de la tension artérielle",
+        "Hypovolémie ou hypotension artérielle",
+        "Hyperkaliémie",
+        "Augmentation du débit sanguin rénal",
+        "Augmentation de la filtration glomérulaire"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 30,
+      "question": "Quelle est l'une des fonctions principales du rein?",
+      "images": [],
+      "image": "",
+      "options": [
+        "Sécrétion de l'insuline'",
+        "Régulation de l'équilibre hydrique et électrolytique",
+        "Production de l'angiotensinogène",
+        "Production de l'enzyme de conversion",
+        "Production de l'urée"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 31,
+      "question": "La filtration glomérulaire se produit au riveau:",
+      "images": [],
+      "image": "",
+      "options": [
+        "Du tube distal",
+        "Du tube proximal",
+        "Des glomérules",
+        "De la vessie",
+        "Du Tube collecteur"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 32,
+      "question": "Quelle hormone est produite, par les reins pour stimuler la production des glebules rouges?",
+      "images": [],
+      "image": "",
+      "options": [
+        "Aldosterone",
+        "Vasopressine",
+        "Erythropoietine",
+        "Adrénaline",
+        "Cortisol"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 33,
+      "question": "Quelle est la substance principalement sécrétée par les reins pour réguler l'équilibre acido-basique ?",
+      "images": [],
+      "image": "",
+      "options": [
+        "Bicarbonate.",
+        "H+",
+        "Ca++",
+        "Na+",
+        "Créatinine"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 34,
+      "question": "Quel est le principal déchet azoté éliminé parles reins ?",
+      "images": [],
+      "image": "",
+      "options": [
+        "Le glucose",
+        "L' urée",
+        "Le cholestérol",
+        "Les acides gras.",
+        "Les bicarbonates"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 35,
+      "question": "La rénine est sécrétée par :",
+      "images": [],
+      "image": "",
+      "options": [
+        "Les cellules du tube proximal",
+        "L'appareil juxta - glomérulaire",
+        "Les cellules musculaires",
+        "Les cellules de la surrénale",
+        "Les cellules du tube collecteur."
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 36,
+      "question": "Le tissu principal de l'épiderme est :",
+      "images": [],
+      "image": "",
+      "options": [
+        "Le tissu conjonctif",
+        "Le tissu épithélial",
+        "Le tissu nerveux",
+        "Le tissu musculaire",
+        "Le tissu nerveux et conjonctif"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 37,
+      "question": "Le coeur est constitué principalement de:",
+      "images": [],
+      "image": "",
+      "options": [
+        "Tissu conjonctif",
+        "Tissu musculaire",
+        "Tissu épithelial",
+        "Tissu nerveux.",
+        "Tissu épithelial et conjonctif"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 38,
+      "question": "Le cartilage est constitué principalement de:",
+      "images": [],
+      "image": "",
+      "options": [
+        "Tissu épithelial",
+        "Tissu conjonctif",
+        "Tissu musculaire",
+        "Tissu nerveux",
+        "Tissu épithelial et tissu nerveux"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 39,
+      "question": "Le cerveau est constitué principalement de:",
+      "images": [],
+      "image": "",
+      "options": [
+        "Tissu nerveux",
+        "Tissu musculaire",
+        "Tissu conjonctif",
+        "Tissu épithétial",
+        "Tissu musculaire + tissu épithétial"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 40,
+      "question": "On trouve le tissu épithélial au niveau:",
+      "images": [],
+      "image": "",
+      "options": [
+        "De l'os",
+        "Du cartilage",
+        "Du cerveau",
+        "De l'épiderme",
+        "Des muscles"
+      ],
+      "correctIndex": 3
+    },
+    {
+      "id": 41,
+      "question": "Substance réabsorbée presque totalement au niveau du tube contourné proximal:",
+      "images": [],
+      "image": "",
+      "options": [
+        "Bicarbonate",
+        "Sodium",
+        "Potassium",
+        "Urée",
+        "Chlore"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 42,
+      "question": "A.D.H. est l'hormone participant à la réabsorption:",
+      "images": [],
+      "image": "",
+      "options": [
+        "De l'urée",
+        "Des bicarbonates",
+        "Des phosphates",
+        "Du chlore",
+        "De l'eau"
+      ],
+      "correctIndex": 4
+    },
+    {
+      "id": 43,
+      "question": "Substance sécrétée au niveau du tubule contourné distal et du tube collecteur:",
+      "images": [],
+      "image": "",
+      "options": [
+        "Glucose",
+        "Acides aminés",
+        "Cl-",
+        "H+",
+        "Na+"
+      ],
+      "correctIndex": 3
+    },
+    {
+      "id": 44,
+      "question": "Le glucose est dans le groupe :",
+      "images": [],
+      "image": "",
+      "options": [
+        "Des métaux alcalins",
+        "Des métalloïdes",
+        "Des composés minéraux",
+        "Des substances organiques",
+        "Des corps simples"
+      ],
+      "correctIndex": 3
+    }
+  ]
+}

@@ -1,0 +1,317 @@
+{
+  "questions": [
+    {
+      "id": 1,
+      "question": "quelle est la fonction principale de la pompe Na - K ATPase?",
+      "images": [],
+      "image": "",
+      "options": [
+        "création d'un gradient chimique",
+        "création d'un gradient ionique",
+        "création d'un gradient électrique",
+        "création d'un gradient physique"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 2,
+      "question": "quelle est la conséquence de la séparation des charges électriques (+) et (-)",
+      "images": [],
+      "image": "",
+      "options": [
+        "création d'un gradient chimique",
+        "création d'un gradient ionique",
+        "création d'un gradient électrique",
+        "création d'un gradient physique"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 3,
+      "question": "quel mécanisme explique la création d'une force électrique membranaire ?",
+      "images": [],
+      "image": "",
+      "options": [
+        "gradient de concentration d'une molécule de part et d'autre de la membrane",
+        "gradient de concentration de Na+ de part et d'autre de la membrane",
+        "gradient de concentration de K+ de part et d'autre de la membrane",
+        "gradient électrique de part et d'autre de la membrane"
+      ],
+      "correctIndex": 3
+    },
+    {
+      "id": 4,
+      "question": "quelle condition permettant de séparer les charges (+) et (-) de part et d'autre de la membrane ?",
+      "images": [],
+      "image": "",
+      "options": [
+        "ouverture des canaux ioniques K+ ou Na+",
+        "activation des pompes Na - K ATPase",
+        "activation de co - transport Na dépendante",
+        "activation d'antiport Na dépendante"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 5,
+      "question": "quel formule utilisée pour convertir le gradient ionique en gradient électrique ?",
+      "images": [],
+      "image": "",
+      "options": [
+        "Laplace",
+        "Starling",
+        "Nernst",
+        "Poiseuille"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 6,
+      "question": "Quelle loi explique l'augmentation de masse myocardique lors de l'augmentation de post charge ?",
+      "images": [],
+      "image": "",
+      "options": [
+        "Laplace",
+        "Starling",
+        "Nernst",
+        "Poiseuille"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 7,
+      "question": "Quel est la valeur du potentiel de Na+=ENa?",
+      "images": [],
+      "image": "",
+      "options": [
+        "+60 mV",
+        "+ 70 mV",
+        "+ 80 mV",
+        "+90 mV"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 8,
+      "question": "Quel est la valeur du potentiel de K+=EK ?",
+      "images": [],
+      "image": "",
+      "options": [
+        "60 mV",
+        "70 mV",
+        "80 mV",
+        "90 mV"
+      ],
+      "correctIndex": 3
+    },
+    {
+      "id": 9,
+      "question": "quel est l'équation du potentiel de membrane de la cellule myocardique au repos EM?",
+      "images": [],
+      "image": "",
+      "options": [
+        "EM=1/10 EK+9/10 ENa",
+        "EM=9/10 EK+1/10 ENa",
+        "EM=5/10 EK+5/10 ENa",
+        "EM 10/10 EK + 0/10 ENa",
+        "EM=0/10 EK+10/10 ENa"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 10,
+      "question": "Quel est la valeur du potentiel de membrane = EM de repos?",
+      "images": [],
+      "image": "",
+      "options": [
+        "60 mV",
+        "70 mV",
+        "-80 mV",
+        "-90 mV"
+      ],
+      "correctIndex": 3
+    },
+    {
+      "id": 11,
+      "question": "quel mouvement ionique responsable de dépolarisation ?",
+      "images": [],
+      "image": "",
+      "options": [
+        "entrée de Na+",
+        "sortie de Na+",
+        "entrée de K+",
+        "sortie de K+"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 12,
+      "question": "quel mouvement ionique responsable de repolarisation ?",
+      "images": [],
+      "image": "",
+      "options": [
+        "entrée de Ca++",
+        "entrée de Na+",
+        "entrée de K+",
+        "sortie de K+"
+      ],
+      "correctIndex": 3
+    },
+    {
+      "id": 13,
+      "question": "quel mouvement ionique responsable le plateau de repolarisation ?",
+      "images": [],
+      "image": "",
+      "options": [
+        "entrée de Ca++",
+        "entrée de Na+",
+        "entrée de K+",
+        "sortie de K+"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 14,
+      "question": "Définir le pré charge ?",
+      "images": [],
+      "image": "",
+      "options": [
+        "charge de volume",
+        "charge de pression",
+        "charge (+)",
+        "charge (-)"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 15,
+      "question": "Définir le post charge ?",
+      "images": [],
+      "image": "",
+      "options": [
+        "charge de volume",
+        "charge de pression",
+        "charge (+)",
+        "charge (-)"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 16,
+      "question": "quelles volumes mises en relation dans la Loi de Starling?",
+      "images": [],
+      "image": "",
+      "options": [
+        "VTD↑→ VES↑",
+        "VES/VTD = force de contraction",
+        "VTD-VTS = VES",
+        "VTD → VES↑"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 17,
+      "question": "quel paramètre va diminuer le DC ?",
+      "images": [],
+      "image": "",
+      "options": [
+        "VES",
+        "FC",
+        "PA",
+        "VTD"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 18,
+      "question": "quel volume représente la fonction diastolique et systolique du ventricule ?",
+      "images": [],
+      "image": "",
+      "options": [
+        "Volume éjection systolique",
+        "volume télé diastolique",
+        "volume télé systolique",
+        "volume méso diastolique"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 19,
+      "question": "Formuler le Débit cardiaque?",
+      "images": [],
+      "image": "",
+      "options": [
+        "DC=VTD×FC",
+        "DC = VES + FC",
+        "DC=VTD+FC",
+        "DC=VES×FC"
+      ],
+      "correctIndex": 3
+    },
+    {
+      "id": 20,
+      "question": "quelle formule représente la fonction systolique du VG?",
+      "images": [],
+      "image": "",
+      "options": [
+        "FE = VES/VTD",
+        "FE= VTD/VTS",
+        "VES = VTD - VTS",
+        "VTD = VES + VTS"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 21,
+      "question": "Selon la loi de Laplace pour diminuer la tension pariétale ventriculaire, quel paramètre doit augmenter ?",
+      "images": [],
+      "image": "",
+      "options": [
+        "pression intraventriculaire",
+        "rayon ventriculaire",
+        "épaisseur du ventricule",
+        "volume intraventriculaire"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 22,
+      "question": "Quel est le volume de remplissage au cours de la systole auriculaire en fonction du débit cardiaque ?",
+      "images": [],
+      "image": "",
+      "options": [
+        "10% du débit cardiaque",
+        "15% du débit cardiaque",
+        "20% du débit cardiaque",
+        "25% du débit cardiaque"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 23,
+      "question": "Le débit cardiaque représente quelles fonctions ?",
+      "images": [],
+      "image": "",
+      "options": [
+        "fonctions mécaniques systolique et diastolique",
+        "fonctions électriques",
+        "fonctions mécaniques et électriques",
+        "fonctions hémodynamiques"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 24,
+      "question": "quel paramètre confirme la fonction électrique cardique ?",
+      "images": [],
+      "image": "",
+      "options": [
+        "Débit cardiaque",
+        "fréquence cardique",
+        "Volume télé diastolique",
+        "Volume d'éjection"
+      ],
+      "correctIndex": 1
+    }
+  ]
+}

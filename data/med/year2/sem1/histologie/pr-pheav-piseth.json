@@ -1,0 +1,354 @@
+{
+  "questions": [
+    {
+      "id": 1,
+      "question": "លក្ខណៈណៃយំរបស់ Adipocyte : ចូរគូសចំលើយមួយដែលត្រឹមត្រូវ:",
+      "image": "",
+      "options": [
+        "រាងពងក្រពើ",
+        "ផ្ទុកទៅដោយនុយក្លេអូលធំមួយ",
+        "មាន យំច្រើន",
+        "សំប៉ែតហើយរុញជាប់ទៅស្ថិតនៅផ្នែកខាង"
+      ],
+      "correctIndex": 3
+    },
+    {
+      "id": 2,
+      "question": "មុខងាររបស់ Adipocyte: ចូរគូសចំលើយមួយដែលត្រឹមត្រូវ:",
+      "image": "",
+      "options": [
+        "បន្ទុកថាមពល",
+        "សំយោគប្រតេអ៊ុន",
+        "សំយោគ កូប្រូតេអ៊ុន",
+        "សំយោគ fibres"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 3,
+      "question": "តាមរយៈមីក្រូស្រូបអេឡិកត្រូនិកទៅលើ Mastocyte: ចូរគូសចំលើយមួយដែលត្រឹមត្រូវ:",
+      "image": "",
+      "options": [
+        "កោសិកាមានរាងមូល",
+        "ស៊ីតូប្លាសមានគ្រាប់ល្អិតៗ និងចាប់ពណ៌",
+        "ផ្ទុកទៅដោយសារធាតុជាសារវ័ន្ត",
+        "ស៊ីតូប្លាសមានរចនាសម្ព័ន្ធជាសន្លឹកស្តើង"
+      ],
+      "correctIndex": 3
+    },
+    {
+      "id": 4,
+      "question": "មុខងាររបស់សារធាតុជាសារវ័ន្ត នៃTissu conjonctif: ចូរគូសចំលើយមួយដែលត្រឹមត្រូវ:",
+      "image": "",
+      "options": [
+        "សំយោគប្រូតេអ៊ុន",
+        "ចូលរួមក្នុងការចិញ្ចឹមកោសិកា",
+        "បន្ទុកថាមមពល",
+        "សំយោគពពួកសសៃ Fibres"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 5,
+      "question": "Les fibres collagenes មើលដោយ Microscope optique: ចូរគូសចំលើយមួយដែលត្រឹមត្រូវ:",
+      "image": "",
+      "options": [
+        "Faisceaux មានទំហំធំ",
+        "Faisceaux មានលក្ខណៈសន្លឹកស្តើង",
+        "Faisceaux មានទំហំឆ្នាៗ",
+        "Faisceaux មានលក្ខណៈស្របៗគ្នា"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 6,
+      "question": "សារសំខាន់របស់ Tissu adipeux: ចូរគូសចំលើយមួយដែលត្រឹមត្រូវ:",
+      "image": "",
+      "options": [
+        "ជាបណ្តាញដ៏សំខាន់នៃប្រភពថាមពល",
+        "សំយោគខ្លាញ់",
+        "ស្លកទុកជាតិខ្លាញ់",
+        "ផ្តល់វីតាមីនដល់សារពាង្គកាយ"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 7,
+      "question": "លក្ខណៈណៃយំរបស់ Ostéoblastes: ចូរគូសចំលើយមួយដែលត្រឹមត្រូវ:",
+      "image": "",
+      "options": [
+        "មានរាងតូប",
+        "មានរាងពងក្រពើ និងផ្ទុកទៅដោយនុយក្លេអូលធំមួយ",
+        "មានរាងព្រឺស",
+        "មានរាងមូល និងផ្អែកដោយនុយក្លេអូលមួយ"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 8,
+      "question": "លក្ខណៈ  របស់ Ostéocytes: ចូរគូសចំលើយមួយដែលត្រឹមត្រូវ:",
+      "image": "",
+      "options": [
+        "មានរាង ស",
+        "មានរាងតូប",
+        "មានរាងមូល",
+        "មានរាងពងក្រពើ"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 9,
+      "question": "លក្ខណៈ  របស់ Ostéoclastes: ចូរគូសចំលើយមួយដែលត្រឹមត្រូវ:",
+      "image": "",
+      "options": [
+        "មាន យំមួយ",
+        "មានណៃយំពីរ",
+        "គ្មានព្រៃយ៍",
+        "មាន  ច្រើន"
+      ],
+      "correctIndex": 3
+    },
+    {
+      "id": 10,
+      "question": "ធាតុបន្សំគ្រឹះរបស់ Tissu Conjonctif: ចូរគូសចំលើយមួយដែលមិនត្រឹមត្រូវ:",
+      "image": "",
+      "options": [
+        "Les Cellules",
+        "Les Organes",
+        "Les Substances fondamentales",
+        "Les fibres"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 11,
+      "question": "ទំរង់របស់កោសិកា Fibroblaste: ចូរគូសចំលើយមួយដែលមិនត្រឹមត្រូវ:",
+      "image": "",
+      "options": [
+        "មានរាងដូចគ្នាអំបោះ",
+        "មានទំរង់ផ្កាយ",
+        "មានរាងគូប រីរាង ស",
+        "មានពន្លកស៊ីតូប្លាសវែង"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 12,
+      "question": "មុខងាររបស់ Fibroblaste ចូលរួមក្នុងការសំយោគៈ ចូរកូសចំលើយមួយដែលមិនត្រឹមត្រូវ:",
+      "image": "",
+      "options": [
+        "ប្រូតេអ៊ុន",
+        "កូប្រូតេអ៊ុន",
+        "Fibres",
+        "Substances fondamentales"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 13,
+      "question": "លក្ខណៈស៊ីតូប្លាសរបស់Adipocyte: ចូរគូសចំលើយមួយដែលមិនត្រឹមត្រូវ:",
+      "image": "",
+      "options": [
+        "ប្រមូលផ្តុំជាកម្រងស្តើងមួយ",
+        "រុំព័ទ្ធដំណក់ខ្លាញ់ធំមួយ",
+        "មានផ្ទុកដោយគ្រាប់ល្អិតៗចាប់ពណ៌",
+        "មានធាតុបន្សំកោសិកាជាធម្មតា"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 14,
+      "question": "Les cellules mobiles មានៈ ចូរគូសចំលើយមួយដែលមិនត្រឹមត្រូវ:",
+      "image": "",
+      "options": [
+        "Les Fibrocytes",
+        "Les cellules du système immunitaires",
+        "Les granulocytes éosinophyles",
+        "Les mastocytes"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 15,
+      "question": "Les cellules du système immunitaire: ចូរគូសចំលើយមួយដែលមិនត្រឹមត្រូវ:",
+      "image": "",
+      "options": [
+        "Macrophages",
+        "Adipocytes",
+        "Lymphocytes",
+        "Plasmocytes"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 16,
+      "question": "សារធាតុជាសារវ័ន្តរបស់ Tissu Conjonctif រួមបន្សំដោយៈ ចូរកូសចំលើយមួយដែលមិនត្រឹមត្រូវ:",
+      "image": "",
+      "options": [
+        "ទឹក, អំបិលខនិក",
+        "Glycosaminoglycane",
+        "Bicarbonates",
+        "Glycoprotéines"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 17,
+      "question": "សារធាតុសរសៃ (Les fibres) នៃ Tissu Conjonctif មានៈ ចូរគូសចំលើយមួយដែលមិនត្រឹមត្រូវ:",
+      "image": "",
+      "options": [
+        "Fibres circulaires",
+        "Fibres de réticulines",
+        "Fibres élastiques",
+        "Fibres collagens"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 18,
+      "question": "ប្រភេទចម្បងៗនៃ Tissu Conjonctif មានៈ ចូរគូសចំលើយមួយដែលមិនត្រឹមត្រូវ:",
+      "image": "",
+      "options": [
+        "Tissu Conjonctif lache",
+        "Tissu Conjonctif dense",
+        "Tissu Conjonctif bitendu",
+        "Tissu adipeux",
+        "Tissu réticulaire"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 19,
+      "question": "ទីតាំងរបស់ Tissu conjonetif lache: ចូរគូសចំលើយមួយដែលមិនត្រឹមត្រូវ:",
+      "image": "",
+      "options": [
+        "នៅចន្លោះសាច់ដុំ នៅក្រោមស្បែក",
+        "នៅស្រទាប់ខាងក្រៅនៃសរសៃឈាមខាងក្រោម épithélium របស់ស្រោមសួត ស្រោមពោះ និងស្រោមបេះដូង",
+        "នៅក្នុងសរីរៈកាន់",
+        "ស្ថិតនៅក្នុង organe lymphoides"
+      ],
+      "correctIndex": 3
+    },
+    {
+      "id": 20,
+      "question": "មុខងាររបស់ Tissu conjonctif lache: ចូរគូសចំលើយមួយដែលមិនត្រឹមត្រូវ:",
+      "image": "",
+      "options": [
+        "មុខងារមេតាបូ ក",
+        "មុខងារមេកានិក",
+        "មុខងារក្នុងការដឹកជញ្ជូន",
+        "មុខងារក្នុងការការពារសរពាង្គកាយ"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 21,
+      "question": "ទីតាំងរបស់ Tissu conjonctif dense orienté: ចូរគូសចំលើយមួយដែលមិនត្រឹមត្រូវ:",
+      "image": "",
+      "options": [
+        "នៅក្នុង derme",
+        "នៅចន្លោះសាច់ដុំ",
+        "នៅត្រង់ périoste",
+        "នៅក្នុងស្រទាប់រុំព័ទ្ឋសរីរៈជាច្រើន"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 22,
+      "question": "ទីតាំងរបស់ Tissu adipeux: ចូរគូសចំលើយមួយដែលមិនត្រឹមត្រូវ:",
+      "image": "",
+      "options": [
+        "នៅក្នុងOrganes lymphoide",
+        "នៅក្នុងhypoderme",
+        "ផ្នែកខាងក្រោយនៃស្រោមពោះ",
+        "Mésentaire",
+        "Grand épiploon"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 23,
+      "question": "សកម្មភាពមេតាបូលិសរបស់កោសិកាខ្លាញ់: ចូរគូសចំលើយមួយដែលមិនត្រឹមត្រូវ:",
+      "image": "",
+      "options": [
+        "សំយោគជាតិខ្លាញ់ប្រភេទលីពីត",
+        "ចូលរួមផ្តល់វីតាមីនទ្រទ្រង់សព៌ាង្គកាយ",
+        "ស្លកទុកជាតិខ្លាញ់ទំរង់ triglyceride",
+        "បញ្ចេញជាទំរង់ acide gras"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 24,
+      "question": "ធាតុបន្សំរបស់Tissu Osseux: ចូរគូសចំលើយមួយដែលមិនត្រឹមត្រូវ:",
+      "image": "",
+      "options": [
+        "Les cellules",
+        "Les sabstances fondamentales",
+        "La matrice osseuse"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 25,
+      "question": "ប្រភេទទាំងបីរបស់កោសិកានៃ Tissu osseux: ចូរគូសចំលើយមួយដែលមិនត្រឹមត្រូវ:",
+      "image": "",
+      "options": [
+        "Ostéocytes",
+        "Ostéoblastes",
+        "Fibroblastes",
+        "Ostéoclastes"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 26,
+      "question": "ប្រភេទនៃTissu osseux: ចូរគូសចំលើយមួយដែលមិនត្រឹមត្រូវ:",
+      "image": "",
+      "options": [
+        "Tissu osseux non lamellaires",
+        "Tissu osseux spongieuse",
+        "Tissu osseux lamellaires",
+        "Tissu osseux compact",
+        "Tissu osseux de faibles quantités"
+      ],
+      "correctIndex": 4
+    },
+    {
+      "id": 27,
+      "question": "ការបែងចែកទៅតាមទីតាំងរបស់Tissu osseux spongieux et compact: ចូរគូសចំលើយមួយដែលមិនត្រឹមត្រូវ:",
+      "image": "",
+      "options": [
+        "Dans les os longs",
+        "Dans les os ronds",
+        "Dans les os plats",
+        "Dans les os courts"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 28,
+      "question": "ការបែងចែកតាមទីតាំងនៅក្នុងឆ្អឹងវែងៈ ចូរគូសចំលើយមួយដែលមិនត្រឹមត្រូវ:",
+      "image": "",
+      "options": [
+        "Epiphyse",
+        "Diaphyse",
+        "Cavité médullaire de la diaphyse",
+        "Métaphyse"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 29,
+      "question": "មុខងារជាលិកាសរីរៈវិទ្យានៃ Tissu osseux ចូរគូសចំលើយមួយដែលមិនត្រឹមត្រូវ:",
+      "image": "",
+      "options": [
+        "Fonction de protection",
+        "Fonction hématopoiétique",
+        "Fonction mécanique",
+        "Fonction métabolique"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

@@ -1,0 +1,436 @@
+{
+  "questions": [
+    {
+      "id": 1,
+      "question": "Les parois de l'abdomen គឺជា Ostéo-musculaires និង Aponévrotique ។ ចំពោះរូបភាពខាងក្រោមនេះ (Vue antérieure du cadre osseux) លេខ1 គឺជា ៖",
+      "images": [
+        "y2-tp-anatomie-pr-sin-sagata-q27-image-1.jpg"
+      ],
+      "image": "y2-tp-anatomie-pr-sin-sagata-q27-image-1.jpg",
+      "options": [
+        "Sacrum",
+        "Colonne lombaire",
+        "Colonne dorsale",
+        "Promontoire",
+        "Colonne dorso-lombaire"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 2,
+      "question": "Les parois de l'abdomen គឺជា Ostéo-musculaires និង Aponévrotique ។ ចំពោះរូបភាពខាងក្រោមនេះ (Vue antérieure du cadre osseux) លេខ2 គឺជា ៖",
+      "images": [
+        "y2-tp-anatomie-pr-sin-sagata-q27-image-2.jpg"
+      ],
+      "image": "y2-tp-anatomie-pr-sin-sagata-q27-image-2.jpg",
+      "options": [
+        "Sacrum",
+        "Colonne lombaire",
+        "Os coxal droit",
+        "Promontoire",
+        "Symphyse pubienne"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 3,
+      "question": "គេលើកឡើងតែពី Deux parois antéro-latérales de l'abdomen ។ ចំពោះរូបភាពខាងក្រោមនេះ (Coupe horizontale de l'abdomen) លេខ1 គឺជា ៖",
+      "images": [
+        "y2-tp-anatomie-pr-sin-sagata-q27-image-3.jpg"
+      ],
+      "image": "y2-tp-anatomie-pr-sin-sagata-q27-image-3.jpg",
+      "options": [
+        "Muscle droit de l'abdomen (côté gauche)",
+        "Muscle transverse de l'abdomen (côté gauche)",
+        "Muscle oblique interne (côté gauche)",
+        "Muscle oblique externe (côté gauche)",
+        "Péritoine pariétal antérieur"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 4,
+      "question": "គេលើកឡើងតែពី Deux parois antéro-latérales de l'abdomen ។ ចំពោះរូបភាពខាងក្រោមនេះ (Coupe horizontale de l'abdomen) លេខ2 គឺជា ៖",
+      "images": [
+        "y2-tp-anatomie-pr-sin-sagata-q27-image-4.jpg"
+      ],
+      "image": "y2-tp-anatomie-pr-sin-sagata-q27-image-4.jpg",
+      "options": [
+        "Muscle transverse de l'abdomen (côté gauche)",
+        "Muscle oblique interne (côté gauche)",
+        "Ligne blanche de l'abdomen",
+        "Muscle oblique externe (côté gauche)",
+        "Péritoine pariétal antérieur"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 5,
+      "question": "គេលើកឡើងតែពី Deux parois antéro-latérales de l'abdomen ។ ចំពោះរូបភាពខាងក្រោមនេះ (Coupe horizontale de l'abdomen) លេខ3 គឺជា ៖",
+      "images": [
+        "y2-tp-anatomie-pr-sin-sagata-q27-image-5.jpg"
+      ],
+      "image": "y2-tp-anatomie-pr-sin-sagata-q27-image-5.jpg",
+      "options": [
+        "Muscle transverse de l'abdomen (côté gauche)",
+        "Péritoine pariétal antérieur",
+        "Muscle oblique interne (côté gauche)",
+        "Ligne blanche de l'abdomen",
+        "Muscle oblique externe (côté gauche)"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 6,
+      "question": "គេលើកឡើងតែពី Deux parois antéro-latérales de l'abdomen ។ ចំពោះរូបភាពខាងក្រោមនេះ (Coupe horizontale de l'abdomen) លេខ4 គឺជា ៖",
+      "images": [
+        "y2-tp-anatomie-pr-sin-sagata-q27-image-6.jpg"
+      ],
+      "image": "y2-tp-anatomie-pr-sin-sagata-q27-image-6.jpg",
+      "options": [
+        "Muscle oblique interne (côté gauche)",
+        "Ligne blanche de l'abdomen",
+        "Muscle oblique externe (côté gauche)",
+        "Muscle transverse de l'abdomen (côté gauche)",
+        "Péritoine pariétal antérieur"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 7,
+      "question": "គេលើកឡើងតែពី Deux parois antéro-latérales de l'abdomen ។ ចំពោះរូបភាពខាងក្រោមនេះ (Coupe horizontale de l'abdomen) លេខ5 គឺជា ៖",
+      "images": [
+        "y2-tp-anatomie-pr-sin-sagata-q27-image-7.jpg"
+      ],
+      "image": "y2-tp-anatomie-pr-sin-sagata-q27-image-7.jpg",
+      "options": [
+        "Muscle transverse de l'abdomen (côté gauche)",
+        "Muscle oblique interne (côté gauche)",
+        "Ligne blanche de l'abdomen",
+        "Péritoine pariétal antérieur",
+        "Muscle oblique externe (côté gauche)"
+      ],
+      "correctIndex": 4
+    },
+    {
+      "id": 8,
+      "question": "គេលើកឡើងតែពី Deux parois antéro-latérales de l'abdomen ។ ចំពោះរូបភាពខាងក្រោមនេះ (Coupe horizontale de l'abdomen) លេខ6 គឺជា ៖",
+      "images": [
+        "y2-tp-anatomie-pr-sin-sagata-q27-image-8.jpg"
+      ],
+      "image": "y2-tp-anatomie-pr-sin-sagata-q27-image-8.jpg",
+      "options": [
+        "Fascia iliaca (côté gauche)",
+        "Muscle transverse de l'abdomen (côté gauche)",
+        "Muscle oblique interne (côté gauche)",
+        "Péritoine pariétal antérieur",
+        "Muscle oblique externe (côté gauche)"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 9,
+      "question": "La paroi abdominale antéro-externe អាចចែកជា Neuf régions ។ ចំពោះរូបភាពខាងក្រោមនេះ (Vue antérieure, schéma) លេខ1 គឺជា ៖",
+      "images": [
+        "y2-tp-anatomie-pr-sin-sagata-q27-image-9.jpg"
+      ],
+      "image": "y2-tp-anatomie-pr-sin-sagata-q27-image-9.jpg",
+      "options": [
+        "L'épigastre",
+        "La région ombilicale",
+        "L'hypogastre",
+        "L'hypocondre droit",
+        "Le flanc droit"
+      ],
+      "correctIndex": 3
+    },
+    {
+      "id": 10,
+      "question": "La paroi abdominale antéro-externe អាចចែកជា Neuf régions ។ ចំពោះរូបភាពខាងក្រោមនេះ (Vue antérieure, schéma) លេខ2 គឺជា ៖",
+      "images": [
+        "y2-tp-anatomie-pr-sin-sagata-q27-image-10.jpg"
+      ],
+      "image": "y2-tp-anatomie-pr-sin-sagata-q27-image-10.jpg",
+      "options": [
+        "L'épigastre",
+        "La région ombilicale",
+        "L'hypogastre",
+        "Le flanc droit",
+        "La fosses iliaque droite"
+      ],
+      "correctIndex": 3
+    },
+    {
+      "id": 11,
+      "question": "La paroi abdominale antéro-externe អាចចែកជា Neuf régions ។ ចំពោះរូបភាពខាងក្រោមនេះ (Vue antérieure, schéma) លេខ3 គឺជា ៖",
+      "images": [
+        "y2-tp-anatomie-pr-sin-sagata-q27-image-11.jpg"
+      ],
+      "image": "y2-tp-anatomie-pr-sin-sagata-q27-image-11.jpg",
+      "options": [
+        "La fosses iliaque droite",
+        "La région ombilicale",
+        "L'hypogastre",
+        "L'hypocondre droit",
+        "Le flanc droit"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 12,
+      "question": "La paroi abdominale antéro-externe អាចចែកជា Neuf régions ។ ចំពោះរូបភាពខាងក្រោមនេះ (Vue antérieure, schéma) លេខ4 គឺជា ៖",
+      "images": [
+        "y2-tp-anatomie-pr-sin-sagata-q27-image-12.jpg"
+      ],
+      "image": "y2-tp-anatomie-pr-sin-sagata-q27-image-12.jpg",
+      "options": [
+        "La région ombilicale",
+        "La fosses iliaque droite",
+        "L'hypogastre",
+        "L'hypocondre droit",
+        "Le flanc droit"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 13,
+      "question": "La paroi abdominale antéro-externe អាចចែកជា Neuf régions ។ ចំពោះរូបភាពខាងក្រោមនេះ (Vue antérieure, schéma) លេខ5 គឺជា ៖",
+      "images": [
+        "y2-tp-anatomie-pr-sin-sagata-q27-image-13.jpg"
+      ],
+      "image": "y2-tp-anatomie-pr-sin-sagata-q27-image-13.jpg",
+      "options": [
+        "La région ombilicale",
+        "L'hypogastre",
+        "L'épigastre",
+        "Le flanc droit",
+        "La fosses iliaque droite"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 14,
+      "question": "La laparotomie médiane sus, para ou sous-ombilicale ឲ្យជា un bon accès de l'abdomen ។ ចំពោះរូបភាពខាងក្រោមនេះ គឺជា ៖",
+      "images": [
+        "y2-tp-anatomie-pr-sin-sagata-q27-image-14.jpg"
+      ],
+      "image": "y2-tp-anatomie-pr-sin-sagata-q27-image-14.jpg",
+      "options": [
+        "Incision de la peau",
+        "Incision de l'aponévrose",
+        "Incision du plan sous-cutané",
+        "Incision des deux plans",
+        "Incision des plans totaux"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 15,
+      "question": "La fermeture de la paroi abdominale គឺធ្វើទៅតាម Plans របស់វា ។ ចំពោះរូបភាពខាងក្រោមនេះ គឺជា ៖",
+      "images": [
+        "y2-tp-anatomie-pr-sin-sagata-q27-image-15.jpg"
+      ],
+      "image": "y2-tp-anatomie-pr-sin-sagata-q27-image-15.jpg",
+      "options": [
+        "Fermeture du péritoine",
+        "Fermeture de deux plans",
+        "Fermeture de l'aponévrose",
+        "Fermeture de trois plans",
+        "Fermeture de plans totaux"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 16,
+      "question": "L'étage sus mésocolique ចំពោះរូបភាពខាងក្រោមនេះ (Vue antérieure d'ensemble) លេខ1 គឺជា ៖",
+      "images": [
+        "y2-tp-anatomie-pr-sin-sagata-q27-image-16.jpg"
+      ],
+      "image": "y2-tp-anatomie-pr-sin-sagata-q27-image-16.jpg",
+      "options": [
+        "Grand omentum",
+        "Petit omentum",
+        "Mésentère",
+        "Mésocôlon",
+        "Ligament sous hépatique"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 17,
+      "question": "L'étage sus mésocolique ចំពោះរូបភាពខាងក្រោមនេះ (Vue antérieure d'ensemble) លេខ2 គឺជា ៖",
+      "images": [
+        "y2-tp-anatomie-pr-sin-sagata-q27-image-17.jpg"
+      ],
+      "image": "y2-tp-anatomie-pr-sin-sagata-q27-image-17.jpg",
+      "options": [
+        "Ligament sous hépatique",
+        "Petit omentum",
+        "Mésentère",
+        "Mésocôlon",
+        "Grand omentum"
+      ],
+      "correctIndex": 4
+    },
+    {
+      "id": 18,
+      "question": "L'étage sus mésocolique ចំពោះរូបភាពខាងក្រោមនេះ (Vue antérieure d'ensemble) លេខ3 គឺជា ៖",
+      "images": [
+        "y2-tp-anatomie-pr-sin-sagata-q27-image-18.jpg"
+      ],
+      "image": "y2-tp-anatomie-pr-sin-sagata-q27-image-18.jpg",
+      "options": [
+        "Duodénum",
+        "Côlon ascendant",
+        "Côlon transverse",
+        "Côlon descendant",
+        "Jéjunum"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 19,
+      "question": "ចំពោះរូបភាពខាងក្រោមនេះ (Vue antérieure d'ensemble de la cavité abdominale) លេខ1 គឺជា ៖",
+      "images": [
+        "y2-tp-anatomie-pr-sin-sagata-q27-image-19.jpg"
+      ],
+      "image": "y2-tp-anatomie-pr-sin-sagata-q27-image-19.jpg",
+      "options": [
+        "Iléum (anses distales)",
+        "Côlon ascendant",
+        "Côlon transverse",
+        "Côlon descendant",
+        "Jéjunum (anses proximales)"
+      ],
+      "correctIndex": 4
+    },
+    {
+      "id": 20,
+      "question": "ចំពោះរូបភាពខាងក្រោមនេះ (Vue antérieure d'ensemble de la cavité abdominale) លេខ2 គឺជា ៖",
+      "images": [
+        "y2-tp-anatomie-pr-sin-sagata-q27-image-20.jpg"
+      ],
+      "image": "y2-tp-anatomie-pr-sin-sagata-q27-image-20.jpg",
+      "options": [
+        "Iléum (anses distales)",
+        "Côlon ascendant",
+        "Côlon transverse",
+        "Côlon descendant",
+        "Jéjunum (anses proximales)"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 21,
+      "question": "ចំពោះរូបភាពខាងក្រោមនេះ (Vue antérieure d'ensemble de la cavité abdominale) លេខ3 គឺជា ៖",
+      "images": [
+        "y2-tp-anatomie-pr-sin-sagata-q27-image-21.jpg"
+      ],
+      "image": "y2-tp-anatomie-pr-sin-sagata-q27-image-21.jpg",
+      "options": [
+        "Côlon ascendant",
+        "Côlon transverse",
+        "Côlon descendant",
+        "Caecum",
+        "Iléum (anses distales)"
+      ],
+      "correctIndex": 3
+    },
+    {
+      "id": 22,
+      "question": "ចំពោះរូបភាពខាងក្រោមនេះ (Vue antérieure d'ensemble de la cavité abdominale) លេខ4 គឺជា ៖",
+      "images": [
+        "y2-tp-anatomie-pr-sin-sagata-q27-image-22.jpg"
+      ],
+      "image": "y2-tp-anatomie-pr-sin-sagata-q27-image-22.jpg",
+      "options": [
+        "Côlon ascendant",
+        "Côlon transverse",
+        "Côlon descendant",
+        "Caecum",
+        "Iléum (anses distales)"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 23,
+      "question": "ចំពោះរូបភាពខាងក្រោមនេះ (Vue antérieure d'ensemble de la cavité abdominale) លេខ5 គឺជា ៖",
+      "images": [
+        "y2-tp-anatomie-pr-sin-sagata-q27-image-23.jpg"
+      ],
+      "image": "y2-tp-anatomie-pr-sin-sagata-q27-image-23.jpg",
+      "options": [
+        "Côlon ascendant",
+        "Côlon transverse",
+        "Côlon descendant",
+        "Caecum",
+        "Iléum (anses distales)"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 24,
+      "question": "ចំពោះរូបភាពខាងក្រោមនេះ (Coupe schématique horizontale de l'abdomen en L1) លេខ1 គឺជា ៖",
+      "images": [
+        "y2-tp-anatomie-pr-sin-sagata-q27-image-24.jpg"
+      ],
+      "image": "y2-tp-anatomie-pr-sin-sagata-q27-image-24.jpg",
+      "options": [
+        "Rein gauche",
+        "Foie",
+        "Rein droit",
+        "Rate (face diaphragmatique)",
+        "Tête du pancréas"
+      ],
+      "correctIndex": 3
+    },
+    {
+      "id": 25,
+      "question": "ចំពោះរូបភាពខាងក្រោមនេះ (Coupe schématique horizontale de l'abdomen en L1) លេខ2 គឺជា ៖",
+      "images": [
+        "y2-tp-anatomie-pr-sin-sagata-q27-image-25.jpg"
+      ],
+      "image": "y2-tp-anatomie-pr-sin-sagata-q27-image-25.jpg",
+      "options": [
+        "Queue du pancréas",
+        "Foie",
+        "Rein droit",
+        "Rate (face diaphragmatique)",
+        "Tête du pancréas"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 26,
+      "question": "ចំពោះរូបភាពខាងក្រោមនេះ (Organes abdominaux, vue d'ensemble) លេខ1 គឺជា ៖",
+      "images": [
+        "y2-tp-anatomie-pr-sin-sagata-q27-image-26.jpg"
+      ],
+      "image": "y2-tp-anatomie-pr-sin-sagata-q27-image-26.jpg",
+      "options": [
+        "Queue du pancréas",
+        "Foie",
+        "Rein droit",
+        "Rate",
+        "Tête du pancréas"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 27,
+      "question": "ក្នុងករណីនៃ Plaies d'une anse intestinale ការរៀបចំរបស់ Tranches à suture គឺធ្វើទៅតាម Plans របស់វា ។ ចំពោះរូបភាពខាងក្រោមនេះ គឺជា ៖",
+      "images": [
+        "y2-tp-anatomie-pr-sin-sagata-q27-image-27.jpg"
+      ],
+      "image": "y2-tp-anatomie-pr-sin-sagata-q27-image-27.jpg",
+      "options": [
+        "Point extra-muqueux",
+        "Point intra-muqueux",
+        "Points extra et intra-muqueux",
+        "Point de suture des plans totaux",
+        "Point de suture des deux plans"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

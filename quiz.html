@@ -49,105 +49,118 @@
 
       <div class="score-card" style="padding: 1.5rem; text-align: left; background: var(--bg-inner); border-radius: 8px; border: 1px solid var(--border-sub);">
   
-  <!-- Flex header containing Progress Text and Fullscreen Button -->
-  <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 0.75rem;">
-    <p id="progress-text" style="color: var(--text-sub); font-size: 0.9rem; margin-bottom: 0; font-weight: 600;">
-      Question 1 of 60
-    </p>
-    <button id="fullscreen-btn" class="fullscreen-btn" title="Toggle Fullscreen" aria-label="Toggle Fullscreen">
-      ⛶ Fullscreen
-    </button>
-  </div>
-
-  <h3 id="question-text" style="color: var(--text-main); font-size: 1.15rem; line-height: 1.5; margin-bottom: 1.25rem;">
-    Loading question text...
-  </h3>
-
-  <div id="options-container" style="display: flex; flex-direction: column; gap: 0.75rem;"></div>
-
-  <div style="margin-top: 1.5rem; text-align: right;">
-    <button id="next-btn" class="btn primary-btn hidden">Next Question ➡️</button>
-  </div>
-</div>
-
-    <!-- Study Mode Floating Navigation Controls -->
-    <div id="study-nav-controls" class="hidden">
-      <button id="go-latest-q-btn" class="floating-pill-btn hidden">
-        📍 Go to Latest Question
-      </button>
-      <button id="scroll-top-btn" class="floating-round-btn hidden" title="Scroll to top" aria-label="Scroll to top">
-        ⬆️
-      </button>
-    </div>
-
-    <!-- Site Footer -->
-    <footer class="main-footer"
-      style="margin-top: 3rem; padding-top: 1.5rem; border-top: 1px solid var(--border-color); text-align: center; font-size: 0.85rem; color: var(--text-sub);">
-      <p>© 2026 TestforUHS. All rights reserved. | <a href="#" id="open-privacy-btn"
-          style="color: var(--text-heading); text-decoration: underline;">Privacy Policy</a></p>
-    </footer>
-
-  </div>
-
-  <!-- Leave Confirmation Guard Modal -->
-  <div id="leave-confirm-modal" class="modal-overlay hidden">
-    <div class="modal-card">
-      <h3 data-i18n="leave_modal_title">⚠️ Leave Session?</h3>
-      <p id="leave-modal-desc" data-i18n="leave_modal_desc" style="margin-bottom: 1.25rem; color: var(--text-sub);">
-        Are you sure you want to leave? Your progress will be saved, don't worry!
-      </p>
-      <div class="modal-actions">
-        <button id="leave-cancel-btn" class="btn secondary-btn" data-i18n="btn_cancel">Cancel</button>
-        <button id="leave-confirm-btn" class="btn primary-btn" data-i18n="btn_leave">Leave</button>
-      </div>
-    </div>
-  </div>
-
-  <!-- Loading Spinner Overlay -->
-  <div id="loading-overlay" class="modal-overlay hidden">
-    <div class="modal-card" style="text-align: center; padding: 2rem;">
-      <div class="spinner"></div>
-      <p style="margin-top: 1rem; font-weight: 600; color: var(--text-main);" data-i18n="loading_text">Loading
-        Questions...</p>
-    </div>
-  </div>
-
-  <!-- Shared Modals (Donation & Privacy) -->
-  <div id="donate-modal" class="modal-overlay hidden">
-    <div class="modal-card donate-card-wide">
-      <button id="close-donate-btn" class="modal-close-icon" aria-label="Close modal">&times;</button>
-      <div class="donate-grid">
-        <div class="donate-info">
-          <p class="donate-tagline" data-i18n="donate_tagline">Every little bit is greatly appreciated! Thank you for
-            your support 😊</p>
-          <h3 class="donate-cta" data-i18n="donate_cta">You may donate through our KHQR here.</h3>
+        <!-- Flex header containing Progress Text and Fullscreen Button -->
+        <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 0.75rem;">
+          <p id="progress-text" style="color: var(--text-sub); font-size: 0.9rem; margin-bottom: 0; font-weight: 600;">
+            Question 1 of 60
+          </p>
+          <button id="fullscreen-btn" class="fullscreen-btn" title="Toggle Fullscreen" aria-label="Toggle Fullscreen">
+            ⛶ Fullscreen
+          </button>
         </div>
-        <div class="donate-qr-wrapper"><img src="assets/khqr.png" alt="KHQR Code" class="khqr-card-img"></div>
+
+        <h3 id="question-text" style="color: var(--text-main); font-size: 1.15rem; line-height: 1.5; margin-bottom: 1.25rem;">
+          Loading question text...
+        </h3>
+
+        <!-- Dynamic Question Image Container -->
+        <div id="question-image-wrapper" class="hidden" style="text-align: center; margin: 1rem 0;">
+          <img id="question-image" src="" alt="Question Diagram" class="question-img" style="cursor: pointer;" />
+        </div>
+
+        <div id="options-container" style="display: flex; flex-direction: column; gap: 0.75rem;"></div>
+
+        <div style="margin-top: 1.5rem; text-align: right;">
+          <button id="next-btn" class="btn primary-btn hidden">Next Question ➡️</button>
+        </div>
       </div>
-      <div style="margin-top: 1.5rem; text-align: center;">
-        <button id="bottom-close-donate-btn" class="btn secondary-btn" style="width: 100%; max-width: 200px;"
-          data-i18n="btn_close">Close</button>
+
+      <!-- Study Mode Floating Navigation Controls -->
+      <div id="study-nav-controls" class="hidden">
+        <button id="go-latest-q-btn" class="floating-pill-btn hidden">
+          📍 Go to Latest Question
+        </button>
+        <button id="scroll-top-btn" class="floating-round-btn hidden" title="Scroll to top" aria-label="Scroll to top">
+          ⬆️
+        </button>
+      </div>
+
+      <!-- Site Footer -->
+      <footer class="main-footer"
+        style="margin-top: 3rem; padding-top: 1.5rem; border-top: 1px solid var(--border-color); text-align: center; font-size: 0.85rem; color: var(--text-sub);">
+        <p>© 2026 TestforUHS. All rights reserved. | <a href="#" id="open-privacy-btn"
+            style="color: var(--text-heading); text-decoration: underline;">Privacy Policy</a></p>
+      </footer>
+
+    </div>
+
+    <!-- Leave Confirmation Guard Modal -->
+    <div id="leave-confirm-modal" class="modal-overlay hidden">
+      <div class="modal-card">
+        <h3 data-i18n="leave_modal_title">⚠️ Leave Session?</h3>
+        <p id="leave-modal-desc" data-i18n="leave_modal_desc" style="margin-bottom: 1.25rem; color: var(--text-sub);">
+          Are you sure you want to leave? Your progress will be saved, don't worry!
+        </p>
+        <div class="modal-actions">
+          <button id="leave-cancel-btn" class="btn secondary-btn" data-i18n="btn_cancel">Cancel</button>
+          <button id="leave-confirm-btn" class="btn primary-btn" data-i18n="btn_leave">Leave</button>
+        </div>
       </div>
     </div>
-  </div>
 
-  <div id="privacy-modal" class="modal-overlay hidden">
-    <div class="modal-card"
-      style="max-width: 600px; text-align: left; max-height: 80vh; overflow-y: auto; position: relative; padding: 2.5rem 1.5rem 1.5rem 1.5rem;">
-      <button id="close-privacy-btn" class="modal-close-icon" aria-label="Close modal">&times;</button>
-      <h3 style="margin-bottom: 1rem; color: var(--text-main);">Privacy Policy</h3>
-      <div style="font-size: 0.85rem; line-height: 1.6; color: var(--text-sub);">
-        <p>At <strong>TestforUHS</strong>, visitor privacy is one of our main priorities.</p>
-      </div>
-      <div style="margin-top: 1.5rem; text-align: center;">
-        <button id="bottom-close-privacy-btn" class="btn secondary-btn" style="width: 100%; max-width: 200px;"
-          data-i18n="btn_close">Close</button>
+    <!-- Click-to-Zoom Image Modal -->
+    <div id="image-zoom-modal" class="modal-overlay hidden" style="background: rgba(0,0,0,0.85); cursor: pointer;">
+      <div style="position: relative; max-width: 90vw; max-height: 90vh; display: flex; justify-content: center; align-items: center;">
+        <img id="zoomed-image" src="" alt="Zoomed Diagram" style="max-width: 100%; max-height: 90vh; border-radius: 8px; object-fit: contain;">
       </div>
     </div>
-  </div>
 
-  <script src="shared.js"></script>
-  <script src="quiz.js"></script>
+    <!-- Loading Spinner Overlay -->
+    <div id="loading-overlay" class="modal-overlay hidden">
+      <div class="modal-card" style="text-align: center; padding: 2rem;">
+        <div class="spinner"></div>
+        <p style="margin-top: 1rem; font-weight: 600; color: var(--text-main);" data-i18n="loading_text">Loading
+          Questions...</p>
+      </div>
+    </div>
+
+    <!-- Shared Modals (Donation & Privacy) -->
+    <div id="donate-modal" class="modal-overlay hidden">
+      <div class="modal-card donate-card-wide">
+        <button id="close-donate-btn" class="modal-close-icon" aria-label="Close modal">&times;</button>
+        <div class="donate-grid">
+          <div class="donate-info">
+            <p class="donate-tagline" data-i18n="donate_tagline">Every little bit is greatly appreciated! Thank you for
+              your support 😊</p>
+            <h3 class="donate-cta" data-i18n="donate_cta">You may donate through our KHQR here.</h3>
+          </div>
+          <div class="donate-qr-wrapper"><img src="assets/khqr.png" alt="KHQR Code" class="khqr-card-img"></div>
+        </div>
+        <div style="margin-top: 1.5rem; text-align: center;">
+          <button id="bottom-close-donate-btn" class="btn secondary-btn" style="width: 100%; max-width: 200px;"
+            data-i18n="btn_close">Close</button>
+        </div>
+      </div>
+    </div>
+
+    <div id="privacy-modal" class="modal-overlay hidden">
+      <div class="modal-card"
+        style="max-width: 600px; text-align: left; max-height: 80vh; overflow-y: auto; position: relative; padding: 2.5rem 1.5rem 1.5rem 1.5rem;">
+        <button id="close-privacy-btn" class="modal-close-icon" aria-label="Close modal">&times;</button>
+        <h3 style="margin-bottom: 1rem; color: var(--text-main);">Privacy Policy</h3>
+        <div style="font-size: 0.85rem; line-height: 1.6; color: var(--text-sub);">
+          <p>At <strong>TestforUHS</strong>, visitor privacy is one of our main priorities.</p>
+        </div>
+        <div style="margin-top: 1.5rem; text-align: center;">
+          <button id="bottom-close-privacy-btn" class="btn secondary-btn" style="width: 100%; max-width: 200px;"
+            data-i18n="btn_close">Close</button>
+        </div>
+      </div>
+    </div>
+
+    <script src="shared.js"></script>
+    <script src="quiz.js"></script>
+  </div>
 </body>
 
 </html>

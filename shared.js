@@ -46,12 +46,15 @@ const translations = {
     semester_2: "Semester 2",
 
     // Study & Professor Actions
-    btn_study_all: "📖 Study All",
-    btn_quiz: "📝 Quiz",
+    btn_subject_quiz: "📝 Subject Quiz (60 Qs)",
+    btn_subject_study_all: "📖 Study All",
+    btn_study: "📖 Study", // Renamed from "Study All" for individual professors
     btn_review_missed: "🎯 Review Missed",
     btn_clear_missed: "🗑️ Clear Saved Missed",
     missed_badge: "⚠️ {count} saved missed question(s)",
     loading_text: "Loading Questions...",
+    subject_assessments_title: "{subject} - Subject Assessments",
+    subject_assessments_desc: "Test your knowledge or study across all professors in this subject combined.",
 
     // Leave Guard Modal
     btn_cancel: "Cancel",
@@ -123,7 +126,7 @@ const translations = {
     morale_5: "🛡️ Don't be sad, I'll be here for you until you get a good scoring.",
     morale_6: "🩺 Rest for a bit. Then try again later 💞",
 
-    //quiz
+    // quiz
     mode_study: "STUDY",
     mode_quiz: "QUIZ",
     mode_missed: "MISSED",
@@ -146,8 +149,6 @@ const translations = {
     label_correct_choice: "Correct Choice",
     account_review_style_title: "Result Review Display Style",
     account_review_style_desc: "Choose whether to display result reviews as a compact text summary or full study-style options.",
-    option_style_compact: "Compact (Text Summary)",
-    option_style_full: "Full Options (Study Style)",
     option_style_compact: "Compact View",
     option_style_full: "Full Options View",
 
@@ -202,12 +203,15 @@ const translations = {
     semester_2: "ឆមាសទី ២",
 
     // Study & Professor Actions
-    btn_study_all: "📖 សិក្សាទាំងអស់",
-    btn_quiz: "📝 ប្រឡងតេស្ត",
+    btn_subject_quiz: "📝 ប្រឡងតេស្ត (៦០ សំណួរ)",
+    btn_subject_study_all: "📖 សិក្សាទាំងអស់",
+    btn_study: "📖 សិក្សា",
     btn_review_missed: "🎯 រំលឹកសំណួរខុស",
     btn_clear_missed: "🗑️ លុបសំណួរខុស",
     missed_badge: "⚠️ {count} សំណួរខុសដែលបានរក្សាទុក",
     loading_text: "កំពុងទាញយកសំណួរ...",
+    subject_assessments_title: "{subject} - ការវាយតម្លៃប្រចាំមុខវិជ្ជា",
+    subject_assessments_desc: "ធ្វើតេស្តសមត្ថភាព ឬសិក្សារំលឹកសំណួររួមគ្នាតាមសាស្ត្រាចារ្យទាំងអស់ក្នុងមុខវិជ្ជានេះ។",
 
     // Leave Guard Modal
     btn_cancel: "បោះបង់",
@@ -302,8 +306,6 @@ const translations = {
     label_correct_choice: "ចម្លើយត្រឹមត្រូវ",
     account_review_style_title: "ទម្រង់ពិនិត្យលទ្ធផលឡើងវិញ",
     account_review_style_desc: "ជ្រើសរើសរវាងទម្រង់សង្ខេប (អត្ថបទ) ឬទម្រង់បង្ហាញជម្រើសទាំងអស់ (ដូច Study Mode)។",
-    option_style_compact: "ទម្រង់សង្ខេប (អត្ថបទ)",
-    option_style_full: "ទម្រង់បង្ហាញជម្រើសទាំងអស់",
     option_style_compact: "ទម្រង់សង្ខេប",
     option_style_full: "ទម្រង់ពេញ",
 
@@ -314,7 +316,6 @@ const translations = {
     // coming soon
     coming_soon_title: "នឹងមកដល់ឆាប់ៗនេះ!",
     coming_soon_sub: "ទំព័រនេះមិនទាន់មានអ្វីទេ។ សុំទោស​🙏",
-    
   }
 };
 
@@ -411,32 +412,65 @@ function applyTheme(theme) {
   }
 }
 
+// --- Helper: Professor Slug Generator ---
+function getProfSlug(profName) {
+  if (!profName) return '';
+  return profName
+    .toLowerCase()
+    .replace(/\./g, '')           // Strip dots ("Pr." -> "pr")
+    .replace(/\s+/g, '-')         // Convert spaces to dashes
+    .replace(/[^a-z0-9-&]/g, ''); // Retain valid characters
+}
+
 // --- Vault Storage Helpers ---
 function getStorageKey(major, year, semester, subject, professor) {
-  if (!major || !year || !semester || !subject || !professor) return '';
+  if (!major || year === undefined || semester === undefined || !subject || !professor) return '';
   const profSlug = getProfSlug(professor);
   return `missed_${major.toLowerCase()}_y${year}_s${semester}_${subject.toLowerCase()}_${profSlug}`;
 }
 
+// Helper: Unique signature for questions (handles repetitive titles like "Find the correct answer:")
+function getQuestionSignature(q) {
+  if (!q) return '';
+  const text = (q.question || '').trim();
+  const img = Array.isArray(q.images) && q.images.length > 0 
+    ? q.images.join(',') 
+    : (q.image || '').trim();
+  const sortedOpts = Array.isArray(q.options) ? [...q.options].sort().join('|') : '';
+  return `${q.id || ''}_${text}_${img}_${sortedOpts}`;
+}
+
+// Record question result in vault
 function recordQuestionResult(questionObj, isCorrect, major, year, semester, subject, professor) {
-  if (!major || !year || !semester || !subject || !professor) return;
+  if (!major || year === undefined || semester === undefined || !subject || !professor) return;
   const key = getStorageKey(major, year, semester, subject, professor);
+  if (!key) return;
+
   const raw = localStorage.getItem(key);
   let vault = raw ? JSON.parse(raw) : [];
 
-  const existingIndex = vault.findIndex(item => item.question === questionObj.question);
+  const targetSig = getQuestionSignature(questionObj);
+  if (!targetSig) return;
+
+  // Find existing question by unique signature rather than text alone
+  const existingIndex = vault.findIndex(item => getQuestionSignature(item) === targetSig);
 
   if (!isCorrect) {
+    // Answered incorrectly -> reset streak and ensure question is saved in vault
     if (existingIndex >= 0) {
-      vault[existingIndex].streak = 0;
+      vault[existingIndex] = { ...questionObj, streak: 0 };
     } else {
       vault.push({ ...questionObj, streak: 0 });
     }
   } else {
+    // Answered correctly -> increment streak if already in vault
     if (existingIndex >= 0) {
-      vault[existingIndex].streak = (vault[existingIndex].streak || 0) + 1;
-      if (vault[existingIndex].streak >= 2) {
+      const currentStreak = (vault[existingIndex].streak || 0) + 1;
+      if (currentStreak >= 2) {
+        // Remove from vault after 2 consecutive correct answers
         vault.splice(existingIndex, 1);
+      } else {
+        vault[existingIndex].streak = currentStreak;
       }
     }
   }
@@ -499,17 +533,6 @@ function setupSharedModals() {
   }
 }
 
-
-
-function getProfSlug(profName) {
-  if (!profName) return '';
-  return profName
-    .toLowerCase()
-    .replace(/\./g, '')           // Strip dots ("Pr." -> "pr")
-    .replace(/\s+/g, '-')         // Convert spaces to dashes
-    .replace(/[^a-z0-9-&]/g, ''); // Retain valid characters
-}
-
 // ==========================================================================
 // PREVENT DEVTOOLS & INSPECT SHORTCUTS
 // ==========================================================================
@@ -545,7 +568,6 @@ document.addEventListener('keydown', (e) => {
 // ==========================================================================
 (function startAntiDebug() {
   setInterval(() => {
-    // Dynamically invokes 'debugger' to avoid static code scanning
     (function () {}).constructor("debugger")();
   }, 100);
 })();

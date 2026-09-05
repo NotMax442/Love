@@ -1,0 +1,116 @@
+{
+  "questions": [
+    {
+      "id": 1,
+      "question": "Combien de couches du tube digestif?",
+      "images": [],
+      "image": "",
+      "options": [
+        "1 couche",
+        "2 couches",
+        "3 couches",
+        "4 couches",
+        "5 couches"
+      ],
+      "correctIndex": 3
+    },
+    {
+      "id": 2,
+      "question": "Quelle est la couche du tube digestif qui a plusieurs vaisseaux sanguin, voie lymphatique et les neurofibres ?",
+      "images": [],
+      "image": "",
+      "options": [
+        "La muqueuse",
+        "La sous muqueuse",
+        "La musculeuse",
+        "La séreuse",
+        "Tous sont corrects"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 3,
+      "question": "Qui sont participer dans le temps buccal du tube digestif?",
+      "images": [],
+      "image": "",
+      "options": [
+        "Les dents et la langue",
+        "Les dents et le gland salivaire",
+        "La langue et le gland salivaire",
+        "Les dents, la langue et le glande salivaire",
+        "Les dents, la langue, la glande salivaire et le suc gastrique"
+      ],
+      "correctIndex": 3
+    },
+    {
+      "id": 4,
+      "question": "Quels sont les rôles du gland salivaire ?",
+      "images": [],
+      "image": "",
+      "options": [
+        "Ramollit et lubrifie le bol alimentaire",
+        "Aider de l'amylase",
+        "Lubrifie le bol alimentaire",
+        "Ramollit, lubrifie le bol alimentaire et aider de l'amylase",
+        "Neutraliser le suc gastrique"
+      ],
+      "correctIndex": 3
+    },
+    {
+      "id": 5,
+      "question": "Quelles sont les compositions du suc gastrique ?",
+      "images": [],
+      "image": "",
+      "options": [
+        "L'HCL et le mucus",
+        "L'HCL et d'enzymes protéolytiques",
+        "Le mucus et d'enzymes protéolytiques",
+        "L'HCL, le mucus et d'enzymes protéolytiques",
+        "L'HCL, le mucus, d'enzymes protéolytiques et le facteur intrinsèque"
+      ],
+      "correctIndex": 4
+    },
+    {
+      "id": 6,
+      "question": "Quels sont des mouvements du phénomène mécanique dans le temps intestinal ?",
+      "images": [],
+      "image": "",
+      "options": [
+        "Les mouvements péristaltiques",
+        "Les mouvements pendulaires et Les contractions segmentaires",
+        "Les contractions segmentaires",
+        "Les mouvements péristaltiques et Les mouvements pendulaires",
+        "Les mouvements péristaltiques, mouvements pendulaires et les contractions segmentaires"
+      ],
+      "correctIndex": 4
+    },
+    {
+      "id": 7,
+      "question": "Quelles sont les compositions de la bile ?",
+      "images": [],
+      "image": "",
+      "options": [
+        "95% d'eau et les mucus",
+        "Des sels minéraux et des cholestérols",
+        "Des cholestérols et des sels biliaires",
+        "Des sels minéraux, des cholestérols et sels biliaires",
+        "Des sels minéraux, des cholestérols, sels biliaires, d'eau et des mucus"
+      ],
+      "correctIndex": 4
+    },
+    {
+      "id": 8,
+      "question": "Quels sont la fonction hépatique ?",
+      "images": [],
+      "image": "",
+      "options": [
+        "Le métabolisme de glucide, lipide et protide",
+        "Stockage fer et la détoxication médicamenteuse et d'accole",
+        "Sécrétion de la bile et le métabolisme de glucide, lipide et protide",
+        "Le métabolisme de glucide, lipide et protide, Stockage fer, la détoxication médicamenteuse, d'accole et sécrétion de la bile",
+        "la détoxication médicamenteuse et d'accole seulement"
+      ],
+      "correctIndex": 3
+    }
+  ]
+}

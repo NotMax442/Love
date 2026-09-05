@@ -2,6 +2,8 @@
 // RESULTS & REVIEW BREAKDOWN LOGIC (result.js)
 // ==========================================================================
 
+const IMAGE_BASE_URL = 'https://notmax442.github.io/testforuhs-images/';
+
 let resultData = null;
 let currentReviewFilter = 'wrong';
 
@@ -13,8 +15,26 @@ document.addEventListener('DOMContentLoaded', () => {
     return;
   }
 
+  // Wire up zoom modal dismissal
+  const imageZoomModal = document.getElementById('image-zoom-modal');
+  if (imageZoomModal) {
+    imageZoomModal.addEventListener('click', () => {
+      imageZoomModal.classList.add('hidden');
+    });
+  }
+
   // Populate global resultData
   resultData = JSON.parse(rawResult);
+
+  // Update session header text if present
+  const sessionHeader = document.getElementById('result-session-header');
+  if (sessionHeader && resultData) {
+    const profDisplay = resultData.isSubjectWide ? 'All Professors' : resultData.professor;
+    const modeLabel = (typeof getTranslation === 'function') 
+      ? getTranslation(`mode_${resultData.mode}`).toUpperCase() 
+      : resultData.mode.toUpperCase();
+    sessionHeader.textContent = `${resultData.major} Y${resultData.year} S${resultData.semester} - ${resultData.subject} (${profDisplay}) [${modeLabel}]`;
+  }
 
   const totalQuestions = resultData.questions ? resultData.questions.length : 0;
   const correctCount = resultData.userScore || 0;
@@ -38,6 +58,27 @@ document.addEventListener('DOMContentLoaded', () => {
     // Suppress error if adblocker is active
   }
 });
+
+// Helper: Extract image filenames as an array (supports images: [] or image: "")
+function getImageList(q) {
+  if (Array.isArray(q.images) && q.images.length > 0) {
+    return q.images.map(img => img.trim()).filter(Boolean);
+  }
+  if (q.image && typeof q.image === 'string' && q.image.trim() !== '') {
+    return [q.image.trim()];
+  }
+  return [];
+}
+
+// Helper: Open Image Zoom Modal
+function openZoomModal(imgSrc) {
+  const zoomModal = document.getElementById('image-zoom-modal');
+  const zoomedImg = document.getElementById('zoomed-image');
+  if (zoomModal && zoomedImg) {
+    zoomedImg.src = imgSrc;
+    zoomModal.classList.remove('hidden');
+  }
+}
 
 function setupFilterControls() {
   const filterWrongBtn = document.getElementById('filter-wrong-btn');
@@ -106,7 +147,7 @@ function renderReviewBreakdown() {
     }
   }
 
-  const { questions, userAnswers } = resultData;
+  const { questions, userAnswers, isSubjectWide } = resultData;
   const itemsToDisplay = [];
 
   if (questions) {
@@ -129,7 +170,7 @@ function renderReviewBreakdown() {
     return;
   }
 
-  // Check saved review style (defaults to 'compact')
+  // Check saved review style (defaults to 'full')
   const reviewStyle = localStorage.getItem('result_review_style') || 'full';
 
   itemsToDisplay.forEach(({ q, idx, userChoiceIdx, isCorrect }) => {
@@ -146,6 +187,27 @@ function renderReviewBreakdown() {
       margin-bottom: 1rem;
     `;
 
+    // Construct Image HTML for single or multiple diagrams
+    let imgHTML = '';
+    const imgList = getImageList(q);
+
+    if (imgList.length > 0) {
+      const imgsMarkup = imgList.map(imgName => {
+        const fullImgUrl = IMAGE_BASE_URL + imgName;
+        return `<img src="${fullImgUrl}" alt="Question Diagram" class="question-img" onclick="openZoomModal('${fullImgUrl}')" />`;
+      }).join('');
+
+      imgHTML = `
+        <div style="text-align: center; margin: 0.75rem 0; display: flex; flex-direction: column; gap: 0.75rem; align-items: center;">
+          ${imgsMarkup}
+        </div>
+      `;
+    }
+
+    // Attach Professor name tag if session was Subject-Wide
+    const profTag = (isSubjectWide && q.professor) ? ` [${q.professor}]` : '';
+    const displayQuestionText = q.question;
+
     if (reviewStyle === 'compact') {
       // -------------------------------------------------------------
       // COMPACT DESIGN: Text Summary
@@ -155,7 +217,8 @@ function renderReviewBreakdown() {
         : getTranslation('review_unanswered');
 
       card.innerHTML = `
-        <h4 style="margin: 0 0 0.5rem 0; color: var(--text-main); font-size: 1rem; line-height: 1.4;">${idx + 1}. ${escapeHTML(q.question)}</h4>
+        <h4 style="margin: 0 0 0.5rem 0; color: var(--text-main); font-size: 1rem; line-height: 1.4;">${idx + 1}. ${escapeHTML(displayQuestionText)}</h4>
+        ${imgHTML}
         <p style="margin: 0 0 0.25rem 0; font-size: 0.9rem; color: ${isCorrect ? '#10b981' : '#ef4444'}; font-weight: 600;">
           <strong>${getTranslation('label_your_choice')}:</strong> ${escapeHTML(userChoiceText)} ${isCorrect ? '✓' : '✗'}
         </p>
@@ -169,7 +232,7 @@ function renderReviewBreakdown() {
       // -------------------------------------------------------------
       // FULL OPTIONS DESIGN: Study Mode Style Options
       // -------------------------------------------------------------
-      const qTitle = `<h4 style="margin: 0 0 0.85rem 0; color: var(--text-main); font-size: 1rem; line-height: 1.4;">${idx + 1}. ${escapeHTML(q.question)}</h4>`;
+      const qTitle = `<h4 style="margin: 0 0 0.85rem 0; color: var(--text-main); font-size: 1rem; line-height: 1.4;">${idx + 1}. ${escapeHTML(displayQuestionText)}</h4>`;
       
       let optionsHTML = '<div class="options-grid" style="display: flex; flex-direction: column; gap: 0.5rem;">';
 
@@ -199,7 +262,7 @@ function renderReviewBreakdown() {
       });
 
       optionsHTML += '</div>';
-      card.innerHTML = qTitle + optionsHTML;
+      card.innerHTML = qTitle + imgHTML + optionsHTML;
     }
 
     reviewContainer.appendChild(card);
@@ -207,9 +270,15 @@ function renderReviewBreakdown() {
 }
 
 function checkMissedQuestions() {
-  const { major, year, semester, subject, professor } = resultData;
+  const { major, year, semester, subject, professor, isSubjectWide } = resultData;
   const retryMissedBtn = document.getElementById('retry-missed-btn');
   const missedCountEl = document.getElementById('missed-count');
+
+  // Skip retry button check for subject-wide session since questions route to individual prof vaults
+  if (isSubjectWide || !professor) {
+    if (retryMissedBtn) retryMissedBtn.classList.add('hidden');
+    return;
+  }
 
   const key = (typeof getStorageKey === 'function')
     ? getStorageKey(major, year, semester, subject, professor)

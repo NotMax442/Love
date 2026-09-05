@@ -86,6 +86,29 @@ body {
   padding: 2rem;
   position: relative;
   transition: background-color 0.3s ease, border-color 0.3s ease;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: auto 1fr; /* Row 1: Navbar | Row 2: Overlapping Screens */
+  overflow-x: hidden;
+}
+
+.main-navbar {
+  grid-column: 1;
+  grid-row: 1;
+}
+
+/* Force all screens to occupy the exact same grid slot below navbar */
+#landing-screen,
+#major-screen,
+#year-screen,
+#semester-screen,
+#subject-screen,
+#professor-screen {
+  grid-column: 1;
+  grid-row: 2;
+  width: 100%;
+  backface-visibility: hidden;
+  will-change: transform, opacity;
 }
 
 .hidden {
@@ -983,7 +1006,53 @@ p {
 }
 
 /* ==========================================================================
-   11. RESPONSIVE MEDIA QUERIES
+   11. SCREEN TRANSITION ANIMATIONS & MOBILE TOUCH FEEDBACK
+   ========================================================================== */
+.slide-in-right {
+  animation: slideInRight 0.2s cubic-bezier(0.16, 1, 0.3, 1) forwards;
+  z-index: 2;
+}
+.slide-out-left {
+  animation: slideOutLeft 0.2s cubic-bezier(0.16, 1, 0.3, 1) forwards;
+  z-index: 1;
+}
+.slide-in-left {
+  animation: slideInLeft 0.2s cubic-bezier(0.16, 1, 0.3, 1) forwards;
+  z-index: 2;
+}
+.slide-out-right {
+  animation: slideOutRight 0.2s cubic-bezier(0.16, 1, 0.3, 1) forwards;
+  z-index: 1;
+}
+
+@keyframes slideInRight {
+  from { transform: translateX(100%); opacity: 0; }
+  to { transform: translateX(0); opacity: 1; }
+}
+@keyframes slideOutLeft {
+  from { transform: translateX(0); opacity: 1; }
+  to { transform: translateX(-30%); opacity: 0; }
+}
+@keyframes slideInLeft {
+  from { transform: translateX(-100%); opacity: 0; }
+  to { transform: translateX(0); opacity: 1; }
+}
+@keyframes slideOutRight {
+  from { transform: translateX(0); opacity: 1; }
+  to { transform: translateX(30%); opacity: 0; }
+}
+
+/* Mobile Touch Feedback */
+.year-card:active,
+.subject-card:active,
+.btn:active {
+  transform: scale(0.97) !important;
+  opacity: 0.9;
+  transition: transform 0.08s ease, opacity 0.08s ease;
+}
+
+/* ==========================================================================
+   12. RESPONSIVE MEDIA QUERIES
    ========================================================================== */
 @media (min-width: 768px) {
   .quiz-body .app-container {
@@ -1099,7 +1168,7 @@ p {
 }
 
 /* ==========================================================================
-   12. ANIMATED SVG PIE CHART & REAL-TIME STATS
+   13. ANIMATED SVG PIE CHART & REAL-TIME STATS
    ========================================================================== */
 .pie-chart-container {
   position: relative;
@@ -1270,7 +1339,7 @@ p {
 .review-badge.badge-wrong { background: #ef4444; color: #ffffff; }
 
 /* ==========================================================================
-   13. FEEDBACK CARD CONTAINER & BADGE OVERRIDES
+   14. FEEDBACK CARD CONTAINER & BADGE OVERRIDES
    ========================================================================== */
 
 #my-feedback-list .subject-card {
@@ -1330,13 +1399,13 @@ p {
 }
 
 /* ==========================================================================
-   EMPTY STATE / COMING SOON CARD (Static & Read-Only)
+   15. EMPTY STATE / COMING SOON CARD
    ========================================================================== */
 .empty-state-card {
   background-color: var(--bg-inner);
   color: var(--text-main);
   border: 1px solid var(--border-color);
-  border-left: 6px solid var(--border-sub); /* Subtle slate bar instead of interactive accent */
+  border-left: 6px solid var(--border-sub);
   border-radius: 10px;
   padding: 2.5rem 1.5rem;
   text-align: center;
@@ -1347,7 +1416,6 @@ p {
   transition: none !important;
 }
 
-/* Hard reset to prevent hover glow or scaling */
 .empty-state-card:hover,
 .empty-state-card:focus,
 .empty-state-card:active {
@@ -1359,26 +1427,8 @@ p {
 }
 
 /* ==========================================================================
-   UPDATE MODAL STYLES
+   16. UPDATE MODAL STYLES
    ========================================================================== */
-.modal-overlay {
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 100vw;
-  height: 100vh;
-  background-color: rgba(0, 0, 0, 0.75);
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  z-index: 1000;
-  backdrop-filter: blur(4px);
-}
-
-.modal-overlay.hidden {
-  display: none !important;
-}
-
 .update-modal-content {
   background-color: var(--bg-inner, #1e293b);
   border: 1px solid var(--border-color, #334155);
@@ -1456,7 +1506,7 @@ p {
 }
 
 #update-text-container {
-  white-space: pre-wrap; /* Preserves text line breaks, bullets, and formatting */
+  white-space: pre-wrap;
   word-break: break-word;
   font-family: inherit;
 }
@@ -1466,4 +1516,45 @@ p {
   border-top: 1px solid var(--border-color, #334155);
   text-align: right;
   background-color: rgba(0, 0, 0, 0.15);
+}
+
+/* Question Card Image Fix */
+.question-img {
+  width: 100%;
+  min-width: 320px;
+  max-width: 500px;
+  height: auto;
+  max-height: 450px;
+  object-fit: contain;
+  border-radius: 8px;
+  border: 1px solid var(--border-sub, #334155);
+  background-color: #ffffff;
+  padding: 0.5rem;
+  margin: 1rem auto;
+  display: block;
+  cursor: pointer;
+
+  image-rendering: -webkit-optimize-contrast;
+  image-rendering: crisp-edges;
+}
+
+/* Fullscreen Click-to-Zoom Image */
+#zoomed-image {
+  width: 90vw;
+  max-width: 750px;
+  height: auto;
+  max-height: 85vh;
+  object-fit: contain;
+  image-rendering: -webkit-optimize-contrast;
+}
+
+.question-img:hover {
+  transform: scale(1.01);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.25);
+}
+
+/* Image Zoom Modal Styling */
+#image-zoom-modal {
+  z-index: 9999;
+  backdrop-filter: blur(4px);
 }

@@ -1,0 +1,340 @@
+{
+  "questions": [
+    {
+      "id": 1,
+      "question": "A la pression barométrique de 380 mm Hg, la pression de vapeur d'eau, exprimée en mm Hg, est égale à :",
+      "images": [],
+      "image": "",
+      "options": [
+        "20",
+        "47",
+        "76",
+        "17",
+        "105"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 2,
+      "question": "Quelle est la durée moyenne de temps, exprimé en secondes, passé par un globule rouge dans le réseau capillaire alvéolaire ?",
+      "images": [],
+      "image": "",
+      "options": [
+        "0,5",
+        "0,4",
+        "3",
+        "0,2",
+        "1"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 3,
+      "question": "Le surfactant pulmonaire est formé par :",
+      "images": [],
+      "image": "",
+      "options": [
+        "La paroi des capillaires pulmonaires.",
+        "Les cellules à mucus.",
+        "Les cellules alvéolaires type 1.",
+        "Les macrophages.",
+        "Les cellules alvéolaires type II"
+      ],
+      "correctIndex": 4
+    },
+    {
+      "id": 4,
+      "question": "Pour une PB=500 mm Hg, la PO2 dans l'air inspiré trachéal (mm Hg) est approximativement égale à :",
+      "images": [],
+      "image": "",
+      "options": [
+        "163.",
+        "149.",
+        "160.",
+        "110.",
+        "95."
+      ],
+      "correctIndex": 4
+    },
+    {
+      "id": 5,
+      "question": "En cas de relaxation complète des muscles respiratoires, la quantité de gaz contenu dans les poumons est égale à l'espace décrit sous quel nom ?",
+      "images": [],
+      "image": "",
+      "options": [
+        "Volume courant.",
+        "Volume résiduel.",
+        "Volume de réserve expiratoire.",
+        "Volume de réserve inspiratoire.",
+        "Capacité résiduelle fonctionnelle."
+      ],
+      "correctIndex": 4
+    },
+    {
+      "id": 6,
+      "question": "Selon la loi de Fick, la diffusion d'un gaz dans un tissu obéit à la règle suivante :",
+      "images": [],
+      "image": "",
+      "options": [
+        "La diffusion est inversement proportionnelle à la surface tissulaire.",
+        "La diffusion est directement proportionnelle à l'épaisseur tissulaire.",
+        "La diffusion est directement proportionnelle à la surface tissulaire.",
+        "La diffusion est inversement proportionnelle à la différence de concentration des gaz de part et d'autre de la surface tissulaire.",
+        "Est inversement proportionnelle à la constante de diffusion."
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 7,
+      "question": "La P02 du sang termino-capillaire est :",
+      "images": [],
+      "image": "",
+      "options": [
+        "A peu près identique à celle du gaz alvéolaire.",
+        "Supérieure à celle du gaz alvéolaire.",
+        "Inférieure à celle du gaz- alvéolaire.",
+        "Non modifiée par l'épaississement de la barrière alvéolo-capillaire.",
+        "Non modifiée par la haute altitude."
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 8,
+      "question": "Le seul gaz qui présente une limitation purement diffusion est :",
+      "images": [],
+      "image": "",
+      "options": [
+        "CO2.",
+        "O2.",
+        "N2O.",
+        "CO.",
+        "Hélium."
+      ],
+      "correctIndex": 3
+    },
+    {
+      "id": 9,
+      "question": "La pression moyenne dans le tronc de l'artère pulmonaire est :",
+      "images": [],
+      "image": "",
+      "options": [
+        "Identique à la pression moyenne dans l'aorte.",
+        "Deux fois plus élevée que dans l'aorte.",
+        "Deux fois plus basse que dans l'aorte.",
+        "Quatre fois plus élevée que dans l'aorte.",
+        "Six fois plus basse que dans l'aorte."
+      ],
+      "correctIndex": 4
+    },
+    {
+      "id": 10,
+      "question": "A propos du rapport ventilation/perfusion pulmonaires ou rapport V/Q. Quelle est la proposition juste?",
+      "images": [],
+      "image": "",
+      "options": [
+        "Dans un shunt vrai, l'inhalation d'oxygène est plus efficace que dans les états qui ressemblent au shunt, comme t'atélectasie pulmonaire (affaissement des alvéoles).",
+        "L'inhalation d'oxygène améliore l'hypoxémie dans les shunts.",
+        "Au cours des embolies pulmonaires graves, il existe un effet de shunt.",
+        "En position verticale, le sang des sommets pulmonaires est peu oxygéné.",
+        "L'augmentation du rapport ventilation/perfusion a le même effet qu'un shunt gauche/droit."
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 11,
+      "question": "Si le rapport ventilation/perfusion (V/Q) est augmenté dans une unité pulmonaire, quelles sont les conséquences ?",
+      "images": [],
+      "image": "",
+      "options": [
+        "La pression gazeuse alvéolaire diminue seulement pour l'oxygène.",
+        "La pression gazeuse alvéolaire augmente seulement pour le gaz carbonique.",
+        "La pression gazeuse alvéolaire n'est pas modifiée pour l'azote.",
+        "La pression gazeuse alvéolaire augmente pour l'oxygène et diminue pour le gaz carbonique.",
+        "La pression gazeuse alvéolaire diminue pour l'oxygène et augmente pour le gaz carbonique."
+      ],
+      "correctIndex": 3
+    },
+    {
+      "id": 12,
+      "question": "Quelles sont les causes hypoxiques parmi les propositions suivantes:",
+      "images": [],
+      "image": "",
+      "options": [
+        "Hypoventilation.",
+        "Diffusion limitée.",
+        "Shunt.",
+        "Inéqualité Ventilation-perfusion",
+        "Toutes les propositions citées ci-dessus"
+      ],
+      "correctIndex": 4
+    },
+    {
+      "id": 13,
+      "question": "Si le débit sanguin du poumon gauche est complètement bloqué par une embolie de son artère pulmonaire, que se produira-t-il?",
+      "images": [],
+      "image": "",
+      "options": [
+        "Le rapport V/Q sera égal à zéro dans le poumon gauche",
+        "La PO2 artérielle systémique s'élèvera",
+        "Le rapport V/Q deviendra plus petit dans le poumon gauche que dans le poumon droit",
+        "La PO2 alvéolaire dans le poumon gauche deviendra approximativement égale à la PO2 de l'air inspiré.",
+        "Toutes les propositions ci-dessus sont justes"
+      ],
+      "correctIndex": 3
+    },
+    {
+      "id": 14,
+      "question": "La majeure partie du C02 est transportée dans le sang artériel sous quelle forme ?",
+      "images": [],
+      "image": "",
+      "options": [
+        "Carboxyhemoglobine",
+        "Carbaminohémoglobine.",
+        "Acide carbonique.",
+        "C02 dissous.",
+        "Bicarbonate"
+      ],
+      "correctIndex": 4
+    },
+    {
+      "id": 15,
+      "question": "Parmi les éléments suivants, lequel joue le rôle le plus important dans les capacités du sang à transporter l'oxygène ?",
+      "images": [],
+      "image": "",
+      "options": [
+        "Température du sang.",
+        "Contenu des globules rouges en 2,3-diphosphoglycérate (2,3-DPG).",
+        "pH du plasma.",
+        "Quantité d'hémoglobine contenue dans les globules rouges.",
+        "Capacité du sang à dissoudre l'oxygène."
+      ],
+      "correctIndex": 3
+    },
+    {
+      "id": 16,
+      "question": "La diminution de quel facteur favorise l'arrivée aux tissus de l'oxygène du sang ?",
+      "images": [],
+      "image": "",
+      "options": [
+        "Contenu des globules rouges en 2,3 DPG.",
+        "PC02 sanguine.",
+        "Concentration plasmatique en Na+.",
+        "pH plasmatique.",
+        "Température du sang."
+      ],
+      "correctIndex": 3
+    },
+    {
+      "id": 17,
+      "question": "Le déficit de surfactant pulmonaire entraîne quelle modification de la fonction respiratoire ?",
+      "images": [],
+      "image": "",
+      "options": [
+        "Augmentation de la capacité résiduelle fonctionnelle (CRF).",
+        "Diminution du travail de la respiration.",
+        "Diminution de la compliance pulmonaire.",
+        "Diminution de la tension superficielle intra-alvéolaire.",
+        "Diminution des variations de pression intra-pleurale nécessaires pour obtenir un volume courant donné."
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 18,
+      "question": "Au début de l'inspiration, la pression intra-pleurale est négative par rapport à la pression atmosphérique. Cette pression est de l'ordre de 4 mmHg. A la fin de l'inspiration, dans des conditions de repos physique, la pression intra-pleurale, exprimée en mmHg, atteint environ :",
+      "images": [],
+      "image": "",
+      "options": [
+        "+10",
+        "+5",
+        "+1",
+        "1",
+        "-8"
+      ],
+      "correctIndex": 4
+    },
+    {
+      "id": 19,
+      "question": "Un malade présente une diminution importante de la capacité expiratoire forcée, alors que la capacité vitale est normale. Quelle conclusion peut-on tirer de cette constatation?",
+      "images": [],
+      "image": "",
+      "options": [
+        "Il existe une maladie pulmonaire restrictive.",
+        "Il existe une maladie pulmonaire obstructive.",
+        "Les muscles inspiratoires fonctionnent mal.",
+        "La compliance pulmonaire est diminuée.",
+        "Le diaphragme et paralysé."
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 20,
+      "question": "Parmi les propositions suivantes, quelle est la condition qui peut maintenir l'intégrité de la distension alvéoles pulmonaire ?",
+      "images": [],
+      "image": "",
+      "options": [
+        "Maladie de la membrane hyaline.",
+        "Maladie respiratoire chronique avec présence de mucus dans les bronches.",
+        "Diminution de surfactant pulmonaire.",
+        "Emphysème pulmonaire.",
+        "Existence d'une communication entre l'espace pleural et l'extérieur."
+      ],
+      "correctIndex": 3
+    },
+    {
+      "id": 21,
+      "question": "Le rythme respiratoire prend son origine dans laquelle des structures suivantes?",
+      "images": [],
+      "image": "",
+      "options": [
+        "Neurones corticaux du lobe temporal.",
+        "Partie dorsale du bulbe.",
+        "Centre pneumotaxique.",
+        "Centre apneustique.",
+        "Nucleus parabrachialis."
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 22,
+      "question": "Les chémorécepteurs centraux et périphériques peuvent contribuer à l'augmentation de la ventilation pulmonaire qui se produit dans laquelle des circonstances suivantes :",
+      "images": [],
+      "image": "",
+      "options": [
+        "Augmentation du pH artériel.",
+        "Diminution du contenu artériel en oxygène.",
+        "Diminution de la pression partielle d'oxygène artériel.",
+        "Diminution de la pression sanguine artérielle.",
+        "Augmentation de la pression partielle de gaz carbonique artériel."
+      ],
+      "correctIndex": 4
+    },
+    {
+      "id": 23,
+      "question": "Parmi les différents composants suivants du sang ou du liquide céphalorachidien, lequel intervient par ses variations dans le contrôle de la ventilation pulmonaire ?",
+      "images": [],
+      "image": "",
+      "options": [
+        "Concentration artérielle de K+.",
+        "Concentration artérielle de NH3.",
+        "Concentration artérielle dé Na+",
+        "Concentration de C02 dans le liquide céphalo-rachidien.",
+        "Concentration artérielle de Cl-."
+      ],
+      "correctIndex": 3
+    },
+    {
+      "id": 24,
+      "question": "L'abaissement de la P02 dans le sang artériel déclenche très rapidement une augmentation de la ventilation pulmonaire en agissant directement sur lequel des cinq éléments suivants ?",
+      "images": [],
+      "image": "",
+      "options": [
+        "Courbe de dissociation de l'Hb02.",
+        "Récepteurs pulmonaires.",
+        "Chémorécepteurs carotidiens.",
+        "Centres respiratoires.",
+        "Chémorécepteurs bulbaires."
+      ],
+      "correctIndex": 2
+    }
+  ]
+}
