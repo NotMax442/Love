@@ -473,7 +473,7 @@ function clearSavedMissed(profName) {
 // ==========================================================================
 // UPDATE NOTIFICATION SYSTEM
 // ==========================================================================
-const APP_VERSION = "1.0.1";
+const APP_VERSION = "1.0.2";
 
 let patchNotesEN = "";
 let patchNotesKM = "";
