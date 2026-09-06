@@ -1,0 +1,561 @@
+{
+  "questions": [
+    {
+      "id": 1,
+      "question": "Quelle est l'examen para-clinique plus important pour analyse des corticales osseuses?",
+      "images": [],
+      "image": "",
+      "options": [
+        "TDM",
+        "IRM",
+        "Radiographie",
+        "Echographie",
+        "Fluoroscopie"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 2,
+      "question": "Quelle est l'examen para-clinique plus important pour analyse des tissus mous?",
+      "images": [],
+      "image": "",
+      "options": [
+        "TDM",
+        "IRM",
+        "Radiographie",
+        "Echographie",
+        "Fluoroscopie"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 3,
+      "question": "Dans le sphère ORL, quelle est l'examen paraclinique de lère intention pour ce qui est sus-hyoïdien?",
+      "images": [],
+      "image": "",
+      "options": [
+        "TDM",
+        "IRM",
+        "Radiographie",
+        "Echographie",
+        "Fluoroscopie"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 4,
+      "question": "Dans le sphère ORL, quelle est l'examen paraclinique de lère intention pour les locations sous-hyoïdien?",
+      "images": [],
+      "image": "",
+      "options": [
+        "TDM",
+        "IRM",
+        "Radiographie",
+        "Echographie",
+        "Fluoroscopie"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 5,
+      "question": "Radio-anatomie du sphère ORL, choisissez l'un des suivants:",
+      "images": [
+        "y2-semiologie-dr-huy-sruy-q38-24-25-image-1.jpg"
+      ],
+      "image": "y2-semiologie-dr-huy-sruy-q38-24-25-image-1.jpg",
+      "options": [
+        "Sinus éthmoïdal",
+        "Sinus maxillaire",
+        "Sinus sphénoïdal",
+        "Sinus frontal",
+        "Cellule mastoïdienne"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 6,
+      "question": "Radio-anatomie du sphère ORL, choisissez l'un des suivants:",
+      "images": [
+        "y2-semiologie-dr-huy-sruy-q38-24-25-image-2.jpg"
+      ],
+      "image": "y2-semiologie-dr-huy-sruy-q38-24-25-image-2.jpg",
+      "options": [
+        "Sinus éthmoïdal",
+        "Sinus maxillaire",
+        "Sinus sphénoïdal",
+        "Sinus frontal",
+        "Cellule mastoïdienne"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 7,
+      "question": "Radio-anatomie du sphère ORL, choisissez l'un des suivants:",
+      "images": [
+        "y2-semiologie-dr-huy-sruy-q38-24-25-image-3.jpg"
+      ],
+      "image": "y2-semiologie-dr-huy-sruy-q38-24-25-image-3.jpg",
+      "options": [
+        "Cellule de Haller du côté droit et concha bullosa droit",
+        "Cellule de Haller du côté gauche et concha bullosa droit",
+        "Courbure paradoxale gauche et concha bullosa droit",
+        "Cellule de Haller des deux côtés et concha bullosa droit",
+        "Cellule de Haller des deux côtés et concha bullosa gauche"
+      ],
+      "correctIndex": 3
+    },
+    {
+      "id": 8,
+      "question": "Radio-anatomie du sphère ORL, choisissez l'un des suivants:",
+      "images": [
+        "y2-semiologie-dr-huy-sruy-q38-24-25-image-4.jpg"
+      ],
+      "image": "y2-semiologie-dr-huy-sruy-q38-24-25-image-4.jpg",
+      "options": [
+        "Protrusion du nerf optique gauche",
+        "Protrusion du canal jugulaire droit",
+        "Protrusion des canaux carotidiens",
+        "Protrusion du canal carotidien droit",
+        "Protrusion du canal jugulaire gauche"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 9,
+      "question": "Radio-anatomie du sphère ORL, choisissez l'un des suivants:",
+      "images": [
+        "y2-semiologie-dr-huy-sruy-q38-24-25-image-5.jpg"
+      ],
+      "image": "y2-semiologie-dr-huy-sruy-q38-24-25-image-5.jpg",
+      "options": [
+        "Langue mobile",
+        "Voûte palatine",
+        "Plancher buccal",
+        "Gencive sup",
+        "Gencive inf"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 10,
+      "question": "Radio-anatomie du sphère ORL, choisissez l'une image en étoile des suivants:",
+      "images": [
+        "y2-semiologie-dr-huy-sruy-q38-24-25-image-6.jpg"
+      ],
+      "image": "y2-semiologie-dr-huy-sruy-q38-24-25-image-6.jpg",
+      "options": [
+        "Nasopharynx",
+        "Hypopharynx",
+        "Cavité buccale",
+        "Larynx"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 11,
+      "question": "Radio-anatomie du sphère ORL, choisissez l'une image en étoile des suivants:",
+      "images": [
+        "y2-semiologie-dr-huy-sruy-q38-24-25-image-7.jpg"
+      ],
+      "image": "y2-semiologie-dr-huy-sruy-q38-24-25-image-7.jpg",
+      "options": [
+        "Nasopharynx",
+        "Oropharynx",
+        "Hypopharynx",
+        "Cavité buccale",
+        "Larynx"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 12,
+      "question": "Radio-anatomie du sphère ORL, choisissez l'une image en étoile des suivants:",
+      "images": [
+        "y2-semiologie-dr-huy-sruy-q38-24-25-image-8.jpg"
+      ],
+      "image": "y2-semiologie-dr-huy-sruy-q38-24-25-image-8.jpg",
+      "options": [
+        "Nasopharynx",
+        "Oropharynx",
+        "Hypopharynx",
+        "Cavité buccale",
+        "Larynx"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 13,
+      "question": "Radio-anatomie du sphère ORL, choisissez l'une image en étoile des suivants:",
+      "images": [
+        "y2-semiologie-dr-huy-sruy-q38-24-25-image-9.jpg"
+      ],
+      "image": "y2-semiologie-dr-huy-sruy-q38-24-25-image-9.jpg",
+      "options": [
+        "Nasopharynx",
+        "Hypopharynx",
+        "Oropharynx",
+        "Cavité buccale",
+        "Larynx"
+      ],
+      "correctIndex": 4
+    },
+    {
+      "id": 14,
+      "question": "Radio-anatomie du sphère ORL, choisissez l'une image en étoile des suivants:",
+      "images": [
+        "y2-semiologie-dr-huy-sruy-q38-24-25-image-10.jpg"
+      ],
+      "image": "y2-semiologie-dr-huy-sruy-q38-24-25-image-10.jpg",
+      "options": [
+        "CAE",
+        "CAI",
+        "Oreille externe",
+        "Oreille moyenne",
+        "Oreille interne"
+      ],
+      "correctIndex": 3
+    },
+    {
+      "id": 15,
+      "question": "Radio-anatomie du thorax. choisissez l'un qui n'est pas le critère de qualité en radiograpie du thorax de face:",
+      "images": [],
+      "image": "",
+      "options": [
+        "Bien de face",
+        "Position Debout",
+        "Bien inspiration",
+        "Bien exposition",
+        "Position couchée"
+      ],
+      "correctIndex": 4
+    },
+    {
+      "id": 16,
+      "question": "Radio-anatomie du thorax. Quell est l'organe l'absorption importante le rayon X?",
+      "images": [],
+      "image": "",
+      "options": [
+        "Os",
+        "Hydrique",
+        "Graisseuse",
+        "Aérique",
+        "Cartilage"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 17,
+      "question": "Radio-anatomie du thorax. Combien des lobes du poumon droit?",
+      "images": [],
+      "image": "",
+      "options": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 18,
+      "question": "Radio-anatomie du thorax. Combien des lobes du poumon gauche?",
+      "images": [],
+      "image": "",
+      "options": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 19,
+      "question": "Radio-anatomie du thorax, choisissez l'un des suivants:",
+      "images": [
+        "y2-semiologie-dr-huy-sruy-q38-24-25-image-11.jpg"
+      ],
+      "image": "y2-semiologie-dr-huy-sruy-q38-24-25-image-11.jpg",
+      "options": [
+        "Aorte",
+        "Artère pulmonaire",
+        "Tronc de l'artère pulmonaire",
+        "Artère pulmonaire droite",
+        "Ventricule droite"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 20,
+      "question": "Radio-anatomie du thorax, choisissez l'un des suivants:",
+      "images": [
+        "y2-semiologie-dr-huy-sruy-q38-24-25-image-12.jpg"
+      ],
+      "image": "y2-semiologie-dr-huy-sruy-q38-24-25-image-12.jpg",
+      "options": [
+        "Aorte abdominal",
+        "Aorte thoracique",
+        "Artère pulmonaire",
+        "Tronc de l'artère pulmonaire",
+        "Ventricule droite."
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 21,
+      "question": "Radio-anatomie du thorax, choisissez l'un des suivants:",
+      "images": [
+        "y2-semiologie-dr-huy-sruy-q38-24-25-image-13.jpg"
+      ],
+      "image": "y2-semiologie-dr-huy-sruy-q38-24-25-image-13.jpg",
+      "options": [
+        "Opacité des seins",
+        "Opacité du thorax",
+        "Opacité de diaphragme",
+        "Opacité du coeur",
+        "Opacité de l'omoplate"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 22,
+      "question": "Which imaging modality is preferred for detailed evaluation of the ossicles in the middle ear?",
+      "images": [],
+      "image": "",
+      "options": [
+        "Ultrasound",
+        "X-ray",
+        "MRI",
+        "CT scan",
+        "PET scan"
+      ],
+      "correctIndex": 3
+    },
+    {
+      "id": 23,
+      "question": "Which part of the ear is visible on axial MRI and contains the auditory nerve?",
+      "images": [],
+      "image": "",
+      "options": [
+        "External ear",
+        "Tympanic membrane",
+        "Internal auditory canal",
+        "Oval window",
+        "Eustachian tube"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 24,
+      "question": "Which structure connects the middle ear to the nasopharynx and is seen on coronal CT?",
+      "images": [],
+      "image": "",
+      "options": [
+        "External auditory canal",
+        "Cochlea",
+        "Eustachian tube",
+        "Semicircular canals",
+        "Mastoid air cells"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 25,
+      "question": "Which imaging modality is best for evaluating soft tissue masses in the floor of the mouth?",
+      "images": [],
+      "image": "",
+      "options": [
+        "Ultrasound",
+        "MRI",
+        "X-ray",
+        "PET scan",
+        "CT scan"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 26,
+      "question": "Which section of the pharynx is seen posterior to the oral cavity on a sagittal MRI?",
+      "images": [],
+      "image": "",
+      "options": [
+        "Nasopharynx",
+        "Oropharynx",
+        "Hypopharynx",
+        "Laryngopharynx",
+        "Prevertebral space"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 27,
+      "question": "Which imaging modality is best for evaluating soft tissue lesions in the pharynx?",
+      "images": [],
+      "image": "",
+      "options": [
+        "MRI",
+        "CT scan",
+        "Ultrasound",
+        "X-ray",
+        "PET scan"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 28,
+      "question": "Which imaging technique is preferred for assessing the larynx and vocal cords?",
+      "images": [],
+      "image": "",
+      "options": [
+        "MRI",
+        "CT scan",
+        "Ultrasound",
+        "X-ray",
+        "PET scan"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 29,
+      "question": "Which of the following structures is most important for visualizing laryngeal cancer on CT?",
+      "images": [],
+      "image": "",
+      "options": [
+        "Epiglottis",
+        "Vocal cords",
+        "Arytenoid cartilage",
+        "Thyroid cartilage",
+        "Cricoid cartilage"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 30,
+      "question": "Which anatomical landmark marks the transition between the pharynx and the larynx on imaging?",
+      "images": [],
+      "image": "",
+      "options": [
+        "Soft palate",
+        "Vallecula",
+        "Glottis",
+        "Epiglottis",
+        "Uvula"
+      ],
+      "correctIndex": 3
+    },
+    {
+      "id": 31,
+      "question": "Which of the following is the most common view used in routine chest radiography?",
+      "images": [],
+      "image": "",
+      "options": [
+        "Lateral view",
+        "Anteroposterior (AP) view",
+        "Posteroanterior (PA) view",
+        "Oblique view",
+        "Lordotic view"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 32,
+      "question": "The right cardiac silhouette on a chest X-ray is primarily formed by which structure?",
+      "images": [],
+      "image": "",
+      "options": [
+        "Right ventricle",
+        "Right atrium",
+        "Pulmonary artery",
+        "Aortic arch",
+        "Superior vena cava"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 33,
+      "question": "On a chest X-ray, which of the following is typically seen at the level of the carina?",
+      "images": [],
+      "image": "",
+      "options": [
+        "Aortic arch",
+        "Pulmonary trunk",
+        "Tracheal bifurcation",
+        "Left atrium",
+        "Left ventricle"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 34,
+      "question": "What is the most appropriate imaging modality for staging lung cancer?",
+      "images": [],
+      "image": "",
+      "options": [
+        "Chest X-ray",
+        "MRI",
+        "CT scan",
+        "Ultrasound",
+        "Bone scan"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 35,
+      "question": "Which of the following structures is most likely to be identified posteriorly on a chest CT scan at the level of the diaphragm?",
+      "images": [],
+      "image": "",
+      "options": [
+        "Liver",
+        "Spleen",
+        "Aorta",
+        "Inferior vena cava",
+        "Pancreas"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 36,
+      "question": "What is the normal position of the diaphragm on a chest X-ray?",
+      "images": [],
+      "image": "",
+      "options": [
+        "The right hemidiaphragm is higher than the left",
+        "The left hemidiaphragm is higher than the right",
+        "Both hemidiaphragms are at the same level",
+        "The right hemidiaphragm is lower than the left",
+        "Neither hemidiaphragm is visible"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 37,
+      "question": "Which of the following is typically seen as a radiolucent (dark) area on a chest X-ray?",
+      "images": [],
+      "image": "",
+      "options": [
+        "Bone",
+        "Air in the lungs",
+        "Heart",
+        "Liver",
+        "Blood vessels"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 38,
+      "question": "On a chest X-ray, what is the expected appearance of the trachea?",
+      "images": [],
+      "image": "",
+      "options": [
+        "Radiopaque (white) structure to the left of the midline",
+        "Radiolucent (dark) structure in the midline",
+        "Radiopaque (white) structure to the right of the midline",
+        "Not visible on a standard X-ray",
+        "Radiolucent (dark) structure behind the heart"
+      ],
+      "correctIndex": 1
+    }
+  ]
+}

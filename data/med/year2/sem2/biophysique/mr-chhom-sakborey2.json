@@ -1,0 +1,666 @@
+{
+  "questions": [
+    {
+      "id": 1,
+      "question": "Quelle est la désintégration alpha qui a lieu lors de l'atome radioactive se transforme spontanément en autre atome?",
+      "images": [
+        "y2-biophysique-mr-chhom-sakborey-q42-image-1.jpg"
+      ],
+      "image": "y2-biophysique-mr-chhom-sakborey-q42-image-1.jpg",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 2,
+      "question": "Quelle est la désintégration beta plus qui a lieu lors de l'atome radioactive se transforme spontanément en autre atome ?",
+      "images": [
+        "y2-biophysique-mr-chhom-sakborey-q42-image-2.jpg"
+      ],
+      "image": "y2-biophysique-mr-chhom-sakborey-q42-image-2.jpg",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 3,
+      "question": "Quelle est la désintégration beta moins qui a lieu lors de l'atome radioactive se transforme spontanément en autre atome?",
+      "images": [
+        "y2-biophysique-mr-chhom-sakborey-q42-image-3.jpg"
+      ],
+      "image": "y2-biophysique-mr-chhom-sakborey-q42-image-3.jpg",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 4,
+      "question": "Quelle est la désintégration par capture électronique qui a lieu lors de l'atome radioactive se transforme spontanément en autre atome ?",
+      "images": [
+        "y2-biophysique-mr-chhom-sakborey-q42-image-4.jpg"
+      ],
+      "image": "y2-biophysique-mr-chhom-sakborey-q42-image-4.jpg",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E"
+      ],
+      "correctIndex": 3
+    },
+    {
+      "id": 5,
+      "question": "Quelle est la désintégration beta plus qui a lieu lors de l'atome radioactive se transforme spontanément en autre atome?",
+      "images": [
+        "y2-biophysique-mr-chhom-sakborey-q42-image-5.jpg"
+      ],
+      "image": "y2-biophysique-mr-chhom-sakborey-q42-image-5.jpg",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 6,
+      "question": "Quelle est la désintégration beta moins qui a lieu lors de l'atome radioactive se transforme spontanément en autre atome?",
+      "images": [
+        "y2-biophysique-mr-chhom-sakborey-q42-image-6.jpg"
+      ],
+      "image": "y2-biophysique-mr-chhom-sakborey-q42-image-6.jpg",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 7,
+      "question": "Quelle est la désintégration par capture électronique qui a lieu lors de l'atome radioactive se transforme spontanément en autre atome ?",
+      "images": [
+        "y2-biophysique-mr-chhom-sakborey-q42-image-7.jpg"
+      ],
+      "image": "y2-biophysique-mr-chhom-sakborey-q42-image-7.jpg",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 8,
+      "question": "Les transitions isomériques après désintégrations bêta moins de l'isotope 60 de Cobalt. Quelle est l'énergie libérée est émise sou forme d'un photon γ1?",
+      "images": [
+        "y2-biophysique-mr-chhom-sakborey-q42-image-8.jpg"
+      ],
+      "image": "y2-biophysique-mr-chhom-sakborey-q42-image-8.jpg",
+      "options": [
+        "2505,74 keV",
+        "1332,50 keV",
+        "99,90 keV",
+        "0 keV",
+        "1173,24 keV"
+      ],
+      "correctIndex": 4
+    },
+    {
+      "id": 9,
+      "question": "Les transitions isomériques après désintégrations bêta moins de l'isotope 60 de Cobalt. Quelle est l'énergie libérée est émise sou forme d'un photon γ2 ?",
+      "images": [
+        "y2-biophysique-mr-chhom-sakborey-q42-image-9.jpg"
+      ],
+      "image": "y2-biophysique-mr-chhom-sakborey-q42-image-9.jpg",
+      "options": [
+        "2505,74 keV",
+        "1332,50 keV",
+        "99,90 keV",
+        "1173,24 keV",
+        "0 keV"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 10,
+      "question": "Quels sont les trois processus principaux qui ont lieux lors de l'interaction d'un photon avec la matière?",
+      "images": [],
+      "image": "",
+      "options": [
+        "Effet photoélectrique, Effet Compton, Désintégration",
+        "Effet Compton, Désintégration β, Emission",
+        "Effet photoélectrique, Production de pair, Désintégration par capture électronique",
+        "Effet photoélectrique, Conversion interne, Production de pair",
+        "Effet photoélectrique, Effet Compton, Production de pair"
+      ],
+      "correctIndex": 4
+    },
+    {
+      "id": 11,
+      "question": "Quelles sont les énergies principales qui ont lieux lors de l'annihilation de la paire positron-électron ?",
+      "images": [],
+      "image": "",
+      "options": [
+        "Il y a émission d'1 photons (d'énergie 511 keV)",
+        "Il y a émission de 2 photons (d'énergie 511 keV à 180° l'un de l'autre)",
+        "Il y a émission d'1 particule α d'énergie 511 keV",
+        "Il y a émission d'1 particule β⁻ d'énergie 511 keV",
+        "Il y a émission d'1 particule β⁺ d'énergie 511 keV"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 12,
+      "question": "Quel est la dominante à basse énergie correspond aux trois processus principaux qui a lieu lors de l'interaction des rayons X et γ avec la matière?",
+      "images": [],
+      "image": "",
+      "options": [
+        "Effet Compton sur un électron de l'atome",
+        "Effet de production de pair dans le champ électrique très intense",
+        "Effet biologique",
+        "Effet de peau",
+        "Effet photoélectrique sur un électron de la couche K de l'atome"
+      ],
+      "correctIndex": 4
+    },
+    {
+      "id": 13,
+      "question": "On considère de la diffusion Compton d'un photon d'énergie hν sur un électron au repos. Soit hν' l'énergie du photon après qu'il soit diffusé d'un angle. Quelle est l'équation de conservation de l'énergie?",
+      "images": [
+        "y2-biophysique-mr-chhom-sakborey-q42-image-10.jpg"
+      ],
+      "image": "y2-biophysique-mr-chhom-sakborey-q42-image-10.jpg",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 14,
+      "question": "On considère de la diffusion Compton d'un photon d'énergie hν sur un électron au repos. Soit hν' l'énergie du photon après qu'il soit diffusé d'un angle. Quelle est l'équation de conservation de l'énergie, si l'angle θ = 180°?",
+      "images": [
+        "y2-biophysique-mr-chhom-sakborey-q42-image-11.jpg"
+      ],
+      "image": "y2-biophysique-mr-chhom-sakborey-q42-image-11.jpg",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 15,
+      "question": "On considère de la diffusion Compton d'un photon d'énergie hν sur un électron au repos. Soit hν' l'énergie du photon après qu'il soit diffusé d'un angle. Quelles est l'équation de conservation de l'énergie, si l'angle θ = 0°?",
+      "images": [
+        "y2-biophysique-mr-chhom-sakborey-q42-image-12.jpg"
+      ],
+      "image": "y2-biophysique-mr-chhom-sakborey-q42-image-12.jpg",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "correctIndex": 3
+    },
+    {
+      "id": 16,
+      "question": "L'activité initiale d'un radionucléide est de 100TBq. Quelle est son activité après 2 périodes radioactives?",
+      "images": [],
+      "image": "",
+      "options": [
+        "100 TBq",
+        "50 TBq",
+        "25 TBq",
+        "12,5 TBq",
+        "6,25 TBq"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 17,
+      "question": "Le schéma de décroissance de cet isotope est présenté ci-dessous. Identifiez la période radioactive.",
+      "images": [
+        "y2-biophysique-mr-chhom-sakborey-q42-image-13.jpg"
+      ],
+      "image": "y2-biophysique-mr-chhom-sakborey-q42-image-13.jpg",
+      "options": [
+        "120 min",
+        "6 h",
+        "8 j",
+        "30,15 ans",
+        "5,27 ans"
+      ],
+      "correctIndex": 3
+    },
+    {
+      "id": 18,
+      "question": "Le schéma de décroissance de cet isotope est présenté ci-dessous. Identifiez le type de décroissance.",
+      "images": [
+        "y2-biophysique-mr-chhom-sakborey-q42-image-14.jpg"
+      ],
+      "image": "y2-biophysique-mr-chhom-sakborey-q42-image-14.jpg",
+      "options": [
+        "β⁻ 89,9%",
+        "CI",
+        "CE",
+        "β⁺",
+        "α"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 19,
+      "question": "Le schéma de décroissance de cet isotope est présenté ci-dessous. Identifiez l'énergie maximale de différents rayonnements émis.",
+      "images": [
+        "y2-biophysique-mr-chhom-sakborey-q42-image-15.jpg"
+      ],
+      "image": "y2-biophysique-mr-chhom-sakborey-q42-image-15.jpg",
+      "options": [
+        "89,9 keV",
+        "661,65 keV",
+        "30,15 keV",
+        "0 keV",
+        "661,65 keV suivi par l'émission d'un rayonnement (de 661,65 keV"
+      ],
+      "correctIndex": 4
+    },
+    {
+      "id": 20,
+      "question": "D'après la désintégration α, par exemple, le radium 226 se transforme spontanément en l'élément Y en émettant d'un noyau d'hélium. Donnez la valeur du nombre de masse (A) du noyau Y de la voie de sortie. ²²⁶Ra₈₈ → Y + ⁴He₂",
+      "images": [
+        "y2-biophysique-mr-chhom-sakborey-q42-image-16.jpg"
+      ],
+      "image": "y2-biophysique-mr-chhom-sakborey-q42-image-16.jpg",
+      "options": [
+        "2",
+        "4",
+        "88",
+        "222",
+        "226"
+      ],
+      "correctIndex": 3
+    },
+    {
+      "id": 21,
+      "question": "D'après la désintégration α, par exemple, le radium 226 se transforme spontanément en l'élément Y en émettant d'un noyau d'hélium. Donnez la valeur du nombre atomique (Z) du noyau Y de la voie de sortie. ²²⁶Ra₈₈ → Y + ⁴He₂",
+      "images": [
+        "y2-biophysique-mr-chhom-sakborey-q42-image-17.jpg"
+      ],
+      "image": "y2-biophysique-mr-chhom-sakborey-q42-image-17.jpg",
+      "options": [
+        "88",
+        "86",
+        "226",
+        "4",
+        "2"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 22,
+      "question": "D'après la désintégration α, par exemple, le radium 226 se transforme spontanément en l'élément Y en émettant d'un noyau d'hélium. De quel élément s'agit-il ? ²²⁶Ra₈₈ → Y + ⁴He₂",
+      "images": [
+        "y2-biophysique-mr-chhom-sakborey-q42-image-18.jpg"
+      ],
+      "image": "y2-biophysique-mr-chhom-sakborey-q42-image-18.jpg",
+      "options": [
+        "Radon 220",
+        "Radon 222",
+        "Radon 219",
+        "Radon 218",
+        "Radon 217"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 23,
+      "question": "On s'intéresse à l'étude la désintégration β, un neutron se transforme en proton dans le noyau selon la réaction suivante: n → p + e⁻ + ν̄_e. Écrivez l'équation de conservation de la charge.",
+      "images": [
+        "y2-biophysique-mr-chhom-sakborey-q42-image-19.jpg"
+      ],
+      "image": "y2-biophysique-mr-chhom-sakborey-q42-image-19.jpg",
+      "options": [
+        "0 → 0 + 0 + 0",
+        "0 → 0 + 1 - 1",
+        "1 → 1 + 0 + 0",
+        "0 → 1 - 1 + 0",
+        "1 - 1 → 0 + 0"
+      ],
+      "correctIndex": 3
+    },
+    {
+      "id": 24,
+      "question": "On s'intéresse à l'étude la désintégration β, un neutron se transforme en proton dans le noyau selon la réaction suivante: n → p + e⁻ + ν̄_e. Écrivez l'équation de conservation du nombre baryonique.",
+      "images": [
+        "y2-biophysique-mr-chhom-sakborey-q42-image-20.jpg"
+      ],
+      "image": "y2-biophysique-mr-chhom-sakborey-q42-image-20.jpg",
+      "options": [
+        "0 → 0 + 0 + 0",
+        "0 → 0 + 1 - 1",
+        "1 → 1 + 0 + 0",
+        "0 → 1 - 1 + 0",
+        "1 - 1 → 0 + 0"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 25,
+      "question": "On s'intéresse à l'étude la désintégration β, un neutron se transforme en proton dans le noyau selon la réaction suivante: n → p + e⁻ + ν̄_e. Écrivez l'équation de conservation du nombre leptonique.",
+      "images": [
+        "y2-biophysique-mr-chhom-sakborey-q42-image-21.jpg"
+      ],
+      "image": "y2-biophysique-mr-chhom-sakborey-q42-image-21.jpg",
+      "options": [
+        "0 → 0 + 0 + 0",
+        "0 → 0 + 1 - 1",
+        "1 → 1 + 0 + 0",
+        "0 → 1 - 1 + 0",
+        "1 - 1 → 0 + 0"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 26,
+      "question": "On s'intéresse à l'étude la désintégration β, par exemple, la transformation du ³²P en ³²S par émission β⁻. Déterminez la différence des masses atomiques exprimées en uma au cours de la transformation. On donne M(³²P) = 31,98403 uma, M(³²S) = 31,98220 uma et 1 uma = 931,5 MeV. ³²P₁₅ → ³²S₁₆ + e⁻ + ν̄_e",
+      "images": [
+        "y2-biophysique-mr-chhom-sakborey-q42-image-22.jpg"
+      ],
+      "image": "y2-biophysique-mr-chhom-sakborey-q42-image-22.jpg",
+      "options": [
+        "0,00183 uma",
+        "31,98403 uma",
+        "31,98220 uma",
+        "32,00001 uma",
+        "32,00002 uma"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 27,
+      "question": "On s'intéresse à l'étude la désintégration β, par exemple, la transformation du ³²P en ³²S par émission β⁻. Déterminez l'énergie libérée exprimées en MeV au cours de la transformation. Où M(³²P) = 31,98403 uma, M(³²S) = 31,98220 uma et 1 uma = 931,5 MeV. ³²P₁₅ → ³²S₁₆ + e⁻ + ν̄_e",
+      "images": [
+        "y2-biophysique-mr-chhom-sakborey-q42-image-23.jpg"
+      ],
+      "image": "y2-biophysique-mr-chhom-sakborey-q42-image-23.jpg",
+      "options": [
+        "931,5 MeV",
+        "1,705 MeV",
+        "31,982 MeV",
+        "31,984 MeV",
+        "1,805 MeV"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 28,
+      "question": "On s'intéresse à l'étude de la réaction nucléaire ci-dessous. Écrivez la conservation de masse lors de la réaction. ²⁷Al₁₃(α,n)³⁰P₁₅(β⁺ ou CE)³⁰Si₁₄",
+      "images": [
+        "y2-biophysique-mr-chhom-sakborey-q42-image-24.jpg"
+      ],
+      "image": "y2-biophysique-mr-chhom-sakborey-q42-image-24.jpg",
+      "options": [
+        "27 + 4 = 30 + 1, 30 = 30 + 0 + 0 ou 30 + 0 = 30 + 0",
+        "13 + 2 = 15 + 0, 15 = 14 + 1 + 0 ou 15 - 1 = 14 + 0",
+        "27 + 4 = 30 + 1, 13 + 2 = 15 + 0 ou 30 = 30 + 0 + 0",
+        "13 + 2 = 15 + 0, 27 + 4 = 30 + 1 ou 30 = 30 + 0 + 0",
+        "30 = 30 + 0 + 0, 27 + 4 = 30 + 1 ou 13 + 2 = 15 + 0"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 29,
+      "question": "On s'intéresse à l'étude de la réaction nucléaire ci-dessous. Écrivez la conservation de charge lors de la réaction. ²⁷Al₁₃(α,n)³⁰P₁₅(β⁺ ou CE)³⁰Si₁₄",
+      "images": [
+        "y2-biophysique-mr-chhom-sakborey-q42-image-25.jpg"
+      ],
+      "image": "y2-biophysique-mr-chhom-sakborey-q42-image-25.jpg",
+      "options": [
+        "27 + 4 = 30 + 1, 30 = 30 + 0 + 0 ou 30 + 0 = 30 + 0",
+        "13 + 2 = 15 + 0, 15 = 14 + 1 + 0 ou 15 - 1 = 14 + 0",
+        "27 + 4 = 30 + 1, 13 + 2 = 15 + 0 ou 30 = 30 + 0 + 0",
+        "13 + 2 = 15 + 0, 27 + 4 = 30 + 1 ou 30 = 30 + 0 + 0",
+        "30 = 30 + 0 + 0, 27 + 4 = 30 + 1 ou 13 + 2 = 15 + 0"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 30,
+      "question": "On s'intéresse à l'étude de la réaction nucléaire ci-dessous. Donnez la valeur du nombre de masse (A) de particule α? ²⁷Al₁₃(α,n)³⁰P₁₅(β⁺ ou CE)³⁰Si₁₄",
+      "images": [
+        "y2-biophysique-mr-chhom-sakborey-q42-image-26.jpg"
+      ],
+      "image": "y2-biophysique-mr-chhom-sakborey-q42-image-26.jpg",
+      "options": [
+        "4",
+        "27",
+        "13",
+        "30",
+        "15"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 31,
+      "question": "On s'intéresse à l'étude de la réaction nucléaire ci-dessous. Donnez la valeur du nombre atomique (Z) de particule α? ²⁷Al₁₃(α,n)³⁰P₁₅(β⁺ ou CE)³⁰Si₁₄",
+      "images": [
+        "y2-biophysique-mr-chhom-sakborey-q42-image-27.jpg"
+      ],
+      "image": "y2-biophysique-mr-chhom-sakborey-q42-image-27.jpg",
+      "options": [
+        "27",
+        "2",
+        "13",
+        "30",
+        "15"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 32,
+      "question": "On s'intéresse à l'étude de la réaction nucléaire ci-dessous. Donnez la valeur de la charge (Z) de n? ²⁷Al₁₃(α,n)³⁰P₁₅(β⁺ ou CE)³⁰Si₁₄",
+      "images": [
+        "y2-biophysique-mr-chhom-sakborey-q42-image-28.jpg"
+      ],
+      "image": "y2-biophysique-mr-chhom-sakborey-q42-image-28.jpg",
+      "options": [
+        "27",
+        "13",
+        "1",
+        "0",
+        "15"
+      ],
+      "correctIndex": 3
+    },
+    {
+      "id": 33,
+      "question": "On s'intéresse à l'étude de la réaction nucléaire ci-dessous. Donnez la valeur baryonique de n? ²⁷Al₁₃(α,n)³⁰P₁₅(β⁺ ou CE)³⁰Si₁₄",
+      "images": [
+        "y2-biophysique-mr-chhom-sakborey-q42-image-29.jpg"
+      ],
+      "image": "y2-biophysique-mr-chhom-sakborey-q42-image-29.jpg",
+      "options": [
+        "27",
+        "13",
+        "1",
+        "0",
+        "15"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 34,
+      "question": "On s'intéresse à l'étude de la réaction nucléaire ci-dessous. Donnez la valeur leptonique de n? ²⁷Al₁₃(α,n)³⁰P₁₅(β⁺ ou CE)³⁰Si₁₄",
+      "images": [
+        "y2-biophysique-mr-chhom-sakborey-q42-image-30.jpg"
+      ],
+      "image": "y2-biophysique-mr-chhom-sakborey-q42-image-30.jpg",
+      "options": [
+        "27",
+        "10",
+        "13",
+        "1",
+        "0",
+        "15"
+      ],
+      "correctIndex": 4
+    },
+    {
+      "id": 35,
+      "question": "On s'intéresse à l'étude de la réaction nucléaire ci-dessous. Donnez la valeur de la charge (Z) de particule β⁺? ²⁷Al₁₃(α,n)³⁰P₁₅(β⁺ ou CE)³⁰Si₁₄",
+      "images": [
+        "y2-biophysique-mr-chhom-sakborey-q42-image-31.jpg"
+      ],
+      "image": "y2-biophysique-mr-chhom-sakborey-q42-image-31.jpg",
+      "options": [
+        "27",
+        "13",
+        "+1",
+        "0",
+        "-1"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 36,
+      "question": "On s'intéresse à l'étude de la réaction nucléaire ci-dessous. Donnez la valeur baryonique de particule β? ²⁷Al₁₃(α,n)³⁰P₁₅(β⁺ ou CE)³⁰Si₁₄",
+      "images": [
+        "y2-biophysique-mr-chhom-sakborey-q42-image-32.jpg"
+      ],
+      "image": "y2-biophysique-mr-chhom-sakborey-q42-image-32.jpg",
+      "options": [
+        "0",
+        "13",
+        "+1",
+        "-1",
+        "15"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 37,
+      "question": "On s'intéresse à l'étude de la réaction nucléaire ci-dessous. Donnez la valeur leptonique de particule β⁺? ²⁷Al₁₃(α,n)³⁰P₁₅(β⁺ ou CE)³⁰Si₁₄",
+      "images": [
+        "y2-biophysique-mr-chhom-sakborey-q42-image-33.jpg"
+      ],
+      "image": "y2-biophysique-mr-chhom-sakborey-q42-image-33.jpg",
+      "options": [
+        "0",
+        "13",
+        "30",
+        "+1",
+        "-1"
+      ],
+      "correctIndex": 4
+    },
+    {
+      "id": 38,
+      "question": "Quel est l'énergie du photon incident pour que soit matérialisée une masse égale à celle de 2 électrons ?",
+      "images": [],
+      "image": "",
+      "options": [
+        "1,022 keV",
+        "511 keV",
+        "1,022 MeV",
+        "0,511 MeV",
+        "0,511 keV"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 39,
+      "question": "On s'intéresse à l'étude la désintégration β, un proton se transforme en neutron dans le noyau selon la réaction suivante: p → n + e⁺ + ν_e. Écrivez l'équation de conservation de la charge.",
+      "images": [
+        "y2-biophysique-mr-chhom-sakborey-q42-image-34.jpg"
+      ],
+      "image": "y2-biophysique-mr-chhom-sakborey-q42-image-34.jpg",
+      "options": [
+        "0 → 0 + 0 + 0",
+        "0 → 0 - 1 + 1",
+        "1 → 1 + 0 + 0",
+        "1 → 0 + 1 + 0",
+        "1 - 1 → 0 + 0"
+      ],
+      "correctIndex": 3
+    },
+    {
+      "id": 40,
+      "question": "On s'intéresse à l'étude la désintégration β, un proton se transforme en neutron dans le noyau selon la réaction suivante: p → n + e⁺ + ν_e. Écrivez l'équation de conservation du nombre baryonique.",
+      "images": [
+        "y2-biophysique-mr-chhom-sakborey-q42-image-35.jpg"
+      ],
+      "image": "y2-biophysique-mr-chhom-sakborey-q42-image-35.jpg",
+      "options": [
+        "0 → 0 + 0 + 0",
+        "0 → 0 - 1 + 1",
+        "1 → 1 + 0 + 0",
+        "1 → 0 + 1 + 0",
+        "1 - 1 → 0 + 0"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 41,
+      "question": "On s'intéresse à l'étude la désintégration β, un proton se transforme en neutron dans le noyau selon la réaction suivante: p → n + e⁺ + ν_e. Écrivez l'équation de conservation du nombre leptonique.",
+      "images": [
+        "y2-biophysique-mr-chhom-sakborey-q42-image-36.jpg"
+      ],
+      "image": "y2-biophysique-mr-chhom-sakborey-q42-image-36.jpg",
+      "options": [
+        "0 → 0 + 0 + 0",
+        "0 → 0 - 1 + 1",
+        "1 → 1 + 0 + 0",
+        "1 → 0 + 1 + 0",
+        "1 - 1 → 0 + 0"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 42,
+      "question": "Quel est l'énergie cinétique d'électron Compton lors de l'interaction des photons X ou γ avec des matières ?",
+      "images": [
+        "y2-biophysique-mr-chhom-sakborey-q42-image-37.jpg"
+      ],
+      "image": "y2-biophysique-mr-chhom-sakborey-q42-image-37.jpg",
+      "options": [
+        "Ec = Eγ - Ek",
+        "Ec = (Ei - Ef) - El",
+        "Ec = 1/2 mv² - Eγ* - El",
+        "Ec = El - Ek",
+        "Ec = Eγ - Eγ' - El"
+      ],
+      "correctIndex": 4
+    }
+  ]
+}

@@ -1,0 +1,200 @@
+{
+  "questions": [
+    {
+      "id": 1,
+      "question": "Which ONE of the following statements is true?",
+      "images": [],
+      "image": "",
+      "options": [
+        "Goals of the patient interview are to listen, improve the well-being of the patient through a trusting and supportive relationship.",
+        "Interview patient are skills of clinical care.",
+        "Interview patient is conversation with a purpose.",
+        "Interview patient have the interpersonal skills that we use every day.",
+        "Interview and history taking are purpose, listening, well-being, interpersonal skills, and supportive relationship."
+      ],
+      "correctIndex": 4
+    },
+    {
+      "id": 2,
+      "question": "Which ONE of the following statements is true?",
+      "images": [],
+      "image": "",
+      "options": [
+        "Active listening is the action of sensitive heard from patient.",
+        "Active listening is multiple levels of patients' experience.",
+        "Active listening is being aware of the patients' emotional state.",
+        "Active listening is the process of closely attending, being aware of patient's emotional understanding, and encouragement the speaker to continue and expand upon important concerns.",
+        "Active listening is the most important skilled interviewing."
+      ],
+      "correctIndex": 3
+    },
+    {
+      "id": 3,
+      "question": "Which ONE of the following statements is true?",
+      "images": [],
+      "image": "",
+      "options": [
+        "Nonverbal communication is the message allows you to both \"read the patient\" and send messages of your own.",
+        "Nonverbal communication is to pay close attention to eye contact, facial expression, posture, head position, and movement such as shaking or nodding and moving closer.",
+        "Nonverbal communication is only the mirror of the patients' paralanguage.",
+        "Nonverbal communication is the only moving closer to the patient.",
+        "Nonverbal communication is the only body language to help the patient gain control of difficult feelings."
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 4,
+      "question": "Which ONE of the following statements is true?",
+      "images": [],
+      "image": "",
+      "options": [
+        "Your clinical behavior and appearance are related to your words, behavior, posture, gestures, eye contact, interest, attention, acceptance and understanding.",
+        "The skilled interview seems calm and hurried because the time is limited.",
+        "Interview to keep the patients perspective in mind if you want to build the patient confidence.",
+        "The environment makes the interview setting as public and comfortable as possible.",
+        "Clinical behavior and appearance are behavior of body language focus only on physical examination of the patient."
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 5,
+      "question": "Which ONE of the following statements is true?",
+      "images": [],
+      "image": "",
+      "options": [
+        "The patient's perspective is learning about the patient's thinking in the future.",
+        "The patient's perspective is asking only about the patient's ideas and feelings.",
+        "The patient's perspective is learning about the patient's feelings, ideas, life, function and expectations of the disease.",
+        "The patient's perspective is asking the patient questions in expectation of the disease.",
+        "The patient's perspective is asking about the patient's function and family experiences."
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 6,
+      "question": "Which ONE of the following statements is true?",
+      "images": [],
+      "image": "",
+      "options": [
+        "Establishing the agenda begins with open-ended questions and to allow you and patient to negotiate the concerns.",
+        "Agenda asking only about foremost concern and use active listening skills.",
+        "Agenda train you to follow the patient's leads and patient's story in more dept.",
+        "Agenda using additional guided questions helps you avoid missing any of the patient's concerns.",
+        "Agenda using an open-ended approach and using a focusing approach to explore the patient's story in more depth."
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 7,
+      "question": "Which ONE of the following statements is true?",
+      "images": [],
+      "image": "",
+      "options": [
+        "Patient interview is recording necessary medical information (classical examination signs).",
+        "Patient interview help for reaching diagnosis, treatment plan, evaluation medical progress, and medico-legal record.",
+        "Patient interview is availability of information for research, reportable diseases, insurance claims.",
+        "Patient interview only help for reaching diagnosis.",
+        "Patient interview only help for medico-legal record."
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 8,
+      "question": "Which ONE of the following statements is true?",
+      "images": [],
+      "image": "",
+      "options": [
+        "Taking history of general rules: tell patient your name, explain why you are seeing him, start before patient's talk, give patient whole your attention and an empathetic listener.",
+        "Taking history just follow up visit: new symptoms, signs since last visit, and drug management.",
+        "Taking history just observe progress of condition and results of investigation.",
+        "Taking history just completely a form of the patient.",
+        "Taking history just completely field research or screening questionnaire."
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 9,
+      "question": "Which ONE of the following statements is true?",
+      "images": [],
+      "image": "",
+      "options": [
+        "Guidelines for taking case history should be open-ended, not restricting, avoid \"yes or no answer\", patient symptoms should use his own words.",
+        "Guidance of conversation is restricting.",
+        "Guidelines for taking case history cover aspect of disease organ.",
+        "Guidelines use clear, specific questions and ask one question at a time.",
+        "Guidelines use direct questions may be required sometimes and avoid leading questions."
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 10,
+      "question": "Which ONE of the following statements is true?",
+      "images": [],
+      "image": "",
+      "options": [
+        "Some diseases show symptoms very clear.",
+        "Some races show certain disease in the past history.",
+        "First symptoms that caused patient to seek medical advice are chief complaint.",
+        "Health history forms are only personal data and chief complaint.",
+        "Health history forms are only history of present illness and past medical history."
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 11,
+      "question": "Which ONE of the following statements is true?",
+      "images": [],
+      "image": "",
+      "options": [
+        "Question should be open-ended and restricting.",
+        "Avoid leading yes or no questions, used patient own words, open-ended questions, direct questions and cover various aspects of diseased organ.",
+        "Guidance of convention but not restricting and questions should be open-ended.",
+        "Direct question may be required sometimes.",
+        "Patient symptoms in his own words and ask one question at a time."
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 12,
+      "question": "Which ONE of the following statements is true?",
+      "images": [],
+      "image": "",
+      "options": [
+        "Past and medical history is related to allergy, bleeding, cardio respiratory disorders.",
+        "Past and medical history is related to drug history, endocrine disorders.",
+        "Past and medical history are related to allergy, anemia, bleeding, cardio respiratory disorders, endocrine disorders, drug history, fits and faints, gastrointestinal disorders, hospital admission, surgeries infections, jaundice and hepatic disease and kidney disease.",
+        "Past and medical histories are related to medical history, drug history and surgical history.",
+        "Past and medical histories are related to medical history, allergy and surgical history."
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 13,
+      "question": "Which ONE of the following statements is true?",
+      "images": [],
+      "image": "",
+      "options": [
+        "Sensitive questions guidelines are respect patient privacy, be direct and firm and avoid confrontation.",
+        "Sensitive questions are nonjudgmental used appropriate language and document carefully.",
+        "Sensitive questions are used patient's words as possible, avoid confrontation and be direct and firm.",
+        "Sensitive questions are respect patient privacy, direct and firm, avoid confrontation, nonjudgmental, appropriate language, and document carefully.",
+        "Sensitive questions guideline respect patient privacy and document carefully."
+      ],
+      "correctIndex": 3
+    },
+    {
+      "id": 14,
+      "question": "Which ONE of the following statements is true?",
+      "images": [],
+      "image": "",
+      "options": [
+        "Silence overly talking patients and anxious patients.",
+        "Special challenges with patients anger and hostility, crying and depression.",
+        "Challenges on patients with multiple symptoms confusing behavior or histories.",
+        "Special challenges limited intelligence.",
+        "Special challenges with talkative, anxious, anger, hostility, multiple symptoms, crying, depression, confusing behavior or histories, limited intelligence patients and developmental disabilities patients."
+      ],
+      "correctIndex": 4
+    }
+  ]
+}

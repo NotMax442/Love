@@ -1,0 +1,144 @@
+{
+  "questions": [
+    {
+      "id": 1,
+      "question": "Les critères de qualités en radiographie de face, ce sont: (choisissez la bonne réponse)",
+      "images": [],
+      "image": "",
+      "options": [
+        "De face, Décubitus, En inspiration, Exposition correct.",
+        "De face, Debout, Exposition correct, En inspiration.",
+        "De face, Debout, En expiration, Exposition correct.",
+        "De face, Décubitus, Exposition correct, En inspiration.",
+        "De face, Debout, Exposition correct, En expiration."
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 2,
+      "question": "Quelle incidence de radiographie thoracique simple est le plus standard?",
+      "images": [],
+      "image": "",
+      "options": [
+        "Oblique",
+        "Décubitus latérale",
+        "Antéro-postérieur",
+        "Postéroantérieur.",
+        "Profil."
+      ],
+      "correctIndex": 3
+    },
+    {
+      "id": 3,
+      "question": "Quelle incidence on peut voir bien le sternum?",
+      "images": [],
+      "image": "",
+      "options": [
+        "Postéroantérieur.",
+        "Oblique.",
+        "Antéropostérieur.",
+        "Profil strict.",
+        "Décubitus latéral."
+      ],
+      "correctIndex": 3
+    },
+    {
+      "id": 4,
+      "question": "Combien de densité radiologique sur radiographie thoracique simple?",
+      "images": [],
+      "image": "",
+      "options": [
+        "4 densités.",
+        "3 densités.",
+        "5 densités.",
+        "2 densités.",
+        "6 densités."
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 5,
+      "question": "Quelle est la densité de l'os sur la radiographie thoracique simple?",
+      "images": [],
+      "image": "",
+      "options": [
+        "Opaque",
+        "Peu opaque",
+        "Très opaque",
+        "Clair",
+        "Très clair."
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 6,
+      "question": "A partie de quelle côte antérieur au sommet de la coupole droit, représente la correctement de inspiration profond sur le radiographie thoracique simple.",
+      "images": [],
+      "image": "",
+      "options": [
+        "4ème",
+        "5ème",
+        "6ème",
+        "7ème",
+        "8ème"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 7,
+      "question": "La densité d'eau sur la coupe scanner est combien de unité de Hounsfield (UH)",
+      "images": [],
+      "image": "",
+      "options": [
+        "-1000UH",
+        "+40UH-80UH.",
+        "-10UH-+15UH.",
+        "+100UH-400UH.",
+        "-50UH-60UH."
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 8,
+      "question": "La densité de sang sur la coupe scanner est combien de unité de Hounsfield (UH)",
+      "images": [],
+      "image": "",
+      "options": [
+        "-1000UH",
+        "+40UH-80UH.",
+        "-10UH-+15UH.",
+        "+100UH-400UH.",
+        "-50UH-60UH."
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 9,
+      "question": "Comment on faire pour distinguer bien les vasculaires sur la scanner thoracique?",
+      "images": [],
+      "image": "",
+      "options": [
+        "Injection produit de contraste",
+        "Reconstruction 3D.",
+        "Coupe sagittal.",
+        "Changer à fenêtre pulmonaire.",
+        "Coupe coronal."
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 10,
+      "question": "Bronche de Nelson de bronche lobaire inférieur est autre nom de quelle bronche?",
+      "images": [],
+      "image": "",
+      "options": [
+        "Bronche segmentaire paracardiaque",
+        "Bronche segmentaire apicale",
+        "Bronche segmentaireantérobasale.",
+        "Bronche segmentairelatérobasale.",
+        "Bronche segmentaire postérobasale."
+      ],
+      "correctIndex": 1
+    }
+  ]
+}

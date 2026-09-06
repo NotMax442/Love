@@ -1,0 +1,290 @@
+{
+  "questions": [
+    {
+      "id": 1,
+      "question": "Parmi les propositions suivantes concernant Articulation de Chopart, laquelle est exacte :",
+      "images": [],
+      "image": "",
+      "options": [
+        "Articulation médio-tarsienne",
+        "Articulation tarso-métatarsienne",
+        "Articulation talo-crural",
+        "Articulation tibio-fiubaire distal sous-talienne",
+        "Avant-pied"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 2,
+      "question": "Parmi les propositions suivantes concernant Articulation de lisfranc, laquelle est exacte :",
+      "images": [],
+      "image": "",
+      "options": [
+        "Articulation médio-tarsienne",
+        "Articulation tarso-métatarsienne",
+        "Articulation talo-crural",
+        "Articulation tibio-fiubaire distal sous-talienne",
+        "Avant-pied"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 3,
+      "question": "les ménisques (une ou pusieures proposition(s)exact(s))?",
+      "images": [],
+      "image": "",
+      "options": [
+        "Les ménisques sont tirés vers l'arrière en flexion du genou",
+        "Les ménisques sont tirés vers l'avant en flexion du genou",
+        "Les ménisques sont tirés vers l'arrière en extension du genou",
+        "Le ménisque a la forme de E",
+        "Les cornes des ménisques sont maintenues par des ligaments croisés antérieur et postérieur."
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 4,
+      "question": "Parmi les propositions suivantes concernant les os de l'articulation du genou, laquelle est exacte :",
+      "images": [],
+      "image": "",
+      "options": [
+        "2 os (fémur et rotule)",
+        "3 os (fémur, rotule et tibia)",
+        "2 os (fémur et tibia)",
+        "4 os (femur, tibia, rotule et péroné)",
+        "5 os (femur, tibia, rotule, péroné et astragal)"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 5,
+      "question": "Les deux condyle arrondis qui reposent sur le plateau plat ne sont pas stable, sa stabilité dépend de combien de ligaments principals qui maintiennent en place le fémur et le tibia?",
+      "images": [],
+      "image": "",
+      "options": [
+        "02",
+        "03",
+        "4",
+        "05",
+        "06"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 6,
+      "question": "Quel est le role des ligaments latérale externe ou collatéral lateral?",
+      "images": [],
+      "image": "",
+      "options": [
+        "Amortisser l' action du fémur sur le tibia.",
+        "Empêcher le femur de glisser en avant sur le tibia",
+        "Empêcher le femur de glisser postérieur sur le tibia",
+        "Assurer la congruence des surfaces articulaires",
+        "Stabilité transversale du genou."
+      ],
+      "correctIndex": 4
+    },
+    {
+      "id": 7,
+      "question": "Quel est le role du ligament croisé antérieur du genou?",
+      "images": [],
+      "image": "",
+      "options": [
+        "Amortisser l' action du fémur sur le tibia.",
+        "Empêcher le femur de glisser en avant sur le tibia",
+        "Empêcher le femur de glisser postérieur sur le tibia",
+        "Assurer la congruence des surfaces articulaires",
+        "Stabilité transversale du genou."
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 8,
+      "question": "Quel est le role du ligament croisé postérieur du genou?",
+      "images": [],
+      "image": "",
+      "options": [
+        "Amortisser l' action du fémur sur le tibia.",
+        "Empêcher le femur de glisser en avant sur le tibia",
+        "Empêcher le femur de glisser postérieur sur le tibia",
+        "Assurer la congruence des surfaces articulaires",
+        "Stabilité transversale du genou."
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 9,
+      "question": "Quel est le role des ménisque interne et externe?",
+      "images": [],
+      "image": "",
+      "options": [
+        "Amortisser l' action de la rotule sur le fémur",
+        "Empêcher le femur de glisser en avant sur le tibia",
+        "Empêcher le femur de glisser postérieur sur le tibia",
+        "Assurer la congruence des surfaces articulaires",
+        "Stabilité transversale du genou."
+      ],
+      "correctIndex": 3
+    },
+    {
+      "id": 10,
+      "question": "Le tarse postérieur (une ou plusieurs proposition(s) exacte(s)) :",
+      "images": [],
+      "image": "",
+      "options": [
+        "Cuboïde et os naviculaire",
+        "Les 3 cunéiformes",
+        "Talus et astragal",
+        "Cuboïde, Naviculaire et les cuneiforms",
+        "Métatarses"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 11,
+      "question": "Le tarse antérieur (une ou plusieurs proposition(s) exacte(s)) :",
+      "images": [],
+      "image": "",
+      "options": [
+        "Cuboïde et os naviculaire",
+        "Les 3 cunéiformes",
+        "Talus et astragal",
+        "Cuboïde, Naviculaire et les cunéiforms",
+        "Métatarses"
+      ],
+      "correctIndex": 3
+    },
+    {
+      "id": 12,
+      "question": "Sur l'ASP couché, l'examen doit être vu jusqu'à :",
+      "images": [],
+      "image": "",
+      "options": [
+        "La coupole diaphragmatique",
+        "Les crêtes iliaques",
+        "Le pubis",
+        "La colonne lombaire L5",
+        "Les 12ème côtes"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 13,
+      "question": "Sur l'ASP debout, l'examen doit être vu jusqu'à :",
+      "images": [],
+      "image": "",
+      "options": [
+        "Le pubis",
+        "Les coupoles diaphragmatiques",
+        "La vessie",
+        "Les 12ème côtes",
+        "L'estomac"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 14,
+      "question": "L'un des repères extra digestifs sur l' ASP est:",
+      "images": [],
+      "image": "",
+      "options": [
+        "Le psoas",
+        "La poche à air gastrique",
+        "La calcification pancréatique",
+        "L'air dans le colon transverse",
+        "L'ombre hépatique"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 15,
+      "question": "On peut reconnaître les intestins grêles sur l'ASP par:",
+      "images": [],
+      "image": "",
+      "options": [
+        "Les haustrations",
+        "Les granités stercoraux",
+        "Les valvules de conniventes",
+        "L'air en périphérie de l'abdomen",
+        "Image clarté en HCG"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 16,
+      "question": "Sur les coupes échographiques, les segments 2,4,8,7 du foie sont divisées par :",
+      "images": [],
+      "image": "",
+      "options": [
+        "Les veines sus hépatiques",
+        "Les branches portales",
+        "Les voies biliaires",
+        "Les branches des artères hépatiques",
+        "La vésicule biliaire"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 17,
+      "question": "Le contenu liquidien de la vésicule biliaire normal à l'échographie apparaît en:",
+      "images": [],
+      "image": "",
+      "options": [
+        "Hyperéchogène",
+        "Isoéchogène",
+        "Anéchogène",
+        "Hyper et hypoéchogène",
+        "Hypoéchogène"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 18,
+      "question": "L'examen si-dessous est un :",
+      "images": [
+        "y2-semiologie-dr-sam-ang-kimdany-q9-image-1.jpg"
+      ],
+      "image": "y2-semiologie-dr-sam-ang-kimdany-q9-image-1.jpg",
+      "options": [
+        "ASP debout normal",
+        "ASP couché normal",
+        "ASP en décubitus latéral droit normal",
+        "ASP en décubitus latéral gauche normal",
+        "ASP pathologique"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 19,
+      "question": "L'examen si-dessous est un :",
+      "images": [
+        "y2-semiologie-dr-sam-ang-kimdany-q9-image-2.jpg"
+      ],
+      "image": "y2-semiologie-dr-sam-ang-kimdany-q9-image-2.jpg",
+      "options": [
+        "ASP debout pathologique",
+        "ASP debout normal",
+        "ASP en décubitus latéral droit normal",
+        "ASP en décubitus latéral gauche normal",
+        "ASP couché normal"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 20,
+      "question": "L'examen si-dessous est une coupe axiale en scanner au niveau de:",
+      "images": [
+        "y2-semiologie-dr-sam-ang-kimdany-q9-image-3.jpg"
+      ],
+      "image": "y2-semiologie-dr-sam-ang-kimdany-q9-image-3.jpg",
+      "options": [
+        "Les intestins grêles",
+        "Le colon ascendant",
+        "Le foie",
+        "Le pancréas",
+        "Le pelvis (cul de sac de Douglas)"
+      ],
+      "correctIndex": 4
+    }
+  ]
+}

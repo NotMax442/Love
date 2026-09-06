@@ -1,0 +1,281 @@
+{
+  "questions": [
+    {
+      "id": 1,
+      "question": "Dans les examens de la partie abdominale on divise plusieurs quadrants pour faciliter le diagnostic de la maladie. Est qu'il y a bien de quadrants divisé ?",
+      "images": [],
+      "image": "",
+      "options": [
+        "9 quadrants",
+        "8 quadrants",
+        "7 quadrants",
+        "6 quadrants",
+        "5 quadrants"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 2,
+      "question": "Citez les muscles de la paroi abdominale de dehors en dedans ?",
+      "images": [],
+      "image": "",
+      "options": [
+        "Muscle droit de l'abdomen, grand oblique, petite oblique, transverse",
+        "Muscle oblique externe, interne, transverse, grand oblique, petite oblique",
+        "Muscle droit de l'abdomen, transverse, grand droit, petite droit",
+        "Muscle grand droit, petite droit, grand oblique, petite oblique",
+        "Muscle droit de l'abdomen, grand oblique, petite oblique, oblique externe"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 3,
+      "question": "Dans le cancer de l'estomac, il faux chercher les ganglions de Troisier ? Où se trouve ces ganglions?",
+      "images": [],
+      "image": "",
+      "options": [
+        "Sous claviculaire gauche",
+        "Sous claviculaire droit",
+        "Sus claviculaire gauche",
+        "Sus claviculaire droit",
+        "Axillaire gauche"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 4,
+      "question": "Quel est la différence entre l'Hématémèse et l' Hémoptisie?",
+      "images": [],
+      "image": "",
+      "options": [
+        "Hémoptisie: rejet de sang aéré par la bouche en provenance de l'appareil respiratoire et mématémèse: rejet de sang avec ou non alimentaires en provenance de l'appareil digestive.",
+        "Hémoptisie: rejet de sang aéré ou alimentaire par la bouche en provenance de l'appareil respiratoire et de l'appareil digestive pendant vomissement.",
+        "Hématémèse: rejet de sang aéré par la bouche en provenance de l'appareil respiratoire et hemoptisie: rejet de sang avecdébris alimentaire en provenance de l'appareil digestive.",
+        "Hématémèse: rejet de sang aéré par la anus en et hemoptisie: rejet de sang par la bouche pendant toux et vomissement.",
+        "Hématémèse: rejet de sang aéré en provenance de l'appareil respiratoire et hemoptisie: rejet de sang alimentaire par anus de l'appareil digestive."
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 5,
+      "question": "Si une sac de l' hernie est dans le scrotum, quel est le nom de cet hernie?",
+      "images": [],
+      "image": "",
+      "options": [
+        "Hernie crurale",
+        "Hernie indirect",
+        "Hernie directe",
+        "Hernie fémorale",
+        "Hernie obturatrice"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 6,
+      "question": "Où se trouve l'hernie de Spiegel de la paroi abdominale?",
+      "images": [],
+      "image": "",
+      "options": [
+        "Correspond au lieu d'entrecroisement des fibres musculaires des muscles obliques et transverses, au niveau de bord externe des muscles droits.",
+        "Correspond au lieu d'entrecroisement des fibres musculaires des muscles droits et transverses, au niveau de bord externe des muscles droits.",
+        "Correspond au lieu d'entrecroisement des fibres musculaires des muscles transverses et inguinales, au niveau de bord externe des muscles droits.",
+        "Correspond au lieu d'entrecroisement des fibres musculaires des muscles transverses, au niveau de bord externe des muscles obliques.",
+        "Correspond au lieu d'entrecroisement des fibres musculaires des muscles obliques au niveau de bord externe des muscles transverse."
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 7,
+      "question": "Pendant l'examen normal de l'abdomen il y a certain organes intraabdominales sontfréquemment palpable excepteune organe de l'abdomen est non palpable, la quelle ?",
+      "images": [],
+      "image": "",
+      "options": [
+        "Intestin grêle",
+        "Colon",
+        "Foie",
+        "Pancreas",
+        "Aort"
+      ],
+      "correctIndex": 3
+    },
+    {
+      "id": 8,
+      "question": "Quel est le point de repère entre la partie digestive haute et la partie digestive base?",
+      "images": [],
+      "image": "",
+      "options": [
+        "Angle colique gauche",
+        "Angle colique droit",
+        "Charnièrerecto-sigmoidien",
+        "Antro-pylorique",
+        "Angle duodéo-jéjunale"
+      ],
+      "correctIndex": 4
+    },
+    {
+      "id": 9,
+      "question": "Citer les 3 facteurs favorisants fréquence de l'ulcère gastroduodénale ?",
+      "images": [],
+      "image": "",
+      "options": [
+        "Infection (Helicobacterpylori), médicaments gastrotoxique, tabac",
+        "Occlusion, infection, antibiotiques",
+        "Médicaments gastrotoxique, appendicite, hernie",
+        "Vomissement, iléus paralytique, fièvre",
+        "Constipation chronique, infection urinaire, antipyrétique"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 10,
+      "question": "Quelle est la différence entre défense et contracture abdominale?",
+      "images": [],
+      "image": "",
+      "options": [
+        "Défense: contraction douloureuse des muscles de la paroi abdominale, qui est déclenchée par la palpation\nContracture: rigidité abdominale due à une contraction involontaire, douloureuse, persistante (le «ventre est de bois »), qui témoigne d'une péritonite.",
+        "Contracture: contraction douloureuse des muscles de la paroi abdominale, qui est déclenchée par la palpation\nDefense: rigidité abdominale due à une contraction involontaire, douloureuse, persistante (le «ventre est de bois »), qui témoigne d'une péritonite."
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 11,
+      "question": "Un homme de 22 ans, sportif et garçon de café, entré pour une douleur faux iliaque droit avec fièvre évolué depuis hier soir. Vous examinez le patient et trouvez une douleur à la décompression brutale de la fosse iliaque droite. Quel est le nom de cette signe ?",
+      "images": [],
+      "image": "",
+      "options": [
+        "Signe de Bloomberg",
+        "Signe de Murphyse",
+        "Signe de Rosing",
+        "Signe de Psoas",
+        "Signe de Flot"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 12,
+      "question": "Un homme de 22 ans, sportif et garçon de café, entré pour une douleur faux iliaque droit avec fièvre évolué depuis hier soir. Vous examinez le patient et trouvez une défense faux iliaque droit avec signe de Rovsing positive. Quel est le diagnostic probable?",
+      "images": [],
+      "image": "",
+      "options": [
+        "Appendicite",
+        "Cholecystite",
+        "Pancreatite",
+        "Angiocholite",
+        "Hernie"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 13,
+      "question": "Un home est un train de travailler avec effort physique, il se plaint de douleur abdominale dans la région quadrant inférieur droit. Il a été diagnostiqué comme une hernie inguinale étranglé. La chirurgie est indiqué. Pendant l'intervention, chirurgien a trouvé une portion de l' intestin dans le sac hernie qui est lateraldes vaisseaux épigastriques et au dessus de ligament inguinale( arcade crurale). L' hernie est considéré comme :",
+      "images": [],
+      "image": "",
+      "options": [
+        "Hernie indirecte ou congénitale",
+        "Hernie fémorale ou crurale",
+        "Hernie ombilicale ou congénitale",
+        "Hernie crurale ou abdominale",
+        "Hernie directe et oblique externe"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 14,
+      "question": "Il y a plusieur facteur étiologique de l'hernie inguinale direct et indirect. Quelle est la cause de l'hernie inguinale ?",
+      "images": [],
+      "image": "",
+      "options": [
+        "Augmentation de hydroxyproline dans l'aponévrose de l' hernie du patient",
+        "La fermeture complète du canal péritonéo-vaginal dès de la naissance",
+        "L'effort physique joue un rôle fondamental pour la protection de la paroi",
+        "Fumer entraîne une facteur étiologique de l' hernie inguinale.",
+        "La majorité de l' hernie inguinale est acquise et régresse spontanément"
+      ],
+      "correctIndex": 3
+    },
+    {
+      "id": 15,
+      "question": "Non fermeture ou anomalie du canal péritonéo-vaginal peut donner des certains maladies inguinoscrotales:",
+      "images": [],
+      "image": "",
+      "options": [
+        "Hydrocèle, hernie congénitale et cryptorchidie",
+        "Hernie congénitale, hernie direct et Hydrocèle",
+        "Kyste du cordon, hernie direct, et cryptorchidie",
+        "Cryptorchidie, hernie direct et Hydrocèle",
+        "Hernie direct et indirecte et ectopie testiculaire"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 16,
+      "question": "L'hernie qui est plus fréquence chez la femme est ?",
+      "images": [],
+      "image": "",
+      "options": [
+        "hernie fémorale",
+        "hernie inguinale",
+        "hernie obturateur",
+        "Hernie de Spiegel",
+        "hernie ombilicale"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 17,
+      "question": "Une femme de 59 ans est entrée pour une fièvre et douleur abdominal diffus. Vous examinez la patient qui est ictère conjonctival elle vous signale que cela fait 2 semaines environ. Vous notez une défense abdominal sans contracture en hypochondre droit et péri-ombilical. Quel est votre diagnostic plus probable ?",
+      "images": [],
+      "image": "",
+      "options": [
+        "Angiocholite",
+        "Appendicite",
+        "Rectocolite",
+        "Gastrite",
+        "Cholecystite"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 18,
+      "question": "Qu'est ce que c'est le signe de Flot ?",
+      "images": [],
+      "image": "",
+      "options": [
+        "Transmission d'une onde de choc imprimée sur l'abdomen par la main du médecin d'un flanc à l'autre.",
+        "Douleur en fosse iliaque droite provoqué par la percussion du talon.",
+        "douleur en fosse iliaque droite provoqué à la palpation de la fosse iliaque gauche.",
+        "douleur au site de la palpation bloque l'inspiration.",
+        "Contraction permanent de la paroi abdominal"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 19,
+      "question": "Normalement on peut différencier entre la masse de la paroi abdominale et masse dans la cavité abdominale car:",
+      "images": [],
+      "image": "",
+      "options": [
+        "Masse de la paroi abdominal est toujours palpable, masse dans la cavité abdominale est cachée par la contraction musculaire.",
+        "Masse de la paroi abdominal est non palpable, masse dans la cavité abdominale est cachée par la contraction musculaire.",
+        "Masse de la paroi abdominal est cachée, masse dans la cavité abdominale n'est pas cachée par la contraction musculaire.",
+        "Masse de la paroi abdominal est est cachée par la contraction musculaire, masse dans la cavité abdominale toujours palpable,.",
+        "Masse de la paroi abdominal est palpable, masse dans la cavité abdominale est toujours palpable aussi."
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 20,
+      "question": "Une femme de 64 ans est entrée pour distendu abdominal. Vous examinez la patient qui est sub ictère conjonctival. Vous notez une absence de bruit intestinaux.Signe de glaçon est positif.Dans son antécédent elle a hépatite C chronique. Echographie abdominale montre une épanchement abondance. Quel est votre diagnostic plus probable ?",
+      "images": [],
+      "image": "",
+      "options": [
+        "Cirrhose du foie avec ascite",
+        "Hépatite.C",
+        "Cholecystite",
+        "Appendicite",
+        "Masse abdominale"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

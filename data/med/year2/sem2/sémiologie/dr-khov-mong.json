@@ -1,0 +1,98 @@
+{
+  "questions": [
+    {
+      "id": 1,
+      "question": "Quel est le moyen d'imagerie médicale, le plus facile, peut coûteux, non irradiant et non invasive pour détecter les pathologies de la femme?",
+      "images": [],
+      "image": "",
+      "options": [
+        "Radiographie standard",
+        "Radiographie interventionnelle",
+        "IRM",
+        "Echographie",
+        "TDM"
+      ],
+      "correctIndex": 3
+    },
+    {
+      "id": 2,
+      "question": "Quels examens qui utilisent les rayons X ?",
+      "images": [],
+      "image": "",
+      "options": [
+        "TDM-Radiographie standard",
+        "IRM",
+        "Echographie 3D",
+        "Echographie - Hystérosonographie"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 3,
+      "question": "Quels examens qui n'utilisent pas les rayons X ?",
+      "images": [],
+      "image": "",
+      "options": [
+        "TDM",
+        "Radiographie interventionnelle",
+        "Echo - IRM",
+        "Radiographie standard",
+        "Hystérosalpingographie"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 4,
+      "question": "Quelle est la terminologie pour échographie ?",
+      "images": [],
+      "image": "",
+      "options": [
+        "Hypo-Iso-Hyper signal.",
+        "Hypo-Iso-Hyper intense",
+        "Hypo-Iso-Hyper densité",
+        "Hypo-Iso-Hyper échogène"
+      ],
+      "correctIndex": 3
+    },
+    {
+      "id": 5,
+      "question": "Quelle est la terminologie pour tomodensitométrie (TDM)?",
+      "images": [],
+      "image": "",
+      "options": [
+        "Hypo-Iso-Hyper densité",
+        "Hypo-Iso-Hyper signal.",
+        "Hypo-Iso-Hyper intense",
+        "Hypo-Iso-Hyper échogène"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 6,
+      "question": "Quelle est la terminologie pour imagerie par résonance magnétique (IRM) ?",
+      "images": [],
+      "image": "",
+      "options": [
+        "Hypo-Iso-Hyper densité",
+        "Hypo-Iso-Hyper signal",
+        "Clarté opacité",
+        "Hypo-Iso-Hyper échogène"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 7,
+      "question": "Quelle est la terminologie pour radiographie standard?",
+      "images": [],
+      "image": "",
+      "options": [
+        "Hypo-Iso-Hyper densité",
+        "Hypo-Iso-Hyper signal",
+        "Clarté opacité",
+        "Hypo-Iso-Hyper intense",
+        "Hypo-Iso-Hyper échogène"
+      ],
+      "correctIndex": 2
+    }
+  ]
+}

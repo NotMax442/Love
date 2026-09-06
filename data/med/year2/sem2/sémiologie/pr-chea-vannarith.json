@@ -1,0 +1,144 @@
+{
+  "questions": [
+    {
+      "id": 1,
+      "question": "ចូរជ្រើសរើសចំលើយមួយខាងក្រោមសំរាប់ភាពខុសគ្នា នៃ សរសៃឈាម Vein និង Artère.",
+      "images": [],
+      "image": "",
+      "options": [
+        "មាន3 ស្រទាប់ដូចគ្នា",
+        "មាន Valve សំរាប់សរសៃឈាម Veine",
+        "Satellite ជាមួយគ្នា",
+        "មានភាព Resistivitéដូចគ្នា",
+        "ទទួលឈាមក្នុង Direction ខុសគ្នា"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 2,
+      "question": "បច្ចេកទេសសំរាប់ពិនិត្យលើ Vessels ដែលគ្មានភាពAggressivityគឺ",
+      "images": [],
+      "image": "",
+      "options": [
+        "Nuclear",
+        "ACT Scary with IVC",
+        "MRA with Gd",
+        "Doppler Ultrasound",
+        "Angiography"
+      ],
+      "correctIndex": 3
+    },
+    {
+      "id": 3,
+      "question": "ក្នុងការចាប់ផ្តើម Investigation Vascular Imaging គេចាប់ផ្តើមដោយ:",
+      "images": [],
+      "image": "",
+      "options": [
+        "Gray Scale Ultrasound",
+        "Doppler Ultrasound",
+        "Angio-CT",
+        "Angiography",
+        "MRA"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 4,
+      "question": "Dilatation of Artery ពិសេសសំរាប់ Abdominal Aorta អាចរកឃើញដោយ:",
+      "images": [],
+      "image": "",
+      "options": [
+        "Abdominal Ultrasound",
+        "Chest X-Ray",
+        "Echo-2D",
+        "Cholangiopragphy",
+        "Endoscopy"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 5,
+      "question": "Type ណាមួយនៃ Aneurysm ត្រូវធ្វើឡើងដោយ Angiography សំរាប់ Therapeutic Purpose:",
+      "images": [],
+      "image": "",
+      "options": [
+        "True Aneurysm",
+        "Artery Dissection",
+        "Artery rupture",
+        "Varicocele",
+        "Echo-Doppler"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 6,
+      "question": "ចំពោះ Stenosis of Artery យើងអាចធ្វើរោគវិនិច្ឆ័យដោយ Technique non aggressive",
+      "images": [],
+      "image": "",
+      "options": [
+        "Angiography",
+        "Arteriography",
+        "Phlebography",
+        "Aortoplasty",
+        "Echo-Doppler"
+      ],
+      "correctIndex": 4
+    },
+    {
+      "id": 7,
+      "question": "លក្ខ័ណ្ឌនៃរូបភាពវេជ្ជសាស្រ្តដែលសំគាល់ថាមាន Stenosis លើ Carotid Artery លើ Echo-Doppler យើងឃើញមាន",
+      "images": [],
+      "image": "",
+      "options": [
+        "Acceleration Pre-Stenosis Zone",
+        "Acceleration នៅ Level of Stenosis Zone",
+        "Turbulence នៅPre-Stenosis Zone",
+        "Turbulence នៅStenosis Zone",
+        "ធម្មតាលើ Velocity សំរាប់ Stenosis លើសពី 50%"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 8,
+      "question": "ក្នុងករណីមាន Pulmonary Embolism បច្ចេកទេស Medical Imaging ត្រូវផ្អែកលើ",
+      "images": [],
+      "image": "",
+      "options": [
+        "Echo-Doppler",
+        "Echography",
+        "Computed Tomography Angiogram (CTA)",
+        "Resonance Magnetic Angiogram (RMA)",
+        "Selective Venegraphy"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 9,
+      "question": "ក្នុងចំណោមបច្ចេកទេសប្រើប្រាស់ Investigation of pulmonary Embolism. បច្ចេកទេសងាយស្រួលហើយ Non Aggressive គឺ:",
+      "images": [],
+      "image": "",
+      "options": [
+        "Angiography",
+        "Angiplasty",
+        "Echography",
+        "Echo-Doppler",
+        "Computed Tomography Angiogram"
+      ],
+      "correctIndex": 3
+    },
+    {
+      "id": 10,
+      "question": "Dissection Aortic គឺជា :",
+      "images": [],
+      "image": "",
+      "options": [
+        "Type of Dilatation",
+        "Type of Varicocele",
+        "Type of Embolism",
+        "Type of Malignant Tumor លើ Aorta",
+        "Type of inflammation or Infection លើ Aorta."
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

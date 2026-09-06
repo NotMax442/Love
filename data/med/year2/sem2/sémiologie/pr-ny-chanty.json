@@ -1,0 +1,60 @@
+{
+  "questions": [
+    {
+      "id": 1,
+      "question": "Exploration Fonctionnelle Respiratoire (EFR) (1 seule réponse fausse)[cite: 9]",
+      "images": [],
+      "image": "",
+      "options": [
+        "Technique pour détecter la fonction respiratoire[cite: 9]",
+        "Technique pour détecter la pathologie des parenchymes pulmonaires[cite: 9]",
+        "Technique pour détecter la pathologie d'origine des voies aérienne[cite: 9]",
+        "Toutes les pathologies pulmonaires montrent les variations d'EFR[cite: 9]",
+        "Crise d'asthme sévère est contre indiqué d'EFR[cite: 9]"
+      ],
+      "correctIndex": 3
+    },
+    {
+      "id": 2,
+      "question": "Intérêt de Spiromètre:[cite: 9]",
+      "images": [],
+      "image": "",
+      "options": [
+        "Mesures les volumes mobilisables et non mobilisable.[cite: 9]",
+        "Ce n'est pas d'exploration fonctionnelle respiratoire[cite: 9]",
+        "Présenter la baisse de VEMS et rapport de VEMS/CV normal dans le syndrome obstructif.[cite: 9]",
+        "Présenter la baisse de VEMS et rapport de VEMS/CV normal dans la pneumonie[cite: 9]",
+        "C'est le technique simple de détecter et aucune contre indication[cite: 9]"
+      ],
+      "correctIndex": 3
+    },
+    {
+      "id": 3,
+      "question": "Intérêt d'EFR (1 seul réponse fausse)[cite: 9]",
+      "images": [],
+      "image": "",
+      "options": [
+        "L'EFR objective le dysfonctionnement de la fonction respiratoire, situé au niveau d'un (ou plusieurs) maillon(s) de la chaîne de transport des gaz (O2, CO2).[cite: 9]",
+        "L'EFR précise la nature, l'intensité et l'évolution de la dysfonction[cite: 9]",
+        "L'EFR est une discipline explicative du symptôme respiratoire (dyspnée, toux ...)[cite: 9]",
+        "L'EFR est un point d'ancrage pour établir le pronostic d'une maladie respiratoire chronique[cite: 9]",
+        "L'EFR est le meilleur technique d'exploration des pathologies respirators[cite: 9]"
+      ],
+      "correctIndex": 4
+    },
+    {
+      "id": 4,
+      "question": "Gaz du sang[cite: 9]",
+      "images": [],
+      "image": "",
+      "options": [
+        "Permet l'évaluation de la fonction d'hématose des poumons[cite: 9]",
+        "Permet l'évaluation de stade de BPCO[cite: 9]",
+        "Permet l'évaluation de stade de l'asthme[cite: 9]",
+        "Appliquer en cas où le détresse respiratoire sévère[cite: 9]",
+        "Gaz du sans et transfère de gaz (DLCO) sont le même principe[cite: 9]"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

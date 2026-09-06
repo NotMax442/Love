@@ -1,0 +1,130 @@
+{
+  "questions": [
+    {
+      "id": 1,
+      "question": "Quel est le diagnostic le plus probable devant une toux aiguë associée à une fièvre ?",
+      "images": [],
+      "image": "",
+      "options": [
+        "Tuberculose",
+        "Bronchite aiguë",
+        "Cancer pulmonaire",
+        "Pleurésie",
+        "Pneumothorax"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 2,
+      "question": "Quel est le diagnostic le plus probable devant une hémoptysie chez une ancienne tuberculose pulmonaire ?",
+      "images": [],
+      "image": "",
+      "options": [
+        "Cancer pulmonaire",
+        "Pneumonie",
+        "Épanchement pleural",
+        "Embolie pulmonaire",
+        "Dilatation des bronches"
+      ],
+      "correctIndex": 4
+    },
+    {
+      "id": 3,
+      "question": "Une jeune femme de 20 ans présentant une dyspnée aiguë de type expiratoire d'apparition surtout la nuit, quel diagnostique évoquez-vous le plus probable ?",
+      "images": [],
+      "image": "",
+      "options": [
+        "Asthme",
+        "Bronchite aiguë",
+        "Pneumonie",
+        "Bronchopneumopathie chronique obstructive (BPCO)",
+        "Edème aiguë du poumon"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 4,
+      "question": "Un homme de 70 ans avec un antécédent d'hypertension artérielle présentant une toux avec expectoration mousseuse et dyspnée de type orthopnée, quel est le diagnostic le plus probable?",
+      "images": [],
+      "image": "",
+      "options": [
+        "Cancer pulmonaire",
+        "Pneumonie",
+        "Edème aiguë du poumon",
+        "Asthme",
+        "Embolie pulmonaire"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 5,
+      "question": "Devant une toux chronique, fièvre prolongée associée à une altération de l'état général, quel est le diagnostic le plus probable ?",
+      "images": [],
+      "image": "",
+      "options": [
+        "Bronchite aiguë",
+        "Pneumonie bactérienne",
+        "Tuberculose",
+        "Pleurésie",
+        "Embolie pulmonaire"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 6,
+      "question": "Quel argument pensez-vous que c'est une hémoptysie?",
+      "images": [],
+      "image": "",
+      "options": [
+        "Sang rouge survenant lors d'effort de toux",
+        "Sang rouge mêlé de débris alimentaire",
+        "Sang noir et foncé avec débris alimentaire",
+        "Ayant un ATCD digestif",
+        "Sang noir survenant lors de vomissement"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 7,
+      "question": "Comment définissez-vous l'hémoptysie de moyenne abondance?",
+      "images": [],
+      "image": "",
+      "options": [
+        "Crachat hémoptoïque",
+        "Quantité de sang < 50 ml",
+        "Quantité de sang entre 50 et 200 ml",
+        "Quantité de sang entre 200 ml et 500 ml",
+        "Quantité de sang > 500 ml"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 8,
+      "question": "Devant une expectoration muco-purulente chronique de grande abondance survenant chez un antécédent de tuberculose pulmonaire. Quel est le diagnostic le plus probable ?",
+      "images": [],
+      "image": "",
+      "options": [
+        "Cancer pulmonaire",
+        "Asthme",
+        "Bronchite chronique",
+        "Dilatation des bronches",
+        "Pneumonie"
+      ],
+      "correctIndex": 3
+    },
+    {
+      "id": 9,
+      "question": "Toux sèche survenant lors de changement de position. Quel diagnostic le plus probable?",
+      "images": [],
+      "image": "",
+      "options": [
+        "pneumonie",
+        "asthme",
+        "tuberculose",
+        "cancer",
+        "pleurésie"
+      ],
+      "correctIndex": 4
+    }
+  ]
+}

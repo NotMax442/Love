@@ -1,0 +1,144 @@
+{
+  "questions": [
+    {
+      "id": 1,
+      "question": "A 60 year old man, with history of untreated prostate adenoma, comes to emergency ward for acute urinary retention. What is the main complain of him?",
+      "images": [],
+      "image": "",
+      "options": [
+        "Fever",
+        "Flank pain",
+        "Suprapubic pain",
+        "Abdominal pain",
+        "Hematuria"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 2,
+      "question": "\"Ureteral colic\" should be caused by:",
+      "images": [],
+      "image": "",
+      "options": [
+        "Stone in kidney",
+        "Stone in ureter",
+        "Stone in bladder",
+        "Stone in urethra",
+        "Stone in gall bladder"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 3,
+      "question": "At consultation, the sign of \"Gross/ macroscopic hematuria\" is generally made by:",
+      "images": [],
+      "image": "",
+      "options": [
+        "Urinary analysis",
+        "Blood test",
+        "Presence of bloody urine when inserting a urinary catheter",
+        "Patient tells about bloody urine at home",
+        "Patient comes with a sac of bloody urine"
+      ],
+      "correctIndex": 3
+    },
+    {
+      "id": 4,
+      "question": "Which sign that suggests the necessity to push to urinate (voiding difficulty)?",
+      "images": [],
+      "image": "",
+      "options": [
+        "Polyuria",
+        "Pollakiuria",
+        "Anuria",
+        "Dysuria",
+        "Pyuria"
+      ],
+      "correctIndex": 3
+    },
+    {
+      "id": 5,
+      "question": "In sign of \"Urgency\", patient has difficulty to:",
+      "images": [],
+      "image": "",
+      "options": [
+        "Get up at night to urinate",
+        "Pass urine",
+        "Start urination",
+        "Empty bladder after urination",
+        "Get to the toilet in time"
+      ],
+      "correctIndex": 4
+    },
+    {
+      "id": 6,
+      "question": "In case of necessity to get up frequently at night to urinate:",
+      "images": [],
+      "image": "",
+      "options": [
+        "Polyuria",
+        "Frequency",
+        "Nocturia",
+        "Dysuria",
+        "Urinary incontinence"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 7,
+      "question": "A 65 year old man has to stand close to the toilet to void because he has:",
+      "images": [],
+      "image": "",
+      "options": [
+        "Reduced force of urinary stream",
+        "Dysuria",
+        "Post-voiding dribbling",
+        "Hesitancy",
+        "Urgency"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 8,
+      "question": "A 50 year old woman, wearing a diaper (), comes to consultation of Urology. The most common problem she would have is:",
+      "images": [],
+      "image": "",
+      "options": [
+        "Frequency",
+        "Urgency",
+        "Post-voiding dribbling",
+        "Urinary incontinence",
+        "Dysuria"
+      ],
+      "correctIndex": 3
+    },
+    {
+      "id": 9,
+      "question": "How do you screen for prostate cancer?",
+      "images": [],
+      "image": "",
+      "options": [
+        "Ultrasound/echography",
+        "Urine test",
+        "Blood test: PSA",
+        "Digital rectal exam (DRE) and PSA",
+        "DRE"
+      ],
+      "correctIndex": 3
+    },
+    {
+      "id": 10,
+      "question": "When do you recommend a man of 45 year old to start screening for prostate cancer?",
+      "images": [],
+      "image": "",
+      "options": [
+        "In 3 years",
+        "In 4 years",
+        "In 5 years",
+        "In 6 years",
+        "In 7 years"
+      ],
+      "correctIndex": 2
+    }
+  ]
+}

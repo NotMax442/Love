@@ -1,0 +1,3176 @@
+{
+  "questions": [
+    {
+      "id": 1,
+      "question": "Liaison មួយណាដែលមិនមាននៅក្នុង molécule ATP?",
+      "images": [],
+      "image": "",
+      "options": [
+        "Liaison anhydrite d'acide",
+        "Liaison ester",
+        "Liaison N-glycosidique",
+        "Liaison thioester"
+      ],
+      "correctIndex": 3
+    },
+    {
+      "id": 2,
+      "question": "chaîne de transport des électrons ប្រព្រឹត្តទៅក្នុង membrane មួយណារបស់កោសិកា?",
+      "images": [],
+      "image": "",
+      "options": [
+        "Membrane lysosomique",
+        "Membrane plasmique",
+        "Membrane mitochondriale externe",
+        "Membrane mitochondriale interne"
+      ],
+      "correctIndex": 3
+    },
+    {
+      "id": 3,
+      "question": "proposition មួយណាដែលមិនត្រឹមត្រូវ?",
+      "images": [],
+      "image": "",
+      "options": [
+        "A l'état nourri, insuline កើនឡើងក្នុងឈាមដោយសា glucose កើនឡើងក្នុងឈាម",
+        "A l'état nourri, glucose ធ្វើ oxydation បានជា CO2, H2O និង énergie ចាំបាច់សំរាប់ foie.",
+        "A l'état nourri, globules rouges ធ្វើ oxydation glucose បានជា CO2, H2O និង ATP.",
+        "A l'état nourri, muscles ធ្វើ oxydation glucose បានជា CO2, H2O និង ATP សំរាប់ contraction musculaire."
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 4,
+      "question": "បើយើងប្រៀបធៀប jeûne nocturne និង jeûne d'une semaine ចំពោះបុគ្គលម្នាក់គេឃើញមាន",
+      "images": [],
+      "image": "",
+      "options": [
+        "une élévation de la glycémie",
+        "une diminution des protéines musculaires",
+        "plus de tissu adipeux",
+        "une diminution des taux sanguins de corps cétoniques"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 5,
+      "question": "proposition មួយណាដែលមិនត្រឹមត្រូវ?",
+      "images": [],
+      "image": "",
+      "options": [
+        "triacylglycérols របស់ chylomicrons និង VLDL កាត់ផ្តាច់នៅក្នុង capillaires ដោយ lipoprotéine lipase បាន acides gras និង glycérol.",
+        "ពេលហូបចំណីអាហារ acides gras ទៅកាន់ tissus adipeux ចូលរួមសំយោគtriacylglycérol ស្រុកទុក។",
+        "នៅថ្លើមតាមការធ្វើ bétoxydation acides gras គេបាន acétyl CoA.",
+        "នៅថ្លើម au cours du jeûne ប្រភព carbone សំរាប់ធ្វើ néoglucogenèse បានមកតែពីacides aminés មួយគត់。"
+      ],
+      "correctIndex": 3
+    },
+    {
+      "id": 6,
+      "question": "ស្ត្រីក្មេងម្នាក់ទម្ងន់ 55 Kg នៅផ្ទះអត់ធ្វើការធ្ងន់ ត្រូវចំណាយថាមពលគិតជា calorie (Kcal) ប្រហែល?",
+      "images": [],
+      "image": "",
+      "options": [
+        "1560",
+        "1800",
+        "1710",
+        "120"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 7,
+      "question": "ក្រោយពី jeûne de quelques jours, corps cétoniques substrat énergétique សំខាន់សំរាប់ជាលិកាមួយណា?",
+      "images": [],
+      "image": "",
+      "options": [
+        "Foie",
+        "Globule rouge",
+        "Cerveau",
+        "Rétine"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 8,
+      "question": "Dans des conditions physiologiques, molécules មួយណាដែលមិនមាន groupe phosphate riche en énergie ?",
+      "images": [],
+      "image": "",
+      "options": [
+        "ADP",
+        "ATP",
+        "AMP",
+        "Créatine-phosphate"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 9,
+      "question": "Indiquer la proposition inexacte ci-dessous. Concernant le métabolisme:",
+      "images": [],
+      "image": "",
+      "options": [
+        "Il correspond à des transformations chimiques dans l'organisme.",
+        "L'énergie issue du catabolisme peut être utilisée par l'anabolisme.",
+        "L'anabolisme permet de transformer des nutriments en tissu vivant.",
+        "Le catabolisme est du à des réactions endothermiques."
+      ],
+      "correctIndex": 3
+    },
+    {
+      "id": 10,
+      "question": "Indiquer la proposition exacte concernant le Métabolisme de base :",
+      "images": [],
+      "image": "",
+      "options": [
+        "Il est influencé au cours des pathologies hormonales.",
+        "Il dépend de la surface corporelle ainsi que des habitudes alimentaires du sujet examiné.",
+        "Il dépend de la température extérieure lors de son évaluation.",
+        "Il est plus élevé chez les hommes que chez les femmes car la graisse participe activement."
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 11,
+      "question": "Concernant le métabolisme, quelle est la proposition fausse?",
+      "images": [],
+      "image": "",
+      "options": [
+        "Le métabolisme correspond aux transformations biologiques dans l'organisme.",
+        "L'anabolisme est une réaction exothermique, c'est-à-dire qu'on emmagasine de l'énergie.",
+        "L'anabolisme est une réaction endothermique, c'est-à-dire qu'on emmagasine de l'énergie.",
+        "Le catabolisme est le passage de la matière à une énergie."
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 12,
+      "question": "A propos des échanges de matière avec l'environnement, quelle est la proposition fausse ?",
+      "images": [],
+      "image": "",
+      "options": [
+        "Les hétérotrophes se servent de l'énergie chimique constituée par les autotrophes pour obtenir leur énergie.",
+        "Les autotrophes synthétisent leur matière à partir de lumière solaire, d'eau, de sels minéraux et d'O2.",
+        "Les réactions d'oxydation des molécules organiques permettent de produire l'énergie des hétérotrophes.",
+        "ADP, ATP et CP (Créatine phosphate) permettent de produire de l'énergie chimique ou mécanique sans perte."
+      ],
+      "correctIndex": 3
+    },
+    {
+      "id": 13,
+      "question": "Une ration alimentaire de 70g de protides, 500g de glucides et 90g de lipides satisfait un métabolisme énergétique, parmi les valeurs chiffrées suivantes, dont la valeur la plus proche est de:",
+      "images": [],
+      "image": "",
+      "options": [
+        "2640 kcal",
+        "3090 kcal",
+        "4880 kcal",
+        "3100 Kcal"
+      ],
+      "correctIndex": 3
+    },
+    {
+      "id": 14,
+      "question": "ពេលហូបចំណីអាហារ acides aminés ដែលនៅក្នុងឈាមអាចចូលទៅកាន់ voie métabolique ណា?",
+      "images": [],
+      "image": "",
+      "options": [
+        "Synthèse des protéines et des composés azotés.",
+        "Synthèse des glycogènes et des lipides.",
+        "Synthèse des nucléotides et des glucoses.",
+        "Synthèse des sphingolipides et des glucoses."
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 15,
+      "question": "ពេលអត់ហូបចំណីអាហារ តើថ្លើមធ្វើ métabolisme អ្វី?",
+      "images": [],
+      "image": "",
+      "options": [
+        "Glycogénogenèse, lipogenèse et cétogenèse.",
+        "Néoglucogenèse, glycogénolyse et lipogenèse.",
+        "Cétogenèse, glycogénolyse et néoglucogenèse.",
+        "Glycolyse, glycogénogenèse et lipolyse."
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 16,
+      "question": "ក្នុងករណី jeûne nocturne molécule ដែលផ្តល់ថាមពលច្រើនជាងគេ :",
+      "images": [],
+      "image": "",
+      "options": [
+        "glycogène",
+        "Protéine",
+        "corps cétoniques",
+        "Lipide"
+      ],
+      "correctIndex": 3
+    },
+    {
+      "id": 17,
+      "question": "Métabolisme ណាដែលដំណើរការក្នុងréticulum endoplasmique lisse ?",
+      "images": [],
+      "image": "",
+      "options": [
+        "Biosynthèse des lipides et des stéroides",
+        "Biosynthèse des protéines",
+        "Réplication et transcription de l'AND",
+        "Biosynthèse des acides gras."
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 18,
+      "question": "Molécule ណាដែលផ្តល់ថាមពល ?",
+      "images": [],
+      "image": "",
+      "options": [
+        "Phospholipide, nucléotide et glucide",
+        "Protides, cholestérol et sphingolipide.",
+        "Protides, acides gras et glucides",
+        "Acides aminés, nucléoside et cholestérol"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 19,
+      "question": "Métabolisme ណាដែលដំណើរការក្នុងmitochondrie?",
+      "images": [],
+      "image": "",
+      "options": [
+        "Transcription et synthèse du cholestérol",
+        "Oxydation d'acides gras et cycle de Krebs",
+        "Synthèse des acides gras et glycolyse",
+        "Voie des pentoses phosphate et lipolyse"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 20,
+      "question": "ក្នុងករណី jeûne prolongé ប្រភពថាមពលជាសំខាន់បានមកពី:",
+      "images": [],
+      "image": "",
+      "options": [
+        "glucides",
+        "corps cétoniques",
+        "protides",
+        "triglycérides"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 21,
+      "question": "ពេលហូបចំណីអាហារ នៅក្នុងថ្លើមអាចចូលក្នុងmétabolisme :",
+      "images": [],
+      "image": "",
+      "options": [
+        "Synthèse des triglycérides, glycogénogenèse et glycolyse.",
+        "Synthèse des sphingolipides, glycogénolyse et lipogenèse.",
+        "Lipolyse, cétogenèse et cétogenèse.",
+        "Glycolyse, lipogenèse et glycogénolyse."
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 22,
+      "question": "ពេលអត់ហូបចំណីអាហារ tissus adipeux ធ្វើ métabolisme :",
+      "images": [],
+      "image": "",
+      "options": [
+        "lipogenèse",
+        "Glycogénogenèse",
+        "Lipolyse",
+        "cétogenèse"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 23,
+      "question": "សារធាតុណាដែលជាprécurseurរបស់ néoglucogenèse ?",
+      "images": [],
+      "image": "",
+      "options": [
+        "Acides aminés cétogènes, propionyl CoA, lactate et glycérol.",
+        "Propionyl CoA, lactate, glycérol et acides aminés glucoformateurs.",
+        "Triglycérides, cholestérol, glycérol et acides aminés.",
+        "Lactate, pyruvate, ester du cholestérol et phospholipides."
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 24,
+      "question": "Hormones ណាដែលប្រែប្រួលកំហាប់ក្នុងឈាមពេលហូបចំណីអាហារ?",
+      "images": [],
+      "image": "",
+      "options": [
+        "Insuline et ACTH",
+        "Insuline et glucagon",
+        "Glucagon et thyroxine",
+        "Calcitonine et estradiol"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 25,
+      "question": "ពេល jeûne prolongé ខួរក្បាលប្រើ substrat énergétique :",
+      "images": [],
+      "image": "",
+      "options": [
+        "Acides gras et glucose",
+        "Corps cétoniques et acides aminés",
+        "Glucose et corps cétoniques",
+        "Glucose et acides aminés"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 26,
+      "question": "Indiquer la proposition ineexacte ci-dessous.",
+      "images": [],
+      "image": "",
+      "options": [
+        "Le catabolisme sont des réactions qui dégradent et oxydent les nutriments.",
+        "L'anabolisme sont des réactions qui permettent la synthèse de molécules.",
+        "Les voies cataboliques sont divergentes et les voies anaboliques sont convergentes.",
+        "L'anabolisme et le catabolisme sont régulés strictly et séparément."
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 27,
+      "question": "L'oxydation de l'alcool produit approximativement:",
+      "images": [],
+      "image": "",
+      "options": [
+        "7Kcal/g",
+        "4Kcal/g",
+        "9Kcal/g",
+        "20Kcal/g"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 28,
+      "question": "Molécule មួយណាជាកត្តាកំណត់នៃការដកដង្ហើមនៃកោសិកាក្នុងករណីធម្មតា?",
+      "images": [],
+      "image": "",
+      "options": [
+        "NADH2",
+        "Oxygène",
+        "Phosphate",
+        "ADP substrat de l'ATPase"
+      ],
+      "correctIndex": 3
+    },
+    {
+      "id": 29,
+      "question": "Protéines មួយណាដែលនាំ ATP et ADP ឆ្លងកាត់membrane mitochondriale ?",
+      "images": [],
+      "image": "",
+      "options": [
+        "citrate translocase et lyase",
+        "nucléotide translocase et porine",
+        "carnitine acyl transférase I",
+        "carnitine acyl transférase II"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 30,
+      "question": "NADH2 cytoplasmique peut entrer dans la mitochondrie par:",
+      "images": [],
+      "image": "",
+      "options": [
+        "une navette glycérol phosphate ou navette malate aspartate",
+        "un citrate translocase",
+        "un carnitine acyl transférase",
+        "un thiolase"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 31,
+      "question": "Laquelle de ces affirmations est inexacte? Le cycle de Krebs:",
+      "images": [],
+      "image": "",
+      "options": [
+        "commence après décarboxylation du pyruvate",
+        "fait intervenir différentes enzymes dont la fumarase",
+        "à chaque tour, une molécule de CO2 est dégagée",
+        "à chaque tour, un seul ATP est directement formed"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 32,
+      "question": "Laquelle de ces affirmations est inexacte ? Le bilan énergétique de la respiration cellulaire.",
+      "images": [],
+      "image": "",
+      "options": [
+        "représente au total la formation de 36 ou 38 ATP par molécule de glucose",
+        "la décarboxylation oxydative amène 2 NaDH2 par molécule de glucose",
+        "s'il n'y a pas d'oxygène, il ne peut y avoir de cycle de Krebs",
+        "4 tours de cycle de Krebs sont nécessaires à la dégradation d'une molécule de glucose"
+      ],
+      "correctIndex": 3
+    },
+    {
+      "id": 33,
+      "question": "Parmi les composés ci-dessous, lequel n'est pas un intermédiaire du cycle de Krebs ?",
+      "images": [],
+      "image": "",
+      "options": [
+        "Pyruvate",
+        "Alphcétoglutarate",
+        "Oxaloacétate",
+        "Fumarate"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 34,
+      "question": "NADH2 cytoplasmique អាចចូលក្នុងmitochodrie តាមផ្លូវណា?",
+      "images": [],
+      "image": "",
+      "options": [
+        "Système citrate",
+        "Navette glycérol phosphate",
+        "Carnitine acyl transférase",
+        "Nucléotide translocase"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 35,
+      "question": "Mitochondrie ជាកន្លែងដំណើរការ métabolisme",
+      "images": [],
+      "image": "",
+      "options": [
+        "Synthèse d'acide gras",
+        "Synthèse du cholestérol",
+        "Cycle de Krebs",
+        "Synthèse des hormones stéroides"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 36,
+      "question": "Lysosome សំបូរនៅក្នុងកោសិការបស់ :",
+      "images": [],
+      "image": "",
+      "options": [
+        "Muscle",
+        "Tissus adipeux",
+        "Globules blancs",
+        "Cerveau"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 37,
+      "question": "Lipide ណាដែលជាធាតុផ្សំរបស់ភ្នាសនៃកោសិកា:",
+      "images": [],
+      "image": "",
+      "options": [
+        "Phospholipide et cholestérol",
+        "Sphingolipide et ester du cholestérol",
+        "Céramide et cholestérol",
+        "Cérébroside et triglycéride"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 38,
+      "question": "Hydrolyse ATP គេបាន:",
+      "images": [],
+      "image": "",
+      "options": [
+        "ADP+Pyrophosphate+31Kj",
+        "AMP+Phosphate+31Kj",
+        "ADP+Phosphate+31Kj",
+        "AMP+Pyrophosphate+20Kj"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 39,
+      "question": "ក្នុងrespiration cellulaire, complexe ដែលនាំ proton ពី matrice ចូលក្នុង espace intermembranaire:",
+      "images": [],
+      "image": "",
+      "options": [
+        "Complexe I et II",
+        "Complexe III et IV",
+        "Complexe I et V",
+        "Complexe II et III"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 40,
+      "question": "ក្នុងrespiration cellulaire, complexe ដែលនាំ proton ពី espace intermembranaire ចូលក្នុង matrice:",
+      "images": [],
+      "image": "",
+      "options": [
+        "Complexe I",
+        "Complexe III",
+        "Complexe V",
+        "Complexe IV"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 41,
+      "question": "Les rôles de l'ATP:",
+      "images": [],
+      "image": "",
+      "options": [
+        "Donneur d'énergie et adénosine",
+        "Donneur phosphate et GDP",
+        "Donneur AMP et GDP",
+        "Donneur pyrophosphate et GMP"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 42,
+      "question": "La biogénèse des liaisons riches en énergie អាចប្រព្រឹត្តទៅនៅ :",
+      "images": [],
+      "image": "",
+      "options": [
+        "au niveau de la respiration cellulaire et du cycle de Krebs",
+        "au niveau du substrat et de la béta oxydation",
+        "au niveau du cycle de krebs et de la glycolyse",
+        "au niveau de la respiration cellulaire et de la lipolyse"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 43,
+      "question": "Les rôles de GTP:",
+      "images": [],
+      "image": "",
+      "options": [
+        "Donneur d'énergie et adénosine",
+        "Donneur phosphate et GDP",
+        "Donneur AMP et GDP",
+        "Donneur pyrophosphate et ADP"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 44,
+      "question": "Parmi les propositions ci-dessous concernant le nicotinamide adénine dinucléotide, laquelle est inexacte ? Le nicotinamide adénine dinucléotide :",
+      "images": [],
+      "image": "",
+      "options": [
+        "est un coenzyme de le vitamine PP",
+        "est un coenzyme transporteur du proton",
+        "est un coenzyme de la vitamine B2",
+        "est un coenzyme dans les réactions oxydoréduction"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 45,
+      "question": "Parmi les propositions ci-dessous concernant du cycle glyoxylate, laquelle est inexacte ? Le cycle glyoxylate :",
+      "images": [],
+      "image": "",
+      "options": [
+        "est utilisé pour la synthèse du glucose à partir l'acide gras.",
+        "se déroule dans le glyoxysome.",
+        "se déroule dans tous les animaux.",
+        "est une oxydation incomplète de l'acétyl CoA."
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 46,
+      "question": "ហេតុដូចម្តេចបានជាមនុស្សមិនអាចបំប្លែងacide gras ឲ្យទៅជា glucose បាន?",
+      "images": [],
+      "image": "",
+      "options": [
+        "អត់មានcycle glyoxylate",
+        "មានisocitrate lyase",
+        "មានmalate synthase",
+        "មាន isocitrase"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 47,
+      "question": "Une molécule acide pyruvique ចូលក្នុងcycle de Krebs et la respiration cellulaire អាចផលិតបានATPប្រហែល:",
+      "images": [],
+      "image": "",
+      "options": [
+        "10 ATP",
+        "12 ATP",
+        "15 ATP",
+        "17 ATP"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 48,
+      "question": "molécule acétyl CoA ចូលក្នុងcycle de Krebs et la respiration cellulaire អាចផលិតបានATP ប្រហែល:",
+      "images": [],
+      "image": "",
+      "options": [
+        "10 ATP",
+        "12 ATP",
+        "15 ATP",
+        "17 ATP"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 49,
+      "question": "Parmi les propositions ci-dessous concernant la FMN et FAD, laquelle est inexacte ? La FMN et FAD:",
+      "images": [],
+      "image": "",
+      "options": [
+        "est un coenzyme de le vitamine B2",
+        "est un coenzyme transporteur du proton",
+        "est un coenzyme de la folate",
+        "est un coenzyme dans les réactions oxydoréduction"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 50,
+      "question": "Parmi les propositions ci-dessous concernant l'hème du cytochrome, laquelle estexacte ? L'hème du cytochrome transporte :",
+      "images": [],
+      "image": "",
+      "options": [
+        "du CH3",
+        "d'oxygène",
+        "du proton",
+        "de CO2"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 51,
+      "question": "Acide pyruvique អាចចូលក្នុងcycle de Krebs តាមរយ:",
+      "images": [],
+      "image": "",
+      "options": [
+        "Acétyl CoA ou oxaloacétate",
+        "Malate ou succinyl CoA",
+        "Fumarate ou oxaloaétate",
+        "Acétyl CoA ou a cétoglutarate"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 52,
+      "question": "Indiquer la proposition juste.",
+      "images": [],
+      "image": "",
+      "options": [
+        "L'hémoglobine transporte d'oxygène, d'azote et d'électropn.",
+        "L'hémoglobine transporte d'oxygène, de CO2 et d'NH3.",
+        "L'hémoglobine transporte d'oxygène, de CO2 et de proton.",
+        "L'hémoglobine transporte d'oxygène, d'urée et de proton"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 53,
+      "question": "Concernant la dégradation complète en C02 et en H2O d'un acide gras saturé à 6 atomes de carbones et du glucose",
+      "images": [],
+      "image": "",
+      "options": [
+        "En condition aérobie, la dégradation complète d'une molécule de l'acide gras va générer plus de molécules d'ATP que celle du glucose.",
+        "En condition anaérobie, la dégradation complète d'une molécule de l'acide gras va générer plus de molécules d'ATP que celle du glucose.",
+        "En condition aérobie, la quantité de molécules d'ATP produites lors de la dégradation complète de l'acide gras dépend des navettes malate/aspartate ou du glycérol-3-phosphate utilisé.",
+        "En condition aérobie et en présence d'un agent découplant (le 2,4-dinitrophénol), la dégradation complète d'une molécule de glucose va générer plus d'ATP que celle de l'acide gras."
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 54,
+      "question": "Propinyl CoA អាចមានប្រភពមកពី:",
+      "images": [],
+      "image": "",
+      "options": [
+        "Oxydation du succinate et Trp, His, Val, Ile",
+        "Oxydation d'acide gras insaturé et Thr, Val, Met, Ile",
+        "Oxydation du itrate et Ala, Cys, Leu, Phe",
+        "Oxydation d'acide gras et His, Val, Leu, Gln"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 55,
+      "question": "Cycle de Krebs មានមុខងារ:",
+      "images": [],
+      "image": "",
+      "options": [
+        "synthèse NADH2, FADH2 et ATP",
+        "synthèse glyoxylate, ATP, NADH et GTP",
+        "sythèse FMN, énergie et métabolite",
+        "synthèse glutamate, GTP et NADH2"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 56,
+      "question": "Les propositions ci-dessous concernant la chaine respiratoire mitochondriale, laquelle est exacte ?",
+      "images": [],
+      "image": "",
+      "options": [
+        "A l'exception du complexe I chaque complexe de la chaine respiratoire pompe les protons du matrice vers espace intermembranaire.",
+        "Les cofacteurs réduits (NADH,H+ et FADH2) cèdent leurs électrons aux différents complexes de I à IV jusqu'à l'oxygène.",
+        "Le complexe I de la chaine respiratoire peut directement oxyder le NADH,H+ produit dans le cytosol.",
+        "Contrairement à la glycolyse, l'oxydation des cofadteurs réduits (NADH,H+ et FADH2) par la chaine respiratoire a lieu en condition anaérobie."
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 57,
+      "question": "Les propositions ci-dessous concernant la synthèse ATP mitochondriale, laquelle est exacte ?",
+      "images": [],
+      "image": "",
+      "options": [
+        "L'ATP synthase est localisée dans la membrane externe de la mitochondrie.",
+        "L'ATP synthase est inhibée directement par l'antimycine.",
+        "La synthèse d'ATP sur l'ATP synthase est couplée au transfert d'électrons le long de la chaine respiratoire.",
+        "Les agents découplants bloquent le passage des protons au niveau de l'ATP synthase."
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 58,
+      "question": "Les propositions ci-dessous concernant le cycle de Krebs, laquelle est exacte ?",
+      "images": [],
+      "image": "",
+      "options": [
+        "Le cycle de Krebs a pour rôle de dégrader directement dans la mitochondrie les acyl-CoA",
+        "Les NADH,H+ cytosoliques entrent dans la mitochondrie par la navette malate/aspartate.",
+        "Le citrate lyase catalyse la première réaction du cycle de Krebs.",
+        "Le cycle de Krebs se produit dans toutes les cellules de l'organisme."
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 59,
+      "question": "Parmi les propriétés suivantes, laquelle est inexacte ? L'adrénaline :",
+      "images": [],
+      "image": "",
+      "options": [
+        "Est sécrétée par la médullosurrénale",
+        "Active l'adénylate cyclase",
+        "A un effet inverse de celui du cortisol sur la régulation de la glycémie.",
+        "Inhiber la glycogénèse."
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 60,
+      "question": "Tissus របស់សរីរាង្គ មួយណាដែលប្រើ corps cétoniques ជា substrat énergétique après un jeûne nocturne.",
+      "images": [],
+      "image": "",
+      "options": [
+        "Foie",
+        "Globule rouge",
+        "Muscle squelettique",
+        "Cerveau"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 61,
+      "question": "Quelle est la proposition exacte concernant la néoglucogenèse ?",
+      "images": [],
+      "image": "",
+      "options": [
+        "Est essentiellement hépatique",
+        "Permet la conversion des lipides en glucides",
+        "L'acétyl CoA participe à la néoglucogenèse",
+        "Est à la fois mitochondrial et cytoplasmique"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 62,
+      "question": "Un seul des enzymes suivants a pour coenzyme le thiamine pyrophosphate (TPP), lequel?",
+      "images": [],
+      "image": "",
+      "options": [
+        "Pyruvate déshydrogénase 1 (décarboxylase)",
+        "α-cétoglutarate déshydrogénase",
+        "glycéraldéhyle 3-phosphate déshydrogénase",
+        "6-phosphogluconate déshydrogénase"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 63,
+      "question": "Indiquez la seule réponse fausse concernant le nombre de molécules de cosubstrat résultant de l'oxydation complète d'une molécule d'acétyl-CoA",
+      "images": [],
+      "image": "",
+      "options": [
+        "12ATP",
+        "2 CO2",
+        "1 FADH2",
+        "2 NADH,H+"
+      ],
+      "correctIndex": 3
+    },
+    {
+      "id": 64,
+      "question": "Quelle est la seule proposition fausse concernant la glycolyse?",
+      "images": [],
+      "image": "",
+      "options": [
+        "elle fournit de l'ATP et du NADH,H+",
+        "elle précède le cycle de Krebs",
+        "elle transforme le glucose en pyruvate",
+        "elle ne peut avoir lieu en l'absence d'oxygène"
+      ],
+      "correctIndex": 3
+    },
+    {
+      "id": 65,
+      "question": "Quel est seul enzyme du cycle de Krebs produisant du GTP?",
+      "images": [],
+      "image": "",
+      "options": [
+        "citrate synthase",
+        "fumarase",
+        "malate déshydrogénase",
+        "succinyl-CoA synthétase ou thiokinase"
+      ],
+      "correctIndex": 3
+    },
+    {
+      "id": 66,
+      "question": "La voie des pentoses-phosphates sert à synthétiser un composé suivant. Lequel?",
+      "images": [],
+      "image": "",
+      "options": [
+        "du NADH,H+",
+        "du ribose",
+        "du glucose 1-phosphate",
+        "de l'oxaloacétate"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 67,
+      "question": "Parmi les propositions suivantes concernant le ribose, laquelle est inexacte?",
+      "images": [],
+      "image": "",
+      "options": [
+        "C'est un pentose",
+        "Sa fonction caractéristique est une cétone",
+        "Il est habituellement cyclisé sous forme furanne",
+        "C'est un des constituants de l'ARN"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 68,
+      "question": "Parmi les propositions suivantes, laquelle est inexacte?",
+      "images": [],
+      "image": "",
+      "options": [
+        "les glucides servent au stockage énergétique ils sont des carburants et des carburants des intermédiaires métaboliques",
+        "le ribose et le désoxyribose sont des sucres et sont des constituants structuraux de l'ADN",
+        "les glucides peuvent être liés à des protéines et à des lipides",
+        "les glucides sont des éléments de structure des parois cellulaires des bactéries et des végétaux."
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 69,
+      "question": "Parmi les propositions suivantes, une seule est fausse, laquelle?",
+      "images": [],
+      "image": "",
+      "options": [
+        "les oses ne peuvent être 2 fois phosphorylés",
+        "les oses Phosphoryles sont des intermédiaires métaboliques",
+        "les oses peuvent être Phosphoryles au niveau de leur atome de carbone distal",
+        "certains oses sont Phosphoryles au niveau de leur atome de carbone anomèrique"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 70,
+      "question": "Toutes les propositions suivantes concernant le lactose, laquelle est inexacte?",
+      "images": [],
+      "image": "",
+      "options": [
+        "c'est un disaccharide homogène",
+        "c'est le principal sucre du lait de mammifère",
+        "la liaison osidique entre 2 oses est α 1→4",
+        "il est hydrolysé par la lactase chez l'homme"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 71,
+      "question": "Quelle est la proposition inexacte concernant le glycogène ?",
+      "images": [],
+      "image": "",
+      "options": [
+        "Le glycogène est le principal substrat énergétique de l'hépatocyte",
+        "Le glycogène alimentaire est hydrolysé en maltose et en isomaltose",
+        "Le glycogène comprend des liaisons alpha1→4 et alpha 1→6",
+        "Le muscle peut libérer du glucose à partir du glycogène"
+      ],
+      "correctIndex": 3
+    },
+    {
+      "id": 72,
+      "question": "Pyrophosphate de thiamine មិនចូលរួមក្នុងប្រតិកម្មមួយណា?",
+      "images": [],
+      "image": "",
+      "options": [
+        "Décarboxylation de l'alphacétoglutarate.",
+        "Décarboxylation oxydative de l'acide pyruvique.",
+        "Décarboxylation oxydative des acides aminés.",
+        "Transcétolisation"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 73,
+      "question": "លក្ខណៈមួយណាដែលមិនមែនជារបស់ coenzyme A ?",
+      "images": [],
+      "image": "",
+      "options": [
+        "Possède une fonction thiol.",
+        "Est un coenzyme d'acylation.",
+        "Renferme de nombreux groupements polaires.",
+        "Dérive d'une vitamine, l'acide folique."
+      ],
+      "correctIndex": 3
+    },
+    {
+      "id": 74,
+      "question": "Parmi les composés suivants quel est celui qui participe directement à la diminution de la glycogénolyse dans le foie",
+      "images": [],
+      "image": "",
+      "options": [
+        "Insuline",
+        "Calcium",
+        "Cortisol",
+        "Adrénaline"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 75,
+      "question": "Parmi les enzymes suivants quel est le seul qui produit la phosphorylation pendant le métabolisme de base presque toutes les cellules",
+      "images": [],
+      "image": "",
+      "options": [
+        "Phosphoglucomutase",
+        "Phosphohexose isomérase",
+        "Hexokinase",
+        "Aldolase"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 76,
+      "question": "Combien peut-on oxyder de molécules d'acétyl-CoA dans le cycle de Krebs en partant d'une molécule d'oxaloacétate? (ne pas tenir compte du nombre de tour de cycle)",
+      "images": [],
+      "image": "",
+      "options": [
+        "aucune",
+        "quinze",
+        "douze",
+        "une infinité"
+      ],
+      "correctIndex": 3
+    },
+    {
+      "id": 77,
+      "question": "Parmi les intermédiaires suivants de la glycolyse désignez lui qui cède directement un phosphate à l'ADP pour former de l'ATP?",
+      "images": [],
+      "image": "",
+      "options": [
+        "fructose 1-6-diphosphate",
+        "3-phosphodihydroxyacétone",
+        "3-phospoglycéraldéhyde",
+        "phosphoénol-pyruvate"
+      ],
+      "correctIndex": 3
+    },
+    {
+      "id": 78,
+      "question": "Parmi les propositions suivantes concernant la structure de l'ATP, laquelle est inexacte ?",
+      "images": [],
+      "image": "",
+      "options": [
+        "Liaison ester.",
+        "Liaison N-glycosidique.",
+        "Liaison amide.",
+        "Liaison anhydre."
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 79,
+      "question": "Quelle est la proposition inexacte concernant le métabolisme du glycogène ?",
+      "images": [],
+      "image": "",
+      "options": [
+        "A lieu, en particulier dans le muscle et le foie",
+        "Les résidus glucidiques polymérisés en alpha 1→4 sont transformés en glucose 1 phosphate par la glycogène phosphorylase",
+        "Peut être synthétisé à partir des acides aminés cétogènes.",
+        "Le glucose 1 phosphate formé lors du catabolisme du glycogène hépatique peut être transformé en glucose"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 80,
+      "question": "Quelle est la proposition inexacte concernant des hormones hyperglycémiantes:",
+      "images": [],
+      "image": "",
+      "options": [
+        "sont toutes sécrétées par le pancréas endocrine.",
+        "activent la glycogénolyse.",
+        "sont mises en jeu exclusivement par une hypoglycémie.",
+        "activent la lipolyse"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 81,
+      "question": "A propos des mécanismes d'action hormonaux, quelle est la proposition vraie ?",
+      "images": [],
+      "image": "",
+      "options": [
+        "la transformation du glucose en glycogène est modulée par le glucagon.",
+        "l'AMPc est toujours le second messager après l'hormone.",
+        "les récepteurs intracellulaires sont spécifiques de petites hormones (stéroïdes, thyroïdiennes, amines).",
+        "la spécificité de la réponse cellulaire est en partie liée au récepteur."
+      ],
+      "correctIndex": 3
+    },
+    {
+      "id": 82,
+      "question": "លក្ខណៈមួយណាដែលមិនមែនជារបស់ glucocorticoïdes ?",
+      "images": [],
+      "image": "",
+      "options": [
+        "Stimule la néoglucogenèse hépatique.",
+        "Inhibe le catabolisme protéique musculaire.",
+        "Ont des propriétés anti-inflammatoires.",
+        "Ont des effets immuno-suppresseurs."
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 83,
+      "question": "Parmi les voies métaboliques suivantes désignez celle qui ne produit pas d'ATP?",
+      "images": [],
+      "image": "",
+      "options": [
+        "Glycolyse",
+        "Cycle de Krebs",
+        "Voie des pentoses phosphates",
+        "Chaîne respiratoire"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 84,
+      "question": "Parmi les enzymes suivantes lequel utilise comme coenzyme un dérivé de la vitamine B1?",
+      "images": [],
+      "image": "",
+      "options": [
+        "Pyruvate décarboxylase",
+        "Lactate-déshydrogénase",
+        "Pyruvate kinase",
+        "Succinate déshydrogénase"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 85,
+      "question": "Molécules មួយណាដែលមិនមែនជា précurseur របស់ néoglucogenèse ?",
+      "images": [],
+      "image": "",
+      "options": [
+        "Pyruvate",
+        "Oxaloacétate",
+        "Lactate",
+        "Acetyl-CoA"
+      ],
+      "correctIndex": 3
+    },
+    {
+      "id": 86,
+      "question": "Parmi les protéines intrinsèques ci-dessous, laquelle est utilisée pour transporter du glucose dans les conditions de bases, en période post-absorption ou le jeûn ?",
+      "images": [],
+      "image": "",
+      "options": [
+        "GLUT4",
+        "GLUT5",
+        "GLUT1 et GLUT3",
+        "GLUT2"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 87,
+      "question": "Quelle est la proposition inexacte concernant de l'hexokinase D?",
+      "images": [],
+      "image": "",
+      "options": [
+        "L'hépathocyte et les cellules béta du pancréas, expériment le gène de l'hexokinase .D",
+        "L'hexokinase .D peut également phosphoryler le Fructose et le mannose.",
+        "Le glucose-6-phosphate n'inhibe pas l'hexokinase .D",
+        "L'hexokinase catalyse la réaction de phosphorylation pendant la période d'abondance en glucose"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 88,
+      "question": "Quelle est la proposition inexacte concernant de L'insuline:",
+      "images": [],
+      "image": "",
+      "options": [
+        "est une hormone protéique.",
+        "est une des hormones hypoglycémiantes.",
+        "est une hormone hyperglycémiante.",
+        "est sécrétée au moment des jeûnes."
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 89,
+      "question": "L'insuline possède sur le métabolisme glucidique tous les effets suivants sauf un :",
+      "images": [],
+      "image": "",
+      "options": [
+        "elle diminue la synthèse de glycogène.",
+        "elle augmente la pénétration cellulaire du glucose.",
+        "elle inhibe l'hydrolyse du glycogène hépatique.",
+        "elle augmente la synthèse des lipides."
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 90,
+      "question": "Quelle est la proposition exacte concernant de La néoglucogenèse",
+      "images": [],
+      "image": "",
+      "options": [
+        "est inhibée par l'adrénaline.",
+        "est stimulée par le glucagon.",
+        "est stimulée par l'insuline.",
+        "n'existe pas dans le foie."
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 91,
+      "question": "Quelle est la proposition exacte concernant de la mise en jeu de la sécrétion de l'insuline :",
+      "images": [],
+      "image": "",
+      "options": [
+        "est essentiellement nerveuse.",
+        "est provoquée par une hypoglycémie.",
+        "est provoquée par une hyperglycémie.",
+        "dépend de récepteurs dans les cellules périphériques."
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 92,
+      "question": "Quelle est la proposition inexacte concernant la néoglucogenèse ?",
+      "images": [],
+      "image": "",
+      "options": [
+        "Est uniquement hépatique et rénal",
+        "Permet la conversion des composés non glucidiques en glucose",
+        "Le phospholipide participe à la néoglucogenèse",
+        "Est à la fois mitochondrial et cytoplasmique"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 93,
+      "question": "Parmi les enzymes suivants quel est seul qui ne produit pas ou ne transforme pas le glucose 6-phosphate",
+      "images": [],
+      "image": "",
+      "options": [
+        "phosphoglucomutase",
+        "phsphohexose isomérase",
+        "hexokinase",
+        "Thiolase"
+      ],
+      "correctIndex": 3
+    },
+    {
+      "id": 94,
+      "question": "Parmi les composés suivant quel est celui qui ne participe pas directement à la régulation de la glycogénolyse dans le muscle",
+      "images": [],
+      "image": "",
+      "options": [
+        "glucagon",
+        "calmoduline",
+        "glucose-6-phosphate",
+        "calcium"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 95,
+      "question": "Le glucagon possède sur le métabolisme glucidique tous les effets suivants sauf un :",
+      "images": [],
+      "image": "",
+      "options": [
+        "il augmente la glycogénolyse.",
+        "il augmente la lipolyse dans le tissu adipeux.",
+        "il augmente la glycolyse.",
+        "il augmente la néoglucogenèse."
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 96,
+      "question": "Parmi les protéines intrinsèques ci-dessous, lesquelles sont utilisées pour transporter du glucose dans la période absorptive dans le foie et le pancréas?",
+      "images": [],
+      "image": "",
+      "options": [
+        "GLUT4",
+        "GLUT5",
+        "GLUT1 et GLUT3",
+        "GLUT2"
+      ],
+      "correctIndex": 3
+    },
+    {
+      "id": 97,
+      "question": "L'adrénaline stimule tous ces processus métaboliques sauf un, lequel?",
+      "images": [],
+      "image": "",
+      "options": [
+        "Glycolyse",
+        "Glycogénolyse",
+        "Lipolyse",
+        "Cétogénèse"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 98,
+      "question": "Concernant la glycolyse, quelle est la proposition fausse?",
+      "images": [],
+      "image": "",
+      "options": [
+        "Elle permet la transformation d'une molécule glucose en 2 molécules de pyruvate",
+        "Elle ne fonctionne dans les cellules qu'en anaérobiose",
+        "C'est la principale source d'énergie dans les cellules musculaires",
+        "Toutes les enzymes de la glycolyse sont localisées dans le cytoplasme cellulaire"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 99,
+      "question": "L'une des propositions suivantes concernant le métabolisme du glucose est fausse, laquelle ?",
+      "images": [],
+      "image": "",
+      "options": [
+        "La glucokinase participe à la phosphorylation du glucose par le foie après les repas",
+        "Dans les érythrocytes, le produit final de la glycolyse est toujours le lactate",
+        "La pyruvate déshydrogénase est inhibée par l'acétyl CoA",
+        "Le fructose 2,6 biphosphate est un inhibiteur allostérique de la phosphofructokinase 1"
+      ],
+      "correctIndex": 3
+    },
+    {
+      "id": 100,
+      "question": "Concernant les effets physiologiques des hormones thyroïdiennes, quelle est la propositions exacte ?",
+      "images": [],
+      "image": "",
+      "options": [
+        "Stimulent la croissance en longueur et en largeur des os",
+        "Diminuent l'absorption intestinale",
+        "Augmentent la captation cellulaire des glucides",
+        "Diminuent la glycolyse"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 101,
+      "question": "Parmi les propositions suivantes, laquelle est inexacte ? La voie des pentoses-phosphate:",
+      "images": [],
+      "image": "",
+      "options": [
+        "Est une voie mitochondriale de dégradation du glucose",
+        "Est un processus oxydatif",
+        "Fournit du NADPH + H+",
+        "Permet de reformer des hexoses-phosphate"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 102,
+      "question": "Indiquez parmi les propositions suivantes concernant la voie des pentoses phosphates pour l'utilisation du glucose dans les érythrocytes, celle qui est juste.",
+      "images": [],
+      "image": "",
+      "options": [
+        "Cette voie est essentielle pour la production énergétique sous forme d'ATP",
+        "Elle est essentielle pour la production du coenzyme réduit NADPH",
+        "Elle sert à produire le 2-3 diphosphoglycérate, effecteur allostérique de l'hémoglobine",
+        "Elle est indispensable pour prévenir l'oxydation de l'hémoglobine en méthémoglobine"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 103,
+      "question": "Indiquer la proposition inexacte caractérisant le diabète de type 2:",
+      "images": [],
+      "image": "",
+      "options": [
+        "Il survient le plus souvent chez des sujets de plus de 40 ans",
+        "Il se caractérise par une destruction auto-immune du pancréas",
+        "La glycémie à jeun est supérieure à 1,26 g/L (7,0 mmol/L)",
+        "Il est déterminé essentiellement par des facteurs génétiques"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 104,
+      "question": "Parmi les propositions suivantes, indiquez celle qui est inexacte: la concentration plasmatique du glucose:",
+      "images": [],
+      "image": "",
+      "options": [
+        "Est variable au cours de la journée",
+        "Est plus faible chez le nouveau-né que chez l'adulte sain",
+        "Est plus élevée que dans le liquide céphalo-rachidien",
+        "Est augmentée à la suite de l'action de l'insuline"
+      ],
+      "correctIndex": 3
+    },
+    {
+      "id": 105,
+      "question": "Parmi les différents types de cellules existant dans le pancréas, quelles sont celles qui sécrètent l'insuline?",
+      "images": [],
+      "image": "",
+      "options": [
+        "Cellules alpha",
+        "Cellules delta",
+        "Cellules bêta",
+        "Cellules acineuses"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 106,
+      "question": "Parmi les propositions suivantes, quelle est la proposition fausse ?",
+      "images": [],
+      "image": "",
+      "options": [
+        "L'augmentation du cholestérol plasmatique inhibe l'HMGCoA réductase",
+        "La cétogenèse permet de fournir de l'énergie à différents tissus extrahépatiques de l'organismeen période de jeûne",
+        "L'acétoacétate peut être produit par une simple réaction à partir de l'acétoacétyl CoA",
+        "L'insuline inhibe la synthèse des corps cétoniques"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 107,
+      "question": "Parmi les suivantes, quelle est la proposition inexacte ?",
+      "images": [],
+      "image": "",
+      "options": [
+        "GLUT 2 permet l'entrée du glucose plasmatique dans les cellules hépatiques",
+        "Le glucagon diminue la néoglucogenèse",
+        "GLUT 4 est le principal transporteur de glucose au niveau du tissu musculaire",
+        "Au niveau hépatique, l'insuline active la synthèse du glycogène"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 108,
+      "question": "Parmi les molécules suivantes, indiquer celle qui favorise l'activation de la glycogène phosphorylase?",
+      "images": [],
+      "image": "",
+      "options": [
+        "L'insuline",
+        "Le glucagon",
+        "L'A.C.T.Η.",
+        "Le cortisol"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 109,
+      "question": "Parmi les propositions suivantes, indiquer celle qui est inexacte. L'insuline :",
+      "images": [],
+      "image": "",
+      "options": [
+        "Provoque l'inhibition de la gluconéogenèse hépatique",
+        "Entraîne l'augmentation du transport de glucose au travers de la membrane plasmatique des cellules musculaires",
+        "Provoque l'inhibition de la glycogénogenèse hépatique",
+        "Provoque l'inhibition de la lipolyse (hydrolyse du triacylglycérol) dans l'adipocyte"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 110,
+      "question": "Parmi les propositions suivantes, laquelle est inexacte? La gluconéogénèse:",
+      "images": [],
+      "image": "",
+      "options": [
+        "Contribue à la régulation de la glycémie",
+        "Est majoritairement réalisée dans le foie",
+        "Est importante pour un rapport insulinémie/glucagonémie élevé",
+        "Est stimulée par le cortisol"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 111,
+      "question": "Parmi les actions de l'insuline sur les voies métaboliques, quelle est celle qui est exacte ?",
+      "images": [],
+      "image": "",
+      "options": [
+        "L'insuline active la voie de la glyconéogenèse",
+        "L'insuline active la voie oxydative des acides gras",
+        "L'insuline active la voie de la cétogénèse",
+        "L'insuline favorise le stockage des lipides dans l'adipocyte"
+      ],
+      "correctIndex": 3
+    },
+    {
+      "id": 112,
+      "question": "Parmi les propositions suivantes, laquelle de ces affirmations est fausse ? L'insuline :",
+      "images": [],
+      "image": "",
+      "options": [
+        "Inhibe la lipolyse",
+        "Favorise la glycogénogénèse",
+        "Stimule la lipoprotéine lipase",
+        "Favorise la cétogénèse"
+      ],
+      "correctIndex": 3
+    },
+    {
+      "id": 113,
+      "question": "Indiquer parmi les hormones suivantes, celle qui est sécrétée par les cellules Alpha des ilots de Langerhans?",
+      "images": [],
+      "image": "",
+      "options": [
+        "Insuline",
+        "Glucagon",
+        "Sécrétine",
+        "Gastrine"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 114,
+      "question": "Parmi les propositions suivantes donner la réponse inexacte. Le glycogène :",
+      "images": [],
+      "image": "",
+      "options": [
+        "Du muscle, est utilisable pour recharger la glycémie",
+        "Libère du glucose-1-phosphate grâce à une phosphorylase phosphorylée",
+        "Du foie voit sa dégradation (glycogénolyse) stimulée par le glucagon",
+        "Est formé en plus grande quantité lors de l'insulino-sécrétion"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 115,
+      "question": "Parmi les suivantes, quelle est la proposition exacte ?",
+      "images": [],
+      "image": "",
+      "options": [
+        "GLUT 2 permet l'entrée du glucose plasmatique dans les tissus adipeux",
+        "Le glucagon augmente la néoglucogenèse",
+        "Les corps cétoniques sont synthétisés dans les muscles",
+        "Au niveau hépatique, l'insuline active la synthèse du glycogène"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 116,
+      "question": "Parmi les molécules suivantes, indiquer celle qui favorise l'activation de glycogène phosphorylase?",
+      "images": [],
+      "image": "",
+      "options": [
+        "L'insuline",
+        "L'adrénaline",
+        "L'A.C.T.H.",
+        "Le cortisol"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 117,
+      "question": "Parmi les propositions suivantes, laquelle est exacte ? La gluconéogenèse:",
+      "images": [],
+      "image": "",
+      "options": [
+        "Est majoritairement réalisée dans le foie.",
+        "Est importante pour un rapport insulinémie/glucagonémie élevé.",
+        "Est synthétisée dans les muscles.",
+        "Est stimulée par l'estradiol."
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 118,
+      "question": "Parmi les effets métaboliques suivants, lesquels peuvent être provoqués par le glucagon ?",
+      "images": [],
+      "image": "",
+      "options": [
+        "Diminution de l'AMPc intracellulaire",
+        "Diminution de la lipogénèse hépatique",
+        "Augmentation d'anabolisme protéique",
+        "Diminution de la glycogènolyse"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 119,
+      "question": "Le glucose-6-phosphate est un carrefour de plusieurs voies métaboliques. Indiquez deux de ces voiesmétaboliques parmi les propositions suivantes :",
+      "images": [],
+      "image": "",
+      "options": [
+        "Le cycle de Krebs et la glycogénolyse.",
+        "La béta oxydation et le cétogenèse.",
+        "La glycogénogénèse et la voie des pentoses phosphates.",
+        "La catabolisme du fructose et la uréogenèse."
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 120,
+      "question": "A propos des monosaccharides, quelle est la proposition exacte ?",
+      "images": [],
+      "image": "",
+      "options": [
+        "Ils peuvent se lier entre eux par des liaisons faibles appelées liaisons osidiques",
+        "Le glycogène est un monosaccharide",
+        "Un aldohexose est un composé à 5 atomes de carbone présentant une fonction aldéhyde",
+        "Le dihydroxyacétone est un triose dépourvu de carbone asymétrique"
+      ],
+      "correctIndex": 3
+    },
+    {
+      "id": 121,
+      "question": "A propos du métabolisme des monosaccharides et de la production d'ATP, quelle est la propositionexacte ?",
+      "images": [],
+      "image": "",
+      "options": [
+        "En considérant le segment métabolique du galactose jusqu'au pyruvate, une mole de galactose permetde produire 2 moles d'ATP",
+        "En considérant le segment métabolique du fructose jusqu'au pyruvate, une mole de fructose permetde produire 3 moles d'ATP",
+        "En considérant le segment métabolique du glucose jusqu'au pyruvate en passant par le 2,3 - biphosphoglycérate (shunt de Rapaport Luebering), une mole de glucose permet de produire 2 moles d'ATP",
+        "En considérant le segment métabolique du glucose jusqu'au pyruvate, une mole de glucose permet deproduire 38 moles d'ATP"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 122,
+      "question": "A propos de la glycolyse et de la néoglucogenèse, quelle est la proposition exacte ?",
+      "images": [],
+      "image": "",
+      "options": [
+        "La néoglucogenèse hépatique participe au maintien de la glycémie cytosol",
+        "Ces deux voies métaboliques (glycolyse et néoglucogenèse) se déroulent simultanément",
+        "Les mêmes enzymes participent à la voie de la néoglucogenèse et à celle de la glycolyse",
+        "Les enzymes catalysant les réactions de ces deux voies métaboliques sont localisées dans le"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 123,
+      "question": "Concernant la voie de la néoglucogénèse, quelle est la proposition exacte ?",
+      "images": [],
+      "image": "",
+      "options": [
+        "Le lactate produit par les muscles sert de substrat à cette voie métabolique",
+        "Les acides gras sont des substrats de cette voie métabolique",
+        "Cette voie métabolique correspond à la synthèse de glycogène",
+        "Cette voie métabolique a lieu principalement dans les muscles"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 124,
+      "question": "Concernant le métabolisme du glycogène, quelle est la proposition exacte ?",
+      "images": [],
+      "image": "",
+      "options": [
+        "L'enzyme débranchante, par son activité α-1,6- glucosidase, libère du glucose-1-phosphate à partir duglycogène",
+        "Le glycogène phosphorylase catalyse l'hydrolyse des liaisons osidiques α-1,4 à partir de l'extrémitéréductrice du glycogène",
+        "Le glycogène phosphorylase est activée sous forme glycogène phosphorylase déphosphorylée.",
+        "Le glucagon stimule la glycogénolyse"
+      ],
+      "correctIndex": 3
+    },
+    {
+      "id": 125,
+      "question": "A propos des enzymes et cofacteurs, quelle est la proposition exacte ?",
+      "images": [],
+      "image": "",
+      "options": [
+        "La réaction catalysée par la succinate déshydrogénase nécessite le phosphate de pyridoxal (vitamine B6) comme cofacteur.",
+        "La thiamine pyrophosphate (vitamine B1) est le coenzyme de la transaldolase de la voie des pentosesphosphate.",
+        "La FAD est un coenzyme utilisé par certaines oxydo-réductases.",
+        "L'ADP est un cofacteur de la glucokinase."
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 126,
+      "question": "Concernant la glycolyse ou voie de Embden-Meyerhof, quelle est la proposition inexacte ?",
+      "images": [],
+      "image": "",
+      "options": [
+        "est une voie métabolique d'entrée vers le cycle de L'acide citrique ou cycle de Krebs.",
+        "permet, en condition aérobie, L'extraction de L'énergie du glucose",
+        "a un bilan énergétique identique qu'il y ait ou non présence d'oxygène dans la cellule.",
+        "nécessite un pool important de NADH oxydé pour permettre aux réactions de cette voie métabolique de perdurer."
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 127,
+      "question": "Concernant les processus de digestion et d'absorption des lipides alimentaires, un certain nombre de propositions sont énumérées. Parmi ces propositions, une seule est vraie. De laquelle s'agit-il?",
+      "images": [],
+      "image": "",
+      "options": [
+        "Nécessite la présence de sels biliaires sécrétés par le vésicule biliaire.",
+        "Aboutit à la production de VLDL.",
+        "Nécessite la présence de glycérol-3-phosphate.",
+        "Nécessite la présence de bilirubine."
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 128,
+      "question": "L'enzyme carnitine acyl transférase est nécessaire pour une seule des cinq réactions suivantes. De laquelle s'agit-il?",
+      "images": [],
+      "image": "",
+      "options": [
+        "Oxydation des acides gras.",
+        "Synthèse des acides gras.",
+        "Synthèse du cholestérol.",
+        "Entre dans la détoxification H2O2."
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 129,
+      "question": "Parmi les propositions suivantes concernant la NADPH2, laquelle est inexacte ?",
+      "images": [],
+      "image": "",
+      "options": [
+        "Entre dans la réaction hydroxylation.",
+        "Obtenue par la voie des pentoses phosphates.",
+        "Entre dans la bêtoxydation.",
+        "Liaison anhydre."
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 130,
+      "question": "Parmi les propositions suivantes concernant la biosynthèse des acides gras, laquelle est inexacte ?",
+      "images": [],
+      "image": "",
+      "options": [
+        "Les acides gras sont synthétisés à partir du glucose alimentaire.",
+        "Un régime alimentaire riche en lipides augmente la synthèse des acides gras.",
+        "Les enzymes qui synthétisent les acides gras se trouvent dans le cytoplasme.",
+        "Les acides gras sont principalement synthétisés dans le foie."
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 131,
+      "question": "Parmi les propositions suivantes concernant la bêta oxydation des acides gras, laquelle est exacte ? La bêta oxydation est un ensemble de réaction:",
+      "images": [],
+      "image": "",
+      "options": [
+        "Oydation.",
+        "Thiolyse.",
+        "Condensation, hydratation et oxydation.",
+        "Oxydation, hydratation, oxydation et thiolyse."
+      ],
+      "correctIndex": 3
+    },
+    {
+      "id": 132,
+      "question": "Quelle substance est le précurseur immédiat des prostaglandines ?",
+      "images": [],
+      "image": "",
+      "options": [
+        "L'acide stéarique.",
+        "L'acide arachidonique",
+        "L'acide myristique",
+        "L'acide linoléique"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 133,
+      "question": "La lipogenèse à partir des glucides (ou production d'acides gras à partir du glucide) répond à un certain nombre de critères définis dans les propositions suivantes. Parmi cespropositions, une seule est inexacte. Laquelle ?",
+      "images": [],
+      "image": "",
+      "options": [
+        "Le citrate est converti en acétyl CoA dans la mitochondrie par une enzyme, l'ATP-citrate lyase, encore appelé enzyme de clivage du citrate.",
+        "Ce processus nécessite la participation de la mitochondrie.",
+        "Le transport de l'acétyl CoA au cytoplasme se fait par l'intermédiaire du citrate.",
+        "L'acétyl CoA est utilisé pour la biosynthèse des acides gras."
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 134,
+      "question": "Au cours du jeûne, on note l'apparition de tous les phénomènes métaboliques suivants, sauf un. Lequel ?",
+      "images": [],
+      "image": "",
+      "options": [
+        "La protéine kinase du tissu adipeux est inhibe parce que le niveau sanguine du glucagons est augmenté.",
+        "Le glycérol libéré du tissu adipeux est utilisé pour la synthèse du glucose du foie.",
+        "Le foie transforme les acides gras qui proviennent du tissu adipeux en corps cétoniques.",
+        "La cétogenèse est activée."
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 135,
+      "question": "Parmi les propositions ci-dessous concernant les acides biliaires. Laquelle est exacte ? Les acides biliaires",
+      "images": [],
+      "image": "",
+      "options": [
+        "comportent un noyau cholestane",
+        "sont des composés dont les hydroxyles sont tous à conformation β",
+        "appartiennent à la série 5β",
+        "présentent une fonction acide sulfonique sur le carbone 24"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 136,
+      "question": "Indiquer la lipoprotéines susceptible d'entraîner une opalescence ou une lactescence du sérum chez un sujet a jeun depuis 12 heures.",
+      "images": [],
+      "image": "",
+      "options": [
+        "LDL",
+        "HDL naissance",
+        "VLDL",
+        "HDL"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 137,
+      "question": "Parmi les propositions suivantes concernant la biosynthèse des triglycérides dans le tissu adipeux, laquelle est inexacte ?",
+      "images": [],
+      "image": "",
+      "options": [
+        "L'intervention de la NADPH2 est nécessaire.",
+        "Le glycérol-3-phosphate provient du glucose.",
+        "Les acides gras proviennent des chylomicrons et des VLDL.",
+        "Acide phosphatidique est un intermédiaire sur la voie métabolique de la biosynthèse."
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 138,
+      "question": "L'oxydation intracellulaire des acides gras se produit dans quelle structures cellulaire suivant?",
+      "images": [],
+      "image": "",
+      "options": [
+        "Cytosol.",
+        "Membrane mitochondriale externe.",
+        "Membrane mitochondriale interne.",
+        "Matrice mitochondriale."
+      ],
+      "correctIndex": 3
+    },
+    {
+      "id": 139,
+      "question": "Parmi les propositions ci-dessous concernant les lipoprotéines de faible densité (LDL). Laquelle est exactes?",
+      "images": [],
+      "image": "",
+      "options": [
+        "Sont fortement arthérogènes",
+        "Sont riches en triglycéride lipase (LPL)",
+        "Sont les précurseurs des VLDL",
+        "Sont dégradées par la lipoprotéine"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 140,
+      "question": "Parmi les propositions suivantes concernant les triglycérides, laquelle est inexacte ?",
+      "images": [],
+      "image": "",
+      "options": [
+        "Les triglycérides d'origine alimentaire sont hydrolysés dans l'intestin.",
+        "Les triglycérides produits dans le foie sont libérés à l'état de VLDL.",
+        "Les acides gras capturés par le foie sont toujours estérifiés en triglycérides.",
+        "À jeûne, la majeur partie du triglycérides est hydrolysée."
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 141,
+      "question": "À propos de la cétogenèse, parmi les propositions ci-dessous, une seule est inexacte. Laquelle ?",
+      "images": [],
+      "image": "",
+      "options": [
+        "La cétogenèse est un processus musculaire.",
+        "Les acides gras sont oxydés en acétyl CoA dans les mitochondries hépatiques.",
+        "Les corps cétoniques sont excrétés principalement à l'état de sels de sodium.",
+        "Au cours du jeûne, on a la cétogenèse."
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 142,
+      "question": "Parmi les propositions ci-dessous concernant les chylomicrons. Laquelle est inexacte ?",
+      "images": [],
+      "image": "",
+      "options": [
+        "Sont très riches en triglycérides",
+        "Transportent les triglycérides endogènes",
+        "Sont sensibles à l'action de la lipoprotéine lipase",
+        "Sont pratiquement complètement dégradés au niveau de l'hépatocyte"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 143,
+      "question": "La biosynthèse des triglycérides dans les adipocytes nécessite l'intervention d'un certain nombre de facteur. Parmi les propositions suivantes, une est exacte. Laquelle ?",
+      "images": [],
+      "image": "",
+      "options": [
+        "Augmentation des niveaux plasmatiques d'insuline.",
+        "Augmentation des niveaux intracellulaires d'AMP",
+        "Augmentation du niveau plasmatique d'adrénaline.",
+        "Augmentation de la production de glycérol par la lipolyse."
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 144,
+      "question": "Parmi les propositions suivantes concernant les corps cétoniques, laquelle est inexacte ?",
+      "images": [],
+      "image": "",
+      "options": [
+        "Le béthydroxybutyrate est un corps cétonique.",
+        "Le pyruvate est un précurseur de la synthèse du corps cétonique.",
+        "Les corps cétoniques sont synthétisés dans les mitochondries hépatiques.",
+        "Au cours du jeûne, la production des corps cétoniques active."
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 145,
+      "question": "Les phénomènes de transport des électrons et de phosphorylation oxydative se produisent:",
+      "images": [],
+      "image": "",
+      "options": [
+        "Dans les globules rouges.",
+        "Dans les globules blancs.",
+        "Dans les plaquettes.",
+        "Dans toutes les cellules qui contiennent des mitochondries."
+      ],
+      "correctIndex": 3
+    },
+    {
+      "id": 146,
+      "question": "អ្នកជំងឺម្នាក់មាន hypercholestérolémiant essentielle lipoprotéines sanguines ដែលកើនឡើងនោះជាៈ",
+      "images": [],
+      "image": "",
+      "options": [
+        "Les chylomicrons",
+        "Les LDL",
+        "Les VLDL",
+        "Les HDL"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 147,
+      "question": "À propos de la cétogenèse, parmi les propositions ci-dessous, une seule est inexacte. Laquelle ?",
+      "images": [],
+      "image": "",
+      "options": [
+        "Les corps cétoniques sont utilisés comme source énergétique principalement par le tissu adipeux.",
+        "La cétogenèse est un processus hépatique.",
+        "Les acides gras sont oxydés en acétyl CoA dans les mitochondries musculaires.",
+        "Au cours du jeûne, on note une interruption de la cétogenèse."
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 148,
+      "question": "Parmi les propositions suivantes concernant la bêta oxydation des acides gras, laquelle est exacte ?",
+      "images": [],
+      "image": "",
+      "options": [
+        "La bêta oxydation se fait dans le cytoplasme.",
+        "La bêta oxydation peut se faire dans le globule rouge.",
+        "La bêta oxydation se fait toujours à l'état de jeûne.",
+        "La bêta oxydation se produit de NADH2 et d'acétyl CoA."
+      ],
+      "correctIndex": 3
+    },
+    {
+      "id": 149,
+      "question": "Laquelle est inexacte ? L'aldostérone est une hormone :",
+      "images": [],
+      "image": "",
+      "options": [
+        "minéralocorticoïde",
+        "qui active la réabsorption du potassium.",
+        "qui entraîne une rétention d'eau dans l'espace extracellulaire.",
+        "qui est activée par la vasopressine."
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 150,
+      "question": "Parmi les propositions ci-dessous concernant les lipoprotéines de haute densité (HDL). Laquelle est inexacte ?",
+      "images": [],
+      "image": "",
+      "options": [
+        "Ont un rôle épurateur du cholestérol cellulaire",
+        "Renferment essentiellement des apoprotéines de type B",
+        "Renferment une apoprotéine C II",
+        "Sont très riches en cholestérol"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 151,
+      "question": "Parmi ces propositions, laquelle n'entraîne pas d'hyperlipidémie secondaire ?",
+      "images": [],
+      "image": "",
+      "options": [
+        "Hyperthyroïdie",
+        "Hypercorticisme",
+        "Insuffisance rénale",
+        "Contraceptifs"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 152,
+      "question": "Parmi les affirmations concernant les situations où l'on peut rencontrer une cétonurie, une seule est fausse. Laquelle?",
+      "images": [],
+      "image": "",
+      "options": [
+        "Jeûne prolongé chez un sujet normal",
+        "Régime restrictif chez un obèse",
+        "Ethylisme aigu",
+        "Vomissements importants chez l'enfant"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 153,
+      "question": "Parmi les propositions suivantes, indiquer celle qui est inexacte. Les corps cétoniques (acétoacétate et bethydroxybutyrate):",
+      "images": [],
+      "image": "",
+      "options": [
+        "Sont synthétisés dans le muscle",
+        "Sont utilisés par le muscle cardiaque",
+        "Sont formés en période de catabolisme intense des acides gras",
+        "Produits en excès, sont retrouvés dans les urines"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 154,
+      "question": "Parmi les propositions suivantes laquelle est fausse? Les triglycérides:",
+      "images": [],
+      "image": "",
+      "options": [
+        "Sont des lipides de réserve",
+        "Sont présents au centre de la structure de la lipoprotéine",
+        "Sont hydrolysés dans le tissu hépatique sous l'action de la lipoprotéine lipase",
+        "Sont des lipides prépondérants dans la constitution des VLDL"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 155,
+      "question": "Parmi les propositions suivantes concernant les VLDL, une seule d'entre elles est inexacte:",
+      "images": [],
+      "image": "",
+      "options": [
+        "Transportent les triglycérides endogènes",
+        "Transportent les triglycérides alimentaires",
+        "Sont dégradés par une lipoprotéine lipase",
+        "Sont des précurseurs des LDL"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 156,
+      "question": "Parmi les propositions suivantes, laquelle est inexacte ? La lipoprotéine lipase est une enzyme :",
+      "images": [],
+      "image": "",
+      "options": [
+        "Qui exerce son activité dans la circulation sanguine",
+        "Qui est inhibée par l'apoprotéine CII",
+        "Qui hydrolyse les triglycérides des lipoprotéines",
+        "Dont l'activité sur les VLDL et chylomicrons se traduit par la formation de remnants"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 157,
+      "question": "Parmi les propositions suivantes, quelle est celle qui ne s'applique pas aux lipoprotéines plasmatiques de très basse densité (VLDL)?",
+      "images": [],
+      "image": "",
+      "options": [
+        "Elles contiennent de l'apo B",
+        "Elles sont sécrétées essentiellement par l'intestin",
+        "Elles sont riches en triglycérides",
+        "Elles contiennent des apo C et E"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 158,
+      "question": "Les VLDL hépatocytaires assurent le transport:",
+      "images": [],
+      "image": "",
+      "options": [
+        "Des acides gras non estérifiés et du cholestérol",
+        "Des triglycérides exogènes et des apoprotéines",
+        "Des triglycérides endogènes et du cholestérol hépatique",
+        "Du cholestérol exogène et sphingolipide"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 159,
+      "question": "Indiquer parmi les propositions suivantes celle qui ne s'applique pas aux lipoprotéines de haute densité (HDL).",
+      "images": [],
+      "image": "",
+      "options": [
+        "Elles sont plus riches en triglycérides que les VLDL",
+        "Elles ne renferment pas d'apo B",
+        "Elles fournissent des apo C aux VLDL et aux chylomicrons",
+        "Elles sont le siège de l'estérification du cholestérol plasmatique"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 160,
+      "question": "Concernant l'hyperlipoprotéinémie de type IV, quelle est la propositions inexacte ?",
+      "images": [],
+      "image": "",
+      "options": [
+        "Un sérum limpide à jeun",
+        "Une cholestérolémie normale ou peu augmentée",
+        "Une élévation des triglycérides sériques",
+        "Une augmentation des VLDL"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 161,
+      "question": "Lors de l'hyperlipidémie primitive de type IIa, on observe :",
+      "images": [],
+      "image": "",
+      "options": [
+        "Une augmentation isolée des triglycérides",
+        "Une augmentation des triglycérides et du cholestérol total",
+        "Une augmentation des VLDL",
+        "Une augmentation du cholestérol LDL"
+      ],
+      "correctIndex": 3
+    },
+    {
+      "id": 162,
+      "question": "Quelle est la lipoprotéine dont l'augmentation plasmatique est impliquée dans la protection du risque athéromateux ?",
+      "images": [],
+      "image": "",
+      "options": [
+        "HDL",
+        "VLDL",
+        "LDL",
+        "Chylomicrons"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 163,
+      "question": "L'apoprotéine B100 n'existe pas dans la :",
+      "images": [],
+      "image": "",
+      "options": [
+        "Chylomicrons",
+        "VLDL",
+        "IDL",
+        "LDL"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 164,
+      "question": "Parmi les propositions suivantes concernant les VLDL, laquelle est inexacte ?",
+      "images": [],
+      "image": "",
+      "options": [
+        "Ils contiennent une apoprotéine 100",
+        "Ils sont les précurseurs des LDL",
+        "Ils transportent les triglycérides alimentaires",
+        "Ils sont dégradés par une lipoprotéine lipase (LPL)"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 165,
+      "question": "A propos du métabolisme des lipoprotéines, laquelle de cette affirmation est inexacte :",
+      "images": [],
+      "image": "",
+      "options": [
+        "L'apoB48 est uniquement synthétisé au niveau intestinal.",
+        "Le foie synthétise les VLDL qui sont sécrétés dans le sang et sous l'effet de la LPL donnent des IDL et HDL.",
+        "L'apoC2 stimule la LPL.",
+        "Les chylomicrons sont des grosses molécules dont le rôle principal est le transport des TG exogènes."
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 166,
+      "question": "Quelle est l'affirmations inexacte ? Les VLDL...",
+      "images": [],
+      "image": "",
+      "options": [
+        "Sont principalement d'origine intestinale",
+        "Contiennent l'Apo B100",
+        "Sont à l'origine des IDL, eux-mêmes riches en cholestérol estérifié",
+        "Leur excès donne une opalescence au sérum"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 167,
+      "question": "Parmi les propositions suivantes concernant la classification des dyslipidémies, laquelle est exacte :",
+      "images": [],
+      "image": "",
+      "options": [
+        "Type IV ou hypercholestérolémie exogène caractérisée par un excès de VLDL",
+        "Type IIb ou hypercholestérolémie familiale caractérisée par un excès de LDL",
+        "Type I ou hypertiglycéridémie exogène caractérisée par un excès de VLDL",
+        "Type III ou dysbétalipoprotéinémie caractérisée par un excès d'IDL ou Remnant"
+      ],
+      "correctIndex": 3
+    },
+    {
+      "id": 168,
+      "question": "Parmi les propositions suivantes laquelle est juste? Les triglycérides:",
+      "images": [],
+      "image": "",
+      "options": [
+        "Sont des lipides d'hydrophile",
+        "Sont présents dans la couronne de la lipoprotéine",
+        "Sont hydrolysés dans le tissu hépatique sous l'action de la lipoprotéine lipase",
+        "Sont des lipides prépondérants dans la constitution des VLDL"
+      ],
+      "correctIndex": 3
+    },
+    {
+      "id": 169,
+      "question": "Parmi les propositions suivantes, laquelle est inexacte ? Le cholestérol :",
+      "images": [],
+      "image": "",
+      "options": [
+        "Est un stérol en C30",
+        "Est le précurseur du cortisol",
+        "Est synthétisé chez l'homme au niveau du foie",
+        "Est le constituant lipidique prépondérant des lipoprotéines LDL"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 170,
+      "question": "Les VLDL hépatocytaires assurent le transport:",
+      "images": [],
+      "image": "",
+      "options": [
+        "Des acides gras non estérifiés",
+        "Des triglycérides exogènes",
+        "Du cholestérol hépatique",
+        "Du cholestérol exogène"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 171,
+      "question": "Concernant la captation des LDL par les cellules, indiquer la réponse inexacte :",
+      "images": [],
+      "image": "",
+      "options": [
+        "Fait intervenir des récepteurs membranaires",
+        "Nécessite l'action de la lipoprotéine lipase",
+        "Représente la source essentielle de cholestérol pour ces cellules",
+        "Fait intervenir l'apo B100"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 172,
+      "question": "អាស៊ីតខ្លាញ់អាចដឹកនាំចូលនិងចេញឆ្លងកាត់ភ្នាសរបស់កោសិកាតាម៖",
+      "images": [],
+      "image": "",
+      "options": [
+        "Transport active",
+        "Transport facile",
+        "Diffusion",
+        "Osmose"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 173,
+      "question": "Quelle est la lipoprotéine dont l'augmentation plasmatique est impliquée dans la production du plaque d'athérome?",
+      "images": [],
+      "image": "",
+      "options": [
+        "HDL",
+        "VLDL",
+        "LDL",
+        "Chylomicrons"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 174,
+      "question": "Parmi les propositions suivantes, indiquer l'affirmation exacte.",
+      "images": [],
+      "image": "",
+      "options": [
+        "Le cholestérol non estérifié présent dans les lipoprotéines est considéré comme un composé plus hydrophobe que les triglycérides",
+        "Les lipoprotéines de haute densité (HDL) migrent au niveau des bêta globulines sur gel d'agarose",
+        "La densité de la HDL est inférieure à celle des IDL (lipoprotéines de densité intermédiaire)",
+        "Les apolipoprotéines sont présentes à la surface des lipoprotéines plasmatiques"
+      ],
+      "correctIndex": 3
+    },
+    {
+      "id": 175,
+      "question": "Parmi les propositions suivantes concernant les lipoprotéines, indiquez celle qui est exacte :",
+      "images": [],
+      "image": "",
+      "options": [
+        "Les chylomicrons sont produits dans le foie",
+        "Les chylomicrons sont principalement composés de l'apo B100",
+        "Les LDL permettent le reverse transport du cholestérol",
+        "L'apo CII active la lipoprotéine lipase"
+      ],
+      "correctIndex": 3
+    },
+    {
+      "id": 176,
+      "question": "Parmi les propositions suivantes concernant le métabolisme des lipoprotéines, indiquer l'affirmation exacte:",
+      "images": [],
+      "image": "",
+      "options": [
+        "L'apolipoprotéine B48 est principalement synthétisée par le foie",
+        "La LCAT (lécithine cholestérol acyl-transférase) a comme principal substrat le cholestérol des HDL",
+        "La LPL (lipoprotéine lipase) est essentiellement localisée dans le tissu hépatique",
+        "L'apolipoprotéine CIII est le principal activateur de la LPL"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 177,
+      "question": "Parmi les propriétés suivantes, indiquer celle qui ne correspond pas aux chylomicrons :",
+      "images": [],
+      "image": "",
+      "options": [
+        "Ce sont des lipoprotéines de très faible densité",
+        "Ils sont composés surtout de cholestérol",
+        "Leur concentration plasmatique est influencée par la prise d'aliments",
+        "Ce sont les plus volumineuses lipoprotéines plasmatiques"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 178,
+      "question": "Parmi les propositions suivantes, laquelle est inexacte ? Les chylomicrons plasmatiques :",
+      "images": [],
+      "image": "",
+      "options": [
+        "Sont plus riches en cholestérol estérifié qu'en triglycérides",
+        "Contiennent de l'apolipoprotéine B48",
+        "Contiennent de l'apolipoprotéine E",
+        "Sont transformés par action de la lipoprotéine lipase"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 179,
+      "question": "Parmi les propositions suivantes, une seule est fausse. Indiquer laquelle? Les enzymes suivantes interviennent dans la digestion des lipides alimentaires:",
+      "images": [],
+      "image": "",
+      "options": [
+        "Lipase pancréatique",
+        "Lipoprotéine lipase",
+        "Phospholipase A2",
+        "Cholestérol estérase"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 180,
+      "question": "Parmi les propositions suivantes, une seule est fausse, indiquez laquelle. Les sels biliaires :",
+      "images": [],
+      "image": "",
+      "options": [
+        "Sont amphipathiques",
+        "Sont synthétisés à partir du cholestérol",
+        "Sont synthétisés par l'hépatocyte",
+        "Sont indispensables à l'absorption intestinale de constituants hydrosolubles"
+      ],
+      "correctIndex": 3
+    },
+    {
+      "id": 181,
+      "question": "Donner la réponse exacte. Une hypercholestérolémie est souvent secondaire à :",
+      "images": [],
+      "image": "",
+      "options": [
+        "Un régime riche en hydrates de carbone",
+        "Un alcoolisme chronique",
+        "Une malnutrition",
+        "Un hypothyroïdisme"
+      ],
+      "correctIndex": 3
+    },
+    {
+      "id": 182,
+      "question": "Parmi les propositions suivantes, indiquez celle qui est inexacte. Le NADPH,H+:",
+      "images": [],
+      "image": "",
+      "options": [
+        "Est produit lors de l'oxydation du glucose-6-phosphate",
+        "Est produit au cours de la synthèse des acides gras",
+        "Intervient dans la biosynthèse du cholestérol",
+        "Est donneur d'électrons et de protons dans les réactions d'oxydation catalysées par le cytochrome P450"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 183,
+      "question": "Les effets du cortisol sur le métabolisme se traduisent par :",
+      "images": [],
+      "image": "",
+      "options": [
+        "Une hyperglycémie",
+        "Une hypocholestérolémie",
+        "Une diminution de la néoglucogénèse",
+        "Une élévation de la concentration des protéines plasmatiques"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 184,
+      "question": "ការសំយោគ prostaglandine ត្រូវបន្ថយដោយ",
+      "images": [],
+      "image": "",
+      "options": [
+        "Aspirine",
+        "Arsenic",
+        "Fluoride",
+        "Cyanide"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 185,
+      "question": "Parmi les propositions suivantes concernant le métabolisme des acides gras et du cholestérol, quelle est celle qui est inexacte ?",
+      "images": [],
+      "image": "",
+      "options": [
+        "La biosynthèse des acides gras saturés a lieu dans le cytoplasme",
+        "La biosynthèse des acides gras plus de 16 carbone a lieu dans le microsome.",
+        "La formation du malonyl-CoA est l'étape limitant de la β-oxydation",
+        "L'étape limitante de la synthèse du cholestérol est la formation HMG CoA."
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 186,
+      "question": "Parmi les propositions suivantes sur le cortisol, laquelle est inexacte ?",
+      "images": [],
+      "image": "",
+      "options": [
+        "Il est sécrété dans la zone fasciculée de la médullosurrénale",
+        "Il a un effet hyperglycémiant",
+        "Il a un effet anti-inflammatoire",
+        "Il a un effet immunosuppresseur"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 187,
+      "question": "Concernant la vitamine D3, quelle est la proposition inexacte ?",
+      "images": [],
+      "image": "",
+      "options": [
+        "stimule la production de PTH",
+        "stimule la production de Ca2+ Binding Protein",
+        "subit pour être active, deux hydroxylations: une au niveau du foie, une au niveau du rein",
+        "dérive du cholestérol et est une vitamine liposoluble"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 188,
+      "question": "A propos de la physiologie des corticosurrénales, quelle est la réponse inexacte ?",
+      "images": [],
+      "image": "",
+      "options": [
+        "La médullosurrénale sécrète les cathécolamines",
+        "La zone glomérulée de la corticosurrénale produit les glucocorticoïdes",
+        "L'exploration de la fonction surrénalienne est impossible en période de stress",
+        "Les stéroïdes surrénaliens sont synthétisés à partir du cholestérol"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 189,
+      "question": "Parmi les propositions suivantes concernant le cholestérol, laquelle est inexacte ?",
+      "images": [],
+      "image": "",
+      "options": [
+        "Il a une structure cyclopentanoperhydrophénantrénique",
+        "Il présente une fonction alcool",
+        "Il se situe, sous forme estérifiée, à la surface des lipoprotéines circulantes",
+        "C'est un précurseur des acides biliaires"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 190,
+      "question": "Une des affirmations suivantes concernant le cortisol est fausse, laquelle ?",
+      "images": [],
+      "image": "",
+      "options": [
+        "C'est un glucocorticoïde",
+        "C'est une hormone hyperglycémiante favorisant la néoglycogenèse hépatique",
+        "Il entraîne une fuite potassique urinaire",
+        "Il diminue le catabolisme protidique"
+      ],
+      "correctIndex": 3
+    },
+    {
+      "id": 191,
+      "question": "Concernant le bilan des produits formés au cours de la β-oxydation d'une molécule d'acide gras saturé à 11 atomes de carbone:",
+      "images": [],
+      "image": "",
+      "options": [
+        "Après 4 tours de cycle, on obtient: 1 molécule de propionyl-CoA, 4 molécules d'acétyl-CoA, 3 molécules de FADH2 et 3 molécules de NADH, H+.",
+        "Après 4 tours de cycle, on obtient: 1 molécule de propionyl-CoA, 4 molécules d'acétyl-CoA, 4 molécules de FADH2 et 4 molécules de NADH,H+.",
+        "Après 5 tours de cycle, on obtient: 5 molécules d'acétyl-CoA, 1 molécule de CO2, 5 molécules de FADH2 et 5 molécules de NADH,H+.",
+        "Le propionyl-CoA est formé lors du premier tour de la β-oxydation de cet acide gras"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 192,
+      "question": "Molécule មួយណាដែលចូលរួមនៅ ក្នុង réactions de transaminations ?",
+      "images": [],
+      "image": "",
+      "options": [
+        "Citrate",
+        "Lactate",
+        "Béthydroxybutyrate",
+        "Alphcétoglutarate"
+      ],
+      "correctIndex": 3
+    },
+    {
+      "id": 193,
+      "question": "ក្នុងចំណោម intermédiaire du cycle de l'urée, ឃ្លាមួយណាដែលត្រឹមត្រូវ?",
+      "images": [],
+      "image": "",
+      "options": [
+        "L'aspartate apporte de l'azote pour la synthèse de l'arginine.",
+        "L'aspartate apporte du carbone pour la synthèse de l'arginine.",
+        "L'aspartate est convertir en malate.",
+        "L'aspartate est convertir en oxaloacétate."
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 194,
+      "question": "សារធាតុមួយណាដែលកើនឡើងក្នុងករណី Goutte?",
+      "images": [],
+      "image": "",
+      "options": [
+        "Bilirubine",
+        "Acide urique",
+        "Créatine phosphate",
+        "Azote uréique sanguin"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 195,
+      "question": "ឃ្លាមួយណាដែលមិនត្រឹមត្រូវនៅក្នុងលក្ខណៈរបស់ acides aminés à chaîne ramifiée",
+      "images": [],
+      "image": "",
+      "options": [
+        "Leucin, isoleucine et méthionine acides aminés à chaîne ramifiée.",
+        "ការ ធ្វើ transamination របស់ acides aminés à chaîne ramifiée ជាទូទៅប្រព្រឹត្តទៅនៅក្នុង muscle squelettique, cerveau et tissu adipeux.",
+        "Les réactions de transamination របស់ acides aminés នេះ បាន acide alphcétonique",
+        "Tissus hépatiques មិនអាចធ្វើ transamination ពួក acides aminés នេះទេ"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 196,
+      "question": "សារធាតុមួយណាដែលជា forme principale d'élimination des déchets azotes du métabolisme des protides chez l'homme ?",
+      "images": [],
+      "image": "",
+      "options": [
+        "acide urique",
+        "Urée",
+        "ammonium",
+        "acétone"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 197,
+      "question": "Acide aminé មួយណាជា acide aminés indispensables និងជាprécurseur ក្នុងការសំយោគ Tyrosine ?",
+      "images": [],
+      "image": "",
+      "options": [
+        "Arginine",
+        "Phénylalanine",
+        "Glutamine",
+        "Treptophane"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 198,
+      "question": "ក្នុងចំណោម séquences métaboliques ខាងក្រោមមួយណាដែលមិនដំណើរការសោះនៅក្នុង mitochondrie?",
+      "images": [],
+      "image": "",
+      "options": [
+        "Cycle de Krebs",
+        "Synthèse des acides gras",
+        "Clivage de l'arginine par arginase dans l'uréogenèse",
+        "Synthèse de l'hème"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 199,
+      "question": "Dans le cycle de l'urée លក្ខណៈមួយណាដែលត្រឹមត្រូវ?",
+      "images": [],
+      "image": "",
+      "options": [
+        "Le carbamoyl phosphate dérive directement de la glutamine et du CO2.",
+        "L'ornithine réagit avec l'aspatate pour former de l'arginosuccinate.",
+        "Le groupe alphamine de l'arginine forme un des azotes de l'urée.",
+        "L'ornithine réagit directement l'carbamoyl phosphate pour former la citrulline."
+      ],
+      "correctIndex": 3
+    },
+    {
+      "id": 200,
+      "question": "សារធាតុមួយណាដែលកាត់ protéines alimentaires dans l'estomac ?",
+      "images": [],
+      "image": "",
+      "options": [
+        "Pepsine",
+        "Trypsine",
+        "Carboxypeptidase A",
+        "Entéropeptidase"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 201,
+      "question": "Acide aminé មួយណាដែលជា précurseur ក្នុងការសំយោគ catécholamines?",
+      "images": [],
+      "image": "",
+      "options": [
+        "Glutamate",
+        "Tyrosine",
+        "Histidine",
+        "Tryptophane"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 202,
+      "question": "Atomes d'azote de l'urée បានមកពីណា ?",
+      "images": [],
+      "image": "",
+      "options": [
+        "Glutamine et acide glutamique",
+        "Acide glutamique et alanine",
+        "Glutamine et acide aspatique",
+        "Ammoniaque et acide aspatique"
+      ],
+      "correctIndex": 3
+    },
+    {
+      "id": 203,
+      "question": "ក្នុងចំណោមលក្ខណៈខាងក្រោមរបស់ cycle de l'urée លក្ខណៈមួយណាដែលខុស ?",
+      "images": [],
+      "image": "",
+      "options": [
+        "Précurseur immédiat de l'urée គឺ carbamyl phosphate.",
+        "Cycle de l'urée ប្រព្រឹត្តទៅនៅក្នុង Foie តែមួយគត់",
+        "Carbone ដែលជាធាតុផ្សំរបស់ urée បានមកពី CO2",
+        "Cycle de l'urée ប្រព្រឹត្តទៅនៅក្នុង mitochondrie."
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 204,
+      "question": "ឃ្លាមួយណាដែលមិនត្រឹមត្រូវនៅក្នុង Phénomène de transamination ?",
+      "images": [],
+      "image": "",
+      "options": [
+        "គេហៅ transaminase ou aminotransférase",
+        "គ្រប់ transaminase មាន cofacteur pyridoxal phosphate",
+        "គេហៅ Aspatate aminotransférase ou glutamique oxaloacétique transaminase",
+        "ក្នុង réaction de transamination ត្រូវតែមាន hydrolyse d'une liaison phosphate riche en énergie"
+      ],
+      "correctIndex": 3
+    },
+    {
+      "id": 205,
+      "question": "Acides aminés ណាដែលធ្វើ désamination directe ?",
+      "images": [],
+      "image": "",
+      "options": [
+        "Threonine et cystéine",
+        "Sérine et Threonine",
+        "Leucine et Treptophane",
+        "Histidine et Lysine"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 206,
+      "question": "Acides aminés ណាដែលធ្វើ désamidation ?",
+      "images": [],
+      "image": "",
+      "options": [
+        "Threonine et cystéine",
+        "Sérine et Threonine",
+        "Asparasine et glutamine",
+        "Histidine et Lysine"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 207,
+      "question": "Indiquer la proposition inexacte ci-dessous. L'ammoniac peut entrer :",
+      "images": [],
+      "image": "",
+      "options": [
+        "dans la synthèse de Glutamine",
+        "dans synthèse de Glutamate",
+        "dans la synthèse de carbamoyl phosphate",
+        "dans la synthèse d'acide urique"
+      ],
+      "correctIndex": 3
+    },
+    {
+      "id": 208,
+      "question": "Les propositions concernant de l'urée sont exactes, sauf une, laquelle ? La concentration de l'urée dépend :",
+      "images": [],
+      "image": "",
+      "options": [
+        "d'apport azoté alimentaire",
+        "de catabolisme protidique endogène",
+        "d'état hydratation du sujet",
+        "d'anabolisme protidique"
+      ],
+      "correctIndex": 3
+    },
+    {
+      "id": 209,
+      "question": "Les propositions concernant de l'urée sont exactes, sauf une, laquelle ?",
+      "images": [],
+      "image": "",
+      "options": [
+        "L'urée est éliminée dans l'urine et accessoirement dans la sueur.",
+        "Les 5 réactions de l'uréogenèse ont lieu dans le foie.",
+        "Les 3 premières réactions ont lieu dans la mitochondrie.",
+        "Un azote de l'urée provenant de l'acide aspartique."
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 210,
+      "question": "Le précurseur direct de l'uréogenèse est:",
+      "images": [],
+      "image": "",
+      "options": [
+        "Carbamoyl phosphate",
+        "Uridine phosphate",
+        "Adénine phosphate",
+        "Guanidine phosphate"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 211,
+      "question": "Le glucose est le précurseur de la synthèse :",
+      "images": [],
+      "image": "",
+      "options": [
+        "9 acides aminés",
+        "11 acides aminés",
+        "10 acides aminés",
+        "7 acides aminés"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 212,
+      "question": "Acide aminé មួយណាដែលមិនអាចសំយោគពី Glucose ?",
+      "images": [],
+      "image": "",
+      "options": [
+        "Glutamate",
+        "Sérine",
+        "Cystéine",
+        "Tyrosine"
+      ],
+      "correctIndex": 3
+    },
+    {
+      "id": 213,
+      "question": "le squelette carboné des acides aminés est dégradé pour donner les principaux produits ci-dessous, sauf un, lequel?",
+      "images": [],
+      "image": "",
+      "options": [
+        "pyruvate",
+        "acétyl CoA",
+        "Phosphodihydroxyacétone",
+        "acétoacétate"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 214,
+      "question": "Indiquer les acides aminés produisant de l'acétyl CoA.",
+      "images": [],
+      "image": "",
+      "options": [
+        "Lysine, Thréonine",
+        "Histidine, Arginine",
+        "Valine, Glutamate",
+        "Glycine, Aspartate"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 215,
+      "question": "S-adénosyl méthionine entre dans les réactions de méthylation ci-dessous, sauf une, laquelle ?",
+      "images": [],
+      "image": "",
+      "options": [
+        "Noradrénaline → Adrénaline",
+        "Acétylsérotonine → Mélatonine",
+        "Glutamate → GABA",
+        "Guanidinoacétate → Créatine"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 216,
+      "question": "Tous les molécules ci-dessous donnent CH3 au tétrahydrofolate, sauf une, laquelle ?",
+      "images": [],
+      "image": "",
+      "options": [
+        "Histidine",
+        "Glycine",
+        "Treptophane",
+        "Valine"
+      ],
+      "correctIndex": 3
+    },
+    {
+      "id": 217,
+      "question": "Indiquer la proposition inexacte ci-dessous.",
+      "images": [],
+      "image": "",
+      "options": [
+        "La vitamine B12 contient du cobalt sous forme d'un cycle.",
+        "L'adénosylcobalamine est le cofacteur de la méthylmalonyl CoA mutase.",
+        "Le S-adénosylméthionine est synthétisé à partir de la méthionine et GTP.",
+        "Le méthylcobalamine est impliqué dans le transfert de groupe méthyl du tétrahydrofolate."
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 218,
+      "question": "Les propositions concernant la créatine sont exactes, sauf une, laquelle ?",
+      "images": [],
+      "image": "",
+      "options": [
+        "Glycine et Arginine sont les précurseurs de la synthèse de créatine dans l'hépatocyte.",
+        "Le créatine transforme en créatine phosphate dans l'hépatocyte.",
+        "Le créatine phosphate est le précurseur de la créatinine.",
+        "Le créatine phosphate est surtout synthétisé dans le muscle et le cerveau."
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 219,
+      "question": "Indiquer la proposition inexacte ci-dessous.",
+      "images": [],
+      "image": "",
+      "options": [
+        "Les purines et les pyrimidines sont synthétisées à partir des acides aminés, CO2 et FH4",
+        "La dégradation des pyrimidines donne de l'acide urique.",
+        "Les purines de l'acide nucléique sont: Adénine, Guanine et Hypoxanthine.",
+        "Les purines sont plus lourdes que les pyrimidines."
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 220,
+      "question": "Les propositions concernant le métabolisme de l'hème sont exactes, sauf une, laquelle ?",
+      "images": [],
+      "image": "",
+      "options": [
+        "Le succinyl CoA et le Glycine sont les précurseurs de la synthèse de l'hème.",
+        "L'hème est le constituant de l'hémoglobine.",
+        "La bilirubine est le produit de la dégradation de l'hème.",
+        "La bilirubine est dégradée en biliverdine."
+      ],
+      "correctIndex": 3
+    },
+    {
+      "id": 221,
+      "question": "Indiquer la proposition inexacte. Le fer de l'hème est:",
+      "images": [],
+      "image": "",
+      "options": [
+        "apporté par l'alimentation.",
+        "renouvellement utilisé après la dégradation de l'hème.",
+        "stocké sous forme de la transferrine.",
+        "stocké dans le foie et la rate."
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 222,
+      "question": "Les enzymes suivantes interviennent dans le cycle de l'uréogenèse, sauf une. Laquelle?",
+      "images": [],
+      "image": "",
+      "options": [
+        "Ornithine carbamyltransférase",
+        "Arginosuccinate lyase",
+        "Arginosuccinate synthétase",
+        "Lacticodéshydrogénase"
+      ],
+      "correctIndex": 3
+    },
+    {
+      "id": 223,
+      "question": "Parmi les éléments suivants, quel est celui qui n'entre pas dans l'uréogenèse ?",
+      "images": [],
+      "image": "",
+      "options": [
+        "CO2",
+        "NH3",
+        "Valine",
+        "ATP"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 224,
+      "question": "Parmi les molécules suivantes, quelle est celle qui n'intervient pas dans le cycle de l'uréogenèse?",
+      "images": [],
+      "image": "",
+      "options": [
+        "Arginine",
+        "Histidine",
+        "Citrulline",
+        "Acide Aspartique"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 225,
+      "question": "Parmi les propositions suivantes, quelle est celle qui est exacte ?",
+      "images": [],
+      "image": "",
+      "options": [
+        "L'urée est le produit de détoxification de l'ammoniac",
+        "L'uréogenèse a lieu au niveau rénal",
+        "Les enzymes impliquées dans la synthèse de l'urée sont toutes situées dans la mitochondrie",
+        "Une augmentation de l'ammoniémie est associée à une insuffisance rénale"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 226,
+      "question": "Parmi les propositions suivantes, quelle est celle qui est exacte ?",
+      "images": [],
+      "image": "",
+      "options": [
+        "L'uréogenèse a lieu au niveau rénal",
+        "Les enzymes impliquées dans la synthèse de l'urée sont toutes situées dans la mitochondrie",
+        "La forme principale de transport plasmatique de l'ion ammonium est la glutamine",
+        "Une augmentation de l'ammoniémie est associée à une insuffisance rénale"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 227,
+      "question": "Parmi les propositions suivantes concernant l'ammoniogenèse et l'uréogenèse, laquelle est vraie ?",
+      "images": [],
+      "image": "",
+      "options": [
+        "La glutaminase hépatique participe à l'uréogenèse",
+        "L'uréogenèse a lieu exclusivement dans le cytoplasme des hépatocytes",
+        "Au cours du jeûne prolongé, l'uréogenèse n'est pas modifiée",
+        "Les glutaminases rénales sont inhibées lors d'une acidose"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 228,
+      "question": "Concernant le cycle de l'urée, quelle est la proposition exacte :",
+      "images": [],
+      "image": "",
+      "options": [
+        "L'enzyme catalysant la formation mitochondriale de citrulline est l'arginine carbamoyltransférase.",
+        "L'urée est libérée à partir de l'arginine dans la mitochondrie",
+        "L'urée est libérée à partir de l'arginine dans le cytoplasme",
+        "L'uréogenèse et l'ammoniogenèse sont les principaux mécanismes d'élimination de l'azote."
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 229,
+      "question": "Quelle est la proposition vraie à propos de l'uréogenèse ?",
+      "images": [],
+      "image": "",
+      "options": [
+        "Elle s'effectue dans le rein",
+        "Le cycle de l'urée s'effectue exclusivement dans la mitochondrie",
+        "L'uréogenèse produit de l'énergie",
+        "Tous les acides aminés participent à des degrés divers à l'uréogenèse"
+      ],
+      "correctIndex": 3
+    },
+    {
+      "id": 230,
+      "question": "Concernant l'ammoniogenèse, parmi les propositions suivantes, laquelle est inexacte ?",
+      "images": [],
+      "image": "",
+      "options": [
+        "On appelle l'ammoniogenèse la biosynthèse d'ammoniac par les cellules tubulaires distales rénales.",
+        "La glutamine est le précurseur le plus important de l'ammoniac formé par le rein.",
+        "Le glutamate et l'ammoniac inhibent respectivement la glutaminase et la glutamate déshydrogénase.",
+        "En situation d'acidose, l'ammoniogenèse rénale favorise l'élimination urinaire des protons."
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 231,
+      "question": "Parmi les affirmations suivantes, l'une d'entre elles est inexacte. Laquelle ? Dans le cadre des réactions concernant le devenir de la fonction amine des acides aminés:",
+      "images": [],
+      "image": "",
+      "options": [
+        "La transamination est l'une des plus fréquentes",
+        "Le transfert de groupement aminé s'effectue le plus souvent sur l'alphcéto-glutarate",
+        "Les transaminases sont des enzymes exclusivement cytosoliques",
+        "L'augmentation du taux sérique des transaminases traduit une altération"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 232,
+      "question": "Parmi les propositions suivantes, indiquez celle qui est inexacte. L'histamine est :",
+      "images": [],
+      "image": "",
+      "options": [
+        "Le produit de décarboxylation de l'histidine",
+        "Un produit de transamination de l'histidine",
+        "Un produit libéré lors du processus inflammatoire",
+        "Un stimulant des sécrétions de l'estomac"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 233,
+      "question": "Tous les composés biochimiques suivants font partie du catabolisme de l'hémoglobine, sauf un, lequel?",
+      "images": [],
+      "image": "",
+      "options": [
+        "Bilirubine",
+        "Biliverdinoglobine",
+        "Porphobilinogène",
+        "Biliverdine"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 234,
+      "question": "Parmi les différentes propositions concernant les fonctions biologiques de l'hémoglobine, une seuleest fausse. Laquelle?",
+      "images": [],
+      "image": "",
+      "options": [
+        "Elle joue un rôle de tampon",
+        "Elle assure le transport de la bilirubine",
+        "Elle amène l'oxygène des poumons aux tissus",
+        "Elle transporte le gaz carbonique des tissus aux poumons"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 235,
+      "question": "Parmi les propositions suivantes, laquelle s'applique à un ictère à bilirubine libre:",
+      "images": [],
+      "image": "",
+      "options": [
+        "Peut-être dû à une hémolyse",
+        "S'observe en cas d'obstacles sur les voies biliaires",
+        "Est toujours d'origine acquise",
+        "Nécessite l'injection de vitamine K1"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 236,
+      "question": "Parmi les propositions suivantes concernant la bilirubine, laquelle est exacte ?",
+      "images": [],
+      "image": "",
+      "options": [
+        "Est un catabolite de l'hémoglobine",
+        "Contient un atome de fer",
+        "Est éliminée normalement par l'urine",
+        "L'augmentation de sa concentration plasmatique traduit toujours un phénomène de rétention biliaire"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 237,
+      "question": "Parmi les propositions suivantes, laquelle de ces affirmations est fausse ? La bile contient :",
+      "images": [],
+      "image": "",
+      "options": [
+        "de la bilirubine libre",
+        "des électrolytes",
+        "des acides biliaires",
+        "un pH basique"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 238,
+      "question": "Quelles sont les situations que l'on peut retrouver lors d'une hémolyse?",
+      "images": [],
+      "image": "",
+      "options": [
+        "Ictère à bilirubine conjuguée",
+        "Hémoglobinurie",
+        "Insuffisance rénale organique",
+        "Hypertension artérielle"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 239,
+      "question": "L'azote organique est éliminé de l'organisme sous différentes formes. Quelle est la forme éliminée de façon prépondérante par voie urinaire ?",
+      "images": [],
+      "image": "",
+      "options": [
+        "Urée",
+        "Créatinine",
+        "Acide urique",
+        "Ammonium"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 240,
+      "question": "Concernant les acides aminés, quelle est la proposition juste ?",
+      "images": [],
+      "image": "",
+      "options": [
+        "20 acides aminés seulement existent dans le monde vivant.",
+        "Le métabolisme de certains acides aminés peut aboutir à la formation d'acétyl-CoA.",
+        "La threonine fait partie de la structure de certains phospholipides.",
+        "La tyrosine synthèse à partir du glucose."
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 241,
+      "question": "Concernant les acides aminés, quelle est la proposition juste ?",
+      "images": [],
+      "image": "",
+      "options": [
+        "Il n'existe aucun lien entre le métabolisme des acides aminés et le cycle de Krebs.",
+        "La synthèse de l'histamine à partir de l'histidine fait intervenir une étape de désamination oxydative",
+        "Certaines hormones stéroïdiennes sont issues de la transformation en une seule étape d'un acide aminé.",
+        "La phénylalanine et/ou la tyrosine sont des précurseurs des catécholamines et des hormones Thyroïdiennes."
+      ],
+      "correctIndex": 3
+    },
+    {
+      "id": 242,
+      "question": "NH2 ដែលជាធាតុផ្សំរបស់ Urée បានមកពីសារធាតុ ណា?",
+      "images": [],
+      "image": "",
+      "options": [
+        "NH3 et NH2 d'acide aspartique",
+        "NH3 et NH2 d'arginine",
+        "NH3 et NH2 du citruline",
+        "NH3 et NH2 d'ornithine"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 243,
+      "question": "សារធាតុ ដែលចូលរួម digestion ពួក protidesផលិតដោយ Cellules intestinales មាន:",
+      "images": [],
+      "image": "",
+      "options": [
+        "Trypsine et pepsine",
+        "Aminopeptidase et di, tripeptidase",
+        "Carboxypeptidase et élastase",
+        "Amylase et lipase"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 244,
+      "question": "NH3 ដែលបានមកពី acide aminé អាចចូលទៅក្នុងvoie métabolique:",
+      "images": [],
+      "image": "",
+      "options": [
+        "Synthèse d'acide glutamique et cétogenèse",
+        "Uréogenèse et lipogenèse",
+        "Ammoniogenèse et symthèse de glutamine",
+        "Ammoniogenèse et glycogénogenèse"
+      ],
+      "correctIndex": 2
+    }
+  ]
+}

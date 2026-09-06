@@ -1,0 +1,256 @@
+{
+  "questions": [
+    {
+      "id": 1,
+      "question": "Concerning hepatitis A Virus (HAV) s mode of transmission, what is the most appropriate answer?",
+      "images": [],
+      "image": "",
+      "options": [
+        "HAV is transmitted by transfusion",
+        "HAV is transmitted by oro-fecal route",
+        "HAV is transmitted by injection",
+        "HAV is transmitted by blood's products",
+        "HAV is transmitted by sweat"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 2,
+      "question": "Concerning the evolution of hepatitis A, what is the most appropriate answer?",
+      "images": [],
+      "image": "",
+      "options": [
+        "Hepatitis. A can become chronic",
+        "Hepatitis A can evolve to cirrhosis",
+        "Hepatitis .A can evolve to Liver cancer",
+        "Hepatitis. A can evolve to fulminant hepatitis",
+        "Hepatitis .A can evolve to liver abces"
+      ],
+      "correctIndex": 3
+    },
+    {
+      "id": 3,
+      "question": "Concerning the prevention, what is the most appropriate mesure in Cambodia?",
+      "images": [],
+      "image": "",
+      "options": [
+        "Vaccination all enfants > 1 year",
+        "No vaccination will be required",
+        "Vaccination for those with risk factors",
+        "Vaccination for those with chronic hepatitis.C",
+        "Vaccination for those with chronic hepatitis"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 4,
+      "question": "Concerning the clinical manifestation of acute hepatitis A in Cambodia, what is the most likely the clinical picture ?",
+      "images": [],
+      "image": "",
+      "options": [
+        "Asymptomatic",
+        "Icterus and asthenia",
+        "Fever and diarrhea",
+        "Abdominal pain",
+        "Vomiting and headach"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 5,
+      "question": "Concerning hepatitis B, what is the most appropriate answer to mode of transmission in Cambodia ?",
+      "images": [],
+      "image": "",
+      "options": [
+        "Vertical transmission",
+        "Horizontal transmission",
+        "Sexual transmission",
+        "Transfusion",
+        "Oral-fecal route"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 6,
+      "question": "Concerning the prevention, what is the most appropriate mesure in Cambodia?",
+      "images": [],
+      "image": "",
+      "options": [
+        "Universal vaccination for all new borns",
+        "Vaccination for adulescence and young adults",
+        "Vaccination for all people at risks",
+        "Vaccination for all sex workers",
+        "Vaccination for those who have no natural antibodies"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 7,
+      "question": "Un homme qui boit 3 canettes de la bierre 'Angkor (5 degree, v=330 ml) par jour, vient vous consulter pour 'hepatomegalie. Est ce qu'on peut le definir l'alcoolisme?",
+      "images": [],
+      "image": "",
+      "options": [
+        "Oui, car il boit 2 canettes de bierre par jour",
+        "Non, car il faut comsommer plus de 50 g/j",
+        "Non, car il faut comsommer plus de 30 g/j",
+        "Non, car il faut comsommer plus de 100 g/j",
+        "Oui, car il boit 3 canettes de bierre par jour"
+      ],
+      "correctIndex": 4
+    },
+    {
+      "id": 8,
+      "question": "Une femme qui boit 2 canettes de la bierre 'Angkor par jour, vient vous consulter pour 'hepatomegalie. Est ce qu'on peut la definir l'alcoolisme ?",
+      "images": [],
+      "image": "",
+      "options": [
+        "Oui, car il boit 2 canettes de bierre par jour",
+        "Non, car il faut comsommer plus de 50 g/j",
+        "Non, car il faut comsommer plus de 30 g/j",
+        "Non, car il faut comsommer plus de 100 g/j",
+        "Oui, car il boit 3 canettes de bierre par jour"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 9,
+      "question": "Une femme qui boit 2 canettes de la bierre 'Angkor par jour, vient vous consulter pour 'hepatomegalie. Vous allez calculer l'alcool en g/j. Choissisez la reponse correcte",
+      "images": [],
+      "image": "",
+      "options": [
+        "Elle boit 10 g par jour calcule par 5 degres X 2=10 g",
+        "Elle boit 8 g par jour calcule par 4 degres X 2=8 g",
+        "Elle boit 13,2g par jour calcule par 33X5X0,8/10 = 13,2g",
+        "Elle boit 16,5 g par jour calcule par 33 X 5/ 10=16,5g",
+        "Elle boit 6,6 g par jour calcule par 33X5X0,8 8/20=6,6g"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 10,
+      "question": "Quelle est la complications aigue de l'intoxication d'alcool? Choississez la reponse la plus appropriee: en cas de l'alcoolemie a partir de 0,30-0,50g/l",
+      "images": [],
+      "image": "",
+      "options": [
+        "Trouble visuel",
+        "Insomnie",
+        "Cephalee",
+        "Ovomissements",
+        "Coma"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 11,
+      "question": "Quelle est la complications aigue de l'intoxication d'alcool? Choississez la reponse la plus appropriee: en cas de l'alcoolemie a partir de 0,50-1,5 g/l",
+      "images": [],
+      "image": "",
+      "options": [
+        "Euphorie voire Ivresse",
+        "Trouble de l'equilibre",
+        "Trouble de langage C",
+        "Diplopie",
+        "Impuissance sexuel"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 12,
+      "question": "Quelle est la complications aigue de l'intoxication d'alcool? Choississez la reponse la plus appropriee: en cas de l'alcoolemie a partir de 0,50-3g/l",
+      "images": [],
+      "image": "",
+      "options": [
+        "Hyploglemie",
+        "Agitation",
+        "Confusion mentale",
+        "Troubles de memoire",
+        "Difficulte de reflechir"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 13,
+      "question": "Quelle est la complication chronique de l'intoxication d'alcool parmi les propositions suivantes?",
+      "images": [],
+      "image": "",
+      "options": [
+        "Cirrhose",
+        "diabete",
+        "Cancer du colon",
+        "Leucemie",
+        "Cancer de prostate"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 14,
+      "question": "Parmi les propositions suivantes, laquelle est la plus approprie pour definir l'alcoolemie ?",
+      "images": [],
+      "image": "",
+      "options": [
+        "La quantite d'alcool dans le sang en mg/l",
+        "La quantite d'alcool pur par litre de sang",
+        "Elle est definit par la concentration dans le sang total",
+        "Elle est definit par l'alcool consomme en g",
+        "Elle est definit par l'alcool pur comsomme par jour"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 15,
+      "question": "Un policier vous demandera un jour de souffler dans un ethylotest en raison de suspicion de l'ivresse. Parmi les propositions suivantes, laquelle est la plus approprie ?",
+      "images": [],
+      "image": "",
+      "options": [
+        "Ce test est de mesurer la quantite d'alcool consome",
+        "Ce test est de mesurer l'alcoolemie",
+        "Ce test est de mesurer l'alcool dans l'estomac",
+        "Ce test est de mesurer l'alcool dans l'urine",
+        "Ce test est de mesurer l'alcool sans la sueur"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 16,
+      "question": "Concerning Hepatitis A, what is the proposition the most appropriate for mode of transmission ?",
+      "images": [],
+      "image": "",
+      "options": [
+        "Fecal-oral route",
+        "Injection by needle",
+        "transfusion",
+        "Sexual route",
+        "Sharing food"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 17,
+      "question": "Concerning the evolution of hepatitis A, what is the most appropriat answer?",
+      "images": [],
+      "image": "",
+      "options": [
+        "Hepatits. A can evolve to fulminant",
+        "Hepatitis. A can evolve to cirrhosis",
+        "Hepatits .A can evolve to chronic",
+        "Hepatits .A can evolve to cancer",
+        "Hepatits .A can't evolve to chronic"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 18,
+      "question": "Concerning the epidemiology of Hepatitis A, which answer is the most appriate ?",
+      "images": [],
+      "image": "",
+      "options": [
+        "Cambodia is classified as high prevalence",
+        "Cambodia is classified as low prevalence",
+        "Cambodia is classified as intermediate prevalence",
+        "France is classified as intermediate prevalence",
+        "France is classified as high prevalence"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

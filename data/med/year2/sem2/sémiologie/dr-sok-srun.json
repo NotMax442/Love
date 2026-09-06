@@ -1,0 +1,802 @@
+{
+  "questions": [
+    {
+      "id": 1,
+      "question": "What is Nosocomial Infection (NI)?",
+      "images": [],
+      "image": "",
+      "options": [
+        "NI is defined as infections acquired within 24 hours after hospital admission",
+        "NI is only applicable for infections acquired by patients",
+        "NI is a part of HAI (Healthcare Associated Infection)",
+        "NI includes the infections that were acquired outside the hospital, but appeared after the admission",
+        "All of the above"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 2,
+      "question": "Why is it important to prevent Nosocomial Infection?",
+      "images": [],
+      "image": "",
+      "options": [
+        "It can cause extra financial burden to patients",
+        "It can be life-threatening to both patients and healthcare staffs",
+        "It increases the cost of healthcare facility management",
+        "all of the above"
+      ],
+      "correctIndex": 3
+    },
+    {
+      "id": 3,
+      "question": "Choose the common site of Nosocomial Infection.",
+      "images": [],
+      "image": "",
+      "options": [
+        "Catheter-Associated Blood Stream Infection (CABSI)",
+        "Urinary Tract Infection (UTI)",
+        "Surgical Site Infection (SSI)",
+        "All of the above"
+      ],
+      "correctIndex": 3
+    },
+    {
+      "id": 4,
+      "question": "What is the correct example of handling urinary catheter?",
+      "images": [],
+      "image": "",
+      "options": [
+        "Provide prophylactic antibiotics to all patients with urinary catheter",
+        "Wearing gloves when connecting the catheter to patients",
+        "Using urinary catheter for patients with flexible mobility",
+        "Staying with the catheter as long as possible to make sure patients can rest in bed without moving too much"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 5,
+      "question": "What is the potential risk factor of Surgical Site Infection(SSI)?",
+      "images": [],
+      "image": "",
+      "options": [
+        "Patient's pre-disposed symptoms",
+        "Long duration of the operation",
+        "Antibiotic prophylaxis",
+        "all of the above"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 6,
+      "question": "Why is it important to prevent SSI?",
+      "images": [],
+      "image": "",
+      "options": [
+        "It can cause incremental cost to patients",
+        "It is an immediate threat to patient mortality",
+        "It is an important cause of additional morbidity",
+        "It may contributes to increased Antimicrobial Resistance (AMR)",
+        "All of the above"
+      ],
+      "correctIndex": 4
+    },
+    {
+      "id": 7,
+      "question": "Choose the correct prevention practice against SSI.",
+      "images": [],
+      "image": "",
+      "options": [
+        "Always remove hair on the surgical site before the operation",
+        "Perform a surgical scrub with antiseptic product immediately before the operation",
+        "Always administer prophylactic antimicrobial agent",
+        "All of the above"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 8,
+      "question": "Who is exposed to the risk factor of Nosocomial Pneumonia?",
+      "images": [],
+      "image": "",
+      "options": [
+        "Patient in the same ward as pneumonia patient",
+        "Patient who is aided with mechanical ventilation",
+        "Post-operation patient who stays in bed without mobility",
+        "All of the above"
+      ],
+      "correctIndex": 3
+    },
+    {
+      "id": 9,
+      "question": "What describes the right prevention of Nosocomial Pneumonia?\n1.Perform hand hygiene procedure\n2. Elevation of bed heat to 80~90° so that patient can sit up straight\n3. Regular change of humidifier\n4.Post-operation patient try to move as much as possible when not recommended\n5.Disinfection of respiratory equipment",
+      "images": [],
+      "image": "",
+      "options": [
+        "1,3,5",
+        "1,5",
+        "1, 2, 3, 5",
+        "3,5",
+        "1, 2, 3, 4, 5"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 10,
+      "question": "What puts the patient at the unnecessary risk of Catheter Associated Blood Stream Infection (CABSI)?",
+      "images": [],
+      "image": "",
+      "options": [
+        "Insertion of intravenous catheter for nutrition feeding when patient lost appetite",
+        "Cleaning skin with disinfectant before inserting the catheter",
+        "Use of surgical drape to cover the insertion spot",
+        "Use of gown and gloves for staffs performing insertion procedure",
+        "None of the above"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 11,
+      "question": "What describes the incorrect way to prevent CABSI?",
+      "images": [],
+      "image": "",
+      "options": [
+        "Do not perform CABSI when alternative oral feeding method is possible",
+        "Plug needle directly into infusion bottle to avoid using unnecessary equipment",
+        "Protect the insertion site with a sterile dressing",
+        "Remove the catheter as early as possible",
+        "None of the above"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 12,
+      "question": "What is the incorrect description of Injection Safety?",
+      "images": [],
+      "image": "",
+      "options": [
+        "Use of safety box with puncture-proof function",
+        "Immediate throw-away of disposable items after usage",
+        "Use of disposable glove",
+        "Performing post-exposure prophylaxis when accidentally exposed to the risk",
+        "Recapping of needles"
+      ],
+      "correctIndex": 4
+    },
+    {
+      "id": 13,
+      "question": "Choose the incorrect statement about Pressure Ulcer",
+      "images": [],
+      "image": "",
+      "options": [
+        "It is caused by the constant pressure applied to skin exposed to source of infection",
+        "It can spread further infection to the deeper skin layer",
+        "It can be avoided by regularly mobilizing the patient",
+        "It can be avoided by regularly washing the patient at least twice a day",
+        "None of the above"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 14,
+      "question": "What is the definition of Antimicrobial Resistance (AMR)?",
+      "images": [],
+      "image": "",
+      "options": [
+        "It is the ability for human to resist microorganism",
+        "It is the ability for human to resist chemicals",
+        "It is the ability for microorganism to resist human immune system",
+        "It is the ability for microorganism to resist chemicals that would normally kill or limit their growth",
+        "It is the ability for chemicals to resist microorganism"
+      ],
+      "correctIndex": 3
+    },
+    {
+      "id": 15,
+      "question": "How can we avoid/combat AMR?",
+      "images": [],
+      "image": "",
+      "options": [
+        "Prescribe antibiotics whenever possible to avoid infection",
+        "Use routine prophylactic antibiotics before operation",
+        "Recommend patients to discontinue taking antibiotics immediately when symptoms disappear",
+        "Revise the antibiotic guidelines and protocols whenever the new AMR is detected",
+        "All of the above"
+      ],
+      "correctIndex": 3
+    },
+    {
+      "id": 16,
+      "question": "Who should perform respiratory hygiene?",
+      "images": [],
+      "image": "",
+      "options": [
+        "Doctors when dealing with coughing patients",
+        "Patient who is diagnosed with flu",
+        "Visitor who is sneezing",
+        "All of the above"
+      ],
+      "correctIndex": 3
+    },
+    {
+      "id": 17,
+      "question": "Why do patient need to keep respiratory hygiene, when he/she has coughed or sneezed?",
+      "images": [],
+      "image": "",
+      "options": [
+        "To prevent spreading the air-borne disease",
+        "To prevent the nurses to contact patient",
+        "To prevent spreading the droplet-borne disease",
+        "To prevent the contamination of pathogens to other people",
+        "To prevent the close contact people"
+      ],
+      "correctIndex": 3
+    },
+    {
+      "id": 18,
+      "question": "What disease can be prevented by performing good respiratory hygiene?",
+      "images": [],
+      "image": "",
+      "options": [
+        "Tuberculosis",
+        "Hepatitis B",
+        "Hepatitis C",
+        "HIV",
+        "All of the above"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 19,
+      "question": "Choose incorrect example of respiratory hygiene practice.",
+      "images": [],
+      "image": "",
+      "options": [
+        "Covering nose when coughing",
+        "Wiping nose with hand when sneezing",
+        "Throwing away the used tissue to the trash bin",
+        "Washing hands regularly"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 20,
+      "question": "Choose the correct example of performing respiratory hygiene.",
+      "images": [],
+      "image": "",
+      "options": [
+        "Doctor shaking hands with all the patients to be friendly",
+        "Patient using a box of tissue while coughing and sneezing",
+        "Visitor who came to see the flu patient, not wearing any mask",
+        "All of the above",
+        "None of the above"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 21,
+      "question": "How can the germ or pathogen have contaminated to human in healthcare facilities (HCFs) from?",
+      "images": [],
+      "image": "",
+      "options": [
+        "Patients to patients",
+        "Patients to health care workers (HCWs) and HCWs to patients",
+        "Patients to environment and crossed environment to patient and HCWs",
+        "Patient to visitors and HCWs",
+        "People who has contacted, included soil material and environment"
+      ],
+      "correctIndex": 4
+    },
+    {
+      "id": 22,
+      "question": "To select the correct answer one below, the six components of the chain of infection are:",
+      "images": [],
+      "image": "",
+      "options": [
+        "Micro-organism, reservoir, pathogen virulence, mode of transmission, place of entry and host.",
+        "Micro-organism, Reservoir, Place of exit, mode of transmission, place of entry and host",
+        "Bacteria, reservoir, mode of transmission, place of entry, host, and environment.",
+        "Reservoir, fungus, mode of transmission, place of entry, host, and environment.",
+        "Virus, Bacteria, Fungi, Protozoa, Parasite, Microorganism"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 23,
+      "question": "What is the entry germs or micro-organism to \"Susceptible host\" are?",
+      "images": [],
+      "image": "",
+      "options": [
+        "Children under age 5",
+        "Patients who have been with chronic diseases",
+        "People who have a multiple history of infection to microorganisms, especially elderly people",
+        "People who have a low resistance against pathogen included pregnant women",
+        "Patients who gets stress with TB and AIDS more easily than others"
+      ],
+      "correctIndex": 3
+    },
+    {
+      "id": 24,
+      "question": "Who could be the \"Susceptible host\" of micro-organism?",
+      "images": [],
+      "image": "",
+      "options": [
+        "Pregnant women and children under 5 years of age",
+        "People who are working in healthcare facilities",
+        "Nurses and physicians who performs regular injection task and examination people",
+        "Elderly people with chronic diseases",
+        "Pregnant women, children < 5 Years and elderly people"
+      ],
+      "correctIndex": 4
+    },
+    {
+      "id": 25,
+      "question": "Choose the correct statement for the relationship between infection prevention and control (IPC) and the Chain of Infection.",
+      "images": [],
+      "image": "",
+      "options": [
+        "Chain of Infection can be completely eliminated when infection prevention and control (IPC) measures are taken.",
+        "IPC aims to cut the pathways in the Chain of Infection.",
+        "IPC aims to control the elements of the Chain of Infection.",
+        "Chain of Infection can be completely eliminated when IPC implement properly and also cut it",
+        "Chain of Infection can be completely eliminated when infection prevention and control (IPC) measures are taken, IPC aims to control the elements of the Chain of Infection."
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 26,
+      "question": "infection prevention and control (IPC) measures can break the chain of infection by",
+      "images": [],
+      "image": "",
+      "options": [
+        "Remove the reservoir of micro-organism",
+        "Block the mode of transmission",
+        "Remove all risky micro-organisms",
+        "Remove the reservoir of micro-organism and block the mode of transmission",
+        "All of the above excepted (d)"
+      ],
+      "correctIndex": 3
+    },
+    {
+      "id": 27,
+      "question": "Choose the correct statement.",
+      "images": [],
+      "image": "",
+      "options": [
+        "Chain of infection only exists in the hospital setting.",
+        "Chain of infection can be usually controlled well by tackling 1 of the 6 elements.",
+        "It is more effective to control Reservoir than to control portal of exit.",
+        "Holistic IPC program is needed to effectively control the chain of infection.",
+        "None of the above."
+      ],
+      "correctIndex": 3
+    },
+    {
+      "id": 28,
+      "question": "What is definition of pathogens?",
+      "images": [],
+      "image": "",
+      "options": [
+        "Toxic chemicals",
+        "Microorganisms that produces toxic chemicals",
+        "Microorganisms that damage the human host by direct invasion or by toxic products",
+        "Any agent, including chemicals, microorganisms and heavy metals that damage the human host.",
+        "None of the above"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 29,
+      "question": "Choose the correct linkage of microorganism and its description.",
+      "images": [],
+      "image": "",
+      "options": [
+        "Virus - multicellular organism",
+        "Fungi - has no nucleus",
+        "Bacteria - reproduces by replication and cellular fusion",
+        "Parasites - lives inside the cell"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 30,
+      "question": "Choose the correct linkage of microorganism and its examples",
+      "images": [],
+      "image": "",
+      "options": [
+        "Virus - Hepatitis B",
+        "Fungi - Streptococcus",
+        "Parasite - Escheria coli",
+        "Bacteria - Plasmodium falciparum",
+        "All of the above"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 31,
+      "question": "What is the most common pathogen of nosocomial infection in HCFs?",
+      "images": [],
+      "image": "",
+      "options": [
+        "Virus",
+        "Bacteria",
+        "Parasites",
+        "Fungi",
+        "Mix bacteria and virus"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 32,
+      "question": "Choose the correct statement.",
+      "images": [],
+      "image": "",
+      "options": [
+        "Any bacteria, once entered human body, is pathogenic.",
+        "Any virus, once entered human body, causes immediate symptoms.",
+        "Fungi infection can be easily treated by antimicrobiotics",
+        "Normal flora does not cause any nosocomial infection in any case.",
+        "None of the above"
+      ],
+      "correctIndex": 4
+    },
+    {
+      "id": 33,
+      "question": "Choose the correct statement bacteria to comment skin infection and also prothesis infection:",
+      "images": [],
+      "image": "",
+      "options": [
+        "Bacteria Gram (+): Staphylococcus",
+        "Bacteria Gram (+): Streptococcus",
+        "Bacteria Gram (+): Enterococcus",
+        "Bacteria Gram (-): E-coli",
+        "Bacteria Gram (-): Pseudomonas"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 34,
+      "question": "Choose the correct statement bacteria to comment infection gangrene:",
+      "images": [],
+      "image": "",
+      "options": [
+        "Bacteria Gram (+): Staphylococcus",
+        "Bacteria Gram (+): Streptococcus",
+        "Bacteria Gram (+): Enterococcus",
+        "Bacteria Gram (-): Anaerobia",
+        "Bacteria Gram (-): Pseudomonas"
+      ],
+      "correctIndex": 3
+    },
+    {
+      "id": 35,
+      "question": "Choose the correct statement bacteria gram (-) to common infection as urinary tract infection:",
+      "images": [],
+      "image": "",
+      "options": [
+        "Staphylococcus",
+        "Escherichia coli (E-coli)",
+        "Klebsiella pneumoniae",
+        "Anaerobia",
+        "Pseudomonas"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 36,
+      "question": "Why is Healthcare Facility (HCF) Environment important for Infection Prevention and Control (IPC)?",
+      "images": [],
+      "image": "",
+      "options": [
+        "It provides the safe workplace for HCF staffs",
+        "It provides the safe environment for patients",
+        "Poorly managed HCF environment could raise the Nosocomial Infection rate",
+        "It provides the safe environment for caregivers and visitors",
+        "All of the above"
+      ],
+      "correctIndex": 4
+    },
+    {
+      "id": 37,
+      "question": "Choose the correct example of safe HCF environment.",
+      "images": [],
+      "image": "",
+      "options": [
+        "Sink in the bathroom is broken and water is leaking",
+        "Hospital corridor is full of people",
+        "Paint on the wall is scratched and removed",
+        "Window is closed in the operation room",
+        "None of the above"
+      ],
+      "correctIndex": 4
+    },
+    {
+      "id": 38,
+      "question": "What is not relevant to HCF environment?",
+      "images": [],
+      "image": "",
+      "options": [
+        "Safe water",
+        "Building design and construction",
+        "Food safety",
+        "Safe commuting route",
+        "Ventilation"
+      ],
+      "correctIndex": 3
+    },
+    {
+      "id": 39,
+      "question": "Choose incorrect statement about ventilation in HCF.",
+      "images": [],
+      "image": "",
+      "options": [
+        "It should be designed to reduce microbial contamination",
+        "Window should be always open for natural ventilation",
+        "Mosquito screen or mosquito net should be provided when window is open",
+        "Every patient room has to have window directly connected to outside",
+        "None of the above"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 40,
+      "question": "Choose the correct example of HCF ventilation.",
+      "images": [],
+      "image": "",
+      "options": [
+        "Window is blocked with TV screen in the patient room",
+        "Window is open and mosquito net is installed in the patient room",
+        "Isolation room has a ceiling fan to make air circulate to outside",
+        "None of the above"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 41,
+      "question": "What is the safe source of water for HCF?",
+      "images": [],
+      "image": "",
+      "options": [
+        "Rain water stored in tanks",
+        "Main city water supply",
+        "Open pond",
+        "Rain water stored in tanks, Main city water supply",
+        "All of the above"
+      ],
+      "correctIndex": 3
+    },
+    {
+      "id": 42,
+      "question": "How can HCF ensure the quality of water?",
+      "images": [],
+      "image": "",
+      "options": [
+        "Regular monitoring and evaluation of water supply",
+        "Regular monitoring and evaluation of water treatment process",
+        "Regular monitoring and evaluation of water quality",
+        "All of the above"
+      ],
+      "correctIndex": 3
+    },
+    {
+      "id": 43,
+      "question": "What is the correct statement about food safety at HCF?",
+      "images": [],
+      "image": "",
+      "options": [
+        "All food for patients must be prepared by authorized hospital kitchen",
+        "If visitor brings food from outside, it's better to share the food with others",
+        "If the risk of going wrong is small, it's ok to keep the food outside the refrigerator",
+        "It's not a big problem to store raw fruit and cooked food together",
+        "None of the above"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 44,
+      "question": "What would you NOT need to consider when designing/constructing HCF with Infection Prevention and Control in mind?",
+      "images": [],
+      "image": "",
+      "options": [
+        "Numbers and types of rooms",
+        "Distance between each patient bed",
+        "Route of the laundries being transported in the building",
+        "Materials used for floor, type of furnitures",
+        "All of them are important"
+      ],
+      "correctIndex": 4
+    },
+    {
+      "id": 45,
+      "question": "Choose the correct statement about HCF environment.",
+      "images": [],
+      "image": "",
+      "options": [
+        "It is important to accurately quantify the impact of HCF environment to Nosocomial Infection",
+        "Environmental cause is easily separable from other causes of Nosocomial Infection",
+        "Having a safe environment is crucial for the safety of patients, staffs and visitors",
+        "All of the above"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 46,
+      "question": "Choose the correct statement about standard precautions.",
+      "images": [],
+      "image": "",
+      "options": [
+        "Standard precaution is not necessary for outpatient consultation.",
+        "Risk assessment should be performed only for susceptible host.",
+        "IPC standard precautions HCWs should be applied for all patients at all time To clean hand and selected PPE to use",
+        "IPC standard precautions HCWs should be applied for selected patients not to all."
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 47,
+      "question": "Choose the correct statement about additional precautions.",
+      "images": [],
+      "image": "",
+      "options": [
+        "Additional precaution is not necessary for general outpatient consultation.",
+        "When necessary, HCWs staff must change from standard precaution to additional precautions.",
+        "Needs of additional precaution dependent on pathogen's mode of transmission.",
+        "To use additional precaution is better than standard precaution",
+        "None of the above"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 48,
+      "question": "What is not considered during the IPC risk assessment?",
+      "images": [],
+      "image": "",
+      "options": [
+        "Medical procedure to be performed",
+        "Risk of contacting body fluid",
+        "Patient's blood type",
+        "Pre-diagnosed condition or symptoms",
+        "None of the above"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 49,
+      "question": "Choose the correct IPC standard precautions to apply:",
+      "images": [],
+      "image": "",
+      "options": [
+        "Hand hygiene and to select PPE to use",
+        "hand hygiene, PPE selected, safe handling of equipment, environmental cleaning, prevention needle stick injury, health care waste management and coughing etiquette",
+        "There are five componence: hand hygiene, PPE, safe handling of equipment, environmental cleaning and health care waste management.",
+        "Hand hygiene, safe handling of equipment, environment cleaning, health care waste management,",
+        "Hand hygiene, safe handling of medical equipment, environmental cleaning and hospital cleaning or hygiene."
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 50,
+      "question": "What type of Personal Protective Equipment (PPE) used or additional precaution for HCWs contact with patient's body fluid:",
+      "images": [],
+      "image": "",
+      "options": [
+        "Disposable Gloves only",
+        "Eyes protection",
+        "Gown",
+        "Surgical mask",
+        "Apron"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 51,
+      "question": "What type of Personal Protective Equipment (PPE) used or additional precaution for physician to examination the patient with a fever include cough and sneeze?",
+      "images": [],
+      "image": "",
+      "options": [
+        "Disposable Gloves",
+        "Eyes protection",
+        "Gown",
+        "Surgical mask",
+        "Surgical mask and disposable glove"
+      ],
+      "correctIndex": 4
+    },
+    {
+      "id": 52,
+      "question": "What type of Personal Protective Equipment (PPE) used or additional precaution for physician to examination the TB patient with a fever include cough and sneeze?",
+      "images": [],
+      "image": "",
+      "options": [
+        "Disposable Gloves",
+        "Eyes protection",
+        "Gown and apron",
+        "Surgical mask",
+        "Disposable glove and N 95 mask"
+      ],
+      "correctIndex": 4
+    },
+    {
+      "id": 53,
+      "question": "Choose the correct statement for hand hygiene with soap and water and alcohol apply to:",
+      "images": [],
+      "image": "",
+      "options": [
+        "The doctors and nurses, but not for cleaning staffs.",
+        "Technical laboratory, pharmacist and people concern by washing your hands with soap & water.",
+        "All cleaners and nurses by washing your hands with soap and water.",
+        "All people who provided health care services, included patients and patient's family.",
+        "Patient and patient's member included visitor"
+      ],
+      "correctIndex": 3
+    },
+    {
+      "id": 54,
+      "question": "Choose the correct statement for safe handling of equipment and soiled linen.",
+      "images": [],
+      "image": "",
+      "options": [
+        "It is ok not to change the bed linen in between patients if the previous one didn't bleed.",
+        "Thermometer can be shared between patients if it is wiped with wet tissue.",
+        "All used patient gowns, bed sheets and towels should be cleaned and disinfected any material reused it again.",
+        "Safe handling of equipment: soak, clean, dry, packaging, sterilization and storage to reuse",
+        "All of the above"
+      ],
+      "correctIndex": 3
+    },
+    {
+      "id": 55,
+      "question": "Choose the correct example of clean healthcare facility environment.",
+      "images": [],
+      "image": "",
+      "options": [
+        "One trash can is shared by all patients in the ward",
+        "Cleaning staff cleans the floor with the broom only",
+        "Water sink in the shared bathroom is broke",
+        "Cleaning staff cleans the operation room at least twice a day",
+        "None of the above"
+      ],
+      "correctIndex": 3
+    },
+    {
+      "id": 56,
+      "question": "Choose the correct for vaccination at community to apply an injection safety and to prevent the needle stick injury.",
+      "images": [],
+      "image": "",
+      "options": [
+        "Nurse close the cap of the needle after the injection procedure",
+        "Doctor is wearing a mask, but not the gloves when injecting",
+        "Needles are thrown away in the trash can without lid",
+        "Safety box or sharp box container and AD syringes.",
+        "None of the above"
+      ],
+      "correctIndex": 3
+    },
+    {
+      "id": 57,
+      "question": "Choose that correct Personal Protection Equipment (PPE) HCWs use to taking blood sample from coughing patient.",
+      "images": [],
+      "image": "",
+      "options": [
+        "Gown",
+        "Mask",
+        "Gloves",
+        "Surgical mask",
+        "Disposable glove and surgical mask"
+      ],
+      "correctIndex": 4
+    },
+    {
+      "id": 58,
+      "question": "HCW takes blood sample with patient for routine check-up, the patient does not present visible symptoms, what type and which IPC precaution the staff will apply?",
+      "images": [],
+      "image": "",
+      "options": [
+        "To performs hand hygiene and wears disposable gloves",
+        "To clean and disinfected area with alcohol",
+        "To use safety box to collect the single used of needle and syringe",
+        "To clean hand, used disposable gloves, safety book to collect the syringe & needle"
+      ],
+      "correctIndex": 3
+    }
+  ]
+}

@@ -1,0 +1,264 @@
+{
+  "questions": [
+    {
+      "id": 1,
+      "question": "Which is the most comprehensive of the interviewing patients in the following statements?",
+      "images": [],
+      "image": "",
+      "options": [
+        "may precipitate several behaviors and situations",
+        "may predispose several behaviors and situations",
+        "may protect may several behaviors and situations",
+        "may perpetuate several behaviors and situations"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 2,
+      "question": "Which is the very important of the interviewing patients in the following statements?",
+      "images": [],
+      "image": "",
+      "options": [
+        "Observe and clarifying the patient's concerns",
+        "Challenge and judgment the patient's concerns",
+        "Listening and clarifying the patient's concerns",
+        "Listening and judgment the patient's concerns"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 3,
+      "question": "Which is the most comprehensive of the interviewing patients that therapist will evolve throughout his/her career?",
+      "images": [],
+      "image": "",
+      "options": [
+        "The ability to talk about these situations",
+        "The ability to observe these situations",
+        "The ability to know these situations",
+        "The ability to handle these situations"
+      ],
+      "correctIndex": 3
+    },
+    {
+      "id": 4,
+      "question": "Silence patient during the interview has many meanings and many purposes. What is the most comprehensive related of the following?",
+      "images": [],
+      "image": "",
+      "options": [
+        "Silence related to the patient's behaviors",
+        "Silence related to the patient's believe",
+        "Silence related to the patient's thought",
+        "Silence related to the patient's emotion"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 5,
+      "question": "Silence patient during the interview the clinician should be encouraged patient to talk. What is the best technique in the following?",
+      "images": [],
+      "image": "",
+      "options": [
+        "Build relationship and watch closely to the patient",
+        "Build relationship and observe to the patient.",
+        "Build relationship and support to the patient.",
+        "Build relationship and do not watch closely to the patient."
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 6,
+      "question": "Crying signals strong emotions (sadness to anger or frustration) and makes many people uncomfortable. What is the best technique in the following?",
+      "images": [],
+      "image": "",
+      "options": [
+        "Stop the patient cry immediately",
+        "Offer a tissue and wait for the patient to recover",
+        "Let the patient cry as they want",
+        "Let the patient cry and stop"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 7,
+      "question": "What is the best statement to make a supportive remark when the patient cries by saying in the following?",
+      "images": [],
+      "image": "",
+      "options": [
+        "I'm glad you were able tell the problem",
+        "I'm glad you were able to meet me today",
+        "I'm glad you were able handle this situation",
+        "I'm glad you were able to express your feeling"
+      ],
+      "correctIndex": 3
+    },
+    {
+      "id": 8,
+      "question": "The confusing patient comes up with the symptoms as an inappropriate behavior. Which is the best following should be applied?",
+      "images": [],
+      "image": "",
+      "options": [
+        "Spend much time to gather the information",
+        "Shift to the mental status examination",
+        "Give patient medicine instate",
+        "Wait for the patient stable symptoms"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 9,
+      "question": "The confusing patient comes up with the symptoms as an inappropriate behavior. Which is the basic principal interview should be applied?",
+      "images": [],
+      "image": "",
+      "options": [
+        "Motivate and give priority patient to talk",
+        "Gather information to the accompanies patient",
+        "Give medicine to come down symptoms",
+        "Wait for the patient stable symptoms"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 10,
+      "question": "The Symptoms may be described of the ideas are poorly connected, and language is hard to follow. What is the basic label?",
+      "images": [],
+      "image": "",
+      "options": [
+        "The confusing patient",
+        "The difficult patient",
+        "The Mute patient",
+        "The Deaf patient"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 11,
+      "question": "The mental status examination focus on the recognizing people has been explain as:",
+      "images": [],
+      "image": "",
+      "options": [
+        "Level of consciousness",
+        "Level of memory",
+        "Level of cognition",
+        "Level of orientation"
+      ],
+      "correctIndex": 3
+    },
+    {
+      "id": 12,
+      "question": "The mental status examination focus on the recalling of the people name has been explain as:",
+      "images": [],
+      "image": "",
+      "options": [
+        "Level of consciousness",
+        "Level of memory",
+        "Level of cognition",
+        "Level of orientation"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 13,
+      "question": "The mental status examination focus on the ability of being ill has been explain as:",
+      "images": [],
+      "image": "",
+      "options": [
+        "Level of insight",
+        "Level of consciousness",
+        "Level of cognition",
+        "Level of orientation"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 14,
+      "question": "Angry patients become overtly disruptive. Few people can disturb and out of control. What is the main basic skill to manage this situation by trying to?",
+      "images": [],
+      "image": "",
+      "options": [
+        "Tell the patient to calm down",
+        "Tell the patient to relax",
+        "Understand the patient says",
+        "Understand the patient family"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 15,
+      "question": "What is the main skill to apply with the low literacy patient?",
+      "images": [],
+      "image": "",
+      "options": [
+        "Use technical words",
+        "Use empathy words",
+        "Use sympathy words",
+        "Use the simple words"
+      ],
+      "correctIndex": 3
+    },
+    {
+      "id": 16,
+      "question": "The clinician should encourage silent patient to talk. What is the main skill to apply?",
+      "images": [],
+      "image": "",
+      "options": [
+        "Talk loudly to the patient",
+        "Watch closely to the patient",
+        "Sit a bit far away from the patient",
+        "Talk with monotone voice"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 17,
+      "question": "The clinician should encourage silent patient to talk. What is the main skill to apply?",
+      "images": [],
+      "image": "",
+      "options": [
+        "Talk smoothly to the patient",
+        "Build up relationship",
+        "Sit closely to the patient",
+        "Talk with monotone voice"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 18,
+      "question": "The silent patient remains related to one statement below.",
+      "images": [],
+      "image": "",
+      "options": [
+        "The patient's ability",
+        "The patient's awareness",
+        "The patient's thought",
+        "The patient's feeling"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 19,
+      "question": "The Communication with crying patients can be described to one mainly statement below:",
+      "images": [],
+      "image": "",
+      "options": [
+        "Let the patient cries for a moment",
+        "Stop the patient cries immediately",
+        "Tell the patient do something else",
+        "Tell the patient crying is not good"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 20,
+      "question": "The crying patients can be described to one mainly statement below:",
+      "images": [],
+      "image": "",
+      "options": [
+        "Expression of angry",
+        "Expression of fearful emotion",
+        "Expression of the problem",
+        "Expression of strong emotion"
+      ],
+      "correctIndex": 3
+    }
+  ]
+}

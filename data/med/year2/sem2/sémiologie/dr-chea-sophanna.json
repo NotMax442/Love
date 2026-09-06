@@ -1,0 +1,102 @@
+{
+  "questions": [
+    {
+      "id": 1,
+      "question": "Quels sont les incidences standards de mammographie ?",
+      "images": [],
+      "image": "",
+      "options": [
+        "Crânio-caudal (CC) et Médio-latéral-oblique (MLO)",
+        "Médio-latéral (ML) et Compression localisée",
+        "Compression localisé et Agrandissement",
+        "Médio -latéral (ML)",
+        "Médio-lateral-oblique (MLO)"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 2,
+      "question": "La mammographie est un examen de première ou deuxième ou troisième ou... intention chez la jeune fille post-pubère ?",
+      "images": [],
+      "image": "",
+      "options": [
+        "Première intention",
+        "Deuxième intention",
+        "Troisième intention",
+        "Quatrième intention",
+        "Cinquième intention"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 3,
+      "question": "L'échographie est un examen de première ou deuxième ou troisième ou... intention chez la jeune fille post-pubère ?",
+      "images": [],
+      "image": "",
+      "options": [
+        "Première intention",
+        "Deuxième intention",
+        "Troisième intention",
+        "Quatrième intention",
+        "Cinquième intention"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 4,
+      "question": "La mammographie est un examen de première ou deuxième ou troisième ou... intention chez la femme ménopausée ?",
+      "images": [],
+      "image": "",
+      "options": [
+        "Première intention",
+        "Deuxième intention",
+        "Troisième intention",
+        "Quatrième intention",
+        "Cinquième intention"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 5,
+      "question": "Combien de types de densité mammographique selon la classification BI-RADS de l'ACR?",
+      "images": [],
+      "image": "",
+      "options": [
+        "3 types",
+        "4 types",
+        "5 types",
+        "6 types",
+        "7 types"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 6,
+      "question": "Quel est le signal de la graisse en séquence T1?",
+      "images": [],
+      "image": "",
+      "options": [
+        "Hypersignal",
+        "Hyposignal",
+        "Isosignal",
+        "Hyperdense",
+        "Hypodense"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 7,
+      "question": "Quel est le signal de l'eau en séquence T2 ?",
+      "images": [],
+      "image": "",
+      "options": [
+        "Hypersignal",
+        "Hyposignal",
+        "Isosignal",
+        "Hyperdense",
+        "Hypodense"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

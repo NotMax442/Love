@@ -1,0 +1,424 @@
+{
+  "questions": [
+    {
+      "id": 1,
+      "question": "What type of wave is sound when traveling through air?",
+      "images": [],
+      "image": "",
+      "options": [
+        "Transverse wave",
+        "Longitudinal wave",
+        "Electromagnetic wave",
+        "Light wave",
+        "Sound wave"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 2,
+      "question": "Which of the following is not true about sound waves?",
+      "images": [],
+      "image": "",
+      "options": [
+        "They can travel in a vacuum",
+        "They are mechanical waves",
+        "They need a medium to travel",
+        "They are longitudinal in air",
+        "They carry mass of particles"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 3,
+      "question": "What is the correct order of how sound travels through the ear?",
+      "images": [],
+      "image": "",
+      "options": [
+        "Cochlea → Eardrum → Ossicles → Auditory Nerve",
+        "Ear Canal → Eardrum → Ossicles → Cochlea → Auditory Nerve",
+        "Eardrum → Cochlea → Ossicles → Auditory Nerve",
+        "Ear Canal → Cochlea → Ossicles → Eardrum → Auditory Nerve",
+        "Ear Canal → Cochlea → Ossicles → Eardrum → Brain"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 4,
+      "question": "What part of the ear captures sound from the environment?",
+      "images": [],
+      "image": "",
+      "options": [
+        "Cochlea",
+        "Eardrum",
+        "Pinna (Outer Ear)",
+        "Auditory Nerve",
+        "Ear canal"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 5,
+      "question": "What is the role of the ossicles (malleus, incus, stapes)?",
+      "images": [],
+      "image": "",
+      "options": [
+        "They detect electrical signals.",
+        "They carry sound directly to the brain.",
+        "They amplify and transmit vibrations to the inner ear.",
+        "They convert sound into chemical energy.",
+        "They carry signal out from the brain"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 6,
+      "question": "Where are sound vibrations converted into electrical signals?",
+      "images": [],
+      "image": "",
+      "options": [
+        "Eardrum",
+        "Cochlea",
+        "Ear Canal",
+        "Auditory Nerve",
+        "Pinna"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 7,
+      "question": "Which part of the ear sends sound information to the brain?",
+      "images": [],
+      "image": "",
+      "options": [
+        "Cochlea",
+        "Ossicles",
+        "Ear Canal",
+        "Auditory Nerve",
+        "Pinna"
+      ],
+      "correctIndex": 3
+    },
+    {
+      "id": 8,
+      "question": "What does the volume flow rate (Q) measure?",
+      "images": [],
+      "image": "",
+      "options": [
+        "The weight of fluid per time",
+        "The area of flow per volume",
+        "The volume of fluid passing through a point per unit time",
+        "The speed of a moving object",
+        "The area of flow per unit time"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 9,
+      "question": "What is the term for the volume flow rate of blood pumped by the heart?",
+      "images": [],
+      "image": "",
+      "options": [
+        "Tidal volume",
+        "Blood pressure",
+        "Cardiac output",
+        "Stroke rate",
+        "Air Volume"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 10,
+      "question": "Which organs are most affected if blood flow rate drops too low?",
+      "images": [],
+      "image": "",
+      "options": [
+        "Skin and muscles",
+        "Hair and nails",
+        "Bones and cartilage",
+        "Brain and heart",
+        "Lungs and Spinal cord"
+      ],
+      "correctIndex": 3
+    },
+    {
+      "id": 11,
+      "question": "Why is volume flow rate important in the respiratory system?",
+      "images": [],
+      "image": "",
+      "options": [
+        "It controls your heartbeat",
+        "It determines how much oxygen enters the blood",
+        "It maintains body temperature",
+        "It produces energy directly",
+        "It controls your breath"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 12,
+      "question": "What can happen if the volume flow rate of blood or air is too low?",
+      "images": [],
+      "image": "",
+      "options": [
+        "Improved digestion",
+        "Stronger muscles",
+        "Oxygen shortage in tissues",
+        "Higher blood sugar levels",
+        "weaker muscles"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 13,
+      "question": "What does a sound intensity of 120-130 dB correspond to?",
+      "images": [],
+      "image": "",
+      "options": [
+        "Silence",
+        "Soft whisper",
+        "Whisper",
+        "Normal conversation",
+        "Threshold of pain (very loud)"
+      ],
+      "correctIndex": 4
+    },
+    {
+      "id": 14,
+      "question": "Where in the ear does the amplification of sound primarily occur?",
+      "images": [],
+      "image": "",
+      "options": [
+        "Middle ear (ossicles)",
+        "Outer ear (pinna)",
+        "Inner ear (cochlea)",
+        "Auditory nerve",
+        "Pinna"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 15,
+      "question": "Why does the flow rate increase more slowly in turbulent flow compared to laminar flow?",
+      "images": [],
+      "image": "",
+      "options": [
+        "Because blood viscosity is reduced in turbulence",
+        "Because turbulent flow causes vessel dilation",
+        "Because flow rate in turbulence is proportional to the square of pressure gradient",
+        "Because flow rate in turbulence is proportional to the square root of pressure gradient",
+        "Because turbulent flow eliminates resistance"
+      ],
+      "correctIndex": 3
+    },
+    {
+      "id": 16,
+      "question": "In laminar flow, how does vessel radius affect flow rate?",
+      "images": [],
+      "image": "",
+      "options": [
+        "It has no effect",
+        "Flow rate is directly proportional to radius",
+        "Flow rate is proportional to the square of radius",
+        "Flow rate is proportional to the fourth power of radius",
+        "Flow rate decreases linearly with radius"
+      ],
+      "correctIndex": 3
+    },
+    {
+      "id": 17,
+      "question": "What is the main biophysical role of the ossicles in hearing?",
+      "images": [],
+      "image": "",
+      "options": [
+        "Convert sound waves into electrical signals",
+        "Transmit sound directly to the brain",
+        "Equalize air pressure",
+        "Detect high-frequency sound",
+        "Amplify mechanical vibrations from the eardrum to the inner ear"
+      ],
+      "correctIndex": 4
+    },
+    {
+      "id": 18,
+      "question": "What is the primary function of the cochlear hair cells?",
+      "images": [],
+      "image": "",
+      "options": [
+        "To generate pressure waves",
+        "To convert mechanical vibrations into electrical signals",
+        "To protect the eardrum",
+        "To move the ossicles",
+        "To produce perilymph"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 19,
+      "question": "Which principle explains how different frequencies affect different parts of the cochlea?",
+      "images": [],
+      "image": "",
+      "options": [
+        "Poiseuille's law",
+        "Laplace's law",
+        "Tonotopic organization",
+        "Bernoulli principle",
+        "Hooke's law"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 20,
+      "question": "Why do hair cells fail to recover after damage?",
+      "images": [],
+      "image": "",
+      "options": [
+        "They regenerate slowly over time",
+        "They are protected by immune cells",
+        "They are post-mitotic and do not regenerate",
+        "They only respond to low frequencies",
+        "They are replaced by fluid"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 21,
+      "question": "How do hair cells convert mechanical vibrations into neural signals?",
+      "images": [],
+      "image": "",
+      "options": [
+        "By opening ion channels on stereocilia",
+        "Through hormone secretion",
+        "By moving ossicles",
+        "By reflecting sound",
+        "By creating turbulence in the fluid"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 22,
+      "question": "What is the role of the basilar membrane in hearing?",
+      "images": [],
+      "image": "",
+      "options": [
+        "To convert sound waves directly into nerve impulses",
+        "To vibrate in response to fluid movement and stimulate hair cells",
+        "To amplify sound using ossicle action",
+        "To equalize air pressure in the inner ear",
+        "To protect the cochlea from excessive fluid pressure"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 23,
+      "question": "Why does ear pressure often occur during altitude changes?",
+      "images": [],
+      "image": "",
+      "options": [
+        "Inner ear swelling",
+        "Cold air entering the ear canal",
+        "Fluid buildup behind the eardrum",
+        "Unequal pressure between the middle ear and the outside environment",
+        "Blockage from earwax"
+      ],
+      "correctIndex": 3
+    },
+    {
+      "id": 24,
+      "question": "The function of outer hair cells in the cochlea is to",
+      "images": [],
+      "image": "",
+      "options": [
+        "Produce earwax",
+        "Detect high-frequency tones only",
+        "Transmit signals to the auditory cortex",
+        "Amplify and fine-tune mechanical vibrations",
+        "Convert electrical signals into mechanical motion"
+      ],
+      "correctIndex": 3
+    },
+    {
+      "id": 25,
+      "question": "What happens when the pressure inside the middle ear is lower than the external air pressure?",
+      "images": [],
+      "image": "",
+      "options": [
+        "Eardrum ruptures immediately",
+        "Eardrum is pulled inward",
+        "No effect unless temperature changes",
+        "Eardrum pushes outward",
+        "Hearing improves"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 26,
+      "question": "What is the approximate dynamic range of the human ear in the 1-2 kHz frequency range?",
+      "images": [],
+      "image": "",
+      "options": [
+        "10-50 dB",
+        "0-80 dB",
+        "0-100 dB",
+        "0-120 to 130 dB",
+        "20-200 dB"
+      ],
+      "correctIndex": 3
+    },
+    {
+      "id": 27,
+      "question": "What does \"dynamic range\" in human hearing refer to?",
+      "images": [],
+      "image": "",
+      "options": [
+        "Frequency range of hearing",
+        "Loudness range between threshold and pain",
+        "Range of hair cell movement",
+        "Auditory nerve firing rate",
+        "Bone conduction capacity"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 28,
+      "question": "In which frequency range is the ear most sensitive, having the widest dynamic range?",
+      "images": [],
+      "image": "",
+      "options": [
+        "20-50 Hz",
+        "100-500 Hz",
+        "1-2 kHz",
+        "5-8 kHz",
+        "Above 10 kHz"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 29,
+      "question": "What happens to the dynamic range at very low or very high frequencies?",
+      "images": [],
+      "image": "",
+      "options": [
+        "It increases",
+        "It remains unchanged",
+        "It narrows",
+        "It becomes infinite",
+        "It becomes negative"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 30,
+      "question": "How do spiders primarily detect sounds?",
+      "images": [],
+      "image": "",
+      "options": [
+        "Through eardrums like humans",
+        "Using specialized sensory hairs called trichobothria",
+        "By hearing with their eyes",
+        "Through their webs acting like ears",
+        "Using antennae"
+      ],
+      "correctIndex": 1
+    }
+  ]
+}

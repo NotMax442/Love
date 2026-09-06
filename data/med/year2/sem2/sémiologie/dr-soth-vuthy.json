@@ -1,0 +1,308 @@
+{
+  "questions": [
+    {
+      "question": "Choisissez seulement une phrase correcte ci-dessous (Picture1)",
+      "images": [
+        "y2-semiologie-dr-soth-vuthy-q19-24-25-image-1.jpg"
+      ],
+      "image": "y2-semiologie-dr-soth-vuthy-q19-24-25-image-1.jpg",
+      "options": [
+        "1-Appophyse coracoïde",
+        "2- Acromion",
+        "3-Trochin",
+        "4- Trochiter",
+        "5- Scapula"
+      ],
+      "correctIndex": 1,
+      "id": 1
+    },
+    {
+      "id": 2,
+      "question": "Choisissez seulement une phrase correcte ci-dessous (Picture2)",
+      "images": [
+        "y2-semiologie-dr-soth-vuthy-q19-24-25-image-2.jpg"
+      ],
+      "image": "y2-semiologie-dr-soth-vuthy-q19-24-25-image-2.jpg",
+      "options": [
+        "1- Olécrâne",
+        "2- Epicondyle médial",
+        "3- Processus coronoïdienne",
+        "4- Epicondyle latéral",
+        "5-Tête radiale"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 3,
+      "question": "Choisissez seulement une phrase correcte ci-dessous (Picture3)",
+      "images": [
+        "y2-semiologie-dr-soth-vuthy-q19-24-25-image-3.jpg"
+      ],
+      "image": "y2-semiologie-dr-soth-vuthy-q19-24-25-image-3.jpg",
+      "options": [
+        "1- Tubérosité bicipitale",
+        "2-Processus coronoïde",
+        "3- Olécrâne",
+        "4- Trochlée",
+        "5- Capitulum"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 4,
+      "question": "Choisissez seulement une phrase correcte ci-dessous (Picture4)",
+      "images": [
+        "y2-semiologie-dr-soth-vuthy-q19-24-25-image-4.jpg"
+      ],
+      "image": "y2-semiologie-dr-soth-vuthy-q19-24-25-image-4.jpg",
+      "options": [
+        "1- Scaphoïde",
+        "2- Triquétrum",
+        "3- Lunatum",
+        "4- Trapèze",
+        "5- Pisiforme"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 5,
+      "question": "Choisissez seulement une phrase correcte ci-dessous (Picture5)",
+      "images": [
+        "y2-semiologie-dr-soth-vuthy-q19-24-25-image-5.jpg"
+      ],
+      "image": "y2-semiologie-dr-soth-vuthy-q19-24-25-image-5.jpg",
+      "options": [
+        "2- Cuéniforme médiale",
+        "3- Cuéniforme intermédiaire",
+        "7- Phalange distale",
+        "8- Phalange moyenne",
+        "9-Phalange proximale"
+      ],
+      "correctIndex": 3
+    },
+    {
+      "question": "Choisissez seulement une phrase correcte ci-dessous (Picture6)",
+      "images": [
+        "y2-semiologie-dr-soth-vuthy-q19-24-25-image-6.jpg"
+      ],
+      "image": "y2-semiologie-dr-soth-vuthy-q19-24-25-image-6.jpg",
+      "options": [
+        "1- Tibia",
+        "2- Fibula(péroné)",
+        "3- Talus(astragale)",
+        "4- Calcaneus",
+        "5- Os naviculaire"
+      ],
+      "correctIndex": 4,
+      "id": 6
+    },
+    {
+      "id": 7,
+      "question": "Choisissez seulement une phrase correcte ci-dessous (Picture7)",
+      "images": [
+        "y2-semiologie-dr-soth-vuthy-q19-24-25-image-7.jpg"
+      ],
+      "image": "y2-semiologie-dr-soth-vuthy-q19-24-25-image-7.jpg",
+      "options": [
+        "1- Trou obturateur",
+        "2-Symphyse pubienne",
+        "3- Epine iliaque antero-inférieure",
+        "7-Epine iliaque antero- superieure",
+        "8- Fosse acétabulaire"
+      ],
+      "correctIndex": 4
+    },
+    {
+      "id": 8,
+      "question": "Choisissez seulement une phrase correcte ci-dessous (Picture8)",
+      "images": [
+        "y2-semiologie-dr-soth-vuthy-q19-24-25-image-8.jpg"
+      ],
+      "image": "y2-semiologie-dr-soth-vuthy-q19-24-25-image-8.jpg",
+      "options": [
+        "5-grand trochanter",
+        "6- Petit trochanter",
+        "7-Crête iliaque",
+        "8-Aile iliaque gauche",
+        "9- Pédicule"
+      ],
+      "correctIndex": 4
+    },
+    {
+      "id": 9,
+      "question": "Choisissez seulement une phrase correcte ci-dessous (Picture9)",
+      "images": [
+        "y2-semiologie-dr-soth-vuthy-q19-24-25-image-9.jpg"
+      ],
+      "image": "y2-semiologie-dr-soth-vuthy-q19-24-25-image-9.jpg",
+      "options": [
+        "4- Appophyse articulaire supérieure",
+        "5- Appophyse articulaire inférieure",
+        "6- Appophyse odontoïde.",
+        "7- Appophyse épineuse de C2",
+        "8- Arc antérieur de C1"
+      ],
+      "correctIndex": 4
+    },
+    {
+      "id": 10,
+      "question": "Choisissez seulement une phrase correcte ci-dessous (Picture10)",
+      "images": [
+        "y2-semiologie-dr-soth-vuthy-q19-24-25-image-10.jpg"
+      ],
+      "image": "y2-semiologie-dr-soth-vuthy-q19-24-25-image-10.jpg",
+      "options": [
+        "1- Odontoide",
+        "2- Masse latérale de C1",
+        "3- Appophyse transverse de C1",
+        "4- Apophyse articulaire supérieure de C2",
+        "5-Appophyse articulaire inférieure de C1"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Choisissez seulement une phrase correcte ci-dessous (Picture11)",
+      "images": [
+        "y2-semiologie-dr-soth-vuthy-q19-24-25-image-11.jpg"
+      ],
+      "image": "y2-semiologie-dr-soth-vuthy-q19-24-25-image-11.jpg",
+      "options": [
+        "1- Arc postérieur de l'Atlas",
+        "2- Dent de l'axis",
+        "3- Arc antérieur de l'Atlas",
+        "4- Processus styloide",
+        "5- Foramen transverse"
+      ],
+      "correctIndex": 1,
+      "id": 11
+    },
+    {
+      "id": 12,
+      "question": "Choisissez seulement une phrase correcte ci-dessous (Picture12)",
+      "images": [
+        "y2-semiologie-dr-soth-vuthy-q19-24-25-image-12.jpg"
+      ],
+      "image": "y2-semiologie-dr-soth-vuthy-q19-24-25-image-12.jpg",
+      "options": [
+        "1- Tendon du poplité",
+        "2- Tendon rotulien",
+        "3- Condyl externe",
+        "4- Paquet graisseux",
+        "5- Corne postérieur du ménisque"
+      ],
+      "correctIndex": 4
+    },
+    {
+      "id": 13,
+      "question": "Choisissez seulement une phrase correcte ci-dessous (Picture13)",
+      "images": [
+        "y2-semiologie-dr-soth-vuthy-q19-24-25-image-13.jpg"
+      ],
+      "image": "y2-semiologie-dr-soth-vuthy-q19-24-25-image-13.jpg",
+      "options": [
+        "1- Clivus",
+        "2- Dent de l'Axis",
+        "3- Arc antérieur de l'Atlas",
+        "4- Processus épineux de C4",
+        "5- Corps vertebral de C4"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 14,
+      "question": "Choisissez seulement une phrase correcte ci-dessous (Picture14)",
+      "images": [
+        "y2-semiologie-dr-soth-vuthy-q19-24-25-image-14.jpg"
+      ],
+      "image": "y2-semiologie-dr-soth-vuthy-q19-24-25-image-14.jpg",
+      "options": [
+        "1- Patella",
+        "2-Ménisque",
+        "3- Tendon rotulien",
+        "4- Ligament croisé postérieur",
+        "5- Paquet graisseux"
+      ],
+      "correctIndex": 3
+    },
+    {
+      "id": 15,
+      "question": "Choisissez seulement une phrase correcte ci-dessous (Picture15)",
+      "images": [
+        "y2-semiologie-dr-soth-vuthy-q19-24-25-image-15.jpg"
+      ],
+      "image": "y2-semiologie-dr-soth-vuthy-q19-24-25-image-15.jpg",
+      "options": [
+        "1- Lame",
+        "2- Isthme",
+        "3- Processus articulaire inférieur",
+        "4- Pédicule",
+        "5- Processus articulaire supérieur"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 16,
+      "question": "Choisissez seulement une phrase correcte ci-dessous (Picture16)",
+      "images": [
+        "y2-semiologie-dr-soth-vuthy-q19-24-25-image-16.jpg"
+      ],
+      "image": "y2-semiologie-dr-soth-vuthy-q19-24-25-image-16.jpg",
+      "options": [
+        "1- Cône médullaire",
+        "2-Liquide céphalo-rachidienne",
+        "3- disque intervertebral",
+        "4-Moelle épinière",
+        "5-Corps vertebral du L5"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "question": "Choisissez seulement une phrase correcte ci-dessous (Picture17)",
+      "images": [
+        "y2-semiologie-dr-soth-vuthy-q19-24-25-image-17.jpg"
+      ],
+      "image": "y2-semiologie-dr-soth-vuthy-q19-24-25-image-17.jpg",
+      "options": [
+        "1- Corps vertebral de L4",
+        "2- Corps vertebral de L5",
+        "3- Disque intervertebral",
+        "4- Ligament interépineux",
+        "5- sac dural"
+      ],
+      "correctIndex": 2,
+      "id": 17
+    },
+    {
+      "id": 18,
+      "question": "Choisissez seulement une phrase correcte ci-dessous (Picture18)",
+      "images": [
+        "y2-semiologie-dr-soth-vuthy-q19-24-25-image-18.jpg"
+      ],
+      "image": "y2-semiologie-dr-soth-vuthy-q19-24-25-image-18.jpg",
+      "options": [
+        "1- Foramen intervertébral",
+        "2- Ligament postérieur",
+        "3- Ligament jaune",
+        "4- Sac dural",
+        "5- Graisse"
+      ],
+      "correctIndex": 3
+    },
+    {
+      "id": 19,
+      "question": "Choisissez seulement une phrase correcte ci-dessous (Picture19)",
+      "images": [
+        "y2-semiologie-dr-soth-vuthy-q19-24-25-image-19.jpg"
+      ],
+      "image": "y2-semiologie-dr-soth-vuthy-q19-24-25-image-19.jpg",
+      "options": [
+        "1- Coupe articulaire",
+        "2- Coupe pédiculo- luminaire",
+        "3- Coupe discale",
+        "4- Coupe foraminale",
+        "5-Coupe corporéale"
+      ],
+      "correctIndex": 1
+    }
+  ]
+}

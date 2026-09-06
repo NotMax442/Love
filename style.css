@@ -1168,25 +1168,56 @@ p {
 }
 
 /* ==========================================================================
-   13. ANIMATED SVG PIE CHART & REAL-TIME STATS
+   13. FRONT-FACING 3D PIE CHART ILLUSION & REAL-TIME STATS
    ========================================================================== */
+
+#pie-chart-wrapper {
+  padding: 1rem 0;
+}
+
+/* Front-Facing 3D Sphere/Disc Illusion */
 .pie-chart-container {
   position: relative;
   width: 210px;
   height: 210px;
   margin: 1.5rem auto;
+  border-radius: 50%;
+  overflow: hidden;
+  
+  /* Bevel & Emboss Layers: Top light, bottom shadow, outer depth ring */
+  box-shadow: 
+    inset 0 6px 10px rgba(255, 255, 255, 0.35),  /* Top inner light reflection */
+    inset 0 -8px 14px rgba(0, 0, 0, 0.55),       /* Bottom inner shadow */
+    0 10px 25px rgba(0, 0, 0, 0.5),              /* Deep drop shadow behind chart */
+    0 0 0 6px rgba(15, 23, 42, 0.8);            /* Outer bezel frame ring */
+}
+
+/* Glossy Glass Highlight Overlay */
+.pie-chart-container::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  background: linear-gradient(
+    135deg, 
+    rgba(255, 255, 255, 0.3) 0%, 
+    rgba(255, 255, 255, 0.08) 40%, 
+    rgba(0, 0, 0, 0) 60%, 
+    rgba(0, 0, 0, 0.25) 100%
+  );
+  pointer-events: none;
 }
 
 .pie-chart-svg {
   width: 100%;
   height: 100%;
   transform: rotate(-90deg);
+  border-radius: 50%;
+  display: block;
 }
-
-.pie-ring { fill: transparent; stroke-width: 14; }
-.bg-ring { stroke: var(--bg-subcard, #334155); }
-.correct-ring { stroke: #10b981; stroke-linecap: butt; stroke-dasharray: 251.327; stroke-dashoffset: 251.327; }
-.incorrect-ring { stroke: #ef4444; stroke-linecap: butt; stroke-dasharray: 251.327; stroke-dashoffset: 251.327; }
 
 .pie-center-text {
   position: absolute;
@@ -1197,23 +1228,26 @@ p {
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  z-index: 10;
+  pointer-events: none;
 }
 
 #center-percent {
   font-size: 2.2rem;
   font-weight: 800;
-  color: var(--text-heading, #38bdf8);
+  color: #ffffff;
   line-height: 1;
+  text-shadow: 0 3px 8px rgba(0, 0, 0, 0.8);
 }
 
 .center-label {
   font-size: 0.75rem;
-  font-weight: 600;
+  font-weight: 700;
   color: var(--text-sub, #94a3b8);
   text-transform: uppercase;
   margin-top: 4px;
+  text-shadow: 0 2px 4px rgba(0, 0, 0, 0.8);
 }
-
 .stats-summary-grid {
   display: grid;
   grid-template-columns: 1fr 1fr;
@@ -1337,6 +1371,33 @@ p {
 
 .review-badge.badge-correct { background: #10b981; color: #ffffff; }
 .review-badge.badge-wrong { background: #ef4444; color: #ffffff; }
+
+
+/* ==========================================================================
+   PIE CHART SVG STROKE COLORS & RING THICKNESS
+   ========================================================================== */
+
+.pie-ring {
+  fill: none;
+  stroke-width: 16;
+}
+
+/* Base Track Ring */
+.bg-ring {
+  stroke: #1e293b;
+}
+
+/* Green Arc for Correct Answers */
+#correct-arc,
+.correct-ring {
+  stroke: #10b981 !important;
+}
+
+/* Red Arc for Incorrect Answers */
+#incorrect-arc,
+.incorrect-ring {
+  stroke: #ef4444 !important;
+}
 
 /* ==========================================================================
    14. FEEDBACK CARD CONTAINER & BADGE OVERRIDES
@@ -1557,4 +1618,140 @@ p {
 #image-zoom-modal {
   z-index: 9999;
   backdrop-filter: blur(4px);
+}
+
+/* ==========================================================================
+   COMPACT PROFESSOR CARD GRID & ALIGNMENT FIX
+   ========================================================================== */
+
+/* Multi-column grid top-aligned so cards don't stretch vertically */
+#professor-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  gap: 0.75rem;
+  align-items: start; /* Fixes empty vertical card stretching */
+}
+
+/* Force top Subject Banner to span full width */
+#professor-list > div:first-child {
+  grid-column: 1 / -1;
+}
+
+/* Compact padding and height constraint for professor cards */
+.subject-card.prof-card {
+  padding: 0.85rem 1rem;
+  margin-bottom: 0 !important;
+  height: fit-content; /* Restricts card height strictly to its inner content */
+}
+
+.subject-card.prof-card h3 {
+  font-size: 1rem;
+  margin-bottom: 0.5rem;
+  line-height: 1.3;
+}
+
+.subject-card.prof-card .btn {
+  padding: 8px 12px;
+  font-size: 0.85rem;
+}
+
+.subject-card.prof-card .missed-badge {
+  font-size: 0.78rem;
+  margin-bottom: 0.5rem;
+}
+
+.subject-card.prof-card .btn-row-dual {
+  margin-top: 0.35rem;
+}
+
+/* ==========================================================================
+   UNIFORM PROFESSOR CARDS & EXPANDABLE DRAWER FIX
+   ========================================================================== */
+
+#professor-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(210px, 1fr));
+  gap: 0.75rem;
+  align-items: start; /* Prevents neighboring cards from stretching vertically */
+}
+
+/* Force Subject Banner to stay full-width */
+#professor-list > div:first-child {
+  grid-column: 1 / -1;
+}
+
+.subject-card.prof-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start; /* Keeps content tightly stacked at the top */
+  padding: 1rem;
+  margin-bottom: 0 !important;
+  height: auto; /* Shrink-wraps card height strictly to its inner content */
+}
+
+.prof-card-top h3 {
+  font-size: 1rem;
+  line-height: 1.35;
+  margin-bottom: 0.4rem;
+  color: var(--text-main);
+}
+
+/* Question Count Badge */
+.prof-q-badge {
+  display: inline-block;
+  font-size: 0.75rem;
+  font-weight: 700;
+  color: var(--text-heading, #38bdf8);
+  background: var(--bg-subcard, #334155);
+  border: 1px solid var(--border-sub, #475569);
+  padding: 3px 8px;
+  border-radius: 12px;
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+/* Drawer Toggle Button */
+.drawer-toggle-btn {
+  background: none;
+  border: none;
+  border-top: 1px dashed var(--border-sub, #475569);
+  color: var(--text-sub, #94a3b8);
+  font-size: 0.78rem;
+  font-weight: 600;
+  cursor: pointer;
+  padding: 6px 0 0 0;
+  margin-top: 0.6rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  transition: color 0.2s ease;
+}
+
+.drawer-toggle-btn:hover {
+  color: var(--text-heading, #38bdf8);
+}
+
+.drawer-toggle-btn .chevron {
+  transition: transform 0.2s ease;
+  font-size: 0.7rem;
+}
+
+.drawer-toggle-btn.open .chevron {
+  transform: rotate(180deg);
+}
+
+/* Expandable Drawer Tray */
+.prof-drawer {
+  margin-top: 0.5rem;
+  padding-top: 0.5rem;
+  border-top: 1px solid var(--border-sub, #475569);
+  display: flex;
+  flex-direction: column;
+  gap: 0.4rem;
+  animation: drawerSlideDown 0.2s cubic-bezier(0.16, 1, 0.3, 1) forwards;
+}
+
+@keyframes drawerSlideDown {
+  from { opacity: 0; transform: translateY(-4px); }
+  to { opacity: 1; transform: translateY(0); }
 }

@@ -1,0 +1,134 @@
+{
+  "questions": [
+    {
+      "id": 1,
+      "question": "Situation eutopique :[cite: 10]",
+      "images": [],
+      "image": "",
+      "options": [
+        "Rein droit plus bas que le gauche[cite: 10]",
+        "Rein droit plus haut que le gauche[cite: 10]",
+        "Rein droit dans le pelvis[cite: 10]",
+        "Rein droit au niveau du 10è cote.[cite: 10]"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 2,
+      "question": "Le scanner abdominal en coupe frontal :[cite: 10]",
+      "images": [],
+      "image": "",
+      "options": [
+        "la direction des 2 reins en haut et en dehors.[cite: 10]",
+        "la direction des 2 reins en bas et en avant.[cite: 10]",
+        "la direction des 2 reins en bas et en arrière.[cite: 10]",
+        "la direction des 2 reins en bas et en dehors.[cite: 10]"
+      ],
+      "correctIndex": 3
+    },
+    {
+      "id": 3,
+      "question": "Angioscanner des vaisseaux du rein:[cite: 10]",
+      "images": [],
+      "image": "",
+      "options": [
+        "V rénale gauche courte et horizontale.[cite: 10]",
+        "V rénale gauche longue et horizontale.[cite: 10]",
+        "V rénale gauche longue et verticale.[cite: 10]",
+        "V rénale gauche courte et verticale.[cite: 10]"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 4,
+      "question": "Angioscanner des vaisseaux du rein:[cite: 10]",
+      "images": [],
+      "image": "",
+      "options": [
+        "Artère rénale droite rétrocave.[cite: 10]",
+        "Artère rénale droite antécave.[cite: 10]",
+        "Artère rénale droite naît de l'artère mésentérique supérieur.[cite: 10]",
+        "Artère rénale droite naît de l'artère mésentérique inférieur.[cite: 10]"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 5,
+      "question": "Le scanner abdominal en coupe axial, la glande surrénale:[cite: 10]",
+      "images": [],
+      "image": "",
+      "options": [
+        "Forme pyramidale, en X inversé avec 2 jambes postérieures.[cite: 10]",
+        "Forme pyramidale, en Y inversé avec 2 jambes postérieures.[cite: 10]",
+        "Forme pyramidale, en Z inversé avec 2 jambes postérieures.[cite: 10]",
+        "Forme pyramidale, en A inversé avec 2 jambes postérieures.[cite: 10]"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 6,
+      "question": "Le scanner abdominal en coupe axial, espace para rénal antérieur contient:[cite: 10]",
+      "images": [],
+      "image": "",
+      "options": [
+        "pancréas, duodénum, colon ascendant et colon descendant.[cite: 10]",
+        "Estomac, pancréas, colon ascendant et colon descendant.[cite: 10]",
+        "Estomac, duodénum, colon ascendant et colon descendant.[cite: 10]",
+        "iléon, pancréas, colon ascendant et colon descendant.[cite: 10]"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 7,
+      "question": "Le scanner abdominal en coupe axial, espace péri-rénal antérieur contient:[cite: 10]",
+      "images": [],
+      "image": "",
+      "options": [
+        "duodénum, surrénales, vaisseaux rénaux et voie excrétrice haute.[cite: 10]",
+        "la rate, surrénales, vaisseaux rénaux et voie excrétrice haute.[cite: 10]",
+        "la vessie, surrénales, vaisseaux rénaux et voie excrétrice haute.[cite: 10]",
+        "les reins, surrénales, vaisseaux rénaux et voie excrétrice haute.[cite: 10]"
+      ],
+      "correctIndex": 3
+    },
+    {
+      "id": 8,
+      "question": "Le scanner abdominal en coupe axial, espace para rénal postérieur contient:[cite: 10]",
+      "images": [],
+      "image": "",
+      "options": [
+        "duodénum, surrénales, vaisseaux rénaux et voie excrétrice haute.[cite: 10]",
+        "la rate, surrénales, vaisseaux rénaux et voie excrétrice haute.[cite: 10]",
+        "la vessie, surrénales, vaisseaux rénaux et voie excrétrice haute.[cite: 10]",
+        "la graisse.[cite: 10]"
+      ],
+      "correctIndex": 3
+    },
+    {
+      "id": 9,
+      "question": "L'artériographie rénale:[cite: 10]",
+      "images": [],
+      "image": "",
+      "options": [
+        "Artères arquées du rein naît de l'aorte abdominale.[cite: 10]",
+        "Artères arquées du rein naît de l'artère interlobaire.[cite: 10]",
+        "Artères arquées du rein naît de l'artère mésentérique supérieur.[cite: 10]",
+        "Artères arquées du rein naît de l'artère mésentérique inférieur.[cite: 10]"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 10,
+      "question": "Concernant de malformation rénale, agénésie rénal :[cite: 10]",
+      "images": [],
+      "image": "",
+      "options": [
+        "Absence totale de développement rénal.[cite: 10]",
+        "hypotrophie rénal.[cite: 10]",
+        "hypertrophie rénal.[cite: 10]",
+        "ptose rénal.[cite: 10]"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

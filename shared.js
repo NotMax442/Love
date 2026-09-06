@@ -48,7 +48,7 @@ const translations = {
     // Study & Professor Actions
     btn_subject_quiz: "📝 Subject Quiz (60 Qs)",
     btn_subject_study_all: "📖 Study All",
-    btn_study: "📖 Study", // Renamed from "Study All" for individual professors
+    btn_study: "📖 Study",
     btn_review_missed: "🎯 Review Missed",
     btn_clear_missed: "🗑️ Clear Saved Missed",
     missed_badge: "⚠️ {count} saved missed question(s)",
@@ -78,9 +78,20 @@ const translations = {
     status_checked: "✅ Reviewed & Fixed",
     no_reports: "You haven't submitted any feedback reports yet.",
 
-    // Vault / Account Page
-    account_title: "My Account & Vault",
-    account_sub: "Manage your preferences, saved missed questions, and local study vault.",
+    // Vault & Account Page
+    account_title: "My Account",
+    account_sub: "View your performance analytics, study habits, and saved question vaults.",
+    tab_stats: "📊 Analytics & Stats",
+    tab_vault: "🗂️ Vault & Settings",
+    stats_overview_title: "Overall Accuracy",
+    stats_total_questions: "Questions Attempted",
+    stats_correct_answers: "Correct Answers",
+    stats_incorrect_answers: "Incorrect Answers",
+    stats_accuracy_rate: "Accuracy Rate",
+    stats_prof_breakdown: "Accuracy by Professor & Subject",
+    stats_filter_all: "All Subjects",
+    stats_empty_data: "No study analytics recorded yet. Complete quizzes or study sessions to build your stats!",
+
     account_pref_title: "⚙️ Quiz Preferences",
     account_autoadv_title: "Auto-advance in Quiz Mode",
     account_autoadv_desc: "Automatically move to the next question after selecting an option without having to click \"Next Question\".",
@@ -126,7 +137,7 @@ const translations = {
     morale_5: "🛡️ Don't be sad, I'll be here for you until you get a good scoring.",
     morale_6: "🩺 Rest for a bit. Then try again later 💞",
 
-    // quiz
+    // Quiz
     mode_study: "STUDY",
     mode_quiz: "QUIZ",
     mode_missed: "MISSED",
@@ -142,7 +153,7 @@ const translations = {
     leave_modal_desc_study: "Are you sure you want to leave? Your progress will be saved, don't worry!",
     leave_modal_desc_quiz: "Are you sure you want to leave? Your active timed quiz progress will be lost.",
 
-    // result
+    // Result
     review_perfect_score: "🎉 Perfect score! You answered all questions correctly!",
     review_unanswered: "⚠️ Unanswered / Skipped",
     label_your_choice: "Your Choice",
@@ -152,11 +163,11 @@ const translations = {
     option_style_compact: "Compact View",
     option_style_full: "Full Options View",
 
-    // continue study
+    // Continue Study
     btn_continue_study: "▶️ Continue ({answered}/{total})",
     btn_restart_study: "🔄 Restart Study All",
 
-    // coming soon
+    // Coming Soon
     coming_soon_title: "Coming Soon!",
     coming_soon_sub: "There is nothing here yet. Sorry🙏.",
   },
@@ -235,9 +246,20 @@ const translations = {
     status_checked: "✅ បានពិនិត្យ និងកែប្រែរួចរាល់",
     no_reports: "អ្នកមិនទាន់មានការរាយការណ៍នៅឡើយទេ។",
 
-    // Vault / Account Page
-    account_title: "គណនី និងឃ្លាំងសំណួររបស់ខ្ញុំ",
-    account_sub: "គ្រប់គ្រងចំណង់ចំណូលចិត្ត សំណួរខុសដែលបានរក្សាទុក និងឃ្លាំងសិក្សាផ្ទាល់ខ្លួន។",
+    // Vault & Account Page
+    account_title: "គណនីរបស់ខ្ញុំ",
+    account_sub: "ពិនិត្យមើលស្ថិតិនៃការសិក្សា ភាពត្រឹមត្រូវ និងឃ្លាំងសំណួរខុសរបស់អ្នក។",
+    tab_stats: "📊 ស្ថិតិ និងការវិភាគ",
+    tab_vault: "🗂️ ឃ្លាំង និងការកំណត់",
+    stats_overview_title: "ភាពត្រឹមត្រូវសរុប",
+    stats_total_questions: "សំណួរដែលបានធ្វើសរុប",
+    stats_correct_answers: "ចម្លើយត្រឹមត្រូវ",
+    stats_incorrect_answers: "ចម្លើយមិនត្រឹមត្រូវ",
+    stats_accuracy_rate: "អត្រាភាពត្រឹមត្រូវ",
+    stats_prof_breakdown: "ស្ថិតិតាមសាស្ត្រាចារ្យ និងមុខវិជ្ជា",
+    stats_filter_all: "គ្រប់មុខវិជ្ជាទាំងអស់",
+    stats_empty_data: "មិនទាន់មានទិន្នន័យស្ថិតិនៅឡើយទេ។ សូមធ្វើតេស្ត ឬសិក្សាសំណួរដើម្បីបង្កើតស្ថិតិ!",
+
     account_pref_title: "⚙️ កម្រិតកំណត់ការប្រឡង",
     account_autoadv_title: "ប្តូរទៅសំណួរបន្ទាប់ដោយស្វ័យប្រវត្តិ",
     account_autoadv_desc: "ផ្លាស់ទីទៅសំណួរបន្ទាប់ដោយស្វ័យប្រវត្តិតែម្ដង បន្ទាប់ពីជ្រើសរើសចម្លើយរួច។",
@@ -283,7 +305,7 @@ const translations = {
     morale_5: "🛡️ កុំពិបាកចិត្តអី ខ្ញុំនឹងនៅរង់ចាំពេល you ធ្វើបានសម្រេចល្អ",
     morale_6: "🩺 សម្រាកមួយភ្លែតសិន។ ចាំសាកម្តងទៀតពេលក្រាយ 💞",
 
-    // quiz
+    // Quiz
     mode_study: "សិក្សា",
     mode_quiz: "ប្រឡង",
     mode_missed: "សំណួរខុស",
@@ -299,7 +321,7 @@ const translations = {
     leave_modal_desc_study: "តើអ្នកពិតជាចង់ចាកចេញឬ? កុំបារម្ភ ការវិវឌ្ឍរបស់អ្នកត្រូវបានរក្សាទុក!",
     leave_modal_desc_quiz: "ការវិវឌ្ឍនៃការធ្វើតេស្តប្រឡងរបស់អ្នកនឹងត្រូវបាត់បង់។",
 
-    // result
+    // Result
     review_perfect_score: "🎉 ពិន្ទុពេញ! អ្នកបានឆ្លើយត្រូវគ្រប់សំណួរទាំងអស់!",
     review_unanswered: "⚠️ មិនបានឆ្លើយ / បានរំលង",
     label_your_choice: "ចម្លើយរបស់អ្នក",
@@ -309,11 +331,11 @@ const translations = {
     option_style_compact: "ទម្រង់សង្ខេប",
     option_style_full: "ទម្រង់ពេញ",
 
-    // continue studying
+    // Continue Studying
     btn_continue_study: "▶️ បន្ត ({answered}/{total})",
     btn_restart_study: "🔄 ចាប់ផ្តើមសិក្សាឡើងវិញ",
 
-    // coming soon
+    // Coming Soon
     coming_soon_title: "នឹងមកដល់ឆាប់ៗនេះ!",
     coming_soon_sub: "ទំព័រនេះមិនទាន់មានអ្វីទេ។ សុំទោស​🙏",
   }
@@ -321,7 +343,7 @@ const translations = {
 
 const currentLang = localStorage.getItem('app_language') || 'en';
 
-// Dynamic string translation helper with parameter substitution (e.g. {year}, {major})
+// Dynamic string translation helper with parameter substitution
 function getTranslation(key, params = {}) {
   let str = (translations[currentLang] && translations[currentLang][key]) 
     || (translations.en && translations.en[key]) 
@@ -340,7 +362,7 @@ function applyStaticTranslations() {
   document.querySelectorAll('[data-i18n]').forEach(el => {
     const key = el.getAttribute('data-i18n');
     if (translations[currentLang] && translations[currentLang][key]) {
-      el.innerHTML = translations[currentLang][key]; // Uses innerHTML for formatting tags like <strong>
+      el.innerHTML = translations[currentLang][key];
     }
   });
 
@@ -429,7 +451,7 @@ function getStorageKey(major, year, semester, subject, professor) {
   return `missed_${major.toLowerCase()}_y${year}_s${semester}_${subject.toLowerCase()}_${profSlug}`;
 }
 
-// Helper: Unique signature for questions (handles repetitive titles like "Find the correct answer:")
+// Helper: Unique signature for questions
 function getQuestionSignature(q) {
   if (!q) return '';
   const text = (q.question || '').trim();
@@ -440,9 +462,59 @@ function getQuestionSignature(q) {
   return `${q.id || ''}_${text}_${img}_${sortedOpts}`;
 }
 
-// Record question result in vault
+// ==========================================================================
+// PERSISTENT PERFORMANCE ANALYTICS TRACKING
+// ==========================================================================
+
+function getAnalyticsData() {
+  const raw = localStorage.getItem('app_analytics_stats');
+  if (!raw) return { total: 0, correct: 0, profs: {} };
+  try {
+    return JSON.parse(raw);
+  } catch (e) {
+    return { total: 0, correct: 0, profs: {} };
+  }
+}
+
+function recordAnalyticsAnswer(major, year, semester, subject, professor, isCorrect) {
+  if (!major || year === undefined || semester === undefined || !subject || !professor) return;
+
+  const stats = getAnalyticsData();
+  const profSlug = getProfSlug(professor);
+  const profKey = `${major.toLowerCase()}_y${year}_s${semester}_${subject.toLowerCase()}_${profSlug}`;
+
+  // Update Overall Stats
+  stats.total = (stats.total || 0) + 1;
+  if (isCorrect) stats.correct = (stats.correct || 0) + 1;
+
+  // Update Per-Professor Stats
+  if (!stats.profs) stats.profs = {};
+  if (!stats.profs[profKey]) {
+    stats.profs[profKey] = {
+      major,
+      year,
+      semester,
+      subject,
+      professor,
+      total: 0,
+      correct: 0
+    };
+  }
+
+  stats.profs[profKey].total += 1;
+  if (isCorrect) stats.profs[profKey].correct += 1;
+
+  localStorage.setItem('app_analytics_stats', JSON.stringify(stats));
+}
+
+// Record question result in vault + update accuracy analytics
 function recordQuestionResult(questionObj, isCorrect, major, year, semester, subject, professor) {
   if (!major || year === undefined || semester === undefined || !subject || !professor) return;
+
+  // 1. Record in Analytics Engine
+  recordAnalyticsAnswer(major, year, semester, subject, professor, isCorrect);
+
+  // 2. Record in Missed Question Vault
   const key = getStorageKey(major, year, semester, subject, professor);
   if (!key) return;
 
@@ -452,22 +524,18 @@ function recordQuestionResult(questionObj, isCorrect, major, year, semester, sub
   const targetSig = getQuestionSignature(questionObj);
   if (!targetSig) return;
 
-  // Find existing question by unique signature rather than text alone
   const existingIndex = vault.findIndex(item => getQuestionSignature(item) === targetSig);
 
   if (!isCorrect) {
-    // Answered incorrectly -> reset streak and ensure question is saved in vault
     if (existingIndex >= 0) {
       vault[existingIndex] = { ...questionObj, streak: 0 };
     } else {
       vault.push({ ...questionObj, streak: 0 });
     }
   } else {
-    // Answered correctly -> increment streak if already in vault
     if (existingIndex >= 0) {
       const currentStreak = (vault[existingIndex].streak || 0) + 1;
       if (currentStreak >= 2) {
-        // Remove from vault after 2 consecutive correct answers
         vault.splice(existingIndex, 1);
       } else {
         vault[existingIndex].streak = currentStreak;
@@ -537,26 +605,21 @@ function setupSharedModals() {
 // PREVENT DEVTOOLS & INSPECT SHORTCUTS
 // ==========================================================================
 
-// 1. Disable Right-Click Context Menu
 document.addEventListener('contextmenu', (e) => {
   e.preventDefault();
 });
 
-// 2. Disable DevTools Keyboard Shortcuts
 document.addEventListener('keydown', (e) => {
-  // Block F12
   if (e.key === 'F12') {
     e.preventDefault();
     return false;
   }
 
-  // Block Ctrl+Shift+I (Inspect), Ctrl+Shift+J (Console), Ctrl+Shift+C (Element Selector)
   if (e.ctrlKey && e.shiftKey && ['I', 'J', 'C', 'i', 'j', 'c'].includes(e.key)) {
     e.preventDefault();
     return false;
   }
 
-  // Block Ctrl+U (View Source) and Ctrl+S (Save Page)
   if (e.ctrlKey && ['U', 'S', 'u', 's'].includes(e.key)) {
     e.preventDefault();
     return false;

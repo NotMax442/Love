@@ -1,0 +1,270 @@
+{
+  "questions": [
+    {
+      "id": 1,
+      "question": "Un manipulateur en médecine nucléaire prépare une dose de 99mTc pour une scintigraphie osseuse. Ce radionucléide émet un photon y de 140 keV. Quelle est la nature de cette émission?",
+      "images": [],
+      "image": "",
+      "options": [
+        "Une désintégration a",
+        "Une transition isomérique",
+        "Une capture électronique",
+        "Une émission ẞ+",
+        "Une fission spontanée"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 2,
+      "question": "Un manipulateur en médecine nucléaire prépare une dose de 99mTc pour une scintigraphie osseuse. Ce radionucléide émet un photon y de 140 keV. Pourquoi le technétium-99m est-il bien adapté à l'imagerie ?",
+      "images": [],
+      "image": "",
+      "options": [
+        "Il a une longue demi-vie",
+        "Il émet du rayonnement ẞ",
+        "Il émet un y détectable sans irradier trop",
+        "Il est un isotope stable",
+        "Il se fixe préférentiellement sur les globules rouges"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 3,
+      "question": "Un manipulateur en médecine nucléaire prépare une dose de 99mTc pour une scintigraphie osseuse. Ce radionucléide émet un photon y de 140 keV. Quelle précaution principale doit prendre le manipulateur lors de la préparation du 99mTc?",
+      "images": [],
+      "image": "",
+      "options": [
+        "Porter un tablier en aluminium",
+        "Utiliser un blindage adapté pour le rayonnement y",
+        "Travailler à mains nues pour mieux contrôler la dose",
+        "Préparer la dose dans une pièce sans ventilation",
+        "Porter un masque FFP2 pour bloquer les rayons y"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 4,
+      "question": "Un manipulateur en médecine nucléaire prépare une dose de 99mTc pour une scintigraphie osseuse. Ce radionucléide émet un photon y de 140 keV. Quelle est la demi-vie du 99mTc?",
+      "images": [],
+      "image": "",
+      "options": [
+        "6 heures",
+        "12 heures",
+        "24 heures",
+        "2 jours",
+        "1 semaine"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 5,
+      "question": "Un manipulateur en médecine nucléaire prépare une dose de 99mTc pour une scintigraphie osseuse. Ce radionucléide émet un photon y de 140 keV Pourquoi utilise-t-on un générateur de molybdène-99/technétium-99m à l'hôpital ?",
+      "images": [],
+      "image": "",
+      "options": [
+        "Pour recycler le technétium usagé",
+        "Pour produire le technétium-99m sur place, à partir du molybdène-99",
+        "Pour mesurer la radioactivité ambiante",
+        "Pour améliorer la résolution des images scintigraphiques",
+        "Pour stabiliser la température du produit injectable"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 6,
+      "question": "Dans une expérience de laboratoire, on expose une feuille d'aluminium à des photons X de 60 keV. Quel phénomène est le plus probable à cette énergie ?",
+      "images": [],
+      "image": "",
+      "options": [
+        "Effet photoélectrique",
+        "Effet Compton",
+        "Production de paires",
+        "Fusion nucléaire",
+        "Ionisation nucléaire directe"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 7,
+      "question": "Dans une expérience de laboratoire, on expose une feuille d'aluminium à des photons X de 60 keV. Quelle conséquence observe-t-on après l'effet photoélectrique ?",
+      "images": [],
+      "image": "",
+      "options": [
+        "Un électron est absorbé",
+        "Un photon est diffusé",
+        "Un électron est éjecté de la couche K",
+        "Un positon est produit",
+        "Un neutron est libéré"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 8,
+      "question": "Dans une expérience de laboratoire, on expose une feuille d'aluminium à des photons X de 60 keV. Quel paramètre influence principalement la probabilité d'un effet photoélectrique ?",
+      "images": [],
+      "image": "",
+      "options": [
+        "La densité électronique",
+        "L'énergie du photon (E) et le numéro atomique (Z) de la matière",
+        "La température de l'absorbeur",
+        "Le champ magnétique appliqué",
+        "La pression atmosphérique"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 9,
+      "question": "Dans une expérience de laboratoire, on expose une feuille d'aluminium à des photons X de 60 keV. Quelle conséquence observable indique la survenue d'un diffusion Compton dans l'expérience ?",
+      "images": [],
+      "image": "",
+      "options": [
+        "Apparition de positons dans le détecteur",
+        "Photons X absorbés totalement sans réémission",
+        "Changement d'angle et perte d'énergie des photons détectés",
+        "Ionisation de noyaux atomiques",
+        "Création d'un neutron secondaire"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 10,
+      "question": "Dans une expérience de laboratoire, on expose une feuille d'aluminium à des photons X de 60 keV. Pourquoi ne peut-on pas observer l'interaction par création de paire dans ce cas?",
+      "images": [],
+      "image": "",
+      "options": [
+        "L'énergie des photons est trop faible (< 1,022 MeV)",
+        "L'aluminium bloque systématiquement tous les photons",
+        "Les électrons ne peuvent pas être ionisés dans un métal",
+        "La diffusion Compton annule cet effet",
+        "Les photons sont trop lourds pour créer une paire"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 11,
+      "question": "Dans une expérience de laboratoire, on expose une feuille d'aluminium à des photons X de 60 keV. Que représente le coefficient d'atténuation linéique ( ) dans ce contexte ?",
+      "images": [],
+      "image": "",
+      "options": [
+        "La densité physique de la matière",
+        "Le taux de production de rayons X",
+        "La probabilité d'interaction par unité de longueur",
+        "La vitesse de propagation du photon",
+        "La température d'absorption de l'aluminium"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 12,
+      "question": "Un physicien médical mesure une activité de 3,7×10⁹ Bq autour d'une source de Cobalt-60. À combien de Curie (Ci) cela correspond-il ?",
+      "images": [],
+      "image": "",
+      "options": [
+        "0,001 Ci",
+        "0,1 Ci",
+        "1 Ci",
+        "10 Ci",
+        "37 Ci"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 13,
+      "question": "Un physicien médical mesure une activité de 3,7×10⁹ Bq autour d'une source de Cobalt-60. Quel type de rayonnement nécessite la plus grande épaisseur de protection ?",
+      "images": [],
+      "image": "",
+      "options": [
+        "Rayonnement a",
+        "Rayonnement ẞ",
+        "Rayonnement y",
+        "Rayonnement visible",
+        "Rayonnement infrarouge"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 14,
+      "question": "Un technicien allume un générateur à rayons X à 100 kV pour une radiographie thoracique. D'où proviennent les rayons X?",
+      "images": [],
+      "image": "",
+      "options": [
+        "Du noyau excité",
+        "Du freinage d'électrons sur l'anode",
+        "De la fission spontanée",
+        "D'une désintégration ẞ-",
+        "D'une annihilation électron-positon"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 15,
+      "question": "Un technicien allume un générateur à rayons X à 100 kV pour une radiographie thoracique. Quelle précaution est essentielle dans la salle de radiologie ?",
+      "images": [],
+      "image": "",
+      "options": [
+        "Filtrage des électrons",
+        "Mesure de la pression",
+        "Blindage de la pièce contre les rayons X",
+        "Refroidissement à l'azote",
+        "Purification de l'air par ozone"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 16,
+      "question": "En radiothérapie, un plan de traitement est établi à l'aide d'un scanner dosimétrique. Le faisceau de traitement est ensuite défini par un collimateur multilames. Quel est le rôle du collimateur multilames?",
+      "images": [],
+      "image": "",
+      "options": [
+        "Accélérer les électrons",
+        "Ajuster l'intensité de dose",
+        "Conformer le faisceau à la forme de la tumeur",
+        "Refroidir le faisceau",
+        "Mesurer la radioactivité résiduelle du patient"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 17,
+      "question": "En radiothérapie, un plan de traitement est établi à l'aide d'un scanner dosimétrique. Le faisceau de traitement est ensuite défini par un collimateur multilames. Quel appareil produit un faisceau de rayons X de haute énergie (> 6 MeV) en radiothérapie moderne ?",
+      "images": [],
+      "image": "",
+      "options": [
+        "Le tube à rayons X",
+        "La gamma-caméra",
+        "L'accélérateur linéaire (LINAC)",
+        "Le PET scan",
+        "Le scanner dentaire"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 18,
+      "question": "Lors d'une curiethérapie au césium-137, le personnel doit se protéger contre les radiations émanant des sources scellées. Le type de rayonnement majoritaire émis par le Cs-137 est:",
+      "images": [],
+      "image": "",
+      "options": [
+        "ẞ uniquement",
+        "α",
+        "y de 662 keV",
+        "Neutron",
+        "Rayonnement infrarouge"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 19,
+      "question": "Lors d'une curiethérapie au césium-137, le personnel doit se protéger contre les radiations émanant des sources scellées. Quelle mesure de radioprotection est la plus importante dans ce contexte ?",
+      "images": [],
+      "image": "",
+      "options": [
+        "Augmenter le temps d'exposition",
+        "Se tenir à proximité immédiate",
+        "Utiliser des écrans de plomb",
+        "Porter un masque chirurgical",
+        "Boire beaucoup d'eau avant l'intervention"
+      ],
+      "correctIndex": 2
+    }
+  ]
+}

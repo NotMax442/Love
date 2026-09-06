@@ -1,0 +1,186 @@
+{
+  "questions": [
+    {
+      "id": 1,
+      "question": "Concernant la sémiologie radiologique de la sinusite, parmi les propositions suivants sont exactes sauf une laquelle ?",
+      "images": [],
+      "image": "",
+      "options": [
+        "Epaississement circonférentiel de la muqueuse sinusienne.",
+        "Sinus totalement remplis par d'air.",
+        "Opacité diffuse sinusienne.",
+        "Niveau hydro-aérique dans les sinus.",
+        "Présence de petites bulles d'air au sein d'une opacité sinusienne."
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 2,
+      "question": "Concernant les sinus de la face normaux, quelle est la proposition exacte?",
+      "images": [],
+      "image": "",
+      "options": [
+        "Epaississement circonférentiel de la muqueuse sinusienne.",
+        "Sinus totalement remplis par d'air.",
+        "Opacité diffuse sinusienne.",
+        "Niveau hydro-aérique dans les sinus.",
+        "Présence de petites bulles d'air au sein d'une opacité sinusienne."
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 3,
+      "question": "Concernant la sémiologie radiologique du nasopharynx (cavum), parmi les propositions suivantes laquelle est vraie ?",
+      "images": [],
+      "image": "",
+      "options": [
+        "La majeure partie des lésions tumorales du cavum sont des tumeurs bénignes.",
+        "Les tumeurs du cavum sont principalement des tumeurs malignes qui naissent du récessus pharyngé latéral ou la fossette de Rosenmüller.",
+        "Les tumeurs du cavum naissent de la fosse nasale.",
+        "Les tumeurs du cavum naissent du sinus pyriforme de l'hypopharynx.",
+        "Les tumeurs du cavum naissent du larynx."
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 4,
+      "question": "Concernant la sémiologie radiologique de la pathologie tumorale de l'oropharynx et de la cavité orale, parmi les propositions suivantes sont vraies sauf une laquelle ?",
+      "images": [],
+      "image": "",
+      "options": [
+        "Les tumeurs sont plus de 90% des cas des tumeurs malignes de type carcinome épidermoïde.",
+        "L'imagerie repose essentiellement sur l'IRM.",
+        "Par rapport au signal musculaire normal la tumeur apparaît en isosignal Tlavant injection de produit de contraste et discret hypersignal T2.",
+        "La tumeur se rehausse toujours nettement après injection de produit de contraste.",
+        "Les tumeurs sont le plus souvent bénignes."
+      ],
+      "correctIndex": 4
+    },
+    {
+      "id": 5,
+      "question": "Quel est le sujet qui est contre indiqué pour faire l'imagerie par résonance magnétique (IRM) de la sphère ORL avec injection de produit de contraste ?",
+      "images": [],
+      "image": "",
+      "options": [
+        "Le sujet qui a un pacemaker.",
+        "Le sujet qui a une fonction rénale normale.",
+        "Le sujet qui a une allergie sévère avec le produit de contraste iodé.",
+        "Le sujet qui a une tumeur osseuse de type de myélome.",
+        "Le sujet qui a une insuffisance rénale modérée."
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 6,
+      "question": "Quel est le sujet qui est contre indiqué pour faire la tomodensitométrie (TDM) de la sphère ORL avec injection de produit de contraste iodé ?",
+      "images": [],
+      "image": "",
+      "options": [
+        "Le sujet qui a une fonction rénale normale.",
+        "Le sujet qui a une claustrophobie.",
+        "Le sujet qui a un pacemaker.",
+        "Le sujet qui a une insuffisance rénale sévère.",
+        "Le sujet qui a un corps étranger ferromagnétique."
+      ],
+      "correctIndex": 3
+    },
+    {
+      "id": 7,
+      "question": "Concernant le sinus frontal, quelque est la proposition exacte ?",
+      "images": [],
+      "image": "",
+      "options": [
+        "Le sinus frontal se draine dans la fosse nasale par le canal fronto-nasal.",
+        "Le sinus frontal situé dans l'os maxillaire.",
+        "Le sinus frontal se draine dans la fosse nasale par l'ostium sphénoïdal.",
+        "Le sinus frontal se draine dans la fosse nasale par l'ostium maxillaire.",
+        "Le sinus frontal situé dans le corps sphénoïdal."
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 8,
+      "question": "Concernant le sinus maxillaire, quelque est la proposition exacte ?",
+      "images": [],
+      "image": "",
+      "options": [
+        "Le sinus maxillaire se draine dans la fosse nasale par le canal fronto-nasal.",
+        "Le sinus maxillaire situé dans l'os maxillaire.",
+        "Le sinus maxillaire se draine dans la fosse nasale par l'ostium sphénoïdal.",
+        "Le sinus maxillaire peut être exploré par l'échographie.",
+        "Le sinus maxillaire situé dans le corps sphénoïdal."
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 9,
+      "question": "Concernant le sinus sphénoïdal, quelque est la proposition exacte ?",
+      "images": [],
+      "image": "",
+      "options": [
+        "Le sinus sphénoïdal se draine dans la fosse nasale par le canal fronto-nasal.",
+        "Le sinus sphénoïdal situé dans l'os maxillaire.",
+        "Le sinus sphénoïdal se draine dans la fosse nasale par l'ostium sphénoïdal.",
+        "Le sinus sphénoïdal peut être exploré par l'échographie.",
+        "Le sinus sphénoïdal situé dans l'os frontal."
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 10,
+      "question": "Concernant les variantes anatomiques exposant à un risque de complication de la chirurgie endoscopique de la cavité naso-sinusienne, parmi les propositions suivants sont exactes sauf une laquelle ?",
+      "images": [],
+      "image": "",
+      "options": [
+        "Protrusion des canaux carotidiens dans le sinus sphénoïdal.",
+        "Déhiscence de la lame papyracée avec hernie graisseuse au sein de la masse latérale de l'ethmoïde.",
+        "Déviation de la cloison nasale.",
+        "Protrusion des Nerfs optiques dans le sinus sphénoïdal.",
+        "Inégalité de hauteur des toits ethmoïdaux"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 11,
+      "question": "Parmi les propositions suivantes laquelle est vraie ?",
+      "images": [],
+      "image": "",
+      "options": [
+        "Pharynx séparé en 2 étages.",
+        "Pharynx séparé en 3 étages.",
+        "Pharynx séparé en 4 étages.",
+        "Pharynx séparé en 5 étages.",
+        "Pharynx séparé en 6 étages."
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 12,
+      "question": "Parmi les propositions suivantes laquelle est vraie ?",
+      "images": [],
+      "image": "",
+      "options": [
+        "Larynx séparé en 3 étages.",
+        "Larynx séparé en 2 étages.",
+        "Larynx séparé en 4 étages.",
+        "Larynx séparé en 5 étages.",
+        "Larynx séparé en 6 étages."
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 13,
+      "question": "Parmi les propositions suivantes laquelle est vraie ?",
+      "images": [],
+      "image": "",
+      "options": [
+        "L'oreille est divisée en 4 parties.",
+        "L'oreille est divisée en 2 parties.",
+        "L'oreille est divisée en 3 parties.",
+        "L'oreille est divisée en 6 parties.",
+        "L'oreille est divisée en 5 parties."
+      ],
+      "correctIndex": 2
+    }
+  ]
+}

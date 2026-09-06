@@ -1,0 +1,144 @@
+{
+  "questions": [
+    {
+      "id": 1,
+      "question": "Quelle est la durée normale de l'espace PR?",
+      "images": [],
+      "image": "",
+      "options": [
+        "0.12-0.20s",
+        "<0.12s",
+        "Isoélectrique",
+        "> 0. 44 s",
+        "0.25mV"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 2,
+      "question": "Quelle est la durée normale de complexe QRS ?",
+      "images": [],
+      "image": "",
+      "options": [
+        "Isoélectrique",
+        "0.12-0.20s",
+        "<0.12s",
+        "> 0.45s",
+        "0.25mV"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 3,
+      "question": "Quelle est la durée normale de l'onde P?",
+      "images": [],
+      "image": "",
+      "options": [
+        "0.12-0.20s",
+        "< 0.44s",
+        "< 0.25mV",
+        "Isoélectrique",
+        "<0.12s"
+      ],
+      "correctIndex": 4
+    },
+    {
+      "id": 4,
+      "question": "Quelle est l'amplitude normale de l'onde P?",
+      "images": [],
+      "image": "",
+      "options": [
+        "0.12-0.20s",
+        "<0.12s",
+        "<0.44s",
+        "0.25mV",
+        "Isoélectrique"
+      ],
+      "correctIndex": 3
+    },
+    {
+      "id": 5,
+      "question": "A l'ECG normal, l'onde T est tous positive sauf",
+      "images": [],
+      "image": "",
+      "options": [
+        "D1",
+        "aVL",
+        "aVR",
+        "aVF",
+        "V6"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 6,
+      "question": "Comment évalue-t-on une hypertrophie ventriculaire gauche à l'ECG ?",
+      "images": [],
+      "image": "",
+      "options": [
+        "SV1+RV5-30mm",
+        "SV1+RV5 = 20mm",
+        "SV1+RV5=25mm",
+        "SV1+RV5-15 mm",
+        "SV1+RV5=35 mm"
+      ],
+      "correctIndex": 4
+    },
+    {
+      "id": 7,
+      "question": "Quelles sont les dérivations représentant la paroi inférieure du VG?",
+      "images": [],
+      "image": "",
+      "options": [
+        "V1, V2, V3",
+        "D2, D3, aVF",
+        "V5, V6",
+        "D1, aVL",
+        "V7-V8-V9"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 8,
+      "question": "Quelles sont les dérivations représentant la paroi antérieure du VG?",
+      "images": [],
+      "image": "",
+      "options": [
+        "V1, V2, V3",
+        "D2, D3, aVF",
+        "V5, V6",
+        "D1, aVL",
+        "V7-V8-V9"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 9,
+      "question": "Quelles sont les dérivations représentant la paroi latérale haute du VG ?",
+      "images": [],
+      "image": "",
+      "options": [
+        "V7, V8, V9",
+        "V1, V2, V3",
+        "V5, V6",
+        "D1, aVL",
+        "D2, D3, aVF"
+      ],
+      "correctIndex": 3
+    },
+    {
+      "id": 10,
+      "question": "Quelles sont les dérivations représentant la paroi basale du VG?",
+      "images": [],
+      "image": "",
+      "options": [
+        "V1, V2, V3",
+        "D2, D3, aVF",
+        "V5, V6",
+        "D1, aVL",
+        "V7-V8-V9"
+      ],
+      "correctIndex": 4
+    }
+  ]
+}

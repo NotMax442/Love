@@ -1,0 +1,198 @@
+{
+  "questions": [
+    {
+      "id": 1,
+      "question": "Lesquel de cet élément n'appartient pas au sysyème nerveux?",
+      "images": [],
+      "image": "",
+      "options": [
+        "Moelle épiiere",
+        "Cervelet",
+        "Moelle osseuse",
+        "Nerts",
+        "Cerveau"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 2,
+      "question": "Commnent s'appelle l'enveloppe du cerveau?",
+      "images": [],
+      "image": "",
+      "options": [
+        "Plèvre",
+        "Péritoine",
+        "Péricarde",
+        "Méninges"
+      ],
+      "correctIndex": 3
+    },
+    {
+      "id": 3,
+      "question": "On divise le système nerveux en :",
+      "images": [],
+      "image": "",
+      "options": [
+        "Système nerveux central et système nerveux périphérique",
+        "Système nerveux autonome et système nerveux somatique",
+        "Système nerveux parasympathique et système nerveux sympathique",
+        "Système nerveux central et système nerveux somatique",
+        "Système nerveux périphérique et Système nerveux autonome"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 4,
+      "question": "On divise le système nerveux central:",
+      "images": [],
+      "image": "",
+      "options": [
+        "Cerveau et cervelet",
+        "Cerveau et moelle épinière",
+        "Encéphale et moelle épinière",
+        "Encéphale et mésencéphale",
+        "Encéphale et nerfs"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 5,
+      "question": "On divise le système nerveux périphérique :",
+      "images": [],
+      "image": "",
+      "options": [
+        "Système nerveux sympathique et parasympathique",
+        "Système nerveux autonome et système nerveux somatique",
+        "Système nerveux cérébro-spinale",
+        "Système nerveux sympathique",
+        "Encéphale et moelle épinière"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 6,
+      "question": "Les ventricules contiennent :",
+      "images": [],
+      "image": "",
+      "options": [
+        "Substance blanche",
+        "Substance gris",
+        "Liquide céphalo-rachidien",
+        "Neurone",
+        "moelle épinière"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 7,
+      "question": "LCR passe du ventricule latérale à 3eme ventricule par :",
+      "images": [],
+      "image": "",
+      "options": [
+        "Canal central",
+        "Canal ventriculaire",
+        "Foramen interventriculaire",
+        "Aqueduc du Sylvius",
+        "Bulbe rachidien"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 8,
+      "question": "La moelle épinière est constituée :",
+      "images": [],
+      "image": "",
+      "options": [
+        "Substance blanche à la central et substance gris périphérique",
+        "Substance blanche à la périphérique et substance gris centrale",
+        "Substance blanche à la centrale",
+        "Substance gris périphérique"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 9,
+      "question": "Les propositions suivantes concernent la moelle épinière :",
+      "images": [],
+      "image": "",
+      "options": [
+        "La moelle épinière fait partie du système nerveux central.",
+        "Son diamètre est de 10 cm.",
+        "Elle est aplatie transversalement.",
+        "Elle présente six sillons et trois cordons sur une coupe horizontale.",
+        "En ventral, on trouve le sillon médian."
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 10,
+      "question": "Les propositions suivantes concernent la moelle épinière :",
+      "images": [],
+      "image": "",
+      "options": [
+        "La racine motrice des nerfs sort de la moelle épinière par le sillon latéral dorsal.",
+        "Le renflement de la racine dorsale correspond au ganglion du SNOV.",
+        "On peut diviser la moelle épinière en 31 myélomères.",
+        "Chaque myélomère contient au moins un arc réflexe (myotatique) et est en rapport avec un segment de muscle (myotome), de peau (dermatome) et de viscère (viscérotome).",
+        "Il existe 5 paires de nerfs sacrés et 5 paires de nerfs coccygiens."
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 11,
+      "question": "les propositions suivantes concernent le cerveau:",
+      "images": [],
+      "image": "",
+      "options": [
+        "La partie antérieure de la face inférieure du cerveau est horizontale alors qu'elle est oblique en bas et en dehors dans sa partie postérieure.",
+        "Il possède cinq sillons primaires et six lobes.",
+        "Trois sillons sont visibles sur une vue latérale: sillons cingulaire, pariéto-occipital et calcarin.",
+        "Le sillon latéral délimite les lobes frontal et pariétal.",
+        "La fissure longitudinale sépare les deux hémisphères cérébraux."
+      ],
+      "correctIndex": 4
+    },
+    {
+      "id": 12,
+      "question": "les propositions suivantes concernent le cerveau:",
+      "images": [],
+      "image": "",
+      "options": [
+        "Un ventricule latéral comporte trois cornes: antérieure, postérieure et supérieure.",
+        "L'aqueduc du mésencéphale fait communiquer le 4ème ventricule avec les ventricules latéraux.",
+        "Le sillon calcarin ne délimite pas de lobe.",
+        "La capsule externe passe entre le claustrum et le lobe de l'insula.",
+        "La capsule interne se situe entre le noyau lenticulaire (en médial) et le thalamus (en latéral)."
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 13,
+      "question": "les propositions suivantes concernent le système nerveux périphérique :",
+      "images": [],
+      "image": "",
+      "options": [
+        "Il comporte cinq plexus.",
+        "Les nerfs deviennent de plus en plus horizontaux de crânial en caudal.",
+        "La branche dorsale est sensitive.",
+        "Ce sont les branches dorsales des nerfs spinaux qui constituent les plexus.",
+        "Les paires de nerfs spinaux L5 à S5 constituent le plexus lombo-sacré."
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 14,
+      "question": "les propositions suivantes concernent le système nerveux périphérique :",
+      "images": [],
+      "image": "",
+      "options": [
+        "Il comporte de la substance blanche et de la substance grise.",
+        "Il correspond aux 12 paires de nerfs spinaux et 31 paires de nerfs crâniens.",
+        "Les nerfs spinaux naissent du tronc cérébral.",
+        "On dénombre 7 paires de nerfs cervicaux.",
+        "Les 7 premières paires de nerfs cervicaux sortent au-dessus de la vertèbre correspondante (ayant le même numéro) alors que les nerfs thoraciques et lombaires sortent en dessous de la vertèbre correspondante."
+      ],
+      "correctIndex": 4
+    }
+  ]
+}

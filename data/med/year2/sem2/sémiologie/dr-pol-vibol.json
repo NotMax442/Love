@@ -1,0 +1,134 @@
+{
+  "questions": [
+    {
+      "id": 1,
+      "question": "Of the following male organs, which one is considered a primary sex organ?",
+      "images": [],
+      "image": "",
+      "options": [
+        "ejaculatory ducts",
+        "gonads (testes)",
+        "penis",
+        "seminal vesicles"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 2,
+      "question": "The ________ are the site of sperm maturation, and they store and convey spermatozoa to the dectus deferentia",
+      "images": [],
+      "image": "",
+      "options": [
+        "interstitial cells of the testes",
+        "ejaculatory ducts",
+        "bulbourethral glands",
+        "epididymides"
+      ],
+      "correctIndex": 3
+    },
+    {
+      "id": 3,
+      "question": "The ________ of the testes secrete male hormones, such as testosterone.",
+      "images": [],
+      "image": "",
+      "options": [
+        "seminiferous tubules",
+        "sustentacular cells",
+        "interstitial cells",
+        "efferent ductiles"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 4,
+      "question": "Which of these is not an action of the male androgens?",
+      "images": [],
+      "image": "",
+      "options": [
+        "deposition of subcutaneous fat on the hips and thighs",
+        "growth of bone and muscle",
+        "growth of facial and axillary hair",
+        "development of male external genitalia"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 5,
+      "question": "Choose the correct order for the path of sperm from the testes to outside the body.",
+      "images": [],
+      "image": "",
+      "options": [
+        "ductus deferens - epididymis - ejaculatory duct - penis",
+        "epididymis - ductus deferens - ejaculatory duct - penis",
+        "ejaculatory duct - ductus deferens - epididymis - penis",
+        "penis - ejaculatory duct - epididymis - ductus deferens"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 6,
+      "question": "What does the prostate gland secrete into the semen?",
+      "images": [],
+      "image": "",
+      "options": [
+        "alkaline secretion to aid the survival of sperm in the acidic atmosphere of the female reproductive tract",
+        "acid phosphatase",
+        "thin liquid that helps sperm become motile",
+        "All of these are secretions of the prostate."
+      ],
+      "correctIndex": 3
+    },
+    {
+      "id": 7,
+      "question": "What portions of the penis contain erectile tissue that becomes engorged with blood?",
+      "images": [],
+      "image": "",
+      "options": [
+        "corpora cavernosa",
+        "corpus spongiosum",
+        "corona glandis",
+        "corpora cavernosa and corpus spongiosum"
+      ],
+      "correctIndex": 3
+    },
+    {
+      "id": 8,
+      "question": "During sexual arousal, ________ impulses cause vasodilation of the arterioles of the penis",
+      "images": [],
+      "image": "",
+      "options": [
+        "parasympathetic",
+        "sympathetic",
+        "somatic",
+        "None of these - vasodilation is the result of hormonal influences."
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 9,
+      "question": "When semen is discharged, about ________ of the volume is made up of spermatozoa.",
+      "images": [],
+      "image": "",
+      "options": [
+        "1%",
+        "10%",
+        "40%",
+        "75%"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 10,
+      "question": "Which of these sexually transmitted diseases is caused by a virus?",
+      "images": [],
+      "image": "",
+      "options": [
+        "gonorrhea",
+        "syphilis",
+        "genital herpes",
+        "chlamydia"
+      ],
+      "correctIndex": 2
+    }
+  ]
+}
