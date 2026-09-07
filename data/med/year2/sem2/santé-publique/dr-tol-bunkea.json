@@ -1,0 +1,1356 @@
+{
+  "questions": [
+    {
+      "id": 1,
+      "question": "If the variance of a data set is correctly computed with the formula using $n-1$ in the denominator, which of the following is true?",
+      "images": [],
+      "image": "",
+      "options": [
+        "The data set is a sample",
+        "The data set is a population",
+        "The data set could be either a sample or a population",
+        "The data set is from a census"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 2,
+      "question": "In inferential statistics, we study",
+      "images": [],
+      "image": "",
+      "options": [
+        "The methods to make decisions about population based on sample results",
+        "How to make decisions about mean, median, or mode",
+        "How a sample is obtained from a population",
+        "How to estimate the sample size"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 3,
+      "question": "Statistic is a numerical quantity, which is calculated from:",
+      "images": [],
+      "image": "",
+      "options": [
+        "Population",
+        "Sample",
+        "Data",
+        "Observations"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 4,
+      "question": "The height of a student is 1.62 meters. This is an example of:",
+      "images": [],
+      "image": "",
+      "options": [
+        "Qualitative data",
+        "Categorical data",
+        "Continuous data",
+        "Discrete data"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 5,
+      "question": "You asked five of your classmates about their height. On the basis of this information, you stated that the average height of all students in your university or college is 1.67 meters. This is an example of:",
+      "images": [],
+      "image": "",
+      "options": [
+        "Descriptive statistics",
+        "Inferential Statistics",
+        "Parameter",
+        "Population"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 6,
+      "question": "In descriptive statistics, we study:",
+      "images": [],
+      "image": "",
+      "options": [
+        "The description of decision making process",
+        "The methods for organizing, displaying and describing data",
+        "How to describe the probability distribution",
+        "How to calculate the sample size in a study"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 7,
+      "question": "Which branch of statistics deals with the techniques that are used to organize, and summarize and simplify data:",
+      "images": [],
+      "image": "",
+      "options": [
+        "Advanced Statistics",
+        "Probability Statistics",
+        "Inferential Statistics",
+        "Descriptive Statistics"
+      ],
+      "correctIndex": 3
+    },
+    {
+      "id": 8,
+      "question": "The branch of biostatistics that deals with testing of hypothesis, making predictions using data collected is called:",
+      "images": [],
+      "image": "",
+      "options": [
+        "Inferential biostatistics",
+        "Descriptive statistics",
+        "Comparative biostatistics",
+        "Test statistics"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 9,
+      "question": "In statistics, a population consists of",
+      "images": [],
+      "image": "",
+      "options": [
+        "All people living in a country",
+        "All people living in the area under study",
+        "All subjects or objects whose characteristics are being studied",
+        "All people who developing disease"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 10,
+      "question": "When data are collected in a statistical study for only a portion or subset of all elements of interest we are using",
+      "images": [],
+      "image": "",
+      "options": [
+        "A sample",
+        "A parameter",
+        "A population",
+        "An observation"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 11,
+      "question": "In descriptive statistics, we study:",
+      "images": [],
+      "image": "",
+      "options": [
+        "The description of decision making process",
+        "The methods for organizing, displaying, and describing data",
+        "How to describe the probability distribution",
+        "The prediction of disease trend"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 12,
+      "question": "In statistics, a sample mean:",
+      "images": [],
+      "image": "",
+      "options": [
+        "A portion of the sample",
+        "A portion of the population",
+        "All the items under investigation",
+        "A set of data"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 13,
+      "question": "Population census is conducted through",
+      "images": [],
+      "image": "",
+      "options": [
+        "Sample survey",
+        "Accounting",
+        "Investigation",
+        "Complete enumeration"
+      ],
+      "correctIndex": 3
+    },
+    {
+      "id": 14,
+      "question": "A parameter is a measure which is computed from",
+      "images": [],
+      "image": "",
+      "options": [
+        "Population data",
+        "Sample data",
+        "Test statistics",
+        "Raw data"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 15,
+      "question": "A numerical value used as a summary measure for a sample, such as sample mean, is known as a",
+      "images": [],
+      "image": "",
+      "options": [
+        "Population parameter",
+        "Sample parameter",
+        "Sample statistic",
+        "Population mean"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 16,
+      "question": "Since the population size is always larger than the sample size, then the sample statistic",
+      "images": [],
+      "image": "",
+      "options": [
+        "Can never be larger than the population parameter",
+        "Can never be equal to the population parameter",
+        "Can be smaller, larger, or equal to the population parameter",
+        "Can never be smaller than the population parameter"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "question": "μ is an example of a",
+      "images": [],
+      "image": "",
+      "options": [
+        "Population parameter",
+        "Sample statistic",
+        "Population variance",
+        "Mode"
+      ],
+      "correctIndex": 0,
+      "id": 17
+    },
+    {
+      "id": 18,
+      "question": "The standard error of the mean of a sample is:",
+      "images": [],
+      "image": "",
+      "options": [
+        "An estimate of the standard deviation of the population",
+        "Not based on a normal distribution",
+        "Not used to determine confidence limit",
+        "Increased as the sample size increases"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 19,
+      "question": "The standard error of the mean of a sample is:",
+      "images": [],
+      "image": "",
+      "options": [
+        "An estimate of the standard deviation of the sample",
+        "Based on a non-normal distribution",
+        "Used to determine confidence level of significant test",
+        "Not increased as the sample size increases"
+      ],
+      "correctIndex": 3
+    },
+    {
+      "id": 20,
+      "question": "Confidence intervals are calculated for proportions, rates, risk ratios, odds ratios, and other epidemiologic measures:",
+      "images": [],
+      "image": "",
+      "options": [
+        "When the purpose is to draw inferences from a sample survey or study to the larger population.",
+        "When the purpose is to calculate sample size",
+        "When the purpose is to test hypothesis",
+        "When the purpose to calculate test statistics"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 21,
+      "question": "Which of the following statements is true about the standard error of a proportion?",
+      "images": [],
+      "image": "",
+      "options": [
+        "It always lies close to 0",
+        "It is approximately equal to the standard deviation when the sample size is large",
+        "It is a measure of the sampling variation of the observed proportion p about the true (population) proportion (",
+        "It is always greater than the standard deviation"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 22,
+      "question": "If an event is impossible it has a probability of:",
+      "images": [],
+      "image": "",
+      "options": [
+        "zero.",
+        "greater than zero",
+        "one",
+        "Less than one"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 23,
+      "question": "A group of 100 people are asked to state their favourite colour. 60 say blue. This experiment says that the probability of someone choosing blue is:",
+      "images": [],
+      "image": "",
+      "options": [
+        "60%",
+        "50%",
+        "40%",
+        "30%"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 24,
+      "question": "If an event has a probability of 0.8 it is:",
+      "images": [],
+      "image": "",
+      "options": [
+        "Likely to happen.",
+        "Unlikely to happen",
+        "Impossible to happen",
+        "Certain to happen"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 25,
+      "question": "If an event has a probability of 0.1 it is:",
+      "images": [],
+      "image": "",
+      "options": [
+        "Very likely to happen.",
+        "Very unlikely to happen.",
+        "Impossible to happen",
+        "Certain to happen"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 26,
+      "question": "What is the probability of getting an odd number when you roll a dice?",
+      "images": [],
+      "image": "",
+      "options": [
+        "1/3",
+        "1/2",
+        "1/4",
+        "1/5"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 27,
+      "question": "Which of the statements is true if a particular event has a probability of 10%?",
+      "images": [],
+      "image": "",
+      "options": [
+        "It is likely to happen",
+        "There is a one-in-ten chance it will happen.",
+        "It is impossible to happen",
+        "It is certain to happen"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 28,
+      "question": "Which of these is most likely to happen?",
+      "images": [],
+      "image": "",
+      "options": [
+        "Event A, which has a probability of 25%",
+        "Event B, which has a probability of 0.75",
+        "Event C, which has a probability of 0.5",
+        "Event D, which has a probability of 0.1"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 29,
+      "question": "On the statements below which are validstatements of probability:",
+      "images": [],
+      "image": "",
+      "options": [
+        "My probability of winning the lottery is less than 0.",
+        "Our probability of dying is 100%",
+        "We are 150% certain of success.",
+        "We are 101% certain of success."
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 30,
+      "question": "On the statements below which are valid statements of probability:",
+      "images": [],
+      "image": "",
+      "options": [
+        "A women's probability suffering from breast cancer in her life-time is 1 in 12",
+        "A women's probability suffering from breast cancer in her life-time is 12 in 1",
+        "A women's probability suffering from breast cancer in her life-time is 12 in 2",
+        "A women's probability suffering from breast cancer in her life-time is 12 in 3"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 31,
+      "question": "On the statements below which are validstatements of probability:",
+      "images": [],
+      "image": "",
+      "options": [
+        "The probability that this patient will die is less than 10%",
+        "The probability that this patient will die is less than 0%",
+        "The probability that this patient will die is greater than 100%",
+        "The probability that this patient will die is between 101% to 200%"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 32,
+      "question": "Students had attended a blood donor session at the University of Health Science when a new donor arrived. Blood can be classified into 4 groups: O, A, B and AB. The table below shows the number of people in each blood group. What is the probability that the next donor belongs to blood group O?\nNumber of students: O=92, A=86, B=16, AB=6",
+      "images": [],
+      "image": "",
+      "options": [
+        "46%",
+        "43%",
+        "8%",
+        "3%"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 33,
+      "question": "What is the statement of sensitivity of a diagnostic test:",
+      "images": [],
+      "image": "",
+      "options": [
+        "The ability of the test to identify correctly those who have the disease from all individuals with the disease",
+        "The ability of the test to identify correctly those who do not have the disease from all individuals free from the disease",
+        "The proportion of patients who test positive who actually have the disease.",
+        "The proportion of patients who test negative who are actually free of the disease"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 34,
+      "question": "What is the statement of specificity of a diagnostic test:",
+      "images": [],
+      "image": "",
+      "options": [
+        "The ability of the test to identify correctly those who have the disease from all individuals with the disease",
+        "The ability of the test to identify correctly those who do not have the disease from all individuals free from the disease",
+        "The proportion of patients who test positive who actually have the disease.",
+        "The proportion of patients who test negative who are actually free of the disease"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 35,
+      "question": "What is the statement of positive predictive value of a diagnostic test:",
+      "images": [],
+      "image": "",
+      "options": [
+        "The ability of the test to identify correctly those who have the disease from all individuals with the disease",
+        "The ability of the test to identify correctly those who do not have the disease from all individuals free from the disease",
+        "The proportion of patients who test positive who actually have the disease.",
+        "The proportion of patients who test negative who are actually free of the disease"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 36,
+      "question": "What is the statement of negative predictive value of a diagnostic test:",
+      "images": [],
+      "image": "",
+      "options": [
+        "The ability of the test to identify correctly those who have the disease from all individuals with the disease",
+        "The ability of the test to identify correctly those who do not have the disease from all individuals free from the disease",
+        "The proportion of patients who test positive who actually have the disease.",
+        "The proportion of patients who test negative who are actually free of the disease"
+      ],
+      "correctIndex": 3
+    },
+    {
+      "id": 37,
+      "question": "When the new drug was clinically tested, 117 patients reported headaches and 617 did not. Based on this sample what is the probability that a new drug user will experience a headache:",
+      "images": [],
+      "image": "",
+      "options": [
+        "117/(117+617)",
+        "117/617",
+        "617/(117+617)",
+        "617/117"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 38,
+      "question": "In a study of Cambodian people over 65 years of age, it is found that 255 have heart disease and 2302 do not. If a Cambodian over 65 years of age is randomly selected, what is the estimated probability that he or she has heart disease:",
+      "images": [],
+      "image": "",
+      "options": [
+        "255/(255+2302)",
+        "255/2302",
+        "2302/(255+2302)",
+        "2302/255"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 39,
+      "question": "The width of a confidence interval is influenced by:",
+      "images": [],
+      "image": "",
+      "options": [
+        "The sample size n",
+        "The sampling distribution",
+        "The distance between the sample mean and the population mean",
+        "The standard error"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 40,
+      "question": "The width of a confidence interval is influenced by:",
+      "images": [],
+      "image": "",
+      "options": [
+        "The sample size determination",
+        "The desired level of confidence",
+        "The distance between the sample mean and the population mean",
+        "The population parameter."
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 41,
+      "question": "The width of a confidence interval will decrease when which of the following changes occur:",
+      "images": [],
+      "image": "",
+      "options": [
+        "The sample size n increases",
+        "The sample size n decreases",
+        "The desired level of confidence increases",
+        "The precision of the estimate of the population mean decreases"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 42,
+      "question": "Which statement is not true about confidence intervals?",
+      "images": [],
+      "image": "",
+      "options": [
+        "A confidence interval is an interval of values computed from sample data that is likely to include the true population value.",
+        "An approximate formula for a 95% confidence interval is sample estimate margin of error.",
+        "A confidence interval between 20% and 40% means that the population proportion lies between 20% and 40%.",
+        "A 99% confidence interval procedure has a higher probability of producing intervals that will include the population parameter than a 95% confidence interval procedure."
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 43,
+      "question": "The primary reason for selecting a sample from a population is:",
+      "images": [],
+      "image": "",
+      "options": [
+        "To draw inferences about that population",
+        "To provide evidence of the study result",
+        "To save money",
+        "To save time"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 44,
+      "question": "We measure the sample using statistics in order to:",
+      "images": [],
+      "image": "",
+      "options": [
+        "Draw inferences about the parameters of the population",
+        "Draw conclusion about the sample size",
+        "To provide the validity of the study result",
+        "To provide the reliability of the study result"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 45,
+      "question": "Which below statement is not correct:",
+      "images": [],
+      "image": "",
+      "options": [
+        "Parameters are fixed values",
+        "Parameters are not fixed values.",
+        "We rarely know parameters",
+        "It is often difficult to obtain measures from the entire population"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 46,
+      "question": "Which below statement is not correct:",
+      "images": [],
+      "image": "",
+      "options": [
+        "Statistics are known values computed from a sample",
+        "Statistics are random variables because they differ from sample to sample",
+        "An estimate of the parameter based on observed information in the sample",
+        "Point estimates are not calculated from sample."
+      ],
+      "correctIndex": 3
+    },
+    {
+      "id": 47,
+      "question": "Which below statement is not correct:",
+      "images": [],
+      "image": "",
+      "options": [
+        "A point estimate is the statistic computed from sample information",
+        "A point estimate is used to estimate the population parameter",
+        "A point estimate is single numberthat is an estimate of the population parameter",
+        "A point estimate is two numbersthat are estimate of the population parameter"
+      ],
+      "correctIndex": 3
+    },
+    {
+      "id": 48,
+      "question": "Which below statement is not correct:",
+      "images": [],
+      "image": "",
+      "options": [
+        "A confidence interval estimate is a range of values constructed from sample data",
+        "The population parameter is likely to occur within a confidence interval range at a specified probability",
+        "A confidence interval is a range of values within which, we believe, the true parameter lies with high probability.",
+        "A confidence interval is a range of values within which, we believe, the true parameter don't lies with high probability"
+      ],
+      "correctIndex": 3
+    },
+    {
+      "id": 49,
+      "question": "Which below statement is not correct:",
+      "images": [],
+      "image": "",
+      "options": [
+        "Confidence interval describes the precision of the estimate",
+        "The confidence interval represents a range of values on either side of the estimate",
+        "The narrower the confidence interval, the more precise the point estimate.",
+        "The narrower the confidence interval, the less precise the point estimate"
+      ],
+      "correctIndex": 3
+    },
+    {
+      "id": 50,
+      "question": "What is the wrong interpretation of 95% confidence interval:",
+      "images": [],
+      "image": "",
+      "options": [
+        "We can be 95% confident that the true value of population (parameter) lies within this interval.",
+        "We are 95% confident that the true value of population (parameter) is between this interval.",
+        "The interpretation of confidence interval is always relates to a parameter and never a statistic.",
+        "The interpretation of confidence interval is always relates to a statistic and never a parameter"
+      ],
+      "correctIndex": 3
+    },
+    {
+      "id": 51,
+      "question": "The factors that determine the width of a confidence interval are except one:",
+      "images": [],
+      "image": "",
+      "options": [
+        "The sample size, n.",
+        "The variability in the population, usually estimated by s.",
+        "The desired level of confidence.",
+        "The means of sample"
+      ],
+      "correctIndex": 3
+    },
+    {
+      "id": 52,
+      "question": "If a sensitivity of a screening test was 80%, it means that:",
+      "images": [],
+      "image": "",
+      "options": [
+        "The probability of the screening test correctly identifying diseased subjects was 80%.",
+        "The probability of the screening test incorrectly identifying diseased subjects was 80%.",
+        "The probability of the screening test correctly identifying diseased subjects was 20%.",
+        "The probability of the screening test incorrectly identifying diseased subjects was 20%."
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 53,
+      "question": "If a specificity of a screening test was 89%, it means that:",
+      "images": [],
+      "image": "",
+      "options": [
+        "The probability of the screening test correctly identifying non-diseased subjects was 89%.",
+        "The probability of the screening test incorrectly identifying non-diseased subjects was 89%.",
+        "The probability of the screening test correctly identifying non-diseased subjects was 21%.",
+        "The probability of the screening test incorrectly identifying non-diseased subjects was 21%."
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 54,
+      "question": "If a positive predictive value was 44%, it means that:",
+      "images": [],
+      "image": "",
+      "options": [
+        "Among those who had a positive screening new test, the probability of disease was 44%.",
+        "Among those who had a positive screening new test, the probability of disease was 56%.",
+        "Among those who had a negative screening new test, the probability of being disease-free was 44%",
+        "Among those who had a negative screening new test, the probability of being disease-free was 56%"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 55,
+      "question": "If a negative predictive value was 98%, it means that:",
+      "images": [],
+      "image": "",
+      "options": [
+        "Among those who had a negative screening new test, the probability of being disease-free was 98%.",
+        "Among those who had a negative screening new test, the probability of being disease-free was 2%.",
+        "Among those who had a positive screening new test, the probability of disease was 98%.",
+        "Among those who had a positive screening new test, the probability of disease was 2%"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 56,
+      "question": "Positive Predictive Value primarily depends on (chose the incorrect answer):",
+      "images": [],
+      "image": "",
+      "options": [
+        "Prevalence of the disease in the population tested,",
+        "Sensitivity and specificity",
+        "In general, it depends more on the specificity",
+        "Incidence of the disease"
+      ],
+      "correctIndex": 3
+    },
+    {
+      "id": 57,
+      "question": "វិទ្យា(statistics) មានចែកចេញជា",
+      "images": [],
+      "image": "",
+      "options": [
+        "Descriptive & inferential statistic",
+        "Descriptive statistics & estimation",
+        "Inferential statistics & standard deviation",
+        "Inferential statistics & hypothesis testing"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 58,
+      "question": "តើអ្វីខ្លះជាផ្នែករបស់Descriptive statistics?",
+      "images": [],
+      "image": "",
+      "options": [
+        "Mean",
+        "Median",
+        "Mode",
+        "Mode, Median & Mean"
+      ],
+      "correctIndex": 3
+    },
+    {
+      "id": 59,
+      "question": "តើអ្វីខ្លះជាផ្នែករបស់ Descriptive statistics?",
+      "images": [],
+      "image": "",
+      "options": [
+        "Measure of central tendency",
+        "Range & median",
+        "Measure of Central of tendency & measures of dispersion",
+        "Measure of dispersion"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 60,
+      "question": "The upper bound and lower bound of confidence interval are calculated using (chose the correct answer):",
+      "images": [],
+      "image": "",
+      "options": [
+        "The median and the range",
+        "The median and its standard error",
+        "The mean and the range",
+        "The mean and its standard error"
+      ],
+      "correctIndex": 3
+    },
+    {
+      "id": 61,
+      "question": "A normal distribution curve is determined by the (chose the correct answer):",
+      "images": [],
+      "image": "",
+      "options": [
+        "Mean and sample size",
+        "Mean and standard deviation",
+        "Range and sample size",
+        "Range and standard deviation"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 62,
+      "question": "What is the correct answer about a point estimate statement:",
+      "images": [],
+      "image": "",
+      "options": [
+        "A point estimate is the statistic, computed from sample information,",
+        "A point estimate is the statistic, computed from population information",
+        "A point estimate is used to estimate the sample size",
+        "A point estimate is a true value of the study population parameter."
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 63,
+      "question": "What is the correct answer about a point estimatestatement:",
+      "images": [],
+      "image": "",
+      "options": [
+        "A point estimate is a single number",
+        "A point estimate is a multiple numbers",
+        "A point estimate is a range of the sample value",
+        "A point estimate is always less than a population value"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 64,
+      "question": "What is the correct answer about a point estimatestatement:",
+      "images": [],
+      "image": "",
+      "options": [
+        "A point estimate involves the calculation of confidence intervals for some statistic",
+        "A point estimate involves the calculation of means for some statistic",
+        "A point estimate involves the calculation of median for some statistic",
+        "A point estimate involves the calculation of mode for some statistic"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 65,
+      "question": "A confidence interval estimate is (chose the correct answer):",
+      "images": [],
+      "image": "",
+      "options": [
+        "A range of values constructed from sample data",
+        "A mean of values constructed from sample data",
+        "A median of values constructed from sample data",
+        "A standard deviation of values constructed from sample data"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 66,
+      "question": "A population parameter is likely to occur (chose the correct answer):",
+      "images": [],
+      "image": "",
+      "options": [
+        "Within the confidence interval",
+        "Within the range values of sample",
+        "Within a standard deviation of a sample",
+        "Within a standard deviation of a population"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 67,
+      "question": "A confidence interval is describe (chose the correct answer):",
+      "images": [],
+      "image": "",
+      "options": [
+        "The precision of the estimate",
+        "The validity of the estimate",
+        "The sampling error of the estimate",
+        "The sampling distribution."
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 68,
+      "question": "What is the correct answer about a confidence interval statement:",
+      "images": [],
+      "image": "",
+      "options": [
+        "The narrower the confidence interval, the more precise the point estimate",
+        "The narrower the confidence interval, the less precise the point estimate",
+        "The narrower the confidence interval, the invalid the point estimate",
+        "The narrower the confidence interval, the decreased sample size"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 69,
+      "question": "Which answer below is not correct about the confidence interval:",
+      "images": [],
+      "image": "",
+      "options": [
+        "Confidence interval cannot be calculated by hand",
+        "Confidence interval can be calculated by Stata",
+        "Confidence interval can be calculated by SPSS",
+        "Confidence interval can be calculated by SAS"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 70,
+      "question": "Which answer below is correct about the confidence interval:",
+      "images": [],
+      "image": "",
+      "options": [
+        "The most commonly used of confidence interval is the 95% interval",
+        "The most commonly used of confidence interval is the 90% interval",
+        "The most commonly used of confidence interval is the 99% interval",
+        "The most commonly used of confidence interval is the 100% interval"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 71,
+      "question": "If we want less chance of error we could calculate (chose the correct answer):",
+      "images": [],
+      "image": "",
+      "options": [
+        "A 99% confidence interval",
+        "A 98% confidence interval",
+        "A 95% confidence interval",
+        "A 90% confidence interval"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 72,
+      "question": "If we want higher chance of error we could calculate (chose the correct answer):",
+      "images": [],
+      "image": "",
+      "options": [
+        "A 99% confidence interval",
+        "A 98% confidence interval",
+        "A 95% confidence interval",
+        "A 90% confidence interval"
+      ],
+      "correctIndex": 3
+    },
+    {
+      "id": 73,
+      "question": "What is the correct interpretation of 95% confidence interval below:",
+      "images": [],
+      "image": "",
+      "options": [
+        "We can be 95% confident that the true value of population lies within this interval",
+        "We can be 90% confident that the true value of population lies within this interval",
+        "We can be 99% confident that the true value of population lies within this interval",
+        "We can be 98% confident that the true value of population lies within this interval"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 74,
+      "question": "What is the correct interpretation of 95% confidence interval below:",
+      "images": [],
+      "image": "",
+      "options": [
+        "In repeated sampling, 95% of the 95% CIs calculated in this manner would capture the true value of population.",
+        "In repeated sampling, 95% of the 95% CIs calculated in this manner would not be capture the true value of population",
+        "In repeated sampling, 95% of the 95% CIs calculated in this manner would capture the value of sample",
+        "In repeated sampling, 95% of the 95% CIs calculated in this manner would not be capture the true value of sample"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 75,
+      "question": "What is the correct interpretation of 95% confidence interval below:",
+      "images": [],
+      "image": "",
+      "options": [
+        "In repeated sampling, 95% of the interval will capture the sample values.",
+        "In repeated sampling, 95% of the interval will not capture the sample values.",
+        "In repeated sampling, 95% of the interval will capture the population values.",
+        "In repeated sampling, 95% of the interval will not capture the population values."
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 76,
+      "question": "A screening test result for cervical cancer show that $PPV=67\\%$. It means that:",
+      "images": [],
+      "image": "",
+      "options": [
+        "Among those who had a positive screening new test, the probability of cervical cancer was 67%.",
+        "Among those who had a positive screening new test, the probability of cervical cancer was less than 67%",
+        "Among those who had a positive screening new test, the probability of cervical cancer was more than 67%",
+        "Among those who had a positive screening new test, the probability of cervical cancer was 33%"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 77,
+      "question": "A screening test result for cervical cancer show that $NPV=99\\%$ It means that:",
+      "images": [],
+      "image": "",
+      "options": [
+        "Among those who had a negative screening new test, the probability of being cervical cancer-free was 99%",
+        "Among those who had a negative screening new test, the probability of being cervical cancer-free was less than 99%",
+        "Among those who had a negative screening new test, the probability of being cervical cancer-free was more than 99%",
+        "Among those who had a negative screening new test, the probability of being cervical cancer-free was 1%"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 78,
+      "question": "A positive predictive value depend on:",
+      "images": [],
+      "image": "",
+      "options": [
+        "The prevalence of the disease in the population tested",
+        "The incidence of the disease in the population tested",
+        "The negative predictive value of the disease in the population tested",
+        "The mortality of the disease in the population tested"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 79,
+      "question": "A positive predictive value depend on:",
+      "images": [],
+      "image": "",
+      "options": [
+        "The sensitivity of the disease in the population tested",
+        "The incidence of the disease in the population tested",
+        "The negative predictive value of the disease in the population tested",
+        "The mortality of the disease in the population tested"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 80,
+      "question": "A positive predictive value of a test increases as:",
+      "images": [],
+      "image": "",
+      "options": [
+        "The prevalence of disease in the population increases",
+        "The prevalence of disease in the population decreases",
+        "The prevalence of disease in the population is constant",
+        "The incidence of disease in the population increases"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 81,
+      "question": "A negative predictive value of a test decreases as:",
+      "images": [],
+      "image": "",
+      "options": [
+        "The prevalence of disease in the population increases",
+        "The prevalence of disease in the population decreases",
+        "The prevalence of disease in the population is constant",
+        "The incidence of disease in the population increases"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 82,
+      "question": "Reliability of a test means that:",
+      "images": [],
+      "image": "",
+      "options": [
+        "The results of a test or measure are identical or closely similar each time it is conducted",
+        "The results of a test or measure are not identical or closely similar each time it is conducted",
+        "The results of a test or measure are changed each time it is conducted",
+        "The results of a test or measure are incorrect each time it is conducted"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 83,
+      "question": "The director of the blood bank wants to know whether blood donors who test positive should be informed of their positive HIV status on the basis of this test. What do you need to calculate in order to help you advise the director?",
+      "images": [],
+      "image": "",
+      "options": [
+        "Sensitivity",
+        "Specificity",
+        "Positive predictive value",
+        "Negative predictive value"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 84,
+      "question": "What is the correct statement of diagnostic test:",
+      "images": [],
+      "image": "",
+      "options": [
+        "A diagnostic test is used to determine the presence or absence of a disease when a subject shows signs or symptoms of the disease",
+        "A diagnostic test is not used to determine the presence or absence of a disease when a subject shows signs or symptoms of the disease",
+        "A diagnostic test is used to determine the presence or absence of a disease when a subject does not shows signs or symptoms of the disease",
+        "The diagnostic test is performed before a positive screening"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 85,
+      "question": "What is the correct statement of screening test:",
+      "images": [],
+      "image": "",
+      "options": [
+        "A screening test is used to determine the presence or absence of a disease when a subject shows signs or symptoms of the disease",
+        "A screening test is used to determine the presence or absence of a disease when a subject does not shows signs or symptoms of the disease",
+        "The screening test is performed after a positive diagnostic test",
+        "The screening test is performed after a negative diagnostic test"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 86,
+      "question": "Below is the common screening test except one:",
+      "images": [],
+      "image": "",
+      "options": [
+        "Pap smear for cervical dysplasia or cervical cancer",
+        "Fasting blood cholesterol for heart disease",
+        "Fasting blood sugar for diabetes",
+        "Rapid diagnostic test"
+      ],
+      "correctIndex": 3
+    },
+    {
+      "id": 87,
+      "question": "What is the correct statement of validity of a screening test:",
+      "images": [],
+      "image": "",
+      "options": [
+        "The ability of a test to indicate which individuals have the disease and which do not.",
+        "The ability of the test to identify correctly those who have the disease.",
+        "The ability of the test to identify correctly those who do not have the disease.",
+        "The proportion of patients who test positive who actually have the disease."
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 88,
+      "question": "What is the correct statement of sensitivity of a screening test:",
+      "images": [],
+      "image": "",
+      "options": [
+        "The ability of a test to indicate which individuals have the disease and which do not.",
+        "The ability of the test to identify correctly those who have the disease.",
+        "The ability of the test to identify correctly those who do not have the disease.",
+        "The proportion of patients who test positive who actually have the disease."
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 89,
+      "question": "What is the correct statement of specificity of a screening test:",
+      "images": [],
+      "image": "",
+      "options": [
+        "The ability of a test to indicate which individuals have the disease and which do not.",
+        "The ability of the test to identify correctly those who have the disease.",
+        "The ability of the test to identify correctly those who do not have the disease.",
+        "The proportion of patients who test positive who actually have the disease."
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 90,
+      "question": "What is the correct statement of positive predictive value (PPV) of a screening test:",
+      "images": [],
+      "image": "",
+      "options": [
+        "The ability of a test to indicate which individuals have the disease and which do not.",
+        "The ability of the test to identify correctly those who have the disease.",
+        "The ability of the test to identify correctly those who do not have the disease.",
+        "The proportion of patients who test positive who actually have the disease."
+      ],
+      "correctIndex": 3
+    },
+    {
+      "id": 91,
+      "question": "What is the correct statement of negative predictive value (NPV) of a screening test:",
+      "images": [],
+      "image": "",
+      "options": [
+        "The ability of a test to indicate which individuals have the disease and which do not.",
+        "The ability of the test to identify correctly those who have the disease.",
+        "The ability of the test to identify correctly those who do not have the disease.",
+        "The proportion of patients who test negative who are actually free of the disease"
+      ],
+      "correctIndex": 3
+    },
+    {
+      "id": 92,
+      "question": "All statements below are correct to describe the positive predictive value of a screening test except one:",
+      "images": [],
+      "image": "",
+      "options": [
+        "The proportion of patients who test positive who actually have the disease.",
+        "The proportion of positive test results that are true positive.",
+        "Likelihood of having the disease when test is positive.",
+        "Likelihood of not having the disease when test is negative"
+      ],
+      "correctIndex": 3
+    },
+    {
+      "id": 93,
+      "question": "All statements below are correct to describe the negative predictive value of a screening test except one:",
+      "images": [],
+      "image": "",
+      "options": [
+        "The proportion of patients who test positive who actually have the disease.",
+        "The proportion of patients who test negative who are actually free of the disease",
+        "The proportion of negative test results that are true negative",
+        "Likelihood of not having the disease when test is negative."
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 94,
+      "question": "Chose the incorrect statement describe the diagnostic test:",
+      "images": [],
+      "image": "",
+      "options": [
+        "Diagnostic tests are never perfect.",
+        "Diagnostic tests are always perfect.",
+        "Diagnostic tests are sometimes provide false positive result",
+        "Diagnostic tests are sometimes provide false negative result"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 95,
+      "question": "On the statements below what is valid statements of probability:",
+      "images": [],
+      "image": "",
+      "options": [
+        "My probability of winning the lottery is less than 0.",
+        "Our probability of dying is 100%",
+        "We are 150% certain of success",
+        "The probability of this patient will cure is more than 100%"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 96,
+      "question": "On the statements below what is valid statements of probability:",
+      "images": [],
+      "image": "",
+      "options": [
+        "A woman's probability of suffering from breast cancer in her life-time is 1 in 12",
+        "A woman's probability of suffering from breast cancer in her life-time is 12 in 1",
+        "A woman's probability of suffering from breast cancer in her life-time is less than 0.",
+        "A woman's probability of suffering from breast cancer in her life-time is more than 1"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 97,
+      "question": "If the diagnostic (confirmatory) test is expensive or invasive the best diagnostic test is:",
+      "images": [],
+      "image": "",
+      "options": [
+        "Minimize false positives",
+        "Maximize true positives",
+        "Use a cut-point with high specificity",
+        "use a cut-point with high sensitivity"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 98,
+      "question": "If the penalty for missing a case is high (e.g., the disease is fatal and treatment exists, or disease easily spreads) the best diagnostic test is:",
+      "images": [],
+      "image": "",
+      "options": [
+        "Maximize true positives",
+        "use a cut-point with low sensitivity",
+        "use a cut-point with high specificity",
+        "use a cut-point with low specificity"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 99,
+      "question": "The Positive Predictive Value was 40% means that:",
+      "images": [],
+      "image": "",
+      "options": [
+        "Among those who had a positive screening new test, the probability of disease was 44%.",
+        "The prevalence of disease was 44%",
+        "The incidence of disease was 44%",
+        "The prevalence rate is 44%"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 100,
+      "question": "The Negative Predictive Value was 98% means that:",
+      "images": [],
+      "image": "",
+      "options": [
+        "Among those who had a negative screening new test, the probability of being disease-free was 98%.",
+        "The prevalence of disease was 98%",
+        "The incidence of disease was 98%",
+        "The prevalence rate is 98%"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 101,
+      "question": "The Positive Predictive Value depends on:",
+      "images": [],
+      "image": "",
+      "options": [
+        "Prevalence of the disease in the population tested,",
+        "The prevalence of disease",
+        "The incidence of disease",
+        "The number of population"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 102,
+      "question": "The Positive Predictive Value of a test increases:",
+      "images": [],
+      "image": "",
+      "options": [
+        "Prevalence of the disease in the population increases",
+        "The prevalence of disease decreases",
+        "The incidence of disease increase",
+        "The number of population stable"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 103,
+      "question": "The negative predictive value of a test decreases:",
+      "images": [],
+      "image": "",
+      "options": [
+        "Prevalence of the disease in the population increases",
+        "The prevalence of disease decreases",
+        "The incidence of disease increase",
+        "The number of population stable"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 104,
+      "question": "The meaning of reliability of a test is:",
+      "images": [],
+      "image": "",
+      "options": [
+        "The results of a test identical if repeated",
+        "The results of a test deferent",
+        "The results of a test various",
+        "The results of a test positive"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

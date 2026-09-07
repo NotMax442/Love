@@ -1,0 +1,1900 @@
+{
+  "questions": [
+    {
+      "id": 1,
+      "question": "The scale used to measure variable has divided to:",
+      "images": [],
+      "image": "",
+      "options": [
+        "1 basic type",
+        "2 basic types",
+        "3 basic types",
+        "4 basic types",
+        "5 basic types"
+      ],
+      "correctIndex": 3
+    },
+    {
+      "id": 2,
+      "question": "The scale uses names, numbers or other symbols to assign each measurement to one of a limit number of categories that cannot be ordered one above the other is:",
+      "images": [],
+      "image": "",
+      "options": [
+        "Intervalle scale",
+        "Ratio scale",
+        "Quantitative scale",
+        "Ordinal scale",
+        "Nominal scale"
+      ],
+      "correctIndex": 4
+    },
+    {
+      "id": 3,
+      "question": "Definition of ordinal scale, an ordinal scale assigns:",
+      "images": [],
+      "image": "",
+      "options": [
+        "To uses names, numbers or other symbols to assign each measurement to one of a limit number of categories that cannot be ordered one above the other.",
+        "Each measurement to one of unlimited number of categories that are equally spaced",
+        "Each measurement to one of a limited number of categories that are ranked in terms of a graded order",
+        "A measurement begins at a true zero point and the scale has equal intervals.",
+        "Each measurement to one of an unlimited number of categories that are ranked in terms of a graded order."
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 4,
+      "question": "The result of evaluation show that Good, Average, Poor Fully agree, agree, doubt, disagree totally disagree is the type of:",
+      "images": [],
+      "image": "",
+      "options": [
+        "Ordinal scale",
+        "Interval scale",
+        "Ratio scale",
+        "Nominal scale",
+        "Proportional scale."
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 5,
+      "question": "The categories of variable show that Male, Female and Blood type: type A, type B, type O, type AB is the type of:",
+      "images": [],
+      "image": "",
+      "options": [
+        "Ratio scale",
+        "Nominal scale",
+        "Interval scale",
+        "Ordinal scale",
+        "Proportional scale"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 6,
+      "question": "By definition a variable is:",
+      "images": [],
+      "image": "",
+      "options": [
+        "Upper limit number",
+        "Lower limit number",
+        "Sometime to change",
+        "Constant",
+        "Subject to change"
+      ],
+      "correctIndex": 4
+    },
+    {
+      "id": 7,
+      "question": "Qualitative variables are measured at the:",
+      "images": [],
+      "image": "",
+      "options": [
+        "Nominal level",
+        "Numerical level",
+        "Ratio level",
+        "Rate level",
+        "Proportional level"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 8,
+      "question": "True biologic variation in clinical measurement is the sum:",
+      "images": [],
+      "image": "",
+      "options": [
+        "Many known factors and high of probability",
+        "Each of which contributes a big random effect",
+        "Many unknown factors",
+        "Many known factors",
+        "High of probability"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 9,
+      "question": "Definition of mode: The mode is the value that:",
+      "images": [],
+      "image": "",
+      "options": [
+        "Is the middle value of a set of data that has been put into rank order.",
+        "Occurs most often in a set of data",
+        "Is the value that is closest to all the other values in a distribution",
+        "Is the half-way point or the midpoint of a set of observations",
+        "Is the beginning value of a set of data that has been put into rank order."
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 10,
+      "question": "Add all of the observed values in the distribution and divide the sum by the number of observations is the formula for calculate the:",
+      "images": [],
+      "image": "",
+      "options": [
+        "Mode",
+        "Median",
+        "Mean",
+        "Mid range",
+        "Ratio"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 11,
+      "question": "Definition of median, Median is:",
+      "images": [],
+      "image": "",
+      "options": [
+        "The middle value of a set of data that has been put into rank order",
+        "Occurs most often in a set of data",
+        "Is the value that is closest to all the other values in a distribution",
+        "Is the half-way point or the midpoint of a set of observations",
+        "Is the beginning value of a set of data that has been put into rank order."
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 12,
+      "question": "Definition of mean. Mean is:",
+      "images": [],
+      "image": "",
+      "options": [
+        "The middle value of a set of data that has been put into rank order",
+        "Occurs most often in a set of data",
+        "Is the value that is closest to all the other values in a distribution",
+        "Is the half-way point or the midpoint of a set of observations",
+        "Is the beginning value of a set of data that has been put into rank order."
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 13,
+      "question": "Definition of mid range, mid range is:",
+      "images": [],
+      "image": "",
+      "options": [
+        "The middle value of a set of data that has been put into rank order",
+        "Occurs most often in a set of data",
+        "Is the value that is closest to all the other values in a distribution",
+        "Is the half-way point or the midpoint of a set of observations",
+        "Is the beginning value of a set of data that has been put into rank order."
+      ],
+      "correctIndex": 3
+    },
+    {
+      "id": 14,
+      "question": "Step 1. Identify the smallest (minimum) observation and the largest (maximum) observation.\nStep 2. Add the minimum plus the maximum, then divide by two: is the formula for calculate the:",
+      "images": [],
+      "image": "",
+      "options": [
+        "Mode",
+        "Median",
+        "Mean",
+        "Mid range",
+        "Ratio"
+      ],
+      "correctIndex": 3
+    },
+    {
+      "id": 15,
+      "question": "Properties and uses of the mode. The mode is / has:",
+      "images": [],
+      "image": "",
+      "options": [
+        "The easiest measure of central location to understand and explain",
+        "A good descriptive measure, particularly for data that are skewed, because it is the central point of the distribution.",
+        "Excellent statistical properties and is commonly used in additional statistical manipulations and analyses.",
+        "The difficult measure of central location to understand and explain.",
+        "A good descriptive measure, particularly for data analysis."
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 16,
+      "question": "Properties and uses of the median. The median is / has:",
+      "images": [],
+      "image": "",
+      "options": [
+        "The easiest measure of central location to understand and explain",
+        "A good descriptive measure, particularly for data that are skewed, because it is the central point of the distribution.",
+        "Excellent statistical properties and is commonly used in additional statistical manipulations and analyses.",
+        "The difficult measure of central location to understand and explain.",
+        "A good descriptive measure, particularly for data analysis."
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 17,
+      "question": "Properties and uses of the mean. The mean is/ has:",
+      "images": [],
+      "image": "",
+      "options": [
+        "the easiest measure of central location to understand and explain",
+        "a good descriptive measure, particularly for data that are skewed, because it is the central point of the distribution.",
+        "excellent statistical properties and is commonly used in additional statistical manipulations and analyses.",
+        "the difficult measure of central location to understand and explain.",
+        "a good descriptive measure, particularly for data analysis."
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 18,
+      "question": "Variation in clinical measurement including:",
+      "images": [],
+      "image": "",
+      "options": [
+        "Inaccuracy",
+        "Imprecision",
+        "Efficiency",
+        "Reliable",
+        "Bias"
+      ],
+      "correctIndex": 4
+    },
+    {
+      "id": 19,
+      "question": "Bias: The true biologic variation in clinical measurement is:",
+      "images": [],
+      "image": "",
+      "options": [
+        "The sum many unknown factors,",
+        "Each of which contributes a small random effect.",
+        "The sum many unknown factors, each of which contributes a small random effect.",
+        "Random effects based on the lows of probability are as likely to be negative.",
+        "Measurement to exceed the true value as they are to be positive."
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 20,
+      "question": "Bias due to sampling error is:",
+      "images": [],
+      "image": "",
+      "options": [
+        "A faulty measuring instrument.",
+        "A faulty measuring methods",
+        "A faulty measuring by lecturer.",
+        "Incomplete information obtained from a sample",
+        "Complete information obtained from a sample"
+      ],
+      "correctIndex": 3
+    },
+    {
+      "id": 21,
+      "question": "Evaluating accuracy: The accuracy of a set of clinical measurements is determined by comparing the true underlying value of the variable with the:",
+      "images": [],
+      "image": "",
+      "options": [
+        "Mode",
+        "Average.",
+        "Median",
+        "Mid range",
+        "Mid point"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 22,
+      "question": "The normal distribution has extremely:",
+      "images": [],
+      "image": "",
+      "options": [
+        "Fall approximately 96%",
+        "3 standards deviations of the mean.",
+        "Useful characteristics.",
+        "About one-thirds of the values under a normal distribution curve",
+        "A large number of statistical tests and calculations can't be used if the observations follow a normal distribution."
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 23,
+      "question": "Ratio expresses the relationship between:",
+      "images": [],
+      "image": "",
+      "options": [
+        "1 items",
+        "2 items",
+        "3 items",
+        "4 items",
+        "5 items"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 24,
+      "question": "Proportion is the expression:",
+      "images": [],
+      "image": "",
+      "options": [
+        "The bases always equal 1000",
+        "The relationship of one part to the whole",
+        "Proportion is expressed as per thousand",
+        "The per thousand of the total number of events in a data set which occurred in each of the category (or subgroups) of that set.",
+        "The numerator is always not include the denominator"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 25,
+      "question": "The estimated mid interval population is determined by:",
+      "images": [],
+      "image": "",
+      "options": [
+        "The population at the beginning of the time interval.",
+        "The population at the end of the time interval.",
+        "Adding the population at the beginning of the time interval to the population at the end of the time and dividing by 2.",
+        "The population at the beginning of the time interval + live birth.",
+        "The population at the beginning of the time interval + live birth - number of death cases."
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 26,
+      "question": "This Calculation indicate:\nNo of births reported during a given time period interval × 100 / Estimated mid interval population",
+      "images": [],
+      "image": "",
+      "options": [
+        "Fertility rate",
+        "Mortality rate",
+        "Incidence rate",
+        "Prevalent rate",
+        "Crude birth rate"
+      ],
+      "correctIndex": 4
+    },
+    {
+      "id": 27,
+      "question": "Incidence of disease refers to the number that develop in a population at risk for the disease over a specified period time of:",
+      "images": [],
+      "image": "",
+      "options": [
+        "Old cases",
+        "New cases.",
+        "New + Old cases",
+        "Death cases",
+        "Number of live birth"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 28,
+      "question": "Prevalence of disease refers to the number that develop in a population at risk for the disease over a specified period time of:",
+      "images": [],
+      "image": "",
+      "options": [
+        "Old cases",
+        "New cases.",
+        "New + Old cases",
+        "Death cases",
+        "Number of live birth"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 29,
+      "question": "In epidemiological practice, incidence rate are:",
+      "images": [],
+      "image": "",
+      "options": [
+        "The less commonly used way of measuring the extent or frequency with which infectious disease is experienced by population groups.",
+        "The most commonly used way of measuring the extent or frequency with which infectious disease is experienced by population groups.",
+        "Useful in estimating the need for facilities and personnel.",
+        "Also a measure of the burden of a particular disease to the health care system.",
+        "Not provided information on the effectiveness of disease prevention or control programmes."
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 30,
+      "question": "This formula refers to:\n# current cases (old and new) in a specified disease during a specified time period / Estimated mid interval population at risk X100",
+      "images": [],
+      "image": "",
+      "options": [
+        "Prevalent rate",
+        "Incidence rate",
+        "Crude death rate",
+        "Infant mortality rate",
+        "Maternal mortality rate"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 31,
+      "question": "Point prevalent of the disease refers to:",
+      "images": [],
+      "image": "",
+      "options": [
+        "Old cases",
+        "New cases",
+        "A given time interval",
+        "A specific point in time",
+        "Number of Child birth."
+      ],
+      "correctIndex": 3
+    },
+    {
+      "id": 32,
+      "question": "Period prevalent Refers to:",
+      "images": [],
+      "image": "",
+      "options": [
+        "Old cases",
+        "New cases",
+        "A given time interval",
+        "A specific point in time",
+        "Number of Child birth."
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 33,
+      "question": "An attack rate is:",
+      "images": [],
+      "image": "",
+      "options": [
+        "Incidence rate in the full year.",
+        "Prevalent rate in the full year.",
+        "Point prevalent rate",
+        "Mortality rate",
+        "Incidence rate, expressed as a percentage and applied to narrowed defined population observed for limited period of time, as an epidemic"
+      ],
+      "correctIndex": 4
+    },
+    {
+      "id": 34,
+      "question": "In an epidemic (or outbreak) of food poisoning, there were 10 cases of male and 40 cases of female among 120 female and 80 male exposed. Overall attack rate is:",
+      "images": [],
+      "image": "",
+      "options": [
+        "(10 X 100)/80",
+        "(40 X100)/120",
+        "(50X100)/200",
+        "(10 X 100)/200",
+        "(40 X100)/200"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 35,
+      "question": "In an epidemic (or outbreak) of food poisoning, there were 10 cases of male and 40 cases of female among 120 female and 80 male exposed. Female attack rate is:",
+      "images": [],
+      "image": "",
+      "options": [
+        "(10 X 100)/80",
+        "(40 X100)/120",
+        "(50X100)/200",
+        "(10 X 100)/200",
+        "(40 X100)/200"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 36,
+      "question": "In an epidemic (or outbreak) of food poisoning, there were 10 cases of male and 40 cases of female among 120 female and 80 male exposed. Male attack rate is:",
+      "images": [],
+      "image": "",
+      "options": [
+        "(10 X 100)/80",
+        "(40 X100)/120",
+        "(50X100)/200",
+        "(10 X 100)/200",
+        "(40 X100)/200"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 37,
+      "question": "The prevalence of a disease depends on:",
+      "images": [],
+      "image": "",
+      "options": [
+        "Incidence rate and its duration",
+        "Natality rate",
+        "Mortality rate",
+        "Effectiveness of treatment",
+        "Prevention of the diseases"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 38,
+      "question": "A decrease in prevalence may be due to:",
+      "images": [],
+      "image": "",
+      "options": [
+        "A high incidence",
+        "Decrease in virulence not leading to more rapid death.",
+        "Fail treatment of an illness",
+        "A short duration of disease",
+        "Not effective prevention program"
+      ],
+      "correctIndex": 3
+    },
+    {
+      "id": 39,
+      "question": "A high prevalence may be due to:",
+      "images": [],
+      "image": "",
+      "options": [
+        "An effective prevention program",
+        "High incidence, a protracted duration or both.",
+        "Enhanced resistance to the disease",
+        "A decrease in incidence",
+        "A short duration of disease due to either improved treatment methods"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 40,
+      "question": "A high prevalence may indicate a:",
+      "images": [],
+      "image": "",
+      "options": [
+        "Chronic condition",
+        "High risk",
+        "Acute condition",
+        "No risk",
+        "Chronic condition rather than a high risk."
+      ],
+      "correctIndex": 4
+    },
+    {
+      "id": 41,
+      "question": "Prevalence is useful in:",
+      "images": [],
+      "image": "",
+      "options": [
+        "Provides information on the effectiveness of disease prevention",
+        "Provides information on the effectiveness of disease control program",
+        "Not useful to measure of the burden of a particular disease to the health care system.",
+        "The need for facilities and personnel.",
+        "In studying the association between a disease and suspected risk factors."
+      ],
+      "correctIndex": 3
+    },
+    {
+      "id": 42,
+      "question": "This formula for calculated:\nTotal # deaths due to all causes in a defined area during a defined period X 1000 / Mean population at risk in the same area during the same period",
+      "images": [],
+      "image": "",
+      "options": [
+        "Crude death rate (CDR)",
+        "Age- and Sex specific death rate",
+        "Perinatal mortality rate",
+        "Neonatal mortality rate",
+        "Post- neonatal mortality rate"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 43,
+      "question": "This formula for calculated:\n# deaths of infant < 28 days of age in area during a given period × 100 / # Live births in the area during the same period",
+      "images": [],
+      "image": "",
+      "options": [
+        "Perinatal mortality rate",
+        "Neonatal mortality rate",
+        "Post- neonatal mortality rate",
+        "Infant mortality rate",
+        "Maternal mortality rate (MMR)"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 44,
+      "question": "Definition of midrange. The midrange is the:",
+      "images": [],
+      "image": "",
+      "options": [
+        "Beginning of observations",
+        "End of observations",
+        "Half-way point or the midpoint of a set of observations.",
+        "Middle value of a set of data that has been put into rank order.",
+        "Value that occurs most often in a set of data"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 45,
+      "question": "All of them are the true answers only one is the false answer. Find the false answer: Crude death rate (CDR) is used:",
+      "images": [],
+      "image": "",
+      "options": [
+        "To measure the average rage risk of death in the population at large.",
+        "Can only be used to compare relative mortality in 2 populations if they have similar Age/ Sex composition.",
+        "Is often used for comparing relative mortality in a given area between 2 period that are not too far apart.",
+        "Measure the rate at which deaths are taking place from all causes in a given population during a specified period.",
+        "To measure risk of death among person in a specific age and sex group."
+      ],
+      "correctIndex": 4
+    },
+    {
+      "id": 46,
+      "question": "Age- and sex specific death rate is used to measure the:",
+      "images": [],
+      "image": "",
+      "options": [
+        "Average risk of death in the population at large.",
+        "Risk of death among person in a specific age and sex group.",
+        "Risk of fetal death occurring after 28 completed weeks of gestation.",
+        "Risk of dying within 28 days of birth.",
+        "Risk of dying during infancy after the first-4 weeks of life."
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 47,
+      "question": "Stillbirth rate (Late fetal death rate) is used to measure the:",
+      "images": [],
+      "image": "",
+      "options": [
+        "Average risk of death in the population at large.",
+        "Risk of death among person in a specific age and sex group.",
+        "Risk of fetal death occurring after 28 completed weeks of gestation.",
+        "Risk of dying within 28 days of birth.",
+        "Risk of dying during infancy after the first-4 weeks of life. (Post Neo)"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 48,
+      "question": "Neonatal mortality rate is used to measure the:",
+      "images": [],
+      "image": "",
+      "options": [
+        "Average risk of death in the population at large.",
+        "Risk of death among person in a specific age and sex group.",
+        "Risk of fetal death occurring after 28 completed weeks of gestation.",
+        "Risk of dying within 28 days of birth.",
+        "Risk of dying during infancy after the first-4 weeks of life."
+      ],
+      "correctIndex": 3
+    },
+    {
+      "id": 49,
+      "question": "Post- Neonatal mortality rate is used to measure the:",
+      "images": [],
+      "image": "",
+      "options": [
+        "Average risk of death in the population at large.",
+        "Risk of death among person in a specific age and sex group.",
+        "Risk of fetal death occurring after 28 completed weeks of gestation.",
+        "Risk of dying within 28 days of birth.",
+        "Risk of dying during infancy after the first-4 weeks of life."
+      ],
+      "correctIndex": 4
+    },
+    {
+      "id": 50,
+      "question": "Infant mortality rate is used to measure the:",
+      "images": [],
+      "image": "",
+      "options": [
+        "Risk of dying during infancy (e.g. the first year of life).",
+        "Risk of death among person in a specific age and sex group.",
+        "Risk of fetal death occurring after 28 completed weeks of gestation.",
+        "Risk of dying within 28 days of birth.",
+        "Risk of dying during infancy after the first-4 weeks of life."
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 51,
+      "question": "To measure the average risk of death in the population at large, by calculation of:",
+      "images": [],
+      "image": "",
+      "options": [
+        "Crude death rate (CDR)",
+        "Age- and sex specific death rate",
+        "Stillbirth rate (Late fetal death rate)",
+        "Perinatal mortality rate",
+        "Neonatal mortality rate"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 52,
+      "question": "To measure risk of death among person in a specific age and sex group. by calculation of:",
+      "images": [],
+      "image": "",
+      "options": [
+        "Crude death rate (CDR)",
+        "Age- and sex specific death rate.",
+        "Stillbirth rate (Late fetal death rate)",
+        "Perinatal mortality rate",
+        "Neonatal mortality rate"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 53,
+      "question": "To measure the risk of fetal death occurring after 28 completed weeks of gestation: by calculation of:",
+      "images": [],
+      "image": "",
+      "options": [
+        "Crude death rate (CDR)",
+        "Age- and sex specific death rate.",
+        "Stillbirth rate (Late fetal death rate).",
+        "Perinatal mortality rate",
+        "Neonatal mortality rate"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 54,
+      "question": "To measure the risk of death occurring either during pregnancy after completed 28 weeks of gestation or within 1 week after delivery, by calculation of:",
+      "images": [],
+      "image": "",
+      "options": [
+        "Crude death rate (CDR)",
+        "Age- and sex specific death rate.",
+        "Stillbirth rate (Late fetal death rate).",
+        "Perinatal mortality rate.",
+        "Neonatal mortality rate"
+      ],
+      "correctIndex": 3
+    },
+    {
+      "id": 55,
+      "question": "To measure the risk of dying within 28 days of birth, by calculation of:",
+      "images": [],
+      "image": "",
+      "options": [
+        "Crude death rate (CDR)",
+        "Age- and sex specific death rate.",
+        "Stillbirth rate (Late fetal death rate).",
+        "Perinatal mortality rate.",
+        "Neonatal mortality rate."
+      ],
+      "correctIndex": 4
+    },
+    {
+      "id": 56,
+      "question": "To measure the risk of dying during infancy after the first-4 weeks of life, by calculation of:",
+      "images": [],
+      "image": "",
+      "options": [
+        "Post- neonatal mortality rate.",
+        "Infant mortality rate",
+        "Maternal mortality rate (MMR)",
+        "Causes- specific death rate (CSDR)",
+        "Case fatality rate (CFR)"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 57,
+      "question": "To measure the risk of dying during infancy (e.g. the first year of life), by calculation of:",
+      "images": [],
+      "image": "",
+      "options": [
+        "Post- neonatal mortality rate.",
+        "Infant mortality rate.",
+        "Maternal mortality rate (MMR)",
+        "Causes- specific death rate (CSDR)",
+        "Case fatality rate (CFR)"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 58,
+      "question": "To measure the risk of women dying from maternal causes, by calculation of:",
+      "images": [],
+      "image": "",
+      "options": [
+        "Post- neonatal mortality rate.",
+        "Infant mortality rate.",
+        "Maternal mortality rate (MMR)",
+        "Causes- specific death rate (CSDR)",
+        "Case fatality rate (CFR)"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 59,
+      "question": "To measure how fatal a disease / condition is. It predicts the risk of dying if the disease is contracted, by calculation of:",
+      "images": [],
+      "image": "",
+      "options": [
+        "Post- neonatal mortality rate.",
+        "Infant mortality rate.",
+        "Maternal mortality rate (MMR)",
+        "Causes- specific death rate (CSDR)",
+        "Case fatality rate (CFR)."
+      ],
+      "correctIndex": 4
+    },
+    {
+      "id": 60,
+      "question": "The mean population in Rattanakiri province is 30000 populations (P) in year 2005. All cases of mortality is 200 cases. # Live births under 1 year = 1500 live births. Infant death under 1 year has 90 cases. # Live births of infant < 28 days of age = 200 Live births. Neonatal mortality = 45 cases and Maternal mortality = 50 deaths. Crude death rate is:",
+      "images": [],
+      "image": "",
+      "options": [
+        "200 cases/30000 populations X1000",
+        "90 cases/1500 live births X1000",
+        "45 cases/200 Live births X1000",
+        "50 deaths/1500 live births X1000",
+        "1500 live births X1000/30000"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 61,
+      "question": "The mean population in Rattanakiri province is 30000 populations (P) in year 2005. All cases of mortality is 200 cases. # Live births = 1500 live births. Infant death under 1 year have 90 cases. # Live births of infant < 28 days of age = 200 Live births. Neonatal mortality = 45 cases and Maternal mortality = 50 deaths. Infant mortality rate is:",
+      "images": [],
+      "image": "",
+      "options": [
+        "200 cases/30000 populations X1000",
+        "90 cases/1500 live births X1000",
+        "45 cases/200 Live births X1000",
+        "50 deaths/1500 live births X1000",
+        "1500 live births X1000/3000062"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 62,
+      "question": "The mean population in Rattanakiri province is 30000 populations (P) in year 2005. All cases of mortality are 200 cases. # Live births = 1500 live births. Infant death under 1 year has 90 cases. # Live births of infant < 28 days of age = 200 Live births. Neonatal mortality = 45 cases and Maternal mortality = 50 deaths. Neonatal mortality rate is:",
+      "images": [],
+      "image": "",
+      "options": [
+        "200 cases/30000 populations X1000",
+        "90 cases/1500 live births X1000",
+        "45 cases/200 Live births X1000",
+        "50 deaths/1500 live births X1000",
+        "1500 live births X1000/3000062"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 63,
+      "question": "The mean population in Rattanakiri province is 30000 populations (P) in year 2005. All cases of mortality is 200 cases. # Live births = 1500 live births. Infant death under 1 year have 90 cases. # Live births of infant < 28 days of age = 200 Live births. Neonatal mortality = 45 cases and Maternal mortality = 50 deaths. Maternal mortality rate is:",
+      "images": [],
+      "image": "",
+      "options": [
+        "200 cases/30000 populations X1000",
+        "90 cases/1500 live births X1000",
+        "45 cases/200 Live births X1000",
+        "50 deaths/1500 live births X1000",
+        "1500 live births X1000/3000062"
+      ],
+      "correctIndex": 3
+    },
+    {
+      "id": 64,
+      "question": "All of them are the true answers only one is the false answer. Find the false answer: Defining disease occurrences: the method used to define cases affects the accuracy of frequency measures is:",
+      "images": [],
+      "image": "",
+      "options": [
+        "Identifying cases by reviewing health records",
+        "Identifying cases by clinical evaluation",
+        "Identifying cases from personal interviews",
+        "Identifying cases by reviewing health records from public and private sector.",
+        "Counting recurrences"
+      ],
+      "correctIndex": 4
+    },
+    {
+      "id": 65,
+      "question": "There is the distance in kilometer from the house of patients to Health center: 4, 7, 3, 5, 3 and 8. If we confuse 8 to 80, what is the happened show that?",
+      "images": [],
+      "image": "",
+      "options": [
+        "Increasing the median",
+        "Increasing the mode.",
+        "Increasing mean.",
+        "Increasing median and mean",
+        "Increasing median mode and mean"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 66,
+      "question": "The population beginning of the year 2000 in Rattanakiri province has 60000 populations (P) and the end of the same year and same place have 70000 populations. All cases of mortality are 200 cases. # Live births = 12000 live births. The mean population in Rattanakiri in year 2000 has:",
+      "images": [],
+      "image": "",
+      "options": [
+        "60000P",
+        "70000P",
+        "(60000P+70000P)/2",
+        "60000P-200 deaths",
+        "60000P+12000 Live births"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 67,
+      "question": "The numerator of calculation Crude death rate (CDR) is:",
+      "images": [],
+      "image": "",
+      "options": [
+        "Total # deaths due to all causes in a defined area during a defined period.",
+        "Total # deaths occurring in a specific age and sex group of the population of a defined area during a defined period.",
+        "# Perinatal deaths occurring in a specified area and period of time",
+        "#deaths of infant < 28 days of age in an area during a given period",
+        "#deaths among infants aged 4 weeks- 1 year occurring in an area during a given period."
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 68,
+      "question": "The numerator of calculation age- and sex specific death rate is:",
+      "images": [],
+      "image": "",
+      "options": [
+        "Total # deaths due to all causes in a defined area during a defined period.",
+        "Total # deaths occurring in a specific age and sex group of the population of a defined area during a defined period.",
+        "#Perinatal deaths occurring in a specified area and period of time",
+        "#deaths of infant < 28 days of age in an area during a given period",
+        "#deaths among infants aged 4 weeks- 1 year occurring in an area during a given period."
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 69,
+      "question": "The numerator of calculation perinatal mortality rate is:",
+      "images": [],
+      "image": "",
+      "options": [
+        "Total # deaths due to all causes in a defined area during a defined period.",
+        "Total # deaths occurring in a specific age and sex group of the population of a defined area during a defined period.",
+        "#perinatal deaths occurring in a specified area and period of time.",
+        "#deaths of infant < 28 days of age in an area during a given period",
+        "#deaths among infants aged 4 weeks- 1 year occurring in an area during a given period."
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 70,
+      "question": "The numerator of calculation neonatal mortality rate is:",
+      "images": [],
+      "image": "",
+      "options": [
+        "Total # deaths due to all causes in a defined area during a defined period.",
+        "Total # deaths occurring in a specific age and sex group of the population of a defined area during a defined period.",
+        "# perinatal deaths occurring in a specified area and period of time.",
+        "#deaths of infant < 28 days of age in an area during a given period.",
+        "#deaths among infants aged 4 weeks- 1 year occurring in an area during a given period."
+      ],
+      "correctIndex": 3
+    },
+    {
+      "id": 71,
+      "question": "The numerator of calculation post- neonatal mortality rate is:",
+      "images": [],
+      "image": "",
+      "options": [
+        "Total # deaths due to all causes in a defined area during a defined period.",
+        "Total # deaths occurring in a specific age and sex group of the population of a defined area during a defined period.",
+        "# Perinatal deaths occurring in a specified area and period of time.",
+        "#deaths of infant < 28 days of age in an area during a given period.",
+        "#deaths among infants aged 4 weeks- 1 year occurring in an area during a given period."
+      ],
+      "correctIndex": 4
+    },
+    {
+      "id": 72,
+      "question": "The numerator of calculation infant mortality rate is:",
+      "images": [],
+      "image": "",
+      "options": [
+        "#deaths of infant < 1 year of age occurring in a specified area and period.",
+        "Total # Female deaths due to complication of pregnancy childbirth and the puerperium in an area during a given time",
+        "#deaths assigned to a specified cause during a given time interval.",
+        "Total # of deaths due to a given disease / condition occurring in an area during a given period",
+        "#deaths among infants aged 4 weeks- 1 year occurring in an area during a given period."
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 73,
+      "question": "The numerator of calculation maternal mortality rate (MMR) is:",
+      "images": [],
+      "image": "",
+      "options": [
+        "#deaths of infant < 1 year of age occurring in a specified area and period.",
+        "Total # Female deaths due to complication of pregnancy childbirth and the puerperium in an area during a given time.",
+        "#deaths assigned to a specified cause during a given time interval.",
+        "Total # of deaths due to a given disease / condition occurring in an area during a given period",
+        "#deaths among infants aged 4 weeks- 1 year occurring in an area during a given period."
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 74,
+      "question": "The numerator of calculation case fatality rate (CFR) is:",
+      "images": [],
+      "image": "",
+      "options": [
+        "#deaths of infant < 1 year of age occurring in a specified area and period.",
+        "Total # Female deaths due to complication of pregnancy childbirth and the puerperium in an area during a given time.",
+        "#deaths assigned to a specified cause during a given time interval.",
+        "Total # of deaths due to a given disease / condition occurring in an area during a given period.",
+        "#deaths among infants aged 4 weeks- 1 year occurring in an area during a given period."
+      ],
+      "correctIndex": 3
+    },
+    {
+      "id": 75,
+      "question": "The use of a diagnostic test with a high false positive rate (poor specificity) will:",
+      "images": [],
+      "image": "",
+      "options": [
+        "Overestimate incidence",
+        "Overestimate prevalence",
+        "Overestimate incidence and prevalence.",
+        "Underestimate incidence and prevalence.",
+        "Underestimate only prevalence."
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 76,
+      "question": "The inclusion of only \"classic\" cases of the disease, as defined by strict diagnostic criteria, will:",
+      "images": [],
+      "image": "",
+      "options": [
+        "Overestimate incidence",
+        "Overestimate prevalence",
+        "Overestimate incidence and prevalence.",
+        "Underestimate incidence and prevalence.",
+        "Underestimate only prevalence."
+      ],
+      "correctIndex": 3
+    },
+    {
+      "id": 77,
+      "question": "The inclusion of \"probable\" case, according to more lenient diagnostic criteria, may:",
+      "images": [],
+      "image": "",
+      "options": [
+        "Overestimate incidence disease.",
+        "Overestimate disease frequency.",
+        "Underestimate disease frequency",
+        "Underestimate prevalence disease",
+        "Underestimate only prevalence disease."
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 78,
+      "question": "Identifying cases from personal interviews. Information on disease occurrence obtained by personal interview or from questionnaires may be altered by:",
+      "images": [],
+      "image": "",
+      "options": [
+        "Analysis",
+        "Computed.",
+        "Record.",
+        "Evaluation",
+        "Biased recall."
+      ],
+      "correctIndex": 4
+    },
+    {
+      "id": 79,
+      "question": "The time of onset is clearly defined in some diseases, for example:",
+      "images": [],
+      "image": "",
+      "options": [
+        "Depression",
+        "Cancer",
+        "Appendicitis.",
+        "Alcoholism",
+        "Heart disease."
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 80,
+      "question": "Prevalence is useful:",
+      "images": [],
+      "image": "",
+      "options": [
+        "Information about the risk",
+        "In estimating the need for facilities and personnel.",
+        "Provides information on the effectiveness of disease prevention",
+        "Provides information on the effectiveness of control programs.",
+        "An estimate of disease incidence."
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 81,
+      "question": "Exclusion of risk-free individuals. The calculation of the prevalence or incidence of a disease should exclude from the denominator members of the population who are:",
+      "images": [],
+      "image": "",
+      "options": [
+        "Susceptible to the disease.",
+        "Not susceptible to the disease.",
+        "Who haven't been immunized",
+        "Endometrial carcinoma that have not undergone hysterectomy",
+        "Measles or chicken pox that has previously not had the disease."
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 82,
+      "question": "តារាងដែលមាន Variable មួយ គឺមានៈ",
+      "images": [],
+      "image": "",
+      "options": [
+        "មួយជួរ",
+        "ពីរជួរ",
+        "៣ជួរ",
+        "បួនជួរ",
+        "ផ្សេងពីនេះ"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 83,
+      "question": "លក្ខណៈរួម របស់ក្រាហ្វិកដែលមាន កូអរដោនេ បួនជ្រុងទ្រវែងគឺៈ",
+      "images": [],
+      "image": "",
+      "options": [
+        "អថេរ (Variable) ដែលតាងលើអក្សីផ្ដេក (axe X)ជា អថេរ (Variable) មិនឯករាជ្យ",
+        "អថេរ (Variable) ដែលតាងលើអក្សីបញ្ឈរ (axe Y) ជា Variable រណបទៅនឹង Variable លើ X, ជាអាទិ ចំនួនករកើតឡើងនៃ ឧប្បត្តិហេតុណាមួយ",
+        "ជាក្រាហ្វិកមានអក្សី២ ជួបគ្នាជាមុំស្រួច ហើយអ នីមួយៗ មានមាត្រាដ្ឋានរង្វាស់ និង ឈ្មោះ សំគាល់ដោយឡែករបស់វា",
+        "ជាវិធីបង្ហាញពត៌មានជាតួលេខ ដោយប្រើប្រពន្ធ័ ទិន្នន័យ"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 84,
+      "question": "ចំណុចដែលគួរឱ្យចងចាំក្នុងក្រាហ្វិកនោះក៏",
+      "images": [],
+      "image": "",
+      "options": [
+        "ខ្សែគំនូសក្រាហ្វិក ត្រូវឱ្យដិតជាងខ្សែបន្ទាត់អក្សី កូអរដោនេ",
+        "បើគេចង់បង្ហាញ Variable ចាប់ពីពីរឡើងទៅក្នុងក្រាហ្វិកមួយ, Variable នីមួយៗ ត្រូវតែ គូសវាសយ៉ាងណាឱ្យ ឃើញដូចគ្នា",
+        "ក្រាហ្វិកនីមួយៗ ត្រូវមានពត៌មានគ្រប់គ្រាន់ ដើម្បីឱ្យអាចយល់បានដោយខ្លួនឯង",
+        "ក្រិតមាត្រដ្ឋាន ក្នុងអក្សីទាំងពីរត្រូវតែដូចគ្នា"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 85,
+      "question": "នៅកម្ពុជា អត្រាមរណៈភាពរបស់មាតាមាន ៦០ ភាគ ១០០០កើតរស់ មានន័យថាៈ",
+      "images": [],
+      "image": "",
+      "options": [
+        "ក្នុងចំណោមទារក ១០០០កើតរស់ មានស្ត្រី ៦០ នាក់ ស្លាប់ក្នុងឆ្នាំ ដោយសារមានបញ្ហាឆ្លងទន្លេ",
+        "ក្នុងចំណោមទារក ១០០០កើតរស់ មានស្រី ៦០ នាក់ស ក្នុងឆ្នាំ ក្នុងពេលមានក៍ក និង ជុំវិញការឆ្លងទន្លេ",
+        "ក្នុងចំណោមស្ត្រី ១០០០ នាក់មានស្រី ៦០ នាក់ស្លាប់ក្នុងឆ្នាំ ដោយសារមានបញ្ហាឆ្លងទន្លេ",
+        "ក្នុងចំណោមស្រី  ១០០០ នាក់ មានស្រី ៦០នាក់ស្លាប់ក្នុងឆ្នាំ ក្នុងពេលមានក៍ក និង ជុំវិញការឆ្លងទន្លេ",
+        "ផ្សេងពីនេះ"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 86,
+      "question": "នៅកម្ពុជា Taux de mortalité infantile, Infant Mortality Rate មាន ៥០ ភាគ ១០០០កើតរស់ ក្នុងឆ្នាំ ២០០០។ មានន័យថា ក្នុងកំឡុងឆ្នាំ២០០០ ៖",
+      "images": [],
+      "image": "",
+      "options": [
+        "ក្នុងចំណោមទារក ១០០០ កើតរស់ មានទារកស្លាប់៥០ នាក់",
+        "ក្នុងចំណោមទារក ១០០០ កើតរស់ មានទារកស្លាប់៥០ នាក់ អាយុក្រោម ២៨ថ្ងៃ",
+        "ក្នុងចំណោមទារក ១០០០០ កើតរស់ មានទារកស្លាប់៥០ នាក់អាយុ ក្រោម២៨ថ្ងៃ",
+        "ក្នុងចំណោមទារក ១០០០ កើតរស់ មានទារកស្លាប់៥០ នាក់ទាក់ទងការមានផ្ទៃពោះ និងឆ្លងទន្លេ",
+        "ផ្សេងពីនេះ"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 87,
+      "question": "នៅកម្ពុជា Taux de mortalité Néonatale, Neonatal Mortality Rateមាន ៣០ ភាគ ១០០០កើតរស់ក្នុងឆ្នាំ ២០០០។ មានន័យថា ក្នុងកំឡុងឆ្នាំ២០០០ ៖",
+      "images": [],
+      "image": "",
+      "options": [
+        "ក្នុងចំណោមទារក ១០០០ កើតរស់ មានទារកស្លាប់៣០ នាក់ទាក់ទងការមានផ្ទៃពោះ និងឆ្លងទនេ",
+        "ក្នុងចំណោមទារក ១០០០ កើតរស់ មានទារកស្លាប់៣០ នាក់",
+        "ក្នុងចំណោមទារក ១០០០ កើតរស់ មានទារកស្លាប់៣០ នាក់ អាយុក្រោម ២៨ថ្ងៃ",
+        "ក្នុងចំណោមទារក ១០០០ កើតរស់ មានទារកស្លាប់៣០ នាក់ អាយុក្រោម ១ឆ្នាំ",
+        "ផ្សេងពីនេះ"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 88,
+      "question": "នៅកម្ពុជាអត្រាមរណៈភាពនៃមាតា Taux de mortalité Maternelle, Maternal Mortality Rateមាន ៤០ ភាគ ១០០០ កើតរស់ក្នុងឆ្នាំ ២០០០។ មានន័យថា ក្នុងកំឡុងឆ្នាំ២០០០ ៖",
+      "images": [],
+      "image": "",
+      "options": [
+        "ក្នុងចំណោមទារក ១០០០ កើតរស់ មានមាតាស្លាប់៤០ នាក់ទាក់ទងការមានផ្ទៃពោះ និងឆ្លងទន្លេ",
+        "ក្នុងចំណោមទារក ១០០០ កើតរស់ មានទារកស្លាប់៤០ នាក់ អាយុក្រោម ១ឆ្នាំ",
+        "ក្នុងចំណោមទារក ១០០០ កើតរស់ មានទារកស្លាប់៤០ នាក់ អាយុក្រោម ២៨ថ្ងៃ",
+        "មាតាស្លាប់សរុបចំនួន៤០នាក់ ក្នុងចំណោមប្រជាជនមធ្យម១០០០នាក់",
+        "ផ្សេងពីនេះ"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 89,
+      "question": "នៅកម្ពុជា Taux de mortalité Périnatal, Perinatal Mortality Rateមាន ៦០ ភាគ ១០០០កើតរស់ក្នុងឆ្នាំ ២០០០។ មានន័យថា ក្នុងកំឡុងឆ្នាំ២០០០ ៖",
+      "images": [],
+      "image": "",
+      "options": [
+        "ក្នុងចំណោមទារក ១០០០ កើតរស់ មានមាកាស្លជា៦០ នាក់ទាក់ទងការមានផ្ទៃពោះ និងឆ្លងទន្លេ",
+        "ក្នុងចំណោមទារក ១០០០ កើតរស់ មានទារកស្លាប៦០០ នាក់ អាយុក្រោម ២៨ថ្ងៃ",
+        "ក្នុងចំណោមទារក ១០០០ កើតរស់ មានទារកស្លាប់៦០ នាក់ អាយុក្រោម ៧ថ្ងៃ",
+        "ក្នុងចំណោមទារក ១០០០ កើតរស់ មានទារកស្លាប់៤០ នាក់ អាយុក្រោម ១ឆ្នាំ",
+        "ផ្សេងពីនេះ"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 90,
+      "question": "ក្នុងចំណោមទារក ១០០០ កើតរស់ មានទារកស្លាប់៦០ នាក់ អាយុក្រោម ២៨ថ្ងៃ សុច្ចនាករនេះបញ្ជាក់ ការគណនា ៖",
+      "images": [],
+      "image": "",
+      "options": [
+        "Taux de mortalité Périnatal, Perinatal Mortality Rate",
+        "Taux de mortalité Maternelle, Maternal Mortality Rate",
+        "Taux de mortalité Néonatale, Neonatal Mortality Rate",
+        "Taux de mortalité infantile, Infant Mortality Rate",
+        "ផ្សេងពីនេះ"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 91,
+      "question": "ក្នុងចំណោមទារក ១០០០ កើតរស់ មានមាតាស្លជា៦០ នាក់ទាក់ទងការមានផ្ទៃពោះ និងឆ្លងទន្លេ សុច្ចនាករនេះបញ្ជាកការគណនោះ",
+      "images": [],
+      "image": "",
+      "options": [
+        "Taux de mortalité Périnatal, Perinatal Mortality Rate",
+        "Taux de mortalité Maternelle, Maternal Mortality Rate",
+        "Taux de mortalité Néonatale, Neonatal Mortality Rate",
+        "Taux de mortalité infantile, Infant Mortality Rate",
+        "Taux de mortalité Brut"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 92,
+      "question": "ក្នុងចំណោមទារក ១០០០ កើតរស់ មានទារកស្លាប់៤០ នាក់ អាយុក្រោម ១ឆ្នាំ សុច្ចនាករនេះ បញ្ជាក់ការគណនោះ",
+      "images": [],
+      "image": "",
+      "options": [
+        "Taux de mortalité Néonatale, Neonatal Mortality Rate",
+        "Taux de mortalité Maternelle, Maternal Mortality Rate",
+        "Taux de mortalité Brut",
+        "Taux de mortalité Périnatal, Perinatal Mortality Rate",
+        "Taux de mortalité infantile, Infant Mortality Rate"
+      ],
+      "correctIndex": 4
+    },
+    {
+      "id": 93,
+      "question": "តើអត្រាអ្វី ដែលគេគណនា ចំនួននៃទារកស្លាប់ អាយុក្រោម៧ថ្ងៃ?",
+      "images": [],
+      "image": "",
+      "options": [
+        "Taux de mortalité infantile / Infant Mortality Rate",
+        "Taux de mortalité Post Néonatal / Post Néonatal mortality Rate",
+        "Taux de mortalité Périnatal / Périnatal Mortality Rate",
+        "Taux de mortalité Néonatale// Néonatal Mortality Rate",
+        "Taux de mortalité Maternelle, Maternal Mortality Rate"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 94,
+      "question": "តើអត្រាអ្វី ដែលគេគណនា ចំនួននៃការកើតក្នុង១ឆ្នាំ សំរាប់ប្រជាជន ១០០នាក់?",
+      "images": [],
+      "image": "",
+      "options": [
+        "អត្រាកូនកើតស្លាប់",
+        "អត្រាកំណើនរបស់កុមារ",
+        "អត្រាកំណើត",
+        "អត្រា មរណៈភាព",
+        "ផ្សេងពីនេះ"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 95,
+      "question": "តើអត្រាអ្វី ដែលគេគណនា ចំនួននៃការស្លាប់សរុបក្នុង១ឆ្នាំ សំរាប់ប្រជាជនមធ្យម ១០០0នាក់?",
+      "images": [],
+      "image": "",
+      "options": [
+        "អត្រាមរណៈភាពនៃកុមារ",
+        "អត្រាមរណៈភាពនៃមាតា",
+        "សមាមាត្រស្លាប់នៃជំងឺ",
+        "អត្រា មរណៈភាព",
+        "ផ្សេងពីនេះ"
+      ],
+      "correctIndex": 3
+    },
+    {
+      "id": 96,
+      "question": "អាំងស៊ីដង់ ត្រូវបានគណនាដូចតទៅៈ",
+      "images": [],
+      "image": "",
+      "options": [
+        "ចំនួនករណីជំងឺកើតថ្មី ដែលកើតមានក្នុងកំឡុងពេលមួយ នៅលើប្រជាជនជាក់លាក់មួយ",
+        "ចំនួនករណីជំងឺកើតថ្មី + និងជំងឺចាស់ក្នុងកំឡុងពេលមួយ នៅលើប្រជាជនជាក់លាក់មួយ",
+        "ជាចំនួនករណីជំងឺ នៅចំណុចជាក់លាក់មួយ ក្នុងប្រជាជនកំណត់មួយ",
+        "ចំនួនករណីជ/ងកើតថ្មី X ១០០០ ចែកនឹងប្រ/ជមធ្យម",
+        "ចំនួនករណីជ/ងកើតថ្មី + ជ/ងចាស់ X ១០០០ ចែកនឹងប្រ/ជមធ្យម"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 97,
+      "question": "វាឡង់ ត្រូវបានគណនាដូចតទៅ",
+      "images": [],
+      "image": "",
+      "options": [
+        "ចំនួនករណីជំងឺកើតថ្មី ដែលកើតមានក្នុងកំឡុងពេលមួយ នៅលើប្រជាជនជាក់លាក់មួយ",
+        "ករណីជំងឺកើតថ្មី + និងជំងឺចាស់ក្នុងកំឡុងពេលមួយ នៅលើប្រជាជនជាក់លាក់មួយ",
+        "ជាចំនួនករណីជំងឺ នៅចំណុចជាក់លាក់មួយ ក្នុងប្រជាជនកំណត់មួយ",
+        "ចំនួនករណីជ/ងកើតថ្មី + ជ/ងចាស់ X ១០០០ ចែកនឹងប្រ/ជមធ្យម",
+        "ចំនួនករណីជ/ងកើតថ្មី X ១០០០ ចែកនឹងប្រ/ជមធ្យម"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 98,
+      "question": "អត្រាអាំងស៊ីដង់ (Incident Rate/ Taux d' incidence) ត្រូវបានគណនាដូចតទៅៈ",
+      "images": [],
+      "image": "",
+      "options": [
+        "ចំនួនប្រ/ជដែលមានជំងឺកើតថ្មីក្នុងកំឡុងពេលជាក់លាក់មួយ X 1000 ចែកនឹងប្រជាជនដើមឆ្នាំក្នុង ក្នុងកំឡុងពេលដូចគ្នា",
+        "ចំនួនប/ជ ដែលមានជំងឺកើតថ្មី + ជំងឺចាស់ ក្នុងកំឡុងពេលជាក់លាក់មួយ X 1000 ចែកប្រជាជន មធ្យមក្នុងកំឡុងពេលដូចគ្នា",
+        "ចំនួនប្រ/ជដែលមានជំងឺកើតថ្មីក្នុងកំឡុងពេលជាក់លាក់មួយ X 1000 ចែកនឹងប្រជាជនមានជ/ ងសរុបក្នុងកំឡុងពេលដូចគ្នា",
+        "ចំនួនប្រ/ជដែលមានជំងឺកើតថ្មីក្នុងកំឡុងពេលជាក់លាក់មួយ X 1000 ចែកនឹងបជាជនមធ្យមក្នុង កំឡុងពេលដូចគ្នា",
+        "ផ្សេងពីនេះ"
+      ],
+      "correctIndex": 3
+    },
+    {
+      "id": 99,
+      "question": "អត្រាប្រ ឡង់ (Prevalent Rate/ Taux de Prévalent) ត្រូវបានគណនាដូចតទៅ",
+      "images": [],
+      "image": "",
+      "options": [
+        "ចំនួនជនដែលមានជំងឺកើតថ្មី + ជំងឺចាស់ ក្នុងកំឡុងពេលជាក់លាក់មួយ X 1000 ចែកប្រ/ជដើមឆ្នាំ ក្នុងកំឡុងពេលដូចគ្នា",
+        "ចំនួនជនដែលមានជំងឺកើតថ្មី + ជំងឺចាស់ ក្នុងកំឡុងពេលជាក់លាក់មួយ X (10n) ចែកប្រ/ជ មធ្យមក្នុងកំឡុងពេលដូចគ្នា",
+        "ចំនួនជនដែលមានជំងឺកើតថ្មីក្នុងកំឡុងពេលជាក់លាក់មួយ X 1000 ចែកប្រ/ជ មធ្យមក្នុងកំឡុងពេលដូចគ្នា",
+        "ចំនួនជនដែលមានជំងឺកើតថ្មី + ជំងឺចាស់ ក្នុងកំឡុងពេលជាក់លាក់មួយ X 1000 ចែកប្រ/ជ ចុងឆ្នាំក្នុងកំឡុងពេលដូចគ្នា"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 100,
+      "question": "អាំងស៊ីដង់កើនឡើងក្នុងករណី",
+      "images": [],
+      "image": "",
+      "options": [
+        "ជំងឺកើតថ្មីភៀសខ្លួន ចូល",
+        "ករណីជំងឺកើតថ្មីកើនឡើង",
+        "រយៈពេលវែងនៃការរាប់ចំនួនអ្នកជំងឺ",
+        "ត្រឹមត្រូវទាំងអស់"
+      ],
+      "correctIndex": 3
+    },
+    {
+      "id": 101,
+      "question": "អាំងស៊ីដង់ថយចុះករណី",
+      "images": [],
+      "image": "",
+      "options": [
+        "ករណីជំងឺចាស់ថយចុះ",
+        "ជំងឺកើតថ្មីថយចុះ",
+        "រយៈពេលវែងនៃការរាប់ចំនួនអ្នកជំងឺ",
+        "ករណីជំងឺកើតថ្មីកើនឡើង",
+        "ផ្សេងពីនេះ"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 102,
+      "question": "សមាមាត្រស្លាប់នៃអ្នកជំងឺ (Case fatality Rate CFR) ស្មើនឹងៈ",
+      "images": [],
+      "image": "",
+      "options": [
+        "ចំនួនអ្នកស្លាប់ដោយជំងឺមួយ ក្នុងកំឡុងពេលជាក់លាក់មួយ X100 ចែកចំនួនករណីអ្នក ជំងឺធ្ងន់ធ្ងរក្នុងកំឡុងពេលដូចគ្នា",
+        "ចំនួនអ្នកស្លាប់ដោយជំងឺមួយ ក្នុងកំឡុងពេលជាក់លាក់មួយ X100 ចែកចខ្លួនករណីអ្នកជំង រុប ក្នុងកំឡុងពេលដូចគ្នា",
+        "ចំនួនអ្នកស្លាប់ដោយជំងឺមួយ ក្នុងកំឡុងពេលជាក់លាក់មួយ X100 ចែកចំនួន ប្រជាជនមធ្យម",
+        "ចំនួនអ្នកស្លាប់ដោយជំងឺមួយ ក្នុងកំឡុងពេលជាក់លាក់មួយ X100 ចែកចំនួនចំនួនករណី អ្នកស្លាប់សរុប",
+        "ផ្សេងពីនេះ"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 103,
+      "question": "ចំឡើយទាំងអស់ខាងក្រោមនេះ សុទ្ធតែត្រឹមត្រូវ លើកលែងតែច់ឡើយមួយដែលខុស អត្រាមរណៈភាពរួម គឺ ៖",
+      "images": [],
+      "image": "",
+      "options": [
+        "អត្រាមរណៈភាព សរុប",
+        "អត្រាមរណៈភាពទូទៅ",
+        "អត្រាមរណៈភាព តាមក្រុម ភេទ អាយុ",
+        "អត្រាមរណៈភាពគ្រប់មូលហេតុ",
+        "ផ្សេងពីនេះ"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 104,
+      "question": "នៅក្នុងខេត្តប៉ៃលិនមានប្រជាជន ៦០០០០នាក់ នៅដើមឆ្នាំ២០១៤។ ទារកកើតរស់ក្នុងឆ្នាំនោះមាន ២៤០០នាក់។ អត្រាទារកកើតរស់ក្នុងឆ្នាំនោះក្នុងខេត្តប៉ៃលិន មានៈ",
+      "images": [],
+      "image": "",
+      "options": [
+        "%",
+        "-៣%",
+        "%",
+        "%",
+        "ផ្សេងពីនេះ"
+      ],
+      "correctIndex": 4
+    },
+    {
+      "id": 105,
+      "question": "នៅក្នុងខេត្តប៉ៃលិនមានប្រជាជន ៦០០០០នាក់ នៅដើមឆ្នាំ២០១៤។ ទារកកើតរស់ក្នុងឆ្នាំនោះមាន ២៤០០នាក់។ មរណៈភាពទូទៅមាន ៦០០នាក់ និងប្រ/ជមធ្យមមានៈ",
+      "images": [],
+      "image": "",
+      "options": [
+        "- ៦១២០០នាក់",
+        "-៦២៤۰۰នាក់",
+        "-៦៣០០០នាក់",
+        "-៦៥០០០នាក់",
+        "៦០៩០០នាក់"
+      ],
+      "correctIndex": 4
+    },
+    {
+      "id": 106,
+      "question": "នៅក្នុងខេត្តប៉ៃលិនមានប្រជាជន ៦០០០០នាក់ នៅដើមឆ្នាំ២០១៤។ ទារកកើតរស់ក្នុងឆ្នាំនោះមាន ២៤០០នាក់។ មរណៈភាពទូទៅមាន ៦០០នាក់ និងប្រ/ជចុងឆ្នាំមានៈ",
+      "images": [],
+      "image": "",
+      "options": [
+        "- ៦១២០០នាក់",
+        "-៦២៤០០នាក់",
+        "៦១៨០០នាក់",
+        "-៦០០០០នាក់",
+        "៦០៩០០នាក់"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 107,
+      "question": "នៅក្នុងខេត្តប៉ៃលិនមានប្រជាជន ៦០០០០នាក់ នៅដើមឆ្នាំ២០១៤។ ទារកកើតរស់ក្នុងឆ្នាំនោះមាន ៤%។មានស្រី ៥០ នាក់ស្លាប់ទាក់ទង នឹងមានផ្ទៃពោះ និងជុំវិញការឆ្លងទន្លេ ស្មើនឹងអត្រា:",
+      "images": [],
+      "image": "",
+      "options": [
+        "-២០/១០០០កើតរស់",
+        "-១០,៨៣/១០០០កើតរស់",
+        "-២០,៨៣/១០០០កើតរស់",
+        "-២០,៨០/១០០០កើតរស់",
+        "ផ្សេងពីនេះ"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 108,
+      "question": "នៅក្នុងខេត្តប៉ៃលិនមានប្រជាជន មធ្យម ៦០០០០នាក់ មានជំងឺរបេង សកម្មភាពកើតថ្មីត្រូវបានរកឃើញនៅកំឡុងឆ្នាំ ២០១៤ មានចំនួន៦០នាក់, ជំងឺរបេង សកមសល់ពីឆ្នាំចាស់ (២០១៣) មានចំនួន២០នាក់ ហើយឈឺបន្តដល់ចុងឆ្នាំ២០១៤។អត្រាប្រេវាឡង់ជ/ងរបេងគឺៈ",
+      "images": [],
+      "image": "",
+      "options": [
+        "-១,៣៣/១០០០នាក់",
+        "-១/១០០០នាក់",
+        "-១,៣០/១០០០នាក់",
+        "-១,៣៣/១០០នាក់",
+        "ផ្សេងពីនេះ"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 109,
+      "question": "នៅក្នុងខេត្តប៉ៃលិនមានប្រជាជន មធ្យម ៦០០០០នាក់ មានជំងឺរបេង សកម្មភាពកើតថ្មីត្រូវបានរកឃើញ នៅកំឡុងឆ្នាំ ២០១៤ មានចំនួន៦០នាក់, ជំងឺរបេង សកមសល់ពីឆ្នាំចាស់(២០១៣) មានចំនួន២០នាក់ ហើយឈឺបន្តដល់ចុងឆ្នាំ២០១៤ អត្រាអាស៊ីដង់ជ/ងរបេងគឺៈ",
+      "images": [],
+      "image": "",
+      "options": [
+        "១,៣៣/១០០០នាក់",
+        "១/១០០០នាក់",
+        "១,៣០/១០០០នាក់",
+        "១/១០០នាក់",
+        "ផ្សេងពីនេះ"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 110,
+      "question": "នៅក្នុងខេត្តប៉ៃលិនមានប្រជាជន ៦០០០០នាក់ នៅដើមឆ្នាំ២០១៤។ ទារកកើតរស់ក្នុងឆ្នាំនោះមាន ៤% កុមារស្លាប់អាយុក្រោម១ឆ្នាំ មាន ២៤០នាក់។ អត្រាមរណៈភាពនៃកុមារ (Taux de mortalité Infantile, Infant Mortality Rate) មាន",
+      "images": [],
+      "image": "",
+      "options": [
+        "-១០/១០០កើតរស់",
+        "-១០/១០០០០កើតរស់",
+        "-១/១០០កើតរស់",
+        "-១/១០០០កើតរស់",
+        "ផ្សេងពីនេះ"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 111,
+      "question": "នៅក្នុងខេត្តប៉ៃលិនមានប្រជាជន ៦០០០០នាក់ នៅដើមឆ្នាំ២០១៤។ ទារកកើតរស់ក្នុងឆ្នាំនោះមាន ៤% កុមារអាយុក្រោម២៨ថ្ងៃ មាន ៣០% នៃកុមារកើតរស់សរុបនិងស្លាប់៣៦នាក់។ Taux de Mortalité Néonatal, Neonatal Mortality Rate មាន",
+      "images": [],
+      "image": "",
+      "options": [
+        "-៥/១០០០កើតរស់",
+        "-៥០/១០០កើតរស់",
+        "-៥០/១០០០០កើតរស់",
+        "-៥០/១០០០កើតរស់",
+        "ផ្សេងពីនេះ"
+      ],
+      "correctIndex": 3
+    },
+    {
+      "id": 112,
+      "question": "នៅក្នុងខេត្តប៉ៃលិនមានទារកកើតរស់អាយុក្រោម៧ថ្ងៃ ៦០នាក់ នៅឆ្នាំ២០១៤។ទារកស្លជាអាយុ ក្រោម៧ថ្ងៃស្លាប់ ៦ នាក់ និងក្រោម ២៨ថ្ងៃស្លាប់ ១០នាក់។ Taux de Mortalité Périnatal, Perinatal Mortality Rate មាន:",
+      "images": [],
+      "image": "",
+      "options": [
+        "-២៦៦,៦៦/១០០០កើតរស់",
+        "-១៦៦,៦៦/១០០០កើតរស់",
+        "-១០០/១០០០០កើតរស់",
+        "-១០០/១០០០កើតរស់",
+        "ផ្សេងពីនេះ"
+      ],
+      "correctIndex": 3
+    },
+    {
+      "id": 113,
+      "question": "នៅក្នុងខេត្តប៉ៃលិនមានទារកកើតរស់អាយុក្រោម៧ថ្ងៃ ៦០នាក់ និង អាយុ ចាប់ពី៧ថ្ងៃ ដល់១ឆ្នាំមាន៦៦០នាក់ នៅឆ្នាំ ២០១៤។ទារកស្លាប់អាយុក្រោម៧ថ្ងៃស្លាប់ ៦នាក់ និងចាប់ពី ៧ថ្ងៃ ដល់១ឆ្នាំស្លាប់ ៦៦នាក់។ Taux de Mortalité Post Périnatal, Post Perinatal Mortality Rateមាន",
+      "images": [],
+      "image": "",
+      "options": [
+        "-១០០/១០០០០កើតរស់",
+        "-១០០/១០០០កើតរស់",
+        "- ៨០/១០០០កើតរស់",
+        "-៩០/១០០០កើតរស់",
+        "ផ្សេងពីនេះ"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 114,
+      "question": "ក្នុងថ្នាក់មួយមាននិស្សិតសរុបចំនួន ៩០នាក់ ក្នុងនោះមាននិស្សិតនារី ៣០នាក់ ។ Ratio រវាងនិស្សិតបុរស និងនារី ៖",
+      "images": [],
+      "image": "",
+      "options": [
+        "-៣-១",
+        "-១-៣",
+        "ローコ",
+        "ផ្សេងពីនេះ"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 115,
+      "question": "ចំនួនប្រជាជនមធ្យមគឺជាៈ",
+      "images": [],
+      "image": "",
+      "options": [
+        "ចំនួនប្រជាជនដើមឆ្នាំ",
+        "ចំនួនប្រជាជនចុងឆ្នាំ",
+        "ចំនួនប្រជាជនជាក់លាក់មួយ",
+        "ចំនួនប្រជាជន នៅចំកណ្តាល នៃរយៈពេល",
+        "ផ្សេងពីនេះ"
+      ],
+      "correctIndex": 3
+    },
+    {
+      "id": 116,
+      "question": "ចំណុចប្រើវឡង់ (Point prévalence)",
+      "images": [],
+      "image": "",
+      "options": [
+        "ចំនួននៃប្រជាជន នោះដែលមានជំងឺ នៅរយៈពេលពេញ១ឆ្នាំ",
+        "ចំនួននៃប្រជាជន នោះដែលមានជំងឺ នៅរយៈពេលមួយ",
+        "ចំនួននៃប្រជាជន នោះ ដែលមានជំងឺ នៅចំណុចពេលមួយ",
+        "ចំនួននៃប្រជាជន នោះដែលមានជំងឺ ថ្មី + ចាស រយៈពេល១ឆ្នាំ",
+        "ផ្សេងពីនេះ"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 117,
+      "question": "អត្រា (Taux d'attaque) គឺជា:",
+      "images": [],
+      "image": "",
+      "options": [
+        "Taux d'incidence ងចេញជាភាគ១០០០ នៅពេលមានការរាតត្បាតនៃជ/ង",
+        "Taux de Prévalence ងចេញជាភាគ១០០ នៅពេលមានការរាតត្បាតនៃជ/ង",
+        "Taux de Prévalence ងចេញជាភាគ១០០០ នៅពេលមានការរាតត្បាតនៃជ/ង",
+        "Taux d'incidence ងចេញជាភាគ១០០ នៅពេលមានការរាតត្បាតនៃជ/ង",
+        "ផ្សេងពីនេះ"
+      ],
+      "correctIndex": 3
+    },
+    {
+      "id": 118,
+      "question": "ការប្រើប្រាស់តេស្តរោគវិនិច្ឆ័យ (Diagnostic test) ដែលមានការខុសច្រើន ធ្វើអោយអត្រា ស្តវិជ្ជមាន កើនឡើងខ្ពស់ high false positive rate (poor (poor specificity) បណ្តាលអោយ ការប៉ាន់ប្រមាណនៃ",
+      "images": [],
+      "image": "",
+      "options": [
+        "អាំងស៊ីដង់កើនឡើង",
+        "ប្រេវាឡង់កើនឡើង",
+        "អាំងស៊ីដង់ និង ប្រេវាឡង់ ថយចុះ",
+        "អាំងស៊ីដង់កើនឡើង និងប្រេវាឡង់កើនឡើង",
+        "ផ្សេងពីនេះ"
+      ],
+      "correctIndex": 3
+    },
+    {
+      "id": 119,
+      "question": "ការប្រើប្រាស់ ស្តរោគវិនិច្ឆ័យ (Diagnostic test) ដោយជ្រើសរើស \"classic\" cases of the disease បណ្តាលអោយ ការប៉ាន់ប្រមាណនៃ",
+      "images": [],
+      "image": "",
+      "options": [
+        "អាំងស៊ីដង និង ប្រេវាឡង់ ថយចុះ",
+        "អាំងស៊ីដង និង វាឡង់ កើនឡើង",
+        "អាំងស៊ីដង និង ប្រេវាឡង់ មានលក្ខណៈថេរ",
+        "ផ្សេងពីនេះ"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 120,
+      "question": "មធ្យមភាគ (Mean, Moyenne) គឺជាៈ",
+      "images": [],
+      "image": "",
+      "options": [
+        "លដែលគិតជាសមាមាត្រ",
+        "តំលៃដែលមានញឹកញាប់ជាងគេ ក្នុងក្រុមត់លៃមួយ",
+        "តំលៃទីពាក់កណ្តាល ដែលបែងចែកចំនួនតំលៃក្នុងក្រុមមួយ ជាពីផ្នែកស្មើគ្នា",
+        "កំលៃសរុបរួម",
+        "ផ្សេងពីនេះ"
+      ],
+      "correctIndex": 3
+    },
+    {
+      "id": 121,
+      "question": "ឃ្លាខាងក្រោមនេះសុទ្ធតែត្រឹមត្រូវ លើកលែងតែ៖",
+      "images": [],
+      "image": "",
+      "options": [
+        "ម៉ូដ (Mode) ជាត ដែលមានសង្វាក់កកើតខ្ពស់ជាងគេ (Highest frquency)",
+        "ទិន្នន័យខ្លះមានម៉ូដតែមួយ ខ្លះទៀតមានម៉ូតច្រើន តែមិនអាចមានទិន្នន័យដែលគ្មានម៉ូកទេ",
+        "ទិន្នន័យខ្លះមានម៉ូដតែមួយ ខ្លះទៀតមានម៉ូតច្រើន តែអាចមានទិន្នន័យដែលគ្មានម៉ូកដែរ",
+        "ម៉ូដមិនប្រែប្រួលទៅទៅតាមតំលៃទាបពេក រឺខ្ពស់ពេក (Extreme Value) ឡើយ",
+        "ផ្សេងពីនេះ"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 122,
+      "question": "គេប្រើប្រាស់ប្រវាឡង់ (Prevalent) ដើម្បីបង្ហាញ",
+      "images": [],
+      "image": "",
+      "options": [
+        "ជម្ងឺស្រួចស្រាវ (Maladies aigues)",
+        "ជម្ងឺ រ៉ាំរ៉ៃ (Maladies chroniques)",
+        "មានការរាតត្បាតនៃជម្ងឺ (Epidemic)",
+        "ជម្ងឺដែលសល់ពីឆ្នាំចាស់",
+        "ផ្សេងពីនេះ"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 123,
+      "question": "ឃ្លាខាងក្រោមនេះសុទ្ឋតែត្រឹមលើកលែងតែឃ្លាមួយដែលខុស ការគណនាចំនួនករណីនៃជម្ងឺអាំងស៊ីដង និង វាឡងផ្តល អោយចំនួនអ្នកជ/ងដែលគួរអោយទុកចិត្តបាន (The calculation of both prevalence and incidence requires a reliable estimate of the numberof individuals with the disease) មធ្យោបាយប្រើប្រាស់សំរាប់កំណត់ចំនួនករណីអ្នកជ/ ង រួមមានៈ",
+      "images": [],
+      "image": "",
+      "options": [
+        "រោគសញ្ញាគ្លីនិក (Clinical evaluation)",
+        "ពិនិត្យរបាយការណីសុខភាព (Reviewing health records)",
+        "សម្ភាសន៍ ជាមួយអ្នកជម្ងឺ (Personal interviews)",
+        "ស្រង់ស្ថិតិ អ្នកជម្ងឺតាមភូមិឃុំ (Health record from villages and communes)",
+        "ផ្សេងពីនេះ"
+      ],
+      "correctIndex": 3
+    },
+    {
+      "id": 124,
+      "question": "នៅកម្ពុជា អក្រមារណៈភាពរបស់មាតាមាន ៦០ ភាគ ១០០០កើតរស់។ មានន័យថាៈ",
+      "images": [],
+      "image": "",
+      "options": [
+        "ក្នុងចំណោមទារកកើតរស់១០០០មានស្ត្រី៦០នាក់ស្លាប់ក្នុង | ឆ្នាំដោយសារមានបញ្ហាឆ្លងទន្លេ",
+        "ក្នុងចំណោមទារកកើតរស់១០០០ មានស្ត្រី៦០ នាក់ស្លាប់ក្នុងឆ្នាំក្នុងពេលមានក និងជុំវិញឆ្លងទន្លេ",
+        "ក្នុងចំណោមស្រី១០០០នាក់ មានទារក៦០ នាក់ស្លាប់ក្នុងឆ្នាំដោយសារមានបញ្ហាឆ្លងទន្លេ",
+        "ក្នុងចំណោមស្ត្រី១០០០នាក់មានទារកកើតរស់៦០នាក់ក្នុងឆ្នាំ",
+        "ផ្សេងពីនេះ"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 125,
+      "question": "ម៉ូត (Mode) គឺជាៈ",
+      "images": [],
+      "image": "",
+      "options": [
+        "មធ្យមភាគនៃតម្លៃក្រុម",
+        "តម្លៃទីពាក់កណ្តាលដែលបែងចែកចំនួនតម្លៃក្នុងក្រុមមួយ",
+        "តម្លៃដែលមានញឹកញាប់ជាងគេក្នុងក្រុមតម្លៃមួយ",
+        "រង្វាស់និន្នាការកណ្តាលរបស់តម្លៃ ក្រុម",
+        "ផ្សេងពីនេះ"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 126,
+      "question": "នេះជាច់ងាយផ្លូវគិតជាគីឡូម៉ែត្រពីផ្ទះរបស់អក្នជំងឺ 6 នាក់មកមណ្ឌលសុខភាពមួយៈ 4,7,3,5,3,8។ ប្រសិនបើ 8 ត្រូវបានគេកត់ច្រឡំជា 8០ វិញ តើនឹងមានការប្រែប្រួលអ្វីកើតឡើង?",
+      "images": [],
+      "image": "",
+      "options": [
+        "មានការប្រែប្រួលនៃតំលៃកណ្តាល (Median)",
+        "មានការប្រែប្រួលនៃ ម៉ូដ (Mode)",
+        "មានការកើនឡើងនៃមធ្យមភាគ (Mean)",
+        "មានការកើនឡើងទាំងតម្លៃកណ្តាល (Median) និង មធ្យមភាគ (Mean)",
+        "មានការកើនឡើងនៃ តម្លៃកណ្តាល (Median) ម៉ូដ (Mode) និង មធ្យមភាគក (Mean)"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 127,
+      "question": "បើប្រសិនជាការធ្វើរោគវិនិច្ឆ័យជម្ងឺ ដោយជ្រើសតែ Classic cases ដោយកំណត់យកតែ Strict diagnostic criteria តើបណ្តាលអោយមានការប្រែប្រួលអ្វី ខ្លះ?",
+      "images": [],
+      "image": "",
+      "options": [
+        "Under estimate incidence",
+        "Under estimate Prevalent",
+        "Under estimate incidence and prevalence",
+        "Over estimate incidence and prevalence",
+        "ផ្សេងពីនេះ"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 128,
+      "question": "មានអ្នកជំងឺចំនួន៥នាក់មកសំរាកនៅក្នុងមន្ទីរពេទ្យដោយ ជំងឺគ្រុនពោះវៀន រយៈព្យាបាលគិតជា ថ្ងៃមានរយៈពេលដូកទៅ២, ៣, ២, ៥, ៣ ។ កម្លៃ Variance :",
+      "images": [],
+      "image": "",
+      "options": [
+        "-១,៣",
+        "-១,២២",
+        "១,២",
+        "-໑໕",
+        "ផ្សេងពីនេះ"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 129,
+      "question": "មានអ្នកជំងឺចំនួន៥នាក់មកសំរាកនៅក្នុងមន្ទីរពេទ្យដោយ ជំងឺគ្រុនពោះវៀន រយៈព្យាបាលគិតជា ថ្ងៃមានរយៈពេលដួតទៅ២, ៣, ២, ៥, ៣ ។ តម្លៃ កំលាតស្តង់ (Standard Deviation) :",
+      "images": [],
+      "image": "",
+      "options": [
+        "-១,៣",
+        "-១,២",
+        "-១,៥",
+        "ផ្សេងពីនេះ"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 130,
+      "question": "ឃ្លាខាងក្រោមនេះសុទ្ធតែជាលក្ខណៈរបស់តំលៃកណ្តាល (Median) លើកលែងតែ",
+      "images": [],
+      "image": "",
+      "options": [
+        "តំលៃកណ្តាល (Median) ចែកទិន្នន័យជាពីរផ្នែកស្មើគ្នា",
+        "តំលៃកណ្តាល (Median) មិនប្រែប្រួលទៅតាមតំលៃទាបពេក ឬ ខ្ពស់ពេកទេ",
+        "កំលៃកណ្តាល (Median) អាចរកបានតែក្នុងករណីដែលចំនួនសង្កេត (number of observation) ជាចំនួនសេស (odd) តែប៉ុណ្ណោះ",
+        "តំលៃកណ្តាល (Median) មានកំលៃស្មើមធ្យមភាគ (Mean) និង ម៉ូដក្នុងករណីដែលទិន្នន័យមានរបាយ ធម្មតា (normally distributed)",
+        "ផ្សេងពីនេះ"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 131,
+      "question": "ដើម្បីបង្ហាញអោយអ្នកមើលបានយល់ លក្ខណៈដំបូងបង្អស់របស់ទិន្នន័យគឺៈ",
+      "images": [],
+      "image": "",
+      "options": [
+        "កូសក្រាហ្វិក ឬផែនទី",
+        "រៀបចំពត៌មានដាក់ក្នុងតារាង",
+        "ប្រមូលពត៌មានជាតួលេខ",
+        "វិភាគនិងបង្ហាញទិន្នន័យ",
+        "ផ្សេងពីនេះ"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 132,
+      "question": "ស្សក្រាម (Histogram) គឺជាក្រាហ្វិកមួយៈ",
+      "images": [],
+      "image": "",
+      "options": [
+        "ដែលត្រូវបានប្រើប្រាស់សំរាប់បង្ហាញតែការបែងចែកចំនួនករណីនៃទិន្នន័យបរិមាណ",
+        "ដែលមានប្រយោជន៍ក្នុងការចង្អុលប្រាប់នូវទំនាក់ទំនងរវាង Variable ពីរ",
+        "ចង់បង្ហាញទិន្នន័យ លើសពីមួយឈុត តាមរបៀបជាការបែងចែកសង្វាក់ការកកើតនោះ",
+        "ដែលមានកំនូសបន្ទះបញ្ឈរឬផ្ដេកដែលមានទទឹងស្មើគ្នា ហើយឃ្លាតពីគ្នាដោយចន្លោះទទេ",
+        "ផ្សេងពីនេះ"
+      ],
+      "correctIndex": 3
+    },
+    {
+      "id": 133,
+      "question": "អត្រាមរណៈភាពនៃកុមរា (Infant mortality Rate, Taux de mortalité infantile) គឺជាការ គណនាអត្រាមរណៈភាព សំដៅទៅលើកុមារដែលមានអាយុ",
+      "images": [],
+      "image": "",
+      "options": [
+        "ក្រោម៥ឆ្នាំ",
+        "ក្រោម២៨ថ្ងៃ",
+        "ចាប់ពី៧ថ្ងៃ ដល់ ១ឆ្នាំ",
+        "ក្រោម ៧ថ្ងៃ",
+        "ក្រោម១ឆ្នាំ"
+      ],
+      "correctIndex": 4
+    },
+    {
+      "id": 134,
+      "question": "អត្រាមរណៈភាពនៃទារក (Post Perinatal mortality Rate, Taux de mortalité Post Périnatale) គឺជាការ គណនាអត្រាមរណៈភាព សំដៅទៅលើទារកដែលមានអាយុ",
+      "images": [],
+      "image": "",
+      "options": [
+        "ក្រោម១ឆ្នាំ",
+        "ចប៉ាពី៧ថ្ងៃ ដល់ ១ឆ្នាំ",
+        "ក្រោម២៨ថ្ងៃ",
+        "ក្រោម ៧ថ្ងៃ",
+        "ក្រោម៥ឆ្នាំ"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 135,
+      "question": "អត្រាមរណៈភាពនៃទារក (Neonatal Mortality Rate, Taux de mortalité Néonatale) គឺជាការ គណនាអត្រាមរណៈភាព សំដៅទៅលើទារកដែលមានអាយុ",
+      "images": [],
+      "image": "",
+      "options": [
+        "ក្រោម១ឆ្នាំ",
+        "ច ពី៧ថ្ងៃ ដល់ ១ឆ្នាំ",
+        "ក្រោម ៧ថ្ងៃ",
+        "ក្រោម៥ឆ្នាំ",
+        "ផ្សេងពីនេះ"
+      ],
+      "correctIndex": 4
+    },
+    {
+      "id": 136,
+      "question": "អត្រាមរណៈភាពនៃទារក (Perinatal Mortality Rate, Taux de mortalité Périnatale) គឺជាការ គណនាអត្រាមរណៈភាព សំដៅទៅលើទារកដែលមានអាយុ",
+      "images": [],
+      "image": "",
+      "options": [
+        "ក្រោម ៧ថ្ងៃ",
+        "ក្រោម៥ឆ្នាំ",
+        "ច ពី៧ថ្ងៃ ដល់ ១ឆ្នាំ",
+        "ក្រោម១ឆ្នាំ"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}
