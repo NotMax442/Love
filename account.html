@@ -11,7 +11,7 @@
 
   <!-- Open Graph / Telegram / Facebook -->
   <meta property="og:type" content="website">
-  <meta property="og:url" content="https://testforuhs.com/account.html">
+  <meta property="og:url" content="https://testforuhs.com/account">
   <meta property="og:site_name" content="TestforUHS">
   <meta property="og:title" content="My Account & Vault - TestforUHS">
   <meta property="og:description"
@@ -20,23 +20,25 @@
 
   <!-- Twitter -->
   <meta property="twitter:card" content="summary_large_image">
-  <meta property="twitter:url" content="https://testforuhs.com/account.html">
+  <meta property="twitter:url" content="https://testforuhs.com/account">
   <meta property="twitter:title" content="My Account & Vault - TestforUHS">
   <meta property="twitter:description"
     content="Manage your saved missed questions, track subject progress, and export flashcards to Anki.">
   <meta property="twitter:image" content="https://testforuhs.com/assets/logo.png">
 
   <!-- Icons & CSS -->
-  <link rel="icon" type="image/png" href="assets/logo.png">
+  <link rel="icon" type="image/png" sizes="192x192" href="assets/logo.png">
   <link rel="apple-touch-icon" href="assets/logo.png">
   <link rel="stylesheet" href="style.css">
+
+  <!-- Lucide Icons CDN -->
+  <script src="https://unpkg.com/lucide@latest"></script>
 
   <!-- Google AdSense -->
   <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-4210272281940886"
     crossorigin="anonymous"></script>
 
   <style>
-    /* Sub-Navbar Tab Styling */
     .account-tab-bar {
       display: flex;
       justify-content: center;
@@ -50,8 +52,8 @@
 
     .account-tab-btn {
       flex: 1;
-      padding: 0.65rem 1rem;
-      font-size: 0.95rem;
+      padding: 0.65rem 0.75rem;
+      font-size: 0.9rem;
       font-weight: 700;
       border-radius: 8px;
       border: none;
@@ -60,6 +62,10 @@
       cursor: pointer;
       transition: all 0.2s ease;
       white-space: nowrap;
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      gap: 0.4rem;
     }
 
     .account-tab-btn.active {
@@ -76,20 +82,23 @@
     <!-- Top Navigation Bar -->
     <nav class="main-navbar">
       <div class="nav-links">
-        <a href="/" class="nav-item" data-i18n="nav_home">HOME</a>
-        <a href="/about" class="nav-item" data-i18n="nav_about">ABOUT</a>
-        <a href="/contact" class="nav-item" data-i18n="nav_contact">CONTACT US</a>
-        <a href="/account" class="nav-item" data-i18n="nav_account">MY ACCOUNT</a>
+        <a href="./" class="nav-item" data-i18n="nav_home">HOME</a>
+        <a href="about" class="nav-item" data-i18n="nav_about">ABOUT</a>
+        <a href="contact" class="nav-item" data-i18n="nav_contact">CONTACT US</a>
+        <a href="account" class="nav-item" data-i18n="nav_account">MY ACCOUNT</a>
         <button id="nav-donate-btn" class="nav-item" data-i18n="nav_donate"
-          style="color: #f59e0b; font-weight: 700; background: none; border: none; cursor: pointer;">☕ Support
-          Us</button>
+          style="color: #f59e0b; font-weight: 700; background: none; border: none; cursor: pointer; display: flex; align-items: center; gap: 0.35rem;">
+          <i data-lucide="coffee" style="width: 18px; height: 18px;"></i> Support Us
+        </button>
       </div>
       <div class="nav-controls" style="display: flex; gap: 0.5rem; align-items: center;">
         <select id="language-select" class="lang-select">
           <option value="en">English</option>
           <option value="km">ភាសាខ្មែរ</option>
         </select>
-        <button id="theme-toggle-btn" class="theme-btn">🌙 Dark</button>
+        <button id="theme-toggle-btn" class="theme-btn" style="display: flex; align-items: center; gap: 0.35rem;">
+          <i data-lucide="moon" style="width: 16px; height: 16px;"></i> Dark
+        </button>
       </div>
     </nav>
 
@@ -101,21 +110,21 @@
 
       <!-- Sub-Navbar Tab Switcher -->
       <div class="account-tab-bar">
-        <button id="tab-stats-btn" class="account-tab-btn active" data-i18n="tab_stats">📊 Analytics & Stats</button>
-        <button id="tab-vault-btn" class="account-tab-btn" data-i18n="tab_vault">🗂️ Vault & Settings</button>
+        <button id="tab-stats-btn" class="account-tab-btn active" data-i18n="tab_stats">
+          <i data-lucide="bar-chart-2" style="width: 16px; height: 16px;"></i> Analytics & Stats
+        </button>
+        <button id="tab-vault-btn" class="account-tab-btn" data-i18n="tab_vault">
+          <i data-lucide="archive" style="width: 16px; height: 16px;"></i> Vault & Settings
+        </button>
       </div>
 
-      <!-- =================================================================== -->
-      <!-- TAB 1: ACCURACY ANALYTICS & STATS VIEW                              -->
-      <!-- =================================================================== -->
+      <!-- TAB 1: ACCURACY ANALYTICS & STATS VIEW -->
       <div id="account-stats-view">
-        <!-- SVG Animated Full Pie Chart Card -->
         <div class="info-card" style="background: var(--bg-subcard); padding: 1.5rem; border-radius: 12px; border: 1px solid var(--border-sub); margin-bottom: 1.5rem; text-align: center;">
           <h3 style="margin-top: 0; color: var(--text-main);" data-i18n="stats_overview_title">Overall Accuracy</h3>
           
           <div id="pie-chart-wrapper"></div>
 
-          <!-- Real-Time Metrics Summary Grid -->
           <div class="stats-summary-grid">
             <div class="stat-card">
               <span class="stat-label" data-i18n="stats_total_questions">Questions Attempted</span>
@@ -136,7 +145,6 @@
           </div>
         </div>
 
-        <!-- Professor & Subject Accuracy Breakdown -->
         <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 1rem; flex-wrap: wrap; gap: 0.5rem;">
           <h3 style="margin: 0; color: var(--text-main);" data-i18n="stats_prof_breakdown">Accuracy by Professor & Subject</h3>
           <select id="stats-filter-select" class="lang-select" style="padding: 0.4rem 0.8rem;">
@@ -147,16 +155,13 @@
         <div id="stats-prof-list" class="subject-grid"></div>
       </div>
 
-      <!-- =================================================================== -->
-      <!-- TAB 2: VAULT & QUIZ SETTINGS VIEW                                   -->
-      <!-- =================================================================== -->
+      <!-- TAB 2: VAULT & QUIZ SETTINGS VIEW -->
       <div id="account-vault-view" class="hidden">
-        
-        <!-- Quiz Preferences Card -->
         <div class="info-card" style="background: var(--bg-subcard); padding: 1.5rem; border-radius: 8px; border: 1px solid var(--border-sub); margin-bottom: 2rem;">
-          <h3 style="margin-top: 0; color: var(--text-main);" data-i18n="account_pref_title">⚙️ Quiz Preferences</h3>
+          <h3 style="margin-top: 0; color: var(--text-main); display: flex; align-items: center; gap: 0.4rem;" data-i18n="account_pref_title">
+            <i data-lucide="settings" style="width: 20px; height: 20px;"></i> Quiz Preferences
+          </h3>
 
-          <!-- Auto Advance Toggle -->
           <div style="display: flex; justify-content: space-between; align-items: center; gap: 1rem; margin-top: 1rem;">
             <div>
               <h4 style="margin: 0; color: var(--text-main);" data-i18n="account_autoadv_title">Auto-advance in Quiz Mode</h4>
@@ -170,7 +175,6 @@
             </label>
           </div>
 
-          <!-- Review Layout Switcher -->
           <div style="display: flex; justify-content: space-between; align-items: center; gap: 1rem; margin-top: 1.25rem; padding-top: 1.25rem; border-top: 1px solid var(--border-sub); flex-wrap: wrap;">
             <div style="flex: 1; min-width: 200px;">
               <h4 style="margin: 0; color: var(--text-main);" data-i18n="account_review_style_title">Result Review Display Style</h4>
@@ -185,15 +189,20 @@
           </div>
         </div>
 
-        <!-- Missed Questions Vault Section -->
         <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 1rem; flex-wrap: wrap; gap: 0.5rem;">
-          <h3 style="margin: 0; color: var(--text-main);" data-i18n="account_vault_title">📦 Missed Questions Vault</h3>
+          <h3 style="margin: 0; color: var(--text-main); display: flex; align-items: center; gap: 0.4rem;" data-i18n="account_vault_title">
+            <i data-lucide="archive" style="width: 20px; height: 20px;"></i> Missed Questions Vault
+          </h3>
 
           <div class="account-toolbar" style="display: flex; gap: 0.5rem; align-items: center;">
-            <button id="toggle-select-mode-btn" class="btn secondary-btn" data-i18n="btn_select">☑️ Select</button>
+            <button id="toggle-select-mode-btn" class="btn secondary-btn" data-i18n="btn_select" style="display: inline-flex; align-items: center; gap: 0.4rem;">
+              <i data-lucide="check-square" style="width: 16px; height: 16px;"></i> Select
+            </button>
             <div id="bulk-controls" class="hidden" style="display: flex; gap: 0.5rem; align-items: center; flex-wrap: wrap;">
               <button id="select-all-btn" class="btn secondary-btn" data-i18n="btn_select_all">Select All</button>
-              <button id="delete-selected-btn" class="btn danger-btn" disabled>🗑️ Delete Selected (0)</button>
+              <button id="delete-selected-btn" class="btn danger-btn" disabled data-i18n="btn_delete_selected" style="display: inline-flex; align-items: center; gap: 0.4rem;">
+                <i data-lucide="trash-2" style="width: 16px; height: 16px;"></i> Delete Selected (0)
+              </button>
             </div>
           </div>
         </div>
@@ -215,7 +224,9 @@
   <!-- Bulk Delete Confirmation Modal -->
   <div id="delete-confirm-modal" class="modal-overlay hidden">
     <div class="modal-card">
-      <h3 data-i18n="delete_modal_title">⚠️ Are you sure?</h3>
+      <h3 data-i18n="delete_modal_title" style="display: flex; align-items: center; gap: 0.4rem;">
+        <i data-lucide="alert-triangle" style="width: 20px; height: 20px; color: #ef4444;"></i> Are you sure?
+      </h3>
       <p id="delete-warning-text" data-i18n="delete_modal_desc">Are you sure you want to delete these saved missed
         questions? This action cannot be undone.</p>
       <div class="modal-actions">
@@ -228,13 +239,17 @@
   <!-- Anki Export Confirmation Modal -->
   <div id="anki-modal" class="modal-overlay hidden">
     <div class="modal-card">
-      <h3 data-i18n="anki_modal_title">📦 Export to Anki (.txt)</h3>
+      <h3 data-i18n="anki_modal_title" style="display: flex; align-items: center; gap: 0.4rem;">
+        <i data-lucide="package" style="width: 20px; height: 20px;"></i> Export to Anki (.txt)
+      </h3>
       <p data-i18n="anki_modal_desc">How would you like to process these questions after downloading?</p>
       <div class="modal-actions" style="flex-direction: column; gap: 0.5rem;">
-        <button id="anki-keep-btn" class="btn primary-btn" style="width: 100%;" data-i18n="btn_anki_keep">📥 Export & Keep
-          in Vault</button>
-        <button id="anki-clear-btn" class="btn warning-btn" style="width: 100%;" data-i18n="btn_anki_clear">🗑️ Export
-          & Clear Subject Vault</button>
+        <button id="anki-keep-btn" class="btn primary-btn" style="width: 100%; display: inline-flex; align-items: center; justify-content: center; gap: 0.4rem;" data-i18n="btn_anki_keep">
+          <i data-lucide="download" style="width: 16px; height: 16px;"></i> Export & Keep in Vault
+        </button>
+        <button id="anki-clear-btn" class="btn warning-btn" style="width: 100%; display: inline-flex; align-items: center; justify-content: center; gap: 0.4rem;" data-i18n="btn_anki_clear">
+          <i data-lucide="trash-2" style="width: 16px; height: 16px;"></i> Export & Clear Subject Vault
+        </button>
         <button id="anki-cancel-btn" class="btn secondary-btn" style="width: 100%;"
           data-i18n="btn_cancel">Cancel</button>
       </div>
@@ -247,8 +262,10 @@
       <button id="close-donate-btn" class="modal-close-icon" aria-label="Close modal">&times;</button>
       <div class="donate-grid">
         <div class="donate-info">
-          <p class="donate-tagline" data-i18n="donate_tagline">Every little bit is greatly appreciated! Thank you for
-            your support 😊</p>
+          <p class="donate-tagline" data-i18n="donate_tagline" style="display: flex; align-items: center; gap: 0.35rem;">
+            Every little bit is greatly appreciated! Thank you for your support
+            <i data-lucide="smile" style="width: 18px; height: 18px; display: inline-block;"></i>
+          </p>
           <h3 class="donate-cta" data-i18n="donate_cta">You may donate through our KHQR here.</h3>
         </div>
         <div class="donate-qr-wrapper"><img src="assets/khqr.png" alt="KHQR Code" class="khqr-card-img"></div>
@@ -264,9 +281,17 @@
     <div class="modal-card"
       style="max-width: 600px; text-align: left; max-height: 80vh; overflow-y: auto; position: relative; padding: 2.5rem 1.5rem 1.5rem 1.5rem;">
       <button id="close-privacy-btn" class="modal-close-icon" aria-label="Close modal">&times;</button>
-      <h3 style="margin-bottom: 1rem; color: var(--text-main);">Privacy Policy</h3>
-      <div style="font-size: 0.85rem; line-height: 1.6; color: var(--text-sub);">
-        <p>At <strong>TestforUHS</strong>, visitor privacy is one of our main priorities.</p>
+      <h3 style="margin-bottom: 1rem; color: var(--text-main);" data-i18n="about_privacy_title">Privacy Policy</h3>
+      <div style="font-size: 0.85rem; line-height: 1.6; color: var(--text-sub); display: flex; flex-direction: column; gap: 0.75rem;">
+        <p>At <strong>TestforUHS</strong>, visitor privacy is a top priority. This Privacy Policy details the types of information we collect and how it is used.</p>
+
+        <h4 style="color: var(--text-main); margin-top: 0.5rem;">1. Advertising & Third-Party Cookies</h4>
+        <p>We use <strong>Google AdSense</strong> to display advertisements. Third-party vendors, including Google, use cookies to serve ads based on a user's prior visits to our website or other websites on the internet.</p>
+        <p>Google's use of advertising cookies enables it and its partners to serve ads to our users based on their visit to our sites and/or other sites on the Internet.</p>
+        <p>You may opt out of personalized advertising by visiting <a href="https://www.google.com/settings/ads" target="_blank" rel="noopener" style="color: var(--text-heading); text-decoration: underline;">Google Ad Settings</a> or <a href="https://www.aboutads.info" target="_blank" rel="noopener" style="color: var(--text-heading); text-decoration: underline;">aboutads.info</a>.</p>
+
+        <h4 style="color: var(--text-main); margin-top: 0.5rem;">2. Local Storage</h4>
+        <p>TestforUHS uses your browser's <code>localStorage</code> exclusively to save quiz progress, missed question logs, language settings, and theme preferences directly on your device. This data is never transmitted to external servers.</p>
       </div>
       <div style="margin-top: 1.5rem; text-align: center;">
         <button id="bottom-close-privacy-btn" class="btn secondary-btn" style="width: 100%; max-width: 200px;"
@@ -277,6 +302,11 @@
 
   <script src="shared.js"></script>
   <script src="account.js"></script>
+  <script>
+    if (window.lucide) {
+      lucide.createIcons();
+    }
+  </script>
 </body>
 
 </html>

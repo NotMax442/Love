@@ -184,7 +184,7 @@
     },
     {
       "id": 14,
-      "question": "Step 1. Identify the smallest (minimum) observation and the largest (maximum) observation.\nStep 2. Add the minimum plus the maximum, then divide by two: is the formula for calculate the:",
+      "question": "Step 1. Identify the smallest (minimum) observation and the largest (maximum) observation. Step 2. Add the minimum plus the maximum, then divide by two: is the formula for calculate the:",
       "images": [],
       "image": "",
       "options": [
@@ -352,9 +352,11 @@
     },
     {
       "id": 26,
-      "question": "This Calculation indicate:\nNo of births reported during a given time period interval × 100 / Estimated mid interval population",
-      "images": [],
-      "image": "",
+      "question": "This Calculation indicate:",
+      "images": [
+        "y2-sante-publique-pr-nong-saokry-q136-image-1.jpg"
+      ],
+      "image": "y2-sante-publique-pr-nong-saokry-q136-image-1.jpg",
       "options": [
         "Fertility rate",
         "Mortality rate",
@@ -408,9 +410,11 @@
     },
     {
       "id": 30,
-      "question": "This formula refers to:\n# current cases (old and new) in a specified disease during a specified time period / Estimated mid interval population at risk X100",
-      "images": [],
-      "image": "",
+      "question": "This formula refers to:",
+      "images": [
+        "y2-sante-publique-pr-nong-saokry-q136-image-2.jpg"
+      ],
+      "image": "y2-sante-publique-pr-nong-saokry-q136-image-2.jpg",
       "options": [
         "Prevalent rate",
         "Incidence rate",
@@ -576,9 +580,11 @@
     },
     {
       "id": 42,
-      "question": "This formula for calculated:\nTotal # deaths due to all causes in a defined area during a defined period X 1000 / Mean population at risk in the same area during the same period",
-      "images": [],
-      "image": "",
+      "question": "This formula for calculated:",
+      "images": [
+        "y2-sante-publique-pr-nong-saokry-q136-image-3.jpg"
+      ],
+      "image": "y2-sante-publique-pr-nong-saokry-q136-image-3.jpg",
       "options": [
         "Crude death rate (CDR)",
         "Age- and Sex specific death rate",
@@ -590,9 +596,11 @@
     },
     {
       "id": 43,
-      "question": "This formula for calculated:\n# deaths of infant < 28 days of age in area during a given period × 100 / # Live births in the area during the same period",
-      "images": [],
-      "image": "",
+      "question": "This formula for calculated:",
+      "images": [
+        "y2-sante-publique-pr-nong-saokry-q136-image-4.jpg"
+      ],
+      "image": "y2-sante-publique-pr-nong-saokry-q136-image-4.jpg",
       "options": [
         "Perinatal mortality rate",
         "Neonatal mortality rate",
@@ -828,7 +836,7 @@
     },
     {
       "id": 60,
-      "question": "The mean population in Rattanakiri province is 30000 populations (P) in year 2005. All cases of mortality is 200 cases. # Live births under 1 year = 1500 live births. Infant death under 1 year has 90 cases. # Live births of infant < 28 days of age = 200 Live births. Neonatal mortality = 45 cases and Maternal mortality = 50 deaths. Crude death rate is:",
+      "question": "The mean population in Rattanakiri province is 30000 populations (P) in year 2005. All cases of mortality is 200 cases. # Live births under 1 year =1500 live births. Infant death under 1 year has 90 cases. # Live births of infant < 28 days of age = 200 Live births. Neonatal mortality = 45 cases and Maternal mortality = 50 deaths. Crude death rate is:",
       "images": [],
       "image": "",
       "options": [
@@ -1237,7 +1245,7 @@
       "image": "",
       "options": [
         "ក្នុងចំណោមទារក ១០០០ កើតរស់ មានមាកាស្លជា៦០ នាក់ទាក់ទងការមានផ្ទៃពោះ និងឆ្លងទន្លេ",
-        "ក្នុងចំណោមទារក ១០០០ កើតរស់ មានទារកស្លាប៦០០ នាក់ អាយុក្រោម ២៨ថ្ងៃ",
+        "ក្នុងចំណោមទារក ១០០០ កើតរស់ មានទារកស្លាប៦۰۰ នាក់ អាយុក្រោម ២៨ថ្ងៃ",
         "ក្នុងចំណោមទារក ១០០០ កើតរស់ មានទារកស្លាប់៦០ នាក់ អាយុក្រោម ៧ថ្ងៃ",
         "ក្នុងចំណោមទារក ១០០០ កើតរស់ មានទារកស្លាប់៤០ នាក់ អាយុក្រោម ១ឆ្នាំ",
         "ផ្សេងពីនេះ"
@@ -1316,7 +1324,7 @@
     },
     {
       "id": 95,
-      "question": "តើអត្រាអ្វី ដែលគេគណនា ចំនួននៃការស្លាប់សរុបក្នុង១ឆ្នាំ សំរាប់ប្រជាជនមធ្យម ១០០0នាក់?",
+      "question": "តើអត្រាអ្វី ដែលគេគណនា ចំនួននៃការស្លាប់សរុបក្នុង១ឆ្នាំ សំរាប់ប្រជាជនមធ្យម ១០០០នាក់?",
       "images": [],
       "image": "",
       "options": [
@@ -1444,10 +1452,10 @@
       "images": [],
       "image": "",
       "options": [
-        "%",
-        "-៣%",
-        "%",
-        "%",
+        "៤%",
+        "៣%",
+        "៥%",
+        "២%",
         "ផ្សេងពីនេះ"
       ],
       "correctIndex": 4
@@ -1458,10 +1466,10 @@
       "images": [],
       "image": "",
       "options": [
-        "- ៦១២០០នាក់",
-        "-៦២៤۰۰នាក់",
-        "-៦៣០០០នាក់",
-        "-៦៥០០០នាក់",
+        "៦១២០០នាក់",
+        "៦២៤០០នាក់",
+        "៦៣០០០នាក់",
+        "៦៥០០០នាក់",
         "៦០៩០០នាក់"
       ],
       "correctIndex": 4
@@ -1472,10 +1480,10 @@
       "images": [],
       "image": "",
       "options": [
-        "- ៦១២០០នាក់",
-        "-៦២៤០០នាក់",
+        "៦១២០០នាក់",
+        "៦២៤០០នាក់",
         "៦១៨០០នាក់",
-        "-៦០០០០នាក់",
+        "៦០០០០នាក់",
         "៦០៩០០នាក់"
       ],
       "correctIndex": 2
@@ -1486,10 +1494,10 @@
       "images": [],
       "image": "",
       "options": [
-        "-២០/១០០០កើតរស់",
-        "-១០,៨៣/១០០០កើតរស់",
-        "-២០,៨៣/១០០០កើតរស់",
-        "-២០,៨០/១០០០កើតរស់",
+        "២០/១០០០កើតរស់",
+        "១០,៨៣/១០០០កើតរស់",
+        "២០,៨៣/១០០០កើតរស់",
+        "២០,៨០/១០០០កើតរស់",
         "ផ្សេងពីនេះ"
       ],
       "correctIndex": 2
@@ -1500,10 +1508,10 @@
       "images": [],
       "image": "",
       "options": [
-        "-១,៣៣/១០០០នាក់",
-        "-១/១០០០នាក់",
-        "-១,៣០/១០០០នាក់",
-        "-១,៣៣/១០០នាក់",
+        "១,៣៣/១០០០នាក់",
+        "១/១០០០នាក់",
+        "១,៣០/១០០០នាក់",
+        "១,៣៣/១០០នាក់",
         "ផ្សេងពីនេះ"
       ],
       "correctIndex": 0
@@ -1528,10 +1536,10 @@
       "images": [],
       "image": "",
       "options": [
-        "-១០/១០០កើតរស់",
-        "-១០/១០០០០កើតរស់",
-        "-១/១០០កើតរស់",
-        "-១/១០០០កើតរស់",
+        "១០/១០០កើតរស់",
+        "១០/១០០០០កើតរស់",
+        "១/១០០កើតរស់",
+        "១/១០០០កើតរស់",
         "ផ្សេងពីនេះ"
       ],
       "correctIndex": 0
@@ -1542,13 +1550,13 @@
       "images": [],
       "image": "",
       "options": [
-        "-៥/១០០០កើតរស់",
-        "-៥០/១០០កើតរស់",
-        "-៥០/១០០០០កើតរស់",
-        "-៥០/១០០០កើតរស់",
+        "៥/១០០០កើតរស់",
+        "៥០/១០០កើតរស់",
+        "៥០/១០០០០កើតរស់",
+        "៥០/១០០០កើតរស់",
         "ផ្សេងពីនេះ"
       ],
-      "correctIndex": 3
+      "correctIndex": 4
     },
     {
       "id": 112,
@@ -1556,10 +1564,10 @@
       "images": [],
       "image": "",
       "options": [
-        "-២៦៦,៦៦/១០០០កើតរស់",
-        "-១៦៦,៦៦/១០០០កើតរស់",
-        "-១០០/១០០០០កើតរស់",
-        "-១០០/១០០០កើតរស់",
+        "២៦៦,៦៦/១០០០កើតរស់",
+        "១៦៦,៦៦/១០០០កើតរស់",
+        "១០០/១០០០០កើតរស់",
+        "១០០/១០០០កើតរស់",
         "ផ្សេងពីនេះ"
       ],
       "correctIndex": 3
@@ -1570,10 +1578,10 @@
       "images": [],
       "image": "",
       "options": [
-        "-១០០/១០០០០កើតរស់",
-        "-១០០/១០០០កើតរស់",
-        "- ៨០/១០០០កើតរស់",
-        "-៩០/១០០០កើតរស់",
+        "១០០/១០០០០កើតរស់",
+        "១០០/១០០០កើតរស់",
+        "៨០/១០០០កើតរស់",
+        "៩០/១០០០កើតរស់",
         "ផ្សេងពីនេះ"
       ],
       "correctIndex": 1
@@ -1584,12 +1592,12 @@
       "images": [],
       "image": "",
       "options": [
-        "-៣-១",
-        "-១-៣",
-        "ローコ",
+        "៣-១",
+        "១-៣",
+        "២-១",
         "ផ្សេងពីនេះ"
       ],
-      "correctIndex": 0
+      "correctIndex": 2
     },
     {
       "id": 115,
@@ -1672,7 +1680,7 @@
         "កំលៃសរុបរួម",
         "ផ្សេងពីនេះ"
       ],
-      "correctIndex": 3
+      "correctIndex": 4
     },
     {
       "id": 121,
@@ -1704,7 +1712,7 @@
     },
     {
       "id": 123,
-      "question": "ឃ្លាខាងក្រោមនេះសុទ្ឋតែត្រឹមលើកលែងតែឃ្លាមួយដែលខុស ការគណនាចំនួនករណីនៃជម្ងឺអាំងស៊ីដង និង វាឡងផ្តល អោយចំនួនអ្នកជ/ងដែលគួរអោយទុកចិត្តបាន (The calculation of both prevalence and incidence requires a reliable estimate of the numberof individuals with the disease) មធ្យោបាយប្រើប្រាស់សំរាប់កំណត់ចំនួនករណីអ្នកជ/ ង រួមមានៈ",
+      "question": "ឃ្លាខាងក្រោមនេះសុទ្ឋតែត្រឹមលើកលែងតែឃ្លាមួយដែលខុស ការគណនាចំនួនករណីនៃជម្ងឺអាំងស៊ីដង និង វាឡងផ្តល អោយចំនួនអ្នកជ/ងដែលគួរអោយទុកចិត្តបាន (The calculation of both prevalence and incidence requires a reliable estimate of the numberof individuals with the disease) មធ្យោបាយប្រើប្រាស់សំរាប់កំណត់ចំនួនករណីអ្នកជ/ង រួមមានៈ",
       "images": [],
       "image": "",
       "options": [
@@ -1736,7 +1744,7 @@
       "images": [],
       "image": "",
       "options": [
-        "មធ្យមភាគនៃតម្លៃក្រុម",
+        ". មធ្យមភាគនៃតម្លៃក្រុម",
         "តម្លៃទីពាក់កណ្តាលដែលបែងចែកចំនួនតម្លៃក្នុងក្រុមមួយ",
         "តម្លៃដែលមានញឹកញាប់ជាងគេក្នុងក្រុមតម្លៃមួយ",
         "រង្វាស់និន្នាការកណ្តាលរបស់តម្លៃ ក្រុម",
@@ -1778,13 +1786,13 @@
       "images": [],
       "image": "",
       "options": [
-        "-១,៣",
-        "-១,២២",
+        "១,៣",
+        "១,២២",
         "១,២",
-        "-໑໕",
+        "១,៥",
         "ផ្សេងពីនេះ"
       ],
-      "correctIndex": 0
+      "correctIndex": 3
     },
     {
       "id": 129,
@@ -1792,9 +1800,9 @@
       "images": [],
       "image": "",
       "options": [
-        "-១,៣",
-        "-១,២",
-        "-១,៥",
+        "១,៣",
+        "១,២",
+        "១,៥",
         "ផ្សេងពីនេះ"
       ],
       "correctIndex": 1
@@ -1829,7 +1837,7 @@
     },
     {
       "id": 132,
-      "question": "ស្សក្រាម (Histogram) គឺជាក្រាហ្វិកមួយៈ",
+      "question": "ហ៊ីស្តូក្រាម (Histogram) គឺជាក្រាហ្វិកមួយៈ",
       "images": [],
       "image": "",
       "options": [

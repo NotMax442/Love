@@ -32,13 +32,13 @@ document.addEventListener('DOMContentLoaded', async () => {
         sessionStorage.setItem('lastActiveSubject', config.subject);
       } catch (e) {}
     }
-    window.location.href = '/';
+    window.location.href = './';
     return;
   }
 
   const rawConfig = sessionStorage.getItem('activeSessionConfig');
   if (!rawConfig) {
-    window.location.href = '/';
+    window.location.href = './';
     return;
   }
 
@@ -98,7 +98,7 @@ document.addEventListener('DOMContentLoaded', async () => {
   await initSession();
 });
 
-// Helper: Extract image filenames as an array (supports images: [] or image: "")
+// Helper: Extract image filenames as an array
 function getImageList(q) {
   if (Array.isArray(q.images) && q.images.length > 0) {
     return q.images.map(img => img.trim()).filter(Boolean);
@@ -109,7 +109,6 @@ function getImageList(q) {
   return [];
 }
 
-// Helper: Open Zoom Modal
 function openZoomModal(imgSrc) {
   const zoomModal = document.getElementById('image-zoom-modal');
   const zoomedImg = document.getElementById('zoomed-image');
@@ -119,14 +118,27 @@ function openZoomModal(imgSrc) {
   }
 }
 
-// Helper for generating filename/storage key slugs
+function preloadNextQuestionImages(currentIndex, questionsArray) {
+  const nextIndex = currentIndex + 1;
+  if (!questionsArray || nextIndex >= questionsArray.length) return;
+
+  const nextQ = questionsArray[nextIndex];
+  const imgList = getImageList(nextQ);
+
+  imgList.forEach(imgName => {
+    const fullImgUrl = IMAGE_BASE_URL + imgName;
+    const imgPreloader = new Image();
+    imgPreloader.src = fullImgUrl;
+  });
+}
+
 function getProfSlug(profName) {
   if (!profName) return '';
   return profName
     .toLowerCase()
-    .replace(/\./g, '')           // Strip dots ("Pr." -> "pr")
-    .replace(/\s+/g, '-')         // Convert spaces to dashes
-    .replace(/[^a-z0-9-&]/g, ''); // Retain letters, numbers, dashes, and ampersands
+    .replace(/\./g, '')
+    .replace(/\s+/g, '-')
+    .replace(/[^a-z0-9-&]/g, '');
 }
 
 function getStudyStorageKey() {
@@ -162,7 +174,6 @@ window.addEventListener('keydown', (e) => {
   }
 });
 
-// Navigation Guard Modal for Leave Prevention
 function showLeaveConfirmModal() {
   if (isModalOpen) return Promise.resolve(false);
   isModalOpen = true;
@@ -218,7 +229,7 @@ function setupNavigationGuards() {
     showLeaveConfirmModal().then((wantsToLeave) => {
       if (wantsToLeave) {
         isSessionActive = false;
-        window.location.href = '/';
+        window.location.href = './';
       }
     });
   });
@@ -236,7 +247,7 @@ function setupNavigationGuards() {
       showLeaveConfirmModal().then((wantsToLeave) => {
         if (wantsToLeave) {
           isSessionActive = false;
-          window.location.href = '/';
+          window.location.href = './';
         }
       });
     }
@@ -268,10 +279,10 @@ function setupNavigationGuards() {
         const wantsToLeave = await showLeaveConfirmModal();
         if (wantsToLeave) {
           isSessionActive = false;
-          window.location.href = '/';
+          window.location.href = './';
         }
       } else {
-        window.location.href = '/';
+        window.location.href = './';
       }
     });
   }
@@ -303,7 +314,6 @@ async function initSession() {
 
   const studyProgressKey = getStudyStorageKey();
 
-  // Resume saved Study progress
   if (mode === 'study' && resume) {
     const savedStudyRaw = localStorage.getItem(studyProgressKey);
     if (savedStudyRaw) {
@@ -320,7 +330,6 @@ async function initSession() {
     }
   }
 
-  // Load Missed Vault (Single Professor Only)
   if (mode === 'missed') {
     const profSlug = getProfSlug(professor);
     const key = (typeof getStorageKey === 'function')
@@ -330,7 +339,7 @@ async function initSession() {
     const rawMissed = localStorage.getItem(key);
     if (!rawMissed) {
       alert(getTranslation('no_missed_alert'));
-      window.location.href = '/';
+      window.location.href = './';
       return;
     }
     const missedList = JSON.parse(rawMissed);
@@ -346,7 +355,6 @@ async function initSession() {
     let rawQuestions = [];
 
     if (isSubjectWide && Array.isArray(professors) && professors.length > 0) {
-      // --- Fetch JSONs for ALL professors in parallel ---
       const fetchPromises = professors.map(async (profName) => {
         const pSlug = getProfSlug(profName);
         const filePath = `data/${major.toLowerCase()}/year${year}/sem${semester}/${subject.toLowerCase()}/${pSlug}.json`;
@@ -354,7 +362,6 @@ async function initSession() {
           const res = await fetch(`${filePath}?t=${Date.now()}`);
           if (!res.ok) return [];
           const data = await res.json();
-          // Tag each question with its professor's name for vault routing
           return (data.questions || []).map(q => ({ ...q, professor: profName }));
         } catch (err) {
           console.warn(`Could not load questions for ${profName}:`, err);
@@ -365,7 +372,6 @@ async function initSession() {
       const results = await Promise.all(fetchPromises);
       rawQuestions = results.flat();
     } else {
-      // --- Single Professor JSON Fetch ---
       const profSlug = getProfSlug(professor);
       const filePath = `data/${major.toLowerCase()}/year${year}/sem${semester}/${subject.toLowerCase()}/${profSlug}.json`;
       const response = await fetch(`${filePath}?t=${Date.now()}`);
@@ -394,7 +400,7 @@ async function initSession() {
     }
   } catch (error) {
     alert(getTranslation('load_error_alert', { path: subject }));
-    window.location.href = '/';
+    window.location.href = './';
   } finally {
     if (loadingOverlay) loadingOverlay.classList.add('hidden');
   }
@@ -412,7 +418,6 @@ function prepareShuffledQuestion(q) {
   };
 }
 
-// Timer Logic
 function startQuizTimer() {
   clearInterval(timerInterval);
   timeRemaining = 3600;
@@ -441,7 +446,6 @@ function updateTimerUI() {
   timerDisplay.textContent = `⏱️ ${minutes}:${seconds}`;
 }
 
-// Auto-save Study progress
 function saveStudyProgress() {
   if (sessionConfig && sessionConfig.mode === 'study') {
     const studyProgressKey = getStudyStorageKey();
@@ -456,7 +460,6 @@ function saveStudyProgress() {
   }
 }
 
-// Study Mode Renderer
 function renderStudyMode() {
   window.scrollTo(0, 0);
   const progressText = document.getElementById('progress-text');
@@ -484,7 +487,6 @@ function renderStudyMode() {
     qTitle.textContent = `${qIndex + 1}. ${q.question}`;
     qCard.appendChild(qTitle);
 
-    // Render Question Images for Study Mode
     const imgList = getImageList(q);
     if (imgList.length > 0) {
       const imgWrapper = document.createElement('div');
@@ -616,7 +618,6 @@ function handleStudyOptionClick(qIndex, selectedIndex, selectedBtn, optsDiv) {
   }, 1000);
 }
 
-// Quiz Mode Renderer
 function renderQuizQuestion() {
   const nextBtn = document.getElementById('next-btn');
   const optionsContainer = document.getElementById('options-container');
@@ -637,7 +638,6 @@ function renderQuizQuestion() {
   
   if (questionText) questionText.textContent = q.question;
 
-  // Handle Question Images in Quiz Mode
   if (imgWrapper) {
     const imgList = getImageList(q);
     imgWrapper.innerHTML = '';
@@ -684,6 +684,8 @@ function renderQuizQuestion() {
     btn.addEventListener('click', () => handleQuizOptionClick(index, btn));
     optionsContainer.appendChild(btn);
   });
+
+  preloadNextQuestionImages(currentQuestionIndex, questions);
 }
 
 function handleQuizOptionClick(selectedIndex, selectedBtn) {
@@ -718,7 +720,6 @@ function handleQuizOptionClick(selectedIndex, selectedBtn) {
   }
 }
 
-// Session Completion Handler
 function finishSession() {
   clearInterval(timerInterval);
   cancelAutoScroll();
@@ -767,7 +768,7 @@ function finishSession() {
   };
 
   sessionStorage.setItem('lastQuizResult', JSON.stringify(lastQuizResult));
-  window.location.href = '/result';
+  window.location.href = 'result';
 }
 
 function handleStudyScroll() {
@@ -809,7 +810,6 @@ function scrollToLatestUnansweredQuestion() {
   }
 }
 
-// Fullscreen Toggle Logic
 function toggleFullscreen() {
   const docEl = document.documentElement;
   const isFs = document.fullscreenElement || document.webkitFullscreenElement || document.msFullscreenElement;

@@ -9,17 +9,17 @@ const translations = {
     nav_about: "ABOUT",
     nav_contact: "CONTACT US",
     nav_account: "MY ACCOUNT",
-    nav_donate: "☕ Support Us",
-    donate_modal_title: "☕ Support testforuhs.com",
+    nav_donate: '<i data-lucide="coffee" style="width: 18px; height: 18px;"></i> Support Us',
+    donate_modal_title: "Support testforuhs.com",
     donate_modal_desc: "Your donations help keep the platform free, maintain servers, and add new study features!",
     btn_close: "Close",
-    donate_tagline: "Every little bit is greatly appreciated! Thank you for your support 😊",
+    donate_tagline: 'Every little bit is greatly appreciated! Thank you for your support <i data-lucide="smile" style="width:18px;height:18px;"></i>',
     donate_cta: "You may donate through our KHQR here.",
 
     // Landing & Page Headers
     landing_title: "Medical Study Platform",
     landing_sub: "Select your year, review saved missed questions, or test your knowledge.",
-    btn_start_study: "🚀 Start Studying",
+    btn_start_study: '<i data-lucide="rocket" style="width:20px;height:20px;"></i> Start Studying',
     title_select_major: "Select Major",
     title_select_year: "{major} - Select Academic Year",
     title_select_semester: "{major} Year {year} - Select Semester",
@@ -28,11 +28,11 @@ const translations = {
     click_select_prof: "Click to select professor",
 
     // Back Buttons
-    btn_back_home: "⬅️ Back to Home",
-    btn_back_majors: "⬅️ Back to Majors",
-    btn_back_years: "⬅️ Back to Years",
-    btn_back_semesters: "⬅️ Back to Semesters",
-    btn_back_subjects: "⬅️ Back to Subjects",
+    btn_back_home: '<i data-lucide="arrow-left" style="width:18px;height:18px;"></i> Back to Home',
+    btn_back_majors: '<i data-lucide="arrow-left" style="width:18px;height:18px;"></i> Back to Majors',
+    btn_back_years: '<i data-lucide="arrow-left" style="width:18px;height:18px;"></i> Back to Years',
+    btn_back_semesters: '<i data-lucide="arrow-left" style="width:18px;height:18px;"></i> Back to Semesters',
+    btn_back_subjects: '<i data-lucide="arrow-left" style="width:18px;height:18px;"></i> Back to Subjects',
 
     // Cards (Major / Year / Semester)
     major_med: "Medicine (MED)",
@@ -46,12 +46,12 @@ const translations = {
     semester_2: "Semester 2",
 
     // Study & Professor Actions
-    btn_subject_quiz: "📝 Subject Quiz (60 Qs)",
-    btn_subject_study_all: "📖 Study All",
-    btn_study: "📖 Study",
-    btn_review_missed: "🎯 Review Missed",
-    btn_clear_missed: "🗑️ Clear Saved Missed",
-    missed_badge: "⚠️ {count} saved missed question(s)",
+    btn_subject_quiz: '<i data-lucide="file-text" style="width:16px;height:16px;"></i> Subject Quiz (60 Qs)',
+    btn_subject_study_all: '<i data-lucide="book-open" style="width:16px;height:16px;"></i> Study All',
+    btn_study: '<i data-lucide="book-open" style="width:16px;height:16px;"></i> Study',
+    btn_review_missed: '<i data-lucide="target" style="width:16px;height:16px;"></i> Review Missed',
+    btn_clear_missed: '<i data-lucide="trash-2" style="width:16px;height:16px;"></i> Clear Saved Missed',
+    missed_badge: '<i data-lucide="alert-triangle" style="width:14px;height:14px;"></i> {count} saved missed question(s)',
     loading_text: "Loading Questions...",
     subject_assessments_title: "{subject} - Subject Assessments",
     subject_assessments_desc: "Test your knowledge or study across all professors in this subject combined.",
@@ -59,7 +59,7 @@ const translations = {
     // Leave Guard Modal
     btn_cancel: "Cancel",
     btn_leave: "Leave",
-    leave_modal_title: "⚠️ Leave Study Session?",
+    leave_modal_title: "Leave Study Session?",
     leave_modal_desc: "Your active test progress will be lost.",
 
     // Contact / Feedback Page
@@ -68,21 +68,21 @@ const translations = {
     contact_desc_label: "Description:",
     contact_placeholder: "Describe what is wrong with the question...",
     contact_upload_label: "Upload Screenshot (Optional):",
-    contact_submit_btn: "📤 Send Feedback",
+    contact_submit_btn: '<i data-lucide="send" style="width:16px;height:16px;"></i> Send Feedback',
     contact_reports_header: "My Submitted Reports",
-    contact_modal_title: "⚠️ Confirm Submission",
+    contact_modal_title: "Confirm Submission",
     contact_modal_desc: "Are you sure? You can only send feedback once every 30 minutes.",
-    cooldown_alert: "⏱️ Cooldown Active:\nPlease wait {mins} minute(s) before sending feedback again.",
+    cooldown_alert: "Cooldown Active:\nPlease wait {mins} minute(s) before sending feedback again.",
     btn_send: "Send",
-    status_pending: "⏳ Pending Review",
-    status_checked: "✅ Reviewed & Fixed",
+    status_pending: "Pending Review",
+    status_checked: "Reviewed & Fixed",
     no_reports: "You haven't submitted any feedback reports yet.",
 
     // Vault & Account Page
     account_title: "My Account",
     account_sub: "View your performance analytics, study habits, and saved question vaults.",
-    tab_stats: "📊 Analytics & Stats",
-    tab_vault: "🗂️ Vault & Settings",
+    tab_stats: '<i data-lucide="bar-chart-2" style="width:16px;height:16px;"></i> Analytics & Stats',
+    tab_vault: '<i data-lucide="archive" style="width:16px;height:16px;"></i> Vault & Settings',
     stats_overview_title: "Overall Accuracy",
     stats_total_questions: "Questions Attempted",
     stats_correct_answers: "Correct Answers",
@@ -92,33 +92,33 @@ const translations = {
     stats_filter_all: "All Subjects",
     stats_empty_data: "No study analytics recorded yet. Complete quizzes or study sessions to build your stats!",
 
-    account_pref_title: "⚙️ Quiz Preferences",
+    account_pref_title: "Quiz Preferences",
     account_autoadv_title: "Auto-advance in Quiz Mode",
-    account_autoadv_desc: "Automatically move to the next question after selecting an option without having to click \"Next Question\".",
-    account_vault_title: "📦 Missed Questions Vault",
-    account_empty_vault: "🎉 Fantastic! You have 0 missed questions in your vault.",
-    btn_select: "☑️ Select",
-    btn_cancel_select: "❌ Cancel",
+    account_autoadv_desc: 'Automatically move to the next question after selecting an option without having to click "Next Question".',
+    account_vault_title: "Missed Questions Vault",
+    account_empty_vault: "Fantastic! You have 0 missed questions in your vault.",
+    btn_select: '<i data-lucide="check-square" style="width:16px;height:16px;"></i> Select',
+    btn_cancel_select: '<i data-lucide="x" style="width:16px;height:16px;"></i> Cancel',
     btn_select_all: "Select All",
     btn_deselect_all: "Deselect All",
-    btn_delete_selected: "🗑️ Delete Selected ({count})",
-    delete_modal_title: "⚠️ Are you sure?",
+    btn_delete_selected: '<i data-lucide="trash-2" style="width:16px;height:16px;"></i> Delete Selected ({count})',
+    delete_modal_title: "Are you sure?",
     delete_modal_desc: "Are you sure you want to permanently delete missed questions from {count} selected subject(s)?",
     btn_confirm_delete: "Yes, Delete",
-    anki_modal_title: "📦 Export to Anki (.txt)",
+    anki_modal_title: "Export to Anki (.txt)",
     anki_modal_desc: "How would you like to process these questions after downloading?",
-    btn_anki_keep: "📥 Export & Keep in Vault",
-    btn_anki_clear: "🗑️ Export & Clear Subject Vault",
-    card_prof_label: "👨‍🏫 Professor: {prof}",
-    card_practice_missed: "🎯 Practice Missed ({count})",
-    card_export_anki: "📦 Export to Anki (.txt)",
+    btn_anki_keep: '<i data-lucide="download" style="width:16px;height:16px;"></i> Export & Keep in Vault',
+    btn_anki_clear: '<i data-lucide="trash-2" style="width:16px;height:16px;"></i> Export & Clear Subject Vault',
+    card_prof_label: "Professor: {prof}",
+    card_practice_missed: '<i data-lucide="target" style="width:16px;height:16px;"></i> Practice Missed ({count})',
+    card_export_anki: '<i data-lucide="package" style="width:16px;height:16px;"></i> Export to Anki (.txt)',
 
     // About Page
     about_title: "About TestforUHS",
     about_sub: "A free, dedicated study and self-assessment platform for medical students.",
-    about_mission_title: "🎯 Our Mission",
+    about_mission_title: '<i data-lucide="target" style="width:20px;height:20px;display:inline-block;vertical-align:middle;"></i> Our Mission',
     about_mission_desc: "TestforUHS was created to give medical students an intuitive, accessible way to review questions, practice exam simulation, and track missed topics across their academic years—100% free of charge.",
-    about_funding_title: "🤝 How TestforUHS Stays Free & Funded",
+    about_funding_title: '<i data-lucide="heart-handshake" style="width:20px;height:20px;display:inline-block;vertical-align:middle;"></i> How TestforUHS Stays Free & Funded',
     about_funding_desc: "To keep this platform open and free for everyone without charging subscriptions or putting study materials behind paywalls, we cover server, domain, and maintenance costs using two transparent methods:",
     about_ad_title: "1. Non-Intrusive Advertisements (Google AdSense)",
     about_ad_loc: "<strong>Where ads appear:</strong> Only at the bottom of the Home page and on the Session Results summary page.",
@@ -126,16 +126,16 @@ const translations = {
     about_ad_filter: "<strong>Strict Content Filtering:</strong> All advertisements are heavily filtered. We strictly block adult content, social casino/gambling, clickbait, and misleading supplements.",
     about_donate_title: "2. Voluntary Community Support (KHQR Donations)",
     about_donate_desc: "If TestforUHS helps you in your studies, you can voluntarily support platform development via our Support Us button (KHQR). Every contribution directly covers domain fees and hosting infrastructure. Donations are completely optional and unlock no special privileges—every student receives full access to all features.",
-    about_privacy_title: "🔒 Our Privacy Promise",
+    about_privacy_title: '<i data-lucide="shield-check" style="width:20px;height:20px;display:inline-block;vertical-align:middle;"></i> Our Privacy Promise',
     about_privacy_desc: "Your study progress, missed questions, and test scores are stored locally inside your browser (localStorage). We do not track your personal study choices or sell student data to third parties.",
 
     // Morale Boost Messages
-    morale_1: "💪 You can do this! I believe in you.",
-    morale_2: "🏃 Don't lose hope. You still have time.",
-    morale_3: "🌟 You can try again. Maybe next time it'll be better.",
-    morale_4: "🌱 Don't be scared, This is not the real exam.",
-    morale_5: "🛡️ Don't be sad, I'll be here for you until you get a good scoring.",
-    morale_6: "🩺 Rest for a bit. Then try again later 💞",
+    morale_1: "You can do this! I believe in you.",
+    morale_2: "Don't lose hope. You still have time.",
+    morale_3: "You can try again. Maybe next time it'll be better.",
+    morale_4: "Don't be scared, This is not the real exam.",
+    morale_5: "Don't be sad, I'll be here for you until you get a good scoring.",
+    morale_6: "Rest for a bit. Then try again later",
 
     // Quiz
     mode_study: "STUDY",
@@ -143,19 +143,19 @@ const translations = {
     mode_missed: "MISSED",
     quiz_progress: "Question {current} of {total}",
     study_progress: "Total Questions: {total} (Answered: {answered})",
-    btn_next_question: "Next Question ➡️",
-    btn_finish_quiz: "Finish Quiz 🏁",
-    btn_fullscreen: "⛶ Fullscreen",
+    btn_next_question: 'Next Question <i data-lucide="arrow-right" style="width:16px;height:16px;"></i>',
+    btn_finish_quiz: "Finish Quiz",
+    btn_fullscreen: "Fullscreen",
     btn_exit_fullscreen: "Exit Fullscreen",
-    time_up_alert: "⏱️ Time is up! Submitting your quiz now.",
+    time_up_alert: "Time is up! Submitting your quiz now.",
     no_missed_alert: "No saved missed questions found for this professor!",
-    load_error_alert: "Could not load questions!\nMake sure your file exists at:\n\"{path}\"",
+    load_error_alert: 'Could not load questions!\nMake sure your file exists at:\n"{path}"',
     leave_modal_desc_study: "Are you sure you want to leave? Your progress will be saved, don't worry!",
     leave_modal_desc_quiz: "Are you sure you want to leave? Your active timed quiz progress will be lost.",
 
     // Result
-    review_perfect_score: "🎉 Perfect score! You answered all questions correctly!",
-    review_unanswered: "⚠️ Unanswered / Skipped",
+    review_perfect_score: "Perfect score! You answered all questions correctly!",
+    review_unanswered: "Unanswered / Skipped",
     label_your_choice: "Your Choice",
     label_correct_choice: "Correct Choice",
     account_review_style_title: "Result Review Display Style",
@@ -164,12 +164,12 @@ const translations = {
     option_style_full: "Full Options View",
 
     // Continue Study
-    btn_continue_study: "▶️ Continue ({answered}/{total})",
-    btn_restart_study: "🔄 Restart Study All",
+    btn_continue_study: '<i data-lucide="play" style="width:16px;height:16px;"></i> Continue ({answered}/{total})',
+    btn_restart_study: '<i data-lucide="rotate-ccw" style="width:16px;height:16px;"></i> Restart Study All',
 
     // Coming Soon
     coming_soon_title: "Coming Soon!",
-    coming_soon_sub: "There is nothing here yet. Sorry🙏.",
+    coming_soon_sub: "There is nothing here yet. Sorry.",
   },
   km: {
     // Navigation & Modals
@@ -177,17 +177,17 @@ const translations = {
     nav_about: "អំពីពួកយើង",
     nav_contact: "ទំនាក់ទំនង",
     nav_account: "គណនីខ្ញុំ",
-    nav_donate: "☕ ឧបត្ថម្ភ",
-    donate_modal_title: "☕ ឧបត្ថម្ភ testforuhs.com",
+    nav_donate: '<i data-lucide="coffee" style="width:18px;height:18px;"></i> ឧបត្ថម្ភ',
+    donate_modal_title: "ឧបត្ថម្ភ testforuhs.com",
     donate_modal_desc: "ការឧបត្ថម្ភរបស់លោកអ្នកជួយគាំទ្រដល់ការចំណាយលើ Server និងអភិវឌ្ឍន៍កម្មវិធីសិក្សាឱ្យនៅតែឥតគិតថ្លៃ!",
     btn_close: "បិទ",
-    donate_tagline: "ទៅតាមទឹកចិត្តរបស់អ្នករៀងៗខ្លួន។ តិចឬច្រើន គឺជាការលើកទឹកចិត្តយ៉ាងធំធេង! អរគុណសម្រាប់ការគាំទ្រ 😊",
+    donate_tagline: 'ទៅតាមទឹកចិត្តរបស់អ្នករៀងៗខ្លួន។ តិចឬច្រើន គឺជាការលើកទឹកចិត្តយ៉ាងធំធេង! អរគុណសម្រាប់ការគាំទ្រ <i data-lucide="smile" style="width:18px;height:18px;"></i>',
     donate_cta: "អ្នកអាចធ្វើការឧបត្ថម្ភតាមរយៈ KHQR នៅទីនេះ៖",
 
     // Landing & Page Headers
     landing_title: "កម្មវិធីសិក្សាវេជ្ជសាស្ត្រ",
     landing_sub: "ជ្រើសរើសឆ្នាំសិក្សា រំលឹកសំណួរដែលខុស ឬប្រឡងតេស្តសមត្ថភាព។",
-    btn_start_study: "🚀 ចាប់ផ្តើមសិក្សា",
+    btn_start_study: '<i data-lucide="rocket" style="width:20px;height:20px;"></i> ចាប់ផ្តើមសិក្សា',
     title_select_major: "ជ្រើសរើសជំនាញសិក្សា",
     title_select_year: "{major} - ជ្រើសរើសឆ្នាំសិក្សា",
     title_select_semester: "{major} ឆ្នាំទី {year} - ជ្រើសរើសឆមាស",
@@ -196,11 +196,11 @@ const translations = {
     click_select_prof: "ចុចទីនេះដើម្បីជ្រើសរើសសាស្ត្រាចារ្យ",
 
     // Back Buttons
-    btn_back_home: "⬅️ ត្រឡប់ទៅទំព័រដើម",
-    btn_back_majors: "⬅️ ត្រឡប់ទៅជំនាញ",
-    btn_back_years: "⬅️ ត្រឡប់ទៅឆ្នាំសិក្សា",
-    btn_back_semesters: "⬅️ ត្រឡប់ទៅឆមាស",
-    btn_back_subjects: "⬅️ ត្រឡប់ទៅមុខវិជ្ជា",
+    btn_back_home: '<i data-lucide="arrow-left" style="width:18px;height:18px;"></i> ត្រឡប់ទៅទំព័រដើម',
+    btn_back_majors: '<i data-lucide="arrow-left" style="width:18px;height:18px;"></i> ត្រឡប់ទៅជំនាញ',
+    btn_back_years: '<i data-lucide="arrow-left" style="width:18px;height:18px;"></i> ត្រឡប់ទៅឆ្នាំសិក្សា',
+    btn_back_semesters: '<i data-lucide="arrow-left" style="width:18px;height:18px;"></i> ត្រឡប់ទៅឆមាស',
+    btn_back_subjects: '<i data-lucide="arrow-left" style="width:18px;height:18px;"></i> ត្រឡប់ទៅមុខវិជ្ជា',
 
     // Cards (Major / Year / Semester)
     major_med: "វេជ្ជសាស្ត្រ (MED)",
@@ -214,12 +214,12 @@ const translations = {
     semester_2: "ឆមាសទី ២",
 
     // Study & Professor Actions
-    btn_subject_quiz: "📝 ប្រឡងតេស្ត (៦០ សំណួរ)",
-    btn_subject_study_all: "📖 សិក្សាទាំងអស់",
-    btn_study: "📖 សិក្សា",
-    btn_review_missed: "🎯 រំលឹកសំណួរខុស",
-    btn_clear_missed: "🗑️ លុបសំណួរខុស",
-    missed_badge: "⚠️ {count} សំណួរខុសដែលបានរក្សាទុក",
+    btn_subject_quiz: '<i data-lucide="file-text" style="width:16px;height:16px;"></i> ប្រឡងតេស្ត (៦០ សំណួរ)',
+    btn_subject_study_all: '<i data-lucide="book-open" style="width:16px;height:16px;"></i> សិក្សាទាំងអស់',
+    btn_study: '<i data-lucide="book-open" style="width:16px;height:16px;"></i> សិក្សា',
+    btn_review_missed: '<i data-lucide="target" style="width:16px;height:16px;"></i> រំលឹកសំណួរខុស',
+    btn_clear_missed: '<i data-lucide="trash-2" style="width:16px;height:16px;"></i> លុបសំណួរខុស',
+    missed_badge: '<i data-lucide="alert-triangle" style="width:14px;height:14px;"></i> {count} សំណួរខុសដែលបានរក្សាទុក',
     loading_text: "កំពុងទាញយកសំណួរ...",
     subject_assessments_title: "{subject} - ការវាយតម្លៃប្រចាំមុខវិជ្ជា",
     subject_assessments_desc: "ធ្វើតេស្តសមត្ថភាព ឬសិក្សារំលឹកសំណួររួមគ្នាតាមសាស្ត្រាចារ្យទាំងអស់ក្នុងមុខវិជ្ជានេះ។",
@@ -227,7 +227,7 @@ const translations = {
     // Leave Guard Modal
     btn_cancel: "បោះបង់",
     btn_leave: "ចាកចេញ",
-    leave_modal_title: "⚠️ តើអ្នកពិតជាចង់ចាកចេញឬ?",
+    leave_modal_title: "តើអ្នកពិតជាចង់ចាកចេញឬ?",
     leave_modal_desc: "ការវិវឌ្ឍនៃការធ្វើតេស្តរបស់អ្នកនឹងត្រូវបាត់បង់។",
 
     // Contact / Feedback Page
@@ -236,22 +236,22 @@ const translations = {
     contact_desc_label: "ការបរិយាយ:",
     contact_placeholder: "សូមរៀបរាប់អំពីបញ្ហានៃសំណួរ ឬចម្លើយ...",
     contact_upload_label: "បង្ហោះរូបភាពគំរូ/រូបភាពប្រក្រតី (ជម្រើស):",
-    contact_submit_btn: "📤 ផ្ញើការរាយការណ៍",
+    contact_submit_btn: '<i data-lucide="send" style="width:16px;height:16px;"></i> ផ្ញើការរាយការណ៍',
     contact_reports_header: "ការរាយការណ៍ដែលបានផ្ញើ",
-    contact_modal_title: "⚠️ បញ្ជាក់ការផ្ញើ",
+    contact_modal_title: "បញ្ជាក់ការផ្ញើ",
     contact_modal_desc: "តើអ្នកពិតជាចង់ផ្ញើមែនទេ? អ្នកអាចផ្ញើការរាយការណ៍បានតែម្តងគត់ក្នុងរយៈពេល ៣០ នាទី។",
-    cooldown_alert: "⏱️ រយៈពេលរង់ចាំ:\nសូមរង់ចាំ {mins} នាទីទៀតមុនពេលផ្ញើម្តងទៀត។",
+    cooldown_alert: "រយៈពេលរង់ចាំ:\nសូមរង់ចាំ {mins} នាទីទៀតមុនពេលផ្ញើម្តងទៀត។",
     btn_send: "ផ្ញើ",
-    status_pending: "⏳ កំពុងរង់ចាំការពិនិត្យ",
-    status_checked: "✅ បានពិនិត្យ និងកែប្រែរួចរាល់",
+    status_pending: "កំពុងរង់ចាំការពិនិត្យ",
+    status_checked: "បានពិនិត្យ និងកែប្រែរួចរាល់",
     no_reports: "អ្នកមិនទាន់មានការរាយការណ៍នៅឡើយទេ។",
 
     // Vault & Account Page
     account_title: "គណនីរបស់ខ្ញុំ",
     account_sub: "ពិនិត្យមើលស្ថិតិនៃការសិក្សា ភាពត្រឹមត្រូវ និងឃ្លាំងសំណួរខុសរបស់អ្នក។",
-    tab_stats: "📊 ស្ថិតិ និងការវិភាគ",
-    tab_vault: "🗂️ ឃ្លាំង និងការកំណត់",
-    stats_overview_title: "ភាពត្រឹមត្រូវសរុប",
+    tab_stats: '<i data-lucide="bar-chart-2" style="width:16px;height:16px;"></i> ស្ថិតិ និងការវិភាគ',
+    tab_vault: '<i data-lucide="archive" style="width:16px;height:16px;"></i> ឃ្លាំង និងការកំណត់',
+    stats_overview_title: "អត្រាភាពត្រឹមត្រូវសរុប",
     stats_total_questions: "សំណួរដែលបានធ្វើសរុប",
     stats_correct_answers: "ចម្លើយត្រឹមត្រូវ",
     stats_incorrect_answers: "ចម្លើយមិនត្រឹមត្រូវ",
@@ -260,50 +260,50 @@ const translations = {
     stats_filter_all: "គ្រប់មុខវិជ្ជាទាំងអស់",
     stats_empty_data: "មិនទាន់មានទិន្នន័យស្ថិតិនៅឡើយទេ។ សូមធ្វើតេស្ត ឬសិក្សាសំណួរដើម្បីបង្កើតស្ថិតិ!",
 
-    account_pref_title: "⚙️ កម្រិតកំណត់ការប្រឡង",
+    account_pref_title: "កម្រិតកំណត់ការប្រឡង",
     account_autoadv_title: "ប្តូរទៅសំណួរបន្ទាប់ដោយស្វ័យប្រវត្តិ",
     account_autoadv_desc: "ផ្លាស់ទីទៅសំណួរបន្ទាប់ដោយស្វ័យប្រវត្តិតែម្ដង បន្ទាប់ពីជ្រើសរើសចម្លើយរួច។",
-    account_vault_title: "📦 ឃ្លាំងសំណួរខុស",
-    account_empty_vault: "🎉 អស្ចារ្យណាស់! អ្នកគ្មានសំណួរដែលខុសនៅក្នុងឃ្លាំងទេ។",
-    btn_select: "☑️ ជ្រើសរើស",
-    btn_cancel_select: "❌ បោះបង់",
+    account_vault_title: "ឃ្លាំងសំណួរខុស",
+    account_empty_vault: "អស្ចារ្យណាស់! អ្នកគ្មានសំណួរដែលខុសនៅក្នុងឃ្លាំងទេ។",
+    btn_select: '<i data-lucide="check-square" style="width:16px;height:16px;"></i> ជ្រើសរើស',
+    btn_cancel_select: '<i data-lucide="x" style="width:16px;height:16px;"></i> បោះបង់',
     btn_select_all: "ជ្រើសរើសទាំងអស់",
     btn_deselect_all: "បោះបង់ការជ្រើសរើសទាំងអស់",
-    btn_delete_selected: "🗑️ លុបដែលបានជ្រើស ({count})",
-    delete_modal_title: "⚠️ តើអ្នកពិតជាប្រាកដមែនទេ?",
+    btn_delete_selected: '<i data-lucide="trash-2" style="width:16px;height:16px;"></i> លុបដែលបានជ្រើស ({count})',
+    delete_modal_title: "តើអ្នកពិតជាប្រាកដមែនទេ?",
     delete_modal_desc: "តើអ្នកពិតជាប្រាកដថានឹងលុបសំណួរខុសដែលបានជ្រើសចំនួន {count} មុខវិជ្ជាមែនទេ? ការធ្វើបែបនេះមិនអាចត្រឡប់ក្រោយបានទេ។",
     btn_confirm_delete: "បាទ/ចាស លុប",
-    anki_modal_title: "📦 នាំចេញទៅ Anki (.txt)",
+    anki_modal_title: "នាំចេញទៅ Anki (.txt)",
     anki_modal_desc: "តើអ្នកចង់រក្សាទុកសំណួរទាំងនេះយ៉ាងដូចម្តេច បន្ទាប់ពីទាញយករួច?",
-    btn_anki_keep: "📥 នាំចេញ និងរក្សាទុកក្នុងឃ្លាំង",
-    btn_anki_clear: "🗑️ នាំចេញ និងលុបចេញពីឃ្លាំង",
-    card_prof_label: "👨‍🏫 សាស្ត្រាចារ្យ៖ {prof}",
-    card_practice_missed: "🎯 អនុវត្តសំណួរខុស ({count})",
-    card_export_anki: "📦 នាំចេញទៅ Anki (.txt)",
+    btn_anki_keep: '<i data-lucide="download" style="width:16px;height:16px;"></i> នាំចេញ និងរក្សាទុកក្នុងឃ្លាំង',
+    btn_anki_clear: '<i data-lucide="trash-2" style="width:16px;height:16px;"></i> នាំចេញ និងលុបចេញពីឃ្លាំង',
+    card_prof_label: "សាស្ត្រាចារ្យ៖ {prof}",
+    card_practice_missed: '<i data-lucide="target" style="width:16px;height:16px;"></i> អនុវត្តសំណួរខុស ({count})',
+    card_export_anki: '<i data-lucide="package" style="width:16px;height:16px;"></i> នាំចេញទៅ Anki (.txt)',
 
     // About Page
     about_title: "អំពី TestforUHS",
     about_sub: "កម្មវិធីសិក្សា និងវាយតម្លៃសមត្ថភាពដោយឥតគិតថ្លៃសម្រាប់និស្សិតវេជ្ជសាស្ត្រ។",
-    about_mission_title: "🎯 បេសកកម្មរបស់យើង",
+    about_mission_title: '<i data-lucide="target" style="width:20px;height:20px;display:inline-block;vertical-align:middle;"></i> បេសកកម្មរបស់យើង',
     about_mission_desc: "TestforUHS ត្រូវបានបង្កើតឡើងដើម្បីផ្តល់ជូននិស្សិតវេជ្ជសាស្ត្រនូវវិធីងាយស្រួលក្នុងការរំលឹកសំណួរ ធ្វើតេស្តសមត្ថភាព និងតាមដានសំណួរដែលខុស—ដោយឥតគិតថ្លៃ ១០០%។",
-    about_funding_title: "🤝 របៀបដែល TestforUHS ដំណើរការដោយឥតគិតថ្លៃ",
+    about_funding_title: '<i data-lucide="heart-handshake" style="width:20px;height:20px;display:inline-block;vertical-align:middle;"></i> របៀបដែល TestforUHS ដំណើរការដោយឥតគិតថ្លៃ',
     about_funding_desc: "ដើម្បីរក្សាកម្មវិធីនេះឱ្យនៅតែបើកចំហ និងឥតគិតថ្លៃសម្រាប់អ្នករាល់គ្នា ដោយមិនមានការបង់ប្រាក់ប្រចាំខែ ឬដាក់សម្ភារសិក្សានៅពីក្រោយ paywall យើងរ៉ាប់រងការចំណាយលើ Server, Domain និងការថែទាំតាមរយៈវិធីសាស្ត្រតម្លាភាពចំនួនពីរ៖",
     about_ad_title: "១. ពាណិជ្ជកម្មដែលមិនរំខានដល់ការសិក្សា (Google AdSense)",
-    about_ad_loc: "<strong>ទីតាំងបង្ហាញពាណិជ្ជកម្ម៖</strong> មានតែនៅផ្នែកខាងក្រោមនៃទំព័រដើម និងទំព័រសរុបលទ្ធផលប៉ុណ្ណោះ។",
+    about_ad_loc: "<strong>ទីតាំងបង្ហាញពាណិជ្ជកម្ម៖</strong> មានតែនៅផ្នែកខាងក្រោមនៃទំព័រដើម និងទំព័រសរុបលទ្ធផលប៉ុណោះ។",
     about_ad_zero: "<strong>គ្មានការរំខាន៖</strong> យើងមិនដែលដាក់ពាណិជ្ជកម្មនៅក្នុងផ្ទាំងប្រឡង ឬផ្ទាំងសិក្សាឡើយ ដើម្បីឱ្យអារម្មណ៍របស់អ្នកផ្តោតលើការសិក្សា ១០០%។",
     about_ad_filter: "<strong>ការចោះត្រងខ្លឹមសារយ៉ាងតឹងរ៉ឹង៖</strong> ពាណិជ្ជកម្មទាំងអស់ត្រូវប្រយ័ត្នប្រយែងបំផុត។ យើងបិទពាណិជ្ជកម្មអាសអាភាស ល្បែងស៊ីសង ព័ត៌មានបោកប្រាស់ និងអាហារបំប៉នភូតភរ។",
     about_donate_title: "២. ការចូលរួមគាំទ្រពីសហគមន៍ (ការឧបត្ថម្ភតាម KHQR)",
     about_donate_desc: "ប្រសិនបើ TestforUHS មានប្រយោជន៍ដល់ការសិក្សារបស់អ្នក អ្នកអាចស្ម័គ្រចិត្តចូលរួមឧបត្ថម្ភការអភិវឌ្ឍតាមរយៈប៊ូតុង ឧបត្ថម្ភ (KHQR)។ ថវិកាភាគច្រើនត្រូវប្រើប្រាស់លើថ្លៃ Domain និង Server។ ការឧបត្ថម្ភគឺអាស្រ័យលើទឹកចិត្ត ហើយមិនទទួលបានឯកសិទ្ធិពិសេសឡើយ—និស្សិតគ្រប់រូបទទួលបានការប្រើប្រាស់មុខងារទាំងអស់ស្មើៗគ្នា។",
-    about_privacy_title: "🔒 ការប្តេជ្ញាចិត្តលើឯកជនភាព",
+    about_privacy_title: '<i data-lucide="shield-check" style="width:20px;height:20px;display:inline-block;vertical-align:middle;"></i> ការប្តេជ្ញាចិត្តលើឯកជនភាព',
     about_privacy_desc: "ការវិវឌ្ឍនៃការសិក្សា សំណួរដែលខុស និងពិន្ទុតេស្តរបស់អ្នកត្រូវបានរក្សាទុកនៅក្នុងកម្មវិធីជ្រាវជ្រោល (browser) របស់អ្នកផ្ទាល់ (localStorage)។ យើងមិនតាមដានទិន្នន័យផ្ទាល់ខ្លួន ឬលក់ទិន្នន័យនិស្សិតទៅកាន់ភាគីទីបីឡើយ។",
 
     // Morale Boost Messages
-    morale_1: "💪 You​ នឹងធ្វើបាន! ខ្ញុំជឿចឹង",
-    morale_2: "🏃 កុំអស់សង្ឃឹមអី យើងនៅសល់ពេលទៀត។",
-    morale_3: "🌟 ខុសប៉ុណ្ណឹងមានអី យើងនៅសាកម្តងទៀតបាន",
-    morale_4: "🌱 នេះមិនមែនជាការប្រឡងពិតទេ កុំភ័យអី",
-    morale_5: "🛡️ កុំពិបាកចិត្តអី ខ្ញុំនឹងនៅរង់ចាំពេល you ធ្វើបានសម្រេចល្អ",
-    morale_6: "🩺 សម្រាកមួយភ្លែតសិន។ ចាំសាកម្តងទៀតពេលក្រាយ 💞",
+    morale_1: "You នឹងធ្វើបាន! ខ្ញុំជឿចឹង",
+    morale_2: "កុំអស់សង្ឃឹមអី យើងនៅសល់ពេលទៀត។",
+    morale_3: "ខុសប៉ុណ្ណឹងមានអី យើងនៅសាកម្តងទៀតបាន",
+    morale_4: "នេះមិនមែនជាការប្រឡងពិតទេ កុំភ័យអី",
+    morale_5: "កុំពិបាកចិត្តអី ខ្ញុំនឹងនៅរង់ចាំពេល you ធ្វើបានសម្រេចល្អ",
+    morale_6: "សម្រាកមួយភ្លែតសិន។ ចាំសាកម្តងទៀតពេលក្រាយ",
 
     // Quiz
     mode_study: "សិក្សា",
@@ -311,19 +311,19 @@ const translations = {
     mode_missed: "សំណួរខុស",
     quiz_progress: "សំណួរទី {current} នៃ {total}",
     study_progress: "សំណួរសរុប៖ {total} (បានឆ្លើយ៖ {answered})",
-    btn_next_question: "សំណួរបន្ទាប់ ➡️",
-    btn_finish_quiz: "បញ្ចប់ការប្រឡង 🏁",
-    btn_fullscreen: "⛶ ពេញអេក្រង់",
+    btn_next_question: 'សំណួរបន្ទាប់ <i data-lucide="arrow-right" style="width:16px;height:16px;"></i>',
+    btn_finish_quiz: "បញ្ចប់ការប្រឡង",
+    btn_fullscreen: "ពេញអេក្រង់",
     btn_exit_fullscreen: "ចាកចេញពីពេញអេក្រង់",
-    time_up_alert: "⏱️ អស់ពេលហើយ! ប្រព័ន្ធកំពុងបញ្ជូនចម្លើយរបស់អ្នក។",
+    time_up_alert: "អស់ពេលហើយ! ប្រព័ន្ធកំពុងបញ្ជូនចម្លើយរបស់អ្នក។",
     no_missed_alert: "មិនមានសំណួរខុសដែលបានរក្សាទុកសម្រាប់សាស្ត្រាចារ្យនេះទេ!",
-    load_error_alert: "មិនអាចទាញយកសំណួរបានទេ!\nសូមពិនិត្យមើលថាឯកសារមាននៅ៖\n\"{path}\"",
+    load_error_alert: 'មិនអាចទាញយកសំណួរបានទេ!\nសូមពិនិត្យមើលថាឯកសារមាននៅ៖\n"{path}"',
     leave_modal_desc_study: "តើអ្នកពិតជាចង់ចាកចេញឬ? កុំបារម្ភ ការវិវឌ្ឍរបស់អ្នកត្រូវបានរក្សាទុក!",
     leave_modal_desc_quiz: "ការវិវឌ្ឍនៃការធ្វើតេស្តប្រឡងរបស់អ្នកនឹងត្រូវបាត់បង់។",
 
     // Result
-    review_perfect_score: "🎉 ពិន្ទុពេញ! អ្នកបានឆ្លើយត្រូវគ្រប់សំណួរទាំងអស់!",
-    review_unanswered: "⚠️ មិនបានឆ្លើយ / បានរំលង",
+    review_perfect_score: "ពិន្ទុពេញ! អ្នកបានឆ្លើយត្រូវគ្រប់សំណួរទាំងអស់!",
+    review_unanswered: "មិនបានឆ្លើយ / បានរំលង",
     label_your_choice: "ចម្លើយរបស់អ្នក",
     label_correct_choice: "ចម្លើយត្រឹមត្រូវ",
     account_review_style_title: "ទម្រង់ពិនិត្យលទ្ធផលឡើងវិញ",
@@ -332,12 +332,12 @@ const translations = {
     option_style_full: "ទម្រង់ពេញ",
 
     // Continue Studying
-    btn_continue_study: "▶️ បន្ត ({answered}/{total})",
-    btn_restart_study: "🔄 ចាប់ផ្តើមសិក្សាឡើងវិញ",
+    btn_continue_study: '<i data-lucide="play" style="width:16px;height:16px;"></i> បន្ត ({answered}/{total})',
+    btn_restart_study: '<i data-lucide="rotate-ccw" style="width:16px;height:16px;"></i> ចាប់ផ្តើមសិក្សាឡើងវិញ',
 
     // Coming Soon
     coming_soon_title: "នឹងមកដល់ឆាប់ៗនេះ!",
-    coming_soon_sub: "ទំព័រនេះមិនទាន់មានអ្វីទេ។ សុំទោស​🙏",
+    coming_soon_sub: "ទំព័រនេះមិនទាន់មានអ្វីទេ។ សុំទោស",
   }
 };
 
@@ -375,6 +375,10 @@ function applyStaticTranslations() {
 
   const langSelect = document.getElementById('language-select');
   if (langSelect) langSelect.value = currentLang;
+
+  if (window.lucide) {
+    lucide.createIcons();
+  }
 }
 
 // Reload page cleanly on language toggle
@@ -427,10 +431,17 @@ function applyTheme(theme) {
   const themeToggleBtn = document.getElementById('theme-toggle-btn');
   if (theme === 'light') {
     document.documentElement.setAttribute('data-theme', 'light');
-    if (themeToggleBtn) themeToggleBtn.textContent = '☀️ Light';
+    if (themeToggleBtn) {
+      themeToggleBtn.innerHTML = '<i data-lucide="sun" style="width:16px;height:16px;"></i> Light';
+    }
   } else {
     document.documentElement.removeAttribute('data-theme');
-    if (themeToggleBtn) themeToggleBtn.textContent = '🌙 Dark';
+    if (themeToggleBtn) {
+      themeToggleBtn.innerHTML = '<i data-lucide="moon" style="width:16px;height:16px;"></i> Dark';
+    }
+  }
+  if (window.lucide) {
+    lucide.createIcons();
   }
 }
 
@@ -602,7 +613,7 @@ function setupSharedModals() {
 }
 
 // ==========================================================================
-// PREVENT DEVTOOLS & INSPECT SHORTCUTS
+// PREVENT DEVTOOLS KEYBOARD SHORTCUTS & RIGHT CLICK
 // ==========================================================================
 
 document.addEventListener('contextmenu', (e) => {
@@ -615,45 +626,16 @@ document.addEventListener('keydown', (e) => {
     return false;
   }
 
-  if (e.ctrlKey && e.shiftKey && ['I', 'J', 'C', 'i', 'j', 'c'].includes(e.key)) {
+  const isCmdOrCtrl = e.ctrlKey || e.metaKey;
+  const isShiftOrAlt = e.shiftKey || e.altKey;
+
+  if (isCmdOrCtrl && isShiftOrAlt && ['i', 'j', 'c'].includes(e.key.toLowerCase())) {
     e.preventDefault();
     return false;
   }
 
-  if (e.ctrlKey && ['U', 'S', 'u', 's'].includes(e.key)) {
+  if (isCmdOrCtrl && ['u', 's'].includes(e.key.toLowerCase())) {
     e.preventDefault();
     return false;
   }
 });
-
-// ==========================================================================
-// ANTI-DEBUGGING LOOP
-// ==========================================================================
-(function startAntiDebug() {
-  setInterval(() => {
-    (function () {}).constructor("debugger")();
-  }, 100);
-})();
-
-// ==========================================================================
-// DEVTOOLS DETECTION & PAGE WIPE
-// ==========================================================================
-(function detectDevTools() {
-  const detect = () => {
-    const threshold = 160;
-    const widthThreshold = window.outerWidth - window.innerWidth > threshold;
-    const heightThreshold = window.outerHeight - window.innerHeight > threshold;
-
-    if (widthThreshold || heightThreshold) {
-      document.body.innerHTML = `
-        <div style="display:flex; flex-direction:column; align-items:center; justify-content:center; height:100vh; background-color:#0f172a; color:#f8fafc; font-family:sans-serif; text-align:center; padding: 2rem;">
-          <h1 style="font-size: 2rem; margin-bottom: 1rem; color: #ef4444;">⚠️ Developer Tools Restricted</h1>
-          <p style="font-size: 1.1rem; color: #94a3b8; max-width: 500px;">Access to platform source files and developer inspection is restricted on this site.</p>
-        </div>
-      `;
-    }
-  };
-
-  window.addEventListener('resize', detect);
-  setInterval(detect, 1000);
-})();

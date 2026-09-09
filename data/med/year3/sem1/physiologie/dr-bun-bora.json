@@ -1,0 +1,842 @@
+{
+  "questions": [
+    {
+      "id": 1,
+      "question": "·Les lésions du tractus olfactif nuisent à",
+      "images": [],
+      "image": "",
+      "options": [
+        "o La vision",
+        "o L'audition",
+        "o La perception de la douleur",
+        "o L'olfaction",
+        "o La vision et l'audition"
+      ],
+      "correctIndex": 3
+    },
+    {
+      "id": 2,
+      "question": "·Les influx sensitifs transmis par les nerfs faciaux, glosso-phayngiens et vagues donnent lieu",
+      "images": [],
+      "image": "",
+      "options": [
+        "o Aux sensations gustatives",
+        "o Aux sensations tactiles",
+        "o A la sensation de l'équilibre",
+        "o Aux sensations olfactives",
+        "o Aux sensations de la douleur"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 3,
+      "question": "·Les récepteurs sensoriels du goût",
+      "images": [],
+      "image": "",
+      "options": [
+        "o 10 000 Calicule gustatifs",
+        "o 11 000 Calicule gustatifs",
+        "o 12 000 Calicule gustatifs",
+        "o 13 000 bourgeons du goût",
+        "o 14 000 bourgeons du goût"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 4,
+      "question": "·Les 3 types des papilles gustatives de la langue",
+      "images": [],
+      "image": "",
+      "options": [
+        "o filiformes, pisiformes et caliciformes",
+        "o fundiformes, fungiformes et caliciformes",
+        "o filiformes, fundiformes, et circumvallées",
+        "o caliciformes, filiformes, et fungiformes",
+        "o circumvallées, pisiformes, fungiformes"
+      ],
+      "correctIndex": 3
+    },
+    {
+      "id": 5,
+      "question": "·Les calicules gustatifs sont situés",
+      "images": [],
+      "image": "",
+      "options": [
+        "o Sur la partie antérieure de la langue",
+        "o Sur la face interne des joues",
+        "o Sur le palais",
+        "o Sur le pharynx",
+        "o Toutes ces réponses"
+      ],
+      "correctIndex": 4
+    },
+    {
+      "id": 6,
+      "question": "·Les cellules gustatives sont stimulées par",
+      "images": [],
+      "image": "",
+      "options": [
+        "o Le mouvement des statoconies",
+        "o L'étirement",
+        "o Les substances en solution",
+        "o Les photons",
+        "o Le réflexe de la langue"
+      ],
+      "correctIndex": 4
+    },
+    {
+      "id": 7,
+      "question": "·Pour provoquer la sensation gustative, substance chimique doit être",
+      "images": [],
+      "image": "",
+      "options": [
+        "o Diffuser dans le pore gustatif, Se dissoudre dans la salive, contact microvillosités des cellules gustatives, dépolarisation.",
+        "o Diffuser dans le pore gustatif, contact microvillosités des cellules gustatives, Se dissoudre dans la salive, dépolarisation.",
+        "o Contact microvillosités des cellules gustatives, Se dissoudre dans la salive, diffuser dans le pore gustatif, dépolarisation.",
+        "o Contact microvillosités des cellules gustatives, diffuser dans le pore gustatif, Se dissoudre dans la salive, dépolarisation.",
+        "o Se dissoudre dans la salive, diffuser dans le pore gustatif, contact microvillosités des cellules gustatives, dépolarisation."
+      ],
+      "correctIndex": 3
+    },
+    {
+      "id": 8,
+      "question": "·Dans le Mécanisme de la transduction dans les cellules gustatives",
+      "images": [],
+      "image": "",
+      "options": [
+        "o Le stimulus ioniques agissent direct sur les membranes plasmique",
+        "o Le stimulus ioniques agissent direct sur les récepteur spécifique",
+        "o Le stimulus ioniques agissent direct sur des canaux ioniques",
+        "o Le stimulus ioniques agissent direct par les transporteurs protéique",
+        "o Le stimulus ioniques agissent direct par les enzymes des cellules gustatives"
+      ],
+      "correctIndex": 4
+    },
+    {
+      "id": 9,
+      "question": "·Les 3 neurofibres de la voie gustatif",
+      "images": [],
+      "image": "",
+      "options": [
+        "o Les nerfs crâniens IX, X, XI",
+        "o Les nerfs crâniens VII, IX, X",
+        "o Les nerfs crâniens VII, VIII, X",
+        "o Les nerfs crâniens VII, X, XI",
+        "o Les nerfs crâniens VI, IX, X"
+      ],
+      "correctIndex": 4
+    },
+    {
+      "id": 10,
+      "question": "·Dans la bouche, la modification de la saveur se fait par",
+      "images": [],
+      "image": "",
+      "options": [
+        "o Thermorécepteurs, mécanorécepteurs et chimiorécepteur",
+        "o Thermorécepteurs, barorécepteur et nocicepteurs",
+        "o Nocicepteur, mécanorécepteurs et Chimiorépteurs",
+        "o Thermorécepteurs, mécanorécepteurs et nocicepteurs",
+        "o Chimiorécepteur, barorécepteur et nocicepteurs"
+      ],
+      "correctIndex": 3
+    },
+    {
+      "id": 11,
+      "question": "·Les cellules du bulbe olfactif qui réalisent l'intégration locale des influx olfactifs sont",
+      "images": [],
+      "image": "",
+      "options": [
+        "o Les cellules sensorielles ciliées",
+        "o Les cellules granuleuses",
+        "o Les cellules basales",
+        "o Les cellules mitrales",
+        "o Les cellules de soutien"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 12,
+      "question": "·Les neurofibres des nerfs olfactifs passent dans",
+      "images": [],
+      "image": "",
+      "options": [
+        "o Les bulbes olfactifs",
+        "o La lame criblée de l'ethmoïde",
+        "o Les tractus olfactifs",
+        "o Le crista Galli",
+        "o Les aires olfactives du cortex"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 13,
+      "question": "·Épithélium de la région olfactive",
+      "images": [],
+      "image": "",
+      "options": [
+        "o Neurone olfactifs",
+        "o Cellules de soutien",
+        "o Cellules basales",
+        "o Faisceaux du Nerf olfactif",
+        "o Toutes ces réponses"
+      ],
+      "correctIndex": 4
+    },
+    {
+      "id": 14,
+      "question": "·L'odorat humain peut distinguer environ",
+      "images": [],
+      "image": "",
+      "options": [
+        "o 12 000 substances chimiques",
+        "o 11 000 substances chimiques",
+        "o 10 000 substances chimiques",
+        "o 13 000 substances chimiques",
+        "o 14 000 substances chimiques"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 15,
+      "question": "·Adaptation partielle des saveurs sur les récepteurs gustatifs se fait pendante",
+      "images": [],
+      "image": "",
+      "options": [
+        "o 1 à 2 secondes",
+        "o 2 à 3 secondes",
+        "o 3 à 5 secondes",
+        "o 5 à 7 secondes",
+        "o 7 à 9 secondes"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 16,
+      "question": "·Dans le mécanisme de la transduction des cellules gustatives sur la saveur sucré se fait par",
+      "images": [],
+      "image": "",
+      "options": [
+        "o Ouverture des canaux sucrés direct",
+        "o Transport passive avec des ions Na+",
+        "o Absorption trans-épithéliale",
+        "o Activation des protéines G",
+        "o Diffusion direct vers les cellules gustatives"
+      ],
+      "correctIndex": 3
+    },
+    {
+      "question": "·Pour être odorante, le mécanisme d'activation des cellules olfactives se fait dans l'ordre suivant :",
+      "images": [],
+      "image": "",
+      "options": [
+        "o Les substances chimiques dissoutes, lié aux cils olfactifs, ouverture canaux ionique Na+, produits de potentiel d'action, propage dans neurofibres du nerf olfactif dans le bulbe olfactif",
+        "o Les substances chimiques dissoutes, ouverture canaux ionique Na+, lié aux cils olfactifs, produits de potentiel d'action, propage dans neurofibres du nerf olfactif dans le bulbe olfactif",
+        "o Les substances chimique dissoutes, propage dans neurofibres du nerf olfactif dans le bulbe olfactif, ouverture canaux ionique Na+, lié aux cils olfactifs, produits de potentiel d'action",
+        "o Produits de potentiel d'action, Les substance chimique dissoutes, ouverture canaux ionique Na+, lié au cils olfactifs,, propage dans neurofibres du nerf olfactif dans le bulbe olfactif",
+        "o Produits de potentiel d'action, propage dans neurofibres du nerf olfactif dans le bulbe olfactif, les substances chimiques dissoutes, ouverture canaux ionique Na+, lié aux cils olfactifs"
+      ],
+      "correctIndex": 0,
+      "id": 17
+    },
+    {
+      "id": 18,
+      "question": "·Quel est le neurotransmetteur dans le glomérule des neurones olfactifs",
+      "images": [],
+      "image": "",
+      "options": [
+        "o Adrénaline",
+        "o Acétylcholine",
+        "o Noradrénaline",
+        "o Acide gamma-aminobutyrique",
+        "o Sérotonine"
+      ],
+      "correctIndex": 3
+    },
+    {
+      "id": 19,
+      "question": "·Décrire dans l'ordre sur la voie olfactive",
+      "images": [],
+      "image": "",
+      "options": [
+        "o Les cellules olfactives, faisceau olfactifs, thalamus, Glomérules des cellules mitrales, tractus olfactifs, aires olfactives du lobe frontal.",
+        "o Les cellules olfactives, tractus olfactifs, faisceau olfactifs, Glomérules des cellules mitrales, Thalamus, aires olfactives du lobe frontal.",
+        "o Les cellules olfactives, faisceau olfactifs, Glomérules des cellules mitrales, tractus olfactifs, Thalamus, aires olfactives du lobe frontal.",
+        "o Tractus olfactifs, faisceau olfactifs, Glomérules des cellules mitrales, Thalamus, aires olfactives du lobe frontal, les cellules olfactives.",
+        "o Glomérules des cellules mitrales, Thalamus, aires olfactives du lobe frontal, les cellules olfactives, tractus olfactifs."
+      ],
+      "correctIndex": 4
+    },
+    {
+      "id": 20,
+      "question": "·Les cellules olfactives se renouveler par",
+      "images": [],
+      "image": "",
+      "options": [
+        "o Neurone olfactifs",
+        "o Cellules de soutien",
+        "o Cellules basales",
+        "o Cellule glial",
+        "o Toutes ces réponses"
+      ],
+      "correctIndex": 4
+    },
+    {
+      "id": 21,
+      "question": "·Les glandes annexes qui produisent une sécrétion huileuse sont",
+      "images": [],
+      "image": "",
+      "options": [
+        "o La conjonctive",
+        "o Les glandes lacrymales",
+        "o Les glandes tarsales",
+        "o La conjonctive avec les glandes lacrymales",
+        "o Les glandes lacrymales avec les glandes tarsales"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 22,
+      "question": "·La portion blanche et opaque de la tunique fibreuse est",
+      "images": [],
+      "image": "",
+      "options": [
+        "o La choroïde",
+        "o La cornée",
+        "o La rétine",
+        "o La sclère",
+        "o La pupille"
+      ],
+      "correctIndex": 4
+    },
+    {
+      "id": 23,
+      "question": "·Parmi les trajets suivants, lequel les lames empruntent-elles pour passer du bulbe de l'œil à la cavité nasale ?",
+      "images": [],
+      "image": "",
+      "options": [
+        "o Canalicules lacrymaux, conduits lacrymao-nasaux, cavité nasale",
+        "o Ductules excréteurs, canalicules lacrymaux, conduits lacrymo-nasaux",
+        "o Conduits lacrymo-nasaux, canalicules lacrymaux, sacs lacrymaux",
+        "o Ductules excréteurs, canalicules lacrymaux, cavité nasale",
+        "o Sacs lacrymaux, canalicules lacrymaux, cavité nasale"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 24,
+      "question": "·Les milieux réfracteurs de l'œil sont, dans l'ordre où ils deviennent la lumière",
+      "images": [],
+      "image": "",
+      "options": [
+        "o Le corps vitré, le cristallin, l'humeur aqueuse, la cornée",
+        "o La cornée, l'humeur aqueuse, le cristallin, le corps vitré",
+        "o La cornée, le corps vitré, le cristallin, l'humeur aqueuse",
+        "o Le cristallin, l'humeur aqueuse, la cornée, le corps vitré",
+        "o Le cristallin, l'humeur aqueuse, le corps vitré, la cornée"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 25,
+      "question": "·Une lésion du muscle droit médial de l'œil peut entraver",
+      "images": [],
+      "image": "",
+      "options": [
+        "o L'accommodation",
+        "o La réfraction",
+        "o La convergence",
+        "o La contraction da la pupille",
+        "o le relâchement de la pupille"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 26,
+      "question": "·Le muscle droit latérale de l'œil est innervé par",
+      "images": [],
+      "image": "",
+      "options": [
+        "o Nerf oculo-moteur externe VI",
+        "o Nerf trochléaire IV",
+        "o Nerf optique II",
+        "o Nerf trijumeau V",
+        "o Nerf oculomoteur commune III"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 27,
+      "question": "·Le muscle oblique supérieur de l'œil est innervé par",
+      "images": [],
+      "image": "",
+      "options": [
+        "o Nerf oculo-moteur externe VI",
+        "o Nerf trochléaire IV",
+        "o Nerf optique II",
+        "o Nerf trijumeau V",
+        "o Nerf oculomoteur commune III"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 28,
+      "question": "·Action du muscle oblique supérieur de l'œil",
+      "images": [],
+      "image": "",
+      "options": [
+        "o Déplace l'œil vers l'extérieur",
+        "o Déplace l'œil vers l'intérieur",
+        "o Elévation de l'œil",
+        "o Abaissement de l'œil",
+        "o Abaissement de l'œil et tourne vers l'extérieur"
+      ],
+      "correctIndex": 4
+    },
+    {
+      "id": 29,
+      "question": "·L'adaptation à la lumière s'explique par le fait que",
+      "images": [],
+      "image": "",
+      "options": [
+        "o La rhodopsine ne fonctionne pas dans la pénombre",
+        "o La rhodopsine se dégrade lentement",
+        "o Les bâtonnets exposés à la lumière intense produisent lentement la rhodopsine",
+        "o Les cônes sont stimulés par la lumière intense",
+        "o Les cônes et Les bâtonnets sont stimulés par la lumière intense"
+      ],
+      "correctIndex": 4
+    },
+    {
+      "id": 30,
+      "question": "·L'adaptation à l'obscurité est beaucoup plus lente que l'adaptation à la lumière, il se fait pendant",
+      "images": [],
+      "image": "",
+      "options": [
+        "o 5 à 10 min",
+        "o 10 à 15 min",
+        "o 15 à 20 min",
+        "o 20 à 30 min",
+        "o 30 à 40 min"
+      ],
+      "correctIndex": 3
+    },
+    {
+      "id": 31,
+      "question": "·L'obstruction du sinus veineux de la sclère peut causer",
+      "images": [],
+      "image": "",
+      "options": [
+        "o Un orgelet",
+        "o Un glaucome",
+        "o Une conjonctivite",
+        "o Une cataracte",
+        "o Une conjonctivite et une cataracte"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 32,
+      "question": "·La myopie est un problème de l'œil où",
+      "images": [],
+      "image": "",
+      "options": [
+        "o Le bulbe de l'œil est trop long",
+        "o Le bulbe de l'œil est trop court",
+        "o L'image se forme derrière la rétine",
+        "o L'image se forme un point dans la rétine",
+        "o Le cristallin a une courbure irrégulière"
+      ],
+      "correctIndex": 4
+    },
+    {
+      "id": 33,
+      "question": "·L'hypermétropie est un problème de l'œil où",
+      "images": [],
+      "image": "",
+      "options": [
+        "o Le bulbe de l'œil est trop long",
+        "o Le bulbe de l'œil est trop court",
+        "o L'image se forme derrière la rétine",
+        "o L'image se forme un point dans la rétine",
+        "o Le cristallin a une courbure irrégulière"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 34,
+      "question": "·Parmi les neurones de la rétine, quels sont ceux dont les axones forment le nerf optique ?",
+      "images": [],
+      "image": "",
+      "options": [
+        "o Les neurones bipolaires",
+        "o Les cellules ganglionnaires",
+        "o Les cônes",
+        "o Les bâtonnets",
+        "o Les cellules horizontales"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 35,
+      "question": "·Rétinal est une substance mué par",
+      "images": [],
+      "image": "",
+      "options": [
+        "o Vitamine A",
+        "o Vitamine B",
+        "o Vitamine.C",
+        "o Vitamine.D",
+        "o Vitamine E"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 36,
+      "question": "·Quel enchaînement de réactions se produit lorsqu'une personne regarde un objet éloigné?",
+      "images": [],
+      "image": "",
+      "options": [
+        "o Les pupilles se contractent les ligaments suspenseurs du cristallin se relâchent, les cristallins s'aplatissent",
+        "o Les pupilles se dilatent, les ligaments suspenseurs se tendent, les cristallins s'aplatissent",
+        "o Les pupilles se dilatent, les ligaments suspenseurs se tendent, les cristallins bombent",
+        "o Les pupilles se contractent les ligaments suspenseurs se relâchent, les cristallin bombent",
+        "o Les pupilles se contractent les ligaments suspenseurs se relâchent, les cristallin bombent et s'aplatissent"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 37,
+      "question": "·Le disque du nerf optique est situé",
+      "images": [],
+      "image": "",
+      "options": [
+        "o A l'endroit où les bâtonnets sont plus nombreux que les cônes",
+        "o A la macula de la rétine",
+        "o A l'endroit où il n'y a que des cônes",
+        "o A l'endroit de la couche choroïde",
+        "o A l'endroit où le nerf optique sort de l'œil"
+      ],
+      "correctIndex": 4
+    },
+    {
+      "id": 38,
+      "question": "·Pour être la vision, les influx nerveux de la vision interprète dans l'aire visuelle du lobe",
+      "images": [],
+      "image": "",
+      "options": [
+        "o Frontal",
+        "o Pariétal",
+        "o Occipital",
+        "o Temporal",
+        "o Calcarine"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 39,
+      "question": "·La contraction des muscles circulaires de la pupille se fait sous l'effet d'une stimulation",
+      "images": [],
+      "image": "",
+      "options": [
+        "o Sympathique",
+        "o Parasympathique",
+        "o Hormonale",
+        "o Ionique",
+        "o Humoraux"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 40,
+      "question": "·Pour être absorbe la lumière, les particules des pigments visuels dans les bâtonnets",
+      "images": [],
+      "image": "",
+      "options": [
+        "o Transforme les photopsines pour absorbe la lumière dans le pigment visuels",
+        "o Détache la rétinal à opsine pour former les nouveaux disques",
+        "o Rétinal se transforme en tout-trans-rétinal",
+        "o Rétinal se lie avec opsine pour former la rhodopsine qui sont la capacité de la absorption de la lumière",
+        "o La cellule pigmentaire de la rétine sécrète ATP pour synthétiser les disques dans les bâtonnets"
+      ],
+      "correctIndex": 3
+    },
+    {
+      "id": 41,
+      "question": "·Le son est transmis de l'oreille moyenne à l'oreille interne par les vibrations",
+      "images": [],
+      "image": "",
+      "options": [
+        "o Du Malléus contre la membrane du tympan",
+        "o Du stapès dans la fenêtre du vestibule",
+        "o De l'incus dans la fenêtre de la cochlée",
+        "o Du stapès contre la membrane du tympan",
+        "o Du conduit d'Eustache"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 42,
+      "question": "·Les vibrations sonores sont transmises dans l'oreille interne principalement par",
+      "images": [],
+      "image": "",
+      "options": [
+        "o Des neurofibres",
+        "o L'aire",
+        "o Un liquide",
+        "o L'os",
+        "o La membrane"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "question": "·Parmi les énoncés suivent, lequel ne correspond pas à l'organe spiral?",
+      "images": [],
+      "image": "",
+      "options": [
+        "o Les sons de haute fréquence stimulent les cellules sensorielles ciliées de la base de la lame basilaire",
+        "o Les cils > des cellules réceptrices pénètent dans la membrana tectoria du conduit cochléaire",
+        "o La lame basilaire joue le rôle de résonateur",
+        "o Les sons de haute fréquence stimulent les cellules situées au sommet de la lame basilaire"
+      ],
+      "correctIndex": 3,
+      "id": 43
+    },
+    {
+      "id": 44,
+      "question": "·La hauteur des sons est à la fréquence ce que la force est",
+      "images": [],
+      "image": "",
+      "options": [
+        "o Au timbre",
+        "o A l'intensité",
+        "o Aux harmoniques",
+        "o Au timbre et aux harmoniques",
+        "o Toutes ces réponses"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 45,
+      "question": "·La structure qui rétablit l'équilibre entre la pression de l'oreille interne et la pression atmosphérique est",
+      "images": [],
+      "image": "",
+      "options": [
+        "o Le pavillon",
+        "o La trompe auditive",
+        "o La membrane du tympan",
+        "o La membrane secondaire du tympan",
+        "o Le conduit auditif externe"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 46,
+      "question": "·Parmi les éléments suivants, lequel répond contribue au maintien de l'équilibre ?",
+      "images": [],
+      "image": "",
+      "options": [
+        "o Les indices visuels",
+        "o Les conduits semi-circulaires",
+        "o Les saccules",
+        "o Les propriocepteurs",
+        "o Toutes ces réponses"
+      ],
+      "correctIndex": 4
+    },
+    {
+      "id": 47,
+      "question": "·Les récepteur de l'équilibre statique détectent la position de la tête par rapport à la force gravitationnelle sont",
+      "images": [],
+      "image": "",
+      "options": [
+        "o Les organes spiraux",
+        "o Les macules",
+        "o Les crêtes ampullaires",
+        "o Les 3 osselets",
+        "o Les petits muscles dans l'oreille"
+      ],
+      "correctIndex": 4
+    },
+    {
+      "id": 48,
+      "question": "·Lequel des troubles suivent ne cause pas la surdité de transmission ?",
+      "images": [],
+      "image": "",
+      "options": [
+        "o Le bouchon de cérumen",
+        "o L'otite moyenne",
+        "o La dégénérescence du nerf cochléaire",
+        "o L'otospongiose"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 49,
+      "question": "·Lesquels des muscles suivants sont des muscles qui se trouvent à l'intérieur du bulbe de l'œil?",
+      "images": [],
+      "image": "",
+      "options": [
+        "o Les muscles droits supérieurs",
+        "o Le muscle orbiculaire de l'œil",
+        "o Les muscles lisses de l'iris et du corps ciliaire",
+        "o Le muscle releveur de la paupière supérieur",
+        "o Les muscles corrugateur de sourcil"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "question": "·Lequel des éléments suivants sont situé le plus près du pôle postérieur de l'œil ?",
+      "images": [],
+      "image": "",
+      "options": [
+        "o Le nerf optique",
+        "o Le disque du nerf optique",
+        "o La macula",
+        "o Le point d'entrée de l'artère centrale dans l'œil",
+        "o Toutes ces réponses"
+      ],
+      "correctIndex": 2,
+      "id": 50
+    },
+    {
+      "id": 51,
+      "question": "·Les éléments se constitue de l'appareil vestibulaire sont",
+      "images": [],
+      "image": "",
+      "options": [
+        "o Cellules de soutien",
+        "o Cellules sensorielles",
+        "o Membrane des otolithes",
+        "o Statoconies",
+        "o Toutes ces réponses"
+      ],
+      "correctIndex": 4
+    },
+    {
+      "id": 52,
+      "question": "·Décrire dans l'ordre sur le mécanisme de la voie audition",
+      "images": [],
+      "image": "",
+      "options": [
+        "o Influx de neurofibres afférente, nerf vestibulo-cochléaire, noyaux cochléaire du bulbe rachidien, noyaux ovalaire supérieur, Thalamus, enfin à l'aire auditive.",
+        "o Influx de neurofibres afférente, nerf vestibulo-cochléaire, noyaux cochléaire du bulbe rachidien, noyaux ovalaire supérieur, aire auditive, enfin au thalamus",
+        "o Influx de neurofibres afférente, noyaux cochléaire du bulbe rachidien, noyaux ovalaire supérieur, nerf vestibulo-cochléaire, Thalamus, enfin à l'aire auditive.",
+        "o Noyaux cochléaire du bulbe rachidien, influx de neurofibres afférente, nerf vestibulo-cochléaire, noyaux ovalaire supérieur, Thalamus, enfin à l'aire auditive.",
+        "o Influx de neurofibres afférente, noyaux ovalaire supérieur, Thalamus, nerf vestibulo-cochléaire, noyaux cochléaire du bulbe rachidien, enfin à l'aire auditive."
+      ],
+      "correctIndex": 3
+    },
+    {
+      "id": 53,
+      "question": "·Où se trouvent les macules?",
+      "images": [],
+      "image": "",
+      "options": [
+        "o Dans le conduit semi-circulaire antérieur",
+        "o Dans le conduit semi-circulaire postérieur",
+        "o Dans le conduit semi-circulaire latéral",
+        "o Dans le conduit cochléaire",
+        "o Dans le saccule et utricule"
+      ],
+      "correctIndex": 4
+    },
+    {
+      "id": 54,
+      "question": "·Où se trouvent les crêtes ampullaire ?",
+      "images": [],
+      "image": "",
+      "options": [
+        "o Dans le conduit semi-circulaire",
+        "o Dans le conduit cochléaire",
+        "o Dans l'utricule",
+        "o Dans le saccule",
+        "o Dans l'oreille moyenne"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "question": "·Concernant le mécanisme d'excitation des cellules sensorielles ciliées dans l'organe spiral, citez-vous dans l'ordre d'action",
+      "images": [],
+      "image": "",
+      "options": [
+        "o Influx dans le nerf cochléaire à l'encéphale, les mouvements de la lame basilaire fléchissent les stéréociles, dépolarisation, libération d'un neurotransmetteur.",
+        "o Les mouvements de la lame basilaire fléchissent les stéréociles, dépolarisation, influx dans le nerf cochléaire à l'encéphale, libération d'un neurotransmetteur.",
+        "o Les mouvements de la lame basilaire fléchissent les stéréociles, dépolarisation, libération d'un neurotransmetteur, influx dans le nerf cochléaire à l'encéphale.",
+        "o Dépolarisation, libération d'un neurotransmetteur, influx dans le nerf cochléaire à l'encéphale, les mouvements de la lame basilaire fléchissent les stéréociles.",
+        "o libération d'un neurotransmetteur, les mouvements de la lame basilaire fléchissent les stéréociles, dépolarisation, influx dans le nerf cochléaire à l'encéphale."
+      ],
+      "correctIndex": 2,
+      "id": 55
+    },
+    {
+      "question": "·Dans le trajet de l'onde de basse fréquent parcourent toute la cochlée",
+      "images": [],
+      "image": "",
+      "options": [
+        "o De fenêtre vestibulaire à fenêtre tympanique",
+        "o Convergence au niveau de l'hélicotréma",
+        "o De fenêtre tympanique à vestibulaire",
+        "o Parcoure dans les tubes semi-circulaires pour activer les crêtes ampullaires",
+        "o Parcoure dans les vestibules pour activer les macules"
+      ],
+      "correctIndex": 0,
+      "id": 56
+    },
+    {
+      "id": 57,
+      "question": "·Dans le trajet de l'onde de haute fréquent parcourent toute la cochlée",
+      "images": [],
+      "image": "",
+      "options": [
+        "o De fenêtre vestibulaire à tympanique",
+        "o Convergence au niveau de l'hélicotréma",
+        "o Rampe vestibulaire, conduite cochléaire, rampe tympanique",
+        "o Parcoure dans les tubes semi-circulaires pour activer les crêtes ampullaires",
+        "o Parcoure dans les vestibules pour activer les macules"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 58,
+      "question": "·La liquide périlymphe est résorbée au niveau",
+      "images": [],
+      "image": "",
+      "options": [
+        "o Plexus choroïde",
+        "o Plexus veineuse",
+        "o Sinus de la dure-mère",
+        "o Aqueduc de la cochlée",
+        "o Capillaire de l'oreille"
+      ],
+      "correctIndex": 4
+    },
+    {
+      "id": 59,
+      "question": "·Les influx des neurofibres afférent des récepteurs auditifs se transmettent à l'encéphale pour interpréter dans le lobe",
+      "images": [],
+      "image": "",
+      "options": [
+        "o Frontal",
+        "o Pariétal",
+        "o Occipital",
+        "o Temporal",
+        "o Calcarine"
+      ],
+      "correctIndex": 3
+    },
+    {
+      "question": "·Les récepteur de l'équilibre dynamique détectent la position de la tête par rapport des mouvements rotatoire sont",
+      "images": [],
+      "image": "",
+      "options": [
+        "o Les organes spiraux",
+        "o Les macules",
+        "o Les crêtes ampullaires",
+        "o Les 3 osselets",
+        "o Les petits muscles dans l'oreille"
+      ],
+      "correctIndex": 2,
+      "id": 60
+    }
+  ]
+}

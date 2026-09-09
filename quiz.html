@@ -5,7 +5,10 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Study Session - TestforUHS</title>
-  <link rel="icon" href="data:,">
+  
+  <!-- Icons & CSS -->
+  <link rel="icon" type="image/png" sizes="192x192" href="assets/logo.png">
+  <link rel="apple-touch-icon" href="assets/logo.png">
   <link rel="stylesheet" href="style.css">
 
   <!-- Google AdSense Master Script -->
@@ -16,16 +19,15 @@
 <body class="quiz-body">
   <div class="app-container">
 
-    <!-- Top Navigation Bar (Hidden on quiz page via CSS .quiz-body .main-navbar) -->
+    <!-- Top Navigation Bar -->
     <nav class="main-navbar">
       <div class="nav-links">
-        <a href="/" class="nav-item nav-leave-guard" data-i18n="nav_home">HOME</a>
-        <a href="/about" class="nav-item nav-leave-guard" data-i18n="nav_about">ABOUT</a>
-        <a href="/contact" class="nav-item nav-leave-guard" data-i18n="nav_contact">CONTACT US</a>
-        <a href="/account" class="nav-item nav-leave-guard" data-i18n="nav_account">MY ACCOUNT</a>
+        <a href="index.html" class="nav-item nav-leave-guard" data-i18n="nav_home">HOME</a>
+        <a href="about.html" class="nav-item nav-leave-guard" data-i18n="nav_about">ABOUT</a>
+        <a href="contact.html" class="nav-item nav-leave-guard" data-i18n="nav_contact">CONTACT US</a>
+        <a href="account.html" class="nav-item nav-leave-guard" data-i18n="nav_account">MY ACCOUNT</a>
         <button id="nav-donate-btn" class="nav-item nav-leave-guard" data-i18n="nav_donate"
-          style="color: #f59e0b; font-weight: 700; background: none; border: none; cursor: pointer;">☕ Support
-          Us</button>
+          style="color: #f59e0b; font-weight: 700; background: none; border: none; cursor: pointer;">☕ Support Us</button>
       </div>
       <div class="nav-controls" style="display: flex; gap: 0.5rem; align-items: center;">
         <select id="language-select" class="lang-select">
@@ -89,7 +91,7 @@
       <footer class="main-footer"
         style="margin-top: 3rem; padding-top: 1.5rem; border-top: 1px solid var(--border-color); text-align: center; font-size: 0.85rem; color: var(--text-sub);">
         <p>© 2026 TestforUHS. All rights reserved. | <a href="#" id="open-privacy-btn"
-            style="color: var(--text-heading); text-decoration: underline;">Privacy Policy</a></p>
+            style="color: var(--text-heading); text-decoration: underline;" data-i18n="privacy_link">Privacy Policy</a></p>
       </footer>
 
     </div>
@@ -137,7 +139,7 @@
           <div class="donate-qr-wrapper"><img src="assets/khqr.png" alt="KHQR Code" class="khqr-card-img"></div>
         </div>
         <div style="margin-top: 1.5rem; text-align: center;">
-          <button id="bottom-close-donate-btn" class="btn secondary-btn" style="width: 100%; max-width: 200px;"
+          <button id="bottom-close-privacy-btn" class="btn secondary-btn" style="width: 100%; max-width: 200px;"
             data-i18n="btn_close">Close</button>
         </div>
       </div>
@@ -147,9 +149,17 @@
       <div class="modal-card"
         style="max-width: 600px; text-align: left; max-height: 80vh; overflow-y: auto; position: relative; padding: 2.5rem 1.5rem 1.5rem 1.5rem;">
         <button id="close-privacy-btn" class="modal-close-icon" aria-label="Close modal">&times;</button>
-        <h3 style="margin-bottom: 1rem; color: var(--text-main);">Privacy Policy</h3>
-        <div style="font-size: 0.85rem; line-height: 1.6; color: var(--text-sub);">
-          <p>At <strong>TestforUHS</strong>, visitor privacy is one of our main priorities.</p>
+        <h3 style="margin-bottom: 1rem; color: var(--text-main);" data-i18n="about_privacy_title">Privacy Policy</h3>
+        <div style="font-size: 0.85rem; line-height: 1.6; color: var(--text-sub); display: flex; flex-direction: column; gap: 0.75rem;">
+          <p>At <strong>TestforUHS</strong>, visitor privacy is a top priority. This Privacy Policy details the types of information we collect and how it is used.</p>
+
+          <h4 style="color: var(--text-main); margin-top: 0.5rem;">1. Advertising & Third-Party Cookies</h4>
+          <p>We use <strong>Google AdSense</strong> to display advertisements. Third-party vendors, including Google, use cookies to serve ads based on a user's prior visits to our website or other websites on the internet.</p>
+          <p>Google's use of advertising cookies enables it and its partners to serve ads to our users based on their visit to our sites and/or other sites on the Internet.</p>
+          <p>You may opt out of personalized advertising by visiting <a href="https://www.google.com/settings/ads" target="_blank" rel="noopener" style="color: var(--text-heading); text-decoration: underline;">Google Ad Settings</a> or <a href="https://www.aboutads.info" target="_blank" rel="noopener" style="color: var(--text-heading); text-decoration: underline;">aboutads.info</a>.</p>
+
+          <h4 style="color: var(--text-main); margin-top: 0.5rem;">2. Local Storage</h4>
+          <p>TestforUHS uses your browser's <code>localStorage</code> exclusively to save quiz progress, missed question logs, language settings, and theme preferences directly on your device. This data is never transmitted to external servers.</p>
         </div>
         <div style="margin-top: 1.5rem; text-align: center;">
           <button id="bottom-close-privacy-btn" class="btn secondary-btn" style="width: 100%; max-width: 200px;"
@@ -158,6 +168,7 @@
       </div>
     </div>
 
+    <!-- Correct script sequence -->
     <script src="shared.js"></script>
     <script src="quiz.js"></script>
   </div>

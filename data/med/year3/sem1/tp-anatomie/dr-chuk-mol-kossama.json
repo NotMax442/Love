@@ -1,0 +1,304 @@
+{
+  "questions": [
+    {
+      "id": 1,
+      "question": "Label the part of the eye with the arrow",
+      "images": [
+        "y3-tp-anatomie-dr-chuk-mol-kossama-q20-image-1.jpg"
+      ],
+      "image": "y3-tp-anatomie-dr-chuk-mol-kossama-q20-image-1.jpg",
+      "options": [
+        "Conjunctiva",
+        "Cornea",
+        "Anterior chamber",
+        "Pupil"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Label the part of the eye with the arrow",
+      "images": [
+        "y3-tp-anatomie-dr-chuk-mol-kossama-q20-image-2.jpg"
+      ],
+      "image": "y3-tp-anatomie-dr-chuk-mol-kossama-q20-image-2.jpg",
+      "options": [
+        "Cornea",
+        "Anterior chamber",
+        "Pupil",
+        "Vitreous"
+      ],
+      "correctIndex": 1,
+      "id": 2
+    },
+    {
+      "id": 3,
+      "question": "Label the part of the eye with the arrow",
+      "images": [
+        "y3-tp-anatomie-dr-chuk-mol-kossama-q20-image-3.jpg"
+      ],
+      "image": "y3-tp-anatomie-dr-chuk-mol-kossama-q20-image-3.jpg",
+      "options": [
+        "Cornea",
+        "Anterior Chamber",
+        "Pupil",
+        "Iris"
+      ],
+      "correctIndex": 3
+    },
+    {
+      "id": 4,
+      "question": "Label the part of the eye with the arrow",
+      "images": [
+        "y3-tp-anatomie-dr-chuk-mol-kossama-q20-image-4.jpg"
+      ],
+      "image": "y3-tp-anatomie-dr-chuk-mol-kossama-q20-image-4.jpg",
+      "options": [
+        "Cornea",
+        "Anterior Chamber",
+        "Lens",
+        "Vitreous"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 5,
+      "question": "Label the part of the eye with the arrow",
+      "images": [
+        "y3-tp-anatomie-dr-chuk-mol-kossama-q20-image-5.jpg"
+      ],
+      "image": "y3-tp-anatomie-dr-chuk-mol-kossama-q20-image-5.jpg",
+      "options": [
+        "Macular",
+        "Retina",
+        "Optic Nerve",
+        "Vitreous"
+      ],
+      "correctIndex": 3
+    },
+    {
+      "id": 6,
+      "question": "Label the part of the eye with the arrow",
+      "images": [
+        "y3-tp-anatomie-dr-chuk-mol-kossama-q20-image-6.jpg"
+      ],
+      "image": "y3-tp-anatomie-dr-chuk-mol-kossama-q20-image-6.jpg",
+      "options": [
+        "Macular",
+        "Retina",
+        "Optic Nerve",
+        "Vitreous"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 7,
+      "question": "Label the part of the eye with the arrow",
+      "images": [
+        "y3-tp-anatomie-dr-chuk-mol-kossama-q20-image-7.jpg"
+      ],
+      "image": "y3-tp-anatomie-dr-chuk-mol-kossama-q20-image-7.jpg",
+      "options": [
+        "Fovea Centralis",
+        "Retina",
+        "Optic Nerve",
+        "Vitreous"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 8,
+      "question": "Label the part of the eye with the arrow",
+      "images": [
+        "y3-tp-anatomie-dr-chuk-mol-kossama-q20-image-8.jpg"
+      ],
+      "image": "y3-tp-anatomie-dr-chuk-mol-kossama-q20-image-8.jpg",
+      "options": [
+        "Macular",
+        "Retina",
+        "Optic Nerve",
+        "Vitreous"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 9,
+      "question": "Label the part of the orbit with the arrow",
+      "images": [
+        "y3-tp-anatomie-dr-chuk-mol-kossama-q20-image-9.jpg"
+      ],
+      "image": "y3-tp-anatomie-dr-chuk-mol-kossama-q20-image-9.jpg",
+      "options": [
+        "Zygomatic bone",
+        "Maxillary bone",
+        "Frontal bone",
+        "Lacrimal bone"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 10,
+      "question": "Label the part of the orbit with the arrow",
+      "images": [
+        "y3-tp-anatomie-dr-chuk-mol-kossama-q20-image-10.jpg"
+      ],
+      "image": "y3-tp-anatomie-dr-chuk-mol-kossama-q20-image-10.jpg",
+      "options": [
+        "Zygomatic bone",
+        "Maxillary bone",
+        "Sphenoid bone",
+        "Lacrimal bone"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 11,
+      "question": "Label the part of the orbit with the arrow",
+      "images": [
+        "y3-tp-anatomie-dr-chuk-mol-kossama-q20-image-11.jpg"
+      ],
+      "image": "y3-tp-anatomie-dr-chuk-mol-kossama-q20-image-11.jpg",
+      "options": [
+        "Zygomatic bone",
+        "Maxillary bone",
+        "Sphenoid bone",
+        "Lacrimal bone"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 12,
+      "question": "Label the part of the orbit with the arrow",
+      "images": [
+        "y3-tp-anatomie-dr-chuk-mol-kossama-q20-image-12.jpg"
+      ],
+      "image": "y3-tp-anatomie-dr-chuk-mol-kossama-q20-image-12.jpg",
+      "options": [
+        "Zygomatic bone",
+        "Maxillary bone",
+        "Sphenoid bone",
+        "Lacrimal bone"
+      ],
+      "correctIndex": 3
+    },
+    {
+      "id": 13,
+      "question": "Label the diagram of the Extraocular Muscle with the arrow",
+      "images": [
+        "y3-tp-anatomie-dr-chuk-mol-kossama-q20-image-13.jpg"
+      ],
+      "image": "y3-tp-anatomie-dr-chuk-mol-kossama-q20-image-13.jpg",
+      "options": [
+        "Superior Rectus",
+        "Inferior Rectus",
+        "Medial Rectus",
+        "Lateral Rectus"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 14,
+      "question": "Label the diagram of the Extraocular Muscle with the arrow",
+      "images": [
+        "y3-tp-anatomie-dr-chuk-mol-kossama-q20-image-14.jpg"
+      ],
+      "image": "y3-tp-anatomie-dr-chuk-mol-kossama-q20-image-14.jpg",
+      "options": [
+        "Superior Rectus",
+        "Inferior Rectus",
+        "Medial Rectus",
+        "Lateral Rectus"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 15,
+      "question": "Label the diagram of the Extraocular Muscle with the arrow",
+      "images": [
+        "y3-tp-anatomie-dr-chuk-mol-kossama-q20-image-15.jpg"
+      ],
+      "image": "y3-tp-anatomie-dr-chuk-mol-kossama-q20-image-15.jpg",
+      "options": [
+        "Superior Rectus",
+        "Inferior Rectus",
+        "Medial Rectus",
+        "Lateral Rectus"
+      ],
+      "correctIndex": 3
+    },
+    {
+      "id": 16,
+      "question": "Label the diagram of the Extraocular Muscle with the arrow",
+      "images": [
+        "y3-tp-anatomie-dr-chuk-mol-kossama-q20-image-16.jpg"
+      ],
+      "image": "y3-tp-anatomie-dr-chuk-mol-kossama-q20-image-16.jpg",
+      "options": [
+        "Superior Rectus",
+        "Inferior Rectus",
+        "Medial Rectus",
+        "Lateral Rectus"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 17,
+      "question": "Label the diagram of the Nasolacrimal Drainage system with the arrow",
+      "images": [
+        "y3-tp-anatomie-dr-chuk-mol-kossama-q20-image-17.jpg"
+      ],
+      "image": "y3-tp-anatomie-dr-chuk-mol-kossama-q20-image-17.jpg",
+      "options": [
+        "Nasolacrimal Sac",
+        "Nasolacrimal Duct",
+        "Punctum",
+        "Canaliculus"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 18,
+      "question": "Label the diagram of the Nasolacrimal Drainage system with the arrow",
+      "images": [
+        "y3-tp-anatomie-dr-chuk-mol-kossama-q20-image-18.jpg"
+      ],
+      "image": "y3-tp-anatomie-dr-chuk-mol-kossama-q20-image-18.jpg",
+      "options": [
+        "Nasolacrimal Sac",
+        "Nasolacrimal Duct",
+        "Punctum",
+        "Canaliculus"
+      ],
+      "correctIndex": 3
+    },
+    {
+      "id": 19,
+      "question": "Label the diagram of the Nasolacrimal Drainage system with the arrow",
+      "images": [
+        "y3-tp-anatomie-dr-chuk-mol-kossama-q20-image-19.jpg"
+      ],
+      "image": "y3-tp-anatomie-dr-chuk-mol-kossama-q20-image-19.jpg",
+      "options": [
+        "Nasolacrimal Sac",
+        "Nasolacrimal Duct",
+        "Punctum",
+        "Canaliculus"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 20,
+      "question": "Label the diagram of the Nasolacrimal Drainage system with the arrow",
+      "images": [
+        "y3-tp-anatomie-dr-chuk-mol-kossama-q20-image-20.jpg"
+      ],
+      "image": "y3-tp-anatomie-dr-chuk-mol-kossama-q20-image-20.jpg",
+      "options": [
+        "Nasolacrimal Sac",
+        "Nasolacrimal Duct",
+        "Punctum",
+        "Canaliculus"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

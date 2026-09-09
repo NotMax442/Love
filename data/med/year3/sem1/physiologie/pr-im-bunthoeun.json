@@ -1,0 +1,1614 @@
+{
+  "questions": [
+    {
+      "id": 1,
+      "question": "តើរចនាសម្ព័នណាមួយនៅក្នុងfibres nerveux ដែល conduction saltatoire ត្រូវបានកើតឡើង?",
+      "images": [],
+      "image": "",
+      "options": [
+        "o Synapses chimiques",
+        "o Partie proximal de l'axone",
+        "o Cône d'implantation",
+        "o Fibres nerveux myélynisés",
+        "o Bouton terminal de l'axone"
+      ],
+      "correctIndex": 3
+    },
+    {
+      "id": 2,
+      "question": "នៅក្នុងsystème nerveux, neurotransmtteurs អាចមានeffets excitateurs or inhibiteurs។ តើEffets ដែលបានរៀបរាប់ទាំងនេះអាចកើតឡើងបានដោយសារអ្វី?",
+      "images": [],
+      "image": "",
+      "options": [
+        "· Récepteur sur le post synaptique",
+        "· Vésicule synaptique dans l'axone",
+        "· Potentialisation synaptique",
+        "· Potentiel post synaptique",
+        "· Inhibiton présynaptique"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 3,
+      "question": "តើការរៀបរាប់ខាងក្រោមណាមួយទាក់ទងទៅនឹងមុខងាររបស់កោសិការ យ៉ាល់?",
+      "images": [],
+      "image": "",
+      "options": [
+        "o បង្កើតឡើងនូវរំញោច",
+        "o barrière permeable du SNC",
+        "o ទទួលនូវរំញោចពីមជ្ឍដ្ឋានក្រៅ",
+        "o បញ្ជូនរំញោចប្រសាទ",
+        "o 0 ស្លកទុកនូវព័ត៌មាន"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 4,
+      "question": "តើសំណើណាមួយខាងក្រោមត្រឹមត្រូវទាក់ទងនឹង canaux voltage dépendant កំឡុងពេលកោសិកាមានdépolarisation?",
+      "images": [],
+      "image": "",
+      "options": [
+        "o Canaux K+ បើកមុន canaux Na+",
+        "o Canaux Na+បើកមុន Canaux K+",
+        "o Canaux Na+et K+ បើកក្នុងពេលតែមួយ",
+        "o Canaux Na+បិទព្រមគ្នាជាមួយ Canaux K+",
+        "o Canaux Na+បិទកំឡុងពេលដែល Canaux K+ បើក"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 5,
+      "question": "តើលទ្ធផលអ្វីដែលគេនឹងទទួលបានបន្ទាប់ពីacétylcholineភ្ជាប់ជាមួយនិង récepteur du myocarde?",
+      "images": [],
+      "image": "",
+      "options": [
+        "· កើនឡើងនូវចង្វាក់បេះដូងនិងការកន្ត្រាក់បេះដូង",
+        "· ថយចុះចង្វាក់បេះដូងនិងកើនឡើងនូវការកន្ត្រាក់បេះដូង",
+        "· កើនឡើងចង្វាក់បេះដូង និងថយចុះការកន្ត្រាក់បេះដូង",
+        "· ថយចុះនូវចង្វាក់បេះដូងនិងការកន្ត្រាក់បេះដូង",
+        "· គ្មានការប្រែប្រួលចង្វាក់បេះដូងនិងការកន្ត្រាក់បេះដូង"
+      ],
+      "correctIndex": 3
+    },
+    {
+      "id": 6,
+      "question": "តើការពន្យល់ណាមួយខាងក្រោមត្រឹមត្រូវទាក់ទងទៅនឹងមុខងាររបស់ Cycle de Hodgkin?",
+      "images": [],
+      "image": "",
+      "options": [
+        "· ធានាឲ្យមាន Activité des pompe Na+/K+ ATPase",
+        "· បង្កឲ្យកោសិកាកាន់តែងាកឆ្ងាយពី seuil d'excitation",
+        "· ចូលរួមធ្វើឲ្យបន្ទុកក្នុងកោសិកាមិនសូវអវិជ្ជមាន",
+        "· ធានាឲ្យបន្ទុកក្នុងកោសិការមានតម្លៃបេរ",
+        "· ចូលរួមក្នុងដំណាក់កាល période réfractaire"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 7,
+      "question": "តើការពន្យល់ណាមួយខាងក្រោមត្រឹមត្រូវទាក់ទងនឹង phase de repolarization du potentiel d'action?",
+      "images": [],
+      "image": "",
+      "options": [
+        "· K+ចេញក្រៅកោសិកាបន្ទាប់ពី canaux voltage dépendant de Na+ ចាប់ផ្តើមបិទ",
+        "· K+ចេញក្រៅកោសិកាបង្កឲ្យ potentiel membranaireកាន់តែវិជ្ជមាន",
+        "· កើនឡើងនូវ perméabilité des K+ ដើម្បីធានា potentiel membranaire",
+        "· Na+ ចូលក្នុងកោសិកាច្រើនជាងការសាយភាយ K+ចេញក្រៅកោសិកា",
+        "· ការហូរចូលនៃអ៊ីយ៉ុងកាល់ស្យូមទៅក្នុងកោសិកា"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 8,
+      "question": "តើសំណើខាងក្រោមណាមួយដែលឆ្លើយតបទៅនឹងកោសិកាឋិតនៅក្នុងដំណាក់កាល polarisation?",
+      "images": [],
+      "image": "",
+      "options": [
+        "· កោសិកាស្ថិតក្នុងដំណាក់កាល période réfractaire",
+        "· កើតឡើងដោយសារ diffusion falcilité នៃអ៊ីយ៉ុងសូដ្យូមនិងប៉ូតាស្យូម",
+        "· គឺជាការប្រែប្រួលបន្ទុកក្នុងកោសិកាទៅដល់ seuil d'excitation",
+        "· កើតឡើង ដោយសារ diffusion simple នៃអ៊ីយ៉ុងសូដ្យូមនិងប៉ូតាស្យូម",
+        "· បន្ទុកក្នុងកោសិកាស្ថិតក្នុងស្ថានភាពល់នឹង"
+      ],
+      "correctIndex": 3
+    },
+    {
+      "id": 9,
+      "question": "តើការពន្យល់ណាមួយខាងក្រោម ត្រឹមត្រូវទាក់ទងទៅនឹងចលនារបស់អ៊ីយ៉ុង ដែលបង្កឲ្យមានការក៏កើតឡើងនូវ Phase ascendante du potentiel d'action du nerf?",
+      "images": [],
+      "image": "",
+      "options": [
+        "· ចេញក្រៅកោសិកានិងកោសិកាកាន់តែមានបន្ទុកអវិជ្ជមាន",
+        "· ចេញក្រៅកោសិកានិងកោសិកាកាន់តែមានបន្ទុកមិនសូវអវិជ្ជមាន",
+        "· ចូលក្នុងកោសិកានិងកោសិកាកាន់តែមានបន្ទុកអវិជ្ជមាន",
+        "· ចូលក្នុងកោសិកានិងកោសិកាកាន់តែមានបន្ទុកមិនសូវអវិជ្ជមាន",
+        "· ចូលក្នុងកោសិកានិងចេញក្រៅកោសិកាក្នុងពេលតែមួយ"
+      ],
+      "correctIndex": 3
+    },
+    {
+      "id": 10,
+      "question": "តើបំរែបំរួលណាមួយខាងក្រោមដែលធ្វើឲ្យល្បឿននៃការសាយភាយ potentiel d'action du neurone និងត្រូវកើនឡើង?",
+      "images": [],
+      "image": "",
+      "options": [
+        "· រំញោចទៅលើ pompe de Na+/K+ ATPase",
+        "· បញ្ឈប់សកម្មភាព pompe de Na+/K+ ATPase",
+        "· បន្ថយទំហឺអង្កត់ផ្ចិតរបស់កោសិកាសសៃប្រសាទ",
+        "· បង្កើនទំហឺអង្កត់ផ្ចិតរបស់កោសិកាសសៃប្រសាទ",
+        "· កោសិកាសសៃប្រសាទ Neurofibres amyélinisés"
+      ],
+      "correctIndex": 3
+    },
+    {
+      "id": 11,
+      "question": "សំណើណាមួយខាងក្រោមត្រឹមត្រូវទាក់ទងទៅនឹងបាតុភូតក្នុងPotentiel Post Synaptique Inhibiteur",
+      "images": [],
+      "image": "",
+      "options": [
+        "· Depolarisation de la membrane post synaptique par l'ouverture des canaux du Na+",
+        "· Depolarisation de la membrane post synaptique par l'ouverture des canaux du K+",
+        "· Hyperpolarisation de la membrane post synaptique par l'ouverture des canaux du Ca2+",
+        "· Hyperpolarisation de la membrane présynaptique par l'ouverture des canaux du Ca2+",
+        "· Hyperpolarisation de la membrane post synaptique par l'ouverture des canaux du Cl-"
+      ],
+      "correctIndex": 4
+    },
+    {
+      "id": 12,
+      "question": "តើការបាតុភូតណាមួយខាងក្រោមដែលបញ្ជាក់ពី mécanisme d'action du Neurotransmetteur ដែលមានមុខងារ excitateur dans le SNC?",
+      "images": [],
+      "image": "",
+      "options": [
+        "· Augmentation du Permeabilité aux ions K+",
+        "· Diminution du Permeabilité aux ions Na+",
+        "· Augmentation du Permeabilité aux ions Cl-",
+        "· Augmentation du permeabilté aux ions Na+",
+        "· Diminution du permeabilté aux ions Ca2+"
+      ],
+      "correctIndex": 3
+    },
+    {
+      "id": 13,
+      "question": "តើការរៀបរាប់ណាមួយខាងក្រោមដែលធ្វើឲ្យមានការបញ្ចេញ neurotransmetteur synapse chimique នៅក្នុង système nerveux central?",
+      "images": [],
+      "image": "",
+      "options": [
+        "o ការសំយោគនូវacetycholinesterase",
+        "o Hyperpolarisation du terminaison presynaptique",
+        "o ការបើក canaux Igand dépendent du Ca2+",
+        "o កើនឡើងកាល់ស្យូមក្នុង terminaison presynaptique",
+        "o ការហូរចូលនៃNa+ទៅក្នុង terminaison presynaptique"
+      ],
+      "correctIndex": 3
+    },
+    {
+      "id": 14,
+      "question": "Potentiel de repos membranaireរបស់កោសិកាមួយមានតម្លៃ -៧០mV នៅក្នុងសូលុយស្យុងមួយដែលមានកំហាប់របស់អ៊ីយ៉ុងដូច liquide extracelluaire តើលក្ខ័ណ៍ណាមួយខាងក្រោមដែលធ្វើឲ្យកោសិកាឋិតក្នុងសភាព hyperpolarisation?",
+      "images": [],
+      "image": "",
+      "options": [
+        "· បន្ថយpermeabilité membranaire របស់ Na+",
+        "· បន្ថយpermeabilité membranaire របស់ K+",
+        "· បង្កើនការហូរចូល របស់ Ca2+ទៅក្នុងកោសិកា",
+        "· បង្កើនកំហាប់របស់ Na+ក្នុងផ្នែកក្រៅកោសិក",
+        "· បង្កើនកំហាប់របស់ K+ក្នុងផ្នែកក្រៅកោសិកា"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 15,
+      "question": "បុរសម្នាក់អាយុ៣៥ឆ្នាំ មានផ្ទុកហ្សែនជម្ងឺឆ្កួតជ្រូក (epilepsy) ។ ហ្សែនដែលរងនូវ mutation នេះប៉ះពាល់ទៅលើ canaux vlotage dependent de Na+ របស់កោសិកាប្រសាទបង្កឲ្យ canaux នេះ inactive យឺត (ប្រហែល៥០%)។ តើហ្សែននេះប៉ះពាល់ទៅលើមុខងាររបស់កោសិកាប្រសាទយ៉ាងដូចម្តេច?",
+      "images": [],
+      "image": "",
+      "options": [
+        "o Potentiel de repos membranaire មានតម្លៃជិត (0 mV",
+        "o Potentiel d'action និងមិនលើសពី (0 mV",
+        "o Potentiel d'action ប្រហែលជានឹងត្រូវបានពន្យាពេល",
+        "o Potentiel d'action ប្រហែលជាកើនឡើងយឺតៗ",
+        "o Potentiel d'action ប្រហែលជាមិនកើតឡើងទេ"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 16,
+      "question": "តើកំហាប់សាធាតុណាមួយខាងក្រោមដែលមានឥទ្ធិពលទៅលើ potentiel de repos membranaire (polarisation) របស់ axone myélinisé d'un nerf?",
+      "images": [],
+      "image": "",
+      "options": [
+        "· Ca2+",
+        "· Cl-",
+        "· HCO3-",
+        "· K+",
+        "· Na+"
+      ],
+      "correctIndex": 3
+    },
+    {
+      "id": 17,
+      "question": "Neurotransmetteur មួយដែលបញ្ចេញពី neurone prèsynaptique ខ្មោចទៅលើ systeme de proteine Gs neurone post synaptique។ តើសំណើណាមួយខាងក្រោមដែលបញ្ជាក់ថាគ្មានការឆ្លើយតបពី neurones postsynaptiquesទៅនឹងការភ្ជាប់របស់ neurotransmetteur?",
+      "images": [],
+      "image": "",
+      "options": [
+        "· Activation du systeme AMPc",
+        "· Activation du systeme GMPc",
+        "· Ouverture des canaux ioniques",
+        "· Transcription du gene",
+        "· Fermeture des canaux ioniques"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 18,
+      "question": "តើចលនការៀបរាប់ណាមួយខាងក្រោមដែលជាកាបញ្ជូននូវព័ត៌មាន ពីdendrite ទៅកាន់តួកោសិការបស់ neurone postsynaptique?",
+      "images": [],
+      "image": "",
+      "options": [
+        "Potentiel d'action",
+        "Transport actif",
+        "Decharge capacité",
+        "Diffusion simple",
+        "Conduction electronique"
+      ],
+      "correctIndex": 4
+    },
+    {
+      "id": 19,
+      "question": "តើការពន្យល់ណាមួយខាងក្រោមត្រឹមត្រូវទាក់ទងនិងការកកើតឡើងនៃPotentiel d'action?",
+      "images": [],
+      "image": "",
+      "options": [
+        "Potentiel d'action ចាប់ផ្តើមពេលដែល Potentiel membranaire ឋិតក្រោមseuilនៃរំញោច",
+        "Potentiel d'action ត្រូវបានកកើតឡើងត្រង់synapse",
+        "ពេលដែលPotentiel d'action ចាប់ផ្តើមវានឹងបន្តដំណើររហូតដល់ទីបញ្ចប់",
+        "Canaux voltage dépendant de Na+មានតិចតួចត្រង់ Noed de Ranvier",
+        "Potentiel d'action ត្រូវបានកកើតឡើងកំឡុងពេល période réfractaire"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 20,
+      "question": "តើបាតុភូតរៀបរាប់ណាមួយខាងក្រោមដែលជាលក្ខណៈរបស់ interaction de synapse inhibiteur?",
+      "images": [],
+      "image": "",
+      "options": [
+        "មានការបើកcanaux ligand dependant specifique de l'ion Cl-",
+        "Potentiel du Cl- មានប្រហែល-70mV នាំឲ្យCI- ហូរចេញក្រៅកោសិកា",
+        "ការបើកcanaux ligand dependant specifique du K+ នាំឲ្យ K+ចេញក្រៅកោសិកា",
+        "កើនឡើងកំហាប់ Na+ក្រៅកោសិកានាំឲ្យមាន Potentiel post synaptique inhibiteur",
+        "កើនឡើង កើនឡើងកំហាប់ Ca2+ក្រៅកោសិកានាំឲ្យមាន Ca2+ចេញក្រៅកោសិកា"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 21,
+      "question": "ជាទួទៅតើ activation des canaux ioniques ណាមួយខាងក្រោម ដែលបង្កឲ្យមានការប្រែប្រួលរយៈពេល យនូវសកម្មភាពរបស់កោសិកាប្រសាទ?",
+      "images": [],
+      "image": "",
+      "options": [
+        "· Canaux voltage depandant du Cl-",
+        "· Canaux voltage depandant du Na+",
+        "· Canaux ionique couple au proteine G",
+        "· Canaux voltage depandnat du K+",
+        "· Canaux voltage depandnat du Ca2+"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 22,
+      "question": "រំញោចធ្វើឲ្យ neurone មួយប្រែប្រួល potentiel membranaire de -65 millivolts au -55 milivolts millivolts ។តើការរៀបរាប់ណាមួយខាងក្រោមត្រឹមត្រូវទាក់ទងទៅនឹងការប្រែប្រួលនូវ potentiel membranaire (millivolts) ?",
+      "images": [],
+      "image": "",
+      "options": [
+        "· មាន potentiel postsynaptique excitatrice =-10",
+        "· មាន potentiel postsynaptique excitatrice =+10",
+        "· មាន potentiel postsynaptique inhibitrice =-10",
+        "· មាន potentiel postsynaptique inhibitrice =+10",
+        "· មាន potentiel postsynaptique excitatrice =>10"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 23,
+      "question": "តើមេកានីសណាមួយខាងក្រោមត្រឹមត្រូវទាក់ទងទៅនឹងមុខងាររបស់ acétylcholine?",
+      "images": [],
+      "image": "",
+      "options": [
+        "· មានសកម្មភាពផ្ទាល់ទៅលើcanaux ioniques",
+        "· មានសកម្មភាពតាមរយៈ protéine G",
+        "· មានសកម្មភាពតាមរយៈ système AMPC",
+        "· មានសកម្មភាពតាមរយៈ ions calcium",
+        "· មានសកម្មភាពតាមរយៈ tyrosine kinase"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 24,
+      "question": "គេមានneurones២ប្រភេទ neurones myélinisés et neurones amyélinisés Neurones myélinisés មាន neurone A et neurone B ដែល axone du neurone A មានអង្កត់ផ្ចិតតូចជាងaxone du neurone B ចំណែក ឯneurones amyélinisésមានneurone C, neurone D, et neurone E ដែលaxone du neurone C មានអង្កត់ផ្ចិត តូចជាង axone du neurone D និង axone du neurone Eฯ เค็axone ណាមួយដែលមានល្បឿន conduction de potentiel d'actionលឿនជាងគេ?",
+      "images": [],
+      "image": "",
+      "options": [
+        "· Neurone .A",
+        "· Neurone.B",
+        "· Neurone.C",
+        "· Neurone.D",
+        "· Neurone .E"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 25,
+      "question": "ប្រសិនសារធាតុមួយដែលមានសកម្មភាពបញ្ឈប់អង់ស៊ីម acétylcholinesterase តើលទ្ធផលណាមួយខាងក្រោមដែលគេនឹងទទួលបាន?",
+      "images": [],
+      "image": "",
+      "options": [
+        "· បញ្ឈប់មិនឲ្យមានការបញ្ចេញacétylcholine",
+        "· គ្មានការភ្ជាប់acétylcholine ជាមួយrécepteur",
+        "· បង្កើនសកម្មភាពacétylcholine",
+        "· បន្ថយសកម្មភាពacétylcholine",
+        "· កើនឡើងមេតាបូលីសacétylcholine"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 26,
+      "question": "គេធ្វើការពិសោធន៍មួយទៅលើ axone d'un neurone ដោយផ្តល់រំញោចមានកម្រិត២៥milivolts ដែលបង្កឲ្យមានការចាប់ផ្តើម potentiel d'action ដែលមានល្បឿន៥០m/sec។បន្ទាប់មក axone ត្រូវបានខ្មោចក្នុងកម្រិត១០០milivolts ។ potentiel d'action មានល្បឿនប៉ុន្មានបន្ទាប់ពីរំញោចត្រូវបានផ្តល់ឲ្យក្នុងកម្រិត១០ milivolts?",
+      "images": [],
+      "image": "",
+      "options": [
+        "· 25 m/sec",
+        "· 50 m/sec",
+        "· 100 m/sec",
+        "· 150 m/sec",
+        "· 2500 m/sec"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 27,
+      "question": "តើsystèmeណាមួយខាងក្រោមដែលឆ្លើយតបទៅនឹង mécanisme d'action របស់ neurotransmetteur noradrenaline ?",
+      "images": [],
+      "image": "",
+      "options": [
+        "· Inositol 3 phsophate",
+        "· Canaux ionique",
+        "· Protéine G",
+        "· Système AMPC",
+        "· Diacyl glycerol"
+      ],
+      "correctIndex": 3
+    },
+    {
+      "id": 28,
+      "question": "តើការពន្យល់ណាមួយខាងក្រោមត្រឹមត្រូវដែលឆ្លើយតបទៅនឹងមេកានីសដែលGABA ធ្វើសកម្មភាព?",
+      "images": [],
+      "image": "",
+      "options": [
+        "· កើនឡើងPermeabilité du Na+",
+        "· ថយចុះPermeabilité du K+",
+        "· កើនឡើងPermeabiité du Ca2+",
+        "· ថយចុះ Permeabilité du Cl-",
+        "· កើនឡើងPermeabilité du Cl-"
+      ],
+      "correctIndex": 4
+    },
+    {
+      "id": 29,
+      "question": "neurotransmetteur ណាមួយដែលមានមុខងារជា neurotransmetteur excitateur?",
+      "images": [],
+      "image": "",
+      "options": [
+        "· Acétylcholine",
+        "· Noradrenaline",
+        "· Glutamate",
+        "· Glycine",
+        "· Dopamine"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 30,
+      "question": "ប្រសិនជាថ្នាំមួយបញ្ឈប់ការបើកcanaux de Na+sineurone sensitif មួយតើបាតុភូតណាមួយខាងក្រោមអាចកើតឡើង?",
+      "images": [],
+      "image": "",
+      "options": [
+        "· មានការកើតឡើងធម្មតាpotentiel d'action",
+        "· គ្មានការកើតឡើងនូវpotentiel d'action",
+        "· ការបញ្ជូនព័ត៌មានប្រព្រឹត្តធម្មតាក្នុងneurone",
+        "· កោសិកាស្ថិតក្នុងpériode réfractaire",
+        "· មានការកើតឡើងធម្មតានូវdépolarisation"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 31,
+      "question": "ប្រសិនជាអង់ស៊ីម acétylcholinesterase មិនត្រូវបានបំផ្លាញដោយសារ inhibiteur de cholinesteraseតើបាតុភូតណាមួយខាងក្រោមកើតឡើង?",
+      "images": [],
+      "image": "",
+      "options": [
+        "· មានការថយចុះនូវការបញ្ជូនរំញោចក្នុងsynapse",
+        "· គ្មានការប្រែប្រួលនូវការបញ្ជូនរំញោចក្នុងsynapse",
+        "· មានការកើនឡើងនូវការបញ្ជូនរំញោចក្នុងsynapse",
+        "· មានការថយចុះនូវការបញ្ចេញ neurostransmetterurs",
+        "· គ្មានការប្រែប្រួលនូវការបញ្ចេញneurostransmetterurs"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 32,
+      "question": "neurostransmetterursណាមួយខាងក្រោមនូវពេលដែលត្រូវបានបញ្ចេញពីvésicules synaptiques មាន សកម្មភាពបន្ថយការឈឺចាប់?",
+      "images": [],
+      "image": "",
+      "options": [
+        "· Acetylcholine",
+        "· Adrenaline",
+        "· Endorphine",
+        "· Dopamine",
+        "· Sérotonine"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 33,
+      "question": "ស្រីម្នាក់មានអាយុ៣០ឆ្នាំត្រូវបានគេចាក់ថ្នាំដែលមានសកម្មភាពទៅលើgonade ដែលបង្កឲ្យមានការកើនឡើងនូវអត្រាអ័ម៉ូនluteinizing hormone (LH) ក៏ប៉ុន្តែអត្រាអ័ម៉ូន follicle stimulating hormone (FSH)មានកម្រិតទាប។ តើអ័ម៉ូនណាមួយខាងក្រោមដែលមិនទទួលរងការប្រែប្រួលពីការប្រើប្រាស់ថ្នាំនេះ?",
+      "images": [],
+      "image": "",
+      "options": [
+        "o Oestradirol",
+        "o Progesterone",
+        "o Androstenedione",
+        "o Testosterone",
+        "o Dihydrotestosterone"
+      ],
+      "correctIndex": 4
+    },
+    {
+      "id": 34,
+      "question": "ប្រសិនជាសរីរាង្គមួយមិនឆ្លើយតបទៅនឹងអ័ម៉ូនណាមួយខាងក្រោម ដែលបង្កឲ្យមានរោគសញ្ញា polyurie និងកើនឡើងនូវosmolarité plasmatique?",
+      "images": [],
+      "image": "",
+      "options": [
+        "o Hormone antidiuretique",
+        "o Aldosterone",
+        "o Parathyroid hormone",
+        "o Somatostatine",
+        "o 1,25-Dihydroxycholecalciferol"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 35,
+      "question": "បណ្តាសំណើខាងក្រោមណាមួយដែលបញ្ជាក់ពី specifisité des hormones",
+      "images": [],
+      "image": "",
+      "options": [
+        "o ភាពរលាយរបស់ Hormone នៅក្នុងទឹកឬក្នុងខ្លាញ់",
+        "o ចម្ងាយរវាងglande endocrine និង organes cibles",
+        "o ប្រភេទrecepteurs ដែលមានលើសរីរាង្គនោះ",
+        "o បរិមាណអ័ប្អូនដែលត្រូវបានបញ្ចេញពីក្រពេញ",
+        "o មេតាបូលីសរបស់អ័ម៉ូននីមួយៗ"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 36,
+      "question": "ចំពោះមនុស្សស្រីក្នុងវ័យបន្តពូជ បំរែបំរួលនូវការបញ្ចេញអ័ម៉ូននៃប្រព័ន្ធបន្តពូជរៀងរាល់ខែគឺជា Regulation hormonale ដើម្បីសម្របសម្រួលដែលមានលក្ខណៈ",
+      "images": [],
+      "image": "",
+      "options": [
+        "o Caractère rapide",
+        "o Caractère cyclique",
+        "o Caractère chronique",
+        "o Caractère irrégulier",
+        "o Caractère stable"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 37,
+      "question": "ក្រោយពេលបាយភ្លុយកូសកើនឡើង ក្នុងឈាមនាំឲ្យមានការបញ្ចេញអាំងស៊ុយលីនពីលំពែង។ រំញោចណាមួយខាងក្រោមដែលនាំឲ្យមានការបញ្ចេញអ័ម៉ូននេះ?",
+      "images": [],
+      "image": "",
+      "options": [
+        "o Régulation hormonale",
+        "o Regulation neuronale",
+        "o Regulation neurohormonale",
+        "o Regulation nonhormonale",
+        "o Regulation positive"
+      ],
+      "correctIndex": 3
+    },
+    {
+      "id": 38,
+      "question": "តើការប្រែប្រួលណាមួយដែលអាចកើតមានជាមួយ នឹងការកើនឡើងនូវការភ្ជាប់របស់អ័ម៉ូនទៅនិងប្រូតេអ៊ុនរបស់ប្លាស្នា?",
+      "images": [],
+      "image": "",
+      "options": [
+        "o ការកើនឡើងនូវការបញ្ចេញអ័ម៉ូនពីប្លាស្មា",
+        "o ការថយចុះនូវ demi-vie de l'hormone",
+        "o ការកើនឡើងនូវសកម្មភាពរបស់អ័ម៉ូន",
+        "o ការកើនឡើងនូវ regulation negative",
+        "o ការកើនឡើងនូវអ័ប្អូនបំរុងក្នុងប្លាស្មា"
+      ],
+      "correctIndex": 4
+    },
+    {
+      "id": 39,
+      "question": "តើអ័ម៉ូនណាមួយខាងក្រោមដែលត្រូវបាន inhibé ដោយសារអ័ម៉ូន stomatostatine ?",
+      "images": [],
+      "image": "",
+      "options": [
+        "o Antidiuretic hormone (ADH)",
+        "o Insuline",
+        "o Oxytocine",
+        "o Prolactine",
+        "o Thyroid hormone"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 40,
+      "question": "ក្នុងលក្ខណ៍ធម្មតា តើការប្រែប្រួលកត្តាណាមួយខាងក្រោមដែល ADH ត្រូវបានបញ្ចេញ?",
+      "images": [],
+      "image": "",
+      "options": [
+        "o ថយចុះនូវOmsolarité plasmatique",
+        "o ថយចុះនូវ volume sanguin",
+        "o Facteur Natriuretique Auriculaire",
+        "o កើនឡើងនូវភាពត្រជាក់",
+        "o កើនឡើងសំពាធឈាម"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 41,
+      "question": "récepteur របស់អ័ម៉ូនណាមួយខាងក្រោមដែលមានសកម្មភាព tyrosine kinase?",
+      "images": [],
+      "image": "",
+      "options": [
+        "o Oestrogene",
+        "o Hormone Antidiuretique",
+        "o Aldosterone",
+        "o Somatostatine",
+        "o Insuline"
+      ],
+      "correctIndex": 4
+    },
+    {
+      "id": 42,
+      "question": "តើលក្ខ័ណណាមួយខាងក្រោមដែលនាំឲ្យមានការបញ្ចេញhormone de croissance កើនឡើង?",
+      "images": [],
+      "image": "",
+      "options": [
+        "o Hyperglycemie",
+        "o Exercise",
+        "o Somatomedine",
+        "o Somatostatine",
+        "o Age"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 43,
+      "question": "តើសំណើណាមួយខាងក្រោមដែលជាមុខងាររបស់ IGF-1(somatomedine-C)?",
+      "images": [],
+      "image": "",
+      "options": [
+        "o Neoglucogenese",
+        "o Croissance des os et tissu",
+        "o Synthèse de proteines",
+        "o Résistance de l'insuline",
+        "o Glycogenolyse"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 44,
+      "question": "កោសិកាមួយចំនួនបញ្ចេញសាធាតុគីមីទៅក្នុងmilieu extra cellulaire ដែលមានអំពើទៅលើកោសិកាខ្លួន ឯងផ្ទាល់។ ការរៀបរាប់ណាមួយខាងក្រោមដែលឆ្លើយតបទៅនឹងសកម្មភាពខាងលើ?",
+      "images": [],
+      "image": "",
+      "options": [
+        "o Autocrine",
+        "o Paracrine",
+        "o Endocrine",
+        "o Neurocrine",
+        "o Exocrine"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 45,
+      "question": "បណ្តាសំណើខាងក្រោមណាមួយដែលមិនមែនជា système second messager?",
+      "images": [],
+      "image": "",
+      "options": [
+        "o AMPC",
+        "o IP3",
+        "o DAG",
+        "o 5-HT",
+        "o Calcium"
+      ],
+      "correctIndex": 3
+    },
+    {
+      "id": 46,
+      "question": "តើអ័ម៉ូន hypothalamus ណាមួយខាងក្រោមដែលបញ្ឈប់ការបញ្ចេញ Prolactine ពីកោសិកា lactoropes?",
+      "images": [],
+      "image": "",
+      "options": [
+        "o GnRH",
+        "o Dopamine",
+        "o GHRH",
+        "o TRH",
+        "o ACTH"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 47,
+      "question": "តើអ័ម៉ូនណាមួយខាងក្រោមរបស់ hypophyse anterieure ដែលមានមុខងារសម្របសម្រួលទៅលើ organe non endocrine?",
+      "images": [],
+      "image": "",
+      "options": [
+        "o ACTH",
+        "o TSH",
+        "o Prolactine",
+        "o FSH",
+        "o LH"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 48,
+      "question": "តើអ័ម៉ូនណាមួយខាងក្រោមត្រូវបានបញ្ចេញនូវពេលដែល មាឌទឹកនៅក្រៅកោសិកាកើនឡើង?",
+      "images": [],
+      "image": "",
+      "options": [
+        "o Hormone antidiuretique (ADH)",
+        "o Aldosterone",
+        "o Facteur natriurétique auriculaire (FNA)",
+        "o 1,25 Dihydrocholecaldiferol",
+        "o Hormone parathyroide (PTH)"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 49,
+      "question": "មនុស្សម្នាក់មានជម្ងឺ diabete insipide ដោយសារការបញ្ចេញអ័ម៉ូនADHមិនអាចប្រព្រឹត្តទៅបាន គាត់ប្រហែលជាមានរោគសញ្ញា",
+      "images": [],
+      "image": "",
+      "options": [
+        "o សំពាធឈាមកើនឡើង",
+        "o បរិមាណទឹកនោមបញ្ចេញចោលទាប",
+        "o បាត់បង់ជាតិទឹកនិងស្រេកទឹក",
+        "o ចាល់ជាតិទឹកក្នុងខ្លួន",
+        "o បរិមាណទឹកនោមបញ្ចេញចោលធម្មតា"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 50,
+      "question": "ប្រសិនជាcortex surrénal ត្រូវបានខូចខាតហើយមិនអាចចូលរួមក្នុងrégulation negativeបាន ។តើសំណើណាមួយខាងក្រោមឆ្លើយតបទៅនិងលក្ខណ៍ដែលបានរៀបរាប់ខាងលើ?",
+      "images": [],
+      "image": "",
+      "options": [
+        "o ថយចុះCRHនិងកើនឡើងcortisol",
+        "o ថយចុះCRHនិង ថយចុះcortisol",
+        "o ថយចុះCRHនិងកើនឡើងACTH",
+        "o កើនឡើងCRHនិង ថយចុះcortisol",
+        "o កើនឡើងCRHនិងកើនឡើងACTH"
+      ],
+      "correctIndex": 4
+    },
+    {
+      "id": 51,
+      "question": "តើអ័ម៉ូនណាមួយខាងក្រោមដែលអាចបង្កឲ្យមាន contraction des muscles lisses vasculaires?",
+      "images": [],
+      "image": "",
+      "options": [
+        "o Hormone antidiurétique",
+        "o Aldosterone",
+        "o Facteur natriurétique auriculaire",
+        "o 1,25-Dihydroxycholecalciferol",
+        "o Parathyroid hormone"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 52,
+      "question": "តើអ័ម៉ូនណាមួយខាងក្រោមដែលធ្វើអំពើទៅលើ organes cibles ដែលមាន mécanisme d'action ដូចគ្នានឹង mécanisme d'action របស់ hormone stéroide?",
+      "images": [],
+      "image": "",
+      "options": [
+        "o Hormone de la glande parathyroide",
+        "o Hormone antidiurétique",
+        "o Hormone de la glande thyroide",
+        "o Hormone du pancreas Glucagon",
+        "o Hormone de la glande surrénale"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 53,
+      "question": "តើការបញ្ចេញអ័ម៉ូនណាមួយខាងក្រោមជាឧទាហរណ៍នៃប្រភេទ stimulus neuroendocrine?",
+      "images": [],
+      "image": "",
+      "options": [
+        "o Hormone de croissance",
+        "o Cortisol",
+        "o Oxytocine",
+        "o Prolactine",
+        "o ACTH"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 54,
+      "question": "តើអ័ម៉ូនណាមួយខាងក្រោមដែលត្រូវបានផលិតដោយ trophoblastesក្នុងកំឡុងពេល៣ សប្តាហ៍នៃការមានផ្ទៃពោះ?",
+      "images": [],
+      "image": "",
+      "options": [
+        "o Oestrogene",
+        "o LH",
+        "o Oxytocine",
+        "o HCG",
+        "o Progesterone"
+      ],
+      "correctIndex": 3
+    },
+    {
+      "id": 55,
+      "question": "តើការបញ្ចេញអ័ម៉ូនណាមួយខាងក្រោមមានការថយចុះ ប្រសិនជា zone glomerulé du cortex surrénal ត្រូវបានបំផ្លាញ?",
+      "images": [],
+      "image": "",
+      "options": [
+        "o Aldosterone",
+        "o Androstenedione",
+        "o Cortisol",
+        "o Testosterone",
+        "o Dopamine"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 56,
+      "question": "នៅក្នុង Régulation du glande endocrine តើសំណើណាមួយខាងក្រោមឆ្លើយតបទៅនិង régulation positive?",
+      "images": [],
+      "image": "",
+      "options": [
+        "o PO2 sur le fréquence respiratoire",
+        "o Glucose sur la secretion de l'insuline",
+        "o Oestrogène sur la secretion de FSH à mi cycle",
+        "o Concentration du Ca2+ sanguin sur la secretion de PTH",
+        "o Sodium sur la secretion de l'aldosterone"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 57,
+      "question": "បុរសម្នាក់មានអាយុ ៥៣ឆ្នាំមាន myélome multiple ត្រូវបានចូលសម្រាកពេទ្យបន្ទាប់ពីលេចចេញនូវរោគសញ្ញាដូចជា polydypsie, polyurie, et confusion ។ លទ្ធផលនៃ មន្ទីរពិសោធន៍បង្ហាញឲ្យឃើញមានការកើនឡើងនូវ Ca2+=15mg/dl ការព្យបាលចាប់ផ្តើមដើម្បីបន្ថយ អត្រាកាល់ស្យូម។ Osmolarité plasmatique មាន310mOsm/L ។ហេតុ ផលដែលអ្នកជម្ងឺមាន polyuria គឺដោយសារ",
+      "images": [],
+      "image": "",
+      "options": [
+        "o ការកើនឡើងអត្រា ADH ក្នុងឈាម",
+        "o ការកើនឡើងអត្រា aldosterone ក្នុងឈាម",
+        "o ADH មានសកម្មភាពទៅលើ Tubule renal",
+        "o ADH អត្រាមានកម្រិតទាបក្នុងឈាម",
+        "o ADH គ្មានសកម្មភាពទៅលើ Tubule renal"
+      ],
+      "correctIndex": 4
+    },
+    {
+      "id": 58,
+      "question": "តើដំណាក់កាលណាមួយនៃ biosynthèse de l'hormone stéroide ដែលប្រព្រឹត្តទៅនៅក្នុង organes cibles របស់មនុស្សប្រុសនិងត្រូវបានរងអំពើពី hormones 5 alpha reductase?",
+      "images": [],
+      "image": "",
+      "options": [
+        "o Cholesterole បំឡែងទៅជា prégnénolone",
+        "o Testosterone បំឡែងទៅជា dihydrotestosterone",
+        "o Dehdroepiandrosterone បំឡែងទៅជា androstenedione",
+        "o Testosterone បំឡែងទៅជា oestradiol",
+        "o Progestérone បំឡែងទៅជា 11-deoxycorticosterone"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 59,
+      "question": "តើសារធាតុណាមួយខាងក្រោមមានសកម្មភាពទៅលើ organes cibles តាមរយៈ mecanisme de l'IP3?",
+      "images": [],
+      "image": "",
+      "options": [
+        "o Somatomedines sur les chondrocytes",
+        "o Oxytocine sur cellules myoépithéliales des glandes mammaires",
+        "o Hormone antidurétique sur les tubules rénaux",
+        "o Hormone adrenocorticotrope sur le cortex surrénal",
+        "o Hormone thyroide sur le tissue musculaire"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 60,
+      "question": "ស្ត្រីម្នាក់អាយុ៣៩ឆ្នាំមាន galactorrhéត្រូវបានគ្រូពេទ្យព្យាបាលដោយប្រើប្រាស់ថ្នាំដើម្បីបំបាត់ galactorrhéនេះ។ ការប្រើប្រាស់ថ្នាំនេះគឺមានសកម្មភាពទៅលើ៖",
+      "images": [],
+      "image": "",
+      "options": [
+        "o Dopamine",
+        "o Oestradiol",
+        "o Follicle stimulating hormone",
+        "o Gonadotropin releasing hormone",
+        "o Oxytocine"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 61,
+      "question": "តើអ័ប្អូនខាងក្រោមណាមួយដែលបង្កឲ្យមាន contraction des muscles lisses តាមរយៈ action de l'IP3?",
+      "images": [],
+      "image": "",
+      "options": [
+        "o ADH",
+        "o Aldosterone",
+        "o PTH",
+        "o Oxytocine",
+        "o Glucocorticoide"
+      ],
+      "correctIndex": 3
+    },
+    {
+      "id": 62,
+      "question": "ស្ត្រីម្នាក់អាយុ៣៣ឆ្នាំត្រូវបានគេធ្វើការវះកាត់យកlobe antérieure de l'hypophyse ចេញដោយសារមាន tumeur។ដោយគ្មានការព្យាបាលដើម្បីបង្គ្រប់ការខ្វះខាតដោយអីម៉ូន តើមានអ្វីកើត ឡើងបន្ទាប់ពីមានការរវះកាត់យកtumeur ចេញ?",
+      "images": [],
+      "image": "",
+      "options": [
+        "o បាត់បង់នូវ cycle menstruel",
+        "o បាត់បង់មុខងារសម្របសម្រួលទឹកនោម",
+        "o កើនឡើងមុខងារសម្របសម្រួលទឹកនោម",
+        "o បាត់បង់មុខងារឆ្លើយតបទៅនឹង stress",
+        "o បាត់បង់មុខងារឆ្លើយតបទៅនឹងhypocalcemie"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 63,
+      "question": "បុរសម្នាក់ត្រូវបានគេរកឃើញថា ក្នុងឈាមគាត់មានការកើនឡើងខ្ពស់នូវអ័ម៉ូន ACTH។ តើអ័ម៉ូនណាមួយខាងក្រោមដែលមិនសូវទទួលឥទ្ធិពលពីការកើនឡើងនៃ ACTH?",
+      "images": [],
+      "image": "",
+      "options": [
+        "o Androstenedione",
+        "o Dehydroenpiandrosterone",
+        "o Corticosterone",
+        "o Aldosterone",
+        "o Cortisol"
+      ],
+      "correctIndex": 3
+    },
+    {
+      "id": 64,
+      "question": "mécanisme d'action ណាមួយខាងក្រោមដែលទាក់ទងទៅនឹងសកម្មភាព ADH ទៅលើtubules rénaux?",
+      "images": [],
+      "image": "",
+      "options": [
+        "o កើនឡើងនូវកាល់ស្យូមក្នុងកោសិកា",
+        "o កើនឡើងនូវការសំយោគប្រូតេអ៊ុន",
+        "o ថយចុះនូវអត្រាសង្ឃឹមក្នុងកោសិកា",
+        "o កើនឡើងការកន្ត្រាក់នូវtubles rénaux",
+        "o ថយចុះនូវអត្រាប៉ូតាស្យូមក្នុងកោសិកា"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 65,
+      "question": "តើ effets metabolliques ណាមួយរបស់ hormone de croissance ដែលខុសពី effets របស់ glucocorticoide",
+      "images": [],
+      "image": "",
+      "options": [
+        "o សំយោគប្រូតេអ៊ុនក្នុងសាច់ដុំ",
+        "o ចាប់យក សកូសនៅ tissu périphérique",
+        "o សម្របសម្រួលកំហាប់ភ្លុយកូសក្នុងប្លាស្មា",
+        "o Catabolisme des triglycérides",
+        "o Catabolisme des protéines"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 66,
+      "question": "តើសំណើរណាមួយខាងក្រោមដែលឆ្លើយតបទៅនឹងលក្ខណៈរបស់អ័ម៉ូន oxytocine?",
+      "images": [],
+      "image": "",
+      "options": [
+        "o ចូលរួមក្នុងការផលិតទឹកដោះចំពោះស្រ្តីមានផ្ទៃពោះ",
+        "o ត្រូវបានសំយោគក្នុង post hypophyse",
+        "o បង្កឲ្យមានការសម្រាករបស់uterus (relachement uterin)",
+        "o បង្កឲ្យមានការចាប់ផ្តើមនិងការប្រព្រឹត្តនៃការសម្រាល",
+        "o ប្រភេទអីម៉ូនសំយោគពីសារធាតុខ្លាញ់"
+      ],
+      "correctIndex": 3
+    },
+    {
+      "id": 67,
+      "question": "តើអ័ម៉ូនណាមួយខាងក្រោមដែលមិនសូវមានទម្រង់ភ្ជាប់ជាមួយប្រូតេអ៊ីននៃប្លាស្មា?",
+      "images": [],
+      "image": "",
+      "options": [
+        "o Cortisol",
+        "o Hormone thyroide",
+        "o Insuline",
+        "o Oestradiol",
+        "o Progesterone"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 68,
+      "question": "តើសំណើណាមួយខាងក្រោមដែលឆ្លើយតបទៅនិងលក្ខណៈរបស់ corps jaune?",
+      "images": [],
+      "image": "",
+      "options": [
+        "o Sa sécretion importante dès le début de cycle",
+        "o Sa croissasnce est indépendant de l'hypothalamus",
+        "o Son rétro-inhibition assure par l'inhibine",
+        "o La croissance de l'endometre",
+        "o Sa croissance est dépendante de l'hypothalamus"
+      ],
+      "correctIndex": 4
+    },
+    {
+      "id": 69,
+      "question": "តើការរៀបរាប់ណាមួយខាងក្រោមដែលឆ្លើយតបទៅនិង effets de l' oestrogene?",
+      "images": [],
+      "image": "",
+      "options": [
+        "o Mucus cervical est défavorable au passage de spermatozoide",
+        "o Inhibition de la proliferation cellulaire de muscles lisses vasculaires",
+        "o Développement des lobules des glandes mammaires",
+        "o Diminution de taux des proteines contractiles de l'utérus",
+        "o Diminution des motilités des trompes uterines"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 70,
+      "question": "តើបណ្តាសំណើណាមួយខាងក្រោមដែលនាំឲ្យមានfermeture des épiphyse des os long?",
+      "images": [],
+      "image": "",
+      "options": [
+        "· Hormone de croissance",
+        "· IGF-1 (somatomedine-C)",
+        "· Insuline et hormone thyroidienne",
+        "· Testosterone et oestrogene",
+        "· Hormone glucocorticoide"
+      ],
+      "correctIndex": 3
+    },
+    {
+      "id": 71,
+      "question": "ស្រ្តីក្នុងវ័យបន្តពូជ menstruationគឺជាការដាច់ចេញនូវស្រទាប់ endomètre ដែលចាប់ផ្តើមនាចុងបញ្ចប់នៃcycleនីមួយៗ។ តើការពន្យល់ណាមួយខាងក្រោមដែលឆ្លើយតបទៅនឹងការប្រែប្រួលស្រទាប់ endomètre នេះ?",
+      "images": [],
+      "image": "",
+      "options": [
+        "o ការកើនឡើងនៃការផលិត progesterone ពី ovaires",
+        "o ការកើនឡើងនៃការបញ្ចេញ estrogeneពី ovaires",
+        "o ថយចុះការបញ្ចេញ progesterone និង estrogene ពី ovaires",
+        "o ការថយចុះការផលិតអ័ម៉ូន oxytocine",
+        "o ការកើនឡើងនូវការបញ្ចេញ FSH et LH"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 72,
+      "question": "ចំពោះស្ត្រីពេញវ័យមានការផលិតgamete រៀងរាល់ខែដែលកើតចេញពីការវិវត្តន៍នៃfollicules មួយក្រុម។ Regulation positive ជាបាតុភូតចាំបាច់មួយដើម្បីធានានូវការវិវត្តន៍នៃfolliculesនេះ។ តើសំណើណាមួយ ខាងក្រោម ដែលឆ្លើយតបទៅនឹងrégulation នេះ?",
+      "images": [],
+      "image": "",
+      "options": [
+        "o LH, estrogen",
+        "o FSH, estrogen",
+        "o LH, progesterone",
+        "o FSH, LH",
+        "o FSH, testosterone"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 73,
+      "question": "តើអ័ម៉ូនណាមួយខាងក្រោមដែលចូលរួមក្នុងការបំឡែងអ័ម៉ូន testosterone ទៅជាអ័ម៉ូន oestradiol នៅក្នុង celllules granulosa de l'ovaires ?",
+      "images": [],
+      "image": "",
+      "options": [
+        "o Adrenocorticotropic hormone (ACTH)",
+        "o Oestradiol",
+        "o Follicle-stimulating hormone (FSH)",
+        "o Gonadotropin-releasing hormone (GnRH)",
+        "o Human chorionic gonadotropin (HCG)"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 74,
+      "question": "ក្រោយសម្រាលរួច ការបំបៅដោះជាការចាំបាច់ដើម្បីធានាការចិញ្ចឹមទារក ដែលក្នុងនោះ មានការចូលរួមពីអ័រម៉ូនមួយចំនួន ។ ការបំបៅដោះក៏មាន ឥទ្ធិពលផងដែទៅលើ cycle menstruel ។ តើកត្តាណាមួយ ខាងក្រោមត្រឹមត្រូវទាក់ទងទៅនឹងឥទ្ធិពល នៃការបំបៅដោះទៅលើcycle menstruel",
+      "images": [],
+      "image": "",
+      "options": [
+        "· មានការកើនឡើងនូវ FSH",
+        "· មានការថយចុះនូវ GnRH",
+        "· មានការថយចុះនូវ prolactine",
+        "· មានការកើនឡើងនូវ progesterone",
+        "· មានការកើនឡើងនូវ oestrogene"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 75,
+      "question": "តើមុខងារណាមួយខាងក្រោមរបស់cellules de Sertoli ដែលទទួលខុសត្រូវលើ Rétroinhibition sur le FSH?",
+      "images": [],
+      "image": "",
+      "options": [
+        "· Synthese de l'inhibine",
+        "· Synthese de testosterone",
+        "· Maintenance du barrière hemato testiculaire",
+        "· Aromatisation de testosterone",
+        "· Synthese de l'ABP"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 76,
+      "question": "តើឃ្លាណាមួយខាងក្រោមដែលពន្យល់អំពី suppression de lactationកំឡុងពេលមានផ្ទៃពោះ?",
+      "images": [],
+      "image": "",
+      "options": [
+        "o អត្រា prolactine ក្នុងឈាមទាប",
+        "o អត្រា lactogene placentaire ក្នុងឈាមទាប",
+        "o Surrénal foetal ផលិត estriol មិនគ្រប់គ្រាន់",
+        "o អត្រា oestrogene et progesterone ក្នុងឈាមខ្ពស់",
+        "o អត្រា glucorticoide ក្នុងឈាមទាប"
+      ],
+      "correctIndex": 3
+    },
+    {
+      "id": 77,
+      "question": "តើសំណើណាមួយខាងក្រោមត្រឹមត្រូវទាក់ទងនឹងអ័ម៉ូន ADH?",
+      "images": [],
+      "image": "",
+      "options": [
+        "o ត្រូវបានសំយោគក្នុង hypophyse posterieure",
+        "o បង្កើនការស្រូបយកអំបិលនិងទឹកក្នុង tubules renaux",
+        "o ខ្មោចឲ្យមានការស្រេកទឹក",
+        "o មានសកម្មភាពផ្ទុយគ្នាទៅនឹង omsomalité urinaire et plasmatique",
+        "o ជាប្រភេទអីម៉ូនដែលមាន récepteur នៅក្នុងកោសិកា"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 78,
+      "question": "ចំពោះ កំឡុងពេលមានផ្ទៃពោះ ស្បូនស្ថិតក្នុងសភាពសម្រាក (relachement)។ ក៏ប៉ុន្តែក្នុងរយៈ៩ ខែនៃការមានផ្ទៃពោះ excitabilité de l'uterus ចាប់ផ្តើមកើនឡើងបន្តិចម្តងៗ។ តើកត្តាណាមួយ ចូលរួមធ្វើឲ្យ មានការកើនឡើងនូវ excitabilité de l'uterus?",
+      "images": [],
+      "image": "",
+      "options": [
+        "o មានកើនឡើងនូវការសំយោគ oestrogene",
+        "o មានការថយចុះនូវការសំយោគ oxytocine",
+        "o លំហូរឈាមទៅកាន់ស្បូនមានការកើនឡើង",
+        "o មានការថយចុះនូវការសំយោគ prostaglandine",
+        "o មានការថយចុះនូវសកម្មភាពរបស់ foetus"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 79,
+      "question": "ចំពោះស្ត្រីពេញវ័យម្នាក់ដែល cycle menstruel របស់គាត់មានរយៈពេល៣៥ថ្ងៃ តើថ្ងៃណាមួយខាង ក្រោមដែលអាចជាថ្ងៃមានovulation?",
+      "images": [],
+      "image": "",
+      "options": [
+        "o 12",
+        "o 14",
+        "o 17",
+        "o 21",
+        "o 24"
+      ],
+      "correctIndex": 3
+    },
+    {
+      "id": 80,
+      "question": "ក្នុងចំណោមអ័ម៉ូនខាងក្រោម តើ taux de l'hormone ណាមួយខាងក្រោម ដែលកើនឡើងក្នុងត្រីមាសទី ១ និងថយចុះទៅវិញក្នុងត្រីមាស ទី២និងទី៣នៃការមានផ្ទៃពោះ?",
+      "images": [],
+      "image": "",
+      "options": [
+        "o ACTH",
+        "o Oestradiol",
+        "o HCG",
+        "o Prolactine",
+        "o FSH"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 81,
+      "question": "នៅក្នុង biosynthese de l'hormone steroide inhibition de l'hormone ណាមួយខាងក្រោមដែលបន្ថយ ទំហ៊ីប្រូស្អាត?",
+      "images": [],
+      "image": "",
+      "options": [
+        "o Aldosterone synthase",
+        "o Aromatase",
+        "o Cholesterole demolase",
+        "o 5 alpha reductase",
+        "o 17,20 lyase"
+      ],
+      "correctIndex": 3
+    },
+    {
+      "id": 82,
+      "question": "ចំពោះស្រីមានផ្ទៃពោះ តើអ័ម៉ូនណាមួយខាងក្រោមដែលនាំឲ្យមានការចាប់ផ្តើមនៃការសម្រាលកូន?",
+      "images": [],
+      "image": "",
+      "options": [
+        "o ACTH de foetus",
+        "o ACTH de la mère",
+        "o Prostaglandines",
+        "o Oxytocine",
+        "o Progesterone"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 83,
+      "question": "តើអ័ម៉ូនណាមួយខាងក្រោមដែលជា ទូទៅគេប្រើប្រាស់ក្នុងគ្លីនិកដើម្បីឲ្យដឹងថា តើស្ត្រីមានផ្ទៃពោះឬអត់?",
+      "images": [],
+      "image": "",
+      "options": [
+        "o FSH",
+        "o Progestérone",
+        "o hCG",
+        "o Oestradiol",
+        "o LH"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 84,
+      "question": "តើអ័ម៉ូនណាមួយខាងក្រោមដែលមិនមែនជា hormone stéroide?",
+      "images": [],
+      "image": "",
+      "options": [
+        "o Oestrone",
+        "o Prégnenolone",
+        "o Relaxine",
+        "o 17 hydroxyprogesterone",
+        "o Aldosterone"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 85,
+      "question": "តើអ័ម៉ូនណាខាងក្រោមដែលមានមុខងារដ៏មានសារសំខាន់ចំពោះ phase sécrétoire du cycle menstrual?",
+      "images": [],
+      "image": "",
+      "options": [
+        "o HCG",
+        "o FSH",
+        "o Oestrogene",
+        "o Progesterone",
+        "o Testosterone"
+      ],
+      "correctIndex": 3
+    },
+    {
+      "id": 86,
+      "question": "ស្រីអាយុ២០ឆ្នាំម្នាក់ គ្មានរដូវជាយូរមកហើយ។ កំហាប់ progesteroneក្នុងប្លាស្មាមានកម្រិតទាប ។ តើការ ពន្យល់ណាមួយខាងក្រោមត្រឹមត្រូវទាក់ទងនឹងអត្រាទាបរបស់ progesterone ក្នុងឈាម?",
+      "images": [],
+      "image": "",
+      "options": [
+        "o មានការកើនឡើងការបញ្ចេញ LH",
+        "o គ្មានវត្តមាន corps jaune",
+        "o មានការថយចុះការបញ្ចេញ LH",
+        "o មានការថយចុះការបញ្ចេញ FSH",
+        "o មានការកើនឡើងការបញ្ចេញ inhibine"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 87,
+      "question": "ស្ត្រីវ័យក្មេងម្នាក់ត្រូវបានគេផ្តល់ថ្នាំចាក់ ជារៀងរាល់ថ្ងៃដោយចាប់ផ្តើមនៅថ្ងៃទី១៦នៃ Cycle mentruel normal របស់គាត់និងបន្តរហូតដល់រយៈពេល៣សប្តាហ៍។ គាត់បាត់រដូវនូវពេលដែលបន្តប្រើប្រាស់ថ្នាំ នោះ។ តើសារធាតុណាមួយខាងក្រោមដែល គេបានប្រើប្រាស់ចំពោះស្រីនោះ?",
+      "images": [],
+      "image": "",
+      "options": [
+        "o Testosterone",
+        "o Follicle stimulating Hormone",
+        "o Inhibiteur de progesterone",
+        "o Inhibiteur de Prostaglandine E2",
+        "o Human Chorionic Gonadotrophine"
+      ],
+      "correctIndex": 4
+    },
+    {
+      "id": 88,
+      "question": "តើសារធាតុណាមួយខាងក្រោមដែលបង្កឲ្យមានការបញ្ចេញរ Hormone de croissanceកើនឡើង?",
+      "images": [],
+      "image": "",
+      "options": [
+        "o Somatocrinine",
+        "o Insulin like growth factor-1(IGF-1)",
+        "o Somatostatine",
+        "o Hypoglycemie",
+        "o Administration de GH"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 89,
+      "question": "តើសារធាតុណាមួយខាងក្រោមដែលអាចបញ្ឈប់ការចាប់ផ្តើមសម្រាលទារកបាន?",
+      "images": [],
+      "image": "",
+      "options": [
+        "o Antagoniste de l'action de progesterone",
+        "o Administration de l'Luteinizing hormone",
+        "o Antagoniste de Prostaglandine E2",
+        "o Dilatation mecanique du col uterine",
+        "o Administration de l'oxytocine"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 90,
+      "question": "នៅពេលពេញវ័យការកើនឡើងនូវការបញ្ចេញអ័ម៉ូន LH et FSH hypophyse anterieure ធានាឲ្យមានការផលិត gamete និងការលូតលាស់សរីរាង្គដ៏ទៃទៀត។តើការៀបរាប់ណាមួយខាងក្រោមដែលចូលរួម សម្របសម្រួលធ្វើឲ្យអត្រាLH et FSH វិលមករកស្ថានភាពធម្មតាវិញ?",
+      "images": [],
+      "image": "",
+      "options": [
+        "o ការកើនឡើងរបស់នូវអ័ម៉ូនLH",
+        "o Rétroinhibition negative sur GnRH par progesterone",
+        "o Rétroinhibition negative sur GnRH par oestradiol",
+        "o Rétroinhibition negative sur GnRH par testosterone",
+        "o Rétroinhibition negative sur GnRH par dihydrotestosterone"
+      ],
+      "correctIndex": 3
+    },
+    {
+      "id": 91,
+      "question": "នៅក្នុងចលនការ spermatogenese ត្រូវបានសម្របសម្រួលដោយ retro-inhibition negative ដែលក្នុង នោះFSHមានអំពើទៅលើដំណាក់កាលជាច្រើននៃការបង្កបង្កើត spermatozoide។ តើអ័ម៉ូនណាមួយ ខាង ក្រោមដែលចូលរួមនៅក្នុងចលនការ retro-inhibition negative នេះ?",
+      "images": [],
+      "image": "",
+      "options": [
+        "o Testosterone",
+        "o Inhibine",
+        "o Oestrogene",
+        "o Luteinizing Hormone",
+        "o Progesterone"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 92,
+      "question": "តើសំណើរណាមួយខាងក្រោមត្រឹមត្រូវក្នុងកំឡុងពេល១២ម៉ោងមុន Ovulation?",
+      "images": [],
+      "image": "",
+      "options": [
+        "o ការកើនឡើងភ្លាមៗ Lueinizing Hormoneបន្ទាប់ពីការកកើតនូវcorps jaune",
+        "o ការកើនឡើងភ្លាមៗបន្ទាប់ពីការធ្លាក់ចុះនូវក់ហាប់របស់ progesteroneក្នុងប្លាស្នា",
+        "o ការកើនឡើងនូវចំនួននៃ follicules កំពុងវិវត្តន៍",
+        "o ការកើនឡើងនូវLuteinizing Hormone hypophyse anterieure",
+        "o ការកើនឡើងនូវ Follicular Stimulating Hormone"
+      ],
+      "correctIndex": 3
+    },
+    {
+      "id": 93,
+      "question": "ចំពោះស្រ្តីក្នុងវ័យបន្តពូជ មានការប្រែប្រួលអត្រាអ័ប្អូននៅក្នុងcycleនីមួយៗ ក្នុងនោះក៏មានការប្រែប្រួល ស្រទាប់ endometreដែរ។ តើក្នុងដំណាក់កាលណាមួយដែល អត្រា Progesterone កើនឡើងខ្ពស់ បំផុត ក្នុងCycle នីមួយៗ?",
+      "images": [],
+      "image": "",
+      "options": [
+        "o ចន្លោះរវាង Ovulationនិងការចាប់ផ្តើមមករដូវ",
+        "o កើតឡើងភ្លាមៗមុន ដំណាក់កាល Ovulation",
+        "o ពេលដែលកំហាប់ LH ក្នុងឈាមមានខ្ពស់បំផុត",
+        "o ពេលដែល follicules មួយក្រុមវិវត្តន៍ទៅជា follicule antral",
+        "o ក្នុងដំណាក់កាលដំបូងនៃ Phase folliculaire"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 94,
+      "question": "ការប្រែប្រួលស្រទាប់ endometre ចំពោះស្រ្តីក្នុងវ័យបន្តពូជកើតឡើងរៀងរាល់ដំណាក់កាលចុងក្រោយ នៃcycle នីមួយៗ។ តើការប្រែប្រួលអ័ម៉ូនណាមួយខាងក្រោមដែលឆ្លើយតបទៅនឹងការប្រែប្រួលខាង លើ?",
+      "images": [],
+      "image": "",
+      "options": [
+        "o ការកើនឡើងនូវអ័ម៉ូន progesterone",
+        "o ការកើនឡើងនូវអ័ម៉ូន Luteinizing Hormone",
+        "o ការថយចុះprogesterone et oestrogene",
+        "o ការកើនឡើងនូវអ័ម៉ូន oestradiol",
+        "o ការថយចុះCorticotropin Releasing Hormone"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 95,
+      "question": "ស្រីអត្តពលកម្មម្នាក់បានប្រើប្រាស់ថ្នាំដែលមានសកម្មភាពដូច testosteroneជាច្រើនខែ រដូវធម្មការបស់គាត់ដែលធ្លាប់មានត្រូវបានបាត់។ តើការពន្យល់ណាមួយខាងក្រោមដែលឆ្លើយតបទៅនឹងការរៀបរាប់ខាងលើ? Testosterone",
+      "images": [],
+      "image": "",
+      "options": [
+        "o ខ្មោចមិនឲ្យមានការបញ្ចេញ inhibine corps jaune",
+        "o បង្កឲ្យ endometre ឈប់លូតលាស់",
+        "o ខ្មោចឲ្យមានការបញ្ចេញ FSH et LH",
+        "o ខ្មោចឲ្យមានការបញ្ចេញ oestrogene",
+        "o បញ្ឈប់ការបញ្ចេញ GnRH ពីhypothalamus"
+      ],
+      "correctIndex": 4
+    },
+    {
+      "id": 96,
+      "question": "ការបង្កកំណើតគឺជាការជួបគ្នារវាង gamete និងឈ្មោល។តើមេកានីសណាមួយខាងក្រោមដែល ធ្វើ ឲ្យ zone pellucide ឡើងរឹងបន្ទាប់ពី ម៉ាតូ អ៊ុតចូលរួច ដែលការពារមិនឲ្យស្រែម៉ាតូសូអ៊ុតទី២ចូល ទៀត?",
+      "images": [],
+      "image": "",
+      "options": [
+        "o ការថយចុះកំហាប់អ័ម៉ូន oestradiol",
+        "o ប្រូតេអ៊ុនត្រូវបានបញ្ចេញពី acrosome",
+        "o ការកើនឡើងនូវអត្រាកាល់ស្យូមក្នុងovocyte",
+        "o ការកើនឡើងនូវអ័ម៉ូន testosterone",
+        "o ការកើនឡើងកំហាប់អ័ម៉ូន oestradiol"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 97,
+      "question": "ហេតុអ្វីបានជាទឹកដោះត្រូវបានផលិតក្រោយការសម្រាលទារកមិនអាចផលិតមុនសម្រាល?",
+      "images": [],
+      "image": "",
+      "options": [
+        "o អត្រារបស់LH et FSHទាបពេកក្នុងពេលមានផ្ទៃពោះ",
+        "o អត្រា oestrogene និងprogesterone ខ្ពស់ពេលមានផ្ទៃពោះ",
+        "o កោសិកានៃក្រពេញទឹកដោះមិនទាន់លូតលាស់ពេញលេញ",
+        "o អត្រាខ្ពស់នៃអុកស៊ីតូស៊ីនទើបអាចផលិតទឹកដោះបាន",
+        "o អត្រារបស់ LH et FSHខ្ពស់ពេកក្នុងពេលមានផ្ទៃពោះ"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 98,
+      "question": "ប្រសិនជាស្ត្រីម្នាក់មានដុំមួយដែលបញ្ចេញបរិមាណដ៏ច្រើនoestrogene glande surrénale តើការរៀប រាប់ណាមួយខាងក្រោមដែលឆ្លើយតបនឹងការពន្យល់នេះ?",
+      "images": [],
+      "image": "",
+      "options": [
+        "o អត្រាProgesterone ក្នុងឈាមនឹងកើនឡើង",
+        "o ការបញ្ចេញLHនឹងត្រូវបានបញ្ឈប់",
+        "o ស្រីនោះនឹងមានរដូវដូចធម្មតា",
+        "o ឆ្អឹងរបស់គាត់នឹងឈប់លូតលាស់",
+        "o ការបញ្ចេញLHនឹងត្រូវកើនឡើង"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 99,
+      "question": "ចំពោះមនុស្សប្រុស តើ recepteurណាមួយខាងក្រោមដែលគេ inhibition de recepteur នោះបង្កឲ្យ erection កាន់តែមាន រយៈពេលយូរ?",
+      "images": [],
+      "image": "",
+      "options": [
+        "o Récepteur d'oestrogene",
+        "o Récepteur de cholesterol",
+        "o Récepteur muscarinique",
+        "o Récepteur 5 phosphodiesterase",
+        "o Récepteur cholinergique"
+      ],
+      "correctIndex": 3
+    },
+    {
+      "id": 100,
+      "question": "ស្រីម្នាក់មានអាយុ៣០ឆ្នាំបំបៅដោះកូនគាត់ផ្ទាល់។ ក្នុងកំឡុងពេលដែលទារកបៅដោះ តើអំមួនណាដែលត្រូវបានបញ្ចេញដើម្បីឆ្លើយតបទៅនឹងការបំបៅនេះ?",
+      "images": [],
+      "image": "",
+      "options": [
+        "o កើនឡើងការបញ្ចេញADH",
+        "o ថយចុះការបញ្ចេញ prolactine",
+        "o កើនឡើងការបញ្ចេញOxytocine",
+        "o កើនឡើងការបញ្ចេញ oestrogene",
+        "o កើនឡើងការអត្រាprogesterone"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 101,
+      "question": "ចំពោះស្ត្រីពេញវ័យ សប្តាហ៍បន្ទាប់ពី ovulation មានការកើនឡើងនូវកម្រាស់ របស់ស្រទាប់ endometre ។ តើអ័ម៉ូនណាមួយខាងក្រោមដែលចូលរួមក្នុងចលនការនេះ?",
+      "images": [],
+      "image": "",
+      "options": [
+        "o Luteinizing Hormone",
+        "o Oestrogene",
+        "o Progesterone",
+        "o Follicle Stimulating Hormone",
+        "o Thyroxine"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 102,
+      "question": "២ថ្ងៃមុននិងចាប់ផ្តើម Ovulation ការបញ្ចេញអ័ម៉ូន FSH et LHមានកម្រិតទាប បំផុត។ តើអ្វីទៅដែល ជា មូលហេតុបង្កឲ្យមានការថយចុះអ័ម៉ូន FSH et LHនេះ?",
+      "images": [],
+      "image": "",
+      "options": [
+        "o Hypophyse anterieure មិនឆ្លើយតបទៅនឹងរំញោចពី GnRH",
+        "o មាន retro inhibition ទៅលើ l'hypothalamus ដោយ Oestrogene",
+        "o ការ GnRH បញ្ចេញត្រូវបានបញ្ឈប់ដោយសារកំដៅក្នុងខ្លួនកើនឡើង",
+        "o GnRH បញ្ចេញត្រូវបានបញ្ឈប់ដោយសារ oestrogene, progesterone et inhibine",
+        "o ការGnRH បញ្ចេញត្រូវបានបង្កើនដោយសារ oestrogene, progesterone et inhibine"
+      ],
+      "correctIndex": 3
+    },
+    {
+      "id": 103,
+      "question": "ចំពោះមនុស្សប្រុស Nitric oxide (NO)ចូលរួមបង្កឲ្យមាន erection de l'appareil genital ។ récepteurs ណាមួយខាងក្រោមដែលNO ត្រូវភ្ជាប់ជាមួយ?",
+      "images": [],
+      "image": "",
+      "options": [
+        "o Récepteur de l'leptine",
+        "o Récepteur de l'agniotensine I",
+        "o Récepteur de l'endothéline",
+        "o Récepteur muscarinique",
+        "o Récepteur adrenergique"
+      ],
+      "correctIndex": 3
+    },
+    {
+      "id": 104,
+      "question": "ក្រោយពីសម្រាលទារករួចមួយរយៈចលនការទម្លាក់សុក(placenta)ចាប់ផ្តើម បន្ទាប់មកល់ហួឈាមឆ្លងកាត់ foramen ovale ត្រូវបានថយចុះយ៉ាងខ្លាំង។ តើការការប្រែប្រួលអ្វីដែលនាំឲ្យមានការថយចុះនូវលំ ឈាមឆ្លងកាត់ foramen ovale នេះ?",
+      "images": [],
+      "image": "",
+      "options": [
+        "o Formation du Prostaglandine E2",
+        "o ថយចុះ Taux de flux sanguin pulmonaire",
+        "o កើនឡើងPression dans l'oreillette gauche",
+        "o កើនឡើង Pression dans l'oreillette droite",
+        "o ថយចុះ Pression partielle de l'oxygène"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 105,
+      "question": "ក្រោយពីសម្រាលទារករួច តើកត្តាណាមួយខាងក្រោមដែលបង្កឲ្យមានការថយចុះនូវសំពាធក្នុងartère pulmonaire?",
+      "images": [],
+      "image": "",
+      "options": [
+        "o កើនឡើង Pression dans la circulation systèmique",
+        "o Fermeture du canal artériel",
+        "o កើនឡើងPression dans le ventricule gauche",
+        "o ថយចុះ Resistance vasculaire pulmonaire",
+        "o កើនឡើង Pression dans le ventricule droite"
+      ],
+      "correctIndex": 3
+    },
+    {
+      "id": 106,
+      "question": "នៅក្នុងSystème de circulation foetale តើផ្នែកណាមួយនៃ Système ដែលមានសំពាធខ្ពស់ជាងគេ?",
+      "images": [],
+      "image": "",
+      "options": [
+        "o Oreillete droite",
+        "o Ventricule gauche",
+        "o Aorte",
+        "o Oreillette gauche",
+        "o Artère pulmonaire"
+      ],
+      "correctIndex": 4
+    },
+    {
+      "id": 107,
+      "question": "ប្រសិនជាមានការកើនឡើងនូវការភ្ជាប់រវាងអ័ម៉ូនជាមួយប្រូតេអ៊ីននៃប្លាស្មា តើការប្រែប្រួលណាមួយខាងក្រោមអាចកើតមាន?",
+      "images": [],
+      "image": "",
+      "options": [
+        "o កើនឡើងការបញ្ចេញអ័ម៉ូនពីប្លាស្មា",
+        "o ថយចុះនូវសកម្មភាពរបស់អ័ម៉ូន",
+        "o កើនឡើងនូវសកម្មភាពអ័ម៉ូន",
+        "o កើនឡើងនូវ regulation negative",
+        "o កើនឡើងនូវកម្រិតអ័ម៉ូនស្តុកក្នុងឈាម"
+      ],
+      "correctIndex": 4
+    },
+    {
+      "id": 108,
+      "question": "នៅក្នុងដំណាក់កាល developement embryonnaireចំពោះទារកភេទប្រុស ត្រូវការអ័ម៉ូន testosterone ចាំបាច់ពី testicule។ តើអ័ម៉ូនណាមួយដែលខ្មោចឲ្យមានការបញ្ចេញ testosterone ក្នុងដំណាក់កាល developement embryonnaires:?",
+      "images": [],
+      "image": "",
+      "options": [
+        "o LH",
+        "o HCG",
+        "o Inhibine",
+        "o GnRH",
+        "o FSH"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 109,
+      "question": "បុរសម្នាក់បានទទួលរងទៅនឹងកាំរស្មីgammaដោយកម្រិតខ្ពស់ គាត់មិនអាចបង្កកំណើតបានដោយសារកោសិកាបន្តពូជដើម(cellule souche germinale) ត្រូវបានបំផ្លាញនៅក្នុង tubule seminifère ប៉ុន្តែគាត់មាន កម្រិត testosterone ធម្មតា។ផ្អែកទៅលើលក្ខណ៍ដែលបានរៀបរាប់ តើសំណើណាមួយខាងក្រោមត្រឹមត្រូវ?",
+      "images": [],
+      "image": "",
+      "options": [
+        "o Secretion normale du GnRH",
+        "o Taux normal de l'inhibine",
+        "o Suppression du taux FSH",
+        "o Absence du cellules Leydig",
+        "o Suppression du taux LH"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 110,
+      "question": "តើការរៀបរាប់ណាមួយត្រឹមត្រូវទាក់ទងទៅនឹងមូលហេតុបង្កឲ្យមាន ménopause?",
+      "images": [],
+      "image": "",
+      "options": [
+        "o Diminution de secretion du taux GnRH",
+        "o Diminution de réponse des follicules à GnRH",
+        "o Diminution de la secretion de progesterone",
+        "o Diminution des nombres des follicules",
+        "o Diminution de la secretion de l'oestrogene"
+      ],
+      "correctIndex": 3
+    },
+    {
+      "id": 111,
+      "question": "នៅក្នុងត្រីមាសចុងក្រោយនៃការពរពោះ ស្ត្រីភាគច្រើនមានបទពិសោធន៍ទាក់ទងទៅ នឹងមានការកើនឡើងនូវរោមលើដងខ្លួន? តើគេអាចបានពន្យល់បានយ៉ាងដូចម្តេចទាក់ទងទៅ នឹងបាតុភូតនេះ?",
+      "images": [],
+      "image": "",
+      "options": [
+        "o Secretion de testosterone avec quantité abondante de l'oestrogene de l'ovaire",
+        "o Secretion de l'androgene de l'ovaire et testicules foetals",
+        "o Secretion de grande quantité de l'androgene de la surrénale maternelle et foetale",
+        "o Secretion de grande quantité de l'oestrogene qui a métabolisé en testosterone",
+        "o Secretion de grande quantité de l'progesterone du placenta"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 112,
+      "question": "តើអ័ម៉ូនណាមួយខាងក្រោមដែលមានeffet antagoniste ជាមួយ effet de NO?",
+      "images": [],
+      "image": "",
+      "options": [
+        "o Endothéline et noradrenaline",
+        "o Oestrogene et progesterone",
+        "o Follicle Stimulating Hormone et Luteinizing hormone",
+        "o Progesterone et Luteinizing hormone",
+        "o Oestrogene et follicle stimulating hormone"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 113,
+      "question": "Avant de l'Implantation, blastocyste ទទួលចំណីអាហារពី secretion de l'endometre ។ , blastocyste ទទួលចំណីអាហារតាមរបៀបណាបន្ទាប់ពី implantation បានមួយសប្តាហ៍?",
+      "images": [],
+      "image": "",
+      "options": [
+        "o Secretion de l'endometre",
+        "o Stockage de nutriment dans le blastocyste",
+        "o Secretion de placenta par vaisceaux maternels",
+        "o Par l'intermédiare de Trophoblaste digeré l'endometre",
+        "o Par l'intermédiare du corps jaune"
+      ],
+      "correctIndex": 3
+    },
+    {
+      "id": 114,
+      "question": "ចំពោះFoetus  សសៃឈាមណាមួយដែលមាន pression partielle de l'O2 ខ្ពស់ជាងគេ?",
+      "images": [],
+      "image": "",
+      "options": [
+        "o Canal artériel",
+        "o Canal veineux",
+        "o Aorte ascensant",
+        "o Oreillette gauche",
+        "o Artère pulmonaire"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 115,
+      "question": "ក្រោយសម្រាលderivation du sangទាំង៣របស់Foetus (foei, Coeur, et tronc pulmonaire) ត្រូវបានបិទជិត។ប្រសិនជា Canal artériel បិទមិនជិតតើលក្ខណ័ណាមួយខាងក្រោមអាចកើតមានចំពោះទារក।",
+      "images": [],
+      "image": "",
+      "options": [
+        "o ថយចុះ Pression partielle en O2 dans le sang artériel",
+        "o ថយចុះ Pression partielle en CO2 dans le sang artériel",
+        "o កើនឡើងជាងធម្មតានូវ Pression artérielle normale",
+        "o ថយចុះជាងធម្មតានូវPression artérielle pulmonaire normale",
+        "o គ្មានការប្រែប្រួលនូវ Pression artérielle normale"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

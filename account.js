@@ -1,5 +1,5 @@
 // ==========================================================================
-// MY ACCOUNT, VAULT & ANALYTICS LOGIC (account.js)
+// MY ACCOUNT, VAULT, ANALYTICS & OFFLINE LOGIC (account.js)
 // ==========================================================================
 
 const IMAGE_BASE_URL = 'https://notmax442.github.io/testforuhs-images/';
@@ -7,10 +7,10 @@ const IMAGE_BASE_URL = 'https://notmax442.github.io/testforuhs-images/';
 let isSelectMode = false;
 let selectedSubjectKeys = new Set();
 let activeExportSubjectKey = null;
-let activeAccountTab = 'stats'; // 'stats' | 'vault'
+let activeAccountTab = 'stats'; // 'stats' | 'vault' | 'offline'
 
 document.addEventListener('DOMContentLoaded', () => {
-  // 1. Initialize Tab Switcher
+  // 1. Initialize Sub-Navbar Tab Switcher
   setupAccountTabs();
 
   // 2. Initialize Preferences Toggles
@@ -19,12 +19,16 @@ document.addEventListener('DOMContentLoaded', () => {
   // 3. Render Initial Dashboard Views
   renderAnalyticsDashboard();
   renderAccountDashboard();
+  renderOfflineDashboard();
 
   // 4. Bind Vault & Bulk Delete Listeners
   setupVaultListeners();
 
   // 5. Bind Anki Export Listeners
   setupAnkiListeners();
+
+  // 6. Bind Offline Storage Listeners
+  setupOfflineListeners();
 });
 
 // ==========================================================================
@@ -34,8 +38,11 @@ document.addEventListener('DOMContentLoaded', () => {
 function setupAccountTabs() {
   const tabStatsBtn = document.getElementById('tab-stats-btn');
   const tabVaultBtn = document.getElementById('tab-vault-btn');
+  const tabOfflineBtn = document.getElementById('tab-offline-btn');
+
   const statsView = document.getElementById('account-stats-view');
   const vaultView = document.getElementById('account-vault-view');
+  const offlineView = document.getElementById('account-offline-view');
 
   const savedTab = sessionStorage.getItem('activeAccountTab');
   if (savedTab) activeAccountTab = savedTab;
@@ -44,23 +51,28 @@ function setupAccountTabs() {
     activeAccountTab = targetTab;
     sessionStorage.setItem('activeAccountTab', targetTab);
 
+    // Reset Active States
+    [tabStatsBtn, tabVaultBtn, tabOfflineBtn].forEach(btn => btn && btn.classList.remove('active'));
+    [statsView, vaultView, offlineView].forEach(view => view && view.classList.add('hidden'));
+
     if (targetTab === 'stats') {
       if (tabStatsBtn) tabStatsBtn.classList.add('active');
-      if (tabVaultBtn) tabVaultBtn.classList.remove('active');
       if (statsView) statsView.classList.remove('hidden');
-      if (vaultView) vaultView.classList.add('hidden');
       renderAnalyticsDashboard();
-    } else {
+    } else if (targetTab === 'vault') {
       if (tabVaultBtn) tabVaultBtn.classList.add('active');
-      if (tabStatsBtn) tabStatsBtn.classList.remove('active');
       if (vaultView) vaultView.classList.remove('hidden');
-      if (statsView) statsView.classList.add('hidden');
       renderAccountDashboard();
+    } else if (targetTab === 'offline') {
+      if (tabOfflineBtn) tabOfflineBtn.classList.add('active');
+      if (offlineView) offlineView.classList.remove('hidden');
+      renderOfflineDashboard();
     }
   };
 
   if (tabStatsBtn) tabStatsBtn.addEventListener('click', () => switchTab('stats'));
   if (tabVaultBtn) tabVaultBtn.addEventListener('click', () => switchTab('vault'));
+  if (tabOfflineBtn) tabOfflineBtn.addEventListener('click', () => switchTab('offline'));
 
   // Initial State
   switchTab(activeAccountTab);
@@ -593,4 +605,99 @@ async function executeAnkiDownload(shouldClearAfter) {
 
   const ankiModal = document.getElementById('anki-modal');
   if (ankiModal) ankiModal.classList.add('hidden');
+}
+
+// ==========================================================================
+// 6. OFFLINE PACKAGES DASHBOARD & INDEXEDDB MANAGEMENT
+// ==========================================================================
+
+async function renderOfflineDashboard() {
+  const offlinePackageList = document.getElementById('offline-package-list');
+  const countValEl = document.getElementById('offline-count-val');
+  const questionsValEl = document.getElementById('offline-questions-val');
+
+  if (!offlinePackageList) return;
+
+  if (typeof getAllOfflinePackages !== 'function') {
+    offlinePackageList.innerHTML = `
+      <div class="score-card" style="text-align: center; padding: 2rem;">
+        <p style="margin: 0; color: var(--text-sub);">${getTranslation('offline_empty_list')}</p>
+      </div>
+    `;
+    return;
+  }
+
+  const packages = await getAllOfflinePackages();
+
+  // Calculate Metrics
+  const totalProfessors = packages.length;
+  const totalQuestions = packages.reduce((sum, pkg) => sum + (pkg.questionCount || (pkg.questions ? pkg.questions.length : 0)), 0);
+
+  if (countValEl) countValEl.textContent = totalProfessors;
+  if (questionsValEl) questionsValEl.textContent = totalQuestions;
+
+  offlinePackageList.innerHTML = '';
+
+  if (packages.length === 0) {
+    offlinePackageList.innerHTML = `
+      <div class="score-card" style="text-align: center; padding: 2rem;">
+        <p style="margin: 0; color: var(--text-sub);">${getTranslation('offline_empty_list')}</p>
+      </div>
+    `;
+    return;
+  }
+
+  packages.forEach(pkg => {
+    const formattedDate = pkg.downloadedAt 
+      ? new Date(pkg.downloadedAt).toLocaleDateString(undefined, { year: 'numeric', month: 'short', day: 'numeric' })
+      : '';
+
+    const card = document.createElement('div');
+    card.classList.add('subject-card');
+    card.style.cssText = 'margin-bottom: 0.85rem; padding: 1.1rem; cursor: default; transform: none !important;';
+
+    card.innerHTML = `
+      <div style="display: flex; justify-content: space-between; align-items: flex-start; margin-bottom: 0.5rem; gap: 0.5rem; flex-wrap: wrap;">
+        <div>
+          <h4 style="margin: 0 0 0.2rem 0; font-size: 1.05rem; color: var(--text-main);">${pkg.professor}</h4>
+          <p style="margin: 0; font-size: 0.82rem; color: var(--text-sub); font-weight: 600;">
+            ${pkg.major} Y${pkg.year} S${pkg.semester} - ${pkg.subject}
+          </p>
+        </div>
+        <button class="btn danger-btn" style="font-size: 0.8rem; padding: 0.4rem 0.8rem;" onclick="removeSingleOfflinePackage('${pkg.id}')">
+          ${getTranslation('btn_delete_package')}
+        </button>
+      </div>
+
+      <div style="display: flex; justify-content: space-between; margin-top: 0.6rem; font-size: 0.82rem; color: var(--text-heading); font-weight: 600;">
+        <span>📝 ${pkg.questionCount || pkg.questions.length} Questions</span>
+        ${formattedDate ? `<span>📅 Saved: ${formattedDate}</span>` : ''}
+      </div>
+    `;
+
+    offlinePackageList.appendChild(card);
+  });
+}
+
+async function removeSingleOfflinePackage(packageId) {
+  if (confirm(getTranslation('offline_delete_confirm'))) {
+    if (typeof deleteOfflinePackage === 'function') {
+      await deleteOfflinePackage(packageId);
+      renderOfflineDashboard();
+    }
+  }
+}
+
+function setupOfflineListeners() {
+  const clearAllOfflineBtn = document.getElementById('clear-all-offline-btn');
+  if (clearAllOfflineBtn) {
+    clearAllOfflineBtn.addEventListener('click', async () => {
+      if (confirm(getTranslation('offline_delete_confirm'))) {
+        if (typeof clearAllOfflinePackages === 'function') {
+          await clearAllOfflinePackages();
+          renderOfflineDashboard();
+        }
+      }
+    });
+  }
 }

@@ -27,9 +27,12 @@
   <meta property="twitter:image" content="https://testforuhs.com/assets/logo.png">
 
   <!-- Icons & CSS -->
-  <link rel="icon" type="image/png" href="assets/logo.png">
+  <link rel="icon" type="image/png" sizes="192x192" href="assets/logo.png">
   <link rel="apple-touch-icon" href="assets/logo.png">
   <link rel="stylesheet" href="style.css">
+
+  <!-- Lucide Icons CDN -->
+  <script src="https://unpkg.com/lucide@latest"></script>
 
   <!-- Google AdSense -->
   <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-4210272281940886"
@@ -42,20 +45,23 @@
     <!-- Top Navigation Bar -->
     <nav class="main-navbar">
       <div class="nav-links">
-        <a href="/" class="nav-item" data-i18n="nav_home">HOME</a>
-        <a href="/about" class="nav-item" data-i18n="nav_about">ABOUT</a>
-        <a href="/contact" class="nav-item" data-i18n="nav_contact">CONTACT US</a>
-        <a href="/account" class="nav-item" data-i18n="nav_account">MY ACCOUNT</a>
+        <a href="./" class="nav-item" data-i18n="nav_home">HOME</a>
+        <a href="about" class="nav-item" data-i18n="nav_about">ABOUT</a>
+        <a href="contact" class="nav-item" data-i18n="nav_contact">CONTACT US</a>
+        <a href="account" class="nav-item" data-i18n="nav_account">MY ACCOUNT</a>
         <button id="nav-donate-btn" class="nav-item" data-i18n="nav_donate"
-          style="color: #f59e0b; font-weight: 700; background: none; border: none; cursor: pointer;">☕ Support
-          Us</button>
+          style="color: #f59e0b; font-weight: 700; background: none; border: none; cursor: pointer; display: flex; align-items: center; gap: 0.35rem;">
+          <i data-lucide="coffee" style="width: 18px; height: 18px;"></i> Support Us
+        </button>
       </div>
       <div class="nav-controls" style="display: flex; gap: 0.5rem; align-items: center;">
         <select id="language-select" class="lang-select">
           <option value="en">English</option>
           <option value="km">ភាសាខ្មែរ</option>
         </select>
-        <button id="theme-toggle-btn" class="theme-btn">🌙 Dark</button>
+        <button id="theme-toggle-btn" class="theme-btn" style="display: flex; align-items: center; gap: 0.35rem;">
+          <i data-lucide="moon" style="width: 16px; height: 16px;"></i> Dark
+        </button>
       </div>
     </nav>
 
@@ -80,8 +86,10 @@
             style="display:block; margin-bottom: 0.5rem; font-weight: 600;">Upload Screenshot (Optional):</label>
           <input type="file" id="feedback-image" accept="image/*" style="margin-bottom: 1.25rem; display:block;">
 
-          <button type="submit" id="submit-feedback-btn" class="btn primary-btn" style="width: 100%;"
-            data-i18n="contact_submit_btn">📤 Send Feedback</button>
+          <button type="submit" id="submit-feedback-btn" class="btn primary-btn" style="width: 100%; display: inline-flex; align-items: center; justify-content: center; gap: 0.4rem;"
+            data-i18n="contact_submit_btn">
+            <i data-lucide="send" style="width: 16px; height: 16px;"></i> Send Feedback
+          </button>
         </form>
       </div>
 
@@ -102,7 +110,9 @@
   <!-- Contact Cooldown Confirmation Modal -->
   <div id="contact-confirm-modal" class="modal-overlay hidden">
     <div class="modal-card">
-      <h3 data-i18n="contact_modal_title">⚠️ Confirm Submission</h3>
+      <h3 data-i18n="contact_modal_title" style="display: flex; align-items: center; gap: 0.4rem;">
+        <i data-lucide="alert-triangle" style="width: 20px; height: 20px; color: #f59e0b;"></i> Confirm Submission
+      </h3>
       <p style="margin-bottom: 0.5rem; font-weight: 600;" data-i18n="contact_modal_desc">Are you sure? You can only send feedback once every 30 minutes.</p>
       <div class="modal-actions">
         <button id="cancel-feedback-btn" class="btn secondary-btn" data-i18n="btn_cancel">Cancel</button>
@@ -117,8 +127,10 @@
       <button id="close-donate-btn" class="modal-close-icon" aria-label="Close modal">&times;</button>
       <div class="donate-grid">
         <div class="donate-info">
-          <p class="donate-tagline" data-i18n="donate_tagline">Every little bit is greatly appreciated! Thank you for
-            your support 😊</p>
+          <p class="donate-tagline" data-i18n="donate_tagline" style="display: flex; align-items: center; gap: 0.35rem;">
+            Every little bit is greatly appreciated! Thank you for your support
+            <i data-lucide="smile" style="width: 18px; height: 18px; display: inline-block;"></i>
+          </p>
           <h3 class="donate-cta" data-i18n="donate_cta">You may donate through our KHQR here.</h3>
         </div>
         <div class="donate-qr-wrapper"><img src="assets/khqr.png" alt="KHQR Code" class="khqr-card-img"></div>
@@ -134,9 +146,17 @@
     <div class="modal-card"
       style="max-width: 600px; text-align: left; max-height: 80vh; overflow-y: auto; position: relative; padding: 2.5rem 1.5rem 1.5rem 1.5rem;">
       <button id="close-privacy-btn" class="modal-close-icon" aria-label="Close modal">&times;</button>
-      <h3 style="margin-bottom: 1rem; color: var(--text-main);">Privacy Policy</h3>
-      <div style="font-size: 0.85rem; line-height: 1.6; color: var(--text-sub);">
-        <p>At <strong>TestforUHS</strong>, visitor privacy is one of our main priorities.</p>
+      <h3 style="margin-bottom: 1rem; color: var(--text-main);" data-i18n="about_privacy_title">Privacy Policy</h3>
+      <div style="font-size: 0.85rem; line-height: 1.6; color: var(--text-sub); display: flex; flex-direction: column; gap: 0.75rem;">
+        <p>At <strong>TestforUHS</strong>, visitor privacy is a top priority. This Privacy Policy details the types of information we collect and how it is used.</p>
+
+        <h4 style="color: var(--text-main); margin-top: 0.5rem;">1. Advertising & Third-Party Cookies</h4>
+        <p>We use <strong>Google AdSense</strong> to display advertisements. Third-party vendors, including Google, use cookies to serve ads based on a user's prior visits to our website or other websites on the internet.</p>
+        <p>Google's use of advertising cookies enables it and its partners to serve ads to our users based on their visit to our sites and/or other sites on the Internet.</p>
+        <p>You may opt out of personalized advertising by visiting <a href="https://www.google.com/settings/ads" target="_blank" rel="noopener" style="color: var(--text-heading); text-decoration: underline;">Google Ad Settings</a> or <a href="https://www.aboutads.info" target="_blank" rel="noopener" style="color: var(--text-heading); text-decoration: underline;">aboutads.info</a>.</p>
+
+        <h4 style="color: var(--text-main); margin-top: 0.5rem;">2. Local Storage</h4>
+        <p>TestforUHS uses your browser's <code>localStorage</code> exclusively to save quiz progress, missed question logs, language settings, and theme preferences directly on your device. This data is never transmitted to external servers.</p>
       </div>
       <div style="margin-top: 1.5rem; text-align: center;">
         <button id="bottom-close-privacy-btn" class="btn secondary-btn" style="width: 100%; max-width: 200px;"
@@ -147,6 +167,11 @@
 
   <script src="shared.js"></script>
   <script src="contact.js"></script>
+  <script>
+    if (window.lucide) {
+      lucide.createIcons();
+    }
+  </script>
 </body>
 
 </html>

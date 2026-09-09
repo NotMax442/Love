@@ -23,9 +23,12 @@
   <meta property="twitter:image" content="https://testforuhs.com/assets/logo.png">
 
   <!-- Icons & CSS -->
-  <link rel="icon" type="image/png" href="assets/logo.png">
+  <link rel="icon" type="image/png" sizes="192x192" href="assets/logo.png">
   <link rel="apple-touch-icon" href="assets/logo.png">
   <link rel="stylesheet" href="style.css">
+
+  <!-- Lucide Icons CDN -->
+  <script src="https://unpkg.com/lucide@latest"></script>
 
   <!-- Google AdSense -->
   <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-4210272281940886" crossorigin="anonymous"></script>
@@ -36,20 +39,23 @@
     <!-- Top Navigation Bar -->
     <nav class="main-navbar">
       <div class="nav-links">
-        <a href="/" class="nav-item" data-i18n="nav_home">HOME</a>
-        <a href="/about" class="nav-item" data-i18n="nav_about">ABOUT</a>
-        <a href="/contact" class="nav-item" data-i18n="nav_contact">CONTACT US</a>
-        <a href="/account" class="nav-item" data-i18n="nav_account">MY ACCOUNT</a>
+        <a href="./" class="nav-item" data-i18n="nav_home">HOME</a>
+        <a href="about" class="nav-item" data-i18n="nav_about">ABOUT</a>
+        <a href="contact" class="nav-item" data-i18n="nav_contact">CONTACT US</a>
+        <a href="account" class="nav-item" data-i18n="nav_account">MY ACCOUNT</a>
         <button id="nav-donate-btn" class="nav-item" data-i18n="nav_donate"
-          style="color: #f59e0b; font-weight: 700; background: none; border: none; cursor: pointer;">☕ Support
-          Us</button>
+          style="color: #f59e0b; font-weight: 700; background: none; border: none; cursor: pointer; display: flex; align-items: center; gap: 0.35rem;">
+          <i data-lucide="coffee" style="width: 18px; height: 18px;"></i> Support Us
+        </button>
       </div>
       <div class="nav-controls" style="display: flex; gap: 0.5rem; align-items: center;">
         <select id="language-select" class="lang-select">
           <option value="en">English</option>
           <option value="km">ភាសាខ្មែរ</option>
         </select>
-        <button id="theme-toggle-btn" class="theme-btn">🌙 Dark</button>
+        <button id="theme-toggle-btn" class="theme-btn" style="display: flex; align-items: center; gap: 0.35rem;">
+          <i data-lucide="moon" style="width: 16px; height: 16px;"></i> Dark
+        </button>
       </div>
     </nav>
 
@@ -61,7 +67,9 @@
 
       <!-- Mission Card -->
       <div class="info-card" style="background: var(--bg-subcard); padding: 1.5rem; border-radius: 8px; border: 1px solid var(--border-sub); margin-bottom: 1.5rem;">
-        <h3 style="margin-top: 0; color: var(--text-main);" data-i18n="about_mission_title">🎯 Our Mission</h3>
+        <h3 style="margin-top: 0; color: var(--text-main); display: flex; align-items: center; gap: 0.5rem;" data-i18n="about_mission_title">
+          <i data-lucide="target" style="width: 20px; height: 20px; color: #0284c7;"></i> Our Mission
+        </h3>
         <p style="color: var(--text-sub); margin-bottom: 0;" data-i18n="about_mission_desc">
           TestforUHS was created to give medical students an intuitive, accessible way to review questions, practice exam simulation, and track missed topics across their academic years—100% free of charge.
         </p>
@@ -70,7 +78,7 @@
       <!-- Transparency & Funding Card -->
       <div class="info-card" style="background: var(--bg-subcard); padding: 1.5rem; border-radius: 8px; border: 1px solid var(--border-sub); margin-bottom: 1.5rem;">
         <h3 style="margin-top: 0; color: #f59e0b; display: flex; align-items: center; gap: 0.5rem;" data-i18n="about_funding_title">
-          🤝 How TestforUHS Stays Free & Funded
+          <i data-lucide="heart-handshake" style="width: 20px; height: 20px;"></i> How TestforUHS Stays Free & Funded
         </h3>
         <p style="color: var(--text-sub); margin-bottom: 1rem;" data-i18n="about_funding_desc">
           To keep this platform open and free for everyone without charging subscriptions or putting study materials behind paywalls, we cover server, domain, and maintenance costs using two transparent methods:
@@ -101,7 +109,9 @@
 
       <!-- Privacy & Data Commitment -->
       <div class="info-card" style="background: var(--bg-subcard); padding: 1.5rem; border-radius: 8px; border: 1px solid var(--border-sub);">
-        <h3 style="margin-top: 0; color: var(--text-main);" data-i18n="about_privacy_title">🔒 Our Privacy Promise</h3>
+        <h3 style="margin-top: 0; color: var(--text-main); display: flex; align-items: center; gap: 0.5rem;" data-i18n="about_privacy_title">
+          <i data-lucide="shield-check" style="width: 20px; height: 20px; color: #10b981;"></i> Our Privacy Promise
+        </h3>
         <p style="color: var(--text-sub); margin-bottom: 0;" data-i18n="about_privacy_desc">
           Your study progress, missed questions, and test scores are stored locally inside your browser (localStorage). We do not track your personal study choices or sell student data to third parties.
         </p>
@@ -122,7 +132,10 @@
       <button id="close-donate-btn" class="modal-close-icon" aria-label="Close modal">&times;</button>
       <div class="donate-grid">
         <div class="donate-info">
-          <p class="donate-tagline" data-i18n="donate_tagline">Every little bit is greatly appreciated! Thank you for your support 😊</p>
+          <p class="donate-tagline" data-i18n="donate_tagline" style="display: flex; align-items: center; gap: 0.35rem;">
+            Every little bit is greatly appreciated! Thank you for your support
+            <i data-lucide="smile" style="width: 18px; height: 18px; display: inline-block;"></i>
+          </p>
           <h3 class="donate-cta" data-i18n="donate_cta">You may donate through our KHQR here.</h3>
         </div>
         <div class="donate-qr-wrapper"><img src="assets/khqr.png" alt="KHQR Code" class="khqr-card-img"></div>
@@ -134,21 +147,34 @@
   </div>
 
   <div id="privacy-modal" class="modal-overlay hidden">
-    <div class="modal-card" style="max-width: 600px; text-align: left; max-height: 80vh; overflow-y: auto; position: relative; padding: 2.5rem 1.5rem 1.5rem 1.5rem;">
+    <div class="modal-card"
+      style="max-width: 600px; text-align: left; max-height: 80vh; overflow-y: auto; position: relative; padding: 2.5rem 1.5rem 1.5rem 1.5rem;">
       <button id="close-privacy-btn" class="modal-close-icon" aria-label="Close modal">&times;</button>
-      <h3 style="margin-bottom: 1rem; color: var(--text-main);">Privacy Policy</h3>
-      <div style="font-size: 0.85rem; line-height: 1.6; color: var(--text-sub);">
-        <p>At <strong>TestforUHS</strong>, visitor privacy is one of our main priorities.</p>
-        <h4 style="color: var(--text-main); margin: 1.25rem 0 0.5rem;">Google DoubleClick DART Cookie & AdSense</h4>
-        <p>Google is a third-party vendor on our site. It uses cookies to serve ads based upon visits to testforuhs.com.</p>
+      <h3 style="margin-bottom: 1rem; color: var(--text-main);" data-i18n="about_privacy_title">Privacy Policy</h3>
+      <div style="font-size: 0.85rem; line-height: 1.6; color: var(--text-sub); display: flex; flex-direction: column; gap: 0.75rem;">
+        <p>At <strong>TestforUHS</strong>, visitor privacy is a top priority. This Privacy Policy details the types of information we collect and how it is used.</p>
+
+        <h4 style="color: var(--text-main); margin-top: 0.5rem;">1. Advertising & Third-Party Cookies</h4>
+        <p>We use <strong>Google AdSense</strong> to display advertisements. Third-party vendors, including Google, use cookies to serve ads based on a user's prior visits to our website or other websites on the internet.</p>
+        <p>Google's use of advertising cookies enables it and its partners to serve ads to our users based on their visit to our sites and/or other sites on the Internet.</p>
+        <p>You may opt out of personalized advertising by visiting <a href="https://www.google.com/settings/ads" target="_blank" rel="noopener" style="color: var(--text-heading); text-decoration: underline;">Google Ad Settings</a> or <a href="https://www.aboutads.info" target="_blank" rel="noopener" style="color: var(--text-heading); text-decoration: underline;">aboutads.info</a>.</p>
+
+        <h4 style="color: var(--text-main); margin-top: 0.5rem;">2. Local Storage</h4>
+        <p>TestforUHS uses your browser's <code>localStorage</code> exclusively to save quiz progress, missed question logs, language settings, and theme preferences directly on your device. This data is never transmitted to external servers.</p>
       </div>
       <div style="margin-top: 1.5rem; text-align: center;">
-        <button id="bottom-close-privacy-btn" class="btn secondary-btn" style="width: 100%; max-width: 200px;" data-i18n="btn_close">Close</button>
+        <button id="bottom-close-privacy-btn" class="btn secondary-btn" style="width: 100%; max-width: 200px;"
+          data-i18n="btn_close">Close</button>
       </div>
     </div>
   </div>
 
   <script src="shared.js"></script>
   <script src="about.js"></script>
+  <script>
+    if (window.lucide) {
+      lucide.createIcons();
+    }
+  </script>
 </body>
 </html>

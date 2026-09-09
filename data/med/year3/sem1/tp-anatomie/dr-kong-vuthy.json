@@ -1,0 +1,1092 @@
+{
+  "questions": [
+    {
+      "id": 1,
+      "question": "Nommez la structure indiquée par la flèche en dessous",
+      "images": [
+        "y3-tp-anatomie-dr-kong-vuthy-q68-image-1.jpg"
+      ],
+      "image": "y3-tp-anatomie-dr-kong-vuthy-q68-image-1.jpg",
+      "options": [
+        "Voie olfactif",
+        "nerfs olfactifs",
+        "bulbe olfactif",
+        "nerf optique",
+        "nerf rachidien"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 2,
+      "question": "choisissez une réponse correct correspond à la structure montrée par la flèche ci-dessous",
+      "images": [
+        "y3-tp-anatomie-dr-kong-vuthy-q68-image-2.jpg"
+      ],
+      "image": "y3-tp-anatomie-dr-kong-vuthy-q68-image-2.jpg",
+      "options": [
+        "bulbe olfactif",
+        "nerf olfactif",
+        "nerf glosso-pharyngien",
+        "chiasma optique",
+        "nerf optique"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 3,
+      "question": "choisissez une réponse correct correspond au structure montré ci-dessous par la fleche",
+      "images": [
+        "y3-tp-anatomie-dr-kong-vuthy-q68-image-3.jpg"
+      ],
+      "image": "y3-tp-anatomie-dr-kong-vuthy-q68-image-3.jpg",
+      "options": [
+        "nerf olfactif",
+        "chiasma optique",
+        "bulbe olfactif",
+        "nerf optique",
+        "glande hypophyse"
+      ],
+      "correctIndex": 3
+    },
+    {
+      "id": 4,
+      "question": "donnez une réponse correct correspond à la structure montrée par la flèche ci-dessous",
+      "images": [
+        "y3-tp-anatomie-dr-kong-vuthy-q68-image-4.jpg"
+      ],
+      "image": "y3-tp-anatomie-dr-kong-vuthy-q68-image-4.jpg",
+      "options": [
+        "corps mammilaires",
+        "chiasma optique",
+        "nerf glosso-pharyngien",
+        "infundibulum",
+        "glande hypophyse"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 5,
+      "question": "choisissez une réponse correct correspond au structure montré ci-dessous par la fleche",
+      "images": [
+        "y3-tp-anatomie-dr-kong-vuthy-q68-image-5.jpg"
+      ],
+      "image": "y3-tp-anatomie-dr-kong-vuthy-q68-image-5.jpg",
+      "options": [
+        "nerf optique (NC II)",
+        "pont",
+        "mésencéphale",
+        "nerf vague (NC X)",
+        "nerf moteur oculaire commun (NC III)"
+      ],
+      "correctIndex": 4
+    },
+    {
+      "id": 6,
+      "question": "choisissez une réponse correct correspond au structure montré ci-dessous par la fleche",
+      "images": [
+        "y3-tp-anatomie-dr-kong-vuthy-q68-image-6.jpg"
+      ],
+      "image": "y3-tp-anatomie-dr-kong-vuthy-q68-image-6.jpg",
+      "options": [
+        "nerf optique (NC II)",
+        "nerf trijumeau",
+        "mésencéphale",
+        "nerf vague (NC X)",
+        "nerf moteur oculaire commun (NC III)"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 7,
+      "question": "choisissez une réponse correct correspond au structure montré ci-dessous par la flèche",
+      "images": [
+        "y3-tp-anatomie-dr-kong-vuthy-q68-image-7.jpg"
+      ],
+      "image": "y3-tp-anatomie-dr-kong-vuthy-q68-image-7.jpg",
+      "options": [
+        "nerf moteur oculaire commun (NC III)",
+        "nerf pathétique (NC IV)",
+        "nerf trijumeau (NC V)",
+        "nerf moteur oculaire externe (NC VI)",
+        "nerf vague (X)"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 8,
+      "question": "choisissez une réponse correct correspond au structure montré ci-dessous par la fleche",
+      "images": [
+        "y3-tp-anatomie-dr-kong-vuthy-q68-image-8.jpg"
+      ],
+      "image": "y3-tp-anatomie-dr-kong-vuthy-q68-image-8.jpg",
+      "options": [
+        "nerf moteur oculaire commun (NC III)",
+        "nerf pathétique (NCIV)",
+        "nerf trijumeau (NC V)",
+        "nerf moteur oculaire externe (NC VI)",
+        "nerf vague (X)"
+      ],
+      "correctIndex": 3
+    },
+    {
+      "id": 9,
+      "question": "choisissez une réponse correct correspond au structure montré ci-dessous par la fleche",
+      "images": [
+        "y3-tp-anatomie-dr-kong-vuthy-q68-image-9.jpg"
+      ],
+      "image": "y3-tp-anatomie-dr-kong-vuthy-q68-image-9.jpg",
+      "options": [
+        "nerf pathétique (NC IV)",
+        "nerf sciatique",
+        "nerf moteur oculaire commun (NC III)",
+        "nerf trijumeau (NC V)",
+        "nerf auditif (NC VIII)"
+      ],
+      "correctIndex": 3
+    },
+    {
+      "id": 10,
+      "question": "choisissez une réponse correct correspond au structure montré ci-dessous par la fleche",
+      "images": [
+        "y3-tp-anatomie-dr-kong-vuthy-q68-image-10.jpg"
+      ],
+      "image": "y3-tp-anatomie-dr-kong-vuthy-q68-image-10.jpg",
+      "options": [
+        "branche ophtalmique du nerf trijumeau",
+        "branche maxillaire du nerf trijumeau",
+        "branche mandibulaire du nerf trijumeau",
+        "nerf grand hypoglosse (NC XII)",
+        "nerf glosso-pharyngien (NC IX)"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 11,
+      "question": "choisissez une réponse correct correspond au structure montré ci-dessous par la flèche",
+      "images": [
+        "y3-tp-anatomie-dr-kong-vuthy-q68-image-11.jpg"
+      ],
+      "image": "y3-tp-anatomie-dr-kong-vuthy-q68-image-11.jpg",
+      "options": [
+        "nerf trijumeau (NC V)",
+        "nerf auriculaire",
+        "nerf auditif (NC VIII)",
+        "nerf occipital",
+        "nerf facial (NC VII)"
+      ],
+      "correctIndex": 4
+    },
+    {
+      "id": 12,
+      "question": "choisissez une réponse correct correspond au structure montré ci-dessous par la fleche",
+      "images": [
+        "y3-tp-anatomie-dr-kong-vuthy-q68-image-12.jpg"
+      ],
+      "image": "y3-tp-anatomie-dr-kong-vuthy-q68-image-12.jpg",
+      "options": [
+        "nerf trijumeau (NC V)",
+        "nerf auriculaire",
+        "nerf cochléo- vestibulaire (NC VIII)",
+        "nerf occipital",
+        "nerf facial (NC VII)"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 13,
+      "question": "choisissez une réponse correct correspond au structure montré ci-dessous par la fleche",
+      "images": [
+        "y3-tp-anatomie-dr-kong-vuthy-q68-image-13.jpg"
+      ],
+      "image": "y3-tp-anatomie-dr-kong-vuthy-q68-image-13.jpg",
+      "options": [
+        "canal semi-circulaire",
+        "branche vestibulaire du nerf cochléo-vestibulaire",
+        "branche cochléaire du nerf cochléo-vestibulaire",
+        "nerf facial (NC VII)",
+        "nerf optique (NC II)"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 14,
+      "question": "choisissez une réponse correct correspond au structure montré ci-dessous par la flèche",
+      "images": [
+        "y3-tp-anatomie-dr-kong-vuthy-q68-image-14.jpg"
+      ],
+      "image": "y3-tp-anatomie-dr-kong-vuthy-q68-image-14.jpg",
+      "options": [
+        "nerf cochléo-vestibulaire (NC VIII)",
+        "nerf facial (NC VII )",
+        "nerf ophtalmique",
+        "nerf glosso-pharyngien (NC IX)",
+        "nerf vague (NC X)"
+      ],
+      "correctIndex": 3
+    },
+    {
+      "id": 15,
+      "question": "choisissez une réponse correct correspond au structure montré ci-dessous par la fleche",
+      "images": [
+        "y3-tp-anatomie-dr-kong-vuthy-q68-image-15.jpg"
+      ],
+      "image": "y3-tp-anatomie-dr-kong-vuthy-q68-image-15.jpg",
+      "options": [
+        "nerf pneumogastrique (NC X)",
+        "nerf pathétique (NC IV)",
+        "nerf auditif (NC VIII)",
+        "nerf récurrent",
+        "plexus brachial"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 16,
+      "question": "choisissez une réponse correct correspond au structure montré ci-dessous par la fleche",
+      "images": [
+        "y3-tp-anatomie-dr-kong-vuthy-q68-image-16.jpg"
+      ],
+      "image": "y3-tp-anatomie-dr-kong-vuthy-q68-image-16.jpg",
+      "options": [
+        "nerf spinal cervical",
+        "nerf pneumogastrique (NC X)",
+        "nerf supra-claviculaire",
+        "nerf récurrent",
+        "nerf spinal (NC XI)"
+      ],
+      "correctIndex": 4
+    },
+    {
+      "id": 17,
+      "question": "choisissez une réponse correct correspond au structure montré ci-dessous par la flèche",
+      "images": [
+        "y3-tp-anatomie-dr-kong-vuthy-q68-image-17.jpg"
+      ],
+      "image": "y3-tp-anatomie-dr-kong-vuthy-q68-image-17.jpg",
+      "options": [
+        "nerf grand hypoglosse (NC XII)",
+        "nerf pneumogastrique (NC X)",
+        "nerf auriculaire",
+        "nerf auditif (NC VIII)",
+        "nerf facial (NC VII)"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 18,
+      "question": "choisissez une proposition correct correspond au structure montré ci-dessous par la fleche",
+      "images": [
+        "y3-tp-anatomie-dr-kong-vuthy-q68-image-18.jpg"
+      ],
+      "image": "y3-tp-anatomie-dr-kong-vuthy-q68-image-18.jpg",
+      "options": [
+        "nerf phrénique",
+        "nerf occipital",
+        "nerf supra-claviculaire",
+        "nerf mandibulaire",
+        "nerf cervical antérieur"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 19,
+      "question": "choisissez le correct nomenclature de la structure cérébrale indiquée par la fleche",
+      "images": [
+        "y3-tp-anatomie-dr-kong-vuthy-q68-image-19.jpg"
+      ],
+      "image": "y3-tp-anatomie-dr-kong-vuthy-q68-image-19.jpg",
+      "options": [
+        "colonne cervicale",
+        "colonne dorsale",
+        "colonne lombaire",
+        "clavicule",
+        "scapula"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 20,
+      "question": "donnez le nom du segment de la colonne vertébrale indiqué par la flèche",
+      "images": [
+        "y3-tp-anatomie-dr-kong-vuthy-q68-image-20.jpg"
+      ],
+      "image": "y3-tp-anatomie-dr-kong-vuthy-q68-image-20.jpg",
+      "options": [
+        "colonne cervicale",
+        "colonne lombaire",
+        "sacrum",
+        "os iliaque",
+        "promontoire"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 21,
+      "question": "Nommez le structure indiqué par la flèche en dessous",
+      "images": [
+        "y3-tp-anatomie-dr-kong-vuthy-q68-image-21.jpg"
+      ],
+      "image": "y3-tp-anatomie-dr-kong-vuthy-q68-image-21.jpg",
+      "options": [
+        "Ligament jaune",
+        "disque inter-vertébrale",
+        "corps vertébral",
+        "processus épineux",
+        "apophyse transverse"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 22,
+      "question": "choisissez une réponse correct correspond au structure montré ci-dessous par la fleche",
+      "images": [
+        "y3-tp-anatomie-dr-kong-vuthy-q68-image-22.jpg"
+      ],
+      "image": "y3-tp-anatomie-dr-kong-vuthy-q68-image-22.jpg",
+      "options": [
+        "Ligament jaune",
+        "disque inter-vertébrale",
+        "corps vertébral",
+        "processus épineux",
+        "processus transverse"
+      ],
+      "correctIndex": 3
+    },
+    {
+      "id": 23,
+      "question": "donnez une réponse correct correspond à la partie du colonne vertébral indiquée par la flèche ci-dessous",
+      "images": [
+        "y3-tp-anatomie-dr-kong-vuthy-q68-image-23.jpg"
+      ],
+      "image": "y3-tp-anatomie-dr-kong-vuthy-q68-image-23.jpg",
+      "options": [
+        "Ligament jaune",
+        "disque inter-vertébrale",
+        "corps vertébral",
+        "processus épineux",
+        "processus transverse"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 24,
+      "question": "choisissez une réponse correct correspond au structure montré ci-dessous par la fleche",
+      "images": [
+        "y3-tp-anatomie-dr-kong-vuthy-q68-image-24.jpg"
+      ],
+      "image": "y3-tp-anatomie-dr-kong-vuthy-q68-image-24.jpg",
+      "options": [
+        "axis",
+        "corps vertébral du C2",
+        "processus odontoïde",
+        "ligament triangulaire",
+        "tente du cervelet"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 25,
+      "question": "choisissez une réponse correct correspond au structure montré ci-dessous par la fleche",
+      "images": [
+        "y3-tp-anatomie-dr-kong-vuthy-q68-image-25.jpg"
+      ],
+      "image": "y3-tp-anatomie-dr-kong-vuthy-q68-image-25.jpg",
+      "options": [
+        "ligament jaune",
+        "ligament triangulaire",
+        "processus odontoïde",
+        "trou occipital",
+        "ligament transverse"
+      ],
+      "correctIndex": 4
+    },
+    {
+      "id": 26,
+      "question": "choisissez une réponse correct correspond au structure montré ci-dessous par la fleche",
+      "images": [
+        "y3-tp-anatomie-dr-kong-vuthy-q68-image-26.jpg"
+      ],
+      "image": "y3-tp-anatomie-dr-kong-vuthy-q68-image-26.jpg",
+      "options": [
+        "foramen vertébral",
+        "canal central",
+        "foramen transverse",
+        "canal sphénoïde",
+        "lame vertébrale"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 27,
+      "question": "donnez une réponse correct correspond au structure montré ci-dessous par la fleche",
+      "images": [
+        "y3-tp-anatomie-dr-kong-vuthy-q68-image-27.jpg"
+      ],
+      "image": "y3-tp-anatomie-dr-kong-vuthy-q68-image-27.jpg",
+      "options": [
+        "ligament longitudinal antérieur",
+        "ligament jaune",
+        "disque intervertébral",
+        "noyau rouge",
+        "apophyse épineux"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 28,
+      "question": "choisissez une réponse correct correspond aux parties du colonne vertébral thoracique indiquée par les flèches ci-dessous",
+      "images": [
+        "y3-tp-anatomie-dr-kong-vuthy-q68-image-28.jpg"
+      ],
+      "image": "y3-tp-anatomie-dr-kong-vuthy-q68-image-28.jpg",
+      "options": [
+        "fossettes articulaires latéraux",
+        "fossettes costales",
+        "processus transverse",
+        "processus épineux",
+        "lame criblée"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 29,
+      "question": "choisissez une réponse correct correspond aux parties du sacrum indiquée par les flèches ci-dessous",
+      "images": [
+        "y3-tp-anatomie-dr-kong-vuthy-q68-image-29.jpg"
+      ],
+      "image": "y3-tp-anatomie-dr-kong-vuthy-q68-image-29.jpg",
+      "options": [
+        "foramens sacraux",
+        "lignes transversaux",
+        "crête sacral médiane",
+        "promontoire",
+        "trou de Monroe"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 30,
+      "question": "donnez une réponse correct correspond au structure montré ci-dessous par la flèche",
+      "images": [
+        "y3-tp-anatomie-dr-kong-vuthy-q68-image-30.jpg"
+      ],
+      "image": "y3-tp-anatomie-dr-kong-vuthy-q68-image-30.jpg",
+      "options": [
+        "ligament jaune",
+        "dure-mère",
+        "arachnoïde",
+        "apophyse coracoïde",
+        "substance blanche"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 31,
+      "question": "choisissez une réponse correct correspond au structure montré ci-dessous par la fleche",
+      "images": [
+        "y3-tp-anatomie-dr-kong-vuthy-q68-image-31.jpg"
+      ],
+      "image": "y3-tp-anatomie-dr-kong-vuthy-q68-image-31.jpg",
+      "options": [
+        "substance grise",
+        "substance blanche",
+        "canal épendymaire",
+        "racine dorsal",
+        "racine ventral"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 32,
+      "question": "choisissez une réponse correct correspond au structure montré ci-dessous par la fleche",
+      "images": [
+        "y3-tp-anatomie-dr-kong-vuthy-q68-image-32.jpg"
+      ],
+      "image": "y3-tp-anatomie-dr-kong-vuthy-q68-image-32.jpg",
+      "options": [
+        "corne antérieure",
+        "corne postérieure",
+        "colonne postérieure",
+        "racine dorsal",
+        "canal central"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 33,
+      "question": "choisissez une réponse correct correspond au structure montré ci-dessous par la fleche",
+      "images": [
+        "y3-tp-anatomie-dr-kong-vuthy-q68-image-33.jpg"
+      ],
+      "image": "y3-tp-anatomie-dr-kong-vuthy-q68-image-33.jpg",
+      "options": [
+        "corne antérieure",
+        "corne postérieure",
+        "colonne postérieure",
+        "racine dorsal",
+        "canal central"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 34,
+      "question": "choisissez une réponse correct correspond au structure montré ci-dessous par la flèche",
+      "images": [
+        "y3-tp-anatomie-dr-kong-vuthy-q68-image-34.jpg"
+      ],
+      "image": "y3-tp-anatomie-dr-kong-vuthy-q68-image-34.jpg",
+      "options": [
+        "racine dorsal",
+        "racine ventral",
+        "queue de cheval",
+        "filum terminal",
+        "corn terminal"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 35,
+      "question": "choisissez une réponse correct correspond au structure montré ci-dessous par la fleche",
+      "images": [
+        "y3-tp-anatomie-dr-kong-vuthy-q68-image-35.jpg"
+      ],
+      "image": "y3-tp-anatomie-dr-kong-vuthy-q68-image-35.jpg",
+      "options": [
+        "corne postérieur",
+        "corne antérieur",
+        "colonne antérieur",
+        "colonne latéral",
+        "canal central"
+      ],
+      "correctIndex": 3
+    },
+    {
+      "id": 36,
+      "question": "choisissez une réponse correct correspond au structure montré ci-dessous par la fleche",
+      "images": [
+        "y3-tp-anatomie-dr-kong-vuthy-q68-image-36.jpg"
+      ],
+      "image": "y3-tp-anatomie-dr-kong-vuthy-q68-image-36.jpg",
+      "options": [
+        "corne postérieur",
+        "corne antérieur",
+        "colonne antérieur",
+        "colonne latéral",
+        "canal central"
+      ],
+      "correctIndex": 4
+    },
+    {
+      "id": 37,
+      "question": "choisissez le correct nomenclature de la structure cérébrale indiquée par la fleche",
+      "images": [
+        "y3-tp-anatomie-dr-kong-vuthy-q68-image-37.jpg"
+      ],
+      "image": "y3-tp-anatomie-dr-kong-vuthy-q68-image-37.jpg",
+      "options": [
+        "cerveau",
+        "lobe temporal",
+        "fissure inter-hémisphérique",
+        "corps calleux",
+        "os temporal"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 38,
+      "question": "donnez le nom de la structure indiquée par la fleche",
+      "images": [
+        "y3-tp-anatomie-dr-kong-vuthy-q68-image-38.jpg"
+      ],
+      "image": "y3-tp-anatomie-dr-kong-vuthy-q68-image-38.jpg",
+      "options": [
+        "lobe frontal",
+        "cervelet",
+        "ventricules latéraux",
+        "lobe occipital",
+        "lobe pariétal"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 39,
+      "question": "Q'est ce-que le structure montré par la flèche ?",
+      "images": [
+        "y3-tp-anatomie-dr-kong-vuthy-q68-image-39.jpg"
+      ],
+      "image": "y3-tp-anatomie-dr-kong-vuthy-q68-image-39.jpg",
+      "options": [
+        "Lobe frontal",
+        "Lobe pariétal",
+        "Lobe occipital",
+        "Lobe insula",
+        "Lobe droit"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 40,
+      "question": "Nommez la structure indiquée par la flèche en dessous",
+      "images": [
+        "y3-tp-anatomie-dr-kong-vuthy-q68-image-40.jpg"
+      ],
+      "image": "y3-tp-anatomie-dr-kong-vuthy-q68-image-40.jpg",
+      "options": [
+        "Lobe frontal",
+        "Lobe gauche",
+        "Lobe floculonodulaire",
+        "Lobe temporal",
+        "Cervelet"
+      ],
+      "correctIndex": 3
+    },
+    {
+      "id": 41,
+      "question": "Choisissez la correcte nomenclature de la structure montrée par la flèche ci-dessous",
+      "images": [
+        "y3-tp-anatomie-dr-kong-vuthy-q68-image-41.jpg"
+      ],
+      "image": "y3-tp-anatomie-dr-kong-vuthy-q68-image-41.jpg",
+      "options": [
+        "Lobe droit",
+        "Lobe pariétal",
+        "Tronc cérébral",
+        "Os occipital",
+        "Lobe insula"
+      ],
+      "correctIndex": 4
+    },
+    {
+      "id": 42,
+      "question": "choisissez une correct réponse correspond au structure montré par la flèche ci-dessous",
+      "images": [
+        "y3-tp-anatomie-dr-kong-vuthy-q68-image-42.jpg"
+      ],
+      "image": "y3-tp-anatomie-dr-kong-vuthy-q68-image-42.jpg",
+      "options": [
+        "lobe cingulaire",
+        "tronc cérébral",
+        "corps calleux",
+        "ventricule latéral",
+        "glande pineale"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 43,
+      "question": "Choisissez la correct nomenclature de la structure montrée par la flèche ci-dessous",
+      "images": [
+        "y3-tp-anatomie-dr-kong-vuthy-q68-image-43.jpg"
+      ],
+      "image": "y3-tp-anatomie-dr-kong-vuthy-q68-image-43.jpg",
+      "options": [
+        "Putamen",
+        "Corps calleux",
+        "Capsule interne",
+        "Thalamus",
+        "Centre ovale"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 44,
+      "question": "Choisissez la correct proposition correspond à la structure montrée par la flèche ci-dessous",
+      "images": [
+        "y3-tp-anatomie-dr-kong-vuthy-q68-image-44.jpg"
+      ],
+      "image": "y3-tp-anatomie-dr-kong-vuthy-q68-image-44.jpg",
+      "options": [
+        "Thalamus",
+        "Hypophyse",
+        "Troisième ventricule",
+        "Corps calleux",
+        "Amygdale"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 45,
+      "question": "choisissez une correct réponse correspond à la structure montrée par la flèche ci-dessous",
+      "images": [
+        "y3-tp-anatomie-dr-kong-vuthy-q68-image-45.jpg"
+      ],
+      "image": "y3-tp-anatomie-dr-kong-vuthy-q68-image-45.jpg",
+      "options": [
+        "lobe frontal",
+        "corps calleux",
+        "lobe temporal",
+        "hypophyse",
+        "dure-mère"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 46,
+      "question": "Choisissez le correct nom de la structure montrée par la flèche ci-dessous",
+      "images": [
+        "y3-tp-anatomie-dr-kong-vuthy-q68-image-46.jpg"
+      ],
+      "image": "y3-tp-anatomie-dr-kong-vuthy-q68-image-46.jpg",
+      "options": [
+        "Hypothalamus",
+        "Glande pinéale",
+        "Pons",
+        "Cervelet",
+        "Glande hypophyse"
+      ],
+      "correctIndex": 4
+    },
+    {
+      "id": 47,
+      "question": "choisissez une correct réponse correspond à la structure montrée par la flèche ci-dessous",
+      "images": [
+        "y3-tp-anatomie-dr-kong-vuthy-q68-image-47.jpg"
+      ],
+      "image": "y3-tp-anatomie-dr-kong-vuthy-q68-image-47.jpg",
+      "options": [
+        "le cervelet",
+        "le tronc cérébrale",
+        "lobe occipital",
+        "l'hypothalamus",
+        "colon transverse"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 48,
+      "question": "choisissez la correct nomenclature de la structure cérébrale indiquée par les fleches",
+      "images": [
+        "y3-tp-anatomie-dr-kong-vuthy-q68-image-48.jpg"
+      ],
+      "image": "y3-tp-anatomie-dr-kong-vuthy-q68-image-48.jpg",
+      "options": [
+        "les ventricules latéraux",
+        "les corps mammilaires",
+        "les amygdales",
+        "les coliculus supérieurs",
+        "les nerfs optiques"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 49,
+      "question": "donnez la correct réponse correspond à la structure indiquée par le flèche ci-dessous",
+      "images": [
+        "y3-tp-anatomie-dr-kong-vuthy-q68-image-49.jpg"
+      ],
+      "image": "y3-tp-anatomie-dr-kong-vuthy-q68-image-49.jpg",
+      "options": [
+        "noyau caudé",
+        "noyau rouge",
+        "putamen",
+        "thalamus",
+        "cortex cérébrale"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 50,
+      "question": "choisissez la correct nomenclature de la structure cérébrale indiquée par la fleche",
+      "images": [
+        "y3-tp-anatomie-dr-kong-vuthy-q68-image-50.jpg"
+      ],
+      "image": "y3-tp-anatomie-dr-kong-vuthy-q68-image-50.jpg",
+      "options": [
+        "thalamus",
+        "putamen",
+        "amygdales",
+        "noyau caudé",
+        "mésencéphale"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 51,
+      "question": "donnez la correct réponse correspond à la structure indiquée par le flèche ci-dessous",
+      "images": [
+        "y3-tp-anatomie-dr-kong-vuthy-q68-image-51.jpg"
+      ],
+      "image": "y3-tp-anatomie-dr-kong-vuthy-q68-image-51.jpg",
+      "options": [
+        "hypophyse",
+        "corps mammilaire",
+        "amygdale",
+        "pallidum",
+        "lobe frontal"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 52,
+      "question": "choisissez la correct nomenclature de la structure cérébrale indiquée par la fleche",
+      "images": [
+        "y3-tp-anatomie-dr-kong-vuthy-q68-image-52.jpg"
+      ],
+      "image": "y3-tp-anatomie-dr-kong-vuthy-q68-image-52.jpg",
+      "options": [
+        "bulbe olfactif",
+        "nerf moteur occulaire commun",
+        "hypothalamus",
+        "tronc cérébrale",
+        "chiasma optique"
+      ],
+      "correctIndex": 4
+    },
+    {
+      "id": 53,
+      "question": "choisissez la correct nomenclature de la structure cérébrale indiquée par la fleche",
+      "images": [
+        "y3-tp-anatomie-dr-kong-vuthy-q68-image-53.jpg"
+      ],
+      "image": "y3-tp-anatomie-dr-kong-vuthy-q68-image-53.jpg",
+      "options": [
+        "thalamus",
+        "trou de Monroe",
+        "corps calleux",
+        "lobe pariétal",
+        "cervelet"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 54,
+      "question": "donnez la correct réponse correspond à la structure indiquée par le flèche ci-dessous",
+      "images": [
+        "y3-tp-anatomie-dr-kong-vuthy-q68-image-54.jpg"
+      ],
+      "image": "y3-tp-anatomie-dr-kong-vuthy-q68-image-54.jpg",
+      "options": [
+        "glande pinéale",
+        "quatrième ventricule",
+        "corps calleux",
+        "corps mammilaire",
+        "pont de Varole"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 55,
+      "question": "choisissez la correct nomenclature de la structure cérébrale indiquée par la fleche",
+      "images": [
+        "y3-tp-anatomie-dr-kong-vuthy-q68-image-55.jpg"
+      ],
+      "image": "y3-tp-anatomie-dr-kong-vuthy-q68-image-55.jpg",
+      "options": [
+        "ventricule latéral",
+        "troisième ventricule",
+        "foramen interventriculair",
+        "4ème ventricule",
+        "acqueduct de Sylvius"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 56,
+      "question": "donnez la correct réponse correspond à la structure indiquée par la flèche ci-dessous",
+      "images": [
+        "y3-tp-anatomie-dr-kong-vuthy-q68-image-56.jpg"
+      ],
+      "image": "y3-tp-anatomie-dr-kong-vuthy-q68-image-56.jpg",
+      "options": [
+        "hypophyse",
+        "3ème ventricule",
+        "thalamus",
+        "glande pinéale",
+        "trou de Monroe"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 57,
+      "question": "choisissez la correct nomenclature de la structure cérébrale indiquée par la fleche",
+      "images": [
+        "y3-tp-anatomie-dr-kong-vuthy-q68-image-57.jpg"
+      ],
+      "image": "y3-tp-anatomie-dr-kong-vuthy-q68-image-57.jpg",
+      "options": [
+        "tronc cérébral",
+        "cervelet",
+        "4ème ventricule",
+        "lobe occipital",
+        "bulbe rachidien"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 58,
+      "question": "choisissez la correct nomenclature de la structure cérébrale indiquée par la fleche",
+      "images": [
+        "y3-tp-anatomie-dr-kong-vuthy-q68-image-58.jpg"
+      ],
+      "image": "y3-tp-anatomie-dr-kong-vuthy-q68-image-58.jpg",
+      "options": [
+        "acqueduc cérébral",
+        "foramen de Monroe",
+        "glande pinéale",
+        "corps calleux",
+        "lobe pariétal"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 59,
+      "question": "choisissez la correct nomenclature de la structure cérébrale indiquée par la fleche",
+      "images": [
+        "y3-tp-anatomie-dr-kong-vuthy-q68-image-59.jpg"
+      ],
+      "image": "y3-tp-anatomie-dr-kong-vuthy-q68-image-59.jpg",
+      "options": [
+        "tronc cérébrale",
+        "abor vitea",
+        "lobe anterieur du cervelet",
+        "lobe flocculonodullaire du cervelet",
+        "4ème ventricule"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 60,
+      "question": "choisissez la correct nomenclature de la structure cérébrale indiquée par la fleche",
+      "images": [
+        "y3-tp-anatomie-dr-kong-vuthy-q68-image-60.jpg"
+      ],
+      "image": "y3-tp-anatomie-dr-kong-vuthy-q68-image-60.jpg",
+      "options": [
+        "lobe flocculonodullaire du cervelet",
+        "4ème ventricule",
+        "lobe postérieur du cervelet",
+        "lobe antérieur du cervelet",
+        "noyau cérébelleux"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 61,
+      "question": "choisissez la correct réponse correspond à la structure indiquée par le flèche ci-dessous",
+      "images": [
+        "y3-tp-anatomie-dr-kong-vuthy-q68-image-61.jpg"
+      ],
+      "image": "y3-tp-anatomie-dr-kong-vuthy-q68-image-61.jpg",
+      "options": [
+        "pédoncule cérébelleux supérieur",
+        "Pont de Varole",
+        "Lobe occipital",
+        "Pyramide bulbaire",
+        "Plexus choroïde du 4ème ventricule"
+      ],
+      "correctIndex": 4
+    },
+    {
+      "id": 62,
+      "question": "choisissez la correct réponse correspond à la structure indiquée par le flèche ci-dessous",
+      "images": [
+        "y3-tp-anatomie-dr-kong-vuthy-q68-image-62.jpg"
+      ],
+      "image": "y3-tp-anatomie-dr-kong-vuthy-q68-image-62.jpg",
+      "options": [
+        "corps calleux",
+        "pont",
+        "mésencéphale",
+        "bulbe rachidien",
+        "cervelet"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 63,
+      "question": "donnez la correct réponse correspond à la structure indiquée par la flèche ci-dessous",
+      "images": [
+        "y3-tp-anatomie-dr-kong-vuthy-q68-image-63.jpg"
+      ],
+      "image": "y3-tp-anatomie-dr-kong-vuthy-q68-image-63.jpg",
+      "options": [
+        "diencéphale",
+        "pont de Varole",
+        "mésencéphale",
+        "plexus choroïde",
+        "pédoncule cérébrale"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 64,
+      "question": "donnez la correct réponse correspond à la structure indiquée par le flèche ci-dessous",
+      "images": [
+        "y3-tp-anatomie-dr-kong-vuthy-q68-image-64.jpg"
+      ],
+      "image": "y3-tp-anatomie-dr-kong-vuthy-q68-image-64.jpg",
+      "options": [
+        "moelle épinière",
+        "cervelet",
+        "mésencéphale",
+        "bulbe",
+        "lobe frontal"
+      ],
+      "correctIndex": 3
+    },
+    {
+      "id": 65,
+      "question": "choisissez la correct réponse correspond à la structure indiquée par le flèche ci-dessous",
+      "images": [
+        "y3-tp-anatomie-dr-kong-vuthy-q68-image-65.jpg"
+      ],
+      "image": "y3-tp-anatomie-dr-kong-vuthy-q68-image-65.jpg",
+      "options": [
+        "cortex cérébral",
+        "espace sou-arachnoïde",
+        "dure-mère",
+        "os temporal",
+        "pie-mère"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 66,
+      "question": "choisissez la correct réponse correspond à la structure indiqué par le flèche ci-dessous",
+      "images": [
+        "y3-tp-anatomie-dr-kong-vuthy-q68-image-66.jpg"
+      ],
+      "image": "y3-tp-anatomie-dr-kong-vuthy-q68-image-66.jpg",
+      "options": [
+        "arachnoïde",
+        "pie-mère",
+        "dure-mère",
+        "lobe frontal",
+        "cervelet"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 67,
+      "question": "choisissez la correct réponse correspond à la structure indiquée par le flèche ci-dessous",
+      "images": [
+        "y3-tp-anatomie-dr-kong-vuthy-q68-image-67.jpg"
+      ],
+      "image": "y3-tp-anatomie-dr-kong-vuthy-q68-image-67.jpg",
+      "options": [
+        "cops calleux",
+        "os pariétal",
+        "faux du cerveau",
+        "arachnoïde",
+        "tronc cérébral"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 68,
+      "question": "choisissez la correct réponse correspond à la structure indiquée par le flèche ci-dessous",
+      "images": [
+        "y3-tp-anatomie-dr-kong-vuthy-q68-image-68.jpg"
+      ],
+      "image": "y3-tp-anatomie-dr-kong-vuthy-q68-image-68.jpg",
+      "options": [
+        "tente du cervelet",
+        "sinus transverse",
+        "cervelet",
+        "arachnoïde",
+        "corps calleux"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

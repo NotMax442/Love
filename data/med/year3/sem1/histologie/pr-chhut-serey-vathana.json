@@ -1,0 +1,1264 @@
+{
+  "questions": [
+    {
+      "id": 1,
+      "question": "Which cell type is responsible for the pigmentation of the skin?",
+      "images": [],
+      "image": "",
+      "options": [
+        "Langerhans cell",
+        "myoepithelial cell",
+        "melanocyte",
+        "keratinocyte",
+        "fibroblast"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 2,
+      "question": "In which layer of the epidermis are cells mitotically active?",
+      "images": [],
+      "image": "",
+      "options": [
+        "thick skin",
+        "stratum corneum",
+        "stratum basale",
+        "stratum lucidum",
+        "stratum granulosum"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 3,
+      "question": "Which cell type of the epidermis is involved in the mediation of immune responses?",
+      "images": [],
+      "image": "",
+      "options": [
+        "keratinocyte",
+        "myoepithelial cell",
+        "Langerhans cell",
+        "melanocyte",
+        "Merkel cell"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 4,
+      "question": "Identify the CORRECT statement",
+      "images": [],
+      "image": "",
+      "options": [
+        "The excretory ducts of sweat gland are lined by a stratified squamous epithelium.",
+        "The papillary layer of the dermis contains fine collagen and elastic fibers and the capillary network which supplies the epidermis.",
+        "Merocrine sweat glands, sebaceous glands and hair together form a pilosebaceous unit.",
+        "The synthesis of melanin by basal cells is under hormonal control.",
+        "The secretory ducts of sweat gland are lined by a stratified squamous epithelium."
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 5,
+      "question": "Identify the INCORRECT statement",
+      "images": [],
+      "image": "",
+      "options": [
+        "The renewal of the human epidermis through the mitotic activity of basal cells takes 3-4 weeks.",
+        "The excretory ducts of sweat gland are lined by a stratified squamous epithelium.",
+        "Langerhans cells function in the immune system and can leave the epidermis after exposure to antigens.",
+        "The overall orientation of collagen fibers in the dermis will follow the 'lines of greatest tension'.",
+        "The epidermis of the thin skin has four stratum"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 6,
+      "question": "In which layer of the epidermis do cells contain keratohyalin granules?",
+      "images": [],
+      "image": "",
+      "options": [
+        "stratum granulosum",
+        "hair follicle",
+        "hairy skin",
+        "pilosebaceous unit",
+        "papillary dermis"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 7,
+      "question": "Which layer of the epidermis is responsible for the barrier function of the epidermis?",
+      "images": [],
+      "image": "",
+      "options": [
+        "thin skin",
+        "stratum spinosum",
+        "stratum corneum",
+        "stratum granulosum",
+        "stratum basale"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 8,
+      "question": "Which of the following is CORRECT regarding the epidermis?",
+      "images": [],
+      "image": "",
+      "options": [
+        "The epidermis is defined as a stratified squamous epithelium.",
+        "The main cell of the epidermis is the polyhedral cell.",
+        "There are six layers to the epidermis.",
+        "The stratum basale consist of non-dividing keratinocytes.",
+        "The stratum basale is secured to the basement membrane by zonula adherens."
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 9,
+      "question": "Which of the following is CORRECT regarding the stratum basale?",
+      "images": [],
+      "image": "",
+      "options": [
+        "Forms the base layer of the epidermis.",
+        "The main cell type of the stratum basale is the melanocyte.",
+        "Melanocytes store melanin, which is synthesized by keratinocytes.",
+        "Merkel cells are involved in immune responses.",
+        "The stratum basale consists of non-dividing keratinocytes."
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 10,
+      "question": "Which of the following is CORRECT regarding the stratum spinosum?",
+      "images": [],
+      "image": "",
+      "options": [
+        "The stratum spinosum sits between the stratum corneum and the stratum granulosum.",
+        "The stratum spinosum is formed from daughter cells of the basal layer.",
+        "The cells of the stratum spinosum are flat without nuclei.",
+        "Langerhans cells are found mostly in the stratum corneum.",
+        "Merkel cells are the outermost sentinels of the cellular immune system."
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 11,
+      "question": "Which of the following is CORRECT regarding the stratum spinosum?",
+      "images": [],
+      "image": "",
+      "options": [
+        "The stratum spinosum sits between the stratum corneum and the stratum granulosum.",
+        "The stratum spinosum is formed from daughter cells of the stratum corneum.",
+        "The cells of the stratum spinosum are flat without nuclei.",
+        "Langerhans cells are found mostly in the stratum spinosum.",
+        "Merkel cells are the outermost sentinels of the cellular immune system."
+      ],
+      "correctIndex": 3
+    },
+    {
+      "id": 12,
+      "question": "Identify the INCORRECT statement",
+      "images": [],
+      "image": "",
+      "options": [
+        "Merocrine sweat glands, sebaceous glands and hair together form a pilosebaceous unit.",
+        "The renewal of the human epidermis through the mitotic activity of basal cells takes 3-4 weeks.",
+        "Langerhans cells function in the immune system and can leave the epidermis after exposure to antigens.",
+        "Merocrine and apocrine sweat glands are simple tubular coiled glands.",
+        "Sebaceous gland is a simple branched alveolar gland."
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 13,
+      "question": "Identify the INCORRECT statement",
+      "images": [],
+      "image": "",
+      "options": [
+        "Primordial ovarian follicles are characterized by a single layer of flattened follicular cells which surround the oocyte.",
+        "The basalis of the endometrium regenerates the functionalis after menstruation.",
+        "Progesterone and oestrogen are the main stimulants of milk secretion in the mammary gland.",
+        "The mammary glands are modified glands of the skin.",
+        "Prolactin and oxytocin are the main stimulants of milk secretion in the mammary gland."
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 14,
+      "question": "Identify the INCORRECT statement",
+      "images": [],
+      "image": "",
+      "options": [
+        "The term \"atresia\" refers to the degeneration of follicles during development and adult life.",
+        "A fluid filled hollow, the antrum, is a characteristic feature of primary ovarian follicles.",
+        "Primordial ovarian follicles are characterized by a single layer of flattened follicular cells which surround the oocyte.",
+        "After ovulation, thecal cells and granulosa cells form the corpus luteum.",
+        "Ovarian surface is lined by simple cuboidal epithelium"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 15,
+      "question": "Identify the INCORRECT statement",
+      "images": [],
+      "image": "",
+      "options": [
+        "The seminiferous epithelium consists of spermatogenic cells and Sertoli cells.",
+        "Spermatids divide to give rise to spermatocytes.",
+        "Ejaculation results from smooth muscle contractions around the vas deferens and ductus epididymis.",
+        "The ducts which form the rete testis connect the tubuli recti with the ductuli efferentes.",
+        "The epithelium that lines the rete testis is a simple cuboidal epithelium."
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 16,
+      "question": "Identify the INCORRECT statement.",
+      "images": [],
+      "image": "",
+      "options": [
+        "Growth of the mammary gland is initiated by oestrogen and progesterone produced in the ovaries and placenta.",
+        "The term \"atresia\" refers to the degeneration of follicles during development and adult life.",
+        "Hormone production of the corpus luteum stops after the implantation of the embryo.",
+        "After ovulation, thecal cells and granulosa cells form the corpus luteum.",
+        "The epithelium that lines the ductuli efferntes is ciliated pseudostratified columnar epithelium."
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 17,
+      "question": "Identify the INCORRECT statement",
+      "images": [],
+      "image": "",
+      "options": [
+        "The increase in the surface area of proximal tubule cells by numerous long microvilli facilitates the absorption of nutritionally valuable substances from the primary urine.",
+        "The filtration slit membrane between the pedicels of podocytes is part of the glomerular filtration barrier.",
+        "Juxtaglomerular cells surrounding the afferent arteriole of the glomerulus release angiotensin II to increase glomerular filtration.",
+        "The osmotic absorption of water by the proximal tubule cells reduces the volume of the primary urine by about 75%.",
+        "The parietal layer of Bowman's capsule in a simple squamous epithelium."
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 18,
+      "question": "Identify the CORRECT statement",
+      "images": [],
+      "image": "",
+      "options": [
+        "A distinct zona pelucida separates the oocyte and follicular cells of primordial ovarian follicles.",
+        "The term \"atresia\" refers to the degeneration of follicles during development and adult life.",
+        "The corpus albicans of the ovary is the functional homologue of the tunica albuginea in males.",
+        "Progesterone and oestrogen are the main stimulants of milk secretion in the mammary gland.",
+        "The granulosa cells of the ovarian follicle secrete progesterone."
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 19,
+      "question": "Identify the CORRECT statement",
+      "images": [],
+      "image": "",
+      "options": [
+        "The testes are surrounded by a thick connective tissue capsule, the tunica albuginea.",
+        "By the first meiotic division B-spermatogonia give rise to primary spermatocytes.",
+        "Testosterone produced by the male accessory reproductive glands (seminal vesicle and prostate) causes the development of the masculine extragenital sex characteristics.",
+        "The outer part of the seminiferous epithelium is formed by 3-4 layers of smooth muscle.",
+        "The Sertoli cells are located outside the seminiferous tubule."
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 20,
+      "question": "Identify the INCORRECT statement",
+      "images": [],
+      "image": "",
+      "options": [
+        "Stratified squamous epithelium lines the distal part of the male and female urethra.",
+        "Podocytes form the visceral layer of Bowman's capsule.",
+        "The increase in the surface area of proximal tubule cells by numerous long microvilli facilitates the absorption of nutritionally valuable substances from the primary urine.",
+        "The principal function of the thin tubule of the nephron is the resorption of nutritionally valuable substances from the primary urine.",
+        "Transitional epithelium lines the ureter."
+      ],
+      "correctIndex": 3
+    },
+    {
+      "id": 21,
+      "question": "Identify the CORRECT statement(1)",
+      "images": [],
+      "image": "",
+      "options": [
+        "The glomerular filtration barrier is formed by the cells of the parietal layer of Bowman's capsule and the basal lamina of the glomerular capillaries.",
+        "The incomplete basal lamina of the discontinuous glomerular capillaries facilitates the formation of the glomerular filtrate.",
+        "The principal function of the thin tubule of the nephron is the resorption of nutritionally valuable substances from the primary urine.",
+        "Stratified squamous epithelium lines the distal part of the male and female urethra.",
+        "Podocytes form the parietal layer of Bowman's capsule."
+      ],
+      "correctIndex": 3
+    },
+    {
+      "id": 22,
+      "question": "Identify the CORRECT statement",
+      "images": [],
+      "image": "",
+      "options": [
+        "Leydig cells provide structural and nutritional support for the developing spermatocytes.",
+        "Ejaculation results from smooth muscle contractions around the vas deferens and ductus epididymis.",
+        "The outer part of the seminiferous epithelium is formed by 3-4 layers of smooth muscle.",
+        "Spermatocytes which leave the testis are structurally mature and motile.",
+        "Leydig cells are located inside the seminiferous tubule."
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 23,
+      "question": "Identify the INCORRECT statement",
+      "images": [],
+      "image": "",
+      "options": [
+        "The basalis of the endometrium regenerates the functionalis after menstruation.",
+        "Growth of the mammary gland is initiated by oestrogen and progesterone produced in the ovaries and placenta.",
+        "The myometrium of the uterus is important for the transport of the oocyte and sperm.",
+        "The mammary glands are modified glands of the skin.",
+        "The mammary gland contains 15 to 20 lobes."
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 24,
+      "question": "Identify the INCORRECT statement",
+      "images": [],
+      "image": "",
+      "options": [
+        "Stratified squamous epithelium lines the distal part of the male and female urethra.",
+        "An inner layer of circular smooth muscle and an outer layer of longitudinal smooth muscle are found in both the ureter and bladder.",
+        "The filtration slit membrane between the pedicles of podocytes is part of the glomerular filtration barrier.",
+        "Renin is released by juxtaglomerular cells which surround the afferent arteriole of the glomerulus.",
+        "The macula densa cells are found in the distal tubule faced to the vascular pole."
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 25,
+      "question": "Identify the INCORRECT statement(2)",
+      "images": [],
+      "image": "",
+      "options": [
+        "Sensory stimulation of the nipple initiates the milk ejection reflex via the secretion of oxytocin from the neurohypophysis.",
+        "The wall of the vagina consists of a mucosa, muscularis mucosae, submucosa, muscularis and adventitia.",
+        "The mammary glands are modified glands of the skin.",
+        "The formation of new oocytes stops before birth.",
+        "The vagina is lined by stratified squamous epithelium."
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 26,
+      "question": "Identify the CORRECT statement(2)",
+      "images": [],
+      "image": "",
+      "options": [
+        "Transitional epithelium lining the tubules of the nephron allows the tubules to expand if large amounts of primary urine are formed.",
+        "The macula densa is formed by a specialized section of the epithelium lining the distal tubule as it contacts the glomerulus and its afferent and efferent arterioles.",
+        "The glomerular filtration barrier is formed by the cells of the parietal layer of Bowman's capsule and the basal lamina of the glomerular capillaries.",
+        "Juxtaglomerular cells surrounding the afferent arteriole of the glomerulus release angiotensin II to increase glomerular filtration.",
+        "Collecting ducts are not permeable to water in the presence of antidiuretic hormone."
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 27,
+      "question": "Identify the INCORRECT statement(1)",
+      "images": [],
+      "image": "",
+      "options": [
+        "Podocytes form the visceral layer of Bowman's capsule.",
+        "The transport of sodium ions over the epithelia lining the ascending thin and straight distal tubules creates the osmotic gradient necessary for the resorption of water from the urine passing through the collecting ducts.",
+        "The glomerular filtration barrier is formed by the cells of the parietal layer of Bowman's capsule and the basal lamina of the glomerular capillaries.",
+        "The osmotic absorption of water by the proximal tubule cells reduces the volume of the primary urine by about 75%.",
+        "The glomerular filtration slit is around 20 to 30 nm."
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 28,
+      "question": "Identify the INCORRECT statement",
+      "images": [],
+      "image": "",
+      "options": [
+        "The mammary glands are modified glands of the skin.",
+        "Primordial ovarian follicles are characterized by a single layer of flattened follicular cells which surround the oocyte.",
+        "The functionalis of the endometrium of uterus and cervix is shed during menstruation.",
+        "Sensory stimulation of the nipple initiates the milk ejection reflex via the secretion of oxytocin from the neurohypophysis.",
+        "The acini of the secretory part of the mammary gland are formed during pregnancy."
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 29,
+      "question": "Identify the INCORRECT statement",
+      "images": [],
+      "image": "",
+      "options": [
+        "Leydig cells provide structural and nutritional support for the developing spermatocytes.",
+        "The maturation of spermatids into spermatozoides is called spermiogenesis.",
+        "The testes are surrounded by a thick connective tissue capsule, the tunica albuginea.",
+        "The prophase of primary spermatocytes is extremely prolonged.",
+        "The first meiotic division of primary spermatocytes will give rise the secondary spermatocytes."
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 30,
+      "question": "Identify the INCORRECT statement",
+      "images": [],
+      "image": "",
+      "options": [
+        "The formation of new oocytes stops before birth.",
+        "Primordial ovarian follicles are characterized by a single layer of flattened follicular cells which surround the oocyte.",
+        "Like sweat glands, mammary glands are simple tubular glands.",
+        "Growth of the mammary gland is initiated by oestrogen and progesterone produced in the ovaries and placenta.",
+        "The mammary gland is a merocrine and apocrine secretion."
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 31,
+      "question": "Identify the CORRECT statement(3)",
+      "images": [],
+      "image": "",
+      "options": [
+        "Hormone production of the corpus luteum stops after the implantation of the embryo.",
+        "The infundibulum of the oviduct passes through the wall of the uterus.",
+        "\"Tertiary follicle\", \"preovulatory follicle\" and \"Graafian follicle\" are synonymous terms.",
+        "A distinct zona pelucida separates the oocyte and follicular cells of primordial ovarian follicles.",
+        "The secondary ovarian follicle contains no antrum."
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 32,
+      "question": "Identify the CORRECT statement(4)",
+      "images": [],
+      "image": "",
+      "options": [
+        "The pyramid of Malpighi is in the renal cortex",
+        "Stratified squamous epithelium lines the distal part of the male and female urethra.",
+        "Transitional epithelium lining the tubules of the nephron allows the tubules to expand if large amounts of primary urine are formed.",
+        "The incomplete basal lamina of the discontinuous glomerular capillaries facilitates the formation of the glomerular filtrate.",
+        "The outer layer of renal capsule contains many myofibroblasts."
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 33,
+      "question": "Identify the CORRECT statement",
+      "images": [],
+      "image": "",
+      "options": [
+        "Spermatocytes which leave the testis are structurally mature and motile.",
+        "Spermatocytes are stored in the terminal part of the seminal vesicles.",
+        "The Sertoli cells are located outside the seminiferous tubule.",
+        "Differences in the height of the epithelium give the lumen of the ductuli efferentes an irregular outline.",
+        "The rete testis is lined by stratified squamous epithelium."
+      ],
+      "correctIndex": 3
+    },
+    {
+      "id": 34,
+      "question": "Identify the INCORRECT statement",
+      "images": [],
+      "image": "",
+      "options": [
+        "The seminiferous epithelium consists of spermatogenic cells and Sertoli cells.",
+        "The prophase of primary spermatocytes is extremely prolonged.",
+        "Processes of Sertoli cells form the blood-testis barrier.",
+        "Testosterone produced by the male accessory reproductive glands (seminal vesicle and prostate) causes the development of the masculine extragenital sex characteristics.",
+        "The epithelium of the tubuli recti is pseudostratified columnar."
+      ],
+      "correctIndex": 3
+    },
+    {
+      "id": 35,
+      "question": "Identify the CORRECT statement",
+      "images": [],
+      "image": "",
+      "options": [
+        "Like sweat glands, mammary glands are simple tubular glands.",
+        "A distinct zona pelucida separates the oocyte and follicular cells of primordial ovarian follicles.",
+        "The functionalis of the endometrium of uterus and cervix is shed during menstruation.",
+        "Complex mucosal folds give the lumen of the ampulla of the oviduct a very irregular outline.",
+        "Collecting ducts are not permeable to water in the presence of antidiuretic hormone (ADH)."
+      ],
+      "correctIndex": 3
+    },
+    {
+      "id": 36,
+      "question": "Identify the INCORRECT statement(5)",
+      "images": [],
+      "image": "",
+      "options": [
+        "The macula densa is formed by a specialized section of the epithelium lining the distal tubule as it contacts the glomerulus and its afferent and efferent arterioles.",
+        "The increase in the surface area of proximal tubule cells by numerous long microvilli facilitates the absorption of nutritionally valuable substances from the primary urine.",
+        "An inner layer of circular smooth muscle and an outer layer of longitudinal smooth muscle are found in both the ureter and bladder.",
+        "Renin is released by juxtaglomerular cells which surround the afferent arteriole of the glomerulus.",
+        "The second meiotic division of secondary spermatocytes will give rise the spermatids."
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 37,
+      "question": "Identify the CORRECT statement",
+      "images": [],
+      "image": "",
+      "options": [
+        "After ovulation, thecal cells and granulosa cells form the corpus luteum.",
+        "Hormone production of the corpus luteum stops after the implantation of the embryo.",
+        "A distinct zona pelucida separates the oocyte and follicular cells of primordial follicles.",
+        "A fluid filled hollow, the antrum, is a characteristic feature of primary follicles.",
+        "The tubuli recti join the ductuli efferentes to the ductus epididymis."
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 38,
+      "question": "Identify the INCORRECT statement",
+      "images": [],
+      "image": "",
+      "options": [
+        "The ducts which form the rete testis connect the tubuli recti with the ductuli efferentes.",
+        "The prophase of primary spermatocytes is extremely prolonged.",
+        "By the first meiotic division B-spermatogonia give rise to primary spermatocytes.",
+        "Differences in the height of the epithelium give the lumen of the ductuli efferentes an irregular outline.",
+        "Each seminiferous tubule is about 30 to 80 cm long."
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 39,
+      "question": "Identify the INCORRECT statement(6)",
+      "images": [],
+      "image": "",
+      "options": [
+        "Spermatids divide to give rise to spermatocytes.",
+        "There are two vaginalis layers, parietal and visceral.",
+        "Each testis contains about 500 to 1000 seminiferous tubules.",
+        "The tunica albuginea is composed of dense fibrous connective tissue.",
+        "Leydig cells are located outside the seminiferous tubule and they secrete testosterone."
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 40,
+      "question": "Identify the CORRECT statement(7)",
+      "images": [],
+      "image": "",
+      "options": [
+        "The glomerular filtration barrier is formed by the cells of the parietal layer of Bowman's capsule and the basal lamina of the glomerular capillaries.",
+        "The macula densa is formed by a specialized section of the epithelium lining the distal tubule as it contacts the glomerulus and its afferent and efferent arterioles.",
+        "The incomplete basal lamina of the discontinuous glomerular capillaries facilitates the formation of the glomerular filtrate.",
+        "Juxtaglomerular cells surrounding the afferent arteriole of the glomerulus release angiotensin II to increase glomerular filtration.",
+        "The parietal layer of Bowman's capsule contains mesangial cells."
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 41,
+      "question": "The epithelial layer of skin is:",
+      "images": [],
+      "image": "",
+      "options": [
+        "epidermis",
+        "dermis",
+        "lamina propria",
+        "hypodermis",
+        "mucosa"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 42,
+      "question": "The fibrous connective tissue layer of skin is:",
+      "images": [],
+      "image": "",
+      "options": [
+        "epidermis",
+        "dermis",
+        "hypodermis",
+        "lamina propria",
+        "mucosa"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 43,
+      "question": "The loose, adipose connective tissue layer of skin is:",
+      "images": [],
+      "image": "",
+      "options": [
+        "epidermis",
+        "dermis",
+        "hypodermis",
+        "lamina propria",
+        "mucosa"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 44,
+      "question": "Which connective tissue layer lies closest to the epidermis:",
+      "images": [],
+      "image": "",
+      "options": [
+        "reticular layer of dermis.",
+        "papillary layer of dermis.",
+        "hypodermis.",
+        "stratum corneum",
+        "lamina propria"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 45,
+      "question": "The projections of dermis upward, indenting the bottom of the epidermis, are called:",
+      "images": [],
+      "image": "",
+      "options": [
+        "arrector pili muscle",
+        "epidermal appendages",
+        "Meissner's corpuscles",
+        "dermal papillae",
+        "sweat gland ducts"
+      ],
+      "correctIndex": 3
+    },
+    {
+      "id": 46,
+      "question": "Which of the following layers lies nearest the outer surface of the epidermis?",
+      "images": [],
+      "image": "",
+      "options": [
+        "stratum basale or stratum germinativum.",
+        "stratum spinosum or stratum Malpighii.",
+        "stratum granulosum.",
+        "stratum lucidum.",
+        "stratum corneum."
+      ],
+      "correctIndex": 4
+    },
+    {
+      "id": 47,
+      "question": "Which of the following layers lies nearest the dermis?",
+      "images": [],
+      "image": "",
+      "options": [
+        "stratum basale or stratum germinativum.",
+        "stratum spinosum or stratum Malpighii.",
+        "stratum granulosum.",
+        "stratum lucidum.",
+        "stratum corneum."
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 48,
+      "question": "The basement membrane lies between:",
+      "images": [],
+      "image": "",
+      "options": [
+        "stratum basale and stratum spinosum.",
+        "stratum spinosum and stratum granulosum.",
+        "stratum granulosum and stratum corneum.",
+        "epidermis and dermis.",
+        "papillary and reticular layers of dermis."
+      ],
+      "correctIndex": 3
+    },
+    {
+      "id": 49,
+      "question": "Which cell type is not normally found in the epidermis?",
+      "images": [],
+      "image": "",
+      "options": [
+        "keratinocytes (or \"prickle cells\").",
+        "melanocytes.",
+        "Langerhans cells.",
+        "Merkel cells.",
+        "fibroblasts."
+      ],
+      "correctIndex": 4
+    },
+    {
+      "id": 50,
+      "question": "Which of the following consists of stratified (two-layered) cuboidal epithelium?",
+      "images": [],
+      "image": "",
+      "options": [
+        "sebaceous gland.",
+        "hair follicle.",
+        "duct of sweat gland.",
+        "secretory portion of sweat gland.",
+        "arrector pili muscle."
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 51,
+      "question": "Which of the following is NOT an \"epidermal appendage\" (i.e., NOT comprised of epithelial tissue)?",
+      "images": [],
+      "image": "",
+      "options": [
+        "sebaceous gland.",
+        "hair follicle.",
+        "duct of sweat gland.",
+        "secretory portion of sweat gland.",
+        "arrector pili muscle."
+      ],
+      "correctIndex": 4
+    },
+    {
+      "id": 52,
+      "question": "Which of the following typically includes dead cells with pyknotic nuclei?",
+      "images": [],
+      "image": "",
+      "options": [
+        "sebaceous gland.",
+        "hair follicle.",
+        "duct of sweat gland.",
+        "secretory portion of sweat gland.",
+        "arrector pili muscle."
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 53,
+      "question": "Which layer is exceptionally thick in so-called \"thick skin\" (i.e., palmar and plantar skin)?",
+      "images": [],
+      "image": "",
+      "options": [
+        "stratum basale of epidermis.",
+        "dermis.",
+        "hypodermis.",
+        "stratum corneum of epidermis",
+        "papillary dermis"
+      ],
+      "correctIndex": 3
+    },
+    {
+      "id": 54,
+      "question": "Which structures are present in \"thick skin\" (i.e., palmar and plantar skin)?",
+      "images": [],
+      "image": "",
+      "options": [
+        "sebaceous glands.",
+        "hair follicles.",
+        "arrector pili.",
+        "sweat glands.",
+        "apocrine sweat glands."
+      ],
+      "correctIndex": 3
+    },
+    {
+      "id": 55,
+      "question": "The tissue composition of hair follicles is most similar to:",
+      "images": [],
+      "image": "",
+      "options": [
+        "epidermis.",
+        "hypodermis.",
+        "sweat gland.",
+        "papillary layer of dermis.",
+        "reticular layer of dermis."
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 56,
+      "question": "Arrector pili muscle consist of:",
+      "images": [],
+      "image": "",
+      "options": [
+        "glandular epithelium.",
+        "columnar epithelium.",
+        "squamous epithelium.",
+        "lymphocytes.",
+        "smooth muscle."
+      ],
+      "correctIndex": 4
+    },
+    {
+      "id": 57,
+      "question": "The glands most closely associated with hair follicles are:",
+      "images": [],
+      "image": "",
+      "options": [
+        "eccrine sweat glands.",
+        "mammary glands.",
+        "sebaceous glands.",
+        "lymphatic glands.",
+        "submucosal glands."
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 58,
+      "question": "The region of the kidney containing glomeruli is called the:",
+      "images": [],
+      "image": "",
+      "options": [
+        "cortex.",
+        "medulla.",
+        "calyx.",
+        "pelvis.",
+        "papillae."
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 59,
+      "question": "The region of the kidney containing proximal convoluted tubules is called the:",
+      "images": [],
+      "image": "",
+      "options": [
+        "cortex.",
+        "medulla.",
+        "calyx.",
+        "pelvis.",
+        "papillae."
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 60,
+      "question": "The region of the kidney containing long loops of Henle is called the:",
+      "images": [],
+      "image": "",
+      "options": [
+        "cortex.",
+        "medulla.",
+        "calyx.",
+        "pelvis.",
+        "papillae."
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 61,
+      "question": "The region of the kidney containing distal convoluted tubules is called the:",
+      "images": [],
+      "image": "",
+      "options": [
+        "cortex.",
+        "medulla.",
+        "capsule.",
+        "pelvis.",
+        "hilus."
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 62,
+      "question": "The region of the kidney containing larger collecting ducts is called the:",
+      "images": [],
+      "image": "",
+      "options": [
+        "cortex.",
+        "medulla.",
+        "calyx.",
+        "pelvis.",
+        "papilla."
+      ],
+      "correctIndex": 4
+    },
+    {
+      "id": 63,
+      "question": "Regions of cortical parenchyma located between medullary pyramids (pyramids of Malpighii) rather than adjacent to the surface of the kidney are called:",
+      "images": [],
+      "image": "",
+      "options": [
+        "medullary rays.",
+        "renal lobules.",
+        "columns of Bertin.",
+        "papillae.",
+        "calyces."
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 64,
+      "question": "The capsule of the kidney consists of:",
+      "images": [],
+      "image": "",
+      "options": [
+        "transitional epithelium.",
+        "dense fibrous connective tissue.",
+        "loose cellular connective tissue with many lymphocytes.",
+        "adipose connective tissue.",
+        "endothelium."
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 65,
+      "question": "The region of the kidney where artery, vein and ureter are attached is called the:",
+      "images": [],
+      "image": "",
+      "options": [
+        "cortex.",
+        "medulla.",
+        "calyx.",
+        "pelvis.",
+        "hilus."
+      ],
+      "correctIndex": 4
+    },
+    {
+      "id": 66,
+      "question": "The region of glomerulus (renal corpuscle) where the capillary tuft is attached is called the:",
+      "images": [],
+      "image": "",
+      "options": [
+        "mesangium.",
+        "area cribosa.",
+        "vascular pole.",
+        "urinary (tubular) pole.",
+        "juxtaglomerular apparatus."
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 67,
+      "question": "The region of glomerulus (renal corpuscle) where the urinary space drains into the proximal convoluted tubule is called the:",
+      "images": [],
+      "image": "",
+      "options": [
+        "mesangium.",
+        "area cribosa.",
+        "vascular pole.",
+        "urinary (tubular) pole.",
+        "juxtaglomerular apparatus."
+      ],
+      "correctIndex": 3
+    },
+    {
+      "id": 68,
+      "question": "The lumen of glomerular capillaries is lined by:",
+      "images": [],
+      "image": "",
+      "options": [
+        "mesangial cells.",
+        "podocytes foot processes.",
+        "juxtaglomerular cells.",
+        "continuous endothelium.",
+        "fenestrated endothelium."
+      ],
+      "correctIndex": 4
+    },
+    {
+      "id": 69,
+      "question": "Glomerular capillaries are supported on the outside (adjacent to the urinary space) by:",
+      "images": [],
+      "image": "",
+      "options": [
+        "mesangial cells.",
+        "fibroblasts.",
+        "podocyte foot processes.",
+        "pericytes.",
+        "juxtaglomerular cells."
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 70,
+      "question": "Smooth muscle cells of renal arterioles which are modified for endocrine secretion are called:",
+      "images": [],
+      "image": "",
+      "options": [
+        "mesangial cells.",
+        "fibroblasts.",
+        "podocytes.",
+        "pericytes.",
+        "juxtaglomerular cells."
+      ],
+      "correctIndex": 4
+    },
+    {
+      "id": 71,
+      "question": "The outer lining of Bowman's capsule (the parietal epithelilum) consists of a single layer of:",
+      "images": [],
+      "image": "",
+      "options": [
+        "squamous cells.",
+        "cuboidal cells.",
+        "podocytes.",
+        "pericytes.",
+        "mesangial cells."
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 72,
+      "question": "Filtration slits are located between adjacent:",
+      "images": [],
+      "image": "",
+      "options": [
+        "layers of the glomerular basement membrane.",
+        "capillary fenestrations.",
+        "podocyte foot processes.",
+        "mesangial cells.",
+        "capillary endothelial cells."
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 73,
+      "question": "Podocytes are:",
+      "images": [],
+      "image": "",
+      "options": [
+        "simple squamous epithelial cells.",
+        "simple cuboidal epithelial cells.",
+        "simple columnar epithelial cells.",
+        "unique epithelial cells with many interdigitating processes.",
+        "not epithelial cells."
+      ],
+      "correctIndex": 3
+    },
+    {
+      "id": 74,
+      "question": "Mesangial cells are:",
+      "images": [],
+      "image": "",
+      "options": [
+        "simple squamous epithelial cells.",
+        "simple cuboidal epithelial cells.",
+        "simple columnar epithelial cells.",
+        "unique epithelial cells with many interdigitating processes.",
+        "not epithelial cells."
+      ],
+      "correctIndex": 4
+    },
+    {
+      "id": 75,
+      "question": "The normal thickness of the glomerular basement membrane (the GBM) is between:",
+      "images": [],
+      "image": "",
+      "options": [
+        "30 and 35 nanometers.",
+        "0.3 and 0.35 micrometers.",
+        "3 and 3.5 micrometers.",
+        "30 and 35 micrometers.",
+        "300 and 350 micrometers."
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 76,
+      "question": "The macula densa consists of:",
+      "images": [],
+      "image": "",
+      "options": [
+        "extraglomerular mesangial cells.",
+        "closely-packed nuclei in the epithelium of the distal convoluted tubule.",
+        "modified smooth muscle cells.",
+        "closely-packed nuclei in the epithelium of the proximal convoluted tubule.",
+        "densely packed collagen fibers in the juxtaglomerular interstitium."
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 77,
+      "question": "Juxtaglomerular cells secrete:",
+      "images": [],
+      "image": "",
+      "options": [
+        "urea.",
+        "antiduretic hormone.",
+        "renin.",
+        "angiotensinogen.",
+        "aldosterone."
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 78,
+      "question": "Arteries which form arches along the border between the cortex and the medulla of the kidney are called:",
+      "images": [],
+      "image": "",
+      "options": [
+        "interlobar arteries.",
+        "interlobular arteries.",
+        "arcuate arteries.",
+        "afferent arteries.",
+        "vasa recta."
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 79,
+      "question": "Vessels which connect interlobular arteries with glomerular capillaries are called:",
+      "images": [],
+      "image": "",
+      "options": [
+        "arcuate arteries.",
+        "afferent arterioles.",
+        "efferent arterioles.",
+        "peritubular capillaries.",
+        "vasa recta."
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 80,
+      "question": "Vessels which connect glomerular capillaries with peritubular capillaries are called:",
+      "images": [],
+      "image": "",
+      "options": [
+        "arcuate arteries.",
+        "afferent arterioles.",
+        "efferent arterioles.",
+        "peritubular capillaries.",
+        "vasa recta."
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 81,
+      "question": "Which segment of the nephron functions to filter fluid from blood into urinary space?",
+      "images": [],
+      "image": "",
+      "options": [
+        "glomerulus.",
+        "proximal convoluted tubule.",
+        "loop of Henle.",
+        "distal convoluted tubule.",
+        "collecting duct."
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 82,
+      "question": "Which cells respond to aldosterone?",
+      "images": [],
+      "image": "",
+      "options": [
+        "podocytes.",
+        "epithelial cells of distal tubules.",
+        "juxtaglomerular cells.",
+        "epithelial cells of Bowman's capsule.",
+        "mesangial cells."
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 83,
+      "question": "Which cells repond to antiduretic hormone (ADH)?",
+      "images": [],
+      "image": "",
+      "options": [
+        "podocytes.",
+        "mesangial cells.",
+        "juxtaglomerular cells.",
+        "epithelial cells of Bowman's capsule.",
+        "epithelial cells of collecting duct."
+      ],
+      "correctIndex": 4
+    },
+    {
+      "id": 84,
+      "question": "Which cells secrete a product which converts angiotensinogen to angiotensin?",
+      "images": [],
+      "image": "",
+      "options": [
+        "podocytes.",
+        "epithelial cells of proximal and distal convoluted tubules.",
+        "juxtaglomerular cells.",
+        "epithelial cells of Bowman's capsule.",
+        "epithelial cells of collecting duct."
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 85,
+      "question": "Which epithelial cells of the urinary tract are specialized with an apical brush border of microvilli?",
+      "images": [],
+      "image": "",
+      "options": [
+        "Bowman's capsule epithelium.",
+        "proximal convoluted tubule epithelium.",
+        "epithelium lining the thin segment of the loop of Henle.",
+        "distal convoluted tubule epithelium.",
+        "collecting duct epithelium."
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 86,
+      "question": "Which of the following epithelial cells of the urinary tract are simple squamous, without apparent structural specialization?",
+      "images": [],
+      "image": "",
+      "options": [
+        "Bowman's capsule epithelium.",
+        "glomerular epithelium (podocytes).",
+        "transitional epithelium.",
+        "distal convoluted tubule epithelium.",
+        "collecting duct epithelium."
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 87,
+      "question": "Interstitial cells within the renal glomerulus, whose functions are uncertain but may include phagocytosis and maintenance of the glomerular basement membrane, are the:",
+      "images": [],
+      "image": "",
+      "options": [
+        "podocytes.",
+        "macula densa.",
+        "juxtaglomerular cells.",
+        "mesangial cells.",
+        "transitional epithelium."
+      ],
+      "correctIndex": 3
+    },
+    {
+      "id": 88,
+      "question": "Transitional epithelium lines all of the following EXCEPT the:",
+      "images": [],
+      "image": "",
+      "options": [
+        "renal pelvis.",
+        "ureter.",
+        "bladder.",
+        "proximal urethra.",
+        "Bowman's capsule."
+      ],
+      "correctIndex": 4
+    },
+    {
+      "id": 89,
+      "question": "Identify the INCORRECT statement",
+      "images": [],
+      "image": "",
+      "options": [
+        "Long nephron contains large renal corpuscle",
+        "Short nephron contains large renal corpuscle which is located near the medulla",
+        "The lamina rara externa of the GBM is attaching to the podocyte",
+        "The normal thickness the GBM is between 300 and 350 micrometers.",
+        "The afferent arteriole will branch to capillaries of the glomerulus."
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 90,
+      "question": "Identify the CORRECT statement",
+      "images": [],
+      "image": "",
+      "options": [
+        "Short nephron contains small renal corpuscle located near the renal capsule.",
+        "The renal lobule contains many renal lobes.",
+        "The lamina rara interna of the GBM is attaching to the podocyte.",
+        "The protein albumin is normally filtrated in the glomerulus.",
+        "The capillaries of the glomerulus are continuous type."
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

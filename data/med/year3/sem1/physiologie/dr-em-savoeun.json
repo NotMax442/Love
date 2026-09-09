@@ -1,0 +1,283 @@
+{
+  "questions": [
+    {
+      "id": 1,
+      "question": "Ce déséquilibre endocrinien serait provoquer une hypoglycémie:",
+      "images": [],
+      "image": "",
+      "options": [
+        ". Hypersécrétion d'insuline",
+        ". Hypersécrétion de glucagon",
+        ". Hypersécrétion de cortisol",
+        ". Hypersécrétion de l'hormone de croissance",
+        ". Hypersécrétion de la somatostatine"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 2,
+      "question": "Insuline augmente:",
+      "images": [],
+      "image": "",
+      "options": [
+        ". L'absorption du glucose par les tissus cibles",
+        ". La dégradation des protéines",
+        ". Lipolyse",
+        ". La dégradation du glycogène dans le foie",
+        ". Néoglucogenèse dans le foie"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 3,
+      "question": "L'insuline:",
+      "images": [],
+      "image": "",
+      "options": [
+        ". Est synthétisée sous sa forme active, la pro-insuline, dans les cellules pancréatiques",
+        ". Augmente le taux des acides aminés dans le sang",
+        ". Diminue le taux de potassium dans le sang",
+        ". Augmente le taux de glucose dans le sang",
+        ". Augmente le taux des acides gras dans le sang"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 4,
+      "question": "L'action directe ou indirecte du glucagon est:",
+      "images": [],
+      "image": "",
+      "options": [
+        ". La diminution du taux sanguin d'urée",
+        ". La diminution de la concentration sanguine de potassium",
+        ". Diminution du taux sanguin des corps cétoniques",
+        ". La diminution de la concentration sanguine de calcium",
+        ". L'augmentation du taux sanguin de glucose"
+      ],
+      "correctIndex": 4
+    },
+    {
+      "id": 5,
+      "question": "Quels facteurs augmentent la sécrétion de l'insuline?",
+      "images": [],
+      "image": "",
+      "options": [
+        ". L'hypoglycémie",
+        ". L'hypokaliémie",
+        ". Le glucagon",
+        ". La diminution du taux sanguin en acides aminés et acides gras",
+        ". D'état de jeun prolongé"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 6,
+      "question": "Si il prend adéquate de glucide, la sécrétion d'insuline insuffisants entraîne :",
+      "images": [],
+      "image": "",
+      "options": [
+        ". hypoglycémie",
+        ". augmentation d'utilisation glucose cellulaire",
+        ". stockage du glycogène",
+        ". hyperglycémie",
+        ". diminution la production de glucose à partir du foie baisse"
+      ],
+      "correctIndex": 3
+    },
+    {
+      "id": 7,
+      "question": "Lequel de ces tissus est le moins affecté par l'insuline?",
+      "images": [],
+      "image": "",
+      "options": [
+        ". tissue adipeux",
+        ". coeur",
+        ". muscle squelletique",
+        ". cerveau",
+        ". foie"
+      ],
+      "correctIndex": 3
+    },
+    {
+      "id": 8,
+      "question": "Un homme de 58 ans présenté à son médecin de sensation de malaise général et se plaignant de la miction excessive et de la soif. Il était d'obésité morbide. L'analyse d'urine a révélé la glycosurie et protéinurie mais pas cétonurie. Laquelle des conditions suivantes est la plus conforme à ces symptômes ?",
+      "images": [],
+      "image": "",
+      "options": [
+        ". Diabète insipide central",
+        ". Le diabète insipide néphrogénique",
+        ". L'hypothyroïdie primaire",
+        ". Diabète de type 1",
+        ". Diabète de type 2"
+      ],
+      "correctIndex": 4
+    },
+    {
+      "id": 9,
+      "question": "Un homme de 28 ans, diabète de type 1 auto injection d'insuline. Lesquels des effets on pouvait s'y attendre une heure après le traitement à l'insuline par rapport à une heure avant le traitement à l'insuline parmi les concentrations plasmatiques de glucose, des acides gras et des cétones ?",
+      "images": [],
+      "image": "",
+      "options": [
+        ". ↑ glucose,↓ acide gras, ↑ cétones",
+        ". ↑ glucose, acide gras,↓ cétones",
+        ". ↓ glucose, ↑ acide gras, ↑ cétones",
+        ". ↓ glucose, acide gras, ↑ cétones",
+        ". ↓ glucose,↓ acide gras, ↓ cétones"
+      ],
+      "correctIndex": 4
+    },
+    {
+      "id": 10,
+      "question": "L'hormone de stimulation de la thyroïde (TSH)",
+      "images": [],
+      "image": "",
+      "options": [
+        ". Est sécrétée par l'hypothalamus",
+        ". Est sécrétée par le lobe postérieur de l'hypophyse",
+        ". Stimule la synthèse et la libération des hormones thyroïdiennes",
+        ". Est inhibée sous l'action de la TRH hypothalamique",
+        ". Est libérée sous l'action de l'ACTH hypothalamique"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 11,
+      "question": "A propos de la synthèse des hormones thyroïdiennes",
+      "images": [],
+      "image": "",
+      "options": [
+        ". L'oxydation d'I- en I2 est une étape clef dans la formation des monoiodotyrosine (MIT) et diiodotyrosine (DIT)",
+        ". La thyroglobuline est synthétisée par les cellules parafolliculaires thyroïdiennes",
+        ". La thyroglobuline réagit avec I2 pour former la tyrosine",
+        ". La thyroglobuline iodée est stockée dans cellule réticulum endoplasmique rugueuse",
+        ". La MIT et la DIT sont également appelées respectivement T3 et T4"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 12,
+      "question": "Le couplage:",
+      "images": [],
+      "image": "",
+      "options": [
+        ". De deux molécules de MIT permet la formation de la thyroglobuline",
+        ". De quatre molécules de MIT permet la formation de la thyroxine ou T4",
+        ". De deux molécules de DIT permet la formation de la thyroxine ou T4",
+        ". De trois molécules de MIT permet la formation de la triiodothyronine ou T3",
+        ". D'une molécule de MIT et d'une molécule de DIT permet la formation de T4"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 13,
+      "question": "A propos de la régulation de l'activité thyroïdienne:",
+      "images": [],
+      "image": "",
+      "options": [
+        ". TSH inhibe la sécrétion de T3 et T4 par effet direct sur les follicules thyroïdiens",
+        ". T3 et T4 activent par rétroaction positive la sécrétion de TSH par l'hypophyse",
+        ". T3 et T4 activent par effet à rétroaction positive la sécrétion de TRH par l'hypothalamus",
+        ". T3 et T4 inhibent par effet à rétroaction négative la sécrétion de TSH par l'hypophyse",
+        ". TSH inhibent la synthèse et la libération de T3 et T4 par les cellules folliculaires"
+      ],
+      "correctIndex": 3
+    },
+    {
+      "id": 14,
+      "question": "Une femme 58 ans se plaignait de la léthargie et le gain de poids au cours de la dernière année. L'enquête a révélé un goitre indolore, la peau rugueuse épaisse, œdème périphérique, et manque d'iode. Lequel des énoncés suivants décrivent le plus probable de diagnostic et de thyroïd-stimulating hormone plasmatique de ce patient (TSH)?",
+      "images": [],
+      "image": "",
+      "options": [
+        ". Hyperthyroïdie primaire, TSH élevée",
+        ". Hyperthyroïdie primaire, TSH normale",
+        ". Hyperthyroïdie primaire, TSH basse",
+        ". L'hypothyroïdie primaire, TSH élevée",
+        ". L'hypothyroïdie primaire, TSH basse"
+      ],
+      "correctIndex": 3
+    },
+    {
+      "id": 15,
+      "question": "L'hyperthyroïdie:",
+      "images": [],
+      "image": "",
+      "options": [
+        ". Provoque une diminution du métabolisme basal",
+        ". Est caractérisée par un taux sanguin élevé de TSH",
+        ". Provoque une diminution de la production de chaleur",
+        ". Est observée chez le sujet atteint de la maladie de Basedow",
+        ". N'a pas de conséquence majeure sur le métabolisme"
+      ],
+      "correctIndex": 3
+    },
+    {
+      "id": 16,
+      "question": "L'hypothyroïdie:",
+      "images": [],
+      "image": "",
+      "options": [
+        ". Normalise le bilan azoté",
+        ". Augmente la fréquence cardiaque",
+        ". Augmente le débit cardiaque",
+        ". Est caractérisée par le myxœdème et le goitre",
+        ". N'a pas de conséquence majeure sur le métabolisme"
+      ],
+      "correctIndex": 3
+    },
+    {
+      "id": 17,
+      "question": "La PTH (hormone parathyroïdienne)",
+      "images": [],
+      "image": "",
+      "options": [
+        ". Régule le taux de calcium sérique",
+        ". Est synthétisée et sécrétée par les cellules folliculaires thyroïdiennes",
+        ". Est synthétisée par les cellules folliculaires thyroïdiennes, stockée et libérée par les parathyroïdes",
+        ". Provoque une diminution du calcium sérique",
+        ". Provoque une augmentation du phosphate sérique"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 18,
+      "question": "En cas d'hypoparathyroïdie, il y a:",
+      "images": [],
+      "image": "",
+      "options": [
+        ". Augmentation des taux sériques de calcium et de phosphates",
+        ". Diminution du taux sérique de calcium et tétanie",
+        ". Diminution du taux sérique de phosphates",
+        ". Augmentation de la phosphaturie"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 19,
+      "question": "Quelle est la proposition qui provoque une augmentation de l'absorption intestinale du calcium:",
+      "images": [],
+      "image": "",
+      "options": [
+        ". La PTH et l'ACTH",
+        ". L'ACTH et la vitamineD",
+        ". La vitamineD et la PTH",
+        ". La calcitonine, la vitamineD et la PTH",
+        ". La calcitonine et la vitamineD"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 20,
+      "question": "La calcitonine:",
+      "images": [],
+      "image": "",
+      "options": [
+        ". Est sécrétée sous l'effet d'une augmentation du taux de calcium sérique",
+        ". Augmentation la résorption osseuse",
+        ". A pour action majeure une augmentation de la réabsorption rénale du phosphate",
+        ". A pour action majeure une augmentation de la réabsorption rénale du calcium via la vitamineD",
+        ". A pour action majeure une augmentation de l'absorption intestinale du calcium via la vitamineD"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

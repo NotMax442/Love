@@ -1,0 +1,134 @@
+{
+  "questions": [
+    {
+      "id": 1,
+      "question": "Parmi les propositions suivantes, lequel concerne l'aldostérone?",
+      "images": [],
+      "image": "",
+      "options": [
+        "Est un glucocorticoïde",
+        "Est le minéralocorticoïde le plus abondant",
+        "Est les catécholamines",
+        "Est l'androgène"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 2,
+      "question": "Parmi les propositions suivantes, lequel concerne le cortisol ?",
+      "images": [],
+      "image": "",
+      "options": [
+        "Est hyperglycémiant",
+        "Est immunostimulant",
+        "Est hypoglycémiant",
+        "Est somatostatine"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 3,
+      "question": "Parmi les propositions suivantes, lequel concerne la glande médullosurrénale ?",
+      "images": [],
+      "image": "",
+      "options": [
+        "Les cellules stockent 10% d'adrénaline et 90% de noradrenaline",
+        "Les catécholamines sont libérées dans le milieu sanguin par les terminaisons neuronales.",
+        "Des terminaisons nerveuses sympathiques sont nombreuses autour des cellules sécrétrices.",
+        "Les cellules chromaffines stockent de petites quantités de catécholamines"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 4,
+      "question": "Parmi les examens suivants, il faut demander, pour porter le diagnostic d'insuffisance surrénale lente:",
+      "images": [],
+      "image": "",
+      "options": [
+        "Dosage de cortisol plasmatique à 8 heures du matin",
+        "Dosage de cortisol plasmatique à 8 heures du matin et à 16 heures",
+        "Dosage de la cortisolurie des 24 heures",
+        "Dosage de cortisol plasmatique à 8 heures et 60 minutes après Synacthène immédiat"
+      ],
+      "correctIndex": 3
+    },
+    {
+      "id": 5,
+      "question": "Parmi les signes suivants, lequel s'observe dans l'insuffisance surrénale aiguë ?",
+      "images": [],
+      "image": "",
+      "options": [
+        "Hypoglycémie",
+        "Hypokaliémie",
+        "Hypertension",
+        "Constipation"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 6,
+      "question": "Parmi les propositions suivantes, lequel concerne le système nerveux orthosympathique ?",
+      "images": [],
+      "image": "",
+      "options": [
+        "Innerve la glande médullo-surrénale",
+        "Diminue la contraction myocardique",
+        "Diminue la fréquence cardiaque",
+        "Les neurones sont issus du tronc cérébral et de la région médullaire sacrée"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 7,
+      "question": "Parmi les propositions suivantes, lequel concerne le système nerveux parasympathique ?",
+      "images": [],
+      "image": "",
+      "options": [
+        "Innerve la glande corticosurrénale",
+        "A pour neurotransmetteur la noradrénaline",
+        "Stimule la sécrétion d'insuline",
+        "Stimule la sécrétion de glucagon"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 8,
+      "question": "Parmi les propositions suivantes, lequel ne concerne pas le système nerveux entérique ?",
+      "images": [],
+      "image": "",
+      "options": [
+        "Contrôle la vascularisation du système digestif",
+        "Gère la thermorégulation",
+        "Est autonome",
+        "Est connecté au système nerveux central par le nerf vague"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 9,
+      "question": "Parmi les propositions suivantes, lequel concerne les nerfs vagues ?",
+      "images": [],
+      "image": "",
+      "options": [
+        "Contiennent 10% de neurofibres pré-ganglionnaires",
+        "Innervent tous les organes des cavités thoracique et abdominale",
+        "Contrôlent le gros intestin, la vessie, les uretères et les organes génitaux.",
+        "Sont issus du tronc cérébral"
+      ],
+      "correctIndex": 3
+    },
+    {
+      "id": 10,
+      "question": "Parmi les propositions suivantes, lequel ne s'observe pas dans le système nerveux autonome?",
+      "images": [],
+      "image": "",
+      "options": [
+        "Système somatique",
+        "Système sympathique",
+        "Système parasympathique",
+        "Système entérique"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}
