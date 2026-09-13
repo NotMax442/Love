@@ -1,0 +1,2359 @@
+{
+  "questions": [
+    {
+      "id": 1,
+      "question": "Quels sont les composants d' un virus?",
+      "images": [],
+      "image": "",
+      "options": [
+        "- La capside et le génome",
+        "- Le génome",
+        "- L' enveloppe",
+        "- La capside et le génome, parfois d' une enveloppe"
+      ],
+      "correctIndex": 3
+    },
+    {
+      "id": 2,
+      "question": "Par quel méthode la molécule ADN fait la duplication?",
+      "images": [],
+      "image": "",
+      "options": [
+        "- La mode semi-conservative",
+        "- Par l' enzyme transcriptase inverse",
+        "- Par le réplicase",
+        "- Par ARN polymérase ARN-dépendante"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 3,
+      "question": "Quel groupe de virus vous dites les virus résistants?",
+      "images": [],
+      "image": "",
+      "options": [
+        "- Ce sont les virus nus",
+        "- Ce sont les virus enveloppés",
+        "- Ce sont les virus ARN",
+        "- Ce sont les virus ADN"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 4,
+      "question": "Donner les différentes modes épidémiologiques pour les infections virales?",
+      "images": [],
+      "image": "",
+      "options": [
+        "- La mode épidémique",
+        "- La mode endémique, la mode pandémique",
+        "- La mode endémique, sporadique, épidémique, pandémique",
+        "- La mode sporadique"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 5,
+      "question": "Combien de méthodes vous utilisez pour le diagnostic virologiques? Donner les deux noms.",
+      "images": [],
+      "image": "",
+      "options": [
+        "- La méthode Elisa",
+        "- La méthode Immunofluorescente",
+        "- Le diagnostic direct et le diagnostic indirect",
+        "- Le diagnostic direct et la méthode Elisa"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 6,
+      "question": "Quelles sont les préventions spécifiques pour éviter les infections nosocomiales virales?",
+      "images": [],
+      "image": "",
+      "options": [
+        "- Le lavage des mains",
+        "- Le lavage des mains et les mesures d' isolement",
+        "- les mesures d' isolement et les vaccinations",
+        "- Le lavage des mains et les vaccinations"
+      ],
+      "correctIndex": 3
+    },
+    {
+      "id": 7,
+      "question": "Dans quel l' année le mot \" virus \" a remplacé le mot \"agent ultrafiltrable\"?",
+      "images": [],
+      "image": "",
+      "options": [
+        "- Dans l' année 1915",
+        "- Dans l' année 1892",
+        "- Dans les années 50",
+        "- Après la découverte du microscope électronique"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 8,
+      "question": "Est-ce-que la peau non altérée peut laisser pénétrer le virus?",
+      "images": [],
+      "image": "",
+      "options": [
+        "- Non, c' est une barrière infranchissable",
+        "- Non, le virus ne peut pas traverser la peau",
+        "- Oui, c'est une brèche minime",
+        "- Oui, le virus est petit"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 9,
+      "question": "Combien d' étapes y-a-t-il pour la multiplication virale?",
+      "images": [],
+      "image": "",
+      "options": [
+        "- 2 étapes, attachement et pénétration",
+        "- 3 étapes, attachement, pénétration et décapsidation",
+        "- 4 étapes, attachement, pénétration, décapsidation et réplication",
+        "- 5 étapes, attachement, pénétration, décapsidation, réplication et assemblage"
+      ],
+      "correctIndex": 3
+    },
+    {
+      "id": 10,
+      "question": "Où se réplique le virus ADN?",
+      "images": [],
+      "image": "",
+      "options": [
+        "- Dans le cytoplasme",
+        "- Dans la cellule vivante",
+        "- Dans le noyau de la cellule vivante",
+        "- Dans les lymphocytes"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 11,
+      "question": "Le botaniste russe, Ivanowski, a trouvé une substance dans la mosaïque du tabac, quel est le nom?",
+      "images": [],
+      "image": "",
+      "options": [
+        "- La substance active",
+        "- La substance principale",
+        "- La toxine",
+        "- Une propre substance"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 12,
+      "question": "Comment le virus enveloppé pénètre dans la cellule vivante pour faire la multiplication virale?",
+      "images": [],
+      "image": "",
+      "options": [
+        "- Par la fusion",
+        "- Par la fusion de l' enveloppe virale et la membrane cellulaire",
+        "- Par le phénomène endocytose",
+        "- Par le macrophage"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 13,
+      "question": "Comment le nouveau virus nu libère de la cellule hôte?",
+      "images": [],
+      "image": "",
+      "options": [
+        "- Par la libération",
+        "- Par l' effet de l' infection",
+        "- La libération est indépendante",
+        "- Par eux-même"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 14,
+      "question": "Quand on fait la culture cellulaire, il y a combien d' éventualités?",
+      "images": [],
+      "image": "",
+      "options": [
+        "- 1, réplication cytolytique",
+        "- 2, anomalie cellulaire et ECP",
+        "- 3, pas réplication, réplication peu cytolytique et cytolytique",
+        "- 1, la réplication cellulaire"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 15,
+      "question": "Pour savoir le diagnostic d' une infection virale, on utilise le diagnostic indirect pour chercher quoi?",
+      "images": [],
+      "image": "",
+      "options": [
+        "- Chercher les virus",
+        "- Chercher la cause de la maladie",
+        "- Caractériser les anticorps viraux dans le sérum",
+        "- Caractériser l' étiologie virale"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 16,
+      "question": "Combien de façons y-a-t-il pour évaluer la résistance antivirale?",
+      "images": [],
+      "image": "",
+      "options": [
+        "- 1, mesurer la charge virale",
+        "- 1, rechercher la cause de résistance",
+        "- 2, tests phénotypique et tests génotypique",
+        "- 2, étudier la cause et la réplication"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 17,
+      "question": "Dans quelle partie du génome viral se trouvent les gènes essentiels à la réplication du poxvirus?",
+      "images": [],
+      "image": "",
+      "options": [
+        "- Aux extrémités",
+        "- Dans la partie centrale du génome viral",
+        "- La moitié du génome",
+        "- Dans chaque côté du génome"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 18,
+      "question": "Pourquoi on appelle le \" poxvirus\" pour désigner le virus de la variole?",
+      "images": [],
+      "image": "",
+      "options": [
+        "- Il provoque l' infection",
+        "- Il provoque ECP",
+        "- Il provoque l' apparition des vésicules (ou \" pox\")",
+        "- Il se réplique dans la cellule vivante"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 19,
+      "question": "Le poxvirus est un virus ADN, pourquoi la réplication virale se fait dans le cytoplasme, expliquer.",
+      "images": [],
+      "image": "",
+      "options": [
+        "- Il possède beaucoup d' enzymes pour faire la réplication virale",
+        "- Il y a un génome",
+        "- Il y a des petites vésicules",
+        "- Il y a même structure antigénique que les autres virus"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 20,
+      "question": "Comment évoluent les lésions provoquées par la variole?",
+      "images": [],
+      "image": "",
+      "options": [
+        "- indélébiles",
+        "- Il y a macules, pustules",
+        "- Il y a macules, pustules, vésicules",
+        "- Il y a macules, papules, vésicules, pustules et des croûtes et il laisse des cicatrices",
+        "- Il y a pustules et les croûtes"
+      ],
+      "correctIndex": 3
+    },
+    {
+      "id": 21,
+      "question": "Sur le malade, où se trouvent les lésions provoquées par la variole?",
+      "images": [],
+      "image": "",
+      "options": [
+        "- Sur la face, la paume des mains, la plante des pieds puis tout le corps humain",
+        "- Tout le corps humain",
+        "- Sur la face",
+        "- Sur la face et la plante des pieds"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 22,
+      "question": "En microscopie électronique, comment se ressemble le virus de la rage?",
+      "images": [],
+      "image": "",
+      "options": [
+        "- Un obus ou une balle de revolver",
+        "- Une forme allongée",
+        "- Une forme allongée avec une extrémité plate",
+        "- Une forme allongée avec une extrémité arrondie"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 23,
+      "question": "Quel type d' animal ou le malade, le virus de la rage peut infecter?",
+      "images": [],
+      "image": "",
+      "options": [
+        "- Les animaux domestiques",
+        "- Les animaux sauvages",
+        "- Tous les mammifères",
+        "- Les animaux à sang chaud, les mammifères terrestres ou volants"
+      ],
+      "correctIndex": 3
+    },
+    {
+      "id": 24,
+      "question": "Combien de méthodes le virus de la rage pénètre dans la cellule pour faire la réplication virale?",
+      "images": [],
+      "image": "",
+      "options": [
+        "- 2 méthodes, endocytose",
+        "- 2 méthodes, par fusion avec la membrane plasmique et par endocytose",
+        "- 1 méthode, par fusion de l'enveloppe",
+        "- 1 méthode, par endocytose"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 25,
+      "question": "Quel type d' inclusion contenant dans la cellule infectée pour dire qu' il y a une infection rabique?",
+      "images": [],
+      "image": "",
+      "options": [
+        "- Il y a les corps de Negri",
+        "- Il y a des inclusions arrondies",
+        "- Il y a des particules virales",
+        "- Il y a ECP"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 26,
+      "question": "Quelles sont les cellules cibles du virus de la rage?",
+      "images": [],
+      "image": "",
+      "options": [
+        "- Le système nerveux central",
+        "- L' hippocampe et le lobe temporal",
+        "- Les neurones infectés",
+        "- Les neurones périphériques"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 27,
+      "question": "Quel est le delai moyen de la période d' incubation du virus de la rage?",
+      "images": [],
+      "image": "",
+      "options": [
+        "- 1-2 mois",
+        "- Une semaine",
+        "- Plusieurs années",
+        "- Après 27 mois d' incubation"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 28,
+      "question": "Quelle zone de la morsure par l' animal, la période d' incubation du virus rabique est courte?",
+      "images": [],
+      "image": "",
+      "options": [
+        "- Les organes génitaux",
+        "- La face",
+        "- La face, les mains, les organes génitaux",
+        "- Les mains"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 29,
+      "question": "Quel est le but du traitement non spécifique de la rage?",
+      "images": [],
+      "image": "",
+      "options": [
+        "- Réduire l' inoculum",
+        "- Tuer les virus rabiques",
+        "- Faire la prophylaxie de l' infection rabique",
+        "- Eviter la contamination de l' infection rabique"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 30,
+      "question": "Quelle est la maladie provoquées par le poliovirus?",
+      "images": [],
+      "image": "",
+      "options": [
+        "- La poliomyélite",
+        "- Une maladie infectieuse",
+        "- La paralysie des membres",
+        "- L' amyotrophie d' un membre"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 31,
+      "question": "Quelle sont les maladies provoquées par le genre rhinovirus?",
+      "images": [],
+      "image": "",
+      "options": [
+        "- La fièvre",
+        "- La diarrhée",
+        "- Les otitis moyennes",
+        "- Les rhumes, les sinusites, les otites, les bronchites,"
+      ],
+      "correctIndex": 3
+    },
+    {
+      "id": 32,
+      "question": "Où se multiplie le virus du genre enterovirus?",
+      "images": [],
+      "image": "",
+      "options": [
+        "- Dans le tube digestif",
+        "- Dans le corps humain",
+        "- Dans les cellules vivantes",
+        "- Dans les cellules infectées"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 33,
+      "question": "Quelle est la principale mode de transmission du poliovirus?",
+      "images": [],
+      "image": "",
+      "options": [
+        "- La transmission fécale-orale",
+        "- Par contact étroit avec le virus",
+        "- Par contact avec le malade",
+        "- Par les coquillages"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 34,
+      "question": "Pourquoi il y a des syndromes post-poliomyélitiques après des décennies plus tard, expliquer.",
+      "images": [],
+      "image": "",
+      "options": [
+        "- Il y a la persistence virale et le dysfonctionnement immunitaire",
+        "- Il y a la mauvaise pathogénie",
+        "- Il y a le mal fonctionnement de l' organisme",
+        "- Il y a la contamination"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 35,
+      "question": "Qu' est ce qu' on fait pour la prévention non spécifique contre le poliovirus?",
+      "images": [],
+      "image": "",
+      "options": [
+        "- Eviter le contact avec le poliovirus",
+        "- Tuer le poliovirus",
+        "- Respect les règles d' hygiene universelle",
+        "- Faire la vaccination contre le poliovirus"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 36,
+      "question": "Quel est le médicament utilisé pour empêcher la décapsidation du poliovirus?",
+      "images": [],
+      "image": "",
+      "options": [
+        "- Le pléconaril",
+        "- Lamivudine",
+        "- Inhibiteur de la protéase",
+        "- Un médicament antiviral"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 37,
+      "question": "Où se fait la multiplication virale?",
+      "images": [],
+      "image": "",
+      "options": [
+        "- Dans les lymphocytes",
+        "- Dans les cellules infectées",
+        "- Dans la cellule vivante",
+        "- Dans le cytoplasme"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 38,
+      "question": "Quelle est la structure génomique des virus VIH?",
+      "images": [],
+      "image": "",
+      "options": [
+        "- Le génome et les molécules ARN",
+        "- 2 molécules ARN identiques, 3 protéines et des enzymes virales",
+        "- Les protéines et des enzymes virales",
+        "- La transcriptase inverse et protéase"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 39,
+      "question": "In vitro, quelle est la cellule cible des virus VIH?",
+      "images": [],
+      "image": "",
+      "options": [
+        "- Les lymphocytes CD4",
+        "- Les monocytes",
+        "- Les lymphocytes CD8",
+        "- Les hématies"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 40,
+      "question": "Au cours de la primo-infection par le virus VIH, les virus circulant sont génétiquement homogènes, oui ou non?",
+      "images": [],
+      "image": "",
+      "options": [
+        "- Oui",
+        "- Non",
+        "- Non, il y a la variabilité",
+        "- Oui, elles sont cytopathogènes"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 41,
+      "question": "Quelle est la cause de la variabilité des VIH?",
+      "images": [],
+      "image": "",
+      "options": [
+        "- Des erreurs de copie par la TI lors de la réplication du virus",
+        "- Il y a évolution au niveau des tissus",
+        "- Il y a évolution au niveau des cellules",
+        "- Il y a la variabilité cellulaire"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 42,
+      "question": "Quel est le nombre produit par les virus VIH en l' absence de traitement?",
+      "images": [],
+      "image": "",
+      "options": [
+        "- Environ 10-100 milliards de nouveaux virus par jour, avec une demi-vie plasmatique d' environ 6 heures",
+        "- Environ 5-10 milliards par jour",
+        "- Environ 10-20 milliards par jour",
+        "- Environ 10-50 milliards par jour"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 43,
+      "question": "Quelle est l' origine des virus VIH?",
+      "images": [],
+      "image": "",
+      "options": [
+        "- Il vient du virus SIV, simian immunodeficiency virus",
+        "- Il vient du virus R5",
+        "- Il vient du virus X4",
+        "- Il vient de la cellule infectée"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 44,
+      "question": "Est-ce-que les virus VIH à tropisme macrophagique sont des virus très cytopathogènes?",
+      "images": [],
+      "image": "",
+      "options": [
+        "- Oui, ils produisent de syncytium",
+        "- Oui, ce sont des virus X4",
+        "- Non, ils ne sont pas des virus très cytopathogènes",
+        "- Non, ils utilisent le corécepteur CCR5"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 45,
+      "question": "Est-ce-que les virus VIH à tropisme lymphocytaire sont des virus très cytopathogènes?",
+      "images": [],
+      "image": "",
+      "options": [
+        "- Oui, ce sont des virus très cytopathogènes",
+        "- Oui, ce sont des virus R5",
+        "- Non, ils utilisent le corécepteur CCR5",
+        "- Non, ils ne produisent pas de syncytium"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 46,
+      "question": "Est-ce-que les souches virales VIH peuvent changer d' un type à l' autre, par example de virus R5 à virus X4?",
+      "images": [],
+      "image": "",
+      "options": [
+        "- Oui, ils peuvent changer d' un type à l' autre",
+        "- Oui, ils peuvent changer de virus R5 à virus X4",
+        "- Non, ils ne peuvent pas changer d' un type à l' autre, de virus R5 à virus X4",
+        "- Non, ils sont le même type"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 47,
+      "question": "Quels sont les facteurs provoquant des progresseurs rapides pour la maladie à VIH? Dire ces deux facteurs.",
+      "images": [],
+      "image": "",
+      "options": [
+        "- Ce sont des facteurs viraux et de l' hôte",
+        "- Ce sont des facteurs génétiques et des virus",
+        "- Ce sont des facteurs génétiques et immunologiques de l' hôte",
+        "- Ce sont des facteurs viraux"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 48,
+      "question": "Les facteurs de l' hôte provoquent des progresseurs rapides pour la maladie à VIH, dire ces deux facteurs.",
+      "images": [],
+      "image": "",
+      "options": [
+        "- Ce sont des facteurs viraux et de l' hôte",
+        "- Ce sont des facteurs génétiques et des virus",
+        "- Ce sont des facteurs génétiques et immunologiques de l' hôte",
+        "- Ce sont des facteurs viraux"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 49,
+      "question": "Quel est le pourcentage de la transmission sexuelle provoqué par le virus VIH?",
+      "images": [],
+      "image": "",
+      "options": [
+        "- 70%",
+        "- 80%",
+        "- 90%",
+        "- 60%"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 50,
+      "question": "Il faut éviter la maladie pour lutter contre la pandémie d' HIV, quelle est cette maladie?",
+      "images": [],
+      "image": "",
+      "options": [
+        "- La maladie infectieuse",
+        "- La maladie bactérienne",
+        "- La maladie sexuelle transmissible",
+        "- La maladie virale"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 51,
+      "question": "Quels sont les facteurs maternels provoquant la transmission du VIH de la mère à l' enfant?",
+      "images": [],
+      "image": "",
+      "options": [
+        "- Un stade Sida et une charge virale élevée",
+        "- Une charge virale élevée et un taux lymphocytes CD4 bas",
+        "- Un stade Sida, un taux lymphocytes CD4 bas et une charge virale élevée",
+        "- Un stade Sida"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 52,
+      "question": "Dans la période périnatale, on veut le taux de transmission par VIH de la mère à l' enfant un nombre de 0.8%, comment vous faites pour avoir ce nombre?",
+      "images": [],
+      "image": "",
+      "options": [
+        "- Réduction de la charge virale maternelle",
+        "- Prophylaxie par le traitement du nouveau-né",
+        "- Césarienne programmée et traitement préventif par AZT",
+        "- Faire l' allaitement artificiel"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 53,
+      "question": "Quel est la durée moyenne après le contage pour trouver les anticorps VIH?",
+      "images": [],
+      "image": "",
+      "options": [
+        "- 10 jours",
+        "- 22 jours",
+        "- 4 semaines",
+        "- 6 semaines"
+      ],
+      "correctIndex": 3
+    },
+    {
+      "id": 54,
+      "question": "En cas d' accident d' exposition à HIV, on utilise un test pour trouver les anticorps anti-HIV, quel est le test?",
+      "images": [],
+      "image": "",
+      "options": [
+        "- Test Elisa",
+        "- Test rapide, agglutination ou adsorption",
+        "- Faire une coloration",
+        "- Faire le diagnostic indirect"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 55,
+      "question": "Combien de semaines après le contage, on peut trouver les anticorps anti-HIV et on peut dire une infection par HIV?",
+      "images": [],
+      "image": "",
+      "options": [
+        "- 4-6 semaines",
+        "- 8 semaines",
+        "- 10 semaines",
+        "- 12 semaines"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 56,
+      "question": "Le malade possède une infection par HIV d' après le test Elisa, quel est le test de confirmation on doit utiliser?",
+      "images": [],
+      "image": "",
+      "options": [
+        "- Contrôler le résultat sur un 2eme prélèvement",
+        "- Faire le 2eme test",
+        "- Faire Western blot ou immunoblot",
+        "- Chercher le virus"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 57,
+      "question": "Quel est le nombre des lymphocytes CD4 produit chaque jour?",
+      "images": [],
+      "image": "",
+      "options": [
+        "- Environ 5 milliards",
+        "- Environ 10 milliards",
+        "- Environ 15 milliards",
+        "- Environ 20 milliards"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 58,
+      "question": "Quel est le nombre des lymphocytes CD4 pour éviter la survenue d' infections opportunistes?",
+      "images": [],
+      "image": "",
+      "options": [
+        "- Au-dessus de 500 par mm3",
+        "- Au-dessus de 400 par mm3",
+        "- Au-dessus de 300 par mm3",
+        "- Au-dessus de 200 par mm3"
+      ],
+      "correctIndex": 3
+    },
+    {
+      "id": 59,
+      "question": "On utilise des associations de molécules antirétrovirales pour éviter les phénomènes de résistance virale par HIV, quel est le nom de cette association?",
+      "images": [],
+      "image": "",
+      "options": [
+        "- La chimiothérapie antirétrovirale",
+        "- Le traitement antiretrovirale",
+        "- Trithérapie ou HAART",
+        "- Association des antirétroviraux"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 60,
+      "question": "Dire la forme de l' ADN du virus de l' hépatite B avant la multiplication virale.",
+      "images": [],
+      "image": "",
+      "options": [
+        "- ADN partiellement bicaténaire",
+        "- ADN bicaténaire surenroulée",
+        "- cccDNA",
+        "- ADN bicaténaire"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 61,
+      "question": "Il y a combien de type de particules virales dans le sérum du malade infecté par le virus de l' hépatite B?",
+      "images": [],
+      "image": "",
+      "options": [
+        "- 2, billes et bâtonnets",
+        "- 1, particules de Dane",
+        "- 1, particules sphériques",
+        "- 2, particules de Dane et enveloppes vides (billes et bâtonnets)"
+      ],
+      "correctIndex": 3
+    },
+    {
+      "id": 62,
+      "question": "Le virus de l' hépatite B possède combien de gènes, donner les noms?",
+      "images": [],
+      "image": "",
+      "options": [
+        "- 4, gènes S, C,P etX",
+        "- 4, gènes S, C,E etX",
+        "- 2, gènes S,C",
+        "- 2, gènesP etX"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 63,
+      "question": "Pouvez-vous faire la culture du virus de l' hépatite B?",
+      "images": [],
+      "image": "",
+      "options": [
+        "- Non, pas de système cellulaire",
+        "- Non, on utilise le singe",
+        "- Oui, on utilise le chimpanzée",
+        "- Oui, la culture donne de bon rendement"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 64,
+      "question": "Quelle est la voie de transmission par le virus de l' hépatite B?",
+      "images": [],
+      "image": "",
+      "options": [
+        "- Transmission sexuelle, sang, mère-enfant",
+        "- Transmission vertical, horizontale",
+        "- Transmission sexuelle, sang",
+        "- Transmission sang, mère-enfant"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 65,
+      "question": "Quand le taux de transmission par le virus de l' hépatite B de la mère à l' enfant est élevé?",
+      "images": [],
+      "image": "",
+      "options": [
+        "- Le taux est 90-100%",
+        "- Le taux est 80%",
+        "- Ag HBe positive ou ADN de l' HBV positive",
+        "- Ag HBs positive"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 66,
+      "question": "Quel est le facteur déterminant la gravité de l' infection par le virus de l' hépatite B?",
+      "images": [],
+      "image": "",
+      "options": [
+        "- Le nombre élevé du virus",
+        "- Ag HBs positive",
+        "- Les défenses immunitaires",
+        "- Ag HBe positive"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 67,
+      "question": "Quelle est la durée moyenne de la période d' incubation du virus de l' hépatite B?",
+      "images": [],
+      "image": "",
+      "options": [
+        "- En moyenne 12 semaines",
+        "- En moyenne 10 semaines",
+        "- En moyenne 8 semaines",
+        "- En moyenne 6 semaines"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 68,
+      "question": "Quand on peut dire une hépatite B est une hépatite chronique?",
+      "images": [],
+      "image": "",
+      "options": [
+        "- Ag HBs positive au-delà de 6 mois",
+        "- Ag HBs positive au-delà de 4 mois",
+        "- Ag HBs positive au-delà de 2 mois",
+        "- Il y a des virus"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 69,
+      "question": "Si on trouve Ag HBs dans le sérum du malade, quelle est l' explication?",
+      "images": [],
+      "image": "",
+      "options": [
+        "- Hépatite aiguë par HBV",
+        "- Il y a infection",
+        "- Il y a contamination",
+        "- La réplication virale"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 70,
+      "question": "Si on trouve Ag HBe dans le sérum du malade, quelle est l' explication?",
+      "images": [],
+      "image": "",
+      "options": [
+        "- Il y a infection",
+        "- Il y a contamination",
+        "- La réplication virale",
+        "- Hépatite aiguë par HBV"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 71,
+      "question": "Si on trouve anticorps anti- HBs dans le sérum du malade, quelle est l' explication?",
+      "images": [],
+      "image": "",
+      "options": [
+        "- Une immunization vaccinale ou une guérisson",
+        "- Une infection antérieure",
+        "- La réplication virale",
+        "- Hépatite aiguë par HBV"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 72,
+      "question": "Si on trouve anticorps anti-HBc dans le sérum du malade, quelle est l' explication?",
+      "images": [],
+      "image": "",
+      "options": [
+        "- Une immunization vaccinale ou une guérisson",
+        "- Une infection antérieure",
+        "- La réplication virale",
+        "- Hépatite aiguë par HBV"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 73,
+      "question": "Si on trouve l'anticorps anti- HBe dans le sérum du malade, quelle est l'explication?",
+      "images": [],
+      "image": "",
+      "options": [
+        "- Il y a une infection",
+        "- C'est une contamination",
+        "- C' est une faible replication virale",
+        "- Il y a la présence du virus"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 74,
+      "question": "Que signifie la\" séroconversion e\" ou \" lere séroconversion\"?",
+      "images": [],
+      "image": "",
+      "options": [
+        "- Une hépatite chronique.B avec AgHBe négatif",
+        "- C' est l' hépatite chronique.B",
+        "- C'est une infection",
+        "- AgHBs négatif pour le malade hépatite chronique.B"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 75,
+      "question": "Que signifie la\" séroconversion s\" ou \" 2eme séroconversion\"?",
+      "images": [],
+      "image": "",
+      "options": [
+        "- AgHBe négatif pour le malade hépatite chronique.B de AgHBs",
+        "- C'est l' hépatite chronique.B",
+        "- C'est une infection",
+        "- Une hépatite chronique. B avec AgHBs négatif"
+      ],
+      "correctIndex": 3
+    },
+    {
+      "id": 76,
+      "question": "Combien d'années l'infection devient l'hépatocarcinome par le virus de l'hépatite B?",
+      "images": [],
+      "image": "",
+      "options": [
+        "- 1 an après l' infection initiale",
+        "- 2 années après l' infection initiale",
+        "- 3 années après l' infection initiale",
+        "- Plusieurs décennies après l' infection initiale"
+      ],
+      "correctIndex": 3
+    },
+    {
+      "id": 77,
+      "question": "Pour protèger le nouveau-né de mère portant l' Ag HBs positive, qu' est ce qu' on administer au nouveau-né à la maternité?",
+      "images": [],
+      "image": "",
+      "options": [
+        "- Faire la vaccination",
+        "- Faire la sérovaccination par immunoglobuline spécifique anti-HBs",
+        "- Contrôle l' immunité",
+        "- Contrôle le virus"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 78,
+      "question": "Quels sont les médicaments utilisés pour les hépatites B?",
+      "images": [],
+      "image": "",
+      "options": [
+        "- Interféron alpha",
+        "- Vidarabine",
+        "- Interféron alpha, Vidarabine, Lamivudine et adéfovir",
+        "- Interféron alpha et les inhibiteurs cléosidique de la RT"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 79,
+      "question": "La distribution du virus de l' hépatite C ne circule pas sous la forme homogène de virions identiques, dire ces facteurs.",
+      "images": [],
+      "image": "",
+      "options": [
+        "- virus",
+        "- Il y a plusieurs génotypes",
+        "- Mutation au cours de la réplication, les réponses immunitaires de l' hôte et les structures du",
+        "- A cause de la protéine de capside",
+        "- A cause de la réplication"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 80,
+      "question": "La distribution du virus de l' hépatite C joue un rôle important dans.",
+      "images": [],
+      "image": "",
+      "options": [
+        "- C' est une infection chronique",
+        "- C' est une replication virale",
+        "- C'est une mutation",
+        "- La persistence de l' infection, le tropisme cellulaire et la résistance aux médicaments anti-viraux"
+      ],
+      "correctIndex": 3
+    },
+    {
+      "id": 81,
+      "question": "Quelles sont les deux principales voies de transmission du virus de l'hépatite C?",
+      "images": [],
+      "image": "",
+      "options": [
+        "- La transfusion du sang et la voie veineuse",
+        "- La transfusion du sang et la voie fécale orale 1",
+        "- La transfusion du sang et la voie fécale-orale",
+        "- La voie fécale-orale et la voie sexuelle"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 82,
+      "question": "Quelle est la durée moyenne de la période d' incubation du virus de l' hépatite C?",
+      "images": [],
+      "image": "",
+      "options": [
+        "- 1-4 semaines",
+        "- 4-8 semaines",
+        "- 8-12 semaines",
+        "- 4-12 semaines"
+      ],
+      "correctIndex": 3
+    },
+    {
+      "id": 83,
+      "question": "Quel est le grand complication provoqué par la cirrhose virale C?",
+      "images": [],
+      "image": "",
+      "options": [
+        "- Une fibrose hépatique",
+        "- Une hypertension portale",
+        "- Une insuffisance hépato-cellulaire",
+        "- Un carcinome hépato-cellulaire (cancer primitif du foie)"
+      ],
+      "correctIndex": 3
+    },
+    {
+      "id": 84,
+      "question": "Pour faire le diagnostic de l'hépatite aiguë C, on doit rechercher les anticorps anti-HCV ou rechercher l' ARN de l'HCV?",
+      "images": [],
+      "image": "",
+      "options": [
+        "- Rechercher l' ARN de l'HCV car les anticorps sont absents",
+        "- Rechercher les anticorps anti-HCV car ils sont plus sensibles",
+        "- On fait le diagnostic au début des symptômes",
+        "- On fait la sérologie virale"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 85,
+      "question": "Pour déterminer la durée du traitement de l' hépatite chronique C, on pense à quel facteur?",
+      "images": [],
+      "image": "",
+      "options": [
+        "- La mutation du virus",
+        "- La réplication virale",
+        "- Déterminer le génotype du virus",
+        "- La monothérapie"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 86,
+      "question": "Si le génotype du virus de l' hépatite C est 2 ou 3, quelle est la durée du traitement de l' infection pour l' hépatite chronique C?",
+      "images": [],
+      "image": "",
+      "options": [
+        "- 12 semaines",
+        "- 24 semaines",
+        "- 36 semaines",
+        "- 48 semaines"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 87,
+      "question": "Si le génotype du virus de l' hépatite C est 1, 4 ou 5, quelle est la durée du traitement de l' infection pour l' hépatite chronique C?",
+      "images": [],
+      "image": "",
+      "options": [
+        "- 12 semaines",
+        "- 24 semaines",
+        "- 36 semaines",
+        "- 48 semaines"
+      ],
+      "correctIndex": 3
+    },
+    {
+      "id": 88,
+      "question": "Pour le traitement de l' hépatite chronique C, quels sont les médicaments utilisés?",
+      "images": [],
+      "image": "",
+      "options": [
+        "- Lamivudine",
+        "- Ténofovir",
+        "- L' interféron alpha pégylé et la ribavirine",
+        "- Adéfovir"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 89,
+      "question": "Pour réduire le risque d' évolution de l' hépatite aiguë C vers l' hépatite chronique C, comment vous faites?",
+      "images": [],
+      "image": "",
+      "options": [
+        "- Interféron pégylé ou avec la ribavirine",
+        "- La ribavirine",
+        "- Lamivudine",
+        "- Ténofovir"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 90,
+      "question": "Au début de l' ère pastorienne, que signifie le mot virus?",
+      "images": [],
+      "image": "",
+      "options": [
+        "- Une particule visible au microscope électronique",
+        "- Une particule visible au microscope optique",
+        "- Un agent infectieux",
+        "- Une particule complex"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 91,
+      "question": "Au début de l' ère pastorienne, est-ce-que les agents infectieux peuvent traverser les filtres de porcelain?",
+      "images": [],
+      "image": "",
+      "options": [
+        "- Oui, ils traversent les filtres de porcelaine",
+        "- Non, ils ne traversent pas les filtres de porcelaine",
+        "- Ils sont trop petits",
+        "- Ils sont homogènes"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 92,
+      "question": "Combien de types d' acide nucléiques contenant dans le génome d' un virus?",
+      "images": [],
+      "image": "",
+      "options": [
+        "- Deux, ARN et ADN",
+        "- Un, ARN ou ADN",
+        "- Deux types d' acide nucléique",
+        "- L' acide nucléique bicarténaire"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 93,
+      "question": "Si le virus possède une enveloppe, quel est le nom du virus?",
+      "images": [],
+      "image": "",
+      "options": [
+        "- Le virus enveloppé",
+        "- Le virus nu",
+        "- Le virus fragile",
+        "- Le virus résistant"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 94,
+      "question": "Si le virus ne possède pas d' enveloppe, quel est le nom du virus?",
+      "images": [],
+      "image": "",
+      "options": [
+        "- Le virus enveloppé",
+        "- Le virus nu",
+        "- Le virus fragile",
+        "- Le virus résistant"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 95,
+      "question": "Par quelle méthode le virus enveloppé traverse la membrane cytoplasmique cellulaire?",
+      "images": [],
+      "image": "",
+      "options": [
+        "- Par assemblage",
+        "- Par le processus de bourgeonnement",
+        "- Par la libération",
+        "- Par la maturation"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 96,
+      "question": "Au cours de la multiplication virale, que fait le virus pendant la phase de décapsidation?",
+      "images": [],
+      "image": "",
+      "options": [
+        "- Libérer l' acide nucléique",
+        "- Entrer dans la cellule vivante",
+        "- Fixer sur la cellule",
+        "- Faire la transcription"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 97,
+      "question": "Au cours de la multiplication virale, il y a ECP, écrire le mot en toute lettre.",
+      "images": [],
+      "image": "",
+      "options": [
+        "- En cytoplasme",
+        "- Effet cytopathique ou effet cytopathogène",
+        "- Effet cellulaire",
+        "- En cercle"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 98,
+      "question": "Que signifie le mot ECP, effet cytopathogène?",
+      "images": [],
+      "image": "",
+      "options": [
+        "- La multiplication virale",
+        "- Une anomalie cellulaire",
+        "- La multiplication virale avec une anomalie cellulaire",
+        "- Le diagnostic au laboratoire"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 99,
+      "question": "Expliquer le mot \" infection lytique productive\".",
+      "images": [],
+      "image": "",
+      "options": [
+        "- La production des nouveaux virus",
+        "- La multiplication virale avec la libération des nouveaux virus",
+        "- Une maladie infectieuse aiguë",
+        "- La multiplication virale et il n'y a pas des nouveaux virus"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 100,
+      "question": "Expliquer le mot \" infection abortive\".",
+      "images": [],
+      "image": "",
+      "options": [
+        "- La production des nouveaux virus",
+        "- La multiplication virale et la libération des nouveaux virus",
+        "- Une maladie infectieuse aiguë",
+        "- La multiplication virale mais il n'y a pas des nouveaux virus"
+      ],
+      "correctIndex": 3
+    },
+    {
+      "id": 101,
+      "question": "Le virus de l'hépatite D (VHD) est un agent infectieux viral satellite",
+      "images": [],
+      "image": "",
+      "options": [
+        "- du virus de l'hépatite A, HAV",
+        "- du virus de l'hépatite B, HBV",
+        "- du virus de l'hépatite E, HEV",
+        "- du virus de l'hépatite G, HGV"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 102,
+      "question": "La prévention contre le virus de l'hépatite D repose sur",
+      "images": [],
+      "image": "",
+      "options": [
+        "- La vaccination contre l'HBV",
+        "- La vaccination contre l'HAV",
+        "- La vaccination contre l'HEV",
+        "- La vaccination contre l'HGV"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 103,
+      "question": "On fait le traitement de l'hépatite D quand il y a",
+      "images": [],
+      "image": "",
+      "options": [
+        "- la présence du virus de l'hépatite D",
+        "- une infection par le virus de l'hépatite B",
+        "- une hépatite D fulminante ou chronique",
+        "- une surinfection par les autres virus"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 104,
+      "question": "La transmission inter-humaine du virus de l'hépatite E se fait",
+      "images": [],
+      "image": "",
+      "options": [
+        "- par voie sanguine",
+        "- par voie sexuelle",
+        "- par aérosol",
+        "- par voie fécale-orale (eau souillée, aliments)"
+      ],
+      "correctIndex": 3
+    },
+    {
+      "id": 105,
+      "question": "Le risque maximal de l'hépatite E est grave",
+      "images": [],
+      "image": "",
+      "options": [
+        "- chez les nouveau-nés",
+        "- chez les patients agés",
+        "- chez les patients atteints des maladies chroniques",
+        "- chez la femme enceinte"
+      ],
+      "correctIndex": 3
+    },
+    {
+      "id": 106,
+      "question": "Pour diminuer l'infection par le virus de l'hépatite E,",
+      "images": [],
+      "image": "",
+      "options": [
+        "- On fait l'amélioration des conditions d'hygiène, du traitement des eaux usées et la surveillance des réseaux de distribution des eaux",
+        "- On met le malade dans la chambre seule",
+        "- On fait la vaccination contre le virus de l'hépatite E,",
+        "- On fait le traitement de l'hépatite E aussi tôt que possible"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 107,
+      "question": "Le virus de l'hépatite C (HCV) possède",
+      "images": [],
+      "image": "",
+      "options": [
+        "- un génome ARN, simple brin, linéaire, polarité positive",
+        "- un génome ARN monocaténaire non segmenté, polarité négative",
+        "- un génome ADN, circulaire, partiellement bicaténaire",
+        "- un génome ADN à deux brins, linéaire, réplication dans le cytoplasme"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 108,
+      "question": "Le virus de l'hépatite B (HBV) possède",
+      "images": [],
+      "image": "",
+      "options": [
+        "- un génome ARN, simple brin, linéaire, polarité positive",
+        "- un génome ARN monocaténaire non segmenté, polarité négative",
+        "- un génome ADN, circulaire, partiellement bicaténaire",
+        "- un génome ADN à deux brins, linéaire, réplication dans le cytoplasme"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 109,
+      "question": "Le virus de la rage possède",
+      "images": [],
+      "image": "",
+      "options": [
+        "- un génome ARN, simple brin, linéaire, polarité positive",
+        "- un génome ARN monocaténaire non segmenté, polarité négative",
+        "- un génome ADN, circulaire, partiellement bicaténaire",
+        "- un génome ADN à deux brins, linéaire, réplication dans le cytoplasme"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 110,
+      "question": "Le virus de la variole (poxvirus) possède",
+      "images": [],
+      "image": "",
+      "options": [
+        "- un génome ARN, simple brin, linéaire, polarité positive",
+        "- un génome ARN monocaténaire non segmenté, polarité négative",
+        "- un génome ADN, circulaire, partiellement bicaténaire",
+        "- un génome ADN à deux brins, linéaire, réplication dans le cytoplasme"
+      ],
+      "correctIndex": 3
+    },
+    {
+      "id": 111,
+      "question": "Quel est le nombre de nouveaux virus VIH produits chaque jour en l' absence de traitement?",
+      "images": [],
+      "image": "",
+      "options": [
+        "- Environ 10-100 milliards de nouveaux virus par jour, avec une demi-vie plasmatique d' environ 6 heures",
+        "- Environ 5-10 milliards par jour",
+        "- Environ 10-20 milliards par jour",
+        "- Environ 10-50 milliards par jour"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 112,
+      "question": "Il faut éviter pour lutter contre la pandémie d' HIV.",
+      "images": [],
+      "image": "",
+      "options": [
+        "- La maladie infectieuse",
+        "- La maladie bactérienne",
+        "- La maladie sexuelle transmissible",
+        "- La maladie virale"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 113,
+      "question": "cas d' accident d' exposition à HIV, on utilise un pour trouver les anticorps anti-HIV.",
+      "images": [],
+      "image": "",
+      "options": [
+        "- Test Elisa",
+        "- Test rapide, agglutination ou adsorption",
+        "- Faire une coloration",
+        "- Faire le diagnostic indirect"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 114,
+      "question": "On utilise pour éviter les phénomènes de résistance virale par HIV.",
+      "images": [],
+      "image": "",
+      "options": [
+        "- La chimiothérapie antirétrovirale",
+        "- Le traitement antirétrovirale",
+        "- des associations de molécules antirétrovirales ou trithérapie ou HAART",
+        "- Association des antirétroviraux"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 115,
+      "question": "Pouvez-vous faire la culture du virus de l' hépatite B?",
+      "images": [],
+      "image": "",
+      "options": [
+        "- Non, on a choisi le chimpanzé comme modèles de choix pour l'étude de l'HBV",
+        "- Non, on utilise le singe",
+        "- Oui, on utilise le chimpanzée",
+        "- Oui, la culture donne de bon rendement"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 116,
+      "question": "Quand le taux de transmission par le virus de l' hépatite B de la mère à l' enfant est élevé, on voit",
+      "images": [],
+      "image": "",
+      "options": [
+        "- Le taux de transmission est 90-100%",
+        "- Le taux de transmission est 80%",
+        "- Ag HBe positive ou ADN de l' HBV positive",
+        "- Ag HBs positive"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 117,
+      "question": "Quand on peut dire une hépatite B est une hépatite chronique?",
+      "images": [],
+      "image": "",
+      "options": [
+        "- Ag HBs positive au-delà de 6 mois",
+        "- Ag HBs positive au-delà de 4 mois",
+        "- Ag HBs positive au-delà de 2 mois",
+        "- Il y a la persistance des anomalies cliniques, biochimiques ou du virus pendant 6 mois"
+      ],
+      "correctIndex": 3
+    },
+    {
+      "id": 118,
+      "question": "Si on trouve Ag HBs dans le sérum du malade, quelle est l' explication?",
+      "images": [],
+      "image": "",
+      "options": [
+        "- C'est l'infection aiguë et chronique par HBV",
+        "- Il y a infection",
+        "- Il y a contamination",
+        "- C'est la réplication virale"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 119,
+      "question": "Si on trouve Ag HBe dans le sérum du malade, quelle est l' explication?",
+      "images": [],
+      "image": "",
+      "options": [
+        "- Il y a infection",
+        "- Il y a contamination",
+        "- C'est la réplication virale ou l'infectiosité de l'HBV",
+        "- Hépatite aiguë par HBV"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 120,
+      "question": "Si on trouve anticorps anti-HBc dans le sérum du malade, quelle est l' explication?",
+      "images": [],
+      "image": "",
+      "options": [
+        "- Une immunization vaccinale ou une guérisson",
+        "- C'est une infection récente",
+        "- La réplication virale",
+        "- Hépatite aiguë par HBV"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 121,
+      "question": "Si on trouve l'anticorps anti- HBe dans le sérum du malade, quelle est l'explication?",
+      "images": [],
+      "image": "",
+      "options": [
+        "- Il y a une infection",
+        "- C'est une contamination",
+        "- On dit que le risque infectieux est faible ou nul ou c' est une faible replication virale",
+        "- Il y a la présence du virus"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 122,
+      "question": "Pour protèger le nouveau-né de mère portant l' Ag HBs positive, qu' est ce qu' on injecte au nouveau-né à la maternité?",
+      "images": [],
+      "image": "",
+      "options": [
+        "- Faire la vaccination",
+        "- Faire la sérovaccination par immunoglobuline spécifique anti-HBs",
+        "- Contrôle l' immunité",
+        "- Contrôle le virus"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 123,
+      "question": "Quels sont les médicaments utilisés pour les hépatites B?",
+      "images": [],
+      "image": "",
+      "options": [
+        "- Interféron alpha",
+        "- Vidarabine",
+        "- Interféron pégylé alpha, Vidarabine, Lamivudine, adéfovir, Ténofovir, telbivudine",
+        "- Interféron alpha et les inhibiteurs cléosidique de la RT"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 124,
+      "question": "La distribution du virus de l' hépatite C ne circule pas sous la forme homogène de virions identiques, dire ces facteurs en cause.",
+      "images": [],
+      "image": "",
+      "options": [
+        "- Il y a plusieurs génotypes",
+        "- Mutation au cours de la réplication, les réponses immunitaires de l' hôte et les structures du virus",
+        "- A cause de la protéine de capside",
+        "- A cause de la réplication"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 125,
+      "question": "La distribution du virus de l' hépatite C joue un rôle important dans.",
+      "images": [],
+      "image": "",
+      "options": [
+        "- L' infection chronique",
+        "- C'est une replication virale",
+        "- C' est une mutation",
+        "- La persistence de l' infection, le tropisme cellulaire et la résistance aux médicaments anti-viraux"
+      ],
+      "correctIndex": 3
+    },
+    {
+      "id": 126,
+      "question": "Quel est la grande complication provoquée par la cirrhose virale C?",
+      "images": [],
+      "image": "",
+      "options": [
+        "- Une fibrose hépatique",
+        "- Une hypertension portale",
+        "- Une insuffisance hépato-cellulaire",
+        "- Un carcinome hépato-cellulaire (cancer primitif du foie)"
+      ],
+      "correctIndex": 3
+    },
+    {
+      "id": 127,
+      "question": "84- Pour faire le diagnostic de l'hépatite aiguë C, on doit chercher ?",
+      "images": [],
+      "image": "",
+      "options": [
+        "- Rechercher l'ARN de l'HCV par la méthode PCR car les anticorps sont absents à la phase aiguë",
+        "- Rechercher les anticorps anti-HCV car ils sont plus sensibles",
+        "- On fait le diagnostic au début des symptômes",
+        "- On fait la sérologie virale"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 128,
+      "question": "Si le génotype du virus de l' hépatite C est 1, 4, 5, ou 6 quelle est la durée du traitement de l' infection pour l' hépatite chronique C?",
+      "images": [],
+      "image": "",
+      "options": [
+        "- 12 semaines",
+        "- 24 semaines",
+        "- 36 semaines",
+        "- 48 semaines"
+      ],
+      "correctIndex": 3
+    },
+    {
+      "id": 129,
+      "question": "Pour réduire le risque d' évolution de l' hépatite aiguë C vers l' hépatite chronique C, on",
+      "images": [],
+      "image": "",
+      "options": [
+        "- Utilise l'Interféron alpha seul ou on associe la combinaison interféron alpha pégylé avec la ribavirine",
+        "- La ribavirine",
+        "- Lamivudine",
+        "- Ténofovir"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 130,
+      "question": "Au début de l' ère pastorienne, que signifie le mot virus?",
+      "images": [],
+      "image": "",
+      "options": [
+        "- Un agent infectieux visible au microscope électronique",
+        "- Un agent infectieux visible au microscope photonique",
+        "- Un agent infectieux",
+        "- Une particule complex"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 131,
+      "question": "Est-ce-que les agents infectieux peuvent traverser les filtres de porcelaine?",
+      "images": [],
+      "image": "",
+      "options": [
+        "- Oui, Ivanowski a trouvé la toxine dans la mosaïque du tabac",
+        "- Non, ils ne traversent pas les filtres de porcelaine",
+        "- Ils sont trop petits",
+        "- Ils sont homogènes"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 132,
+      "question": "Par quelle méthode le nouveau virus enveloppé libère la cellule hôte?",
+      "images": [],
+      "image": "",
+      "options": [
+        "- Par assemblage",
+        "- Par le processus de bourgeonnement",
+        "- Par la libération",
+        "- Par la maturation"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 133,
+      "question": "Que signifie le mot ECP, effet cytopathogène?",
+      "images": [],
+      "image": "",
+      "options": [
+        "- La multiplication virale",
+        "- Une anomalie cellulaire",
+        "- C'est une infection virale qui provoque une altération morphologique des cellules",
+        "- Le diagnostic au laboratoire"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 134,
+      "question": "Expliquer le mot \" infection lytique productive\".",
+      "images": [],
+      "image": "",
+      "options": [
+        "- C'est la production des nouveaux virus",
+        "- C'est la multiplication virale qui libère les virus néoformés",
+        "- Une maladie infectieuse aiguë",
+        "- La multiplication virale et il n'y a pas des nouveaux virus"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 135,
+      "question": "On peut trouver les génotypes 1 et 2 du virus de l'hépatite E",
+      "images": [],
+      "image": "",
+      "options": [
+        "- chez plusieurs animaux: le porc, le sanglier et le daim",
+        "- chez les humains",
+        "- chez les oiseaux",
+        "- chez les rongeurs"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 136,
+      "question": "On peut trouver les génotypes 3 et 4 du virus de l'hépatite E",
+      "images": [],
+      "image": "",
+      "options": [
+        "- chez plusieurs animaux: le porc, le sanglier et le daim",
+        "- chez les humains",
+        "- chez les oiseaux",
+        "- chez les rongeurs"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 137,
+      "question": "Pour faire le diagnostic de l'infection par le virus de l'hépatite E,",
+      "images": [],
+      "image": "",
+      "options": [
+        "- on fait le prélèvement du sang,",
+        "- on utilise ELISA pour déceler les IgM anti-HEV ou on peut détecter le virus dans les selles par la microscopie électronique",
+        "- on fait le prélèvement des selles",
+        "- on fait la recherche du virus de l'hépatite E"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 138,
+      "question": "Comment on fait le diagnostic de l'infection de la variole?",
+      "images": [],
+      "image": "",
+      "options": [
+        "- Au stade vésiculeux ou pustuleux, on prépare des frottis pour trouver l'ADN variolique par la microscopie électronique ou culture virale de grattages des lésions cutanées et confirmé ultérieurement par PCR",
+        "- On peut isoler le virus variolique d'un culot urinaire, de la salive ou des larmes",
+        "- On utilise au stade des croûtes par la microscopie électronique",
+        "- On fait le prélèvement au stade cutané"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 139,
+      "question": "Comment on fait le diagnostic de l'infection de la rage?",
+      "images": [],
+      "image": "",
+      "options": [
+        "- On fait l'isolement de virus en culture de cellules",
+        "- On utilise l'immunofluorescence sur les biopsies cutanées pour chercher les antigènes rabiques (corps de Negri) ou on cherche l'ARN viral par PCR sur la salive et le LCR des patients",
+        "- On fait la détection des antigènes rabiques sur broyat de cerveau",
+        "- On fait la recherche de l'ARN viral par PCR sur la salive et le LCR des patients"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 140,
+      "question": "Comment on fait la vaccination antirabique?",
+      "images": [],
+      "image": "",
+      "options": [
+        "- La vaccination antirabique se fait sur l'évaluation de la disponibilité de l'animal mordeur",
+        "- La vaccination antirabique dépend du nombre de virus dans l'inoculum",
+        "- La vaccination antirabique dépend du titre des anticorps humains anti-glycoprotéines G",
+        "- La vaccination antirabique se fait sur l'évaluation de la disponibilité de l'animal mordeur et de la localisation de la blessure"
+      ],
+      "correctIndex": 3
+    },
+    {
+      "id": 141,
+      "question": "Comment on fait le diagnostic de l'infection à rhinovirus?",
+      "images": [],
+      "image": "",
+      "options": [
+        "- On fait la recherche de l'étiologie d'une infecton respiratoire",
+        "- On voit l'ECP après l'infection par le virus",
+        "- On utilise la recherche directe des virus par la mise en culture du prélèvement",
+        "- On fait le prélèvement des sécrétions nasales"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 142,
+      "question": "Quelle est la cause de l'infection par le virus de l'hépatite A?",
+      "images": [],
+      "image": "",
+      "options": [
+        "- C'est la consommation d'eau souillée ou d'aliments contaminés par les matières fécales d'un sujet infecté",
+        "- Par le contact étroit avec le malade",
+        "- Par la relation sexuelle avec le malade",
+        "- Par les transmissions parentérales par le sang"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 143,
+      "question": "Comment on fait le diagnostic de l'infection de l'hépatite A?",
+      "images": [],
+      "image": "",
+      "options": [
+        "- On utilise des techniques sérologiques et on voit la valeur des transaminases",
+        "- On fait la recherche du virus dans les selles par le microscopie électronique",
+        "- On utilise des techniques sérologiques et on cherche les anticorps contre le virus de l'hépatite A IgM par le méthode ELISA",
+        "- On fait la recherche des anticorps IgG"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 144,
+      "question": "Comment on traite l'infection de l'hépatite A?",
+      "images": [],
+      "image": "",
+      "options": [
+        "- Il n'y a pas de traitement spécifique",
+        "- On fait le traitement symptômatiques",
+        "- Il n'y a pas de traitement spécifique, il faut éviter tous les médicaments inutiles, il faut éviter d'administrer du paracétamol",
+        "- Il faut consulter le médecin"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 145,
+      "question": "Comment on fait le diagnostic de l'infection de l'hépatite B?",
+      "images": [],
+      "image": "",
+      "options": [
+        "- On fait une analyse de sang (la sérologie) et on cherche l'antigène de surface (AgHBs) par ELISA",
+        "- On fait des tests rapides",
+        "- On fait une hémagglutination passive",
+        "- On cherche l'AgHBe par ELISA"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 146,
+      "question": "Quand on dit qu'il y a l'apparition de résistance antivirale de l'infection par le virus de l'hépatite B?",
+      "images": [],
+      "image": "",
+      "options": [
+        "- Il y a beaucoup de symptômes",
+        "- Il y a une ré-ascension de la réplication virale sous traitement",
+        "- La valeur de transaminase est élevée",
+        "- L'infection devient chronique"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 147,
+      "question": "Comment est l'ADN du virus de l'hépatite B pour faire la multiplication virale?",
+      "images": [],
+      "image": "",
+      "options": [
+        "- C'est l'ADN bicaténaire complet",
+        "- C'est l'ADN double brin",
+        "- C'est l'ADN bicaténaire circulaire refermé sous forme surenroulée (supercoiled)",
+        "- C'est l'ADN bicaténaire"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 148,
+      "question": "Comment on fait le diagnostic de l'infection de l'hépatite C?",
+      "images": [],
+      "image": "",
+      "options": [
+        "- On fait la sérologie, puis évaluer la valeur des transaminases, faire le dépistage des anticorps anti-HCV par les tests ELISA, si les anticorps sont positifs, rechercher l'ARN de l'HCV par la méthode PCR",
+        "- Evaluer la valeur des transaminases",
+        "- On fait la sérologie",
+        "- On fait la consultation avec le médecin"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 149,
+      "question": "Comment se transmet le virus de l'hépatite G?",
+      "images": [],
+      "image": "",
+      "options": [
+        "- La transmission se fait quand il y a une infection chronique",
+        "- Il y a une douleur abdominale",
+        "- La transmission parentérale est prédominante",
+        "- La transmission se fait par voie fécale orale"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 150,
+      "question": "Comment on fait le diagnostic de l'infection de l'hépatite D?",
+      "images": [],
+      "image": "",
+      "options": [
+        "- On fait la sérologie",
+        "- On évalue la valeur des transaminases",
+        "- On fait la consultation avec le médecin",
+        "- En partique, on cherche les IgM anti-Delta par ELISA"
+      ],
+      "correctIndex": 3
+    },
+    {
+      "id": 151,
+      "question": "Quels sont les modes de transmission de l'hépatite D?",
+      "images": [],
+      "image": "",
+      "options": [
+        "- L'hépatite D se propage par contact avec du sang et d'autres fluides corporels (par activité sexuelle)",
+        "- L'hépatite D se contamine par voie fécale orale",
+        "- L'hépatite D se contamine par voie parentérale",
+        "- On fait la consultation avec le médecin"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 152,
+      "question": "Quel virus on a utilisé pour préparer le vaccin contre la variole ?",
+      "images": [],
+      "image": "",
+      "options": [
+        "- C'est le virus de la vaccine",
+        "- C'est le poxvirus",
+        "- On a utilisé le cowpox",
+        "- On a utilisé le virus du même genre"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 153,
+      "question": "Quel prélèvement on a utilisé pour faire le diagnostic de la variole ?",
+      "images": [],
+      "image": "",
+      "options": [
+        "- On a utilisé les croûtes",
+        "- On a utilisé les prélèvements cutanés, les prélèvements vésiculeux ou pustuleux",
+        "- On fait plusieurs prélèvements",
+        "- On a utilisé les macules"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 154,
+      "question": "Quel médicament on a utilisé pour le traitement du molluscum contagiosum habituel ?",
+      "images": [],
+      "image": "",
+      "options": [
+        "- On utilise les antiviraux",
+        "- On utilise le cidofovir en gel dermique 1% ou 3%",
+        "- On utilise le Vistide",
+        "- On utilise le cidofovir par voie i.v."
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 155,
+      "question": "Quel médicament on a utilisé pour le traitement du molluscum contagiosum chez des malades atteints du SIDA?",
+      "images": [],
+      "image": "",
+      "options": [
+        "- On utilise les antiviraux",
+        "- On utilise le cidofovir en gel dermique 1% ou 3%",
+        "- On utilise le Vistide",
+        "- On utilise le cidofovir par voie i.v."
+      ],
+      "correctIndex": 3
+    },
+    {
+      "id": 156,
+      "question": "Quelle est la conséquence de la variole ?",
+      "images": [],
+      "image": "",
+      "options": [
+        "- Il existe 2 formes épidémiologiques de la variole",
+        "- La variole majeure provoque la mort par œdème aigu du poumon",
+        "- La variole provoque une éruption cutanée",
+        "- Le malade reste contagieux depuis le ler jour de l'éruption"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 157,
+      "question": "Quelle famille appartient le virus de la variole?",
+      "images": [],
+      "image": "",
+      "options": [
+        "- La famille Rhabdoviridae",
+        "- La famille Picornaviridae",
+        "- La famille Poxviridae",
+        "- La famille Filoviridae"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 158,
+      "question": "Pourquoi on prend le virus de la vaccine pour faire le vaccin contre la variole ?",
+      "images": [],
+      "image": "",
+      "options": [
+        "- Le virus de la vaccine est plus virulent avec les animaux de laboratoire",
+        "- Le virus de la vaccine induit des larges vésicules",
+        "- Les gènes se trouvent dans la partie centrale du génome",
+        "- Le virus de la vaccine est apparenté génétiquement et antigéniquement que le poxvirus"
+      ],
+      "correctIndex": 3
+    },
+    {
+      "id": 159,
+      "question": "Quelle est la morphologie du poxvirus ?",
+      "images": [],
+      "image": "",
+      "options": [
+        "- Le virion a la forme d'une petite brique ou d'une petite savonnette",
+        "- Le virus a une grande enveloppe",
+        "- Le virus a un génome ADN",
+        "- Le virus a une morphologie particulière"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 160,
+      "question": "Est-ce qu'on peut guérir de la rage ?",
+      "images": [],
+      "image": "",
+      "options": [
+        "- Il n'existe pas de traitement contre la rage",
+        "- On fait la vaccination antirabique après la morsure d'un animal",
+        "- On lave les blessures avec l'eau savonneuse",
+        "- On utilise la solution désinfectante Betadine"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 161,
+      "question": "Que faites vous si le chien est suspect de rage ?",
+      "images": [],
+      "image": "",
+      "options": [
+        "- On fait la vaccination antirabique",
+        "- On doit suivre la santé de l'animal",
+        "- On doit consulter le vétérinaire",
+        "- On doit écarter de l'animal en suspicion et ne lui nourrit pas"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 162,
+      "question": "Est-ce que vous tuez le chien qui a mordu un être humain ?",
+      "images": [],
+      "image": "",
+      "options": [
+        "- Non, on va consulter le vétérinaire",
+        "- On fait la biopsie cutanée",
+        "- Non, on fait plusieurs visites",
+        "- On envoie l'animal au laboratoire"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 163,
+      "question": "Comment les Anciens ont fait après la morsure de l'animal pour éviter la rage?",
+      "images": [],
+      "image": "",
+      "options": [
+        "- Les Anciens ont réduit l'inoculum",
+        "- Les Anciens ont lave les blessures",
+        "- Ils ont envoyé l'animal au laboratoire",
+        "- Les Anciens ont cautérisé la plaie au fer rouge"
+      ],
+      "correctIndex": 3
+    },
+    {
+      "id": 164,
+      "question": "Quand vous pensez trop tard pour traiter la rage ?",
+      "images": [],
+      "image": "",
+      "options": [
+        "- On fait la vaccination antirabique après la morsure",
+        "- Lorsque les symptômes se déclarent; pour éviter la rage, on doit faire la vaccination antirabique après la morsure",
+        "- Lorsqu'il y a l'hydrophobie",
+        "- Lorsque la convulsion apparaît"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 165,
+      "question": "Qu'est-ce qu'il y a après la morsure d'un animal suspect de rage si les symptômes apparaissent?",
+      "images": [],
+      "image": "",
+      "options": [
+        "- Les mesures de réanimation ne font que retarder la mort",
+        "- Le décès est inévitable",
+        "- Il faut faire la vaccination antirabique",
+        "- Il faut consulter le vétérinaire"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 166,
+      "question": "Comment on reconnaît un animal qui a la rage ?",
+      "images": [],
+      "image": "",
+      "options": [
+        "- Il y a un changement de comportement, ....",
+        "- Il faut envoyer l'animal au service vétérinaire",
+        "- On fait plusieurs visites",
+        "- On fait une vaccination antirabique à l'animal"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 167,
+      "question": "Est-il possible d'avoir des syndromes post-poliomyélitiques chez le malade infecté par le poliovirus ?",
+      "images": [],
+      "image": "",
+      "options": [
+        "- Il y a une phase d'atrophie musculaire pendant des décennies plus tard",
+        "- Il y a une douleur et une faiblesse des muscles",
+        "- Il y a une infection rhinopharyngée",
+        "- Il y a une fièvre"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 168,
+      "question": "Quel est le réservoir des entérovirus ?",
+      "images": [],
+      "image": "",
+      "options": [
+        "- Le réservoir est l'animal",
+        "- Le réservoir est humain",
+        "- On doit laver les mains avant manger",
+        "- On doit respecter les règles d'hygiène universelle"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 169,
+      "question": "Combien de sérotypes y-a-t-il pour le poliovirus?",
+      "images": [],
+      "image": "",
+      "options": [
+        "- Il y a un seul sérotype",
+        "- Il y a 2 sérotypes différents",
+        "- Il y a 3 sérotypes différents",
+        "- Il y a 5 sérotypes différents"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 170,
+      "question": "Quel vaccin on a utilisé pour avoir une immunité locale intestinale contre la poliomyélite?",
+      "images": [],
+      "image": "",
+      "options": [
+        "- On utilise le vaccin vivant",
+        "- On utilise le vaccin inactivé",
+        "- On utilise le vaccin par voie parentérale",
+        "- On utilise le vaccin par voie orale"
+      ],
+      "correctIndex": 3
+    },
+    {
+      "id": 171,
+      "question": "Parmi le genre Enterovirus, quand surviennent les infections par les entérovirus non poliomyélitiques ?",
+      "images": [],
+      "image": "",
+      "options": [
+        "- Les infections surviennent dans l'hôpital",
+        "- Les infections surviennent chez le nouveau-né",
+        "- Pendant la saison chaude et la saison froide",
+        "- Toute l'année dans les pays tropicaux et subtropicaux"
+      ],
+      "correctIndex": 3
+    },
+    {
+      "id": 172,
+      "question": "Combien de tests Elisa pour détecter les anticorps VIH et pour dire une infection?",
+      "images": [],
+      "image": "",
+      "options": [
+        "- Il faut 2 tests Elisa positifs pour dire une infection",
+        "- Il faut 1 test Elisa positif pour dire une infection",
+        "- Il a besoin un test de confirmation",
+        "- Il a besoin un prélèvement particulier"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 173,
+      "question": "Quels sont les antirétroviraux on a utilisé pour le traitement de l'infection par VIH?",
+      "images": [],
+      "image": "",
+      "options": [
+        "- Ce sont les analogues nucléosidiques et nucléotidiques inhibiteurs de la transcriptase inverse, INTI",
+        "- Ce sont les inhibiteurs non nucléosidiques de la transcriptase inverse, INNTI",
+        "- Ce sont les inhibiteurs de la protéase, IP",
+        "- Tous cités au-dessus"
+      ],
+      "correctIndex": 3
+    },
+    {
+      "id": 174,
+      "question": "Que faites-vous pour éviter une infection chez le nouveau-né, après accouchement, si une femme enceinte présente une séropositivité avec VIH?",
+      "images": [],
+      "image": "",
+      "options": [
+        "- Eviter l'exposition post-natale par recours à l'allaitement artificiel",
+        "- On fait la césarienne programmée",
+        "- On utilise de Zidovudine, AZT",
+        "- On utilise de lamivudine, 3TC"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 175,
+      "question": "Pourquoi il y a de l'infection à VIH chez l'homme ?",
+      "images": [],
+      "image": "",
+      "options": [
+        "- Les animaux sont chassés et utilisés comme animaux de compagnie",
+        "- Parce qu'il y a l'introduction chez l'homme de rétrovirus simien, SIV",
+        "- L'infection à VIH chez l'homme peut provoquer par la morsure par le singe",
+        "- L'infection à VIH chez l'homme peut provoquer par les blessures par le singe"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 176,
+      "question": "Quel est le nombre estimé de la transmission de la mère à l'enfant au moment de l'accouchement chez la mère présentant une séropositivité avec VIH?",
+      "images": [],
+      "image": "",
+      "options": [
+        "- Le nombre estimé de la transmission est de 20%",
+        "- Le nombre estimé de la transmission est de des cas",
+        "- Le nombre estimé de la transmission est de des cas",
+        "- Le nombre estimé de la transmission est de 10%"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 177,
+      "question": "Pour quel but on mesure la charge virale de l'infection par VIH?",
+      "images": [],
+      "image": "",
+      "options": [
+        "- Pour savoir le principe du test",
+        "- Pour faire le diagnostic de l'infection",
+        "- Pour mieux comprendre la maladie",
+        "- Pour le suivi virologique d'un patient infecté"
+      ],
+      "correctIndex": 3
+    },
+    {
+      "id": 178,
+      "question": "Quel est le but d'utiliser HAART pour l'infection à VIH?",
+      "images": [],
+      "image": "",
+      "options": [
+        "- Pour éviter la résistance aux antirétroviraux",
+        "- Diminuer la charge virale au-dessous $50/ml$, permettre aux lymphocytes T CD4 de fonctionner normalement",
+        "- C'est un traitement préférentiel",
+        "- Pour éviter l'antagoniste"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 179,
+      "question": "How does Covid-19 transmit from person to others?",
+      "images": [],
+      "image": "",
+      "options": [
+        "- By the droplets of respiratory tract",
+        "- By eating or talking with the infected patients",
+        "- By traveling with the infected patients or by aerosol",
+        "- All are correct"
+      ],
+      "correctIndex": 3
+    },
+    {
+      "id": 180,
+      "question": "Which methods are used to diagnose Covid-19?",
+      "images": [],
+      "image": "",
+      "options": [
+        "- Look for virus by testing specimens from nose or mouth",
+        "- Polymerase Chain Reaction (PCR) tests to detect the virus or antigen tests",
+        "- Do the chest x-ray",
+        "- Do one PCR test"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 181,
+      "question": "Which antiviral drug do we use to treat Covid-19?",
+      "images": [],
+      "image": "",
+      "options": [
+        "- Molnupiravir 200mg",
+        "- Nirmatrelvir with Ritonavir",
+        "- Lamivudine",
+        "- Chloroquine"
+      ],
+      "correctIndex": 1
+    }
+  ]
+}

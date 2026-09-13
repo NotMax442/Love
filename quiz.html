@@ -5,11 +5,20 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Study Session - TestforUHS</title>
-  
+  <meta name="title" content="Study Session - TestforUHS">
+  <meta name="description" content="Interactive medical quiz and self-assessment study session on TestforUHS.">
+
+  <!-- Canonical Link (Fixes Google Search Console indexing issues) -->
+  <link rel="canonical" href="https://testforuhs.com/quiz">
+
   <!-- Icons & CSS -->
   <link rel="icon" type="image/png" sizes="192x192" href="assets/logo.png">
   <link rel="apple-touch-icon" href="assets/logo.png">
+  <link rel="shortcut icon" href="assets/logo.png">
   <link rel="stylesheet" href="style.css">
+
+  <!-- Lucide Icons CDN -->
+  <script src="https://unpkg.com/lucide@latest"></script>
 
   <!-- Google AdSense Master Script -->
   <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-4210272281940886"
@@ -22,19 +31,23 @@
     <!-- Top Navigation Bar -->
     <nav class="main-navbar">
       <div class="nav-links">
-        <a href="index.html" class="nav-item nav-leave-guard" data-i18n="nav_home">HOME</a>
-        <a href="about.html" class="nav-item nav-leave-guard" data-i18n="nav_about">ABOUT</a>
-        <a href="contact.html" class="nav-item nav-leave-guard" data-i18n="nav_contact">CONTACT US</a>
-        <a href="account.html" class="nav-item nav-leave-guard" data-i18n="nav_account">MY ACCOUNT</a>
+        <a href="home" class="nav-item nav-leave-guard" data-i18n="nav_home">HOME</a>
+        <a href="about" class="nav-item nav-leave-guard" data-i18n="nav_about">ABOUT</a>
+        <a href="contact" class="nav-item nav-leave-guard" data-i18n="nav_contact">CONTACT US</a>
+        <a href="account" class="nav-item nav-leave-guard" data-i18n="nav_account">MY ACCOUNT</a>
         <button id="nav-donate-btn" class="nav-item nav-leave-guard" data-i18n="nav_donate"
-          style="color: #f59e0b; font-weight: 700; background: none; border: none; cursor: pointer;">☕ Support Us</button>
+          style="color: #f59e0b; font-weight: 700; background: none; border: none; cursor: pointer; display: flex; align-items: center; gap: 0.35rem;">
+          <i data-lucide="coffee" style="width: 18px; height: 18px;"></i> Support Us
+        </button>
       </div>
       <div class="nav-controls" style="display: flex; gap: 0.5rem; align-items: center;">
         <select id="language-select" class="lang-select">
           <option value="en">English</option>
           <option value="km">ភាសាខ្មែរ</option>
         </select>
-        <button id="theme-toggle-btn" class="theme-btn">🌙 Dark</button>
+        <button id="theme-toggle-btn" class="theme-btn" style="display: flex; align-items: center; gap: 0.35rem;">
+          <i data-lucide="moon" style="width: 16px; height: 16px;"></i> Dark
+        </button>
       </div>
     </nav>
 
@@ -42,26 +55,36 @@
     <div id="quiz-screen" class="screen">
       <div class="quiz-header"
         style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 1rem; flex-wrap: wrap; gap: 0.5rem;">
-        <button id="quit-session-btn" class="btn back-btn" data-i18n="btn_back">⬅️ Back</button>
+        <button id="quit-session-btn" class="btn back-btn"
+          style="display: inline-flex; align-items: center; gap: 0.4rem;">
+          <i data-lucide="arrow-left" style="width: 18px; height: 18px;"></i>
+          <span data-i18n="btn_back">Back</span>
+        </button>
         <div id="session-info" style="font-weight: 700; color: var(--text-heading); font-size: 1.1rem;">Loading...</div>
         <div id="timer-display" class="timer-badge hidden"
-          style="font-weight: 700; color: #ef4444; background: var(--bg-subcard); padding: 0.4rem 0.8rem; border-radius: 8px; border: 1px solid var(--border-sub);">
-          ⏱️ 60:00</div>
+          style="font-weight: 700; color: #ef4444; background: var(--bg-subcard); padding: 0.4rem 0.8rem; border-radius: 8px; border: 1px solid var(--border-sub); display: inline-flex; align-items: center; gap: 0.35rem;">
+          <i data-lucide="clock" style="width: 16px; height: 16px;"></i>
+          <span id="timer-text">60:00</span>
+        </div>
       </div>
 
-      <div class="score-card" style="padding: 1.5rem; text-align: left; background: var(--bg-inner); border-radius: 8px; border: 1px solid var(--border-sub);">
-  
+      <div class="score-card"
+        style="padding: 1.5rem; text-align: left; background: var(--bg-inner); border-radius: 8px; border: 1px solid var(--border-sub);">
+
         <!-- Flex header containing Progress Text and Fullscreen Button -->
         <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 0.75rem;">
           <p id="progress-text" style="color: var(--text-sub); font-size: 0.9rem; margin-bottom: 0; font-weight: 600;">
             Question 1 of 60
           </p>
-          <button id="fullscreen-btn" class="fullscreen-btn" title="Toggle Fullscreen" aria-label="Toggle Fullscreen">
-            ⛶ Fullscreen
+          <button id="fullscreen-btn" class="fullscreen-btn" title="Toggle Fullscreen" aria-label="Toggle Fullscreen"
+            style="display: inline-flex; align-items: center; gap: 0.35rem;">
+            <i data-lucide="maximize" style="width: 16px; height: 16px;"></i>
+            <span data-i18n="btn_fullscreen">Fullscreen</span>
           </button>
         </div>
 
-        <h3 id="question-text" style="color: var(--text-main); font-size: 1.15rem; line-height: 1.5; margin-bottom: 1.25rem;">
+        <h3 id="question-text"
+          style="color: var(--text-main); font-size: 1.15rem; line-height: 1.5; margin-bottom: 1.25rem;">
           Loading question text...
         </h3>
 
@@ -73,17 +96,23 @@
         <div id="options-container" style="display: flex; flex-direction: column; gap: 0.75rem;"></div>
 
         <div style="margin-top: 1.5rem; text-align: right;">
-          <button id="next-btn" class="btn primary-btn hidden">Next Question ➡️</button>
+          <button id="next-btn" class="btn primary-btn hidden"
+            style="display: inline-flex; align-items: center; gap: 0.5rem;">
+            <span data-i18n="btn_next_question">Next Question</span>
+            <i data-lucide="arrow-right" style="width: 18px; height: 18px;"></i>
+          </button>
         </div>
       </div>
 
       <!-- Study Mode Floating Navigation Controls -->
       <div id="study-nav-controls" class="hidden">
-        <button id="go-latest-q-btn" class="floating-pill-btn hidden">
-          📍 Go to Latest Question
+        <button id="go-latest-q-btn" class="floating-pill-btn hidden"
+          style="display: inline-flex; align-items: center; gap: 0.35rem;">
+          <i data-lucide="map-pin" style="width: 16px; height: 16px;"></i>
+          <span data-i18n="btn_go_latest">Go to Latest Question</span>
         </button>
         <button id="scroll-top-btn" class="floating-round-btn hidden" title="Scroll to top" aria-label="Scroll to top">
-          ⬆️
+          <i data-lucide="arrow-up" style="width: 18px; height: 18px;"></i>
         </button>
       </div>
 
@@ -91,7 +120,8 @@
       <footer class="main-footer"
         style="margin-top: 3rem; padding-top: 1.5rem; border-top: 1px solid var(--border-color); text-align: center; font-size: 0.85rem; color: var(--text-sub);">
         <p>© 2026 TestforUHS. All rights reserved. | <a href="#" id="open-privacy-btn"
-            style="color: var(--text-heading); text-decoration: underline;" data-i18n="privacy_link">Privacy Policy</a></p>
+            style="color: var(--text-heading); text-decoration: underline;" data-i18n="privacy_link">Privacy Policy</a>
+        </p>
       </footer>
 
     </div>
@@ -99,7 +129,9 @@
     <!-- Leave Confirmation Guard Modal -->
     <div id="leave-confirm-modal" class="modal-overlay hidden">
       <div class="modal-card">
-        <h3 data-i18n="leave_modal_title">⚠️ Leave Session?</h3>
+        <h3 data-i18n="leave_modal_title" style="display: flex; align-items: center; gap: 0.4rem;">
+          <i data-lucide="alert-triangle" style="width: 20px; height: 20px; color: #f59e0b;"></i> Leave Session?
+        </h3>
         <p id="leave-modal-desc" data-i18n="leave_modal_desc" style="margin-bottom: 1.25rem; color: var(--text-sub);">
           Are you sure you want to leave? Your progress will be saved, don't worry!
         </p>
@@ -112,8 +144,10 @@
 
     <!-- Click-to-Zoom Image Modal -->
     <div id="image-zoom-modal" class="modal-overlay hidden" style="background: rgba(0,0,0,0.85); cursor: pointer;">
-      <div style="position: relative; max-width: 90vw; max-height: 90vh; display: flex; justify-content: center; align-items: center;">
-        <img id="zoomed-image" src="" alt="Zoomed Diagram" style="max-width: 100%; max-height: 90vh; border-radius: 8px; object-fit: contain;">
+      <div
+        style="position: relative; max-width: 90vw; max-height: 90vh; display: flex; justify-content: center; align-items: center;">
+        <img id="zoomed-image" src="" alt="Zoomed Diagram"
+          style="max-width: 100%; max-height: 90vh; border-radius: 8px; object-fit: contain;">
       </div>
     </div>
 
@@ -132,14 +166,17 @@
         <button id="close-donate-btn" class="modal-close-icon" aria-label="Close modal">&times;</button>
         <div class="donate-grid">
           <div class="donate-info">
-            <p class="donate-tagline" data-i18n="donate_tagline">Every little bit is greatly appreciated! Thank you for
-              your support 😊</p>
+            <p class="donate-tagline" data-i18n="donate_tagline"
+              style="display: flex; align-items: center; gap: 0.35rem;">
+              Every little bit is greatly appreciated! Thank you for your support
+              <i data-lucide="smile" style="width: 18px; height: 18px; display: inline-block;"></i>
+            </p>
             <h3 class="donate-cta" data-i18n="donate_cta">You may donate through our KHQR here.</h3>
           </div>
           <div class="donate-qr-wrapper"><img src="assets/khqr.png" alt="KHQR Code" class="khqr-card-img"></div>
         </div>
         <div style="margin-top: 1.5rem; text-align: center;">
-          <button id="bottom-close-privacy-btn" class="btn secondary-btn" style="width: 100%; max-width: 200px;"
+          <button id="bottom-close-donate-btn" class="btn secondary-btn" style="width: 100%; max-width: 200px;"
             data-i18n="btn_close">Close</button>
         </div>
       </div>
@@ -150,16 +187,26 @@
         style="max-width: 600px; text-align: left; max-height: 80vh; overflow-y: auto; position: relative; padding: 2.5rem 1.5rem 1.5rem 1.5rem;">
         <button id="close-privacy-btn" class="modal-close-icon" aria-label="Close modal">&times;</button>
         <h3 style="margin-bottom: 1rem; color: var(--text-main);" data-i18n="about_privacy_title">Privacy Policy</h3>
-        <div style="font-size: 0.85rem; line-height: 1.6; color: var(--text-sub); display: flex; flex-direction: column; gap: 0.75rem;">
-          <p>At <strong>TestforUHS</strong>, visitor privacy is a top priority. This Privacy Policy details the types of information we collect and how it is used.</p>
+        <div
+          style="font-size: 0.85rem; line-height: 1.6; color: var(--text-sub); display: flex; flex-direction: column; gap: 0.75rem;">
+          <p>At <strong>TestforUHS</strong>, visitor privacy is a top priority. This Privacy Policy details the types of
+            information we collect and how it is used.</p>
 
           <h4 style="color: var(--text-main); margin-top: 0.5rem;">1. Advertising & Third-Party Cookies</h4>
-          <p>We use <strong>Google AdSense</strong> to display advertisements. Third-party vendors, including Google, use cookies to serve ads based on a user's prior visits to our website or other websites on the internet.</p>
-          <p>Google's use of advertising cookies enables it and its partners to serve ads to our users based on their visit to our sites and/or other sites on the Internet.</p>
-          <p>You may opt out of personalized advertising by visiting <a href="https://www.google.com/settings/ads" target="_blank" rel="noopener" style="color: var(--text-heading); text-decoration: underline;">Google Ad Settings</a> or <a href="https://www.aboutads.info" target="_blank" rel="noopener" style="color: var(--text-heading); text-decoration: underline;">aboutads.info</a>.</p>
+          <p>We use <strong>Google AdSense</strong> to display advertisements. Third-party vendors, including Google,
+            use cookies to serve ads based on a user's prior visits to our website or other websites on the internet.
+          </p>
+          <p>Google's use of advertising cookies enables it and its partners to serve ads to our users based on their
+            visit to our sites and/or other sites on the Internet.</p>
+          <p>You may opt out of personalized advertising by visiting <a href="https://www.google.com/settings/ads"
+              target="_blank" rel="noopener" style="color: var(--text-heading); text-decoration: underline;">Google Ad
+              Settings</a> or <a href="https://www.aboutads.info" target="_blank" rel="noopener"
+              style="color: var(--text-heading); text-decoration: underline;">aboutads.info</a>.</p>
 
           <h4 style="color: var(--text-main); margin-top: 0.5rem;">2. Local Storage</h4>
-          <p>TestforUHS uses your browser's <code>localStorage</code> exclusively to save quiz progress, missed question logs, language settings, and theme preferences directly on your device. This data is never transmitted to external servers.</p>
+          <p>TestforUHS uses your browser's <code>localStorage</code> exclusively to save quiz progress, missed question
+            logs, language settings, and theme preferences directly on your device. This data is never transmitted to
+            external servers.</p>
         </div>
         <div style="margin-top: 1.5rem; text-align: center;">
           <button id="bottom-close-privacy-btn" class="btn secondary-btn" style="width: 100%; max-width: 200px;"
@@ -168,9 +215,14 @@
       </div>
     </div>
 
-    <!-- Correct script sequence -->
+    <!-- Script Sequence -->
     <script src="shared.js"></script>
     <script src="quiz.js"></script>
+    <script>
+      if (window.lucide) {
+        lucide.createIcons();
+      }
+    </script>
   </div>
 </body>
 

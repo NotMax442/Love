@@ -1,0 +1,115 @@
+{
+  "questions": [
+    {
+      "id": 1,
+      "question": "Qu'est que c'est hypertension portale (HTP)?",
+      "images": [],
+      "image": "",
+      "options": [
+        ". augmentation de la pression portale >5 mm Hg",
+        ". augmentation de la pression portale >10 mm Hg",
+        ". augmentation de la pression portale >15 mm Hg",
+        ". augmentation de la pression portale >25 mm Hg"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 2,
+      "question": "Quel est complication grave de hypertension portale (HTP)?",
+      "images": [],
+      "image": "",
+      "options": [
+        ". La splénomégalie",
+        ". L'ascite",
+        ". Les hémorragies digestives par rupture de varices œsophago-gastriques",
+        ". Thrombose portale",
+        ". Gastropathie de HTP"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 3,
+      "question": "Madame A est admis au service HGE pour hématémèse. Madame A est diagnostiqué as cirrhose depuis 5 mois. Quel est cause la plus probable ?",
+      "images": [],
+      "image": "",
+      "options": [
+        ". Rupture de varices œsophagienne",
+        ". Rupture de varices cardio-tubérositaire",
+        ". Ulcéregastro-duodénale",
+        ". Gastropathie de HTP",
+        ". Thrombopénie"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 4,
+      "question": "Quel étiologie le plus fréquence pour l'hypertension portale (HTP)?",
+      "images": [],
+      "image": "",
+      "options": [
+        ". Le Cirrhose du foie",
+        ". Syndrome de Budd-Chiari",
+        ". Schistosomiase",
+        ". Calcule intra l'hépatique",
+        ". Cancer du foie"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 5,
+      "question": "Quel moyenne pour confirmer diagnostique des hémorragies digestives par rupture de varices œsophago-gastriques ?",
+      "images": [],
+      "image": "",
+      "options": [
+        ". FOGD",
+        ". TOGD",
+        ". Sonde naso-gastrique",
+        ". Scanner abdomino-pelvienne",
+        ". Douleur l'épigastrique à la palpation"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 6,
+      "question": "Monsieur B ayant ATCD d'asthme. Quelle moyenne pour prévention primaire de la rupture de varices œsophagienne (RVO)?",
+      "images": [],
+      "image": "",
+      "options": [
+        ". L'agent bloquants les récepteurs béta-adrénergiques non cardio-sélective (propranolol)",
+        ". Ligature élastique par l'endoscopie de préventif",
+        ". L'agent bloquants les récepteurs béta-adrénergiques cardio-sélective",
+        ". Inhibiteur pompe à proton (IPP)",
+        ". Sandostatine"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 7,
+      "question": "Quel étiologie la plus fréquence des hémorragies digestives haute ?",
+      "images": [],
+      "image": "",
+      "options": [
+        ". UGD",
+        ". L'HTP",
+        ". Gastrite",
+        ". Esophagite",
+        ". Angiodysplasie gastrique"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 8,
+      "question": "Quelle physiopathologie de thrombopénie dans l'hypertension portale (HTP)?",
+      "images": [],
+      "image": "",
+      "options": [
+        ". Hypersplénisme",
+        ". Auto-immune",
+        ". Aplasie médullaire",
+        ". Insuffisance hépatocellulaire",
+        ". Augmentation de consommation"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

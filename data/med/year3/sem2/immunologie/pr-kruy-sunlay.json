@@ -1,0 +1,1932 @@
+{
+  "questions": [
+    {
+      "id": 1,
+      "question": "Citer l’organe et fluide biologique suivantes qui n’appartiennent pas à la première ligne de défense de l’organisme :",
+      "images": [],
+      "image": "",
+      "options": [
+        "- Fluide biologique du système respiratoire",
+        "- Cheveux",
+        "- Salive",
+        "-Système lacrymal",
+        "- Fluide biologique du système digestif"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 2,
+      "question": "Citer l’item qui est faux pour les caractéristiques des lymphocytes T :",
+      "images": [],
+      "image": "",
+      "options": [
+        "- Ils ont une durée de vie très courts",
+        "- Les lymphocytes T sont très peu recirculants dans le sang périphérique",
+        "- En microscopie électronique, leur membrane paraît lisse, noyau dense et cytoplasme très fin",
+        "- Dans les milieux de culture adéquats, les lymphocytes T se transforment en lymphoblastes",
+        "- ils expriment à leur surface des classes d’immunoglobulines"
+      ],
+      "correctIndex": 4
+    },
+    {
+      "id": 3,
+      "question": "Citer les cellules qui sont des cellules non auxiliaires du système immunitaire.",
+      "images": [],
+      "image": "",
+      "options": [
+        "- Keratocytes",
+        "- Mastocytes",
+        "- Cellules tumorale",
+        "- Cellules Langerhans",
+        "- Cellule dendritique"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 4,
+      "question": "Citer un item qui est faux, pour les activités de macrophage ?",
+      "images": [],
+      "image": "",
+      "options": [
+        "- Est une cellule présentatrice d'antigène",
+        "- Est capable d’absorber les pathogènes",
+        "- Est capable de tuer des bactéries",
+        "-Ne participe pas la coopération cellulaire au cours d’une réponse immunitaire",
+        "-Synthétise les chimiokines"
+      ],
+      "correctIndex": 3
+    },
+    {
+      "id": 5,
+      "question": "Parmi les propositions suivantes, indiquez celle qui est exacte ( L'histamine est :",
+      "images": [],
+      "image": "",
+      "options": [
+        "- Le produit de décarboxylation de molécules amine carboxylé",
+        "- Un vasoconstricteur puissant",
+        "- Un produit de transamination de l'histidine",
+        "- Un produit libéré lors du processus inflammatoire",
+        "- Un non stimulant des sécrétions de l'estomac"
+      ],
+      "correctIndex": 3
+    },
+    {
+      "id": 6,
+      "question": "Indiquez la réponse juste. Le thymus :",
+      "images": [],
+      "image": "",
+      "options": [
+        "- Est un organe lymphoïde primaire",
+        "- Est un organe lymphoïde secondaire ou périphérique",
+        "- Augmente de taille jusqu'à la puberté puis reste à la même volume chez le sujet âgé",
+        "-Ne permet la différenciation des lymphocytes T",
+        "- Ne contient des thymocytes dont la différenciation n’est pas contrôlée par les cellules épithéliales thymiques et les facteurs thymiques"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 7,
+      "question": "Citer la fonction de macrophage, qui est fausse :",
+      "images": [],
+      "image": "",
+      "options": [
+        "-Induction de la réponse inflammatoire",
+        "- Participe a la coopération cellulaire",
+        "-Fait la présentation de peptides aux cellules de l’immunité adaptative.",
+        "-Action non immédiate en immunité naturelle.",
+        "-Réagi à l’action des pathogènes."
+      ],
+      "correctIndex": 3
+    },
+    {
+      "id": 8,
+      "question": "Citer une caractéristique de lymphocyte B, qui est fausse:",
+      "images": [],
+      "image": "",
+      "options": [
+        "- Existe des récepteurs à l’antigène TCR sur la membrane",
+        "- Contient des molécules membranaires CD19, CD20, marqueur de lignée",
+        "- 10-15% en nombre de lymphocytes du sang périphérique",
+        "- Présente des immunoglobulines á sa surface",
+        "- Durée de vie quelques semaines"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 9,
+      "question": "Citer une caractéristique de lymphocytes T, qui est fausse :",
+      "images": [],
+      "image": "",
+      "options": [
+        "- Existe des récepteurs à l’antigène BCR sur la membrane",
+        "- Contient des molécules membranaires CD3CD4, CD3CD8",
+        "- 70-80% en nombre de lymphocytes du sang peripherique",
+        "- N’a pas des immunoglobulines á sa surface",
+        "- Durée de vie quelques semaines"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 10,
+      "question": "Citer une des caractéristiques de la fonction immunitaire de lymphocytes T CD8, qui est juste :",
+      "images": [],
+      "image": "",
+      "options": [
+        "-Reconnaissance de l’antigène spécifique présenté par le récepteur BCR",
+        "- Ne fait pas de régulation de la réponse immune.",
+        "- Fonction de cytotoxicity",
+        "- Pas de présentatrice de peptides.",
+        "-Pas de mémoire immunologique"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 11,
+      "question": "Le rôle de lymphocyte T4 ou CD4 au cours d’une réponse immunitaire, citer l’item qui est juste.",
+      "images": [],
+      "image": "",
+      "options": [
+        "Rôle cytotoxique (CTL) càd il sécrète une substance capable de lyser les organismes étrangers",
+        "Rôle de régulation au cours d’une réponse a la fois cellulaire et humorale",
+        "Lymphocytes CD4 secrètent une substance toxique qui élimine les pathogènes",
+        "Rôle d’éliminer les corps étrangers par sécrétion des lymphokines;",
+        "Rôle de présentatrice de l’antigène aux autres cellules du système immunitaire."
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 12,
+      "question": "L’item faux pour la définition de la fonction fondamentale du système immunitaire :",
+      "images": [],
+      "image": "",
+      "options": [
+        "- Reconnaître les molécules étrangères à l’organisme ;",
+        "- Définir le soi et le non soi ;",
+        "- Assurer la défense du soi et éliminer le non soi ;",
+        "- Discriminer spécifiquement et sélectivement les moléculaires étrangères et les molécules constitutives de son propre organisme.",
+        "- Stocker l’information avant de définir le soi et le non soi"
+      ],
+      "correctIndex": 4
+    },
+    {
+      "id": 13,
+      "question": "Parmi les cellules sous mentionnées, citer celles qui participent au système immunitaire par son action d’opsonisation sur l’antigène ?",
+      "images": [],
+      "image": "",
+      "options": [
+        "- Les plaquettes",
+        "- Les lymphocytes B",
+        "- Les polynucléaires neutrophiles",
+        "- Les hématies",
+        "- Les lymphocytes T"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 14,
+      "question": "Parmi les cellules sous mentionnées, citer celles qui participent au système immunitaire par son action de digestion des pathogènes ?",
+      "images": [],
+      "image": "",
+      "options": [
+        "- Les plaquettes",
+        "- Les lymphocytes B",
+        "- Les hématies",
+        "- Les macrophages",
+        "- Les lymphocytes T"
+      ],
+      "correctIndex": 3
+    },
+    {
+      "id": 15,
+      "question": "Le système immunitaire est composé de cellules spécialisées et d’effecteur moléculaire ou molécules plasmatiques, quelles sont les cellules qui ne libèrent pas les interleukines dans les organes et le sang plasmatique ?",
+      "images": [],
+      "image": "",
+      "options": [
+        "Macrophages",
+        "Cellules dendritiques",
+        "Cellules blanches du système hématopoïétique",
+        "Lymphocytes B",
+        "Hématies"
+      ],
+      "correctIndex": 4
+    },
+    {
+      "id": 16,
+      "question": "Citer une des cellules suivantes qui n’appartient pas à la population cellulaire du système immunitaire ?",
+      "images": [],
+      "image": "",
+      "options": [
+        "Monocytes/Macrophage",
+        "Lymphocytes B/T",
+        "Globules blanches",
+        "Cellules dendritiques",
+        "Cellule tumorale"
+      ],
+      "correctIndex": 4
+    },
+    {
+      "id": 17,
+      "question": "Substance ou pathogène capable de déclencher une immunogénicité ?phrase juste :",
+      "images": [],
+      "image": "",
+      "options": [
+        "-Adjuvant",
+        "-Virus Covid 19",
+        "-Morceau de pain",
+        "-Bol de riz",
+        "-L’eau"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 18,
+      "question": "Substance ou pathogène capable d’augmenter l’immunogénicité ? citer la phrase juste :",
+      "images": [],
+      "image": "",
+      "options": [
+        "-Adjuvant",
+        "-Virus Covid 19",
+        "-Morceau de pain",
+        "-Bol de riz",
+        "-L’eau"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 19,
+      "question": "Citer la phrase qui est fausse, les molécules membranaires des cellulaires de l’ immunité permet de :",
+      "images": [],
+      "image": "",
+      "options": [
+        "-Distinguer les lignées de cellules d’immunité",
+        "-Ont pour origine l’organe lymphoïde secondaire",
+        "-Distinguer des stades de différenciation de cellules d’immunité",
+        "-Indiquer une spécialisation fonctionnelle de cellules d’immunité",
+        "- Distinguer les lignées de cellules d’immunité + Ont pour origine l’organe lymphoïde secondaire"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 20,
+      "question": "Donner une réponse juste, les Monocytes/Macrophage :",
+      "images": [],
+      "image": "",
+      "options": [
+        "-Provient de l’organe lymphoïde secondaire",
+        "- N’ont pas secrété les chimiokines",
+        "- Présentent l’antigène aux lymphocytes helper CD4, ensuite lymphocytes B et T",
+        "- Ont pour rôle de cytotoxicité",
+        "-Ont pour rôle la régulation du système immunitaire"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 21,
+      "question": "Citer une phrase fausse, le siège de la réponse immunitaire s’effectue au niveau de",
+      "images": [],
+      "image": "",
+      "options": [
+        "Thymus",
+        "Ganglion lymphatique",
+        "Organes lymphoïdes uro-génitaux",
+        "Organes lymphoïdes diffuses",
+        "Organes lymphoïdes secondaires"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 22,
+      "question": "Citer l’item qui est juste, le thymus est:",
+      "images": [],
+      "image": "",
+      "options": [
+        "- Siège de différentiation des hématies",
+        "- Organe lymphoïde secondaire",
+        "- Siège de l’hématopoïèse",
+        "- Siège de différenciation de lymphocytes T",
+        "- Siège de différenciation de lymphocytes B."
+      ],
+      "correctIndex": 3
+    },
+    {
+      "id": 23,
+      "question": "Citer une phrase qui est fausse, les organes-et tissu composants du tissu lymphoïdes secondaire sont :",
+      "images": [],
+      "image": "",
+      "options": [
+        "- Ganglions lymphatiques",
+        "- Plaque de Peyer",
+        "-Thymus et moelle osseuse ;",
+        "- Cellules Langherans de la peau",
+        "- Tissu lymphoïde pulmonaire diffus."
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 24,
+      "question": "Les monocytes et les lymphocytes, citer une phrase juste :",
+      "images": [],
+      "image": "",
+      "options": [
+        "-Sont produits dans le thymus",
+        "- Incapable de migrer sur un site inflammatoire",
+        "-Sont porteurs d’immunoglobuline",
+        "-Peuvent sécréter des quantités importantes d’interleukines",
+        "-Peuvent sécréter des quantités importantes d’immunoglobulines"
+      ],
+      "correctIndex": 3
+    },
+    {
+      "id": 25,
+      "question": "Par définition le terme d’antigène désigne toute espèce moléculaire d’origine biologique ou biosynthétique qui introduit dans le milieu intérieur d’un animal (appelé hôte ou receveur), est capable de stimuler son système immunitaire.\nCiter une phrase qui est un des antigènes :",
+      "images": [],
+      "image": "",
+      "options": [
+        "- Saccharose",
+        "- Lactose",
+        "- Graisse du porc",
+        "- Lait de soja",
+        "- Virus Covid 19"
+      ],
+      "correctIndex": 4
+    },
+    {
+      "id": 26,
+      "question": "Citer la fonction immunologique de défense naturelle ou innée qui est fausse :",
+      "images": [],
+      "image": "",
+      "options": [
+        "- Assurer une réponse initiale rapide",
+        "- Permet le plus souvent d’éliminer efficacement des pathogènes",
+        "- Aide á la mise en place de réponse adaptative",
+        "-Pas de mémoire immunologique après la 2eme agression",
+        "- Assurer la défense naturelle ou innée par les lymphocytes B et T"
+      ],
+      "correctIndex": 4
+    },
+    {
+      "id": 27,
+      "question": "Citer la fonction immunologique de défense adaptative qui est fausse:",
+      "images": [],
+      "image": "",
+      "options": [
+        "- Assurer une réponse tardive lors d'une primo infection",
+        "- Réponse spécifique d’antigène",
+        "- Aide a la mise en place de réponse naturelle ou innée",
+        "-Dotée de mémoire immunologique pour la 2eme agression",
+        "- Les lymphocytes B et T assurent la défense adaptative"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 28,
+      "question": "Citer la barrière anatomique de la première ligne de défense de la réponse naturelle qui est fausse :",
+      "images": [],
+      "image": "",
+      "options": [
+        "- Peau et muqueux",
+        "- Fluides gastriques",
+        "- Poil et cheveux",
+        "-Système lacrymale",
+        "- Salive"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 29,
+      "question": "Au cours de la réponse naturelle ou innée, il est apparu lors de la réaction à l’inflammation quelques éléments, citer l’élément qui est faux :",
+      "images": [],
+      "image": "",
+      "options": [
+        "- Pâleur",
+        "- Chaleur",
+        "- Rougeur",
+        "-Douleur",
+        "- Protéine d’inflammation"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 30,
+      "question": "Au cours de la réponse naturelle ou innée, il est apparu le phénomène de phagocytose, citer l’étape qui est fausse :",
+      "images": [],
+      "image": "",
+      "options": [
+        "-Phase d’attraction ou chimiotactisme",
+        "- Phase d’adhérence",
+        "- Phase d’ingestion ;",
+        "-Phase de digestion",
+        "-Phase d’élimination"
+      ],
+      "correctIndex": 4
+    },
+    {
+      "id": 31,
+      "question": "Citer la fonction immunologique des interférons produits par lymphocytes macrophage et lymphoblastes, citer une phrase qui est fausse :",
+      "images": [],
+      "image": "",
+      "options": [
+        "- Inhibe la réplication virale",
+        "- Par dégradation de l’ARN viral",
+        "- Avoir la propriété de participer á l‘activation de l’histamine au cours d’une allergie ;",
+        "-Activation des macrophages",
+        "- Activation des lymphocytes"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 32,
+      "question": "L’immunité naturelle qui fait intervenir quelques-uns des composants cellulaires du système immunitaire. Citer une phrase qui est fausse:",
+      "images": [],
+      "image": "",
+      "options": [
+        "- Les hématies ayant pour rôle dans l’immunité naturelle",
+        "- Les macrophages ayant pour rôle dans l’immunité naturelle",
+        "- Les polynucléaires neutrophiles ayant pour rôle dans l’immunité naturelle",
+        "- Les cellules dendritiques ayant pour rôle dans l’immunité naturelle",
+        "- Les mastocytes ayant pour rôle dans l’immunité naturelle ;"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 33,
+      "question": "Citer une phrase qui est juste, une des différentes phases de la phagocytose est :",
+      "images": [],
+      "image": "",
+      "options": [
+        "- Elimination",
+        "- Adhérence",
+        "- Interférence",
+        "- Inclusion",
+        "- Libération"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 34,
+      "question": "Citer une phrase qui est fausse. Les interférons ont comme principales sources :",
+      "images": [],
+      "image": "",
+      "options": [
+        "- Les lymphocytes",
+        "- Les fibroblastes",
+        "- Les hématies",
+        "- Les macrophages",
+        "- Les lymphocytes B et T"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 35,
+      "question": "Citer les différents types de cellules mettant en jeu dans l’immunité non spécifique ou immunité naturelle ? Citer l’item juste ?",
+      "images": [],
+      "image": "",
+      "options": [
+        "- Les lymphocytes CD8",
+        "- Les lymphocytes CD4",
+        "- Les macrophage",
+        "- Les cellules tumorales",
+        "- Les plasmocytes."
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 36,
+      "question": "Citer les différents types de cellules mettant en jeu dans l’immunité spécifique type immunité cellulaires cytotoxiques ? Citer la phrase juste ?",
+      "images": [],
+      "image": "",
+      "options": [
+        "- Les lymphocytes T CD8",
+        "- Les polynucléaires neutrophiles",
+        "- Les plasmocytes",
+        "- Les cellules souches",
+        "- Les plaquettes."
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 37,
+      "question": "Citer les différents types de cellules mettant en jeu dans l’immunité spécifique type immunité humorale ? Citer la phrase juste ?",
+      "images": [],
+      "image": "",
+      "options": [
+        "-Les lymphocytes CD4",
+        "-Les polynucléaires neutrophiles",
+        "-Les lymphocytes CD8",
+        "- Les lymphocytes B",
+        "-Les plaquettes."
+      ],
+      "correctIndex": 3
+    },
+    {
+      "id": 38,
+      "question": "Citer la phrase juste. A propos des réactions allergiques dépendantes des IgE (ou hypersensibilité de type I), on peut affirmer que :",
+      "images": [],
+      "image": "",
+      "options": [
+        "- Elles entraînent des manifestions cliniques lors d'un premier contact avec l'antigène.",
+        "- Elles impliquent l'activation des macrophages.",
+        "- Elles peuvent être provoquées par la tuberculine",
+        "- Leur diagnostic fait appel à des tests de cultures de bactéries",
+        "- L'hérédité joue un rôle important dans la survenue du phénomènes allergiques"
+      ],
+      "correctIndex": 4
+    },
+    {
+      "id": 39,
+      "question": "Quelle est la proposition exacte de l'interleukine 2",
+      "images": [],
+      "image": "",
+      "options": [
+        "- Est sécrétée par des lymphocytes et monocytes",
+        "- Est une cytokine sécrétée par les mastocytes",
+        "- Est sécrétée par les monocytes présentant l'antigène",
+        "- Est activatrice des lymphocytes pro B venant de moelle",
+        "-Ne possède pas d’activités antivirales"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 40,
+      "question": "Parmi les cellules suivantes, indiquer celles qui sont le support de la \"mémoire immunologique\"?",
+      "images": [],
+      "image": "",
+      "options": [
+        "- Les lymphocytes helper CD4",
+        "- Les cellules tumorales",
+        "- Les plaquettes",
+        "- Les hépatocytes",
+        "- Les hématies"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 41,
+      "question": "Parmi les propositions suivantes une seule est exacte. Laquelle? l'immunité à médiation cellulaire peut être représenter par:",
+      "images": [],
+      "image": "",
+      "options": [
+        "-Les plaquettes",
+        "- Les lymphocytes B",
+        "- Les polynucléaires basophiles",
+        "- Les lymphocytes T CD8 cytotoxique",
+        "- Les monocytes"
+      ],
+      "correctIndex": 3
+    },
+    {
+      "id": 42,
+      "question": "Quel est le mode d’absorbation de virus Covid 19 par les êtres humains ?",
+      "images": [],
+      "image": "",
+      "options": [
+        "-Via l’aérosol par voie respiratoire",
+        "-Tenir la main avec une personne non positives par Covid 19",
+        "-Manger ensemble avec d’autres personnes non positives par Covid 19",
+        "-Soigner les malades muni de précautions ( port de gant, masque etc….)",
+        "-Fait le sport ensemble avec d’autres personnes non Covid"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 43,
+      "question": "Le rôle de lymphocyte CD4 au cours d’une réponse immunitaire, citer l’item qui est juste :",
+      "images": [],
+      "image": "",
+      "options": [
+        "- Rôle cytotoxique (CTL) càd il sécrète une substance capable de lyser les organismes étrangers ;",
+        "- Rôle de régulation au cours d’une réponse naturelle",
+        "- Rôle de régulation au cours d’une réponse à la fois cellulaire et humorale ;",
+        "- Rôle d’éliminer les corps étrangers par sécrétion des chimiokines",
+        "- Rôle de présentatrice de l’antigène aux autres cellules du système immunitaire."
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 44,
+      "question": "Citer les caractéristiques de la fonction immunitaire de lymphocytes CD4, qui est juste :",
+      "images": [],
+      "image": "",
+      "options": [
+        "-Reconnaissance de l’antigène spécifique par le récepteur BCR",
+        "- Régulation de la réponse immune á la fois cellulaire et humorale .",
+        "- Fonction effectrice.",
+        "-Présentatrice de peptides.",
+        "-Pas de mémoire immunologique"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 45,
+      "question": "Au cours de la réponse immunitaire, citer une phrase qui est juste :",
+      "images": [],
+      "image": "",
+      "options": [
+        "- Les hématies ne peuvent pas sécréter des quantités importantes de cytokines",
+        "-La réponse cellulaire T et B sont deux mécanismes totalement indépendants",
+        "-La coopération cellulaire entre CD4 et CD8 peut aboutir à une réponse immunitaire non efficace",
+        "-La cellule dendritique est un élément non réactif à l’interface entre immunité innée et adaptative",
+        "- Une interaction par coopération cellulaire est apparue entre immunité naturelle et immunité adaptative"
+      ],
+      "correctIndex": 4
+    },
+    {
+      "id": 46,
+      "question": "Fonction des cellules dendritiques ? une phrase qui est fausse ?",
+      "images": [],
+      "image": "",
+      "options": [
+        "-Prennent source dans la moelle",
+        "-Sont en première lines pour capturer les antigènes,",
+        "-Participer comme interface entre l’immunité humorale et cellulaire",
+        "-Agit en particulier avec les lymphocytes B et T",
+        "-Agit en particulier avec les hématies"
+      ],
+      "correctIndex": 4
+    },
+    {
+      "id": 47,
+      "question": "Nature chimique d’un antigène ? Citer une phrase qui est fausse ?",
+      "images": [],
+      "image": "",
+      "options": [
+        "- Protéine.",
+        "- Polysaccharides",
+        "-Polypeptides",
+        "-Acide aminé",
+        "- Acide lactique"
+      ],
+      "correctIndex": 4
+    },
+    {
+      "id": 48,
+      "question": "Citer la définition de l’épitope ou déterminant antigénique qui est fausse :",
+      "images": [],
+      "image": "",
+      "options": [
+        "Muni de structures complexes multi-épitopiques",
+        "Existe à la partie externe et interne du virus ou bactérie",
+        "Peut être utilisé pour produire des tests de diagnostic au laboratoire",
+        "Est incapable de stimuler une réponse immunitaire",
+        "Est neutralisé par les cytokines"
+      ],
+      "correctIndex": 3
+    },
+    {
+      "id": 49,
+      "question": "La définition de l’antigène et l’haptène par rapport au corps infectant. Citer l’items qui est juste :",
+      "images": [],
+      "image": "",
+      "options": [
+        "-L’antigène et l’haptène sont les constituants d’un antigène",
+        "-L ’haptène constitue tout seul le corps infectant ;",
+        "- Les macrophages présentent seul l’haptène aux autres cellules du système immunitaires.",
+        "-Les macrophages, les polynucléaires, les monocytes présentent seul l’haptène aux autres cellules du système immunitaire dans l’organe lymphoïde secondaire.",
+        "- L’antigène constitue á lui seul le corps infectant ;"
+      ],
+      "correctIndex": 4
+    },
+    {
+      "id": 50,
+      "question": "Quels sont les immunoglobulines qui apparaissent en dernier lors de la réponse immunitaire au cours d’une infection quelconque (champignon, parasites, bactéries, virus) ? Citer la phrase qui est juste :",
+      "images": [],
+      "image": "",
+      "options": [
+        "- Ig G",
+        "- Ig D",
+        "- Ig E",
+        "- Ig A",
+        "- Ig M"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 51,
+      "question": "A propos des réactions allergiques dépendantes des IgE (ou hypersensibilité de type I), on peut affirmer que :",
+      "images": [],
+      "image": "",
+      "options": [
+        "- Elles entraînent des manifestions cliniques lors d'un premier contact avec l'antigène.",
+        "- Elles impliquent l'activation des macrophages.",
+        "- Elles peuvent être provoquées par la tuberculine",
+        "- Leur diagnostic fait appel à des tests de cultures de bactéries",
+        "- L'hérédité joue un rôle important dans la survenue de l’état allergique"
+      ],
+      "correctIndex": 4
+    },
+    {
+      "id": 52,
+      "question": "Question 5- Parmi les propositions suivantes, indiquer laquelle est exacte pour les Ig D :",
+      "images": [],
+      "image": "",
+      "options": [
+        "- Sont responsables des phénomènes anaphylactiques",
+        "- Ont des fonction inconnues",
+        "- Agit spécifiquement en présence de IgM",
+        "- Sont des immunoglobulines membranaire",
+        "- Assemblage de deux chaîne lourde et deux chaîne légères"
+      ],
+      "correctIndex": 3
+    },
+    {
+      "id": 53,
+      "question": "Indiquez la réponse exacte. Le diagnostic sérologique précoce d'une infection virale repose sur la mise en évidence chez le patient :",
+      "images": [],
+      "image": "",
+      "options": [
+        "- D'un titre élevé de complément",
+        "- D'une séroconversion non spécifique",
+        "- D'une ascension significative du titre des anticorps non spécifiques",
+        "- IgM spécifiques",
+        "- IgG spécifiques"
+      ],
+      "correctIndex": 3
+    },
+    {
+      "id": 54,
+      "question": "Les immunoglobulines ou anticorps sont libérés dans l’organe lymphoïde secondaire par :",
+      "images": [],
+      "image": "",
+      "options": [
+        "- Les hématies ;",
+        "- Les lymphocytes B activés ou plasmocytes ;",
+        "- Les macrophages ;",
+        "- Les lymphocytes T activés ;",
+        "- Les polynucléaires neutrophiles"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 55,
+      "question": "Qu’est-ce que c’est qu’une mémoire immunologique du système immunitaire ? Citer l’item qui est faux ?",
+      "images": [],
+      "image": "",
+      "options": [
+        "- Capacité que les anticorps ne reconnaissent pas les antigènes après une 2ème agression",
+        "- Capacité que les anticorps et les cellules spécialisées du système immunitaire reconnaissent les antigènes à la 2ème agression",
+        "- Capacité de répondre du système immunitaire pour une 2ème agression du même antigène",
+        "- On utilise cette qualité du système immunitaire pour la vaccination",
+        "- La mémoire immunologique est assurée par les lignées B mémoires et T mémoires."
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 56,
+      "question": "Citer l’items qui est faux, les molécules d’immunoglobulines sont sécrétées dans ?",
+      "images": [],
+      "image": "",
+      "options": [
+        "Le système osseux",
+        "Les tissus",
+        "Les organes lymphoïdes secondaires",
+        "Les organes lymphoïdes diffus dans les tissus",
+        "Les systèmes sanguins"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 57,
+      "question": "Quels sont les immunoglobulines qui apparaissent en premier lieu lors de la réponse immunitaire au cours d'une infection (champignon, parasites, bactéries, virus) ? Citer l’item qui est juste :",
+      "images": [],
+      "image": "",
+      "options": [
+        "Ig M",
+        "Ig D",
+        "Ig E",
+        "Ig G",
+        "Ig A"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 58,
+      "question": "Parmi les immunoglobulines sous mentionnées, quelle sont celles qui inhibent l’adhérence des micro-organismes aux muqueuses intestinaux ?",
+      "images": [],
+      "image": "",
+      "options": [
+        "- Ig A",
+        "- Ig D",
+        "- Ig E",
+        "- Ig G",
+        "- Ig M"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 59,
+      "question": "Parmi les immunoglobulines sous mentionnées, quelles sont celles qui signent l’allergie par la présence de parasites dans l’organe humain ?",
+      "images": [],
+      "image": "",
+      "options": [
+        "- Ig A",
+        "- Ig D",
+        "- Ig E",
+        "- Ig G",
+        "- Ig M"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 60,
+      "question": "Les immunoglobulines de surface du lymphocyte B ont un rôle spécifique, citer la phrase juste dans:",
+      "images": [],
+      "image": "",
+      "options": [
+        "-La reconnaissance de l’antigène",
+        "-La dégranulation du basophile",
+        "-L`activation du polynucléaire basophile",
+        "-L’activation des hématies",
+        "-L’activation de l’histamine"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 61,
+      "question": "Citer la définition juste des anticorps monoclonaux ?",
+      "images": [],
+      "image": "",
+      "options": [
+        "-Anticorps reconnaissent plusieurs épitopes sur un antigène donné.",
+        "- Anticorps ne reconnaissant qu'un seul type déterminant antigénique pour un antigène donné.",
+        "- Anticorps reconnaissent deux types épitopes sur un antigène donné.",
+        "- Anticorps reconnaissent trois types épitopes sur un antigène donné.",
+        "-Anticorps reconnaissent quatre types épitopes sur un antigène donné"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 62,
+      "question": "Au cours d’une réponse antigénique B, suite à la phase de prolifération, des lymphocytes B mémoires sont formés et laissés dans le site de l’inflammation. Est-ce qu’à ce moment-là, les 5 classes d’immunoglobulines de surface existent-elles sur les membranes de cellules B mémoires ?",
+      "images": [],
+      "image": "",
+      "options": [
+        "-Il n’existe pas des immunoglobulines de surfaces car ce sont des lymphocytes aux stades de prolifération qui est sous des stress par des IL6 et IFN puis qui deviennent des cellules mémoires ;",
+        "- Il doit exister normalement comme tous les lymphocytes B, les 5 classes d’immunoglobulines membranaires ;",
+        "- Il existe seulement une seule classe Ig M sur les membranes de lymphocytes B mémoire;",
+        "- Ils existent deux classes IgM et IgG",
+        "- On ne peut pas savoir"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 63,
+      "question": "Le terme suivant va designer la capacité de molécules qui sont immunogènes, citer une phrase juste ?",
+      "images": [],
+      "image": "",
+      "options": [
+        "-Haptène est capable de produire des anticorps tout seul",
+        "- Capacité d’induire la production des anticorps par des molécules immunogènes ;",
+        "- Capacité de poussière d’induire la production des anticorps",
+        "-Capacité immunogènes non cités pour les acides gras",
+        "- On ne peut pas savoir sur les molécules inertes"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 64,
+      "question": "Fonction importante d’immunoglobuline G, citer la phrase juste ?",
+      "images": [],
+      "image": "",
+      "options": [
+        "-Pas de Défense anti-infectieux",
+        "-Fonction immuno- modulatrice ;",
+        "-Non élimination d’antigène",
+        "- Fonction de coopération avec l’antigène",
+        "- On ne peut pas savoir"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 65,
+      "question": "Citer l’origine des IgA qui n’est pas juste ?",
+      "images": [],
+      "image": "",
+      "options": [
+        "-Dans le colostrum",
+        "-Dans les secrétions digestives",
+        "-Dans les salives",
+        "-Dans les larmes",
+        "- Dans les urines"
+      ],
+      "correctIndex": 4
+    },
+    {
+      "id": 66,
+      "question": "Pour induire l’hypersensibilité il faut que les récepteur Fc (fragment constant) spécifique de IgE se sont liés avec les basophiles et les mastocytes, citer qui n’est pas juste ?",
+      "images": [],
+      "image": "",
+      "options": [
+        "-Pas besoin de cette liaison car la dégranulation de l’histamine se fait de façon automatique",
+        "-La dégranulation est immédiate à partir de cytoplasme de basophile",
+        "-Lors d’une quantité très petite de IgE cette hypersensibilité se produit quand même",
+        "- La dégranulation est immédiate à partir de cytoplasme de basophile + Lors d’une quantité très petite de IgE cette hypersensibilité se produit quand même",
+        "- Les histamines et autres substances qui induire l’allergies sont déposés dans le site inflammatoire"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 67,
+      "question": "Dans l’histoire naturelle de l’évolution de la maladie HIV/SIDA. Citer les différentes étapes de la maladie ? Cocher la phrase juste ?",
+      "images": [],
+      "image": "",
+      "options": [
+        "- Phase asymptomatique, puis phage symptomatique qui témoigne la détérioration progressive de la charge virale en SIDA déclaré",
+        "- Phase de traitement par les anti-diarrhéiques.",
+        "-Phase de traitement par des médicaments antirétroviraux",
+        "-Phase de traitement par les antituberculeux",
+        "-Phase de traitement par les antibiotiques anti-méningites."
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 68,
+      "question": "Citer les différentes infections couramment associées à des infections à VIH au Cambodge, citer la phrase juste ?",
+      "images": [],
+      "image": "",
+      "options": [
+        "- Les diarrhées",
+        "- Les douleurs abdominales",
+        "- Les vomissements",
+        "- Les céphalées",
+        "- Les douleurs de la jambe"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 69,
+      "question": "Citer la phrase juste, chez un patient atteint de SIDA, on constate souvent, lors du bilan clinique :",
+      "images": [],
+      "image": "",
+      "options": [
+        "Adénopathies bilatérales á toutes les ganglions corporelles",
+        "Dermatoses comme Malasseza furfural",
+        "Polynucléose",
+        "Leucopénie",
+        "Thrombopénie"
+      ],
+      "correctIndex": 3
+    },
+    {
+      "id": 70,
+      "question": "Quel est le mode principal de transmission du SIDA observé au Cambodge ?",
+      "images": [],
+      "image": "",
+      "options": [
+        "- Au cours d’une opération chirurgicale",
+        "- Par utilisation de seringues répétées des drogués",
+        "- Transmission de mère á l’enfance",
+        "- Utilisation des dons de sang contaminé",
+        "- Mode de transmission par voie hétérosexuelle ."
+      ],
+      "correctIndex": 4
+    },
+    {
+      "id": 71,
+      "question": "Parmi les items suivants, la phrase qui est un des modes de transmission du VIH ?",
+      "images": [],
+      "image": "",
+      "options": [
+        "- Piqûre d’un moustique ;",
+        "- Manger ensemble avec un malade VIH positif ;",
+        "- Rapports sexuels par voie anale ;",
+        "- Participation à un dîner ensemble avec les personnes séropositives ;",
+        "- Parler avec une personne séropositive."
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 72,
+      "question": "L’infection du VIH s’accompagne d’apparition dans le sérum du malade des anticorps dirigés contre l’ensemble des épitopes du virus, quelles sont vos recommandations lorsqu’une personne se présente pour se faire dépister de l’infection du SIDA, citer un seul item juste.",
+      "images": [],
+      "image": "",
+      "options": [
+        "Faire une sérologie de dépistage en utilisant un test immuno-enzymatique et donner les résultats positifs ou négatifs",
+        "Faire un test de confirmation par Western Blot",
+        "- Recommander un test de numération de lymphocytes CD4",
+        "- Faire une sérologie de dépistage en utilisant un test immuno-enzymatique et si le résultat est négatif demander de faire un autre test au bout de trois mois et de demander de s’abstenir de tout contact infectant",
+        "-Recommander un test de dépistage en parallèle à un test de numération des lymphocytes CD4"
+      ],
+      "correctIndex": 3
+    },
+    {
+      "id": 73,
+      "question": "Le traitement par les médicaments antiviraux des hépatites C (HCV) et le traitement des malades Covid 19 par Molnupiravir ou Paxlovid, se sont bien se passer et par de rechute. Les malades séropositives de l’infection du VIH est traité par les médicaments ARV (antirétroviral) á vie, pourquoi ce traitement doit durer toute la vie de la personne séropositive ? citer une phrase qui est fausse",
+      "images": [],
+      "image": "",
+      "options": [
+        "-Parce que les virus VIH se cachent dans les sanctuaires comme les cellules de la rétine et les cellules de la verge de l’homme et les antirétroviraux ne traversent pas ces barrières.",
+        "-La charge virale doit être faite tout les fois pour étudier la résistance aux antirétroviraux et accéder au traitement antirétroviral de 1ere ligne",
+        "Si la charge virale et fait et on voir que le nombre de virus a diminué, on doit procéder au traitement antirétroviral du 2eme ligne",
+        "-Le test de numération de lymphocytes CD4 est aussi fait pour voir l’efficacité de traitement antirétroviral;",
+        "-Recommander un test de dépistage en parallèle à un test de numération des lymphocytes CD4."
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 74,
+      "question": "Citer ci- après les analyses pour le suivi au cours de l’infection à VIH qui permet aux médecins de prendre une décision á donner les antirétroviraux chez un malade. Citer l’item juste :",
+      "images": [],
+      "image": "",
+      "options": [
+        "Technique d’agglutination de particules de latex sensibilisée",
+        "Technique d’immuno-enzymatique ou ELISA",
+        "Technique de numération des lymphocytes T CD4",
+        "Technique de confirmation par Western Blot",
+        "Technique de la charge virale par PCR en temps réel"
+      ],
+      "correctIndex": 4
+    },
+    {
+      "id": 75,
+      "question": "Le portages de certain micro-organisme habituellement est commensal chez les cas humains, ces micro-organisme sont devenus virulent chez les malades VIH séropositives, citer un micro-organismes connus pour cette propriété retrouvée chez les Cambodgiens:",
+      "images": [],
+      "image": "",
+      "options": [
+        "Criptosporium spp",
+        "Virus respiratoire H1N1",
+        "Virus Covid 19",
+        "Virus Covid 19 Delta",
+        "Staphylococcus aureus"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 76,
+      "question": "Dans le cadre de diagnostics directes des infections à VIH, des techniques extrêmement différents et compliqués ont été mise au point, citer l’item faux :",
+      "images": [],
+      "image": "",
+      "options": [
+        "- Diagnostic précoce de l’antigénémie p=24;",
+        "-La charge virale par PCR (polymérase de chaine réaction).",
+        "-La culture du virus dans des laboratoires spécialisés",
+        "-La détection de l’antigénémie gp120",
+        "- La culture du virus dans des laboratoires spécialisés + La détection de l’antigénémie gp120"
+      ],
+      "correctIndex": 4
+    },
+    {
+      "id": 77,
+      "question": "Au cours de la phase asymptomatique de l’infection à VIH, est ce qu’on peut détecter les anticorps dans le sérum du malade ? citer l’item faux :",
+      "images": [],
+      "image": "",
+      "options": [
+        "- On ne peut pas trouver des anticorps, car le malade n’a pas de signes cliniques",
+        "- On peut trouver des anticorps même s’il n’y aura pas de signes cliniques.",
+        "-On peut toujours détecter des anticorps dans le sérum du malade même si le malade est dans sa période asymptomatique ;",
+        "-A partir de 2-8 semaines de contact infectant les anticorps sont détectables dans le sérum malade ;",
+        "- On peut détecter seulement l’antigénémie p=24."
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 78,
+      "question": "Au cours de cycles de réplication des virus VIH, quelques étapes se reproduits essentiellement, citer une étape qui est fausse :",
+      "images": [],
+      "image": "",
+      "options": [
+        "- Etapes de reconnaissances",
+        "Etapes d’attachement se faisant a partir de glycoprotéine membranaire gp120 du virus avec les protéines membranaires CD4 de lymphocytes CD4",
+        "-Etapes de synthèse d’ADN viral double brins à partir d’ARN simple brin du virus, cet évènement est possible grâce à l’activité de polymérase et Rnase de l’enzymes de la transcriptase inverse",
+        "-Etape de production ADN proviral en ARN génomique et ARN messager gràce à l’enzyme l’intégrase",
+        "-Etape de destruction de protéines de structure des virus."
+      ],
+      "correctIndex": 4
+    },
+    {
+      "id": 79,
+      "question": "A l’histoire naturelle de l’infection par VIH, des évolution cliniques différentes sur des personnes séropositives ont été observés ? citer l’item faux :",
+      "images": [],
+      "image": "",
+      "options": [
+        "- Une période de primo-infection qui suit le contact infectant traduisant par un symptôme évocateur ou non évocateur, soit par une absence de toutes symptômes",
+        "-Une période de latence clinique silencieux qui dure plusieurs années, qui est accompagnée au contraire d’un épuisement progressif du système immunitaire",
+        "Une période symptomatique qui témoigne la détérioration progressive de la charge virale",
+        "Une période aucune signes cliniques qui dure 6 mois depuis le contact infectant"
+      ],
+      "correctIndex": 3
+    },
+    {
+      "id": 80,
+      "question": "Le contact avec des fluides biologiques de malades séropositives peut transmettre le virus VIH, certain contact indirect peut éviter la transmission par VIH citer l’item juste :",
+      "images": [],
+      "image": "",
+      "options": [
+        "Contact avec les salives de malades",
+        "Contact avec les larmes de malades",
+        "Contact avec les secrétions digestive de malades",
+        "Contact avec le vêtement de malades après lavage et séchage",
+        "-Contact avec les sécrétions respiratoires de malades"
+      ],
+      "correctIndex": 3
+    },
+    {
+      "id": 81,
+      "question": "Actuellement au Cambodge le SIDA atteint un niveau de transmission très élevé, parmi les groupes importants sous cités, quels sont les groupes les plus exposés à l’infection VIH ?",
+      "images": [],
+      "image": "",
+      "options": [
+        "Etudiants",
+        "Militaires",
+        "Policiers",
+        "Prostituées",
+        "Femmes enceintes"
+      ],
+      "correctIndex": 3
+    },
+    {
+      "id": 82,
+      "question": "En tant que médecin quelles sont vos attitudes à l’égard d’un malade séropositif par VIH /SIDA qui est venu pour une consultation des infections opportunistes à votre cabinet ?",
+      "images": [],
+      "image": "",
+      "options": [
+        "Ne lui donne pas la consultation médicale, plutôt le recommander vers un centre spécialisé",
+        "Lui demande de quitter mon cabinet médical immédiatement ;",
+        "Lui demande d’aller voir un autre confrère médical ;",
+        "Lui donne la consultation en prenant la précaution du métier médical avec le port du gant",
+        "Lui donne une consultation médicale sans le port du gant ;"
+      ],
+      "correctIndex": 3
+    },
+    {
+      "id": 83,
+      "question": "La vaccination est considérée comme exempte d’accidents ou d’incidents, citer une phrase juste.",
+      "images": [],
+      "image": "",
+      "options": [
+        "-On a eu des cas méningites qui ont augmenté lors de la vaccination mondiale massive de la rougeole",
+        "-On n’a pas eu d’incidence pour la vaccination de l’hépatite B",
+        "-On a eu de très faible incidence sur la vaccination de la variole",
+        "-On a eu des vaccins qui sont sans effets pour la vaccination de l’hépatite B à cause de chaîne de froid non respecté",
+        "-La vaccination de Covid 19 ont des essais vaccinaux qui n’est pas efficace"
+      ],
+      "correctIndex": 3
+    },
+    {
+      "id": 84,
+      "question": "Dans le monde entier quelques maladies ont été déjà éradiquée de la surface du globe par la vaccination massive, citer la phrase juste.",
+      "images": [],
+      "image": "",
+      "options": [
+        "- La variole, la poliomyélite et la rougeole ont été déjà éradiquée de la surface de la terre",
+        "-La tuberculose est déjà éradiquée de la surface de la terre",
+        "-Les fièvres typhoïdes sont aussi déjà éradiquées",
+        "-Aucune maladie infectieuse n’est pas encore éradiquée de surface du globe terrestre",
+        "-Fièvres jaune et les dengues sont éradiquée de la surface de la terre"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 85,
+      "question": "La modalité de vaccination augmente l’effet vaccinal des vaccins, citer la phrase juste",
+      "images": [],
+      "image": "",
+      "options": [
+        "-La modalité de la vaccination conditionne l’effet de vaccin poliomyélitique qui est fait à la fois par injection et par voie orale",
+        "- La modalité de la vaccination conditionne l’effet de vaccin poliomyélitique par l’avantage sur le mode l’ingestion per os non pas par injection",
+        "-Une vaccination contre le virus respiratoire aurait plus de chance d’être efficace si elle est administrée par nébulisation plutôt que par injection",
+        "-La vaccination de la poliomyélite réalisée par un virus inactivé injectable donnera une protection digestive beaucoup plus faible mais une réponse essentiellement humorale (IgM puis IgG)",
+        "-La vaccination de la poliomyélite réalisée par voie orale donne une protection efficace en développant une réponse anticorps muqueuse IgA qui neutralise le virus dans le tube digestif par lequel il pénètre (entérovirus)"
+      ],
+      "correctIndex": 4
+    },
+    {
+      "id": 86,
+      "question": "Au centre de traitement antirabique, un patient est atteint de blessure graves des extrémités (tête, jambe et bras) par un chien, citer la phrase le plus juste :",
+      "images": [],
+      "image": "",
+      "options": [
+        "-On pratique la vaccination antirabique toute seule à 2 injections á J0, 2 injections à J3, et 2 injections à J7",
+        "- On pratique la vaccination antirabique et la sérothérapie antirabiques",
+        "- On pratique la vaccination antirabique, la sérothérapie antirabiques, et le vaccin de tétanos",
+        "- On pratique la vaccination antirabique, la sérothérapie antirabiques, le vaccin de tétanos et le sérum antitétanique",
+        "-On n’a pas besoin de ces vaccinations car le chien est déjà vacciné"
+      ],
+      "correctIndex": 3
+    },
+    {
+      "id": 87,
+      "question": "La définition de la vaccination, citer la phrase fausse :",
+      "images": [],
+      "image": "",
+      "options": [
+        "- Elle consiste à stimuler chez l’individu les mécanismes de défense humorale et cellulaire dirige contre la maladie á laquelle le vaccin est produit pour la protéger",
+        "- Elle consiste à stimuler chez l’individu les mécanismes de défense humorale toute seule dirige contre la maladie laquelle le vaccin est produit pour la protéger",
+        "- Cette protection par la vaccination est au minimum plusieurs mois et souvent plusieurs années",
+        "-La vaccination est appelé immunothérapie active",
+        "- Elle confère donc une protection qui n’est pas immédiate mais qui est en générale durable"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 88,
+      "question": "Rôle prioritaire de la vaccination en tant qu’être humain, citer la phrase juste",
+      "images": [],
+      "image": "",
+      "options": [
+        "- Priorité pour la vaccination est pour les personnes en bas âge seulement",
+        "-Protection individuelle indirecte",
+        "-Protection durable à vie pour toutes les maladies infectieuses",
+        "-Une protection durable à vie pour la tuberculose",
+        "-Protection à titre individuel direct"
+      ],
+      "correctIndex": 4
+    },
+    {
+      "id": 89,
+      "question": "Rôle prioritaire de la vaccination par rapport á l’âge de l’individu, citer la phrase fausse :",
+      "images": [],
+      "image": "",
+      "options": [
+        "- L’immunothérapie active est donc préventive",
+        "- l’immunothérapie passive peut-être préventive et/ou curative.",
+        "- La vaccination est prioritaire pour les personnes âgées seulement",
+        "-Protection durable à vie pour certaines maladies infectieuses comme la rougeole",
+        "- Les deux thérapeutiques active et passive peuvent être utilement associés."
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 90,
+      "question": "Dans la vaccination anti-poliomyélite, il existe actuellement deux types de vaccins, vaccin par voie orale et vaccin injectable, quels sont vos recommandations ? citer la phrase la plus juste :",
+      "images": [],
+      "image": "",
+      "options": [
+        "- Les Ig A produisent par les vaccins utilisé par voie orale, sont insuffisantes pour inhiber les adhérences des virus poliomyélites aux parois des intestins.",
+        "- L’utilisation des vaccins antipoliomyélites par voie injectable est trop douloureuse.",
+        "- Il faut utiliser à la fois le vaccin par voie oral et vaccin injectable, car il pourrait rester des virus qui échappent aux vaccins par voie orale, le vaccin injectable pourrait inhiber les virus lors de son passage du sang vers le système nerveux",
+        "- L’utilisation des vaccins par voie orale est recommandée seule.",
+        "- L’utilisation des vaccins par voie injectable est recommandée seule"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 91,
+      "question": "Est-ce l’association des vaccins affecte ses efficacités ? Citer un items qui est juste :",
+      "images": [],
+      "image": "",
+      "options": [
+        "-Oui parce que, les particules composantes des différents vaccins seront en quantité moins importante.",
+        "- Association altère les antigènes microbiens et viraux.",
+        "- Association augmente le coût des vaccins.",
+        "- Association augmente le nombre d’injection.",
+        "- Association rajoute effet adjuvant de certains vaccins."
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 92,
+      "question": "Au Cambodge, pour le Programme Elargi de Vaccination du Ministère de Santé, la vaccination pour les enfants est gratuite, quels sont les vaccins qui sont utilisés. Citez le paragraphe qui est juste ?",
+      "images": [],
+      "image": "",
+      "options": [
+        "-Vaccins : Poliomyélite, Coqueluche, Tétanos, Rougeole, Diphtérie, Hépatite B, BCG.",
+        "-Vaccins : Poliomyélite, Coqueluche, Tétanos, Rougeole, Diphtérie, Encéphalite japonaise B, antityphoïde,",
+        "-Vaccins : Poliomyélite, Coqueluche, Tétanos, Rougeole, Diphtérie, Hépatite B, BCG,",
+        "-Vaccins : Poliomyélite, Coqueluche, Tétanos, Rougeole, Vaccin antiménin-gococcique, BCG, Antirabique.",
+        "- Vaccins : Poliomyélite, Coqueluche, Tétanos, Rougeole, Diphtérie, BCG, Encéphalites japonaises B, Hépatite B,"
+      ],
+      "correctIndex": 4
+    },
+    {
+      "id": 93,
+      "question": "Les vaccins contre les tétanos, botulismes, diphtéries, sont des vaccins idéaux, d’une efficacité largement démontrée et d’une innocuité absolue. Il s‘agit d’exotoxines bactériennes qui, traitées par la chaleur et des procédés chimiques, ont perdu toute toxicité en conservant intacte leur antigénicité. Citer un item qui est juste :",
+      "images": [],
+      "image": "",
+      "options": [
+        "- le virus vaccinal responsable après inoculation dermique d’une lésion cutané bénigne protégeant par antigénicité croisé contre la variole",
+        "- Le virus vaccinal est un virus atténué par des produits comme alcool ou propiolactone",
+        "- Le virus vaccinal est un virus atténué par du phénol",
+        "- Ces vaccins utilisent les exotoxines bactériennes comme principes actifs pour produire le vaccin",
+        "- Le vaccin utilise les fractions antigéniques les plus petites possibles combinées á un support qui joue le rôle adjuvant."
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 94,
+      "question": "On tend actuellement à isoler des fractions antigéniques les plus petits possibles. Le vaccin contre l’hépatite B récemment mis au point est l’exemple d’un antigène de surface produits par génie génétique. Ils utilisent une cellule animale ou une levure pour production de l’antigène vaccinale, ils sont appelés vaccins recombinants, utilisant un procédé chimique (formol etc…) pour la production. Citer la phrase juste :",
+      "images": [],
+      "image": "",
+      "options": [
+        "- le virus vaccinal responsable après inoculation dermique d’une lésion cutané bénigne protégeant par antigénicité croisé contre la variole",
+        "- Le virus vaccinal est un virus atténué par des produits comme alcool ou propiolactone",
+        "- Le virus vaccinal est un virus atténué par du phénol",
+        "- Ces vaccins utilisent l’exotoxine bactériennes comme principe actif pour produire le vaccin",
+        "-Le vaccin utilise les fractions antigéniques HBs les plus petits possibles puis la souche vaccinale est reproduite par recombinaison génétique, puis on utilise un procédé chimique pour inactiver et produire les vaccins"
+      ],
+      "correctIndex": 4
+    },
+    {
+      "id": 95,
+      "question": "Les vaccins entier inactivés, atténués ou tués, il peut s’agir de bactéries (de la typhoïde) ou de virus dits « inactivés » (grippal). Ces vaccins offrent une réponse immunitaire moindre que les vaccins vivants atténués et ont souvent besoin de rappels. Citer un item qui est juste :",
+      "images": [],
+      "image": "",
+      "options": [
+        "- le virus vaccinal responsable après inoculation dermique d’une lésion cutané bénigne protégeant par antigénicité croisé contre la variole",
+        "- Le virus vaccinal est un virus atténué par des produits chimiques comme alcool ou propiolactone",
+        "- Le virus ou bactérie utilisé pour produire le vaccin sont des virus ou des bactéries tuées inactivées par des procédés chimiques (chaleur, formol, phénol ect..)",
+        "- Ces vaccins utilisent l’exotoxine bactériennes comme principe actif pour produire le vaccin",
+        "-Le vaccin utilise les fractions antigéniques les plus petites possibles combinées á un support qui joue le rôle adjuvant"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 96,
+      "question": "Pour le premier vaccin dirigé contre la variole, c’est un vaccin provenant d’une souche du germe pathogène qui est peu pathogène par lui-même. Citer un item qui est juste ?",
+      "images": [],
+      "image": "",
+      "options": [
+        "- le virus vaccinal responsable après inoculation dermique d’une lésion cutané bénigne protégeant par antigénicité croisé contre la variole",
+        "- Le virus vaccinal est un virus atténué par des produits chimiques comme alcool ou propiolactone",
+        "- Le virus vaccinal est un virus atténué par du phénol",
+        "- Le vaccin utilise l’anatoxine comme principe actif pour produire le vaccin",
+        "- Le vaccin utilise les fractions antigéniques les plus petites possibles combinées á un support qui joue le rôle adjuvant."
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 97,
+      "question": "Définition du Complexe Majeur Histocompatibilité, citer la phrase juste :",
+      "images": [],
+      "image": "",
+      "options": [
+        "- Ce sont les fonctions immunologiques des tissus par sa capacité de compatibilité tissulaire lors de la transplantation d’un organe avec un autre organe.",
+        "-Capacité de manifester l’histocompatibilité seule avec les molécules CMH II de cellules cibles infectées ;",
+        "-Capacité de manifester l’histocompatibilité seule avec les molécules CMH I de cellules cibles infectées ;",
+        "-Capacité de manifester l’histocompatibilité seule avec les virus et des cellules cibles infectées",
+        "- Capables de lyser les cellules cibles infectées ;"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 98,
+      "question": "Citer la phrase juste sur la localisation du système HLA ou le système du Complexe Majeur d’Histocompatibilité (CMH) chez l’homme est :",
+      "images": [],
+      "image": "",
+      "options": [
+        "- Parmi les 23 paires de chromosomes humains, les systèmes de complexe majeur histocompatibilité CMH1, CMH2, et CMH3 sont localisé dans le chromosome no 6 ;",
+        "- Parmi les 23 paires de chromosomes humains, les systèmes de complexe majeur histocompatibilité CMHI, CMHII, et CMHIII sont localisé dans le chromosome no 6, sur le bras court du chromosome",
+        "- les systèmes de complexe majeur histocompatibilité CMH1, CMH2, et CMH3 sont localisé dans le chromosome no 6, sur le bras court et long du chromosome ;",
+        "-les systèmes de complexe majeur histocompatibilité CMH1, CMH2, et CMH3 sont localisé sur le chromosome no 6, sur le bras long du chromosome ;",
+        "- Parmi les 23 paires de chromosomes humains, les systèmes de complexe majeur histocompatibilité CMH1, CMH2, et CMH3 sont localisé dans le chromosome no5 ;"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 99,
+      "question": "Citer la phrase juste á l’organisation du système HLA ou le système du Complexe Majeur d'Histocompatibilité dans le chromosome humain est :",
+      "images": [],
+      "image": "",
+      "options": [
+        "- Une région codée dans un segment chromosomique á une longueur non spécifiée à l’intérieur duquel le au moins un locus est déterminé.",
+        "- Une région codée dans un segment chromosomique à longueur non spécifié",
+        "-Une région non codée dans un segment chromosomique à longueur non spécifié ;",
+        "-Une région non codée dans un segment chromosomique à longueur infinie",
+        "-Rien de vrai dans les phrases en dessus"
+      ],
+      "correctIndex": 4
+    },
+    {
+      "id": 100,
+      "question": "Citer la phrase juste sur les antigènes CMH du système du Complexe Majeur d'Histocompatibilité chez les souris :",
+      "images": [],
+      "image": "",
+      "options": [
+        "-Les gènes CMHI code pour les antigènes de surface cellulaire identique aux gènes de réponse immunitaire",
+        "-Les gènes CMHI et CMHIII codent pour les antigènes de surface cellulaire identique aux gènes de réponse immunitaire",
+        "-Les gènes CMHII code pour les antigènes de surface cellulaire identique aux gènes contrôlant la réponse immunitaire de la souris à différentes antigènes ;",
+        "-Capacité de gènes de manifester la spécificité seule avec les virus et des cellules cibles infectées",
+        "- Capacité de gènes de manifester la double spécificité à la fois avec les virus et les molécules CMH I des cellules cibles infectées."
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 101,
+      "question": "Dans une réponse cellulaire, quelles sont les fonctions immunologiques des cellules cytotoxiques, citer une phrase fausse :",
+      "images": [],
+      "image": "",
+      "options": [
+        "-Capacité de manifester la spécificité seule avec les molécules CMH I de cellules cibles infecté",
+        "- Capacité de manifester la spécificité seule avec les molécules CMH II de cellules cibles infectées ;",
+        "- Capables de lyser par toxicité les cellules cibles infectées",
+        "- Capacité de manifester la spécificité seule avec les virus et des cellules cibles infectées ;",
+        "- Capacité de manifester la double spécificité à la fois avec les virus et les molécules CMH I des cellules cibles infectées."
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 102,
+      "question": "Cocher la réponse fausse. Les marqueurs suivants sont présents sur les lymphocytes B matures :",
+      "images": [],
+      "image": "",
+      "options": [
+        "- Récepteurs pour le complément",
+        "- Molécules de complément",
+        "- Récepteur TCR",
+        "- Toutes les classes des immunoglobulines",
+        "- Molécules de CMH"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 103,
+      "question": "Citez la phrase qui est fausse, les molécules CMH I souvent représentés abondamment sur ?",
+      "images": [],
+      "image": "",
+      "options": [
+        "-Les membranes des macrophages",
+        "- Les membrane des hématies",
+        "- Les membrane externe de la rate",
+        "- Les membranes des monocytes",
+        "- Au niveau des cellules blanches"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 104,
+      "question": "Citez l’item qui est juste, les molécules CMH III représentent les composants d’activation de compléments ?",
+      "images": [],
+      "image": "",
+      "options": [
+        "- Les gènes de la classe II ou CMH II codent pour plusieurs composants de l'étape d'activation de la cascade du complément",
+        "- Les gènes de la classe III ou CMH III codent pour plusieurs composants de l'étape d'activation de la cascade du complément",
+        "- Les gènes de la classe I ou CMH-I codent pour plusieurs composants de l'étape d'activation de la cascade du complément",
+        "- Les gènes de la classe I et II codent pour plusieurs composants de l'étape d'activation de la cascade du complément",
+        "- Les gènes de la classe II et III codent pour plusieurs composants de l'étape d'activation de la cascade du complément"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 105,
+      "question": "Selon vous, une vieille personne de 60 ans peut-elle reçoit un don d’organe dans un greffe de rein d’une personne d’environ 30 ans ? Citer l’items juste :",
+      "images": [],
+      "image": "",
+      "options": [
+        "- C’est possible quand les CMH I sont compatibles et CMHII sont non compatibles ;",
+        "- C’est possible quand le Complexe Majeurs d’Histocompatibilité sont compatibles, même si les cellules du donneurs et receveurs sont les une immunocompétence et l’autre immuno-incompétences ;",
+        "- Incapacité de recevoir un don d’organe dont l’immunocompétence est plus exprimée chez le donneur que chez le receveur",
+        "-Il va avoir seulement un phénomène de Graft Versus Host Réaction ou GVHR par une hypertrophie d’organe seul.",
+        "-Il ne va pas avoir un phénomène de GVHR par une hypertrophie d’organe à la mort de receveur."
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 106,
+      "question": "Dans une réponse antigénique B, les cellules Th2 recruté et activé par la cellules présentatrices de l’antigène ayant sur sa surface des molécules de peptide porté par le CMH, quelle est la fonction immunologique de cellules Th2, citer la phrase juste",
+      "images": [],
+      "image": "",
+      "options": [
+        "- Capacité de libérer les molécules plasmatiques IL4, IL5, IL10, IL15 qui activer la différenciation et la prolifération des lymphocytes B en plasmocytes capable de libérer les anticorps ;",
+        "-Capacité de manifester la spécificité seule avec les molécules CMH avec les cellules cibles infectées ;",
+        "-Capacité de manifester la spécificité seule avec les molécules du complément, des cellules cibles infectées ;",
+        "- Capacité de manifester la double spécificité à la fois avec les virus et les molécules CMH, des cellules cibles infectées",
+        "-Capacité de manifester la spécificité seule avec les virus des cellules cibles infectées"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 107,
+      "question": "Dans une réponse antigénique T, les cellules Th1 recruté et activé par la cellule présentatrice de l’antigène ayant sur sa surface des molécules de peptide porté par le CMH, quelle est la fonction immunologique de cellules Th1, citer la phrase juste :",
+      "images": [],
+      "image": "",
+      "options": [
+        "-Capacité de manifester la spécificité seule avec les virus des cellules cibles infectées",
+        "-Capacité de manifester la spécificité seule avec les molécules CMH des cellules cibles infectées ;",
+        "-Capacité de manifester la spécificité seule avec les molécules du complément, des cellules cibles infectées ;",
+        "- Capacité de manifester la double spécificité à la fois avec les virus et les molécules CMH, des cellules cibles infectées.",
+        "- Capacité de libérer les molécules plasmatiques interféron gamma qui activent la prolifération des lymphocytes T CD8 mature en lymphocytes T CD8 cytotoxique capable de lyser les virus de cellules infectés"
+      ],
+      "correctIndex": 4
+    },
+    {
+      "id": 108,
+      "question": "Dans le système immunitaire les gènes qui commandent la réponse immunitaire sont localisés dans le chromosome 6, c’est l’immunocompétence des molécules de complexes majeurs d’histocompatibilités CMHI-CMHII et CMHIII, citer la phrase juste :",
+      "images": [],
+      "image": "",
+      "options": [
+        "- Tout au début du processus c’est que sur les membranes de cellules présentatrice de l’antigène (CPA), les molécules CMH commencent á présenter les peptides antigéniques en provenant de la dégradation des pathogènes á des autres cellules immunocompétentes du système immunitaire .",
+        "- La fin du processus c’est que sur les membranes de cellules présentatrice de l’antigène, les molécules CMH commencent á présenter les peptides antigéniques provenant de la dégradation des pathogènes á des autres cellules immunocompétentes du système immunitaire.",
+        "-Au milieu de processus c’est que sur les membranes de cellules présentatrice de l’antigène, les molécules CMH commencent á présenter les peptides antigéniques en provenant de la dégradation des pathogènes á des autres cellules immunocompétentes du système immunitaire",
+        "- Ces gènes CMH participent á la modulation et la régulation de la réponse immune.",
+        "-Ces gènes CMH participent á la fonction effectrice des lymphocytes TCD8."
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 109,
+      "question": "Les applications de connaissance du système HLA ou (CMH), citer la phrase fausse",
+      "images": [],
+      "image": "",
+      "options": [
+        "-En médecine : Transplantation, association HLA-maladie,",
+        "-Détection d'immunisation HLA avant transplantation ou transfusion.",
+        "-Epreuve de compatibilité avant transplantation (cross-match), greffe de moelle entre donneur apparentés ou non apparentés",
+        "- Expertise en paternité",
+        "-Détection l’incapacité de système HLA á apparaitre sur les membranes cellulaires"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 110,
+      "question": "Des études de CMH chez les souris permettent de démontrer qu’ils existent 3 classes ou familles de molécules désignées par I, II et III. Citer la phrase qui est fausse",
+      "images": [],
+      "image": "",
+      "options": [
+        "-Les gènes de classes I ou CMH-I situés du côté gauche du complexe H-2 codent pour les molécules de surface cellulaire appelé antigène de transplantation,",
+        "- Les gènes de classe II ou CMH-II codent pour les antigènes de surface cellulaire et sont révélés ultérieurement identique aux gènes de réponse immunitaire contrôlant la réponse immunitaire de la souris à différents antigènes.",
+        "-Les gènes de la classe -III ou CMH-III codent pour plusieurs composants de l'étape d'activation de la cascade du complément",
+        "- Les gènes de classes I ou CMH-I situés du côté gauche du complexe H-2 codent pour les molécules de surface cellulaire appelé antigène de transplantation, il existe également des gènes du côté droite du H-2 et qui s’apparentent par leur structure aux antigènes de transplantation et en diffèrent par leur distribution tissulaire et qui probablement par aussi leur fonction",
+        "-Les gènes de classe I et III qui codent pour les protéines de complément"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 111,
+      "question": "Le système HLA ou le système du Complexe Majeur d'Histocompatibilité chez l'homme, est codé dans le bras court du chromosome 6. Chaque locus peut être occupé par de nombreuses allèles, citer une phrase juste.",
+      "images": [],
+      "image": "",
+      "options": [
+        "- Le typage HLA sérologique est fait par la méthode de lymphocytotoxicité",
+        "- Le typage HLA sérologique est fait par la méthode ELISA",
+        "- Le typage HLA sérologique est fait par la méthode de tri cellulaire",
+        "- Le typage HLA sérologique est fait par la méthode de polymérase chaine réaction ou PCR",
+        "- Le typage HLA sérologique est fait par la méthode ELISA compétitive"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 112,
+      "question": "Citer l’item juste pour le système de défense utilisant les molécules de complément agissant dans :",
+      "images": [],
+      "image": "",
+      "options": [
+        "- Immunité naturelle de contact.",
+        "- Immunité humorale spécifique adaptative à distance.",
+        "- Immunité spécifique ou adaptative de contact.",
+        "- Coordination/régulation de l’immunité",
+        "- Immunité naturelle à distance."
+      ],
+      "correctIndex": 4
+    },
+    {
+      "id": 113,
+      "question": "Les compléments natifs sont dépourvus d’effets biologiques, un stimulus est nécessaire pour activer les composés natifs par voie classiques, comme un stimulus, citer l’item faux :",
+      "images": [],
+      "image": "",
+      "options": [
+        "- Les complexes antigènes-anticorps.",
+        "- Immunoglobulines agrées",
+        "- Certains virus.",
+        "- Certaines protéines comme, protéines réactive C, plasmines, thrombines",
+        "- Certaines bacteries."
+      ],
+      "correctIndex": 3
+    },
+    {
+      "id": 114,
+      "question": "Question 3-Les compléments natifs sont dépourvus d’effets biologiques, un stimulus est nécessaire pour activer les composés natifs par voie alterne, comme un stimulus, citer l’item faux :",
+      "images": [],
+      "image": "",
+      "options": [
+        "- Endotoxine bactérienne.",
+        "- Polysaccharides.",
+        "- Diverses substances comme gluten, poussières.",
+        "- Des acides gras .",
+        "- Des produits de contrastes radiologiques"
+      ],
+      "correctIndex": 4
+    },
+    {
+      "id": 115,
+      "question": "Les compléments natifs sont dépourvus d’effets biologiques, un stimulus est nécessaire pour activer les composés natifs par voie des lectines, comme un stimulus, citer l’item faux :",
+      "images": [],
+      "image": "",
+      "options": [
+        "- Complexes macromoléculaires Mannose Binding Lectine (MBL)",
+        "- Complexes macromoléculaires MBL-Associated Serine Protéase 1",
+        "- Complexes macromoléculaires MBL-Associated Serine Protease 2",
+        "- Polysaccharides",
+        "- Homologie avec le complexe C1"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 116,
+      "question": "Rôle des régulateurs du système de complément sont des interprètes des messages que les compléments adressent á des cellules, citer une phrase fausse :",
+      "images": [],
+      "image": "",
+      "options": [
+        "- Récepteur des mastocytes libère d’amine iso-active",
+        "- Récepteur des macrophages pour démarrer la phagocytose",
+        "- Récepteur des polynucléaire pour démarrer le chimiotactisme",
+        "- Récepteur pour coordination/régulation de l’immunité",
+        "- Récepteur des lymphocytes B pour démarrer la différenciation et prolifération"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 117,
+      "question": "Rôle biologique de complément, il est une des premières défenses de l’organisme vis á vis de l’agent infectieux en absence d’anticorps, citer l’item faux :",
+      "images": [],
+      "image": "",
+      "options": [
+        "- Augmentation de la perméabilité vasculaire.",
+        "- Lyse des cellules étrangères.",
+        "- Activation et chimiotactisme des neutrophiles",
+        "- Régulation de la réponse immune á la fois cellulaire et humorale",
+        "- Contraction des muscles lisses"
+      ],
+      "correctIndex": 3
+    },
+    {
+      "id": 118,
+      "question": "Rôle du complément, citer la phrase fausse :",
+      "images": [],
+      "image": "",
+      "options": [
+        "-Défense l’organisme contre les agents infectieux",
+        "- Défense l’organisme dans la réaction inflammation",
+        "- Défense l’organisme dans les métabolismes des immuns complexes",
+        "- Défense l’organisme dans les interactions cellulaires",
+        "-Est l’ensemble de rôle de protéine membranaire des cellules."
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 119,
+      "question": "Principales activités du complément, citer la phrase juste :",
+      "images": [],
+      "image": "",
+      "options": [
+        "-Processus pathologiques conduisant à des perforations et lésions des tissus infectés par des protéines de compléments",
+        "- Processus pathologiques conduisant á la réaction inflammatoire des cellules par des compléments tous seuls.",
+        "- Processus pathologiques conduisant á la réaction inflammation par des interactions des cellules.",
+        "- Processus pathologiques conduisant á la réaction de production des immunoglobulines.",
+        "-Les compléments ne sont pas utilisés comme des réactifs de laboratoires"
+      ],
+      "correctIndex": 4
+    },
+    {
+      "id": 120,
+      "question": "Principales voie activation du complément, citer la phrase juste :",
+      "images": [],
+      "image": "",
+      "options": [
+        "- Processus pathologiques conduisant à des perforations des cellules infectées par des protéines de compléments utilisant la voie des lectines, voie alterne et voie classique",
+        "- Processus pathologiques conduisant à des perforations et lyses des cellules infectées par des protéines de compléments utilisant la voie alterne seule",
+        "- Processus pathologiques conduisant à des perforations et lyses des cellules infectées par des protéines de compléments utilisant la voie des lectines seule",
+        "- Processus pathologiques conduisant à des perforations et lyses des cellules infectées par des protéines de compléments utilisant la voie classique seule",
+        "- Processus pathologiques conduisant à des perforations et lyses des cellules infectées par des protéines de compléments utilisant la voie classique, la voie alterne et la voie des lectines."
+      ],
+      "correctIndex": 4
+    },
+    {
+      "id": 121,
+      "question": "Des voies d’activation différentes sont utilisés aboutissant á la formation d’un complexe lysant la membrane cellulaire. Citer la phrase fausse :",
+      "images": [],
+      "image": "",
+      "options": [
+        "-La voie d’activation par voie classique seule",
+        "--La voie d’activation par voie alternative seule",
+        "-La voie d’activation par des lectines seule",
+        "-La voie d’activation par voie d’hématopoïèse"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 122,
+      "question": "Il existe de maladies accompagnées d’une consommation excessive du complément par la voie classique, citer la phrase fausse :",
+      "images": [],
+      "image": "",
+      "options": [
+        "-Lupus",
+        "-Vascularites",
+        "- Cryoglobulinémies",
+        "-Glomérulonéphrites post infectieux",
+        "- Infections bactériennes récidivantes"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 123,
+      "question": "Il existe des variations de compléments, en augmentation ou en diminution selon diverses pathologies, citer une origine de diminution qui est fausse :",
+      "images": [],
+      "image": "",
+      "options": [
+        "-Diminution par défaut de synthèse",
+        "- Diminution par déperdition",
+        "- Diminution par consommation excessive de compléments",
+        "- Inflammation"
+      ],
+      "correctIndex": 3
+    },
+    {
+      "id": 124,
+      "question": "Quel complément est l’élément central du système d’activation ? citer la phrase juste",
+      "images": [],
+      "image": "",
+      "options": [
+        "-Le complément C1 est le complément central du système",
+        "-Le complément C2 est le complément central du système",
+        "-Le complément C3 est le complément central du système",
+        "-Le complément C4 est le complément central du système",
+        "-Le complément C5 est le complément central du système"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 125,
+      "question": "Citer la phrase fausse, le système de complément fait partie du système immunitaires humorale, il existe des récepteurs du complément sur;",
+      "images": [],
+      "image": "",
+      "options": [
+        "-Les hématies",
+        "-Les polynucléaires",
+        "- Les macrophages",
+        "-Les lymphocytes",
+        "-Les plaquettes"
+      ],
+      "correctIndex": 4
+    },
+    {
+      "id": 126,
+      "question": "Le système de complément comprenant environ 30 protéines solubles et membranaires produites par le foie, citer la phrase juste :",
+      "images": [],
+      "image": "",
+      "options": [
+        "-Est l’ensemble de cytokines des cellules macrophages",
+        "- Est fait partie de l’immunité cellulaire",
+        "- Est l’ensemble de protéine membranaire des cellules.",
+        "- Est l’ensemble de protéines issues de lymphocytes B et T appelés des interleukines",
+        "- Est un des mécanismes de défense contre les agents infectieuses dans l’immunité humorale"
+      ],
+      "correctIndex": 4
+    },
+    {
+      "id": 127,
+      "question": "La définition de l’électrophorèse des protéines sériques ? Citer la phrase juste :",
+      "images": [],
+      "image": "",
+      "options": [
+        "- C’est l’ensemble des techniques de séparation protéines des épitopes antigéniques",
+        "- C’est l’ensemble de techniques de séparation de protéines des antigènes viraux",
+        "- C’est l’ensemble des techniques qualitatives et quantitatives de dosage des gènes des parasites",
+        "- C’est l’ensemble des techniques qualitatives de dépistage des gènes viraux et bactériens ;",
+        "- C’est l’ensemble de techniques quantitatives de séparation de protéine sériques en fonction de taille et de la charge électrique, avec migration sur gel agarose ou polyacrylamide"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 128,
+      "question": "Citer la phrase qui est fausse, les différentes techniques de l’immunochimie sont les suivantes :",
+      "images": [],
+      "image": "",
+      "options": [
+        "- Réaction de précipitation d’antigènes-anticorps",
+        "- Réaction d’agglutination",
+        "- Immunofluorescences",
+        "- Technique de lavage broncho-alvéolaire",
+        "- Technique de tri cellulaire"
+      ],
+      "correctIndex": 3
+    },
+    {
+      "id": 129,
+      "question": "La définition de test cytométrique du flux ou tri cellulaire ? Citer la phrase juste",
+      "images": [],
+      "image": "",
+      "options": [
+        "- C’est la mesure en quantité d’un type de cellules dans l’organisme couplé á l’immunofluorescence d’un type de cellule de l’organisme.",
+        "- C’est l’analyse en qualité de globule sanguine.",
+        "- C’est l’analyse en qualité de plaquette sanguine",
+        "- C’est l’analyse en en qualité de globule blanche du sang."
+      ],
+      "correctIndex": 3
+    },
+    {
+      "id": 130,
+      "question": "La définition de test Western blot ? Citer la phrase juste :",
+      "images": [],
+      "image": "",
+      "options": [
+        "- C’est l’analyse en quantité de plaquettes sanguines par cyrtométrie de flux",
+        "- C’est l’analyse de détection des anticorps dirigés contre un antigène particulier par migration sur papier nitrocellulose",
+        "- C’est la mesure en quantité d’un type de cellules de l’organisme.",
+        "- C’est l’analyse en quantité de globule blanche du sang.",
+        "- Rien de ces analyses susmentionnées."
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 131,
+      "question": "Citer la définition du test de l’ELISA (Enzyme linked immuno sorbed assay)? Citer la phrase juste :",
+      "images": [],
+      "image": "",
+      "options": [
+        "- C’est le test de sérologie Ag-Ac",
+        "- C’est le test de précipitation en milieu agarose.",
+        "- C’est le test de précipitation en milieu liquide.",
+        "C’est le test de précipitation en gel agarose",
+        "C’est un test immuno-enzymatique utilisant un appareil de lecture qui détecte les antigènes ou anticorps pour un antigène ou anticorps spécifiques"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 132,
+      "question": "Dans le suivi de traitement de la maladie VIH par les antirétroviraux, un test est utilisé, citer la phrase juste :",
+      "images": [],
+      "image": "",
+      "options": [
+        "- L’analyse en quantité de cellules CD4/CD8 des malades VIH positifs.",
+        "- On utilise le test de la charge virale par PCR pour dénombrer les virus VIH pour savoir si le nombre du virus est toujours élevés ou en baisse avant utiliser d’autre ligne de traitement",
+        "- L’analyse en quantité des anticorps VIH",
+        "- L’analyse en quantité des antigènes VIH",
+        "- Rien de ces analyses susmentionnées."
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 133,
+      "question": "Citer la phrase juste, dans la maladie VIH/SIDA, on utilise le test ELISA pour :",
+      "images": [],
+      "image": "",
+      "options": [
+        "- L’analyse en quantité de cellules CD4/CD8 des malades VIH positifs",
+        "- L’analyse en quantité de globule sanguine des malades VIH positifs",
+        "- L’analyse en quantité des virus VIH des malades VIH positifs",
+        "- L’analyse qualitative ou en quantitative des antigènes ou des anticorps VIH des malades VIH positifs",
+        "- Rien de ces analyses susmentionnées"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 134,
+      "question": "Citer les différentes techniques de l’immunochimie donc la sensibilité est la plus élevée ? Citer la phrase juste :",
+      "images": [],
+      "image": "",
+      "options": [
+        "- Le test ELISA",
+        "- Le test de précipitation en milieu agarose.",
+        "- Le test de précipitation en milieu liquide.",
+        "- Le test d`agglutination directe",
+        "Le test de cyrtométrie de flux"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 135,
+      "question": "La définition de l’immunochimie ? Citer la phrase juste",
+      "images": [],
+      "image": "",
+      "options": [
+        "- C’est l’ensemble des techniques qualitatives et quantitatives de dosage de molécules, cellules, antigènes et des anticorps du système immunitaire",
+        "- C’est l’ensemble de techniques de dosage seulement des antigènes viraux",
+        "- C’est l’ensemble des techniques de dosage des épitopes antigéniques",
+        "- C’est l’ensemble des techniques qualitatives de dépistage des gènes viraux et bactériens ;",
+        "C’est l’ensemble des techniques qualitatives et quantitatives de dosage des molécules du système immunitaires"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 136,
+      "question": "Citer la phrase juste pour la recherche de la syphilis par sérologie :",
+      "images": [],
+      "image": "",
+      "options": [
+        "On utilise l’amplification génomique ou le PCR (polymérase chaîne réaction)",
+        "La réaction d’immuno-enzymatique ou réaction d’ELISA ;",
+        "La technique hémagglutination",
+        "La technique sérologique par immunofluorescence;",
+        "La technique de cyrtométrie de flux."
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 137,
+      "question": "Citer la phrase juste pour le principe de la réaction d’agglutination passive :",
+      "images": [],
+      "image": "",
+      "options": [
+        "-C’est l’amplification génomique ou le PCR (polymérase chaîne réaction)",
+        "-C’est la réaction d’immuno-enzymatique ou réaction d’ELISA ;",
+        "-C’est l’addition d’une solution d’anticorps spécifiques à une suspension d’éléments figurés ayant les propriétés antigénique correspondantes, ce qui provoque l’apparition d’agglutinats, qui se sédimentent ;",
+        "-Le principe est de fixer un antigène soluble sur un support figuré inerte. La présence des anticorps sera décelée par l’agglutination des particules sensibilisées par l’antigène correspondant ;",
+        "-Consiste à mettre en évidence des anticorps en caractérisant son effet neutralisant par des doses déterminés sur un effet visible de l’antigène (toxines) in vivo ou in vitro"
+      ],
+      "correctIndex": 3
+    },
+    {
+      "id": 138,
+      "question": "Citer quelques tests dans le diagnostic de Covid 19, citer la phrase qui est fausse :",
+      "images": [],
+      "image": "",
+      "options": [
+        "-C ’est l’amplification génomique par le PCR ou RTq PCR (comme reverse transcriptase quantitative polymérase chain reaction)",
+        "-C’est la réaction d’immuno-enzymatique ou réaction d’ELISA ;",
+        "-Test rapide pour rechercher IgM/IgG",
+        "-Séquençage du génome du virus (high throughput sequencing);",
+        "- La technique hémagglutination"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

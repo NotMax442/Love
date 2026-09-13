@@ -1,0 +1,946 @@
+{
+  "questions": [
+    {
+      "id": 1,
+      "question": "វិបត្តមុខងាររបស់ក្រពេញEndocrine អាចបែងចែកជា glandular hyperfunction hypofunction hormone resistance.។ តើជម្ងឺណាមួយខាងក្រោមបណ្តាលមកពី hormone resistance?",
+      "images": [],
+      "image": "",
+      "options": [
+        ". Graves' disease",
+        ". Hashimoto's thyroiditis",
+        ". Pheochromocytoma",
+        ". Adrenal insufficiency",
+        ". Type 2 diabetes mellitus"
+      ],
+      "correctIndex": 4
+    },
+    {
+      "id": 2,
+      "question": "ដើម្បីរកប្រភពនៃមូលហេតុបង្កឲ្យមានវិបត្តមុខងាររបស់ក្រពេញ Endocrine គឺពិនិត្យដើម្បីរកមើលអត្រាអ័ម៉ូនក្នុងឈាមក្នុងនោះ អត្រាអំម៉ូន hypothalamusថយចុះ អត្រា ម៉ូនhypophyse ថយចុះចំណែកអត្រា ម៉ូនដែលបញ្ចេញពីក្រពេញកើនឡើង។ តើមូលហេតុដែលបង្កឲ្យមានវិបត្តនៃក្រពេញ Endocrine នេះមានប្រភពនៅទីតាំងណា?",
+      "images": [],
+      "image": "",
+      "options": [
+        ". Hypothalamus",
+        ". Hypophyse antérieur",
+        ". Hypophyse postérieur",
+        ". Glande endocrine",
+        ". Source ectopique"
+      ],
+      "correctIndex": 3
+    },
+    {
+      "id": 3,
+      "question": "បុរសម្នាក់ទៅពិនិត្យជម្ងឺនៅក្នុងគ្លីនិកមួយដែលជាផ្នែកមួយ នៃការពិនិត្យសុខភាពជាធម្មតា។ ប្រសិនជាការពិនិត្យឈាមបង្ហាញថា៖អ័ម៉ូន hypothalamusកើនឡើង អ័ម៉ូនhypophyse ថយចុះចំណែកអត្រាអ័ម៉ូនដែលបញ្ចេញពីក្រពេញថយចុះ។ តើមូលហេតុដែលបង្កឲ្យមានវិបត្តនៃក្រពេញ Endocrine នេះមានប្រភពនៅទីតាំងណា?",
+      "images": [],
+      "image": "",
+      "options": [
+        ". Hypothalamus",
+        ". Hypophyse antérieure",
+        ". Hypophyse postérieure",
+        ". Glande endorine",
+        ". Source ectopique"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 4,
+      "question": "នៅក្នុងជម្ងឺដែលបង្កឡើងដោយក្រពេញ Endocrine ប្រសិនជាការពិនិត្យឈាមបង្ហាញថាអត្រាអ័ប្អូន hypothalamus កើនឡើង អត្រាអ័ម៉ូនhypophyse កើនឡើង ចំណែកអត្រាអ័ប្អូនដែលបញ្ចេញពីក្រពេញថយចុះ តើមូលហេតុដែលបង្កឲ្យមានវិបត្តនៃក្រពេញ Endocrine នេះមានប្រភពនៅទីតាំងណា?",
+      "images": [],
+      "image": "",
+      "options": [
+        ". Hypothalamus",
+        ". Hypophyse antérieure",
+        ". Hypophyse postérieure",
+        ". Glande endocrine",
+        ". Source ectopique"
+      ],
+      "correctIndex": 3
+    },
+    {
+      "id": 5,
+      "question": "នៅក្នុងជម្ងឺដែលបង្កឡើងដោយក្រពេញEndocrine ប្រសិនជាការពិនិត្យឈាមបង្ហាញថា អត្រា ម៉ូន hypothalamus ថយចុះ អត្រាអំម៉ូន hypophyse កើនឡើង ចំណែកអត្រា ម៉ូនដែលបញ្ចេញពីក្រពេញកើនឡើង តើមូលហេតុដែលបង្កឲ្យមានវិបត្តនៃក្រពេញ Endocrine នេះមានប្រភពនៅទីតាំងណា?",
+      "images": [],
+      "image": "",
+      "options": [
+        ". Hypothalamus",
+        ". Hypophyse antérieure",
+        ". Hypophyse postérieure",
+        ". Glande endocrine",
+        ". Source ectopique"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 6,
+      "question": "តើការប្រែប្រួលណាមួយខាងក្រោមអាចនឹងកើតមានឡើងនូវពេលដែល ការភ្ជាប់របស់អីម៉ូនទៅនឹងប្រូតេអ៊ីនក្នុងប្លា កើនឡើង?",
+      "images": [],
+      "image": "",
+      "options": [
+        ". Increase in plasma clearance of the hormone",
+        ". Decrease in half-life of the hormone",
+        ". Increase in hormone activity",
+        ". Increase in degree of negative feedback exerted by the hormone",
+        ". Increase in plasma reservoir for rapid replenishment of free hormone"
+      ],
+      "correctIndex": 4
+    },
+    {
+      "id": 7,
+      "question": "តើមូលហេតុណាមួយខាងក្រោមដែលគេញឹកញាប់នៅក្នុង primary hyperparathyroidism?",
+      "images": [],
+      "image": "",
+      "options": [
+        ". Parathyroid adenoma",
+        ". Medullary carcinoma",
+        ". Parathyroid hyperplasia",
+        ". Papillary carcinoma"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 8,
+      "question": "នៅក្នុង hyperparathyroidism តើរោគសញ្ញាណាមួយខាងក្រោមដែលមានទំនាក់ទំនងទៅនឹងមុខងាររបស់តម្រងនោម?",
+      "images": [],
+      "image": "",
+      "options": [
+        ". Hypertension",
+        ". Constipation",
+        ". Metabolic acidosis",
+        ". Pseudo gout",
+        ". Poor concentration"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 9,
+      "question": "នៅក្នុងprimary hyperparathyroidism រោគសញ្ញាទាក់ទងទៅនឹងមុខងារតម្រងនោមគឺ polyuria mechanism បង្កឲ្យមានpolyuria ដោយសារ៖",
+      "images": [],
+      "image": "",
+      "options": [
+        ". កើនឡើងនូវបរិមាណជាតិទឹក",
+        ". កើនឡើងនូវមុខងារតម្រងនោម",
+        ". ថយចុះនូវមុខងារតម្រងនោម",
+        ". បាត់បង់ការឆ្លើយតបតម្រងនោម"
+      ],
+      "correctIndex": 3
+    },
+    {
+      "id": 10,
+      "question": "តើជម្ងឺណាមួយខាងក្រោមដែលច្រើនតែកើតមានជាមួយ primary hyperparathyroidism?",
+      "images": [],
+      "image": "",
+      "options": [
+        ". Vitamin.D deficiency",
+        ". Skeletal resistance to PTH",
+        ". Hypothyroidism",
+        ". Tumor of prolactin cells"
+      ],
+      "correctIndex": 3
+    },
+    {
+      "id": 11,
+      "question": "តើជម្ងឺណាមួយខាងក្រោមដែលជាមូលហេតុនៃ secondary hyperparathyroidism?",
+      "images": [],
+      "image": "",
+      "options": [
+        ". Lymphacytic thyroiditis",
+        ". Skeletal resistance to PTH",
+        ". Hashimoto thyroiditis",
+        ". Tumor of ACTH secreting cells"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 12,
+      "question": "Complication de l'hypercalcémie ដែលជួបញឹកញាប់ជាងគេគឺ",
+      "images": [],
+      "image": "",
+      "options": [
+        ". Ostéoporose",
+        ". Ostéopénie",
+        ". Lithiase rénale",
+        ". Infection urinaire",
+        ". Ostéomalacie"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 13,
+      "question": "តើ Parameters ណាមួយខាងក្រោម ដែលឆ្លើយតបទៅនឹងជម្ងឺ primary hyperparathyroidism?",
+      "images": [],
+      "image": "",
+      "options": [
+        ". ↑Plasma [1,25-(OH) 2D3], ↑Plasma [Phosphate], ↑Urinary Ca2+ Excretion",
+        ". ↓Plasma [1,25-(OH) 2D3], ↓Plasma [Phosphate], ↑Urinary Ca2+ Excretion",
+        ". ↓Plasma [1,25-(OH) 2D3], ↓Plasma [Phosphate], ↓Urinary Ca2+ Excretion",
+        ". ↑Plasma [1,25-(OH) 2D3], ↓Plasma [Phosphate], ↑Urinary Ca2+ Excretion",
+        ". ↓Plasma [1,25-(OH) 2D3], ↑Plasma [Phosphate], ↓Urinary Ca2+ Excretion"
+      ],
+      "correctIndex": 3
+    },
+    {
+      "id": 14,
+      "question": "បុរសម្នាក់រងការវះកាត់ដើម្បីព្យបាលក្រពេញទីរ៉ូអ៊ុតបស់គាត់។តើវិបត្តិអេឡិចត្រូលីតណាមួយ ខាងក្រោមអាចកើតមានបន្ទាប់ពីការវះកាត់នេះ?",
+      "images": [],
+      "image": "",
+      "options": [
+        ". Hypercalcémie",
+        ". Hypocalcemia",
+        ". Hyponatrémie",
+        ". Hyperkaliemie"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 15,
+      "question": "តើការពន្យល់ណាមួយខាងក្រោម ត្រឹមត្រូវទាក់ទងទៅនឹងវិបត្តិអេឡិចត្រូលីត ដែលកើតមានឡើងក្នុង hypoparathyroidism?",
+      "images": [],
+      "image": "",
+      "options": [
+        ". ↓Calcium ↑phosphate ↓1,25-(OH) 2D",
+        ". ↓Calcium ↓phosphate ↓1,25-(OH) 2D",
+        ". ↑Calcium ↓phosphate ↑1,25-(OH) 2D",
+        ". ↑Calcium ↑phosphate ↑1,25-(OH) 2D",
+        ". ↓Calcium ↓phosphate ↑1,25-(OH) 2D"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 16,
+      "question": "syndrome ណាមួយខាងក្រោមដែលភាគច្រើនកើតឡើងជាមួយនឹង hypoparathyroidism?",
+      "images": [],
+      "image": "",
+      "options": [
+        ". Mucocutaneous candidiasis hypoparathyroidism adrenal insufficiency",
+        ". Mucocutaneous candidiasis ovarian insufficiency hypoparathyroidism",
+        ". Mucocutaneous candidiasis hypothyroidism hypoparathyroidism",
+        ". Mucocutaneous candidiasis hypothyroidism adrenal insufficiency"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 17,
+      "question": "តើរោគសញ្ញាណាមួយខាងក្រោមត្រឹមត្រូវចំពោះដំណាក់កាលវិវត្តនៃអ្នកដែលមានជម្ងឺcentral diabetes insipidus?",
+      "images": [],
+      "image": "",
+      "options": [
+        ". Polyuria diuresis antidiuresis",
+        ". Antidiuresis diuresis polyuria",
+        ". Diuresis polyuria antidiuresis",
+        ". Polyuria antidiuresis diuresis",
+        ". Diuresis antidiuresis polyuria"
+      ],
+      "correctIndex": 4
+    },
+    {
+      "id": 18,
+      "question": "Troubles electrolytes ណាមួយខាងក្រោមបង្កឲ្យមានការបញ្ចេញអ័រម៉ូនPTHថយចុះ?",
+      "images": [],
+      "image": "",
+      "options": [
+        ". Hypocalcémie",
+        ". Hypercalcémie",
+        ". Hypernatremia",
+        ". Hypomagnésemie"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 19,
+      "question": "Tetanie ជារោគសញ្ញាមួយស្តែងឡើងដោយការកន្ត្រាក់សាច់ដុំនិងឈឺ។ តើការពន្យល់ណាមួយខាងក្រោមត្រឹមត្រូវទាក់ទងទៅនឹង Tetanie?",
+      "images": [],
+      "image": "",
+      "options": [
+        ". កោសិកាងាយរងនូវ depolarization បើទុកជាកម្រិតរំញោចធម្មតា",
+        ". កោសិកាងាយរងនូវ depolarization ដោយសារកម្រិតរំញោចកើន",
+        ". កោសិកាងាយរងនូវ depolarization ដោយសារកម្រិតរំញោចថយ",
+        ". កោសិកាពិបាកធ្វើ depolarization ដោយសារកម្រិតរំញោចថយ",
+        ". កោសិកាពិបាកធ្វើ depolarization ដោយសារកម្រិតរំញោចកើន"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 20,
+      "question": "troubles électrolytes ណាមួយខាងក្រោមដែលជាមូលហេតុបង្កឲ្យមានdiabetes insipidus?",
+      "images": [],
+      "image": "",
+      "options": [
+        ". Hypernatremie",
+        ". Hyponatrémie",
+        ". Hyperkaliémie",
+        ". Hypercalcemie",
+        ". Hypocalcemie"
+      ],
+      "correctIndex": 3
+    },
+    {
+      "id": 21,
+      "question": "បុរសម្នាក់ទៅពិគ្រោះជម្ងឺនៅគ្លីនិកមួយ ដោយសារគាត់នោមច្រើន (polyuria) ក្នុងពេលប៉ុន្មានខែចុងក្រោយនេះ។ គាត់គ្មានប្រវត្តិជម្ងឺផ្សេងៗ ការប៉ះទង្គិចក្បាលធ្ងន់ធ្ងរ និងការប្រើប្រាស់ថ្នាំក្នុងការព្យាបាលណាមួយទេ។ ការពិនិត្យរាងកាយគ្មានអ្វីគួឲ្យកត់សំគាល់។ ការពិនិត្យឈាមបង្ហាញ៖ glycemia 5.5 mmol/L calcium 3 mmol/L (normal range 2,2-2,6 mmol/L), potassium 3,5 mmol/L (normal range 3,5-5 mmol/L), Na+ 133 mmol/L (normal range 133-143mmol/L) ។ តើរោគវិនិច្ឆ័យណាមួយខាងក្រោមដែលសមស្របចំពោះអ្នកជម្ងឺនេះ?",
+      "images": [],
+      "image": "",
+      "options": [
+        ". Neurogenic Diabetes insipidus",
+        ". Nephrogenic diabetes insipidus",
+        ". Syndrome inappropriate ADH secretion",
+        ". Post renal obstruction",
+        ". Neoplastic disease"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 22,
+      "question": "អ្នកជម្ងឺម្នាក់ទទួលរងនូវគ្រោះថ្នាក់ចរាចរមួយ ប៉ុន្មានសប្តាហ៍បន្ទាប់ពីគ្រោះថ្នាក់គាត់ចាប់អារម្មណ៍ថាគាត់នោមច្រើនជាងធម្មតា (polyuria) គាត់ត្រូវបានគេធ្វើរោគវិនិច្ឆ័យថាមានជម្ងឺ central diabetes insipidus។ ការព្យាបាលដោយប្រើប្រាស់អ័ម៉ូន ADH រោគសញ្ញារបស់ជម្ងឺវិលត្រឡប់មកធម្មតាវិញ។ តើparameters ណាមួយខាងក្រោមឆ្លើយតបទៅ នឹងការវិលត្រឡប់មកធម្មតាវិញនៃរោគសញ្ញាជម្ងឺ?",
+      "images": [],
+      "image": "",
+      "options": [
+        ". ↓Osmolarité plasmatique ↑osmolarité urinaire",
+        ". ↑Osmolarité plasmatique ↓osmolarité urinaire",
+        ". ↑Osmolarité plasmatique ↑osmolarité urinaire",
+        ". ↓Osmolarité plasmatique ↓osmolarité urinaire"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 23,
+      "question": "អ្នកជម្ងឺម្នាក់ពិបាកដកដង្ហើម។ ការវិភាគឈាមបង្ហាញថាអត្រាADHកើនឡើង។ radiographie du thorax បង្ហាញថាមាន cancer du poumon à petitte cellules ។ ប្រសិនជា SIADH ត្រូវបានគេសង្ស័យ តើសំណើណាមួយខាងក្រោមឆ្លើយតបទៅនឹងការសង្ស័យនេះ?",
+      "images": [],
+      "image": "",
+      "options": [
+        ". Hypernatremie et oedème",
+        ". Hyponatrémie et oedème",
+        ". Hypernatremie sans oedème",
+        ". Hyponatrémie sans oedème"
+      ],
+      "correctIndex": 3
+    },
+    {
+      "id": 24,
+      "question": "អ្នកជម្ងឺម្នាក់ត្រូវបានគេសង្ស័យ SIADH តើការប្រែប្រួលនូវparametres biologiques ណាមួយខាងក្រោមឆ្លើយតបនឹងជម្ងឺនេះ?",
+      "images": [],
+      "image": "",
+      "options": [
+        ". ↓Osmolarité plasmatique ↓natrémie ↑osmolarité urinaire",
+        ". ↓Osmolarité plasmatique ↑natrémie ↑osmolarité urinaire",
+        ". ↑Osmolarité plasmatique ↓natrémie ↓osmolarité urinaire",
+        ". ↓Osmolarité plasmatique ↓natrémie ↓osmolarité urinaire",
+        ". ↓Osmolarité plasmatique ↑natrémie ↓osmolarité urinaire"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 25,
+      "question": "អ្នកជម្ងឺម្នាក់ត្រូវបានគេសង្ស័យ SIADH បន្ទាប់ពីរងការវះកាត់ខួក្បាល។តើរោគសញ្ញាណាមួយខាងក្រោមដែលអាចកើតមាន?",
+      "images": [],
+      "image": "",
+      "options": [
+        ". កើនទម្ងន់",
+        ". នោមច្រើន",
+        ". បាត់បង់ជាតិទឹក",
+        ". ដង់ស៊ីតេទឹកនោមទាប"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 26,
+      "question": "បុរសម្នាក់ត្រូវបានគេធ្វើរោគវិនិច្ឆ័យថាមានជម្ងឺ SIADH មានរោគសញ្ញាប្រកាច់ (seizure) និងលទ្ធផលមន្ទីរពិសោធន៍បង្ហាញថាក់ហាប់សង្ឃឹមក្នុងឈាមថយចុះ។ តើសូលុយស្យុងប្រភេទណាមួយខាងក្រោម ដែលសមស្របក្នុងការផ្តល់ទៅឲ្យអ្នកជម្ងឺនេះ?",
+      "images": [],
+      "image": "",
+      "options": [
+        ". Sodium isotonique",
+        ". Sodium hypotonique",
+        ". Sodium hypertonique",
+        ". Sodium normotonique"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 27,
+      "question": "តើការពន្យល់ណាមួយត្រឹមត្រូវទាក់ទងទៅនឹងកាកើតឡើងនៃ Central pontine myelinolysis ដែលជាcomplication of SIADH?",
+      "images": [],
+      "image": "",
+      "options": [
+        ". ការធ្វើឲ្យ hyponatremia មកស្ថាភាពធម្មកាយឺតពេក",
+        ". ការធ្វើឲ្យ hyponatremia មកស្ថាភាពធម្មតាលឿនពេក",
+        ". ការធ្វើឲ្យ hypernatremia មកស្ថាភាពធម្មតាយឺតពេក",
+        ". ការធ្វើឲ្យ hyperkaliemia មកស្ថាភាពធម្មតាយឺតពេក",
+        ". ការធ្វើឲ្យ hypokalemia មកស្ថាភាពធម្មតាលឿនពេក"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 28,
+      "question": "សំណើណាមួយត្រឹមត្រូវទាក់ទងទៅនឹងភាពធ្ងន់ធ្ងរនៃ clinical manifestation of SIADH ?",
+      "images": [],
+      "image": "",
+      "options": [
+        ". កម្រិតHyponatremia ឬ ការវិវត្តនៃ Hyponatremia",
+        ". កម្រិតHyponatremia និង ការវិវត្តនៃ Hyponatremia",
+        ". កម្រិតHypernatremia ឬ ការវិវត្តនៃ Hypernatremia",
+        ". កម្រិតHypernatremia និង ការវិវត្តនៃ Hypernatremia",
+        ". កម្រិតHypernatremia ឬ ការវិវត្តនៃ Hypernatremia"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 29,
+      "question": "បុរសម្នាក់មានអាយុ៥៥ឆ្នាំមានជម្ងឺ syndrome of inappropriate antidiuretic hormone secretion បណ្តាលមកពីមានជម្ងឺមហារីកនៅស្ងួត។ តើ physiological response ណាមួយខាងក្រោមនឹងកើតមាន?",
+      "images": [],
+      "image": "",
+      "options": [
+        ". Increased plasma osmolality",
+        ". Inappropriately low urine osmolality",
+        ". Increased thirst",
+        ". Decreased secretion of ADH"
+      ],
+      "correctIndex": 3
+    },
+    {
+      "id": 30,
+      "question": "ការពិសោធន៍មួយត្រូវបានធ្វើឡើង ដែលក្នុងនោះអ័ម៉ូន ADH ត្រូវបានចាក់នៅម៉ោងទី៣សម្រាប់អ្នកជម្ងឺ A រហូតដល់អ្នកជម្ងឺD។ នៅក្នុងរូបភាពខាងក្រោម តើគំនូសតាងណាមួយដែលបង្ហាញអំពីការឆ្លើយតបរបស់អ្នកជម្ងឺធម្មតា និងចំពោះអ្នកជម្ងឺ central diabetes insipidus ទៅនិងការចាក់ ម៉ូន ADH?",
+      "images": [
+        "y3-physiopath-pr-im-bunthoeun-q69-image-1.jpg"
+      ],
+      "image": "y3-physiopath-pr-im-bunthoeun-q69-image-1.jpg",
+      "options": [
+        ". Normal Central.B Diabetes Insipidus. A",
+        ". Normal Central.B Diabetes Insipidus.D",
+        ". Normal Central.D Diabetes Insipidus.A",
+        ". Normal Central.D Diabetes Insipidus.B"
+      ],
+      "correctIndex": 3
+    },
+    {
+      "id": 31,
+      "question": "មនុស្សម្នាក់បានរងការប៉ះទង្គិចក្បាលយ៉ាងខ្លាំងក្នុងពេលថ្មីៗនេះ និងគាត់នោមច្រើន។ ការពិនិត្យទឹកនោមបង្ហាញថាដង់ស៊ីតេរបស់ទឹកនោមថយចុះ ចំណែកក្នុងប្លាស្មាមានការកើនឡើងនូវអ៊ុយ៉ុងសូដ្យូម។ តើសំណើណាមួយខាងក្រោមទំនងជាមូលហេតុបង្ក?",
+      "images": [],
+      "image": "",
+      "options": [
+        ". Central diabetes insipidus",
+        ". Nephrogenic diabetes insipidus",
+        ". Diabetes mellitus (diabète sucré)",
+        ". Syndrome of inappropriate ADH secretion"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 32,
+      "question": "សំណើណាមួយខាងក្រោមដែលជារោគសញ្ញារបស់ diabete insipite?",
+      "images": [],
+      "image": "",
+      "options": [
+        ". Hyperglycémie et polyurie",
+        ". Polyurie et polydipsie",
+        ". Oligurie et hypoglycemie",
+        ". Prise de poids et malaise",
+        ". Polyphagia et polyuria"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 33,
+      "question": "អ្នកជម្ងឺម្នាក់ត្រូវបានគេធ្វើរោគវិនិច្ឆ័យថាមាន diabete insipite neurogenique ធ្ងន់ធ្ងរដែលបង្កដោយគ្មានការបញ្ចេញអ័ម៉ូន ADH តើផ្នែកណាមួយនៃ tubule renal ដែលមាន osmolarité ទាបជាងគេ?",
+      "images": [],
+      "image": "",
+      "options": [
+        ". Tubule contourné proximal",
+        ". Partie descendant de Hanse de Henle",
+        ". Partie ascendant de Hanse de Henle",
+        ". Tubule contourné distal",
+        ". Canal collecteur"
+      ],
+      "correctIndex": 4
+    },
+    {
+      "id": 34,
+      "question": "តើជម្ងឺណាមួយខាងក្រោមដែលជាមូលហេតុបង្កឲ្យមាន ostéomalacia?",
+      "images": [],
+      "image": "",
+      "options": [
+        ". Pancreatic insufficiency",
+        ". Adrenal insufficiency",
+        ". Acute pancreatitis",
+        ". Acute hepatitis",
+        ". Acute renal failure"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 35,
+      "question": "តើការប្រែប្រួលនូវ parathyroid hormone (PTH), vitamin D, and calciumណាមួយខាងក្រោមដែល ឆ្លើយតបទៅនឹងលក្ខណៈដែលមាននៅក្នុង ostéomalacia?",
+      "images": [],
+      "image": "",
+      "options": [
+        ". ↑PTH ↓Vitamine D ↓Ca2+",
+        ". ↓PTH ↓Vitamine D ↓Ca2+",
+        ". ↑PTH ↑Vitamine D ↓Ca2+",
+        ". ↓PTH Vitamine D ↑Ca2+"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 36,
+      "question": "មូលហេតុដែលជួបញឹកញាប់ជាងគេនៅក្នុង ostéomalacia គឺកង្វះវីតាមីន)។តើការប្រែប្រួល parametres biologiques ណាមួយខាងក្រោមដែលឆ្លើយតបទៅនឹងកង្វះនេះ?",
+      "images": [],
+      "image": "",
+      "options": [
+        ". ↑Excretion rénale du calcium ↓calcium resorption ↓calcium absorption",
+        ". ↓Excretion rénale du calcium ↓calcium resorption ↓calcium absorption",
+        ". ↓Excretion rénale du calcium ↑calcium resorption ↓calcium absorption",
+        ". ↑Excretion rénale du calcium ↑calcium resorption ↓calcium absorption",
+        ". ↑Excretion rénale du calcium ↓calcium resorption ↑calcium absorption"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 37,
+      "question": "តើមូលហេតុណាមួយខាងក្រោមដែលជួបញឹកញាប់នៅក្នុងជម្ងឺពុកឆ្អឹង?",
+      "images": [],
+      "image": "",
+      "options": [
+        ". ពេលអស់រដូវនិងពេលមានផ្ទៃពោះ",
+        ". ពេលមានផ្ទៃពោះនិងមនុស្សចាស់",
+        ". Hypoparathyroidie primaire",
+        ". ច្រើនកើតលើអ្នកមាន hypothyoridie",
+        ". ពេលអស់រដូវនិងមនុស្សចាស់"
+      ],
+      "correctIndex": 4
+    },
+    {
+      "id": 38,
+      "question": "នៅក្នុងជម្ងឺពុកឆ្អឹងមូលហេតុ ដែលបង្កញឹកញាប់ជាងគេគឺការថយចុះនូវ hormone steroide ដែលនាំឲ្យមានការបាត់បង់លំនឹងរវាង formation osseuse et resorption osseuse តើការពន្យល់ណាមួយខាងក្រោមត្រឹមត្រូវទាក់ទងទៅនឹងមេកានីសដែលនាំឲ្យមានបាត់បង់តុល្យភាពនេះ?",
+      "images": [],
+      "image": "",
+      "options": [
+        ". ↓Expression of RANK-L ↓expression of OPG",
+        ". ↑Expression of RANK-L ↓expression of OPG",
+        ". ↑Expression of RANK-L ↑expression of OPG",
+        ". ↓Expression of RANK-L ↑expression of OPG"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 39,
+      "question": "ក្រៅពីថយចុះនូវ hormone steroide មានកត្តាផ្សេងទៀតដែលចូលរួមបង្កឲ្យមានជម្ងឺពុកឆ្អឹង។ តើការពន្យល់ណាមួយខាងក្រោមត្រឹមត្រូវទាក់ទង នឹងកត្តាចូលរួមបង្កឲ្យមានជម្ងឺពុកឆ្អឹង?",
+      "images": [],
+      "image": "",
+      "options": [
+        ". ↓Activité des osteoblastes ↓1,25-(OH) 2D ↓Activité des osteoclastes",
+        ". ↓Activité des osteoblastes ↓1,25-(OH) 2D ↑Activité des osteoclastes",
+        ". ↑Activité des osteoblastes ↑1,25-(OH) 2D ↓Activité des osteoclastes",
+        ". ↑Activité des osteoblastes ↓1,25-(OH) 2D ↑Activité des osteoclastes",
+        ". ↓Activité des osteoblastes ↑1,25-(OH) 2D ↑Activité des osteoclasts"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 40,
+      "question": "តើការរៀបរាប់ណាមួយខាងក្រោមណាត្រឹមត្រូវទាក់ទងទៅនឹងជម្ងឺពុកឆ្អឹង?",
+      "images": [],
+      "image": "",
+      "options": [
+        ". ឆ្អឹងត្រគាកងាយរងការបាក់ជាងគេ",
+        ". មិនមានការប្រែប្រួលរូបរាងឆ្អឹងទេ",
+        ". គ្រប់ឆ្អឹងទាំងអស់ងាយរងការបាក់ដូចគ្នា",
+        ". ឆ្អឹងងាយរងការបាក់ផ្អែកទៅលើរចនាសម្ព័ន",
+        ". គ្រប់ឆ្អឹងទាំងអស់សុទ្ធតែងាយប្រែប្រួលរូបរាង"
+      ],
+      "correctIndex": 3
+    },
+    {
+      "id": 41,
+      "question": "ចំពោះស្ត្រីបន្ទាប់ពីអស់រដូវ ការព្យាបាលដោយប្រើប្រាស់អីម៉ូនជំនួសដូចជា estrogen មានប្រសិទ្ធភាពក្នុងការពារការវិវត្តន៍នៃជម្ងឺពុកឆ្អឹង។ Mechanism នៃការការពាររបស់ឱសថនេះទៅនិងជម្ងឺពុកឆ្អឹងគឺវាធ្វើឲ្យមាន",
+      "images": [],
+      "image": "",
+      "options": [
+        ". stimulate the activity of osteoblasts",
+        ". increase absorption of Ca2+ from the gastrointestinal tract",
+        ". stimulate calcium reabsorption by the renal tubules",
+        ". stimulate parathyroid hormone (PTH)"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 42,
+      "question": "រោគសញ្ញាណាមួយខាងក្រោមដែលឆ្លើយតបទៅនឹងរោគសញ្ញារបស់ hyperthyroidism?",
+      "images": [],
+      "image": "",
+      "options": [
+        ". ចាញ់ត្រជាក់ សម្លេងស្អក បែកញើសច្រើន",
+        ". បែកញើសច្រើន oligomenorrhea ញ័រទ្រូង",
+        ". menorrhagia បាត់បង់ទំងន់ ចាញ់កម្ដៅ",
+        ". ញ័រទ្រូង menorrhagia myxedema",
+        ". Hyperactivity ហត់នឿយ ស្បែកស្ងួត"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 43,
+      "question": "សំណើណាមួយខាងក្រោមឆ្លើយតបទៅនិងមូលហេតុនៃ hyperthyroidism in Graves' disease?",
+      "images": [],
+      "image": "",
+      "options": [
+        ". Antithyroglobulin antibodies",
+        ". T4 receptors stimulating immunoglobulins",
+        ". TSH receptor inhibiting immunoglobulins",
+        ". TSH receptor stimulating immunoglobulins"
+      ],
+      "correctIndex": 3
+    },
+    {
+      "id": 44,
+      "question": "តើសំណើណាមួយខាងក្រោមដែលគេសង្កេតឃើញនៅក្នុង secondary or tertiary hypothyroidism?",
+      "images": [],
+      "image": "",
+      "options": [
+        ". កើនឡើងT4 និង TSHនៅក្នុងplasma",
+        ". កើនឡើងT4 និងថយចុះTSHនៅក្នុងplasma",
+        ". ថយចុះT4 និងកើនឡើងTSHនៅក្នុងplasma",
+        ". ថយចុះ T4 និងថយចុះTSHនៅក្នុងplasma"
+      ],
+      "correctIndex": 3
+    },
+    {
+      "id": 45,
+      "question": "តើមូលហេតុណាមួយ បង្កឲ្យមានជម្ងឺពកកដែលគេជួមប្រទះញឹកញាប់ជាងគេ នៅក្នុងបណ្តាប្រទេសកំពុងអភិវឌ្ឃន៍?",
+      "images": [],
+      "image": "",
+      "options": [
+        ". កង្វះអឺយ៉ូត",
+        ". ពពួកLitium",
+        ". Thyroidite de Hashimoto",
+        ". Goitre multinodulaire toxique"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 46,
+      "question": "បុរសអាយុ៤៦ឆ្នាំម្នាក់ស្បែកមានសភាពហើមនិង មិនចង់ធ្វើសកម្មភាព (“puffy\" skin and lethargy)។ កំហាប់ TSH ក្នុងប្លាស្មាមានកម្រិតទាប និងមានការកើនឡើងគួរឲ្យកត់សំគាល់បន្ទាប់ពីគេបានចាក់TRHទៅឲ្យគាត់។ តើរោគវិនិច្ឆ័យណាមួយខាងក្រោមដែលឆ្លើយតបទៅនឹងស្ថានភាពគ្លីនិករបស់បុរសនេះ?",
+      "images": [],
+      "image": "",
+      "options": [
+        ". Hyperthyroidism due to a thyroid tumor",
+        ". Hyperthyroidism due to an abnormality in the hypothalamus",
+        ". Hypothyroidism due to an abnormality in the thyroid",
+        ". Hypothyroidism due to an abnormality in the hypothalamus",
+        ". Hypothyroidism due to an abnormality in the pituitary"
+      ],
+      "correctIndex": 3
+    },
+    {
+      "id": 47,
+      "question": "តើការកើនឡើងនៃ កំហាប់ thyroxine-binding globulin (TBG) ក្នុងប្លាស្មារយៈពេលយូអាចបង្កឲ្យមានការប្រែប្រួលណាមួយខាងក្រោម?",
+      "images": [],
+      "image": "",
+      "options": [
+        ". An increased delivery of T4 to target cells",
+        ". A decrease in plasma free [T4]",
+        ". An increase in the conversion of T4 to T3",
+        ". An increase in TSH secretion",
+        ". No change in metabolic rate"
+      ],
+      "correctIndex": 4
+    },
+    {
+      "id": 48,
+      "question": "ស្រីម្នាក់អាយុ៣០ឆ្នាំចូលមកគ្លីនិកមួយដើម្បីពិគ្រោះជម្ងឺដូចទម្លាប់។ ការពិនិត្យបង្ហាញថាគាត់មានផ្ទៃពោះ។ អត្រា TSH ក្នុងប្លាស្មាមានកំរិតខ្ពស់ ក៏ប៉ុន្តែអត្រា ម៉ូនរបស់ក្រពេញទីរ៉ូអ៊ុតទាំងអស់មានកម្រិតធម្មតា។ តើ ស្ថានភាពគ្លីនិកណាមួយខាងក្រោមបញ្ជាក់អំពីសភាពរបស់អ្នកជម្ងឺ?",
+      "images": [],
+      "image": "",
+      "options": [
+        ". Graves' disease",
+        ". Hashimoto's disease",
+        ". A pituitary tumor secreting TSH",
+        ". A hypothalamic tumor secreting TRH",
+        ". The patient is taking thyroid extract"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 49,
+      "question": "អ្នកជម្ងឺម្នាក់មានអត្រាអីម៉ូនក្នុងប្លាស្នា thyroxine (T4) កើនឡើង អត្រា TSH មានកម្រិតទាបនិងក្រពេញទីរ៉ូអ៊ុតមានទំហំតូចជាងធម្មតា។ តើការពន្យល់ណាមួយខាងក្រោមដែលឆ្លុះបញ្ចាំងអំពីអ្វីដែលបានរកឃើញខាងលើនេះ។",
+      "images": [],
+      "image": "",
+      "options": [
+        ". A lesion in the anterior pituitary",
+        ". The patient is taking propylthiouracil",
+        ". The patient is taking thyroid extract",
+        ". The patient is consuming large amounts of iodine",
+        ". Graves' disease"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 50,
+      "question": "តើរោគសញ្ញាដែលរៀបរាប់ណាមួយខាងក្រោមកើតមានចំពោះអ្នកជម្ងឺមានកង្វះអឺយ៉ូត?",
+      "images": [],
+      "image": "",
+      "options": [
+        ". Weight loss",
+        ". Nervousness",
+        ". Increased sweating",
+        ". Increased synthesis of thyroglobulin",
+        ". Tachycardia"
+      ],
+      "correctIndex": 3
+    },
+    {
+      "id": 51,
+      "question": "ស្ត្រីម្នាក់មានអាយុ៣៧ឆ្នាំ ការពិនិត្របង្ហាញថាគាត់មានក្រពេញទីរ៉ូអ៊ុតរីកធំនិងអត្រាអីម៉ូន T4 និង T3 ក្នុងប្លាស្នាកើនឡើង។ តើរោគសញ្ញាណាមួយខាងក្រោមឆ្លើយតបទៅនឹងលក្ខ័ណដែលបានរៀបរាប់?",
+      "images": [],
+      "image": "",
+      "options": [
+        ". ↑Cardiac output ↑Reflexes activity ↑Metabolic rate",
+        ". ↑Cardiac output ↓Reflexes activity ↓Metabolic rate",
+        ". ↓Cardiac output ↓Reflexes activity ↑Metabolic rate",
+        ". ↓Cardiac output ↓Reflexes activity ↓Metabolic rate"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 52,
+      "question": "អ្នកជម្ងឺម្នាក់ត្រូវបានផ្តល់ឲ្យគ្រប់គ្រាន់នូវអ័ម៉ូន T4 ដើម្បីបង្កើនអត្រាអ័ម៉ូននេះក្នុងប្លាស្មាជាច្រើនដង។ តើការប្រែប្រួលណាមួយខាងក្រោមដែលអាចកើតមានចំពោះអ្នកជម្ងឺនេះ បន្ទាប់ពីការប្រើប្រាស់អីម៉ូនT4 ជាច្រើនសប្តាហ៍?",
+      "images": [],
+      "image": "",
+      "options": [
+        ". ↑Respiratory Heart Rate ↑Plasma Cholesterol Concentration",
+        ". ↑Respiratory Heart Rate ↓Plasma Cholesterol Concentration",
+        ". ↓Respiratory Heart Rate ↑Plasma Cholesterol Concentration",
+        ". ↓Respiratory Heart Rate ↓Plasma Cholesterol Concentration"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 53,
+      "question": "តើកត្តាណាមួយខាងក្រោមនឹងប្រែប្រួលនូវពេលដែលរបស់ យ៉ូត (iodide pump) ឈប់ដំណើរការ?",
+      "images": [],
+      "image": "",
+      "options": [
+        ". Increased synthesis of T4",
+        ". Increased synthesis of thyroglobulin",
+        ". Increased metabolic rate",
+        ". Decreased TSH secretion",
+        ". Extreme nervousness"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 54,
+      "question": "តើរោគសញ្ញាណាមួយខាងក្រោមជារោគសញ្ញារបស់អ្នកជម្ងឺមាន myxedema?",
+      "images": [],
+      "image": "",
+      "options": [
+        ". Somnolence",
+        ". Palpitations",
+        ". Increased respiratory rate",
+        ". Increased cardiac output",
+        ". Weight loss"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 55,
+      "question": "អ្នកជម្ងឺម្នាក់មាន hyperthyroidism ដែលបណ្តាលមកពីមាន pituitary tumor ។ physiological changes ណាមួយខាងក្រោមដែលនឹងកើតមានឡើង?",
+      "images": [],
+      "image": "",
+      "options": [
+        ". ↓Thyroglobuline Synthesis ↓Heart Rate Exophthalmos +",
+        ". ↑Thyroglobuline Synthesis ↑Heart Rate Exophthalmos -",
+        ". ↓Thyroglobuline Synthesis ↑Heart Rate Exophthalmos +",
+        ". ↑Thyroglobuline Synthesis ↓Heart Rate Exophthalmos +",
+        ". ↑Thyroglobuline Synthesis ↑Heart Rate Exophthalmos +"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 56,
+      "question": "អ្នកជម្ងឺពកកម្នាក់ មានអត្រាអីម៉ូន TRH និង TSH ក្នុងប្លាស្មាកើនឡើង។ គាត់មានចង្វាក់បេះដូងកើនឡើង។ តើរោគវិនិច្ឆ័យណាមួយខាងក្រោមដែលឆ្លើយតបទៅនឹងលក្ខ័ណដែលអ្នកជម្ងឺនេះមាន?",
+      "images": [],
+      "image": "",
+      "options": [
+        ". An endemic goiter",
+        ". A hypothalamic tumor secreting large amounts of TRH",
+        ". A pituitary tumor secreting large amounts of TSH",
+        ". Graves' disease"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 57,
+      "question": "ចំពោះមនុស្សពេញវ័យដែលមាន hypothyroidism តើរោគសញ្ញាណាមួយខាងក្រោមដែលទាក់ទងទៅនឹងជម្ងឺនេះ?",
+      "images": [],
+      "image": "",
+      "options": [
+        ". Hypertension, cold intolerance, diarrhea",
+        ". Hypertension, nonpitting edema, cold intolerance",
+        ". Hypotension, higher than normal temperature, diarrhea",
+        ". Hypotension, higher than normal temperature, nonpitting edema",
+        ". Hypotension, nonpitting edema, cold intolerance"
+      ],
+      "correctIndex": 4
+    },
+    {
+      "id": 58,
+      "question": "តើមូលហេតុណាមួយខាងក្រោមដែលបង្កឲ្យមានជម្ងឺ hypothyroidismញឹកញាប់ជាងគេ?",
+      "images": [],
+      "image": "",
+      "options": [
+        ". Graves' disease",
+        ". Hashimoto's thyroiditis",
+        ". Iatrogenic hypothyroidism",
+        ". Iodine deficiency",
+        ". Radiation exposure"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 59,
+      "question": "ស្ត្រីម្នាក់អាយុ៧៥ឆ្នាំត្រូវបានគេធ្វើរោគវិនិច្ឆ័យថាមានជម្ងឺ hypothyroidism។ គាត់មានជម្ងឺ coronary artery ជាយូរណាស់មកហើយ នឹងកំពុងតែចង់ដឹងពីផលវិបាកដែលអាចកើតមានចំពោះប្រព័ន្ធសសៃឈាមនិងបេះដូងរបស់គាត់។ តើផលវិបាកណាមួយខាងក្រោមត្រឹមត្រូវដែលវាជាទំនាក់ទំនងរវាង hypothyroidism និងប្រព័ន្ធសៃឈាមនិងបេះដូងរបស់គាត់?",
+      "images": [],
+      "image": "",
+      "options": [
+        ". Myocardial contractility is increased",
+        ". A reduced stroke volume",
+        ". Pericardial effusions",
+        ". Reduced peripheral resistance",
+        ". Blood flow is diverted toward the skin"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 60,
+      "question": "តើរោគសញ្ញាណាមួយខាងក្រោមដែលមិនសូវកើតមានឡើងជាមួយនិង thyrotoxicosis?",
+      "images": [],
+      "image": "",
+      "options": [
+        ". Tachycardia",
+        ". Increased appetite",
+        ". Somnolence",
+        ". Increased sweating",
+        ". Muscle tremor"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 61,
+      "question": "តើរោគសញ្ញាណាមួយខាងក្រោមដែលទាក់ទងទៅនឹងមនុស្សពេញវ័យដែលមាន hyperthyroidism?",
+      "images": [],
+      "image": "",
+      "options": [
+        ". Hypertension, cold intolerance, diarrhea",
+        ". Hypertension, nonpitting edema, cold intolerance",
+        ". Hypertension, heat tolerance, diarrhea",
+        ". Hypertension, constipation, diarrhea",
+        ". Hypertension, heat intolerance, nonpitting edema"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 62,
+      "question": "តើការប្រែប្រួលនូវ thyrotropin releasing hormone (TRH), thyroid stimulating hormone (TSH) និងthyroids hormones (T4 et T3) ណាមួយខាងក្រោមដែលឆ្លើយតបទៅនឹងជម្ងឺ hypothyroidism?",
+      "images": [],
+      "image": "",
+      "options": [
+        ". ↑TRH ↑TSH ↓T4 et T3",
+        ". ↓TRH ↓TSH ↓T4 et T3",
+        ". ↑TRH ↓TSH ↑T4 et T3",
+        ". ↓TRH ↑TSH ↓T4 et T3",
+        ". ↑TRH ↑TSH ↑T4 et T3"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 63,
+      "question": "អ្នកជម្ងឺម្នាក់មានរោគសញ្ញា ចង្វាក់បេះដូងកើនឡើងនិងចាញ់កំដៅ។ អ្នកសង្ស័យថាគាត់មានជម្ងឺ Graves disease ។តើការប្រែប្រួលនូវ thyrotropin releasing hormone (TRH), thyroid stimulating hormone (TSH) និងthyroids hormones (T4 et T3)ណាខាងក្រោមឆ្លើយតបទៅនឹងរោគវិនិច្ឆ័យរបស់អ្នក?",
+      "images": [],
+      "image": "",
+      "options": [
+        ". ↓TRH ↓TSH ↑T4 et T3",
+        ". ↑TRH ↑TSH ↑T4 et T3",
+        ". ↓TRH ↑TSH ↓T4 et T3",
+        ". ↑TRH ↓TSH ↑T4 et T3",
+        ". ↓TRH ↓TSH ↓T4 et T3"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 64,
+      "question": "នៅក្នុងជម្ងឺ hypothyroidism មេតាបូលីសសារធាតុខ្លាញ់មានការប្រែប្រួល។ តើសំណើណាមួយខាងក្រោមដែលឆ្លើយតបទៅនឹងការប្រែប្រួលមេតាបូលីសនេះ?",
+      "images": [],
+      "image": "",
+      "options": [
+        ". ↑Cholesterol ↑triglyceride ↓lipoprotein lipase",
+        ". ↓Cholesterol ↓triglyceride ↑lipoprotein lipase",
+        ". ↑Cholesterol ↓triglyceride ↓lipoprotein lipase",
+        ". ↓Cholesterol ↑triglyceride ↑lipoprotein lipase"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 65,
+      "question": "នៅក្នុងជម្ងឺ hyperthyroidism មេតាបូលីសសារធាតុខ្លាញ់មានការប្រែប្រួល។ តើសំណើណាមួយខាងក្រោមដែលឆ្លើយតបទៅនឹងការប្រែប្រួលមេតាបូលីសនេះ?",
+      "images": [],
+      "image": "",
+      "options": [
+        ". ↓Cholesterol ↑lipolysis ↑beta adrenergic receptor",
+        ". ↑Cholesterol ↓lipolysis ↓beta adrenergic receptor",
+        ". ↓Cholesterol ↓lipolysis ↑beta adrenergic receptor",
+        ". ↑Cholesterol ↑lipolysis ↓beta adrenergic receptor"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 66,
+      "question": "ផលវិបាកដែលកើតឡើងពីជម្ងឺ hyperthyroidism ឲ្យ bone resorption គ្មានតុល្យភាពជាមួយ bone formation ដែលនាំឲ្យអ្នកជម្ងឺងាយរងនូវការបាក់ឆ្អឹង។ តើការពន្យល់ណាមួយ ខាងក្រោមឆ្លើយតបទៅនឹងលក្ខ័ណដែលបានរៀបរាប់ខាងលើ?",
+      "images": [],
+      "image": "",
+      "options": [
+        ". Calcium balance ធម្មតានិង phosphate balance ធម្មតា",
+        ". Calcium balance អវិជ្ជមាននិង phosphate balance អវិជ្ជមាន",
+        ". Calcium balance អវិជ្ជមាននិង phosphate balance វិជ្ជមាន",
+        ". Calcium balance វិជ្ជមាននិង phosphate balance ធម្មកា",
+        ". Calcium balance វិជ្ជមាននិង phosphate balance វិជ្ជមាន"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 67,
+      "question": "តើការពន្យល់ណាមួយខាងក្រោមត្រឹមត្រូវទាក់ទងទៅ នឹងរោគសញ្ញា palpitation ដែលមាននៅក្នុងhyperthyroidism?",
+      "images": [],
+      "image": "",
+      "options": [
+        ". កើនឡើង Beta adrenergic receptors នៅបេះដូង",
+        ". ថយចុះ Beta adrenergic receptors នៅបេះដូង",
+        ". កើនឡើង alpha adrenergic receptors នៅបេះដូង",
+        ". កើនឡើងbeta and alpha adrenergic receptors នៅបេះដូង",
+        ". កើនឡើងនូវអត្រាប៉ូតាស្យូមក្នុងកោសិកាបេះដូង"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 68,
+      "question": "ស្ត្រីម្នាក់អាយុ៤០ឆ្នាំ បានទៅពិគ្រោះជម្ងឺដោយសារបាត់បង់រដូវ។ ប្រវត្តិគ្រួសាររបស់គាត់មិនមានអ្វី ឲ្យកត់សំគាល់ទេ។លទ្ធផលមន្ទីរពិសោធន៍បង្ហាញថា អត្រា prolactin កើនឡើង MRI បង្ហាញថាមានpituitary adenoma។ ប្រសិនអ្នកជម្ងឺមិនព្យាបាល pituitary adenoma ទេតើការវិវត្តន៍ណាមួយខាងក្រោមដែលអ្នកជម្ងឺនឹងជួបច្រើនជាងគេ?",
+      "images": [],
+      "image": "",
+      "options": [
+        ". Gastric ulcers",
+        ". Osteoporosis",
+        ". Myocardial infraction",
+        ". Stroke",
+        ". Pancreatitis"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 69,
+      "question": "ស្ត្រីម្នាក់អាយុ៤០ឆ្នាំ ត្រូវបានធ្វើរោគវិនិច្ឆ័យមានជម្ងឺ hypothyroidism ។គាត់មិនអាចបង្កកំណើតបាន ដោយសារការថយចុះនូវអ័ម៉ូនរបស់ thyroid gland នាំឲ្យមានការកើនឡើងនូវអ័ម៉ូន prolactin ។តើ ការប្រែប្រួល gonadotropin releasing hormone (GnRH) luteinizing hormone (LH) ណាមួយខាងក្រោម ត្រឹមត្រូវទាក់ទងទៅនឹងកាកើនឡើងនូវអ័ម៉ូន prolactin?",
+      "images": [],
+      "image": "",
+      "options": [
+        ". ↓GnRH ↓LH",
+        ". ↓GnRH ↑LH",
+        ". ↑GnRH ↓LH",
+        ". ↓GnRH ↑LH"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

@@ -1,0 +1,4004 @@
+{
+  "questions": [
+    {
+      "id": 1,
+      "question": "What is the primary function of the immune system?",
+      "images": [],
+      "image": "",
+      "options": [
+        ") Transport oxygen",
+        ") Digest food",
+        ") Protect the body from infections",
+        ") Produce energy",
+        ") Regulate body temperature"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 2,
+      "question": "Which of the following is not a type of immunity?",
+      "images": [],
+      "image": "",
+      "options": [
+        ") Innate immunity",
+        ") Adaptive immunity",
+        ") Artificial immunity",
+        ") Passive immunity",
+        ") Metabolic immunity"
+      ],
+      "correctIndex": 4
+    },
+    {
+      "id": 3,
+      "question": "The immune system consists mainly of which type of blood cells?",
+      "images": [],
+      "image": "",
+      "options": [
+        ") Red blood cells",
+        ") White blood cells",
+        ") Platelets",
+        ") Plasma cells",
+        ") Stem cells"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 4,
+      "question": "Which organ is responsible for the production of all blood cells?",
+      "images": [],
+      "image": "",
+      "options": [
+        ") Thymus",
+        ") Spleen",
+        ") Liver",
+        ") Bone marrow",
+        ") Lymph nodes"
+      ],
+      "correctIndex": 3
+    },
+    {
+      "id": 5,
+      "question": "The immune system can distinguish between:",
+      "images": [],
+      "image": "",
+      "options": [
+        ") Food and water",
+        ") Harmful and harmless substances",
+        ") DNA and RNA",
+        ") Oxygen and carbon dioxide",
+        ") Acids and base"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 6,
+      "question": "Where do T cells mature?",
+      "images": [],
+      "image": "",
+      "options": [
+        ") Spleen",
+        ") Liver",
+        ") Thymus",
+        ") Bone marrow",
+        ") Lymph nodes"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 7,
+      "question": "Which of the following is not a lymphoid organ?",
+      "images": [],
+      "image": "",
+      "options": [
+        ") Spleen",
+        ") Bone marrow",
+        ") Pancreas",
+        ") Lymph nodes",
+        ") Thymus"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 8,
+      "question": "The spleen plays a major role in:",
+      "images": [],
+      "image": "",
+      "options": [
+        ") Digesting proteins",
+        ") Filtering blood and removing pathogens",
+        ") Producing digestive enzymes",
+        ") Breaking down fats",
+        ") Producing insulin"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 9,
+      "question": "The tonsils help protect against:",
+      "images": [],
+      "image": "",
+      "options": [
+        ") Digestive enzymes",
+        ") Airborne pathogens",
+        ") Bone diseases",
+        ") Blood clotting disorders",
+        ") High blood pressure"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 10,
+      "question": "Lymph nodes contain large numbers of:",
+      "images": [],
+      "image": "",
+      "options": [
+        ") Red blood cells",
+        ") Neurons",
+        ") White blood cells",
+        ") Platelets",
+        ") Cartilage cells"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 11,
+      "question": "The first line of defense in the immune system is:",
+      "images": [],
+      "image": "",
+      "options": [
+        ") T cells",
+        ") B cells",
+        ") Skin and mucous membranes",
+        ") Macrophages",
+        ") Antibodies"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 12,
+      "question": "Which immune cell is responsible for phagocytosis?",
+      "images": [],
+      "image": "",
+      "options": [
+        ") B cells",
+        ") Helper T cells",
+        ") Macrophages",
+        ") Plasma cells",
+        ") Erythrocytes"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 13,
+      "question": "Which immune cells produce antibodies?",
+      "images": [],
+      "image": "",
+      "options": [
+        ") Macrophages",
+        ") B cells",
+        ") Neutrophils",
+        ") Cytotoxic T cells",
+        ") Platelets"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 14,
+      "question": "Natural Killer (NK) cells are part of the:",
+      "images": [],
+      "image": "",
+      "options": [
+        ") Innate immune system",
+        ") Adaptive immune system",
+        ") Digestive system",
+        ") Nervous system",
+        ") Circulatory system"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 15,
+      "question": "Helper T cells (CD4+) primarily function to:",
+      "images": [],
+      "image": "",
+      "options": [
+        ") Directly kill infected cells",
+        ") Help activate other immune cells",
+        ") Produce insulin",
+        ") Secrete digestive enzymes",
+        ") Form blood clots"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 16,
+      "question": "Antibodies are also called:",
+      "images": [],
+      "image": "",
+      "options": [
+        ") Immunoglobulins",
+        ") Cytokines",
+        ") Macrophages",
+        ") Toxins",
+        ") Neutrophils"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 17,
+      "question": "Which of the following is not an antibody type?",
+      "images": [],
+      "image": "",
+      "options": [
+        ") IgG",
+        ") IgA",
+        ") IgE",
+        ") IgX",
+        ") IgM"
+      ],
+      "correctIndex": 3
+    },
+    {
+      "id": 18,
+      "question": "Cytokines function as:",
+      "images": [],
+      "image": "",
+      "options": [
+        ") Antibodies",
+        ") Signaling molecules in immune response",
+        ") Digestive enzymes",
+        ") Hormones for growth",
+        ") Structural proteins"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 19,
+      "question": "Interferons are primarily involved in:",
+      "images": [],
+      "image": "",
+      "options": [
+        ") Bacterial infections",
+        ") Virus defense",
+        ") Breaking down carbohydrates",
+        ") Blood clotting",
+        ") Producing antibodies"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 20,
+      "question": "Which type of immunity is acquired after an infection?",
+      "images": [],
+      "image": "",
+      "options": [
+        ") Passive",
+        ") Innate",
+        ") Adaptive",
+        ") Autoimmune",
+        ") Artificial"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 21,
+      "question": "Which disease is an autoimmune disorder",
+      "images": [],
+      "image": "",
+      "options": [
+        ") Tuberculosis",
+        ") Diabetes Type 1",
+        ") Malaria",
+        ") Measles",
+        ") Influenza"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 22,
+      "question": "What is an allergen?",
+      "images": [],
+      "image": "",
+      "options": [
+        ") A pathogen",
+        ") A harmless substance that triggers an immune response",
+        ") A type of virus",
+        ") A blood clotting factor",
+        ") A neurotransmitter"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 23,
+      "question": "What is an example of a primary immunodeficiency?",
+      "images": [],
+      "image": "",
+      "options": [
+        ") AIDS",
+        ") Leukemia",
+        ") Severe Combined Immunodeficiency (SCID)",
+        ") Rheumatoid arthritis",
+        ") Asthma"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 24,
+      "question": "Which immune response is faster but non-specific?",
+      "images": [],
+      "image": "",
+      "options": [
+        ") Innate immunity",
+        ") Adaptive immunity",
+        ") Autoimmunity",
+        ") Passive immunity",
+        ") Humoral immunity"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 25,
+      "question": "What is the first line of defense in the immune system?",
+      "images": [],
+      "image": "",
+      "options": [
+        ") B cells",
+        ") T cells",
+        ") Skin and mucous membranes",
+        ") Antibodies",
+        ") Plasma cells"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 26,
+      "question": "Which molecule presents antigens to T cells?",
+      "images": [],
+      "image": "",
+      "options": [
+        ") Antibodies",
+        ") Cytokines",
+        ") Major histocompatibility complex (MHC)",
+        ") Histamines",
+        ") Chemokines"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 27,
+      "question": "What is the role of Helper T cells (CD4+)?",
+      "images": [],
+      "image": "",
+      "options": [
+        ") Destroy infected cells",
+        ") Produce antibodies",
+        ") Activate other immune cells",
+        ") Suppress immune response",
+        ") Engulf pathogens"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 28,
+      "question": "Which of the following is NOT part of the innate immune system?",
+      "images": [],
+      "image": "",
+      "options": [
+        ") Macrophages",
+        ") Neutrophils",
+        ") Antibodies",
+        ") Natural killer cells",
+        ") Complement proteins"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 29,
+      "question": "What type of immune cell directly attacks infected cells?",
+      "images": [],
+      "image": "",
+      "options": [
+        ") B cells",
+        ") Plasma cells",
+        ") Helper T cells",
+        ") Cytotoxic T cells",
+        ") Mast cells"
+      ],
+      "correctIndex": 3
+    },
+    {
+      "id": 30,
+      "question": "What is the role of cytokines in the immune response?",
+      "images": [],
+      "image": "",
+      "options": [
+        ") Kill pathogens",
+        ") Present antigens",
+        ") Mediate communication between immune cells",
+        ") Act as antibodies",
+        ") Transport oxygen"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 31,
+      "question": "Which antibody is the first responder in an infection?",
+      "images": [],
+      "image": "",
+      "options": [
+        ") IgA",
+        ") IgE",
+        ") IgM",
+        ") IgG",
+        ") IgD"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 32,
+      "question": "What is opsonization?",
+      "images": [],
+      "image": "",
+      "options": [
+        ") Direct pathogen killing",
+        ") Marking pathogens for phagocytosis",
+        ") Antibody production",
+        ") Immune suppression",
+        ") T-cell activation"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 33,
+      "question": "Which immune cells act as antigen-presenting cells (APCs)?",
+      "images": [],
+      "image": "",
+      "options": [
+        ") Natural killer cells",
+        ") Macrophages",
+        ") Plasma cells",
+        ") Mast cells",
+        ") Eosinophils"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 34,
+      "question": "What is an epitope?",
+      "images": [],
+      "image": "",
+      "options": [
+        ") A type of immune cell",
+        ") A whole antigen",
+        ") The specific part of an antigen recognized by antibodies",
+        ") A chemical released during inflammation",
+        ") A cytokine"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 35,
+      "question": "What is the function of memory B cells?",
+      "images": [],
+      "image": "",
+      "options": [
+        ") Kill infected cells",
+        ") Suppress immune response",
+        ") Provide long-term immunity",
+        ") Release histamine",
+        ") Activate the complement system"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 36,
+      "question": "Which of the following is an autoimmune disease?",
+      "images": [],
+      "image": "",
+      "options": [
+        ") Tuberculosis",
+        ") HIV",
+        ") Rheumatoid arthritis",
+        ") Malaria",
+        ") Influenza"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 37,
+      "question": "What type of immunity involves antibodies?",
+      "images": [],
+      "image": "",
+      "options": [
+        ") Cell-mediated immunity",
+        ") Innate immunity",
+        ") Humoral immunity",
+        ") Inflammatory response",
+        ") Passive immunity"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 38,
+      "question": "What is the function of Natural Killer (NK) cells?",
+      "images": [],
+      "image": "",
+      "options": [
+        ") Phagocytosis",
+        ") Antibody production",
+        ") Killing virus-infected cells",
+        ") Presenting antigens",
+        ") Stimulating B cells"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 39,
+      "question": "Which is a primary lymphoid organ?",
+      "images": [],
+      "image": "",
+      "options": [
+        ") Liver",
+        ") Spleen",
+        ") Bone marrow",
+        ") Lymph nodes",
+        ") Appendix"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 40,
+      "question": "What is the main function of regulatory T cells (Tregs)?",
+      "images": [],
+      "image": "",
+      "options": [
+        ") Suppress immune response",
+        ") Activate B cells",
+        ") Kill infected cells",
+        ") Release histamine",
+        ") Stimulate inflammation"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 41,
+      "question": "What process allows antibodies to mark pathogens for destruction?",
+      "images": [],
+      "image": "",
+      "options": [
+        ") Neutralization",
+        ") Agglutination",
+        ") Opsonization",
+        ") Inflammation",
+        ") Phagocytosis"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 42,
+      "question": "What is the function of histamines in an allergic response?",
+      "images": [],
+      "image": "",
+      "options": [
+        ") Destroy antigens",
+        ") Reduce inflammation",
+        ") Increase vascular permeability",
+        ") Activate B cells",
+        ") Stimulate memory cells"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 43,
+      "question": "What type of immunity is transferred from mother to child via breast milk?",
+      "images": [],
+      "image": "",
+      "options": [
+        ") Active artificial",
+        ") Passive natural",
+        ") Active natural",
+        ") Passive artificial",
+        ") Cell-mediated immunity"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 44,
+      "question": "What is the final stage of the immune response?",
+      "images": [],
+      "image": "",
+      "options": [
+        ") Activation",
+        ") Recognition",
+        ") Resolution",
+        ") Memory formation",
+        ") Inflammation"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 45,
+      "question": "What triggers inflammation?",
+      "images": [],
+      "image": "",
+      "options": [
+        ") B cell activation",
+        ") T cell suppression",
+        ") Release of cytokines and histamines",
+        ") Antibody production",
+        ") Memory cell formation"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 46,
+      "question": "What is the primary role of macrophages?",
+      "images": [],
+      "image": "",
+      "options": [
+        ") Produce antibodies",
+        ") Kill virus-infected cells",
+        ") Engulf and digest pathogens",
+        ") Secrete histamines",
+        ") Activate the complement system"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 47,
+      "question": "What is a key characteristic of adaptive immunity?",
+      "images": [],
+      "image": "",
+      "options": [
+        ") Immediate response",
+        ") Non-specific defense",
+        ") Immunological memory",
+        ") Physical barriers",
+        ") Inflammation"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 48,
+      "question": "What is the first step in initiating an immune response?",
+      "images": [],
+      "image": "",
+      "options": [
+        ") Activation of B cells",
+        ") Recognition of an antigen by immune cells",
+        ") Production of antibodies",
+        ") Memory cell formation",
+        ") Activation of the complement system"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 49,
+      "question": "Which immune cells first recognize pathogens?",
+      "images": [],
+      "image": "",
+      "options": [
+        ") T cells",
+        ") B cells",
+        ") Natural Killer (NK) cells",
+        ") Antigen-presenting cells (APCs)",
+        ") Plasma cells"
+      ],
+      "correctIndex": 3
+    },
+    {
+      "id": 50,
+      "question": "Which cells act as Antigen-Presenting Cells (APCs)?",
+      "images": [],
+      "image": "",
+      "options": [
+        ") Plasma cells",
+        ") Cytotoxic T cells",
+        ") Macrophages, dendritic cells, and B cells",
+        ") Red blood cells",
+        ") Mast cells"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 51,
+      "question": "Which molecules do APCs use to present antigens to T cells?",
+      "images": [],
+      "image": "",
+      "options": [
+        ") Cytokines",
+        ") Toll-like receptors",
+        ") Antibodies",
+        ") Major Histocompatibility Complex (MHC)",
+        ") Chemokines"
+      ],
+      "correctIndex": 3
+    },
+    {
+      "id": 52,
+      "question": "What type of T cell is activated by MHC-II molecules?",
+      "images": [],
+      "image": "",
+      "options": [
+        ") Cytotoxic T cells (CD8+)",
+        ") Helper T cells (CD4+)",
+        ") Natural Killer cells",
+        ") Memory T cells",
+        ") Regulatory T cells"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 53,
+      "question": "What type of T cell is activated by MHC-I molecules?",
+      "images": [],
+      "image": "",
+      "options": [
+        ") Helper T cells (CD4+)",
+        ") Cytotoxic T cells (CD8+)",
+        ") Plasma cells",
+        ") B cells",
+        ") Neutrophils"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 54,
+      "question": "What do Helper T cells (CD4+) release to activate other immune cells?",
+      "images": [],
+      "image": "",
+      "options": [
+        ") Antibodies",
+        ") Cytokines",
+        ") Histamines",
+        ") Lysozymes",
+        ") Perforins"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 55,
+      "question": "Where does antigen presentation to T cells mainly occur?",
+      "images": [],
+      "image": "",
+      "options": [
+        ") Bone marrow",
+        ") Thymus",
+        ") Lymph nodes",
+        ") Liver",
+        ") Skin"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 56,
+      "question": "Which immune cells are responsible for killing virus-infected cells?",
+      "images": [],
+      "image": "",
+      "options": [
+        ") B cells",
+        ") Helper T cells",
+        ") Cytotoxic T cells (CD8+)",
+        ") Macrophages",
+        ") Basophils"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 57,
+      "question": "Which of the following is part of the innate immune response?",
+      "images": [],
+      "image": "",
+      "options": [
+        ") Antibody production",
+        ") Memory cell formation",
+        ") Phagocytosis by macrophages",
+        ") Activation of T cells",
+        ") Clonal selection of B cells"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 58,
+      "question": "What happens after a B cell is activated?",
+      "images": [],
+      "image": "",
+      "options": [
+        ") It becomes a macrophage",
+        ") It secretes cytokines",
+        ") It differentiates into plasma cells",
+        ") It undergoes apoptosis",
+        ") It becomes a cytotoxic T cell"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 59,
+      "question": "What do Memory B cells do?",
+      "images": [],
+      "image": "",
+      "options": [
+        ") Suppress immune responses",
+        ") Present antigens to T cells",
+        ") Recognize antigens from previous infections",
+        ") Attack infected cells",
+        ") Destroy pathogens"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 60,
+      "question": "What is the role of dendritic cells?",
+      "images": [],
+      "image": "",
+      "options": [
+        ") Produce antibodies",
+        ") Directly kill pathogens",
+        ") Act as antigen-presenting cells (APCs)",
+        ") Suppress immune responses",
+        ") Activate the complement system"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 61,
+      "question": "What happens during clonal selection?",
+      "images": [],
+      "image": "",
+      "options": [
+        ") B and T cells with receptors specific to an antigen are activated",
+        ") All immune cells attack randomly",
+        ") Macrophages engulf all foreign substances",
+        ") Complement proteins destroy healthy cells",
+        ") Natural Killer (NK) cells suppress immune response"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 62,
+      "question": "Which immune cells recognize antigens without prior exposure?",
+      "images": [],
+      "image": "",
+      "options": [
+        ") Memory B cells",
+        ") Macrophages",
+        ") Dendritic cells",
+        ") Natural Killer (NK) cells",
+        ") Plasma cells"
+      ],
+      "correctIndex": 3
+    },
+    {
+      "id": 63,
+      "question": "What is the role of mast cells?",
+      "images": [],
+      "image": "",
+      "options": [
+        ") Activate T cells",
+        ") Secrete antibodies",
+        ") Release histamines in allergic reactions",
+        ") Suppress the immune response",
+        ") Present antigens to B cells"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 64,
+      "question": "Which of the following is NOT a characteristic of innate immunity?",
+      "images": [],
+      "image": "",
+      "options": [
+        ") Rapid response",
+        ") Non-specific defense",
+        ") No memory formation",
+        ") Highly specific recognition",
+        ") Involves physical and chemical barriers"
+      ],
+      "correctIndex": 3
+    },
+    {
+      "id": 65,
+      "question": "What triggers inflammation?",
+      "images": [],
+      "image": "",
+      "options": [
+        ") T cell activation",
+        ") Release of histamines and cytokines",
+        ") Memory cell formation",
+        ") Complement activation",
+        ") Phagocytosis"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 66,
+      "question": "What is the primary function of neutrophils?",
+      "images": [],
+      "image": "",
+      "options": [
+        ") Antibody production",
+        ") Antigen presentation",
+        ") Engulfing pathogens (phagocytosis)",
+        ") Stimulating B cells",
+        ") Suppressing inflammation"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 67,
+      "question": "How do cytotoxic T cells kill infected cells?",
+      "images": [],
+      "image": "",
+      "options": [
+        ") By producing antibodies",
+        ") By engulfing them",
+        ") By releasing perforins and granzymes",
+        ") By presenting antigens",
+        ") By activating neutrophils"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 68,
+      "question": "What is the final stage of an immune response?",
+      "images": [],
+      "image": "",
+      "options": [
+        ") Activation of B cells",
+        ") Recognition of antigens",
+        ") Resolution and memory formation",
+        ") Cytotoxic attack",
+        ") Complement activation"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 69,
+      "question": "What is the function of memory cells?",
+      "images": [],
+      "image": "",
+      "options": [
+        ") Store genetic material",
+        ") Remember past infections",
+        ") Produce digestive enzymes",
+        ") Regulate hormones",
+        ") Form blood clots"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 70,
+      "question": "Which of the following is a characteristic of innate immunity?",
+      "images": [],
+      "image": "",
+      "options": [
+        ") Specific response",
+        ") Memory formation",
+        ") Fast response",
+        ") Recognition of specific antigens",
+        ") Activation of T cells"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 71,
+      "question": "What is the primary role of TLRs (Toll-like receptors) in innate immunity?",
+      "images": [],
+      "image": "",
+      "options": [
+        ") Activating B cells",
+        ") Detecting PAMPs (pathogen-associated molecular patterns)",
+        ") Promoting antibody production",
+        ") Producing inflammatory cytokines",
+        ") Inducing apoptosis"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 72,
+      "question": "Which cell type is primarily involved in the adaptive immune response?",
+      "images": [],
+      "image": "",
+      "options": [
+        ") Neutrophils",
+        ") B cells",
+        ") Eosinophils",
+        ") Macrophages",
+        ") Natural killer cells"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 73,
+      "question": "What are Pattern Recognition Receptors (PRRS)?",
+      "images": [],
+      "image": "",
+      "options": [
+        ") Receptors that bind to antibodies",
+        ") Proteins that recognize self-antigens",
+        ") Receptors that detect pathogen-associated patterns",
+        ") Molecules that help with blood clotting",
+        ") Enzymes that break down bacteria"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 74,
+      "question": "Which type of MHC molecule presents antigens to CD4+ T cells?",
+      "images": [],
+      "image": "",
+      "options": [
+        ") MHC Class I",
+        ") MHC Class II",
+        ") TLRS",
+        ") Complement proteins",
+        ") BCRS"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 75,
+      "question": "What is the primary function of antibodies in adaptive immunity?",
+      "images": [],
+      "image": "",
+      "options": [
+        ") Destroying infected cells directly",
+        ") Neutralizing toxins and pathogens",
+        ") Activating phagocytes",
+        ") Generating memory cells",
+        ") Inducing inflammation"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 76,
+      "question": "Which cells are responsible for presenting antigens via MHC Class I molecules?",
+      "images": [],
+      "image": "",
+      "options": [
+        ") B cells",
+        ") Dendritic cells",
+        ") All nucleated cells",
+        ") Macrophages",
+        ") Neutrophils"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 77,
+      "question": "Which type of cell recognizes antigen presented on MHC Class I molecules?",
+      "images": [],
+      "image": "",
+      "options": [
+        ") CD4+ T cells",
+        ") CD8+ T cells",
+        ") B cells",
+        ") Dendritic cells",
+        ") Eosinophils"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 78,
+      "question": "What do dendritic cells do in the immune response?",
+      "images": [],
+      "image": "",
+      "options": [
+        ") Directly kill pathogens",
+        ") Produce antibodies",
+        ") Present antigens to T cells",
+        ") Release histamine",
+        ") Degrade pathogens in lysosomes"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 79,
+      "question": "What is an antigen?",
+      "images": [],
+      "image": "",
+      "options": [
+        ") A protein that can induce an immune response",
+        ") A white blood cell",
+        ") A molecule that neutralizes pathogens",
+        ") A component of the complement system",
+        ") A protein that activates TLRS"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 80,
+      "question": "Which of the following is a primary function of macrophages in innate immunity?",
+      "images": [],
+      "image": "",
+      "options": [
+        ") Produce antibodies",
+        ") Activate B cells",
+        ") Present antigens and phagocytose pathogens",
+        ") Produce cytokines to regulate the immune response",
+        ") Present antigens and phagocytose pathogens and Produce cytokines to regulate the immune response"
+      ],
+      "correctIndex": 4
+    },
+    {
+      "id": 81,
+      "question": "Which of the following is NOT a characteristic of adaptive immunity?",
+      "images": [],
+      "image": "",
+      "options": [
+        ") Specificity for a particular pathogen",
+        ") Memory",
+        ") Rapid response",
+        ") Involvement of T and B cells",
+        ") Ability to recognize antigens"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 82,
+      "question": "Which type of cell is involved in killing virus-infected cells directly?",
+      "images": [],
+      "image": "",
+      "options": [
+        ") Helper T cells",
+        ") Cytotoxic T cells",
+        ") B cells",
+        ") Macrophages",
+        ") Neutrophils"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 83,
+      "question": "Which part of an antibody binds to an antigen?",
+      "images": [],
+      "image": "",
+      "options": [
+        ") Fc region",
+        ") Heavy chain",
+        ") Light chain",
+        ") Variable region",
+        ") Constant region"
+      ],
+      "correctIndex": 3
+    },
+    {
+      "id": 84,
+      "question": "The presence of which molecule indicates a primary immune response to an infection?",
+      "images": [],
+      "image": "",
+      "options": [
+        ") IgM",
+        ") IgG",
+        ") IgA",
+        ") IgE",
+        ") IgD"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 85,
+      "question": "Which of the following is NOT a type of PRR (pattern recognition receptor)?",
+      "images": [],
+      "image": "",
+      "options": [
+        ") TLRs",
+        ") RLRs",
+        ") NLRs",
+        ") MHC molecules",
+        ") Scavenger receptors"
+      ],
+      "correctIndex": 3
+    },
+    {
+      "id": 86,
+      "question": "What is the main role of antibodies in the immune system?",
+      "images": [],
+      "image": "",
+      "options": [
+        ") Destroy infected cells",
+        ") Produce cytokines",
+        ") Neutralize pathogens",
+        ") Activate T cells",
+        ") Phagocytose pathogens"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 87,
+      "question": "What is the primary structure that defines the antigen-binding site of an antibody?",
+      "images": [],
+      "image": "",
+      "options": [
+        ") Constant region",
+        ") Heavy chain",
+        ") Light chain",
+        ") Variable region",
+        ") Fc region"
+      ],
+      "correctIndex": 3
+    },
+    {
+      "id": 88,
+      "question": "Which of the following is NOT an example of an antigen?",
+      "images": [],
+      "image": "",
+      "options": [
+        ") Bacterial protein",
+        ") Viral RNA",
+        ") Human DNA",
+        ") Pollen from plants",
+        ") Tumor protein"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 89,
+      "question": "Which antibody class is most commonly associated with allergic reactions?",
+      "images": [],
+      "image": "",
+      "options": [
+        ") IgG",
+        ") IgM",
+        ") IgA",
+        ") IgE",
+        ") IgD"
+      ],
+      "correctIndex": 3
+    },
+    {
+      "id": 90,
+      "question": "Which part of the immune system produces antibodies?",
+      "images": [],
+      "image": "",
+      "options": [
+        ") T cells",
+        ") B cells",
+        ") Macrophages",
+        ") Neutrophils",
+        ") Natural killer cells"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 91,
+      "question": "Which is the first antibody class produced in response to an infection?",
+      "images": [],
+      "image": "",
+      "options": [
+        ") IgA",
+        ") IgD",
+        ") IgM",
+        ") IgE",
+        ") IgG"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 92,
+      "question": "What is an epitope?",
+      "images": [],
+      "image": "",
+      "options": [
+        ") A part of an antigen that is recognized by antibodies or T cells",
+        ") A type of antibody",
+        ") A protein that activates the immune system",
+        ") A receptor on B cells",
+        ") A molecule produced by helper T cells"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 93,
+      "question": "What is the function of the Fc region of an antibody?",
+      "images": [],
+      "image": "",
+      "options": [
+        ") Bind to the antigen",
+        ") Bind to T cell receptors",
+        ") Bind to the complement system or immune cells",
+        ") Activate macrophages",
+        ") Neutralize toxins"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 94,
+      "question": "What is the main characteristic of an antigen?",
+      "images": [],
+      "image": "",
+      "options": [
+        ") It is produced by the body",
+        ") It induces an immune response",
+        ") It is always harmful",
+        ") It neutralizes pathogens",
+        ") It is a type of antibody"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 95,
+      "question": "Which immunoglobulin is the most abundant in the blood and extracellular fluid?",
+      "images": [],
+      "image": "",
+      "options": [
+        ") IgE",
+        ") IgD",
+        ") IgA",
+        ") IgM",
+        ") IgG"
+      ],
+      "correctIndex": 4
+    },
+    {
+      "id": 96,
+      "question": "Where are B cell receptors (BCRs) located?",
+      "images": [],
+      "image": "",
+      "options": [
+        ") On the surface of T cells",
+        ") On the surface of B cells",
+        ") Inside macrophages",
+        ") On dendritic cells",
+        ") On the surface of infected cells"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 97,
+      "question": "Which of the following statements is true about IgA antibodies?",
+      "images": [],
+      "image": "",
+      "options": [
+        ") They are found primarily in the blood",
+        ") They are involved in allergic reactions",
+        ") They are found primarily in mucosal areas like the respiratory and digestive tracts",
+        ") They activate the complement system",
+        ") They are the first antibodies produced in an immune response"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 98,
+      "question": "What is the function of memory B cells?",
+      "images": [],
+      "image": "",
+      "options": [
+        ") Produce antibodies during the first exposure to an antigen",
+        ") Recognize and bind antigens",
+        ") Persist in the body to respond to future infections by the same pathogen",
+        ") Directly kill infected cells",
+        ") Activate helper T cells"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 99,
+      "question": "Which of the following molecules is involved in the activation of cytotoxic T cells?",
+      "images": [],
+      "image": "",
+      "options": [
+        ") IgM",
+        ") MHC Class I",
+        ") IgG",
+        ") Complement proteins",
+        ") IgE"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 100,
+      "question": "What is the primary function of antibodies in neutralization?",
+      "images": [],
+      "image": "",
+      "options": [
+        ") Bind to toxins or pathogens and prevent them from interacting with host cells",
+        ") Activate cytotoxic T cells",
+        ") Phagocytose pathogens",
+        ") Release histamine",
+        ") Activate the complement system"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 101,
+      "question": "What is an autoimmune response?",
+      "images": [],
+      "image": "",
+      "options": [
+        ") When the immune system fails to respond to infections",
+        ") When antibodies are produced against the body's own cells",
+        ") When pathogens are neutralized by antibodies",
+        ") When T cells kill infected cells",
+        ") When B cells are activated without an infection"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 102,
+      "question": "Which antibody class is involved in activating the classical pathway of the complement system?",
+      "images": [],
+      "image": "",
+      "options": [
+        ") IgA",
+        ") IgM",
+        ") IgE",
+        ") IgD",
+        ") IgG"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 103,
+      "question": "Which of the following is a feature of IgG antibodies?",
+      "images": [],
+      "image": "",
+      "options": [
+        ") They are produced during the initial immune response",
+        ") They are the most abundant in mucosal surfaces",
+        ") They can cross the placenta to provide immunity to the fetus",
+        ") They are involved in allergic reactions",
+        ") They are the least abundant in the blood"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 104,
+      "question": "Which type of immune cell directly presents antigens to T cells?",
+      "images": [],
+      "image": "",
+      "options": [
+        ") Macrophages",
+        ") B cells",
+        ") Dendritic cells",
+        ") Neutrophils",
+        ") Eosinophils"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 105,
+      "question": "What is the characteristic feature of the secondary immune response?",
+      "images": [],
+      "image": "",
+      "options": [
+        ") It is slower than the primary response",
+        ") It involves only IgM antibodies",
+        ") It is stronger and faster than the primary response",
+        ") It involves a higher number of neutrophils",
+        ") It does not involve memory cells"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 106,
+      "question": "What does opsonization refer to in the immune system?",
+      "images": [],
+      "image": "",
+      "options": [
+        ") The destruction of pathogens by natural killer cells",
+        ") The process by which antibodies enhance the ability of phagocytes to engulf pathogens",
+        ") The production of memory cells",
+        ") The activation of T cell receptors",
+        ") The killing of infected cells by cytotoxic T cells"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 107,
+      "question": "What is the role of IgD antibodies in the immune system?",
+      "images": [],
+      "image": "",
+      "options": [
+        ") Neutralizing toxins",
+        ") Activating complement",
+        ") Involved in allergic reactions",
+        ") Serving as a receptor on the surface of B cells to help in their activation",
+        ") Cross-linking antigens"
+      ],
+      "correctIndex": 3
+    },
+    {
+      "id": 108,
+      "question": "What is the primary difference between MHC Class I and MHC Class II molecules?",
+      "images": [],
+      "image": "",
+      "options": [
+        ") MHC Class I presents antigens to helper T cells, while MHC Class II presents to cytotoxic T cells",
+        ") MHC Class I presents extracellular antigens, while MHC Class II presents intracellular antigens",
+        ") MHC Class I is found on all nucleated cells, while MHC Class II is found only on antigen-presenting cells",
+        ") MHC Class I activates B cells, while MHC Class II activates T cells",
+        ") MHC Class I is involved in autoimmune responses"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 109,
+      "question": "Which of the following is true about haptens molecules",
+      "images": [],
+      "image": "",
+      "options": [
+        ") They are small molecules that can induce an immune response only when bound to larger molecules",
+        ") They are large proteins that can act as antigens without a carrier",
+        ") They are always part of bacteria",
+        ") They activate T cells directly without requiring a larger carrier molecule",
+        ") They can only bind to IgE antibodies"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 110,
+      "question": "Which of the following best describes the function of the \"constant region\" of an antibody?",
+      "images": [],
+      "image": "",
+      "options": [
+        ") It binds to the antigen",
+        ") It determines the antibody's isotype (IgA, IgG, etc.)",
+        ") It activates T cells",
+        ") It neutralizes toxins",
+        ") It increases the specificity of the antibody"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 111,
+      "question": "What triggers the primary immune response?",
+      "images": [],
+      "image": "",
+      "options": [
+        ") Exposure to a pathogen for the second time",
+        ") Activation of memory B cells",
+        ") Exposure to a new pathogen or antigen",
+        ") Natural killer cell activity",
+        ") Release of cytokines by T cells"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 112,
+      "question": "Which of the following antibodies is most commonly found in breast milk, helping protect infants?",
+      "images": [],
+      "image": "",
+      "options": [
+        ") IgM",
+        ") IgE",
+        ") IgA",
+        ") IgD",
+        ") IgG"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 113,
+      "question": "What does opsonization refer to in the immune response?",
+      "images": [],
+      "image": "",
+      "options": [
+        ") Directly destroying pathogens",
+        ") Coating pathogens with molecules to enhance phagocytosis",
+        ") Production of antibodies",
+        ") Activation of T cells",
+        ") Apoptosis of infected cells"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 114,
+      "question": "What is the role of CD4+ T cells in adaptive immunity?",
+      "images": [],
+      "image": "",
+      "options": [
+        ") Directly kill infected cells",
+        ") Recognize antigens on MHC Class I",
+        ") Produce cytokines that help activate other immune cells",
+        ") Present antigens to B cells",
+        ") Destroy pathogens through phagocytosis"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 115,
+      "question": "Which molecule is used by T cells to recognize antigens?",
+      "images": [],
+      "image": "",
+      "options": [
+        ") MHC",
+        ") Antibody",
+        ") TCR (T cell receptor)",
+        ") BCR (B cell receptor)",
+        ") Complement"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 116,
+      "question": "What is the role of memory B cells in adaptive immunity?",
+      "images": [],
+      "image": "",
+      "options": [
+        ") Produce antibodies during the initial immune response",
+        ") Carry out phagocytosis of pathogens",
+        ") Provide long-term immunity by responding to future infections",
+        ") Activate cytotoxic T cells",
+        ") Present antigens to helper T cells"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 117,
+      "question": "What happens when a T cell receptor binds to its specific antigen on MHC molecules?",
+      "images": [],
+      "image": "",
+      "options": [
+        ") It activates the complement system",
+        ") It induces apoptosis of the infected cell",
+        ") It initiates T cell activation and differentiation",
+        ") It stimulates antibody production",
+        ") It promotes phagocytosis of the antigen"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 118,
+      "question": "Which immune cells are primarily involved in the clearance of pathogens during a viral infection?",
+      "images": [],
+      "image": "",
+      "options": [
+        ") Eosinophils",
+        ") Neutrophils",
+        ") T cells and B cells",
+        ") Macrophages and natural killer cells",
+        ") Mast cells"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 119,
+      "question": "Which is a characteristic of the humoral immune response?",
+      "images": [],
+      "image": "",
+      "options": [
+        ") Involves the activation of cytotoxic T cells",
+        ") Involves the production of antibodies by B cells",
+        ") Involves the destruction of infected cells",
+        ") Involves the activation of macrophages"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 120,
+      "question": "Which of the following is a key characteristic of T helper cells?",
+      "images": [],
+      "image": "",
+      "options": [
+        ") Directly kill infected cells",
+        ") Help activate other immune cells via cytokine release",
+        ") Produce antibodies",
+        ") Detect intracellular pathogens",
+        ") Phagocytose pathogens"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 121,
+      "question": "Which immune molecule is primarily responsible for forming a protective barrier in mucosal tissues?",
+      "images": [],
+      "image": "",
+      "options": [
+        ") IgG",
+        ") IgM",
+        ") IgA",
+        ") IgE",
+        ") C3b"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 122,
+      "question": "The major difference between innate and adaptive immunity is:",
+      "images": [],
+      "image": "",
+      "options": [
+        ") The speed of response",
+        ") The specificity of the response",
+        ") The involvement of B cells",
+        ") The involvement of antibodies",
+        ") The involvement of cytokines"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 123,
+      "question": "What is the primary target cell of HIV?",
+      "images": [],
+      "image": "",
+      "options": [
+        ") B lymphocytes",
+        ") CD8+ T cells",
+        ") Macrophages",
+        ") CD4+ T cells",
+        ") Neutrophils"
+      ],
+      "correctIndex": 3
+    },
+    {
+      "id": 124,
+      "question": "Which protein on the HIV virus binds to the CD4 receptor of host cells?",
+      "images": [],
+      "image": "",
+      "options": [
+        ") gp41",
+        ") gp120",
+        ") Reverse transcriptase",
+        ") Integrase",
+        ") Protease"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 125,
+      "question": "What is the main enzyme that allows HIV to convert its RNA into DNA?",
+      "images": [],
+      "image": "",
+      "options": [
+        ") Protease",
+        ") Integrase",
+        ") Reverse transcriptase",
+        ") DNA polymerase",
+        ") RNA polymerase"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 126,
+      "question": "Which of the following is a hallmark of AIDS?",
+      "images": [],
+      "image": "",
+      "options": [
+        ") Decrease in CD8+ T cells",
+        ") Increase in viral load",
+        ") Increase in CD4+ T cells",
+        ") Decrease in CD4+ T cells",
+        ") Decrease in viral load"
+      ],
+      "correctIndex": 3
+    },
+    {
+      "id": 127,
+      "question": "Which co-receptors does HIV use to enter host cells?",
+      "images": [],
+      "image": "",
+      "options": [
+        ") CCR5 and CXCR4",
+        ") CD4 and CXCR4",
+        ") CD8 and CCR5",
+        ") CCR7 and CD4",
+        ") CCR5 and CD8"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 128,
+      "question": "What is the viral load in an untreated person with AIDS typically associated with?",
+      "images": [],
+      "image": "",
+      "options": [
+        ") Low viral replication",
+        ") High immune function",
+        ") High replication rate of HIV",
+        ") Complete viral suppression",
+        ") Viral clearance"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 129,
+      "question": "hich class of drugs is commonly used in antiretroviral therapy (ART) to inhibit reverse transcription?",
+      "images": [],
+      "image": "",
+      "options": [
+        ") Protease inhibitors",
+        ") Integrase inhibitors",
+        ") Nucleoside reverse transcriptase inhibitors",
+        ") Non-nucleoside reverse transcriptase inhibitors",
+        ") Fusion inhibitors"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 130,
+      "question": "What type of virus is HIV classified as?",
+      "images": [],
+      "image": "",
+      "options": [
+        ") Retrovirus",
+        ") Picornavirus",
+        ") Herpesvirus",
+        ") Adenovirus",
+        ") Flavivirus"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 131,
+      "question": "What is the role of CD8+ T cells in HIV infection?",
+      "images": [],
+      "image": "",
+      "options": [
+        ") They produce antibodies against HIV.",
+        ") They assist in the replication of HIV.",
+        ") They help activate CD4+ T cells.",
+        ") They directly kill HIV-infected cells.",
+        ") They are the primary cells infected by HIV."
+      ],
+      "correctIndex": 3
+    },
+    {
+      "id": 132,
+      "question": "Which of the following infections is common in HIV-infected individuals with weakened immune systems?",
+      "images": [],
+      "image": "",
+      "options": [
+        ") Pneumocystis pneumonia",
+        ") Chickenpox",
+        ") Hepatitis B",
+        ") Hepatitis C",
+        ") Influenza"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 133,
+      "question": "Which cytokine is most associated with HIV-induced immune activation?",
+      "images": [],
+      "image": "",
+      "options": [
+        ") IL-1",
+        ") IL-2",
+        ") IL-4",
+        ") IL-6",
+        ") TNF-alpha"
+      ],
+      "correctIndex": 4
+    },
+    {
+      "id": 134,
+      "question": "Which of the following cells is primarily responsible for the production of antibodies in response to HIV?",
+      "images": [],
+      "image": "",
+      "options": [
+        ") Macrophages",
+        ") CD8+ T cells",
+        ") B cells",
+        ") Dendritic cells",
+        ") NK cells"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 135,
+      "question": "What is the normal range for CD4+ T cells in a healthy individual?",
+      "images": [],
+      "image": "",
+      "options": [
+        ") 0-200 cells/microliter",
+        ") 200-500 cells/microliter",
+        ") 500-1200 cells/microliter",
+        ") 1200-1500 cells/microliter",
+        ") 1500-2000 cells/microliter"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 136,
+      "question": "Which of the following is a common opportunistic infection associated with AIDS?",
+      "images": [],
+      "image": "",
+      "options": [
+        ") Herpes simplex virus (HSV) infection",
+        ") Mycobacterium tuberculosis",
+        ") Hepatitis A",
+        ") Influenza",
+        ") Measles"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 137,
+      "question": "Which of the following is true about HIV transmission?",
+      "images": [],
+      "image": "",
+      "options": [
+        ") HIV can be transmitted through casual contact.",
+        ") HIV can be transmitted via respiratory droplets.",
+        ") HIV is primarily transmitted through sexual contact and blood.",
+        ") HIV cannot be transmitted via blood.",
+        ") HIV cannot be transmitted through shared needles."
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 138,
+      "question": "What type of immune cells are predominantly found in the lymphoid tissues during acute HIV infection?",
+      "images": [],
+      "image": "",
+      "options": [
+        ") Neutrophils",
+        ") CD8+ T cells",
+        ") B cells",
+        ") Dendritic cells",
+        ") CD4+ T cells"
+      ],
+      "correctIndex": 4
+    },
+    {
+      "id": 139,
+      "question": "Which of the following is the most likely outcome in a person with an undetectable viral load after long-term ART treatment?",
+      "images": [],
+      "image": "",
+      "options": [
+        ") Complete eradication of HIV",
+        ") Immune system recovery",
+        ") Development of AIDS",
+        ") Uncontrolled viral replication",
+        ") Infection of CD8+ T cells"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 140,
+      "question": "Which type of HIV test is commonly used to monitor viral load?",
+      "images": [],
+      "image": "",
+      "options": [
+        ") PCR (Polymerase Chain Reaction)",
+        ") ELISA (Enzyme-Linked Immunosorbent Assay)",
+        ") Western blot",
+        ") Rapid antibody test",
+        ") Skin test"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 141,
+      "question": "What does ART stand for in the context of HIV treatment?",
+      "images": [],
+      "image": "",
+      "options": [
+        ") Antibody Recombination Therapy",
+        ") Antiretroviral Therapy",
+        ") Active Reverse Therapy",
+        ") Anti-Retrovirus Therapy",
+        ") Acute Retroviral Treatment"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 142,
+      "question": "Which of the following is NOT a feature of AIDS?",
+      "images": [],
+      "image": "",
+      "options": [
+        ") Severe immunosuppression",
+        ") Increased susceptibility to opportunistic infections",
+        ") High CD4+ T cell count",
+        ") Development of certain cancers",
+        ") Progressive depletion of CD4+ T cells"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 143,
+      "question": "Which of the following is a potential complication of chronic HIV infection?",
+      "images": [],
+      "image": "",
+      "options": [
+        ") Heart disease",
+        ") Tuberculosis",
+        ") Arthritis",
+        ") Parkinson's disease",
+        ") Stroke"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 144,
+      "question": "Which HIV strain is most common worldwide?",
+      "images": [],
+      "image": "",
+      "options": [
+        ") HIV-1",
+        ") HIV-2",
+        ") HIV-3",
+        ") HIV-4",
+        ") HIV-5"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 145,
+      "question": "How does the immune system typically respond to acute HIV infection?",
+      "images": [],
+      "image": "",
+      "options": [
+        ") With a strong, specific immune response that clears the virus",
+        ") With a mild response that allows the virus to replicate easily",
+        ") By producing no detectable antibodies",
+        ") With an overwhelming inflammatory response",
+        ") By completely shutting down immune activity"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 146,
+      "question": "Which of the following best describes the mechanism of action of protease inhibitors?",
+      "images": [],
+      "image": "",
+      "options": [
+        ") They inhibit the replication of HIV by targeting reverse transcriptase.",
+        ") They prevent the viral RNA from being integrated into the host genome.",
+        ") They block the HIV virus from entering the host cell.",
+        ") They prevent the maturation of new HIV virions by inhibiting protease activity.",
+        ") They neutralize the HIV virus in the bloodstream."
+      ],
+      "correctIndex": 3
+    },
+    {
+      "id": 147,
+      "question": "Which of the following is a feature of HIV-2 compared to HIV-1?",
+      "images": [],
+      "image": "",
+      "options": [
+        ") HIV-2 is more easily transmitted.",
+        ") HIV-2 causes AIDS more rapidly than HIV-1.",
+        ") HIV-2 has a longer asymptomatic phase.",
+        ") HIV-2 infects a broader range of cells.",
+        ") HIV-2 is resistant to all treatments."
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 148,
+      "question": "What happens during HIV's \"acute retroviral syndrome\" (ARS)?",
+      "images": [],
+      "image": "",
+      "options": [
+        ") The virus becomes dormant in the body.",
+        ") The immune system clears the virus completely.",
+        ") The individual experiences flu-like symptoms as the immune system responds.",
+        ") There is a long asymptomatic period.",
+        ") HIV causes neurological damage."
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 149,
+      "question": "Which of the following is a major concern for HIV-positive pregnant women?",
+      "images": [],
+      "image": "",
+      "options": [
+        ") Increased risk of autoimmune disease",
+        ") Risk of transmitting HIV to the baby",
+        ") Reduced viral load due to pregnancy hormones",
+        ") Increased immunity to other diseases",
+        ") Inability to breastfeed"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 150,
+      "question": "Which of the following is NOT an opportunistic infection associated with AIDS?",
+      "images": [],
+      "image": "",
+      "options": [
+        ") Tuberculosis",
+        ") Pneumocystis pneumonia",
+        ") Candida albicans infection",
+        ") Herpes simplex virus reactivation",
+        ") Rheumatic fever"
+      ],
+      "correctIndex": 4
+    },
+    {
+      "id": 151,
+      "question": "What is the main goal of active immunotherapy?",
+      "images": [],
+      "image": "",
+      "options": [
+        ") To provide immediate immunity",
+        ") To stimulate the body's own immune system",
+        ") To transfer pre-formed antibodies",
+        ") To use antibiotics to fight infections",
+        ") To replace damaged immune cells"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 152,
+      "question": "Which of the following is an example of active immunotherapy?",
+      "images": [],
+      "image": "",
+      "options": [
+        ") Rabies immunoglobulin injection",
+        ") Monoclonal antibody therapy",
+        ") Cancer vaccines",
+        ") Antivenom for snake bites",
+        ") Convalescent plasma therapy"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 153,
+      "question": "Passive immunotherapy provides:",
+      "images": [],
+      "image": "",
+      "options": [
+        ") Long-term immune memory",
+        ") Immediate but short-lived immunity",
+        ") Complete protection against all infections",
+        ") A response that takes weeks to develop",
+        ") A permanent cure for autoimmune diseases"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 154,
+      "question": "Which of the following is NOT a form of passive immunotherapy?",
+      "images": [],
+      "image": "",
+      "options": [
+        ") Convalescent plasma therapy",
+        ") Monoclonal antibody therapy",
+        ") Administration of antitoxins",
+        ") mRNA vaccines",
+        ") Intravenous immunoglobulin (IVIG)"
+      ],
+      "correctIndex": 3
+    },
+    {
+      "id": 155,
+      "question": "Which statement about active immunotherapy is TRUE?",
+      "images": [],
+      "image": "",
+      "options": [
+        ") It involves injecting pre-formed antibodies",
+        ") It provides instant immunity",
+        ") It includes vaccines",
+        ") It is only used for cancer treatment",
+        ") It does not generate immune memory"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 156,
+      "question": "A key advantage of active immunotherapy is:",
+      "images": [],
+      "image": "",
+      "options": [
+        ") Immediate immune protection",
+        ") Short-term effectiveness",
+        ") Generation of immune memory",
+        ") No need for the immune system to respond",
+        ") It is only useful against bacterial infections"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 157,
+      "question": "Which of the following is an example of passive immunotherapy?",
+      "images": [],
+      "image": "",
+      "options": [
+        ") BCG vaccine",
+        ") Diphtheria antitoxin",
+        ") Cancer peptide vaccine",
+        ") Tuberculosis screening test",
+        ") mRNA vaccine for COVID-19"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 158,
+      "question": "How are monoclonal antibodies produced?",
+      "images": [],
+      "image": "",
+      "options": [
+        ") By genetically modifying white blood cells",
+        ") By cloning specific immune cells in a lab",
+        ") By extracting plasma from vaccinated individuals",
+        ") By synthesizing proteins from viruses",
+        ") By using weakened bacteria"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 159,
+      "question": "Which of the following is a disadvantage of passive immunotherapy?",
+      "images": [],
+      "image": "",
+      "options": [
+        ") It takes weeks to develop an immune response",
+        ") It cannot be used for cancer treatment",
+        ") It does not generate long-term immunity",
+        ") It completely prevents infections",
+        ") It works only for bacterial infections"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 160,
+      "question": "What is the main purpose of convalescent plasma therapy?",
+      "images": [],
+      "image": "",
+      "options": [
+        ") To generate an immune memory",
+        ") To provide specific antibodies against an infection",
+        ") To stimulate T-cell production",
+        ") To suppress autoimmunity",
+        ") To deliver genetic material"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 161,
+      "question": "What type of immunity is provided by a vaccine?",
+      "images": [],
+      "image": "",
+      "options": [
+        ") Passive natural immunity",
+        ") Active artificial immunity",
+        ") Passive artificial immunity",
+        ") Active natural immunity",
+        ") Innate immunity"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 162,
+      "question": "Which of the following diseases is commonly treated with monoclonal antibodies?",
+      "images": [],
+      "image": "",
+      "options": [
+        ") Diabetes",
+        ") Rheumatoid arthritis",
+        ") Tuberculosis",
+        ") Influenza",
+        ") Malaria"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 163,
+      "question": "Which immunotherapy is most commonly used for allergies?",
+      "images": [],
+      "image": "",
+      "options": [
+        ") Vaccination",
+        ") Monoclonal antibody therapy",
+        ") Antihistamines",
+        ") Allergen immunotherapy (desensitization)",
+        ") Chemotherapy"
+      ],
+      "correctIndex": 3
+    },
+    {
+      "id": 164,
+      "question": "What is the major benefit of active immunotherapy over passive immunotherapy?",
+      "images": [],
+      "image": "",
+      "options": [
+        ") It works immediately",
+        ") It provides lifelong immunity",
+        ") It requires fewer doses",
+        ") It is effective against all diseases",
+        ") It does not involve the immune system"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 165,
+      "question": "What is a major risk of passive immunotherapy?",
+      "images": [],
+      "image": "",
+      "options": [
+        ") Autoimmune response",
+        ") Immune suppression",
+        ") Antibody rejection or allergic reactions",
+        ") Overproduction of white blood cells",
+        ") Increased risk of genetic mutation"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 166,
+      "question": "What kind of immunity does a newborn receive from breast milk?",
+      "images": [],
+      "image": "",
+      "options": [
+        ") Passive natural immunity",
+        ") Active natural immunity",
+        ") Active artificial immunity",
+        ") Passive artificial immunity",
+        ") Innate immunity"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 167,
+      "question": "Which of the following therapies is NOT considered an immunotherapy?",
+      "images": [],
+      "image": "",
+      "options": [
+        ") Checkpoint inhibitors",
+        ") Chemotherapy",
+        ") Cancer vaccines",
+        ") Monoclonal antibodies",
+        ") Adoptive cell therapy"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 168,
+      "question": "What is the primary function of immune checkpoint inhibitors?",
+      "images": [],
+      "image": "",
+      "options": [
+        ") To block immune suppression by tumors",
+        ") To provide passive antibodies",
+        ") To eliminate all white blood cells",
+        ") To enhance bacterial infections",
+        ") To replace damaged organs"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 169,
+      "question": "Which of the following best defines active immunotherapy?",
+      "images": [],
+      "image": "",
+      "options": [
+        ") Administration of pre-made antibodies",
+        ") The body produces its own immune response",
+        ") Temporary immunity",
+        ") Immediate immune protection",
+        ") Treatment with antivenom"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 170,
+      "question": "What is the primary mechanism of action of passive immunotherapy?",
+      "images": [],
+      "image": "",
+      "options": [
+        ") Stimulating the immune system to produce antibodies",
+        ") Directly providing antibodies or immune cells",
+        ") Enhancing the immune system's ability to recognize pathogens",
+        ") Boosting the production of immune cells",
+        ") Inhibiting viral replication"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 171,
+      "question": "Which of the following is an example of passive immunotherapy?",
+      "images": [],
+      "image": "",
+      "options": [
+        ") CAR-T cell therapy",
+        ") HPV vaccine",
+        ") Rituximab (monoclonal antibody)",
+        ") Immune checkpoint inhibitors",
+        ") Cancer vaccines"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 172,
+      "question": "What is a common use of active immunotherapy in cancer treatment?",
+      "images": [],
+      "image": "",
+      "options": [
+        ") To directly kill cancer cells using monoclonal antibodies",
+        ") To stimulate the immune system to recognize and attack cancer cells",
+        ") To provide immediate immune support in cancer patients",
+        ") To supply antibodies directly to the bloodstream",
+        ") To neutralize toxins produced by cancer cells"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 173,
+      "question": "Which of the following is a limitation of passive immunotherapy?",
+      "images": [],
+      "image": "",
+      "options": [
+        ") It provides long-term immunity",
+        ") It requires the patient's immune system to be activated",
+        ") It can cause allergic reactions or immune responses against the antibodies",
+        ") It stimulates the production of immune cells",
+        ") It works best in patients with strong immune systems"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 174,
+      "question": "Which of the following is NOT a characteristic of active immunotherapy?",
+      "images": [],
+      "image": "",
+      "options": [
+        ") Long-lasting immune responses",
+        ") Stimulation of the body's immune system",
+        ") Immediate immune protection",
+        ") Creation of immune memory",
+        ") Used in cancer and infectious disease treatments"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 175,
+      "question": "Which of the following types of therapy is based on providing pre-made antibodies?",
+      "images": [],
+      "image": "",
+      "options": [
+        ") Active immunotherapy",
+        ") Antivenom therapy",
+        ") Cancer vaccines",
+        ") Immune checkpoint inhibitors",
+        ") Gene therapy"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 176,
+      "question": "Which of the following is an example of an active immunotherapy vaccine?",
+      "images": [],
+      "image": "",
+      "options": [
+        ") Antivenom",
+        ") Rituximab",
+        ") HPV vaccine",
+        ") Immunoglobulin therapy",
+        ") Tetanus immunoglobulin"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 177,
+      "question": "How does the immune system respond to active immunotherapy?",
+      "images": [],
+      "image": "",
+      "options": [
+        ") It produces ready-made antibodies for immediate use.",
+        ") It activates T-cells and B-cells to respond to the pathogen or tumor.",
+        ") It suppresses the body's immune response.",
+        ") It prevents the disease from entering the body.",
+        ") It blocks the virus from replicating."
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 178,
+      "question": "What is the main goal of passive immunotherapy in treating infections like COVID-19?",
+      "images": [],
+      "image": "",
+      "options": [
+        ") To increase the body's natural immune response",
+        ") To provide immediate immune protection through the use of antibodies",
+        ") To enhance the body's ability to produce its own antibodies",
+        ") To stimulate the production of immune cells",
+        ") To activate memory cells in the immune system"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 179,
+      "question": "Which is a major advantage of active immunotherapy over passive immunotherapy?",
+      "images": [],
+      "image": "",
+      "options": [
+        ") Immediate protection",
+        ") Short-term effect",
+        ") Long-lasting immunity",
+        ") Requires less medical intervention",
+        ") Less expensive"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 180,
+      "question": "What type of antibody is often used in passive immunotherapy?",
+      "images": [],
+      "image": "",
+      "options": [
+        ") Natural antibodies",
+        ") Monoclonal antibodies",
+        ") Memory antibodies",
+        ") IgM antibodies",
+        ") Polyclonal antibodies"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 181,
+      "question": "HLA matching is critical for which medical procedure?",
+      "images": [],
+      "image": "",
+      "options": [
+        ") Hemodialysis",
+        ") Chemotherapy",
+        ") Organ transplantation",
+        ") MRI scanning",
+        ") Bone fracture treatment"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 182,
+      "question": "Which of the following diseases is associated with HLA-DR3?",
+      "images": [],
+      "image": "",
+      "options": [
+        ") Rheumatoid arthritis",
+        ") Type 1 diabetes",
+        ") Sickle cell anemia",
+        ") Cystic fibrosis"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 183,
+      "question": "HLA molecules present antigens to T cells via which receptor?",
+      "images": [],
+      "image": "",
+      "options": [
+        ") B-cell receptor (BCR)",
+        ") Toll-like receptor (TLR)",
+        ") T-cell receptor (TCR)",
+        ") Fc receptor",
+        ") Complement receptor"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 184,
+      "question": "What is the main function of Human Leukocyte Antigen (HLA)?",
+      "images": [],
+      "image": "",
+      "options": [
+        ") Regulating blood pressure",
+        ") Producing hormones",
+        ") Presenting antigens to immune cells",
+        ") Storing genetic information",
+        ") Carrying oxygen in the blood"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 185,
+      "question": "Which class of HLA molecules presents antigens to cytotoxic T cells?",
+      "images": [],
+      "image": "",
+      "options": [
+        ") Class I",
+        ") Class II",
+        ") Class III",
+        ") Class IV",
+        ") Class V"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 186,
+      "question": "HLA Class II molecules are primarily found on which type of cells?",
+      "images": [],
+      "image": "",
+      "options": [
+        ") Muscle cells",
+        ") Red blood cells",
+        ") Immune cells",
+        ") Brain cells",
+        ") Skin cells"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 187,
+      "question": "What chromosome contains the genes for the HLA system?",
+      "images": [],
+      "image": "",
+      "options": [
+        ") Chromosome 1",
+        ") Chromosome 6",
+        ") Chromosome 10",
+        ") Chromosome 12",
+        ") Chromosome 21"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 188,
+      "question": "Which of the following HLA molecules is a Class I molecule?",
+      "images": [],
+      "image": "",
+      "options": [
+        ") HLA-DR",
+        ") HLA-B",
+        ") HLA-DP",
+        ") HLA-DQ",
+        ") HLA-DRB1"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 189,
+      "question": "Which of the following diseases is associated with specific HLA alleles?",
+      "images": [],
+      "image": "",
+      "options": [
+        ") Diabetes type 2",
+        ") Malaria",
+        ") Rheumatoid arthritis",
+        ") Common cold",
+        ") Asthma"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 190,
+      "question": "What is the function of Class II HLA molecules?",
+      "images": [],
+      "image": "",
+      "options": [
+        ") Present antigens to cytotoxic T cells",
+        ") Present antigens to helper T cells",
+        ") Regulate blood sugar levels",
+        ") Bind to insulin",
+        ") Form red blood cells"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 191,
+      "question": "Which HLA class is involved in organ transplant compatibility?",
+      "images": [],
+      "image": "",
+      "options": [
+        ") Class I",
+        ") Class II",
+        ") Both Class I and Class II",
+        ") Class III",
+        ") None of the above"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 192,
+      "question": "Which type of immune cell does Class I HLA molecules present antigens to?",
+      "images": [],
+      "image": "",
+      "options": [
+        ") B cells",
+        ") Helper T cells",
+        ") Cytotoxic T cells",
+        ") Natural killer cells",
+        ") Dendritic cells"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 193,
+      "question": "What is the relationship between HLA and autoimmune diseases?",
+      "images": [],
+      "image": "",
+      "options": [
+        ") HLA alleles can increase susceptibility to autoimmune diseases",
+        ") HLA genes prevent autoimmune diseases",
+        ") HLA does not affect autoimmune diseases",
+        ") HLA directly causes autoimmune diseases",
+        ") HLA genes are unrelated to immunity"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 194,
+      "question": "Which is an example of an autoimmune disease associated with HLA?",
+      "images": [],
+      "image": "",
+      "options": [
+        ") Lupus",
+        ") Tuberculosis",
+        ") Cholera",
+        ") Influenza",
+        ") Pneumonia"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 195,
+      "question": "What type of cells express Class I HLA molecules?",
+      "images": [],
+      "image": "",
+      "options": [
+        ") Only immune cells",
+        ") Only red blood cells",
+        ") Most nucleated cells",
+        ") Only muscle cells",
+        ") Only kidney cells"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 196,
+      "question": "In which of the following processes is HLA involved?",
+      "images": [],
+      "image": "",
+      "options": [
+        ") Oxygen transport",
+        ") Immune response to pathogens",
+        ") Regulation of body temperature",
+        ") Blood clotting",
+        ") Digestion of food"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 197,
+      "question": "Which of the following HLA alleles is commonly associated with the risk of developing Type 1 diabetes?",
+      "images": [],
+      "image": "",
+      "options": [
+        ") HLA-A2",
+        ") HLA-B27",
+        ") HLA-DR3",
+        ") HLA-DQ6",
+        ") HLA-DRB1"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 198,
+      "question": "What does the \"MHC\" in MHC molecules stand for?",
+      "images": [],
+      "image": "",
+      "options": [
+        ") Major Histocompatibility Complex",
+        ") Membrane Heterogeneity Complex",
+        ") Major Hemoglobin Complex",
+        ") Molecular Histone Complex",
+        ") Membrane Hemoglobin Complex"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 199,
+      "question": "What is the main purpose of antigen presentation by HLA molecules?",
+      "images": [],
+      "image": "",
+      "options": [
+        ") To increase blood flow to tissues",
+        ") To activate immune cells",
+        ") To store energy in cells",
+        ") To form a protective barrier in tissues",
+        ") To regulate body temperature"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 200,
+      "question": "HLA polymorphism contributes to which characteristic of the immune system?",
+      "images": [],
+      "image": "",
+      "options": [
+        ") Genetic similarity",
+        ") Antigenic diversity",
+        ") Immune tolerance",
+        ") Blood clotting efficiency",
+        ") Muscle strength"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 201,
+      "question": "Which of these diseases has been linked to a specific HLA-B allele?",
+      "images": [],
+      "image": "",
+      "options": [
+        ") Tuberculosis",
+        ") Celiac disease",
+        ") Heart disease",
+        ") Multiple sclerosis",
+        ") HIV/AIDS"
+      ],
+      "correctIndex": 4
+    },
+    {
+      "id": 202,
+      "question": "What is a major risk of mismatched HLA molecules in organ transplants?",
+      "images": [],
+      "image": "",
+      "options": [
+        ") Infections",
+        ") Rejection of the transplanted organ",
+        ") Increased blood pressure",
+        ") Decreased immunity",
+        ") Tumor formation"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 203,
+      "question": "In which type of cells would you NOT find Class I HLA molecules?",
+      "images": [],
+      "image": "",
+      "options": [
+        ") Skin cells",
+        ") Brain cells",
+        ") Red blood cells",
+        ") Muscle cells",
+        ") Kidney cells"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 204,
+      "question": "What is the main difference between HLA Class I and Class II molecules?",
+      "images": [],
+      "image": "",
+      "options": [
+        ") Class I presents antigens to cytotoxic T cells, while Class II presents to helper T cells",
+        ") Class I molecules are found only in immune cells, while Class II are found on all cells",
+        ") Class II molecules are smaller than Class I molecules",
+        ") Class I molecules require oxygen for function",
+        ") Class II molecules bind to DNA"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 205,
+      "question": "Which of the following is NOT a function of HLA molecules?",
+      "images": [],
+      "image": "",
+      "options": [
+        ") Activating immune responses",
+        ") Presenting foreign antigens",
+        ") Regulating insulin production",
+        ") Maintaining self-tolerance",
+        ") Facilitating immune recognition of pathogens"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 206,
+      "question": "What type of immune response involves HLA molecules?",
+      "images": [],
+      "image": "",
+      "options": [
+        ") Innate immunity",
+        ") Adaptive immunity",
+        ") Both innate and adaptive immunity",
+        ") Passive immunity"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 207,
+      "question": "Which of these molecules does NOT belong to the HLA system?",
+      "images": [],
+      "image": "",
+      "options": [
+        ") HLA-A",
+        ") HLA-B",
+        ") HLA-C",
+        ") HLA-M",
+        ") HLA-DR"
+      ],
+      "correctIndex": 3
+    },
+    {
+      "id": 208,
+      "question": "What does the HLA system help to distinguish between?",
+      "images": [],
+      "image": "",
+      "options": [
+        ") Friendly and harmful bacteria",
+        ") Human and non-human cells",
+        ") Oxygen-rich and oxygen-poor blood",
+        ") Normal and tumor cells",
+        ") Different types of viruses"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 209,
+      "question": "How are HLA genes inherited?",
+      "images": [],
+      "image": "",
+      "options": [
+        ") Through mitochondrial DNA",
+        ") Through both parents",
+        ") Only from the mother",
+        ") Randomly, without parental influence",
+        ") Through epigenetic modification"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 210,
+      "question": "HLA Class I molecules present antigens from which source?",
+      "images": [],
+      "image": "",
+      "options": [
+        ") Extracellular bacteria",
+        ") Viruses and intracellular pathogens",
+        ") Fungi",
+        ") Allergens",
+        ") Parasites"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 211,
+      "question": "The role of HLA in immune response is to:",
+      "images": [],
+      "image": "",
+      "options": [
+        ") Secrete antibodies",
+        ") Present antigens to T cells",
+        ") Produce cytokines",
+        ") Activate B cells directly",
+        ") Prevent phagocytosis"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 212,
+      "question": "Which type of antigen is presented by HLA Class II molecules?",
+      "images": [],
+      "image": "",
+      "options": [
+        ") Viral proteins",
+        ") Tumor antigens",
+        ") Extracellular bacterial peptides",
+        ") Self-antigens",
+        ") Lipids"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 213,
+      "question": "Which of the following best describes HLA polymorphism?",
+      "images": [],
+      "image": "",
+      "options": [
+        ") One variant per population",
+        ") Multiple alleles in a population",
+        ") No variation in genes",
+        ") Single allele dominance",
+        ") HLA genes mutate frequently"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 214,
+      "question": "Which of the following is the primary function of the complement system?",
+      "images": [],
+      "image": "",
+      "options": [
+        ") T-cell activation",
+        ") Enhancing antibody production",
+        ") Cell lysis and pathogen clearance",
+        ") Regulation of blood pressure",
+        ") Stimulation of B-cells"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 215,
+      "question": "hat initiates the classical pathway of the complement system?",
+      "images": [],
+      "image": "",
+      "options": [
+        ") Binding of mannan-binding lectin to carbohydrates",
+        ") Antigen-antibody complexes",
+        ") Spontaneous activation of C3",
+        ") Factor D activation",
+        ") Release of histamine"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 216,
+      "question": "Which of the following diseases is most closely associated with C3 deficiency?",
+      "images": [],
+      "image": "",
+      "options": [
+        ") Systemic lupus erythematosus (SLE)",
+        ") Atypical hemolytic uremic syndrome (aHUS)",
+        ") Recurrent bacterial infections",
+        ") Hereditary angioedema",
+        ") Macular degeneration"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 217,
+      "question": "The lectin pathway of the complement system is triggered by:",
+      "images": [],
+      "image": "",
+      "options": [
+        ") Mannose-binding lectin binding to pathogen surfaces",
+        ") Activation of C3 by antibodies",
+        ") The binding of C1 to immune complexes",
+        ") Spontaneous cleavage of C3",
+        ") Activation of C5"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 218,
+      "question": "Which of the following is true regarding the alternative pathway of the complement system?",
+      "images": [],
+      "image": "",
+      "options": [
+        ") It requires antibodies to activate",
+        ") It is constantly active at low levels",
+        ") It only activates in response to bacterial pathogens",
+        ") It directly activates C5",
+        ") It is dependent on C1 esterase inhibitor"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 219,
+      "question": "A patient with recurrent episodes of swelling in the face and throat without urticaria likely has:",
+      "images": [],
+      "image": "",
+      "options": [
+        ") Paroxysmal nocturnal hemoglobinuria",
+        ") Hereditary angioedema",
+        ") Systemic lupus erythematosus",
+        ") Atypical hemolytic uremic syndrome",
+        ") Hyperimmunoglobulin E syndrome"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 220,
+      "question": "Which complement protein is responsible for opsonizing pathogens?",
+      "images": [],
+      "image": "",
+      "options": [
+        ") C3b",
+        ") Clq",
+        ") C5a",
+        ") C2",
+        ") CD59"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 221,
+      "question": "Which of the following is a characteristic of C3 deficiency?",
+      "images": [],
+      "image": "",
+      "options": [
+        ") Recurrent infections with encapsulated bacteria",
+        ") Inflammatory bowel disease",
+        ") Hereditary angioedema",
+        ") Decreased serum C4 levels",
+        ") Autoimmune hemolytic anemia"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 222,
+      "question": "Which complement component is cleaved into C3a and C3b?",
+      "images": [],
+      "image": "",
+      "options": [
+        ") C3",
+        ") C4",
+        ") C5",
+        ") C1",
+        ") Factor D"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 223,
+      "question": "Complement proteins are primarily produced by:",
+      "images": [],
+      "image": "",
+      "options": [
+        ") Lymphocytes",
+        ") Liver cells",
+        ") Neutrophils",
+        ") Macrophages",
+        ") Platelets"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 224,
+      "question": "The complement system helps the immune system by:",
+      "images": [],
+      "image": "",
+      "options": [
+        ") Attacking pathogens directly",
+        ") Producing insulin",
+        ") Breaking down fats",
+        ") Synthesizing vitamins",
+        ") Controlling heart rate"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 225,
+      "question": "Which of the following is NOT a function of the complement system?",
+      "images": [],
+      "image": "",
+      "options": [
+        ") Opsonization",
+        ") Cell lysis",
+        ") Antibody production",
+        ") Inflammation",
+        ") Clearance of immune complexes"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 226,
+      "question": "Which complement pathway is primarily triggered by antigen-antibody complexes?",
+      "images": [],
+      "image": "",
+      "options": [
+        ") Classical pathway",
+        ") Alternative pathway",
+        ") Lectin pathway",
+        ") Terminal pathway",
+        ") Non-classical pathway"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 227,
+      "question": "What is the central component of all complement pathways?",
+      "images": [],
+      "image": "",
+      "options": [
+        ") C1",
+        ") C3",
+        ") C4",
+        ") C5",
+        ") Factor D"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 228,
+      "question": "Which of the following is responsible for forming the Membrane Attack Complex (MAC)?",
+      "images": [],
+      "image": "",
+      "options": [
+        ") Clq",
+        ") C3a and C5a",
+        ") C5-C9",
+        ") Factor H",
+        ") C2 and C4"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 229,
+      "question": "Which component initiates the lectin pathway?",
+      "images": [],
+      "image": "",
+      "options": [
+        ") Clq",
+        ") Mannose-binding lectin (MBL)",
+        ") Factor B",
+        ") C5b",
+        ") Properdin"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 230,
+      "question": "Patients with terminal complement component deficiency should receive which vaccination?",
+      "images": [],
+      "image": "",
+      "options": [
+        ") Influenza vaccine",
+        ") MMR vaccine",
+        ") Meningococcal vaccine",
+        ") Hepatitis B vaccine",
+        ") Diphtheria vaccine"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 231,
+      "question": "Which of the following is NOT a complement-mediated disease?",
+      "images": [],
+      "image": "",
+      "options": [
+        ") Systemic lupus erythematosus",
+        ") Atypical hemolytic uremic syndrome",
+        ") Hereditary angioedema",
+        ") Chronic granulomatous disease",
+        ") Paroxysmal nocturnal hemoglobinuria"
+      ],
+      "correctIndex": 3
+    },
+    {
+      "id": 232,
+      "question": "What does the membrane attack complex (MAC) do?",
+      "images": [],
+      "image": "",
+      "options": [
+        ") Activates B cells",
+        ") Leads to the destruction of pathogens",
+        ") Produces antibodies",
+        ") Recruits neutrophils",
+        ") Stimulates cytokine production"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 233,
+      "question": "Which of the following is NOT a function of the complement system?",
+      "images": [],
+      "image": "",
+      "options": [
+        ") Inflammation",
+        ") Opsonization",
+        ") T cell activation",
+        ") Phagocytosis of pathogens",
+        ") Lysis of pathogens"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 234,
+      "question": "Which of the following is NOT a consequence of complement activation?",
+      "images": [],
+      "image": "",
+      "options": [
+        ") Inflammation",
+        ") Phagocytosis of pathogens",
+        ") Formation of a clonal antibody response",
+        ") Lysis of target cells",
+        ") Opsonization of pathogens"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 235,
+      "question": "Which of the following cells does the complement system primarily target for destruction?",
+      "images": [],
+      "image": "",
+      "options": [
+        ") Virus-infected cells",
+        ") Red blood cells",
+        ") Bacteria",
+        ") T lymphocytes",
+        ") Endothelial cells"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 236,
+      "question": "What happens if C3 is completely deficient?",
+      "images": [],
+      "image": "",
+      "options": [
+        ") Increased susceptibility to viral infections",
+        ") Deficient phagocytosis and increased bacterial infections",
+        ") Increased cytokine production",
+        ") Enhanced T-cell activity",
+        ") No effect on immunity"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 237,
+      "question": "How is the classical complement pathway activated?",
+      "images": [],
+      "image": "",
+      "options": [
+        ") Direct recognition of bacteria",
+        ") Antigen-antibody complex formation",
+        ") Spontaneous activation on pathogen surfaces",
+        ") Mannose-binding lectin (MBL) binding",
+        ") Interaction with T cells"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 238,
+      "question": "The function of C3 convertase is to:",
+      "images": [],
+      "image": "",
+      "options": [
+        ") Directly lyse pathogens",
+        ") Convert C3 into C3a and C3b",
+        ") Initiate cytokine release",
+        ") Activate CD8+ T cells",
+        ") Inhibit complement activation"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 239,
+      "question": "The final step in complement activation leads to:",
+      "images": [],
+      "image": "",
+      "options": [
+        ") Phagocytosis",
+        ") Inflammation",
+        ") Membrane Attack Complex (MAC) formation",
+        ") Cytokine secretion",
+        ") Antibody production"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 240,
+      "question": "Which immunoglobulin is most effective at activating complement?",
+      "images": [],
+      "image": "",
+      "options": [
+        ") IgA",
+        ") IgE",
+        ") IgG",
+        ") IgM",
+        ") IgD"
+      ],
+      "correctIndex": 3
+    },
+    {
+      "id": 241,
+      "question": "Which organ clears complement immune complexes?",
+      "images": [],
+      "image": "",
+      "options": [
+        ") Brain",
+        ") Heart",
+        ") Spleen",
+        ") Kidneys",
+        ") Pancreas"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 242,
+      "question": "Which of the following is a consequence of complement activation?",
+      "images": [],
+      "image": "",
+      "options": [
+        ") Enhanced phagocytosis",
+        ") Destruction of host cells",
+        ") Decreased blood flow",
+        ") Inhibition of B cells",
+        ") Suppression of inflammation"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 243,
+      "question": "Which of the following tests is most commonly used to quantify antigens in a sample?",
+      "images": [],
+      "image": "",
+      "options": [
+        ") Western blot",
+        ") Direct ELISA",
+        ") Immunofluorescence",
+        ") Flow cytometry",
+        ") PCR"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 244,
+      "question": "What is the principle of ELISA?",
+      "images": [],
+      "image": "",
+      "options": [
+        ") Detection of antigen-antibody complexes using an enzyme",
+        ") Detection of nucleic acids",
+        ") Separation of proteins by electrophoresis",
+        ") Measurement of light scattering",
+        ") Use of radioisotopes to detect interactions"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 245,
+      "question": "Which test is used for confirmatory diagnosis of HIV?",
+      "images": [],
+      "image": "",
+      "options": [
+        ") Rapid antigen test",
+        ") Western blot",
+        ") Hemagglutination test",
+        ") Indirect ELISA",
+        ") PCR"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 246,
+      "question": "Which of the following techniques uses fluorescence-labeled antibodies?",
+      "images": [],
+      "image": "",
+      "options": [
+        ") RIA",
+        ") Nephelometry",
+        ") Immunofluorescence",
+        ") Latex agglutination",
+        ") Competitive ELISA"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 247,
+      "question": "Which test detects antigen by immobilizing it between two antibodies?",
+      "images": [],
+      "image": "",
+      "options": [
+        ") Indirect ELISA",
+        ") Direct ELISA",
+        ") Sandwich ELISA",
+        ") Flow cytometry",
+        ") RIA"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 248,
+      "question": "Which test is commonly used for rapid antigen detection at the point of care?",
+      "images": [],
+      "image": "",
+      "options": [
+        ") Western blot",
+        ") Immunochromatographic assay",
+        ") PCR",
+        ") Indirect ELISA",
+        ") Turbidimetry"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 249,
+      "question": "What is the main advantage of RIA over ELISA?",
+      "images": [],
+      "image": "",
+      "options": [
+        ") Lower sensitivity",
+        ") Use of radioactive isotopes",
+        ") Faster turnaround time",
+        ") Requires simpler equipment",
+        ") No antigen-antibody reaction involved"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 250,
+      "question": "Which test is used in blood typing?",
+      "images": [],
+      "image": "",
+      "options": [
+        ") Sandwich ELISA",
+        ") Hemagglutination",
+        ") RIA",
+        ") Nephelometry",
+        ") Immunoblot"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 251,
+      "question": "Which test uses light scattering to measure antigen-antibody complexes?",
+      "images": [],
+      "image": "",
+      "options": [
+        ") Turbidimetry",
+        ") ELISA",
+        ") PCR",
+        ") Western blot",
+        ") Flow cytometry"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 252,
+      "question": "What is the primary application of flow cytometry?",
+      "images": [],
+      "image": "",
+      "options": [
+        ") Protein separation",
+        ") Quantification of cellular markers",
+        ") DNA amplification",
+        ") Detecting radioisotopes",
+        ") Measuring enzyme activity"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 253,
+      "question": "Which of the following detects antigen-antibody interactions using latex beads?",
+      "images": [],
+      "image": "",
+      "options": [
+        ") Immunochromatographic assay",
+        ") ELISA",
+        ") Latex agglutination test",
+        ") Flow cytometry",
+        ") PCR"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 254,
+      "question": "In a competitive ELISA, how is antigen concentration determined?",
+      "images": [],
+      "image": "",
+      "options": [
+        ") Directly proportional to signal",
+        ") Inversely proportional to signal",
+        ") Based on light scattering",
+        ") Through radioactivity measurement",
+        ") By antigen migration on a strip"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 255,
+      "question": "Which test is preferred for quantifying immunoglobulin levels?",
+      "images": [],
+      "image": "",
+      "options": [
+        ") RIA",
+        ") Nephelometry",
+        ") Western blot",
+        ") PCR",
+        ") ELISA"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 256,
+      "question": "What is the key advantage of immunochromatographic assays?",
+      "images": [],
+      "image": "",
+      "options": [
+        ") High specificity",
+        ") Long processing time",
+        ") Requirement of advanced laboratory equipment",
+        ") Rapid results",
+        ") Use of radioisotopes"
+      ],
+      "correctIndex": 3
+    },
+    {
+      "id": 257,
+      "question": "Which type of ELISA is best suited for detecting antibodies in patient serum?",
+      "images": [],
+      "image": "",
+      "options": [
+        ") Direct ELISA",
+        ") Indirect ELISA",
+        ") Sandwich ELISA",
+        ") Competitive ELISA",
+        ") Lateral flow assay"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 258,
+      "question": "Which diagnostic method is primarily used for viral load quantification?",
+      "images": [],
+      "image": "",
+      "options": [
+        ") Hemagglutination",
+        ") ELISA",
+        ") PCR",
+        ") Western blot",
+        ") Turbidimetry"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 259,
+      "question": "What is the main function of a secondary antibody in indirect ELISA?",
+      "images": [],
+      "image": "",
+      "options": [
+        ") Directly binding the antigen",
+        ") Enhancing fluorescence",
+        ") Binding to primary antibodies",
+        ") Binding to a membrane",
+        ") Detecting nucleic acids"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 260,
+      "question": "Which test can differentiate various protein bands?",
+      "images": [],
+      "image": "",
+      "options": [
+        ") PCR",
+        ") Western blot",
+        ") Indirect ELISA",
+        ") Nephelometry",
+        ") Flow cytometry"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 261,
+      "question": "Which type of ELISA is most useful for detecting small molecules like hormones?",
+      "images": [],
+      "image": "",
+      "options": [
+        ") Indirect",
+        ") Sandwich",
+        ") Competitive",
+        ") Direct",
+        ") None of the above"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 262,
+      "question": "Which test requires a fluorescence microscope for result interpretation?",
+      "images": [],
+      "image": "",
+      "options": [
+        ") Immunofluorescence assay",
+        ") Hemagglutination test",
+        ") Western blot",
+        ") ELISA",
+        ") PCR"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 263,
+      "question": "What does RIA stand for?",
+      "images": [],
+      "image": "",
+      "options": [
+        ") Rapid Immunoassay",
+        ") Radioimmunoassay",
+        ") Reactive Immunoassay",
+        ") Recombinant Immunoassay",
+        ") Reverse Immunoassay"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 264,
+      "question": "Which of the following is NOT an antigen-detection test?",
+      "images": [],
+      "image": "",
+      "options": [
+        ") ELISA",
+        ") Western blot",
+        ") PCR",
+        ") Hemagglutination",
+        ") Gram Staining"
+      ],
+      "correctIndex": 4
+    },
+    {
+      "id": 265,
+      "question": "Which test is widely used to confirm syphilis?",
+      "images": [],
+      "image": "",
+      "options": [
+        ") RIA",
+        ") Western blot",
+        ") ELISA",
+        ") Agglutination test",
+        ") PCR"
+      ],
+      "correctIndex": 3
+    },
+    {
+      "id": 266,
+      "question": "What is a key advantage of PCR over antigen detection?",
+      "images": [],
+      "image": "",
+      "options": [
+        ") Higher specificity",
+        ") Lower cost",
+        ") Detects antibodies",
+        ") Less technical expertise needed",
+        ") Slower processing time"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 267,
+      "question": "What is used as a signal detection system in ELISA?",
+      "images": [],
+      "image": "",
+      "options": [
+        ") Radioactive isotopes",
+        ") Enzymes",
+        ") Fluorescent dyes",
+        ") Light scattering",
+        ") DNA probes"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 268,
+      "question": "What type of ELISA is best for detecting cytokines in a biological sample?",
+      "images": [],
+      "image": "",
+      "options": [
+        ") Indirect",
+        ") Direct",
+        ") Sandwich",
+        ") Competitive"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 269,
+      "question": "What is the main purpose of a positive control in an ELISA test?",
+      "images": [],
+      "image": "",
+      "options": [
+        ") To amplify DNA",
+        ") To ensure test validity",
+        ") To remove background noise",
+        ") To detect antibodies",
+        ") To measure enzyme activity"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 270,
+      "question": "Which test would be used for detecting autoimmune disorders?",
+      "images": [],
+      "image": "",
+      "options": [
+        ") PCR",
+        ") ELISA",
+        ") Hemagglutination",
+        ") Flow cytometry",
+        ") RIA"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 271,
+      "question": "What is the advantage of Western blot over ELISA?",
+      "images": [],
+      "image": "",
+      "options": [
+        ") Faster results",
+        ") More quantitative data",
+        ") Higher specificity",
+        ") Requires less equipment",
+        ") Uses fluorescence instead of enzymes"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 272,
+      "question": "Which test detects antigen-antibody interactions by visual clumping?",
+      "images": [],
+      "image": "",
+      "options": [
+        ") ELISA",
+        ") Agglutination test",
+        ") PCR",
+        ") Flow cytometry",
+        ") RIA"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 273,
+      "question": "Which method is most commonly used to quantify viral RNA in an infection?",
+      "images": [],
+      "image": "",
+      "options": [
+        ") Western blot",
+        ") qPCR",
+        ") ELISA",
+        ") Hemagglutination assay",
+        ") Flow cytometry"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 274,
+      "question": "What is the main advantage of digital PCR (dPCR) over qPCR?",
+      "images": [],
+      "image": "",
+      "options": [
+        ") Faster processing",
+        ") More affordable",
+        ") Absolute quantification of viral DNA/RNA",
+        ") Requires less sample preparation",
+        ") Less sensitive"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 275,
+      "question": "Which assay is used to measure the number of infectious virus particles in a sample?",
+      "images": [],
+      "image": "",
+      "options": [
+        ") qPCR",
+        ") ELISA",
+        ") Viral plaque assay",
+        ") Western blot",
+        ") Hemagglutination assay"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 276,
+      "question": "Which method is based on measuring virus-induced cell lysis?",
+      "images": [],
+      "image": "",
+      "options": [
+        ") PCR",
+        ") ELISA",
+        ") Focus forming assay",
+        ") Plaque assay",
+        ") Flow cytometry"
+      ],
+      "correctIndex": 3
+    },
+    {
+      "id": 277,
+      "question": "What does TCID50 measure?",
+      "images": [],
+      "image": "",
+      "options": [
+        ") Viral RNA copies",
+        ") Number of antibodies",
+        ") Virus concentration that infects 50% of cultured cells",
+        ") Virus protein expression",
+        ") Viral genome sequencing"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 278,
+      "question": "What is the primary advantage of RT-LAMP over qPCR?",
+      "images": [],
+      "image": "",
+      "options": [
+        ") Higher accuracy",
+        ") Faster and simpler operation",
+        ") Lower specificity",
+        ") Requires a thermal cycler",
+        ") Uses radioactivity"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 279,
+      "question": "Which virus quantification test is used for influenza virus using red blood cells?",
+      "images": [],
+      "image": "",
+      "options": [
+        ") ELISA",
+        ") Hemagglutination assay",
+        ") Plaque assay",
+        ") qPCR",
+        ") Western blot"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 280,
+      "question": "Which method is commonly used to determine viral load in HIV patients?",
+      "images": [],
+      "image": "",
+      "options": [
+        ") Western blot",
+        ") Hemagglutination assay",
+        ") qPCR",
+        ") ELISA",
+        ") Plaque assay"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 281,
+      "question": "What is the role of fluorescent probes in qPCR?",
+      "images": [],
+      "image": "",
+      "options": [
+        ") Detect and quantify viral nucleic acids",
+        ") Measure viral proteins",
+        ") Visualize infected cells",
+        ") Bind to antibodies",
+        ") Increase sample volume"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 282,
+      "question": "What is the major limitation of ELISA for viral quantification?",
+      "images": [],
+      "image": "",
+      "options": [
+        ") Cannot detect viral antigens",
+        ") Cannot differentiate live from dead virus",
+        ") Requires advanced equipment",
+        ") Very slow",
+        ") Only works for DNA viruses"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 283,
+      "question": "Which of the following quantifies viral genome copies per milliliter of blood?",
+      "images": [],
+      "image": "",
+      "options": [
+        ") qPCR",
+        ") Western blot",
+        ") ELISA",
+        ") Hemagglutination",
+        ") Plaque assay"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 284,
+      "question": "Which virus quantification method does NOT require cell culture?",
+      "images": [],
+      "image": "",
+      "options": [
+        ") Plaque assay",
+        ") TCID50",
+        ") qPCR",
+        ") Focus forming assay",
+        ") ELISA"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 285,
+      "question": "Which virus quantification method uses fluorescence microscopy?",
+      "images": [],
+      "image": "",
+      "options": [
+        ") Western blot",
+        ") qPCR",
+        ") Focus forming assay",
+        ") Hemagglutination",
+        ") $TCID_{50}$"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 286,
+      "question": "Which test is used for next-generation sequencing (NGS) of viruses?",
+      "images": [],
+      "image": "",
+      "options": [
+        ") PCR",
+        ") ELISA",
+        ") Nanopore sequencing",
+        ") Plaque assay",
+        ") Hemagglutination"
+      ],
+      "correctIndex": 2
+    }
+  ]
+}

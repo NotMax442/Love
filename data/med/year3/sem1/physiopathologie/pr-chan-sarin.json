@@ -1,0 +1,286 @@
+{
+  "questions": [
+    {
+      "id": 1,
+      "question": "A propos de pression atmosphère de latitude au niveau de la mer, Quelle est la proposition peut-on affirmer?",
+      "images": [],
+      "image": "",
+      "options": [
+        "La pression de l'atmosphère est de 713 mmHg",
+        "La pression de l'atmosphère est de 713 cmH2O",
+        "La pression de l'atmosphère est de 713 atm",
+        "La pression de l'atmosphère est de 713 mmol",
+        "La pression de l'atmosphère est de 713%"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 2,
+      "question": "A propos de concentration de l'oxygène en air ambiant, Quelle est la proposition peut-on affirmer?",
+      "images": [],
+      "image": "",
+      "options": [
+        "11%",
+        "21%",
+        "31%",
+        "41%",
+        "61%"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 3,
+      "question": "A propos de le mécanisme physiopathologique concernant l'hypoventilation alvéolaire, Quelle est la proposition peut-on affirmer?",
+      "images": [],
+      "image": "",
+      "options": [
+        "Hypothermie corporelle",
+        "Hypocapnie artérielle",
+        "Hyponatrémie plasmatique",
+        "Hypotension artérielle",
+        "Hypocalcémie plasmatique"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 4,
+      "question": "Chez une jeune femme de 25 ans, entrée aux urgences pour dyspnée et hyperventilation. Elle n'a aucune maladie connue ni asthme ni hypertension artérielle. Vous pensez au diagnostic syndrome d'hyperventilation. Le gaz du sang en air ambiant effectué.\nQuelle est l'anomalie de ce gaz du sang peut-on attendre ?",
+      "images": [],
+      "image": "",
+      "options": [
+        "Hypocapnie respiratoire",
+        "Acidose plasmatique",
+        "Hypoxémie artérielle",
+        "Hypoxie tissulaire",
+        "Alcalose métabolique"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 5,
+      "question": "Chez une jeune femme de 45 ans, entrée aux urgences pour dyspnée et hyperventilation. Elle n'a aucune maladie connue ni asthme ni hypertension artérielle. Vous pensez au diagnostic syndrome d'hyperventilation. Le gaz du sang en air ambiant effectué.\nQuelle est l'anomalie de PaCO2 peut-on attendre ?",
+      "images": [],
+      "image": "",
+      "options": [
+        "25 mmHg",
+        "35 mmHg",
+        "45 mmHg",
+        "55 mmHg",
+        "65 mmHg"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 6,
+      "question": "Un jeun sportif âgé de 24 ans a été monté en extrémisme Hamalaya, au milieu il a fait l'hypoxémie sévère. Quel est le mécanisme physiopathologie de cet hypoxémie sévère, peut-on affirmer?",
+      "images": [],
+      "image": "",
+      "options": [
+        "L'hypoventilation alvéolaire",
+        "L'anomalie de diffusion",
+        "Le shunt gauche - droit",
+        "L'inégalité de la ventilation-perfusion",
+        "La diminution de la FiO2 inspirée"
+      ],
+      "correctIndex": 4
+    },
+    {
+      "id": 7,
+      "question": "Un jeun sportif âgé de 24 ans est arrivé aux urgences dans un hôpital de Phnom Penh pour dyspnée intense en 2 heures avec le fréquence respiratoire 34/min, SpOO2 76% PaO2 43 mmHg en air ambiant. Vous pensez que ce patient est en état de déstresse respiratoire aigu. Quelle est la conséquence due à l'hypoxémie sévère peut donner ?",
+      "images": [],
+      "image": "",
+      "options": [
+        "Une tachycardie sinusale",
+        "Une acidose métabolique",
+        "Des hémorragies digestives",
+        "Une hyperthermie majeure",
+        "Un amaigrissement paradoxal"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 8,
+      "question": "Chez un jeune homme de 21 ans, entré aux urgences pour coma stade III dans un contexte traumatisme crânien. Il a bénéficié une intubation pour coma et hypoventilation. Il n'a aucune maladie connue ni asthme ni tabagisme. Vous pensez au diagnostic syndrome d'hypoventilation alvéolaire. Le gaz du sang en air ambiant effectué.\nQuelle est l'anomalie de ce gaz du sang peut-on attendre ?",
+      "images": [],
+      "image": "",
+      "options": [
+        "Hypercapnie respiratoire",
+        "Hypocapnie respiratoire",
+        "Alcalose respiratoire",
+        "Alcalose métabolique",
+        "Acidose métabolique"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 9,
+      "question": "Vous recevez une patiente 57 ans aux urgences dans un hôpital de Phnom Penh, pour dyspnée intense. Elle a antécédent principal la maladie myasthénie connue depuis 4 ans. L'interrogatoire et l'examen clinique, vous retrouvez bonne hémodynamique la respiration abdominale paradoxale, dont la paralysie diaphragmatique bilatérale très évoquée et SpO2 86% en air ambiant.\nQuelle est l'étiologie physiopathologique de cet hypoxémie le plus vraisemblable ?",
+      "images": [],
+      "image": "",
+      "options": [
+        "L'hypoventilation alvéolaire",
+        "L'anomalie de diffusion",
+        "Le shunt gauche - droit",
+        "L'inégalité de la ventilation-perfusion",
+        "Le séjour en haute altitude"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 10,
+      "question": "Vous recevez aux urgences une patiente de 47 ans pour dyspnée intense avec hyperventilation. L'interrogatoire, on retrouve la notion des épisodes d'oppression thoracique, insomnie et quelques hyperventilations nocturne, sans fièvre ni sifflant. Cette patiente est en état panique et hyperventilation en oxygenotherapie dont FiO2 100%.\nQuelle est la chiffre PaO2 estimée la plus vraisemblable ?",
+      "images": [],
+      "image": "",
+      "options": [
+        "PaO2 40 mmHg",
+        "PaO2 60 mmHg",
+        "PaO2 80 mmHg",
+        "PaO2 100 mmHg",
+        "PaO2 120 mmHg"
+      ],
+      "correctIndex": 4
+    },
+    {
+      "id": 11,
+      "question": "Insuffisance rénale chronique et cardiopathie sont les causes principales d'œdème aigu pulmonaire en pratique.\nQuel est le mécanisme physiopathologique de l'œdème pulmonaire due à ces deux maladies ?",
+      "images": [],
+      "image": "",
+      "options": [
+        "Une augmentation de la pression hydrostatique capillaire",
+        "Une augmentation de la perméabilité capillaire",
+        "Une diminution de la pression interstitielle",
+        "Une diminution de la pression colloïde osmotique",
+        "Une insuffisance lymphatique"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 12,
+      "question": "Chez un sujet âgé de 76 ans entrée pour dyspnée expiratoire du 1er épisode. Il a pour principal antécédent hypertension artérielle avec le traitement irrégulier. Vous pensez le diagnostic œdème aigu pulmonaire.\nQuel est le mécanisme physiopathologique de l'œdème pulmonaire de ce patient?",
+      "images": [],
+      "image": "",
+      "options": [
+        "Une augmentation de la pression hydrostatique capillaire",
+        "Une augmentation de la perméabilité capillaire",
+        "Une diminution de la pression interstitielle",
+        "Une diminution de la pression colloïde osmotique",
+        "Une insuffisance lymphatique"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 13,
+      "question": "Vous recevez un patient âgé de 73 ans pour dyspnée remonté progressivement depuis 2 semaines. Ce patient est suivi régulier par médecin cancérologue pour cancer thyroïdien. Le cliché de radiographie thoracique retrouve des adénopathies médiastinale et micronodules périhilaires et Ligne de Kerley. Vous pensez la lymphangite carcinomateuse responsable l'œdème pulmonaire.\nQuel est le mécanisme physiopathologique de l'œdème pulmonaire de ce patient ?",
+      "images": [],
+      "image": "",
+      "options": [
+        "Une augmentation de la pression hydrostatique capillaire",
+        "Une augmentation de la perméabilité capillaire",
+        "Une diminution de la pression interstitielle",
+        "Une diminution de la pression colloïde osmotique",
+        "Une insuffisance lymphatique"
+      ],
+      "correctIndex": 4
+    },
+    {
+      "id": 14,
+      "question": "Quelle est la maladie ou la condition peut donner l'œdème pulmonaire par le mécanisme de la diminution de la pression interstitielle ou OAP réexpansion ?",
+      "images": [],
+      "image": "",
+      "options": [
+        "Perfusion albumine",
+        "Pancréatite aiguë",
+        "Drainage péricardique",
+        "Drainage pleural",
+        "Polytraumatisme"
+      ],
+      "correctIndex": 3
+    },
+    {
+      "id": 15,
+      "question": "Vous interprétez le cliché de radiographie thoracique d'un homme âgé de 60 ans dans un contexte de dyspnée à l'effort, et aggrave la nuit depuis 24 heure orthopnée. Vous retrouve la silhouette cardiaque et vaisseaux pulmonaires dilatés. Quelle est l'autre anomale sur ce cliché trouvez-vous?",
+      "images": [
+        "y3-physiopath-pr-chan-sarin-q20-image-1.jpg"
+      ],
+      "image": "y3-physiopath-pr-chan-sarin-q20-image-1.jpg",
+      "options": [
+        "Lignes de KerleyB",
+        "Opacités micro nodules",
+        "Pleurésie bilatérale",
+        "Masse hilaire",
+        "Abcès pulmonaire"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 16,
+      "question": "Vous recevez un patient âgé de 72 ans aux urgences pour dyspnée expiratoire, sans antécédent retrouvé. L'examen : tension artérielle 160/80 mmHg poules: 120/min SaO2 90% en air ambiant, auscultation râles sibilants diffus. Quelle est la maladie en priorité le plus vraisemblable ?",
+      "images": [],
+      "image": "",
+      "options": [
+        "Asthme bronchique débutant",
+        "Edème pulmonaire hémodynamique",
+        "Bronchite chronique obstructive",
+        "Tumeur broncho pulmonaire",
+        "Dystrophie des cordes vocales"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 17,
+      "question": "Vous recevez un patient âgé de 62 ans aux urgences pour poursuite de prise en charge d'un œdème aigu du poumon apparue brutale. L'examen: tension artérielle 190/80 mmHg poules: 120/min SaO2 93% en air ambiant, auscultation râles sibilants diffus.\nQuelle est le signe clinique le plus caractéristique peut-on interroger?",
+      "images": [],
+      "image": "",
+      "options": [
+        "Dyspnée expiratoire",
+        "Dyspnée orthopnée",
+        "Dyspnée laryngée",
+        "Dyspnée inspiratoire",
+        "Dystrophie laryngée"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 18,
+      "question": "Vous interprétez le cliché de radiographie thoracique d'un homme âgé de 65 ans dans un contexte de dyspnée à l'effort, et aggrave la nuit depuis 24 heure orthopnée. Vous évoquez à d'un œdème aigu du poumon. Quelle est l'anomale sur ce cliché trouvez-vous en letregarde?",
+      "images": [],
+      "image": "",
+      "options": [
+        "Augmentation silhouette cardiaque",
+        "Opacités micro nodules diffuse",
+        "Pleurésie abondante bilatérale",
+        "Masse d'allure tumorale",
+        "Opacité alvéolaire au sommet"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 19,
+      "question": "Chez un patient a un œdème aigu du poumon hydrostatique. A propos de gazométrie vous signale pré-sévère peut on retrouver PaCO2 en plus que hypoxémie?",
+      "images": [],
+      "image": "",
+      "options": [
+        "PaO2 56 mmHg et PaCO2 40 mmHg",
+        "PaO2 56 mmHg et PaCO2 34mmHg",
+        "PaO2 56 mmHg et PaCO2 30 mmHg",
+        "PaO2 56 mmHg et PaCO2 26 mmHg",
+        "PaO2 56 mmHg et PaCO2 24 mmHg"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 20,
+      "question": "Vous recevez un patient âgé de 62 ans aux urgences pour poursuite de prise en charge d'un œdème aigu du poumon apparue brutale. L'examen: tension artérielle 190/80 mmHg poules: 120/min SaO2 93% en air ambiant et crachats mousseuses avec présence des râles.\nQuelle est le signe auscultatoire le plus caractéristique d'un œdème aigu du poumon de ce patient retrouve-on à ausculter?",
+      "images": [],
+      "image": "",
+      "options": [
+        "Sibilants diffus",
+        "Crépitants bibasale",
+        "Ronchis du sommet",
+        "Souffle tubaire",
+        "Stridor médiothoracique"
+      ],
+      "correctIndex": 1
+    }
+  ]
+}

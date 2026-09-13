@@ -5,7 +5,7 @@
 const manifestData = {
   "MED": {
     "1": { "1": {}, "2": {} },
-    "2": { 
+    "2": {
       "1": {
         "ANATOMIE": [
           "Pr. Ung Chan",
@@ -39,7 +39,7 @@ const manifestData = {
         "TP-HISTOLOGIE": [
           "Pr. Chhut SereyVathana"
         ]
-      }, 
+      },
       "2": {
         "BIOCHIMIE": [
           "Pr. Ung Channy"
@@ -78,7 +78,7 @@ const manifestData = {
           "Pr. Chhea Chorvann",
           "Dr. Tol Bunkea"
         ]
-      } 
+      }
     },
     "3": {
       "1": {
@@ -100,9 +100,25 @@ const manifestData = {
           "Pr. Im Bunthoeun",
           "Dr. Em Savoeun",
           "Dr. Bun Bora"
+        ],
+        "PHYSIOPATHOLOGIE": [
+          "Pr. Im Bunthoeun",
+          "Pr. Chan Sarin",
+          "Dr. Sou Siphana",
+          "Dr. Sann Sary",
+          "Dr. Heng Piseth"
         ]
-      }, 
-      "2": {} 
+      },
+      "2": {
+        "IMMUNOLOGIE": [
+          "Pr. Kruy Sunlay",
+          "Pr. Kruy Sunlay2"
+        ],
+        "MICROBIOLOGIE": [
+          "Dr. Horm SreyViseth",
+          "Dr. Neang Mom"
+        ]
+      }
     },
     "4": { "1": {}, "2": {} },
     "5": { "1": {}, "2": {} },
@@ -145,18 +161,18 @@ function toggleProfDrawer(drawerId, btnEl) {
 
 async function fetchProfQuestionCount(major, year, semester, subject, profName, badgeEl) {
   if (!badgeEl) return;
-  
+
   const profSlug = getProfSlug(profName);
   const jsonPath = `data/${major.toLowerCase()}/year${year}/sem${semester}/${subject.toLowerCase()}/${profSlug}.json`;
   try {
     const res = await fetch(jsonPath);
     if (!res.ok) return;
     const data = await res.json();
-    
-    const count = Array.isArray(data) 
-      ? data.length 
+
+    const count = Array.isArray(data)
+      ? data.length
       : (Array.isArray(data?.questions) ? data.questions.length : 0);
-    
+
     if (count > 0) {
       badgeEl.textContent = `${count} Qs`;
       badgeEl.style.display = 'inline-block';
@@ -174,7 +190,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
 function showScreen(screenId, direction = 'forward') {
   const screens = ['landing-screen', 'major-screen', 'year-screen', 'semester-screen', 'subject-screen', 'professor-screen'];
-  
+
   const currentVisibleId = screens.find(id => {
     const el = document.getElementById(id);
     return el && !el.classList.contains('hidden');
@@ -327,8 +343,8 @@ function showSubjects(major, year, semester, direction = 'forward') {
   if (!subjectList) return;
   subjectList.innerHTML = '';
 
-  const subjects = manifestData[major]?.[year]?.[semester] 
-    ? Object.keys(manifestData[major][year][semester]) 
+  const subjects = manifestData[major]?.[year]?.[semester]
+    ? Object.keys(manifestData[major][year][semester])
     : [];
 
   if (subjects.length === 0) {
@@ -413,7 +429,7 @@ function showProfessors(major, year, semester, subject, direction = 'forward') {
   professors.forEach(profItem => {
     const profName = getProfName(profItem);
     const profSlug = getProfSlug(profName);
-      
+
     const storageKey = getStorageKey(major, year, semester, subject, profName);
     const savedMissed = localStorage.getItem(storageKey);
     const missedCount = savedMissed ? JSON.parse(savedMissed).length : 0;
@@ -421,7 +437,7 @@ function showProfessors(major, year, semester, subject, direction = 'forward') {
     const studyKey = `saved_study_${major.toLowerCase()}_y${year}_s${semester}_${subject.toLowerCase()}_${profSlug}`;
     const savedStudyRaw = localStorage.getItem(studyKey);
     let studyProgress = null;
-    if (savedStudyRaw) { try { studyProgress = JSON.parse(savedStudyRaw); } catch(e) {} }
+    if (savedStudyRaw) { try { studyProgress = JSON.parse(savedStudyRaw); } catch (e) { } }
 
     let continueBtnHTML = '';
     let studyBtnLabel = isSingleProf ? getTranslation('btn_subject_study_all') : getTranslation('btn_study');
@@ -663,4 +679,4 @@ function showUpdateModal() {
   const modal = document.getElementById('update-modal');
   if (modal) modal.classList.remove('hidden');
 }
- 
+

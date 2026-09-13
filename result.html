@@ -5,8 +5,21 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Session Results - TestforUHS</title>
-  <link rel="icon" href="data:,">
+  <meta name="title" content="Session Results - TestforUHS">
+  <meta name="description"
+    content="View your quiz performance, review correct/incorrect answers, and export flashcards to Anki.">
+
+  <!-- Canonical Link -->
+  <link rel="canonical" href="https://testforuhs.com/result">
+
+  <!-- Icons & CSS -->
+  <link rel="icon" type="image/png" sizes="192x192" href="assets/logo.png">
+  <link rel="apple-touch-icon" href="assets/logo.png">
+  <link rel="shortcut icon" href="assets/logo.png">
   <link rel="stylesheet" href="style.css">
+
+  <!-- Lucide Icons CDN -->
+  <script src="https://unpkg.com/lucide@latest"></script>
 
   <!-- Google AdSense Master Script -->
   <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-4210272281940886"
@@ -19,19 +32,23 @@
     <!-- Top Navigation Bar -->
     <nav class="main-navbar">
       <div class="nav-links">
-        <a href="/" class="nav-item" data-i18n="nav_home">HOME</a>
-        <a href="/about" class="nav-item" data-i18n="nav_about">ABOUT</a>
-        <a href="/contact" class="nav-item" data-i18n="nav_contact">CONTACT US</a>
-        <a href="/account" class="nav-item" data-i18n="nav_account">MY ACCOUNT</a>
+        <a href="home" class="nav-item" data-i18n="nav_home">HOME</a>
+        <a href="about" class="nav-item" data-i18n="nav_about">ABOUT</a>
+        <a href="contact" class="nav-item" data-i18n="nav_contact">CONTACT US</a>
+        <a href="account" class="nav-item" data-i18n="nav_account">MY ACCOUNT</a>
         <button id="nav-donate-btn" class="nav-item" data-i18n="nav_donate"
-          style="color: #f59e0b; font-weight: 700; background: none; border: none; cursor: pointer;">☕ Support Us</button>
+          style="color: #f59e0b; font-weight: 700; background: none; border: none; cursor: pointer; display: flex; align-items: center; gap: 0.35rem;">
+          <i data-lucide="coffee" style="width: 18px; height: 18px;"></i> Support Us
+        </button>
       </div>
       <div class="nav-controls" style="display: flex; gap: 0.5rem; align-items: center;">
         <select id="language-select" class="lang-select">
           <option value="en">English</option>
           <option value="km">ភាសាខ្មែរ</option>
         </select>
-        <button id="theme-toggle-btn" class="theme-btn">🌙 Dark</button>
+        <button id="theme-toggle-btn" class="theme-btn" style="display: flex; align-items: center; gap: 0.35rem;">
+          <i data-lucide="moon" style="width: 16px; height: 16px;"></i> Dark
+        </button>
       </div>
     </nav>
 
@@ -52,9 +69,11 @@
             <!-- Neutral background ring -->
             <circle class="pie-ring bg-ring" cx="50" cy="50" r="40" />
             <!-- Green correct answers ring -->
-            <circle id="correct-arc" class="pie-ring correct-ring" cx="50" cy="50" r="40" stroke-dasharray="251.327" stroke-dashoffset="251.327" />
+            <circle id="correct-arc" class="pie-ring correct-ring" cx="50" cy="50" r="40" stroke-dasharray="251.327"
+              stroke-dashoffset="251.327" />
             <!-- Red incorrect answers ring -->
-            <circle id="incorrect-arc" class="pie-ring incorrect-ring" cx="50" cy="50" r="40" stroke-dasharray="251.327" stroke-dashoffset="251.327" />
+            <circle id="incorrect-arc" class="pie-ring incorrect-ring" cx="50" cy="50" r="40" stroke-dasharray="251.327"
+              stroke-dashoffset="251.327" />
           </svg>
           <div class="pie-center-text">
             <span id="center-percent">0%</span>
@@ -81,11 +100,21 @@
       <div id="review-filter-container"
         style="display: flex; gap: 0.5rem; justify-content: space-between; align-items: center; flex-wrap: wrap; margin: 1.5rem 0 1rem 0;">
         <div style="display: flex; gap: 0.5rem; flex-wrap: wrap;">
-          <button id="filter-wrong-btn" class="btn primary-btn" style="font-size: 0.85rem; padding: 6px 16px;" data-i18n="filter_wrong">❌ Wrong Only</button>
-          <button id="filter-all-btn" class="btn secondary-btn" style="font-size: 0.85rem; padding: 6px 16px;" data-i18n="filter_all">📋 All Questions</button>
+          <button id="filter-wrong-btn" class="btn primary-btn"
+            style="font-size: 0.85rem; padding: 6px 16px; display: inline-flex; align-items: center; gap: 0.4rem;">
+            <i data-lucide="x-circle" style="width: 16px; height: 16px;"></i>
+            <span data-i18n="filter_wrong">Wrong Only</span>
+          </button>
+          <button id="filter-all-btn" class="btn secondary-btn"
+            style="font-size: 0.85rem; padding: 6px 16px; display: inline-flex; align-items: center; gap: 0.4rem;">
+            <i data-lucide="list" style="width: 16px; height: 16px;"></i>
+            <span data-i18n="filter_all">All Questions</span>
+          </button>
         </div>
-        <button id="toggle-style-btn" class="btn secondary-btn" style="font-size: 0.85rem; padding: 6px 16px; display: flex; align-items: center; gap: 0.4rem;">
-          ⚙️ <span id="toggle-style-label" data-i18n="option_style_compact">Compact View</span>
+        <button id="toggle-style-btn" class="btn secondary-btn"
+          style="font-size: 0.85rem; padding: 6px 16px; display: inline-flex; align-items: center; gap: 0.4rem;">
+          <i data-lucide="settings" style="width: 16px; height: 16px;"></i>
+          <span id="toggle-style-label" data-i18n="option_style_compact">Compact View</span>
         </button>
       </div>
 
@@ -96,7 +125,8 @@
       <div class="result-ad-container"
         style="margin: 2rem 0; text-align: center; min-height: 100px; background: var(--bg-subcard); padding: 1rem; border-radius: 8px; border: 1px solid var(--border-sub);">
         <span class="ad-label"
-          style="display: block; font-size: 0.75rem; color: var(--text-sub); margin-bottom: 0.5rem; text-transform: uppercase; letter-spacing: 0.05em;" data-i18n="label_sponsored">Sponsored</span>
+          style="display: block; font-size: 0.75rem; color: var(--text-sub); margin-bottom: 0.5rem; text-transform: uppercase; letter-spacing: 0.05em;"
+          data-i18n="label_sponsored">Sponsored</span>
         <ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-4210272281940886" data-ad-format="auto"
           data-full-width-responsive="true"></ins>
       </div>
@@ -104,10 +134,16 @@
       <!-- Action Buttons -->
       <div class="result-actions"
         style="display: flex; gap: 1rem; justify-content: center; flex-wrap: wrap; margin-top: 1.5rem;">
-        <button id="retry-missed-btn" class="btn warning-btn hidden">
-          <span data-i18n="btn_retry_missed">🎯 Retry Missed Questions</span> (<span id="missed-count">0</span>)
+        <button id="retry-missed-btn" class="btn warning-btn hidden"
+          style="display: inline-flex; align-items: center; gap: 0.4rem;">
+          <i data-lucide="target" style="width: 16px; height: 16px;"></i>
+          <span data-i18n="btn_retry_missed">Retry Missed Questions</span> (<span id="missed-count">0</span>)
         </button>
-        <button id="restart-btn" class="btn primary-btn" data-i18n="btn_return_home">Return Home</button>
+        <button id="restart-btn" class="btn primary-btn"
+          style="display: inline-flex; align-items: center; gap: 0.4rem;">
+          <i data-lucide="home" style="width: 16px; height: 16px;"></i>
+          <span data-i18n="btn_return_home">Return Home</span>
+        </button>
       </div>
     </div>
 
@@ -115,7 +151,8 @@
     <footer class="main-footer"
       style="margin-top: 3rem; padding-top: 1.5rem; border-top: 1px solid var(--border-color); text-align: center; font-size: 0.85rem; color: var(--text-sub);">
       <p>© 2026 TestforUHS. All rights reserved. | <a href="#" id="open-privacy-btn"
-          style="color: var(--text-heading); text-decoration: underline;" data-i18n="privacy_link">Privacy Policy</a></p>
+          style="color: var(--text-heading); text-decoration: underline;" data-i18n="privacy_link">Privacy Policy</a>
+      </p>
     </footer>
 
   </div>
@@ -126,7 +163,11 @@
       <button id="close-donate-btn" class="modal-close-icon" aria-label="Close modal">&times;</button>
       <div class="donate-grid">
         <div class="donate-info">
-          <p class="donate-tagline" data-i18n="donate_tagline">Every little bit is greatly appreciated! Thank you for your support 😊</p>
+          <p class="donate-tagline" data-i18n="donate_tagline"
+            style="display: flex; align-items: center; gap: 0.35rem;">
+            Every little bit is greatly appreciated! Thank you for your support
+            <i data-lucide="smile" style="width: 18px; height: 18px; display: inline-block;"></i>
+          </p>
           <h3 class="donate-cta" data-i18n="donate_cta">You may donate through our KHQR here.</h3>
         </div>
         <div class="donate-qr-wrapper"><img src="assets/khqr.png" alt="KHQR Code" class="khqr-card-img"></div>
@@ -144,7 +185,8 @@
       <button id="close-privacy-btn" class="modal-close-icon" aria-label="Close modal">&times;</button>
       <h3 style="margin-bottom: 1rem; color: var(--text-main);" data-i18n="about_privacy_title">Privacy Policy</h3>
       <div style="font-size: 0.85rem; line-height: 1.6; color: var(--text-sub);">
-        <p data-i18n="about_privacy_desc">At <strong>TestforUHS</strong>, visitor privacy is one of our main priorities.</p>
+        <p data-i18n="about_privacy_desc">At <strong>TestforUHS</strong>, visitor privacy is one of our main priorities.
+        </p>
       </div>
       <div style="margin-top: 1.5rem; text-align: center;">
         <button id="bottom-close-privacy-btn" class="btn secondary-btn" style="width: 100%; max-width: 200px;"
@@ -155,13 +197,20 @@
 
   <!-- Click-to-Zoom Image Modal -->
   <div id="image-zoom-modal" class="modal-overlay hidden" style="background: rgba(0,0,0,0.85); cursor: pointer;">
-    <div style="position: relative; max-width: 90vw; max-height: 90vh; display: flex; justify-content: center; align-items: center;">
-      <img id="zoomed-image" src="" alt="Zoomed Diagram" style="max-width: 100%; max-height: 90vh; border-radius: 8px; object-fit: contain;">
+    <div
+      style="position: relative; max-width: 90vw; max-height: 90vh; display: flex; justify-content: center; align-items: center;">
+      <img id="zoomed-image" src="" alt="Zoomed Diagram"
+        style="max-width: 100%; max-height: 90vh; border-radius: 8px; object-fit: contain;">
     </div>
   </div>
 
   <script src="shared.js"></script>
   <script src="result.js"></script>
+  <script>
+    if (window.lucide) {
+      lucide.createIcons();
+    }
+  </script>
 </body>
 
 </html>

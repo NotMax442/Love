@@ -1,0 +1,522 @@
+{
+  "questions": [
+    {
+      "id": 1,
+      "question": "Modification métabolique ក្នុង diabète surcré គឺ ៖",
+      "images": [],
+      "image": "",
+      "options": [
+        "- Synthèse des acides gras",
+        "- Synthèse des proteines",
+        "- Néoglucogenèse",
+        "- Synthèse du glycogène",
+        "- Synthèse des triglycérides"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 2,
+      "question": "ក្នុង diabète sucré, glucose ក្នុងឈាមបានមកពី",
+      "images": [],
+      "image": "",
+      "options": [
+        "- Cétogenèse",
+        "- ការបញ្ចេញរបស់ថ្លើមតាមរយ: glucose-6-phosphatase",
+        "- Glycogénolyse",
+        "- Catabolisme des lipides",
+        "- Synthèse des acides gras"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 3,
+      "question": "ក្នុងករណីធម្មតា glucose ដែលលើសក្នុងរបបចំណីអាហារ ៖",
+      "images": [],
+      "image": "",
+      "options": [
+        "- 30% ត្រូវក្លាយជា graisse",
+        "- 30% ត្រូវក្លាយជា glycogène",
+        "- 5% ទៅជា Co2",
+        "- 15% ទៅជា H₂O",
+        "- 20% ទៅជា Co2+H2O"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 4,
+      "question": "Cétose ក្នុង diabète sucré បណ្តាលមកពីការកើនឡើងក្នុងចរន្តឈាមនៃ",
+      "images": [],
+      "image": "",
+      "options": [
+        "- Acide lactique",
+        "- Ions K+ និង Ca++",
+        "- Acide acéto-acétique និង dérivés",
+        "- Acide carbonique",
+        "- Acide gras"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 5,
+      "question": "ក្នុង diabète sucré ដែលទទួលការព្យាបាលពុំបានល្អ plasma មានភាព opalescent បណ្តាលមកពីវត្តមាននៃ",
+      "images": [],
+      "image": "",
+      "options": [
+        "- Acide acéto-acétique",
+        "- Acide hydroxyl - butyrique",
+        "- Acides aminés",
+        "- Acides gras libres និង triglyceride",
+        "- Calcium"
+      ],
+      "correctIndex": 3
+    },
+    {
+      "id": 6,
+      "question": "Diabète gras មានទំនាក់ទំនងទៅនឹងកត្តា héréditaire ប្រហែល ៖",
+      "images": [],
+      "image": "",
+      "options": [
+        "- 95%",
+        "- 75%",
+        "- 60%",
+        "- 30%",
+        "- 10%"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 7,
+      "question": "ក្នុងចំណោមឱសថទាំងប៉ុន្មានខាងក្រោមនេះ ណាមួយអាចបណ្តាលឱ្យ glycémie ចុះ?",
+      "images": [],
+      "image": "",
+      "options": [
+        "- Quinine",
+        "- Héparine",
+        "- Indométacine",
+        "- Cimétidine",
+        "- Thyroxine"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 8,
+      "question": "ក្នុង diabète sucré, syndrome néphrotique complication secondaire បណ្តាលមកពី !",
+      "images": [],
+      "image": "",
+      "options": [
+        "- Lésions des veines rénales",
+        "- Lésions tubulaires",
+        "- Lésions nerveuses périphériques",
+        "- Lésions de la membrane basale des capillaires glomérulaires",
+        "- Lésions des artères afferents et efférentes"
+      ],
+      "correctIndex": 3
+    },
+    {
+      "id": 9,
+      "question": "អ្នកជំងឺ diabète sucré ឆាប់ទទួល infections bactériennes ណាស់ព្រោះអ្វី?",
+      "images": [],
+      "image": "",
+      "options": [
+        "- សំបូរជាតិ Cholestérol ក្នុងឈាម",
+        "- សំបូរជាតិ acides proteines ក្នុងឈាម",
+        "- មាន corps cétoniques ក្នុងឈាម",
+        "- កង្វះជាតិ proteines (ការចុះថយ résistance នៃសរីរាង្គ)",
+        "- កង្វះ acides gras libres"
+      ],
+      "correctIndex": 3
+    },
+    {
+      "id": 10,
+      "question": "Acides ណាដែលចេញមកពី catabolisme acides gras libres ក្នុង diabète sucré?",
+      "images": [],
+      "image": "",
+      "options": [
+        "- Acide lactique",
+        "- Acide carbonique",
+        "- Acide phoshorique",
+        "- Acide acéto-acétique",
+        "- Acide sulfurique"
+      ],
+      "correctIndex": 3
+    },
+    {
+      "id": 11,
+      "question": "ក្នុងចំណោម propositions ទាំងនេះ ណាមួយដែលត្រឹមត្រូវក្នុងការអះអាងពីមូលហេតុ នៃ Coma?",
+      "images": [],
+      "image": "",
+      "options": [
+        "- Hyperosmolarité plasmatique",
+        "- Hyper albuminémie",
+        "- Hypercholestérolémie",
+        "- Hypoproteinémie",
+        "- Hypertriglycéridémie"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 12,
+      "question": "សម្រាប់ définition នៃ diabète sucré ក្នុងចំណោម propositions ខាងក្រោមនេះ ណាមួយដែលត្រឹមត្រូវ?",
+      "images": [],
+      "image": "",
+      "options": [
+        "- ជាជំងឺឆ្លង",
+        "- បណ្តាលមកពីកង្វះ insuline résistance របស់ tissu ទៅនឹងការចូលសារជាតិ glucose ទៅក្នុងកោសិកា",
+        "- មាន signe សំខាន់គឺ hypertension artérielle",
+        "- មាន signe សំខាន់គឺ hypertiglycéidémie",
+        "- ជាជំងឺ aigue ស្រួចស្រាវ।"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 13,
+      "question": "ក្នុងចំណោម actions métaboliques របស់ insuline ខាងក្រោមនេះ ណាមួយដែលពិតប្រាកដ។",
+      "images": [],
+      "image": "",
+      "options": [
+        "- Synthèse du glycogène",
+        "- Synthèse des corps cétoniques",
+        "- Catabolisme des lipides",
+        "- Catabolisme protéique",
+        "- Néo glucogenèse hépatique"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 14,
+      "question": "គេអាចហៅ diabète type I ម្យ៉ាងទៀតថា៖",
+      "images": [],
+      "image": "",
+      "options": [
+        "- Diabète gras",
+        "- Diabète insipide",
+        "- Diabète non insulino dépendant",
+        "- Diabète de maturité",
+        "- Diabète juvénile"
+      ],
+      "correctIndex": 4
+    },
+    {
+      "id": 15,
+      "question": "Complication dégénérative ក្នុង diabète sucré",
+      "images": [],
+      "image": "",
+      "options": [
+        "- Artéripathies និង neuropathies",
+        "- Insuffisance hépatique",
+        "- Insuffisance respiratoire aigue",
+        "- Phlébites",
+        "- Insuffisance cardiaque gauche"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 16,
+      "question": "ក្នុងចំណោម propositions ទាំងនេះ ណាមួយដែលត្រឹមត្រូវសម្រាប់ action de l'insuline:",
+      "images": [],
+      "image": "",
+      "options": [
+        "- Catabolisme des lipides",
+        "- Catabolisme des proteines",
+        "- Néoglucogenèse",
+        "- បន្ថយ Synthèse des acides gras",
+        "- Synthèse de glycogène"
+      ],
+      "correctIndex": 4
+    },
+    {
+      "id": 17,
+      "question": "ក្នុង diabète sucré, glucose ក្នុងឈាមមួយចំនួនបានមកពី៖",
+      "images": [],
+      "image": "",
+      "options": [
+        "- Catabolisme des lipides",
+        "- Glycogénolyse",
+        "- Néoglucogenèse",
+        "- បន្ថយ synthèse des acides gras",
+        "- ការបញ្ចេញ glucose ពីថ្លើមតាមរយ: glucose-6-phosphatese"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 18,
+      "question": "ក្នុង diabète sucré មាន",
+      "images": [],
+      "image": "",
+      "options": [
+        "- ការចូល acides aminés ជាច្រើនទៅក្នុងសាច់ដុំ",
+        "- Diminution de l'entrée du glucose dans les tissus",
+        "- Augmentation de la synthèse des proteins",
+        "- Augmentation de la synthèse de graisses",
+        "- Synthèse du cholesterol"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 19,
+      "question": "Néoglucogenèse បណ្តាលមកពី៖",
+      "images": [],
+      "image": "",
+      "options": [
+        "- ការកើនឡើងនៃ Synthèse du cholesterol",
+        "- Synthèse des proteines↑",
+        "- Catabolisme des graisses",
+        "- Catabolisme des protéines",
+        "- ការកើនឡើងនៃ Synthèse du cholesterol, Synthèse des proteines"
+      ],
+      "correctIndex": 3
+    },
+    {
+      "id": 20,
+      "question": "ក្នុងចំណោម propositions ខាងក្រោមនេះ មួយណាដែលជា Complication secondaire ក្នុង diabète sucré?",
+      "images": [],
+      "image": "",
+      "options": [
+        "- Lésions des hémisphères cérébraux",
+        "- Lésions des cortex cérébral",
+        "- Lésions des capillaires rétiniennes",
+        "- Lésions des tubules",
+        "- Lésions des veines péritubulaires."
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 21,
+      "question": "ក្នុងចំណោម hormones ទាំងនេះ ណាមួយដែលមានឥទ្ធិពលទៅលើ métabolisme glucidique?",
+      "images": [],
+      "image": "",
+      "options": [
+        "- ADH",
+        "- Oestrogène et progestérone",
+        "- Insuline",
+        "- Calcitonine",
+        "- Érythropoiétine"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 22,
+      "question": "pH នៃទឹកសុទ្ធ គឺ៖",
+      "images": [],
+      "image": "",
+      "options": [
+        "- 7,1",
+        "- 7,4",
+        "- 7,38",
+        "- 7",
+        "- 7,8"
+      ],
+      "correctIndex": 3
+    },
+    {
+      "id": 23,
+      "question": "Acidose ដោយសារ hypercatabolisme ក្នុង diabète sucré",
+      "images": [],
+      "image": "",
+      "options": [
+        "- Acidose mixte",
+        "- Acidose respiratoire",
+        "- Acidose lactique",
+        "- Acidose métabolique",
+        "- Acidose tubulaire"
+      ],
+      "correctIndex": 3
+    },
+    {
+      "id": 24,
+      "question": "ការប្រើ lactate, acétate  citrate ច្រើនពេកនាំឱ្យកើត",
+      "images": [],
+      "image": "",
+      "options": [
+        "- Acidose respiratoire",
+        "- Acidose métabolique",
+        "- Alcalose métabolique",
+        "- Alcalose gazeuse",
+        "- Acidose mixte"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 25,
+      "question": "Protéines ជា៖",
+      "images": [],
+      "image": "",
+      "options": [
+        "- Système tampon acide",
+        "- Système tampon base",
+        "- Système tampon acide-base",
+        "- Acides faibles",
+        "- Bases faibles"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 26,
+      "question": "Acide lactique បានមកពី !",
+      "images": [],
+      "image": "",
+      "options": [
+        "- Métabolisme des protéines",
+        "- Métabolisme des lipides",
+        "- Catabolisme du glucose en anaérobie",
+        "- Catabolisme du glucose en aérobie",
+        "- Catabolisme des acides gras libres"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 27,
+      "question": "កាលណាមមានការបញ្ចេញ Co2 ច្រើនតាមការដកដង្ហើមនាំឱ្យកើត ៖",
+      "images": [],
+      "image": "",
+      "options": [
+        "- Alcalose respiratiore",
+        "- Acidose métabolique",
+        "- Acidose respiratiore",
+        "- Alcalose métabolique",
+        "- Acidose mixte"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 28,
+      "question": "អំពី définition នៃ système tampon, ក្នុងចំណោម Propositions ទាំងប្រាំខាងក្រោម នេះ ណាមួយដែលត្រឹមត្រូវ៖",
+      "images": [],
+      "image": "",
+      "options": [
+        "- Système ដែលអាចបន្សាប base បានទាំងអស់",
+        "- Système ដែលអាចបន្សាប Acide បានទាំងអស់",
+        "- Système ដែលអាចបន្សាប Acides fixes ទាំងអស់ក្នុងសរីរាង្គ",
+        "- Système ដែលអាចបញ្ឈប់ការប្រែប្រួលខ្លាំងពេកនៃ H + ក្នុងខ្លួន",
+        "- ល្បាយនៃ Acide fort និង base faible"
+      ],
+      "correctIndex": 3
+    },
+    {
+      "id": 29,
+      "question": "ចំពោះកត្តាបណ្តាលឱ្យកើត Acidose respiratoire ក្នុងចំណោម propositions ខាងក្រោមនេះ ណាមួយដែលត្រឹមត្រូវ៖",
+      "images": [],
+      "image": "",
+      "options": [
+        "- កាលណា Ventilation alvéolaire ចុះខ្សោយ",
+        "- កាលណា Ventilation alvéolaire เកើនឡើង",
+        "- កាលណាមាន Acides fixes ច្រើនពេកក្នុងខ្លួន",
+        "- កាលណាមានការដកដង្ហើមញាប់ពេក",
+        "- កាលណា Acide phosphorique ចុះថយក្នុងខ្លួន"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 30,
+      "question": "ការចាល់ CO₂ ក្នុងឈាម បណ្តាលឱ្យកើត",
+      "images": [],
+      "image": "",
+      "options": [
+        "- Acidose mixte",
+        "- Alcalose métabolique",
+        "- Alcalose respiratoire",
+        "- Acidose respiratoire",
+        "- Alcalose mixte"
+      ],
+      "correctIndex": 3
+    },
+    {
+      "id": 31,
+      "question": "Acide carbonique Acide faible ព្រោះវាប់បែកខ្លួន !",
+      "images": [],
+      "image": "",
+      "options": [
+        "- ទៅជា ions H⁺ និង CO₃H បានទាំងអស់",
+        "- 1ទៅជា iors H+ និង CO₃H⁻ បានតែមួយចំនួនតូចទេ",
+        "- ទៅជា CO₂+H₂O",
+        "- ទៅជា ions បានតែពាក់កណ្តាលប៉ុណ្ណោះ",
+        "- មិនកើតទេនៅក្នុង solution មួយ"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 32,
+      "question": "ក្នុង mécanismes acidose métabolique, proposition ណាមួយដែលត្រឹមត្រូវក្នុង ចំណោមទាំងប្រាំនេះ?",
+      "images": [],
+      "image": "",
+      "options": [
+        "- H⁺ កើនឡើង លើសពីធម្មតាក្នុងឈាម",
+        "- H²O ចុះថយក្នុងឈាម",
+        "- OH កើនឡើងក្នុងឈាមខ្លាំងពេក",
+        "- H⁺ និង H2O គ្មានល់នឹងនឹងគ្នា",
+        "- H⁺ ចុះថយក្នុង compartiment interstitiel"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 33,
+      "question": "ជំងឺ pneumonie អាចបណ្តាលឱ្យកើត ៖",
+      "images": [],
+      "image": "",
+      "options": [
+        "- Acidose respiratoire",
+        "- Acidose mixte",
+        "- Alcalose respiratoire",
+        "- Alcalose métabolique",
+        "- Acidose métabolique"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 34,
+      "question": "អ្នកជំងឺម្នាក់ត្រូវបានទទួលការបូមទឹកក្រពះចេញយ៉ាងច្រើន តើ proposition ណាមួយ ដែលត្រឹមត្រូវក្នុងប្រែប្រួល métabolime នៃជំងឺនោះ?",
+      "images": [],
+      "image": "",
+      "options": [
+        "- Alcalose métabolique",
+        "- Alcalose respiratoire",
+        "- Alcalose mixte",
+        "- Acidose métabolique",
+        "- Acidose mixte"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 35,
+      "question": "ការរាគខ្លាំងដែលប៉ះពាល់ដល់ bicarbonate ច្រើនពេកនាំឱ្យកើត !",
+      "images": [],
+      "image": "",
+      "options": [
+        "- Aciobse métabolique",
+        "- Acidose gazeuse",
+        "- Acidose mixte",
+        "- Acidose métabolique",
+        "- Alcalose respiratoire"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 36,
+      "question": "Acide fort គឺ",
+      "images": [],
+      "image": "",
+      "options": [
+        "- système Tampon",
+        "- Acide ដែលអាចបំបែកខ្លួនពាក់កណ្តាលទៅជា ions",
+        "- Acide ដែលបំបែកខ្លួនជា ions ទាំងអស់ក្នុង solution",
+        "- Acide volatile",
+        "- Acide ដែលមិនអាចបំបែកខ្លួនជា ions បានទេក្នុង solution"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 37,
+      "question": "មាន Valeur limite មួយសម្រាប់ pH ក្នុងសរីរាង្គ ៖",
+      "images": [],
+      "image": "",
+      "options": [
+        "- 7-7,7",
+        "- 7,3-7,6",
+        "- 7,2-7,5",
+        "- 6-8,2",
+        "- 6,5-8,5"
+      ],
+      "correctIndex": 3
+    }
+  ]
+}

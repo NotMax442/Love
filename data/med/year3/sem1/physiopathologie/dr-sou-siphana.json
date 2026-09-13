@@ -1,0 +1,116 @@
+{
+  "questions": [
+    {
+      "id": 1,
+      "question": "Quel est le facteur qui n'est pas le facteur agressif qui provoque l'ulcère gastroduodénal ?",
+      "images": [],
+      "image": "",
+      "options": [
+        ". H.pylori",
+        ". AINS",
+        ". Prostaglandine",
+        ". Pepsine",
+        ". Acide gastrique"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 2,
+      "question": "Quel est le diagnostic positif de l'ulcère gastroduodénal?",
+      "images": [],
+      "image": "",
+      "options": [
+        ". Échographie abdominale",
+        ". ASP (abdomen sans préparation)",
+        ". FOGD (Fibroscopie oeso-gastroduodénal)",
+        ". Scanner abdominal",
+        ". Radiographie pulmonaire"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 3,
+      "question": "Classification de Forrest, quel est le plus grave?",
+      "images": [],
+      "image": "",
+      "options": [
+        ". Ia + Ib",
+        ". IIa",
+        ". IIb",
+        ". IIc",
+        ". III"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 4,
+      "question": "Les complications de l'ulcère gastroduodenal. Toutes sont corrects sauf une ?",
+      "images": [],
+      "image": "",
+      "options": [
+        ". Hémorragie digestive",
+        ". Perforation",
+        ". Sténose pylorique",
+        ". Reflux gastro-œsophagien",
+        ". Cancérisation"
+      ],
+      "correctIndex": 3
+    },
+    {
+      "id": 5,
+      "question": "Toutes sont corrects sauf une. Fibroscopie oeso-gastroduodénale permet préciser ?",
+      "images": [],
+      "image": "",
+      "options": [
+        ". La localisation de l'ulcère",
+        ". Le diamètre de l'ulcère",
+        ". La morphologie de l'ulcère",
+        ". Les complications de l'ulcère",
+        ". L'acide gastrique"
+      ],
+      "correctIndex": 4
+    },
+    {
+      "id": 6,
+      "question": "Toutes sont corrects sauf une. Les cliniques du syndrome ulcéreux ?",
+      "images": [],
+      "image": "",
+      "options": [
+        ". La douleur est calmée par l'anti acide ou IPP",
+        ". La douleur est localisée",
+        ". Région hypogastrique",
+        ". Type de crampe ou brûlure",
+        ". Rythmée par les repas"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 7,
+      "question": "Infection par Hélicobacter pylori est responsable de :",
+      "images": [],
+      "image": "",
+      "options": [
+        ". 70% des cas d'ulcère gastrique et dans plus de 90% des cas d'ulcère duodénal",
+        ". 50% des cas d'ulcère gastrique et dans plus de 70% des cas d'ulcère duodénal",
+        ". 80% des cas d'ulcère gastrique et dans plus de 90% des cas d'ulcère duodénal",
+        ". 60% des cas d'ulcère gastrique et dans plus de 80% des cas d'ulcère duodénal",
+        ". 90% des cas d'ulcère gastrique et dans plus de 70% des cas d'ulcère duodénal"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 8,
+      "question": "La physiopathologie de l'ulcère gastro-duodénal, un répond est correct.",
+      "images": [],
+      "image": "",
+      "options": [
+        ". Un s'équilibre entre les facteurs d'agression et le mécanisme de défense",
+        ". L'augmentation de l'acide gastrique",
+        ". La consommation AINS le plus long temps",
+        ". Un déséquilibre entre les facteurs d'agression et le mécanisme de défense",
+        ". La diminution de la prostaglandine"
+      ],
+      "correctIndex": 3
+    }
+  ]
+}

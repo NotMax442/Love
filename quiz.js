@@ -30,7 +30,7 @@ document.addEventListener('DOMContentLoaded', async () => {
         sessionStorage.setItem('lastActiveYear', config.year);
         sessionStorage.setItem('lastActiveSemester', config.semester);
         sessionStorage.setItem('lastActiveSubject', config.subject);
-      } catch (e) {}
+      } catch (e) { }
     }
     window.location.href = './';
     return;
@@ -443,7 +443,14 @@ function updateTimerUI() {
   if (!timerDisplay) return;
   const minutes = String(Math.floor(timeRemaining / 60)).padStart(2, '0');
   const seconds = String(timeRemaining % 60).padStart(2, '0');
-  timerDisplay.textContent = `⏱️ ${minutes}:${seconds}`;
+
+  // Keep clock icon intact while updating timer digits
+  const timerText = document.getElementById('timer-text');
+  if (timerText) {
+    timerText.textContent = `${minutes}:${seconds}`;
+  } else {
+    timerDisplay.textContent = `⏱️ ${minutes}:${seconds}`;
+  }
 }
 
 function saveStudyProgress() {
@@ -635,7 +642,7 @@ function renderQuizQuestion() {
       total: questions.length
     });
   }
-  
+
   if (questionText) questionText.textContent = q.question;
 
   if (imgWrapper) {
@@ -664,10 +671,15 @@ function renderQuizQuestion() {
     }
   }
 
+  // Uses innerHTML and re-indexes Lucide icons so HTML strings from shared.js render SVGs
   if (nextBtn) {
-    nextBtn.textContent = (currentQuestionIndex === questions.length - 1)
+    nextBtn.innerHTML = (currentQuestionIndex === questions.length - 1)
       ? getTranslation('btn_finish_quiz')
       : getTranslation('btn_next_question');
+
+    if (window.lucide) {
+      lucide.createIcons();
+    }
   }
 
   q.options.forEach((optionText, index) => {
@@ -833,12 +845,27 @@ function toggleFullscreen() {
   }
 }
 
+// Fixed Fullscreen Toggle Listener (preserves Lucide icon structure)
 ['fullscreenchange', 'webkitfullscreenchange', 'msfullscreenchange'].forEach(eventType => {
   document.addEventListener(eventType, () => {
     const fsBtn = document.getElementById('fullscreen-btn');
     const isFs = document.fullscreenElement || document.webkitFullscreenElement || document.msFullscreenElement;
+
     if (fsBtn) {
-      fsBtn.textContent = isFs ? getTranslation('btn_exit_fullscreen') : getTranslation('btn_fullscreen');
+      const iconName = isFs ? 'minimize' : 'maximize';
+      const textKey = isFs ? 'btn_exit_fullscreen' : 'btn_fullscreen';
+      const labelText = typeof getTranslation === 'function'
+        ? getTranslation(textKey)
+        : (isFs ? 'Exit Fullscreen' : 'Fullscreen');
+
+      fsBtn.innerHTML = `
+        <i data-lucide="${iconName}" style="width: 16px; height: 16px;"></i>
+        <span>${labelText}</span>
+      `;
+
+      if (window.lucide) {
+        lucide.createIcons();
+      }
     }
   });
 });
