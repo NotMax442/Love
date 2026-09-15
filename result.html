@@ -149,10 +149,15 @@
 
     <!-- Site Footer -->
     <footer class="main-footer"
-      style="margin-top: 3rem; padding-top: 1.5rem; border-top: 1px solid var(--border-color); text-align: center; font-size: 0.85rem; color: var(--text-sub);">
-      <p>© 2026 TestforUHS. All rights reserved. | <a href="#" id="open-privacy-btn"
-          style="color: var(--text-heading); text-decoration: underline;" data-i18n="privacy_link">Privacy Policy</a>
-      </p>
+      style="margin-top: 1.5rem; padding-top: 1.5rem; border-top: 1px solid var(--border-color); text-align: center; font-size: 0.85rem; color: var(--text-sub);">
+      <p>© 2026 TestforUHS. All rights reserved.</p>
+      <div style="display: flex; justify-content: center; gap: 1rem; flex-wrap: wrap; margin-top: 0.5rem;">
+        <a href="about" style="color: var(--text-sub);">About Us</a> |
+        <a href="contact" style="color: var(--text-sub);">Contact Us</a> |
+        <a href="privacy" id="open-privacy-btn" style="color: var(--text-heading); text-decoration: underline;">Privacy
+          Policy</a> |
+        <a href="terms" style="color: var(--text-heading); text-decoration: underline;">Terms of Service</a>
+      </div>
     </footer>
 
   </div>
@@ -179,21 +184,7 @@
     </div>
   </div>
 
-  <div id="privacy-modal" class="modal-overlay hidden">
-    <div class="modal-card"
-      style="max-width: 600px; text-align: left; max-height: 80vh; overflow-y: auto; position: relative; padding: 2.5rem 1.5rem 1.5rem 1.5rem;">
-      <button id="close-privacy-btn" class="modal-close-icon" aria-label="Close modal">&times;</button>
-      <h3 style="margin-bottom: 1rem; color: var(--text-main);" data-i18n="about_privacy_title">Privacy Policy</h3>
-      <div style="font-size: 0.85rem; line-height: 1.6; color: var(--text-sub);">
-        <p data-i18n="about_privacy_desc">At <strong>TestforUHS</strong>, visitor privacy is one of our main priorities.
-        </p>
-      </div>
-      <div style="margin-top: 1.5rem; text-align: center;">
-        <button id="bottom-close-privacy-btn" class="btn secondary-btn" style="width: 100%; max-width: 200px;"
-          data-i18n="btn_close">Close</button>
-      </div>
-    </div>
-  </div>
+
 
   <!-- Click-to-Zoom Image Modal -->
   <div id="image-zoom-modal" class="modal-overlay hidden" style="background: rgba(0,0,0,0.85); cursor: pointer;">

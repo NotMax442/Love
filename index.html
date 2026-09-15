@@ -185,8 +185,14 @@
     <!-- Site Footer -->
     <footer class="main-footer"
       style="margin-top: 1.5rem; padding-top: 1.5rem; border-top: 1px solid var(--border-color); text-align: center; font-size: 0.85rem; color: var(--text-sub);">
-      <p>© 2026 TestforUHS. All rights reserved. | <a href="#" id="open-privacy-btn"
-          style="color: var(--text-heading); text-decoration: underline;">Privacy Policy</a></p>
+      <p>© 2026 TestforUHS. All rights reserved.</p>
+      <div style="display: flex; justify-content: center; gap: 1rem; flex-wrap: wrap; margin-top: 0.5rem;">
+        <a href="about" style="color: var(--text-sub);">About Us</a> |
+        <a href="contact" style="color: var(--text-sub);">Contact Us</a> |
+        <a href="privacy" id="open-privacy-btn" style="color: var(--text-heading); text-decoration: underline;">Privacy
+          Policy</a> |
+        <a href="terms" style="color: var(--text-heading); text-decoration: underline;">Terms of Service</a>
+      </div>
     </footer>
 
   </div>
@@ -207,7 +213,8 @@
       <button id="close-donate-btn" class="modal-close-icon" aria-label="Close modal">&times;</button>
       <div class="donate-grid">
         <div class="donate-info">
-          <p class="donate-tagline" data-i18n="donate_tagline" style="display: flex; align-items: center; gap: 0.35rem;">
+          <p class="donate-tagline" data-i18n="donate_tagline"
+            style="display: flex; align-items: center; gap: 0.35rem;">
             Every little bit is greatly appreciated! Thank you for your support
             <i data-lucide="smile" style="width: 18px; height: 18px; display: inline-block;"></i>
           </p>
@@ -222,28 +229,7 @@
     </div>
   </div>
 
-  <div id="privacy-modal" class="modal-overlay hidden">
-    <div class="modal-card"
-      style="max-width: 600px; text-align: left; max-height: 80vh; overflow-y: auto; position: relative; padding: 2.5rem 1.5rem 1.5rem 1.5rem;">
-      <button id="close-privacy-btn" class="modal-close-icon" aria-label="Close modal">&times;</button>
-      <h3 style="margin-bottom: 1rem; color: var(--text-main);" data-i18n="about_privacy_title">Privacy Policy</h3>
-      <div style="font-size: 0.85rem; line-height: 1.6; color: var(--text-sub); display: flex; flex-direction: column; gap: 0.75rem;">
-        <p>At <strong>TestforUHS</strong>, visitor privacy is a top priority. This Privacy Policy details the types of information we collect and how it is used.</p>
 
-        <h4 style="color: var(--text-main); margin-top: 0.5rem;">1. Advertising & Third-Party Cookies</h4>
-        <p>We use <strong>Google AdSense</strong> to display advertisements. Third-party vendors, including Google, use cookies to serve ads based on a user's prior visits to our website or other websites on the internet.</p>
-        <p>Google's use of advertising cookies enables it and its partners to serve ads to our users based on their visit to our sites and/or other sites on the Internet.</p>
-        <p>You may opt out of personalized advertising by visiting <a href="https://www.google.com/settings/ads" target="_blank" rel="noopener" style="color: var(--text-heading); text-decoration: underline;">Google Ad Settings</a> or <a href="https://www.aboutads.info" target="_blank" rel="noopener" style="color: var(--text-heading); text-decoration: underline;">aboutads.info</a>.</p>
-
-        <h4 style="color: var(--text-main); margin-top: 0.5rem;">2. Local Storage</h4>
-        <p>TestforUHS uses your browser's <code>localStorage</code> exclusively to save quiz progress, missed question logs, language settings, and theme preferences directly on your device. This data is never transmitted to external servers.</p>
-      </div>
-      <div style="margin-top: 1.5rem; text-align: center;">
-        <button id="bottom-close-privacy-btn" class="btn secondary-btn" style="width: 100%; max-width: 200px;"
-          data-i18n="btn_close">Close</button>
-      </div>
-    </div>
-  </div>
 
   <script src="shared.js"></script>
   <script src="home.js"></script>

@@ -120,9 +120,10 @@
 
       <!-- TAB 1: ACCURACY ANALYTICS & STATS VIEW -->
       <div id="account-stats-view">
-        <div class="info-card" style="background: var(--bg-subcard); padding: 1.5rem; border-radius: 12px; border: 1px solid var(--border-sub); margin-bottom: 1.5rem; text-align: center;">
+        <div class="info-card"
+          style="background: var(--bg-subcard); padding: 1.5rem; border-radius: 12px; border: 1px solid var(--border-sub); margin-bottom: 1.5rem; text-align: center;">
           <h3 style="margin-top: 0; color: var(--text-main);" data-i18n="stats_overview_title">Overall Accuracy</h3>
-          
+
           <div id="pie-chart-wrapper"></div>
 
           <div class="stats-summary-grid">
@@ -145,8 +146,10 @@
           </div>
         </div>
 
-        <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 1rem; flex-wrap: wrap; gap: 0.5rem;">
-          <h3 style="margin: 0; color: var(--text-main);" data-i18n="stats_prof_breakdown">Accuracy by Professor & Subject</h3>
+        <div
+          style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 1rem; flex-wrap: wrap; gap: 0.5rem;">
+          <h3 style="margin: 0; color: var(--text-main);" data-i18n="stats_prof_breakdown">Accuracy by Professor &
+            Subject</h3>
           <select id="stats-filter-select" class="lang-select" style="padding: 0.4rem 0.8rem;">
             <option value="ALL" data-i18n="stats_filter_all">All Subjects</option>
           </select>
@@ -157,16 +160,21 @@
 
       <!-- TAB 2: VAULT & QUIZ SETTINGS VIEW -->
       <div id="account-vault-view" class="hidden">
-        <div class="info-card" style="background: var(--bg-subcard); padding: 1.5rem; border-radius: 8px; border: 1px solid var(--border-sub); margin-bottom: 2rem;">
-          <h3 style="margin-top: 0; color: var(--text-main); display: flex; align-items: center; gap: 0.4rem;" data-i18n="account_pref_title">
+        <div class="info-card"
+          style="background: var(--bg-subcard); padding: 1.5rem; border-radius: 8px; border: 1px solid var(--border-sub); margin-bottom: 2rem;">
+          <h3 style="margin-top: 0; color: var(--text-main); display: flex; align-items: center; gap: 0.4rem;"
+            data-i18n="account_pref_title">
             <i data-lucide="settings" style="width: 20px; height: 20px;"></i> Quiz Preferences
           </h3>
 
           <div style="display: flex; justify-content: space-between; align-items: center; gap: 1rem; margin-top: 1rem;">
             <div>
-              <h4 style="margin: 0; color: var(--text-main);" data-i18n="account_autoadv_title">Auto-advance in Quiz Mode</h4>
-              <p style="margin: 0.25rem 0 0 0; font-size: 0.85rem; color: var(--text-sub);" data-i18n="account_autoadv_desc">
-                Automatically move to the next question after selecting an option without having to click "Next Question".
+              <h4 style="margin: 0; color: var(--text-main);" data-i18n="account_autoadv_title">Auto-advance in Quiz
+                Mode</h4>
+              <p style="margin: 0.25rem 0 0 0; font-size: 0.85rem; color: var(--text-sub);"
+                data-i18n="account_autoadv_desc">
+                Automatically move to the next question after selecting an option without having to click "Next
+                Question".
               </p>
             </div>
             <label class="switch">
@@ -175,10 +183,13 @@
             </label>
           </div>
 
-          <div style="display: flex; justify-content: space-between; align-items: center; gap: 1rem; margin-top: 1.25rem; padding-top: 1.25rem; border-top: 1px solid var(--border-sub); flex-wrap: wrap;">
+          <div
+            style="display: flex; justify-content: space-between; align-items: center; gap: 1rem; margin-top: 1.25rem; padding-top: 1.25rem; border-top: 1px solid var(--border-sub); flex-wrap: wrap;">
             <div style="flex: 1; min-width: 200px;">
-              <h4 style="margin: 0; color: var(--text-main);" data-i18n="account_review_style_title">Result Review Display Style</h4>
-              <p style="margin: 0.25rem 0 0 0; font-size: 0.85rem; color: var(--text-sub);" data-i18n="account_review_style_desc">
+              <h4 style="margin: 0; color: var(--text-main);" data-i18n="account_review_style_title">Result Review
+                Display Style</h4>
+              <p style="margin: 0.25rem 0 0 0; font-size: 0.85rem; color: var(--text-sub);"
+                data-i18n="account_review_style_desc">
                 Choose whether to display result reviews as a compact text summary or full study-style options.
               </p>
             </div>
@@ -189,18 +200,23 @@
           </div>
         </div>
 
-        <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 1rem; flex-wrap: wrap; gap: 0.5rem;">
-          <h3 style="margin: 0; color: var(--text-main); display: flex; align-items: center; gap: 0.4rem;" data-i18n="account_vault_title">
+        <div
+          style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 1rem; flex-wrap: wrap; gap: 0.5rem;">
+          <h3 style="margin: 0; color: var(--text-main); display: flex; align-items: center; gap: 0.4rem;"
+            data-i18n="account_vault_title">
             <i data-lucide="archive" style="width: 20px; height: 20px;"></i> Missed Questions Vault
           </h3>
 
           <div class="account-toolbar" style="display: flex; gap: 0.5rem; align-items: center;">
-            <button id="toggle-select-mode-btn" class="btn secondary-btn" data-i18n="btn_select" style="display: inline-flex; align-items: center; gap: 0.4rem;">
+            <button id="toggle-select-mode-btn" class="btn secondary-btn" data-i18n="btn_select"
+              style="display: inline-flex; align-items: center; gap: 0.4rem;">
               <i data-lucide="check-square" style="width: 16px; height: 16px;"></i> Select
             </button>
-            <div id="bulk-controls" class="hidden" style="display: flex; gap: 0.5rem; align-items: center; flex-wrap: wrap;">
+            <div id="bulk-controls" class="hidden"
+              style="display: flex; gap: 0.5rem; align-items: center; flex-wrap: wrap;">
               <button id="select-all-btn" class="btn secondary-btn" data-i18n="btn_select_all">Select All</button>
-              <button id="delete-selected-btn" class="btn danger-btn" disabled data-i18n="btn_delete_selected" style="display: inline-flex; align-items: center; gap: 0.4rem;">
+              <button id="delete-selected-btn" class="btn danger-btn" disabled data-i18n="btn_delete_selected"
+                style="display: inline-flex; align-items: center; gap: 0.4rem;">
                 <i data-lucide="trash-2" style="width: 16px; height: 16px;"></i> Delete Selected (0)
               </button>
             </div>
@@ -214,9 +230,15 @@
 
     <!-- Site Footer -->
     <footer class="main-footer"
-      style="margin-top: 3rem; padding-top: 1.5rem; border-top: 1px solid var(--border-color); text-align: center; font-size: 0.85rem; color: var(--text-sub);">
-      <p>© 2026 TestforUHS. All rights reserved. | <a href="#" id="open-privacy-btn"
-          style="color: var(--text-heading); text-decoration: underline;">Privacy Policy</a></p>
+      style="margin-top: 1.5rem; padding-top: 1.5rem; border-top: 1px solid var(--border-color); text-align: center; font-size: 0.85rem; color: var(--text-sub);">
+      <p>© 2026 TestforUHS. All rights reserved.</p>
+      <div style="display: flex; justify-content: center; gap: 1rem; flex-wrap: wrap; margin-top: 0.5rem;">
+        <a href="about" style="color: var(--text-sub);">About Us</a> |
+        <a href="contact" style="color: var(--text-sub);">Contact Us</a> |
+        <a href="privacy" id="open-privacy-btn" style="color: var(--text-heading); text-decoration: underline;">Privacy
+          Policy</a> |
+        <a href="terms" style="color: var(--text-heading); text-decoration: underline;">Terms of Service</a>
+      </div>
     </footer>
 
   </div>
@@ -244,10 +266,14 @@
       </h3>
       <p data-i18n="anki_modal_desc">How would you like to process these questions after downloading?</p>
       <div class="modal-actions" style="flex-direction: column; gap: 0.5rem;">
-        <button id="anki-keep-btn" class="btn primary-btn" style="width: 100%; display: inline-flex; align-items: center; justify-content: center; gap: 0.4rem;" data-i18n="btn_anki_keep">
+        <button id="anki-keep-btn" class="btn primary-btn"
+          style="width: 100%; display: inline-flex; align-items: center; justify-content: center; gap: 0.4rem;"
+          data-i18n="btn_anki_keep">
           <i data-lucide="download" style="width: 16px; height: 16px;"></i> Export & Keep in Vault
         </button>
-        <button id="anki-clear-btn" class="btn warning-btn" style="width: 100%; display: inline-flex; align-items: center; justify-content: center; gap: 0.4rem;" data-i18n="btn_anki_clear">
+        <button id="anki-clear-btn" class="btn warning-btn"
+          style="width: 100%; display: inline-flex; align-items: center; justify-content: center; gap: 0.4rem;"
+          data-i18n="btn_anki_clear">
           <i data-lucide="trash-2" style="width: 16px; height: 16px;"></i> Export & Clear Subject Vault
         </button>
         <button id="anki-cancel-btn" class="btn secondary-btn" style="width: 100%;"
@@ -262,7 +288,8 @@
       <button id="close-donate-btn" class="modal-close-icon" aria-label="Close modal">&times;</button>
       <div class="donate-grid">
         <div class="donate-info">
-          <p class="donate-tagline" data-i18n="donate_tagline" style="display: flex; align-items: center; gap: 0.35rem;">
+          <p class="donate-tagline" data-i18n="donate_tagline"
+            style="display: flex; align-items: center; gap: 0.35rem;">
             Every little bit is greatly appreciated! Thank you for your support
             <i data-lucide="smile" style="width: 18px; height: 18px; display: inline-block;"></i>
           </p>
@@ -277,28 +304,7 @@
     </div>
   </div>
 
-  <div id="privacy-modal" class="modal-overlay hidden">
-    <div class="modal-card"
-      style="max-width: 600px; text-align: left; max-height: 80vh; overflow-y: auto; position: relative; padding: 2.5rem 1.5rem 1.5rem 1.5rem;">
-      <button id="close-privacy-btn" class="modal-close-icon" aria-label="Close modal">&times;</button>
-      <h3 style="margin-bottom: 1rem; color: var(--text-main);" data-i18n="about_privacy_title">Privacy Policy</h3>
-      <div style="font-size: 0.85rem; line-height: 1.6; color: var(--text-sub); display: flex; flex-direction: column; gap: 0.75rem;">
-        <p>At <strong>TestforUHS</strong>, visitor privacy is a top priority. This Privacy Policy details the types of information we collect and how it is used.</p>
 
-        <h4 style="color: var(--text-main); margin-top: 0.5rem;">1. Advertising & Third-Party Cookies</h4>
-        <p>We use <strong>Google AdSense</strong> to display advertisements. Third-party vendors, including Google, use cookies to serve ads based on a user's prior visits to our website or other websites on the internet.</p>
-        <p>Google's use of advertising cookies enables it and its partners to serve ads to our users based on their visit to our sites and/or other sites on the Internet.</p>
-        <p>You may opt out of personalized advertising by visiting <a href="https://www.google.com/settings/ads" target="_blank" rel="noopener" style="color: var(--text-heading); text-decoration: underline;">Google Ad Settings</a> or <a href="https://www.aboutads.info" target="_blank" rel="noopener" style="color: var(--text-heading); text-decoration: underline;">aboutads.info</a>.</p>
-
-        <h4 style="color: var(--text-main); margin-top: 0.5rem;">2. Local Storage</h4>
-        <p>TestforUHS uses your browser's <code>localStorage</code> exclusively to save quiz progress, missed question logs, language settings, and theme preferences directly on your device. This data is never transmitted to external servers.</p>
-      </div>
-      <div style="margin-top: 1.5rem; text-align: center;">
-        <button id="bottom-close-privacy-btn" class="btn secondary-btn" style="width: 100%; max-width: 200px;"
-          data-i18n="btn_close">Close</button>
-      </div>
-    </div>
-  </div>
 
   <script src="shared.js"></script>
   <script src="account.js"></script>
