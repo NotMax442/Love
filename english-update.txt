@@ -7,8 +7,4 @@ Hey everyone! We've added fresh question sets and made studying a little smoothe
 - **Year 3 (Sem 2):** Added quizzes for **Microbiologie** and **Santé Publique**.
 - **Years 4, 5, & 6 (Sem 2):** Added **Anatomie** review modules.
 
-## Smoother Study Experience
-- **Progress & Missed Questions Drawer:** Cleaned up how saved progress and missed questions are displayed under each professor so you can quickly jump back in.
-- **Bug Fixes:** Fixed minor display issues with subject titles and special characters so everything loads reliably.
-
 Good luck with your review!
