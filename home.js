@@ -1,6 +1,7 @@
 // ==========================================================================
 // HOME PAGE LOGIC (home.js)
 // ==========================================================================
+
 // Nested Data Hierarchy: Major -> Year -> Semester -> Subject -> [Professors]
 const manifestData = {
   "MED": {
@@ -117,6 +118,10 @@ const manifestData = {
         "MICROBIOLOGIE": [
           "Dr. Horm SreyViseth",
           "Dr. Neang Mom"
+        ],
+        "SANTÉ-PUBLIQUE": [
+          "Pr. Khuon Engmony",
+          "Pr. Nong Saokry"
         ]
       }
     },
@@ -161,18 +166,15 @@ function toggleProfDrawer(drawerId, btnEl) {
 
 async function fetchProfQuestionCount(major, year, semester, subject, profName, badgeEl) {
   if (!badgeEl) return;
-
   const profSlug = getProfSlug(profName);
   const jsonPath = `data/${major.toLowerCase()}/year${year}/sem${semester}/${subject.toLowerCase()}/${profSlug}.json`;
   try {
     const res = await fetch(jsonPath);
     if (!res.ok) return;
     const data = await res.json();
-
     const count = Array.isArray(data)
       ? data.length
       : (Array.isArray(data?.questions) ? data.questions.length : 0);
-
     if (count > 0) {
       badgeEl.textContent = `${count} Qs`;
       badgeEl.style.display = 'inline-block';
@@ -190,13 +192,13 @@ document.addEventListener('DOMContentLoaded', () => {
 
 function showScreen(screenId, direction = 'forward') {
   const screens = ['landing-screen', 'major-screen', 'year-screen', 'semester-screen', 'subject-screen', 'professor-screen'];
-
   const currentVisibleId = screens.find(id => {
     const el = document.getElementById(id);
     return el && !el.classList.contains('hidden');
   });
   const currentEl = document.getElementById(currentVisibleId);
   const targetEl = document.getElementById(screenId);
+
   if (!targetEl || currentVisibleId === screenId) return;
 
   screens.forEach(id => {
@@ -240,6 +242,7 @@ function setupNavigation() {
       showScreen('major-screen', 'forward');
     });
   }
+
   if (backToLandingBtn) {
     backToLandingBtn.addEventListener('click', () => {
       sessionStorage.setItem('lastView', 'landing');
@@ -247,6 +250,7 @@ function setupNavigation() {
       showScreen('landing-screen', 'back');
     });
   }
+
   document.querySelectorAll('#major-grid .year-card').forEach(card => {
     card.addEventListener('click', () => {
       currentMajor = card.getAttribute('data-major');
@@ -255,6 +259,7 @@ function setupNavigation() {
       showYears(currentMajor, 'forward');
     });
   });
+
   if (backToMajorsBtn) {
     backToMajorsBtn.addEventListener('click', () => {
       sessionStorage.setItem('lastView', 'major');
@@ -262,6 +267,7 @@ function setupNavigation() {
       showScreen('major-screen', 'back');
     });
   }
+
   document.querySelectorAll('#year-screen .year-card').forEach(card => {
     card.addEventListener('click', () => {
       currentYear = card.getAttribute('data-year');
@@ -270,6 +276,7 @@ function setupNavigation() {
       showSemesters(currentMajor, currentYear, 'forward');
     });
   });
+
   if (backToYearsBtn) {
     backToYearsBtn.addEventListener('click', () => {
       sessionStorage.setItem('lastView', 'year');
@@ -277,6 +284,7 @@ function setupNavigation() {
       showYears(currentMajor, 'back');
     });
   }
+
   document.querySelectorAll('#semester-screen .year-card').forEach(card => {
     card.addEventListener('click', () => {
       currentSemester = card.getAttribute('data-semester');
@@ -285,6 +293,7 @@ function setupNavigation() {
       showSubjects(currentMajor, currentYear, currentSemester, 'forward');
     });
   });
+
   if (backToSemestersBtn) {
     backToSemestersBtn.addEventListener('click', () => {
       sessionStorage.setItem('lastView', 'semester');
@@ -292,6 +301,7 @@ function setupNavigation() {
       showSemesters(currentMajor, currentYear, 'back');
     });
   }
+
   if (backToSubjectsBtn) {
     backToSubjectsBtn.addEventListener('click', () => {
       sessionStorage.setItem('lastView', 'subject');
@@ -338,7 +348,6 @@ function showSubjects(major, year, semester, direction = 'forward') {
   showScreen('subject-screen', direction);
   const title = document.getElementById('selected-subject-screen-title');
   if (title) title.textContent = getTranslation('title_subjects', { major, year, semester });
-
   const subjectList = document.getElementById('subject-list');
   if (!subjectList) return;
   subjectList.innerHTML = '';
@@ -385,12 +394,12 @@ function showProfessors(major, year, semester, subject, direction = 'forward') {
   showScreen('professor-screen', direction);
   const title = document.getElementById('selected-prof-screen-title');
   if (title) title.textContent = getTranslation('title_select_prof', { subject });
-
   const profList = document.getElementById('professor-list');
   if (!profList) return;
   profList.innerHTML = '';
 
   const professors = manifestData[major]?.[year]?.[semester]?.[subject] || [];
+
   if (professors.length === 0) {
     profList.innerHTML = `
       <div class="empty-state-card" style="cursor: default; text-align: center; padding: 2.5rem 1.5rem;">
@@ -416,10 +425,10 @@ function showProfessors(major, year, semester, subject, direction = 'forward') {
       </p>
       <div class="btn-row-dual" style="display: flex; gap: 0.75rem; flex-wrap: wrap;">
         <button class="btn quiz-btn" style="flex: 1; min-width: 180px; background: #10b981; display: inline-flex; align-items: center; justify-content: center; gap: 0.4rem;" onclick="startSubjectSession('quiz')">
-          ${getTranslation('btn_subject_quiz')}
+          <i data-lucide="help-circle" style="width: 16px; height: 16px;"></i> ${getTranslation('btn_subject_quiz')}
         </button>
         <button class="btn study-btn" style="flex: 1; min-width: 180px; background: #8b5cf6; color: white; display: inline-flex; align-items: center; justify-content: center; gap: 0.4rem;" onclick="startSubjectSession('study')">
-          ${getTranslation('btn_subject_study_all')}
+          <i data-lucide="book-open" style="width: 16px; height: 16px;"></i> ${getTranslation('btn_subject_study_all')}
         </button>
       </div>
     `;
@@ -429,7 +438,6 @@ function showProfessors(major, year, semester, subject, direction = 'forward') {
   professors.forEach(profItem => {
     const profName = getProfName(profItem);
     const profSlug = getProfSlug(profName);
-
     const storageKey = getStorageKey(major, year, semester, subject, profName);
     const savedMissed = localStorage.getItem(storageKey);
     const missedCount = savedMissed ? JSON.parse(savedMissed).length : 0;
@@ -441,14 +449,16 @@ function showProfessors(major, year, semester, subject, direction = 'forward') {
 
     let continueBtnHTML = '';
     let studyBtnLabel = isSingleProf ? getTranslation('btn_subject_study_all') : getTranslation('btn_study');
+    let studyIcon = 'book-open';
 
     if (studyProgress && studyProgress.studyAnsweredCount > 0) {
       const answered = studyProgress.studyAnsweredCount;
       const total = studyProgress.questions ? studyProgress.questions.length : 0;
       if (answered < total) {
         const continueText = getTranslation('btn_continue_study', { answered, total });
-        continueBtnHTML = `<button class="btn continue-btn" style="display: inline-flex; align-items: center; justify-content: center; gap: 0.4rem;" onclick="continueStudySession('${profName}')">${continueText}</button>`;
+        continueBtnHTML = `<button class="btn continue-btn" style="display: inline-flex; align-items: center; justify-content: center; gap: 0.4rem;" onclick="continueStudySession('${profName}')"><i data-lucide="play" style="width: 16px; height: 16px;"></i> ${continueText}</button>`;
         studyBtnLabel = getTranslation('btn_restart_study');
+        studyIcon = 'rotate-ccw';
       }
     }
 
@@ -463,17 +473,19 @@ function showProfessors(major, year, semester, subject, direction = 'forward') {
       primaryActionsHTML = `
         <div class="subject-actions" style="display: flex; gap: 0.5rem; width: 100%;">
           <button class="btn quiz-btn" style="flex: 1; background: #10b981; color: white; display: inline-flex; align-items: center; justify-content: center; gap: 0.4rem;" onclick="startSession('${profName}', 'quiz')">
-            ${getTranslation('btn_subject_quiz')}
+            <i data-lucide="help-circle" style="width: 16px; height: 16px;"></i> ${getTranslation('btn_subject_quiz')}
           </button>
           <button class="btn study-btn" style="flex: 1; background: #8b5cf6; color: white; display: inline-flex; align-items: center; justify-content: center; gap: 0.4rem;" onclick="startSession('${profName}', 'study')">
-            ${studyBtnLabel}
+            <i data-lucide="${studyIcon}" style="width: 16px; height: 16px;"></i> ${studyBtnLabel}
           </button>
         </div>
       `;
     } else {
       primaryActionsHTML = `
         <div class="subject-actions" style="width: 100%;">
-          <button class="btn study-btn" style="width: 100%; display: inline-flex; align-items: center; justify-content: center; gap: 0.4rem;" onclick="startSession('${profName}', 'study')">${studyBtnLabel}</button>
+          <button class="btn study-btn" style="width: 100%; display: inline-flex; align-items: center; justify-content: center; gap: 0.4rem;" onclick="startSession('${profName}', 'study')">
+            <i data-lucide="${studyIcon}" style="width: 16px; height: 16px;"></i> ${studyBtnLabel}
+          </button>
         </div>
       `;
     }
@@ -499,8 +511,12 @@ function showProfessors(major, year, semester, subject, direction = 'forward') {
           ${continueBtnHTML}
           ${missedCount > 0 ? `
             <div class="btn-row-dual" style="margin-top: 0.35rem; display: flex; gap: 0.5rem;">
-              <button class="btn study-missed-btn" style="display: inline-flex; align-items: center; justify-content: center; gap: 0.4rem;" onclick="startMissedSession('${profName}')">${getTranslation('btn_review_missed')}</button>
-              <button class="btn clear-btn" style="display: inline-flex; align-items: center; justify-content: center; gap: 0.4rem;" onclick="clearSavedMissed('${profName}')">${getTranslation('btn_clear_missed')}</button>
+              <button class="btn study-missed-btn" style="display: inline-flex; align-items: center; justify-content: center; gap: 0.4rem;" onclick="startMissedSession('${profName}')">
+                <i data-lucide="target" style="width: 16px; height: 16px;"></i> ${getTranslation('btn_review_missed')}
+              </button>
+              <button class="btn clear-btn" style="display: inline-flex; align-items: center; justify-content: center; gap: 0.4rem;" onclick="clearSavedMissed('${profName}')">
+                <i data-lucide="trash-2" style="width: 16px; height: 16px;"></i> ${getTranslation('btn_clear_missed')}
+              </button>
             </div>
           ` : ''}
         </div>
@@ -508,7 +524,6 @@ function showProfessors(major, year, semester, subject, direction = 'forward') {
     `;
 
     profList.appendChild(card);
-
     const badgeEl = card.querySelector('.prof-q-badge');
     fetchProfQuestionCount(major, year, semester, subject, profName, badgeEl);
   });
@@ -599,6 +614,7 @@ async function initUpdateSystem() {
   const versionBadge = document.getElementById('update-version-badge');
   if (versionBadge) versionBadge.textContent = `v${APP_VERSION}`;
   setupUpdateModalListeners();
+
   const lastSeenVersion = localStorage.getItem('lastSeenUpdateVersion');
   if (lastSeenVersion !== APP_VERSION) {
     await fetchPatchNotes();
@@ -613,10 +629,10 @@ async function fetchPatchNotes() {
       fetch(`khmer-update.txt?v=${APP_VERSION}`)
     ]);
     patchNotesEN = resEN.ok ? await resEN.text() : "No English release notes available.";
-    patchNotesKM = resKM.ok ? await resKM.text() : "គ្មានព័ត៌មានបច្ចុប្បន្នភាពភាសាខ្មែរទេ។";
+    patchNotesKM = resKM.ok ? await resKM.text() : "មិនមានកំណត់ចំណាំការអាប់ដេតភាសាខ្មែរទេ។";
   } catch (e) {
     patchNotesEN = "Failed to load release notes.";
-    patchNotesKM = "បរាជ័យក្នុងការទាញយកព័ត៌មានបច្ចុប្បន្នភាព។";
+    patchNotesKM = "បរាជ័យក្នុងការទាញយកកំណត់ចំណាំការអាប់ដេត។";
   }
   renderModalContent();
 }
@@ -653,12 +669,14 @@ function setupUpdateModalListeners() {
       showUpdateModal();
     });
   }
+
   if (closeBtn) {
     closeBtn.addEventListener('click', () => {
       localStorage.setItem('lastSeenUpdateVersion', APP_VERSION);
       if (modal) modal.classList.add('hidden');
     });
   }
+
   if (btnEN && btnKM) {
     btnEN.addEventListener('click', () => {
       currentModalLang = "EN";
@@ -679,4 +697,3 @@ function showUpdateModal() {
   const modal = document.getElementById('update-modal');
   if (modal) modal.classList.remove('hidden');
 }
-

@@ -11,7 +11,7 @@ document.addEventListener('DOMContentLoaded', () => {
   // 1. Read saved quiz results from sessionStorage
   const rawResult = sessionStorage.getItem('lastQuizResult');
   if (!rawResult) {
-    window.location.href = '/';
+    window.location.href = './';
     return;
   }
 
@@ -30,8 +30,8 @@ document.addEventListener('DOMContentLoaded', () => {
   const sessionHeader = document.getElementById('result-session-header');
   if (sessionHeader && resultData) {
     const profDisplay = resultData.isSubjectWide ? 'All Professors' : resultData.professor;
-    const modeLabel = (typeof getTranslation === 'function') 
-      ? getTranslation(`mode_${resultData.mode}`).toUpperCase() 
+    const modeLabel = (typeof getTranslation === 'function')
+      ? getTranslation(`mode_${resultData.mode}`).toUpperCase()
       : resultData.mode.toUpperCase();
     sessionHeader.textContent = `${resultData.major} Y${resultData.year} S${resultData.semester} - ${resultData.subject} (${profDisplay}) [${modeLabel}]`;
   }
@@ -107,11 +107,11 @@ function setupFilterControls() {
       const scrollPos = window.scrollY; // Preserve scroll position
       const currentStyle = localStorage.getItem('result_review_style') || 'full';
       const newStyle = currentStyle === 'compact' ? 'full' : 'compact';
-      
+
       localStorage.setItem('result_review_style', newStyle);
       updateStyleToggleUI();
       renderReviewBreakdown();
-      
+
       window.scrollTo({ top: scrollPos, behavior: 'instant' }); // Prevent view jump
     });
   }
@@ -122,8 +122,8 @@ function updateStyleToggleUI() {
   if (!styleLabel) return;
 
   const currentStyle = localStorage.getItem('result_review_style') || 'full';
-  const labelText = currentStyle === 'compact' 
-    ? getTranslation('option_style_compact') 
+  const labelText = currentStyle === 'compact'
+    ? getTranslation('option_style_compact')
     : getTranslation('option_style_full');
 
   styleLabel.textContent = labelText;
@@ -233,7 +233,7 @@ function renderReviewBreakdown() {
       // FULL OPTIONS DESIGN: Study Mode Style Options
       // -------------------------------------------------------------
       const qTitle = `<h4 style="margin: 0 0 0.85rem 0; color: var(--text-main); font-size: 1rem; line-height: 1.4;">${idx + 1}. ${escapeHTML(displayQuestionText)}</h4>`;
-      
+
       let optionsHTML = '<div class="options-grid" style="display: flex; flex-direction: column; gap: 0.5rem;">';
 
       q.options.forEach((optText, optIdx) => {
@@ -310,13 +310,13 @@ function setupActionButtons() {
         mode: 'missed'
       };
       sessionStorage.setItem('activeSessionConfig', JSON.stringify(sessionConfig));
-      window.location.href = '/quiz';
+      window.location.href = 'quiz';
     });
   }
 
   if (restartBtn) {
     restartBtn.addEventListener('click', () => {
-      window.location.href = '/';
+      window.location.href = './';
     });
   }
 }

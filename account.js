@@ -83,8 +83,8 @@ function setupAccountTabs() {
 // ==========================================================================
 
 function renderAnalyticsDashboard() {
-  const statsData = typeof getAnalyticsData === 'function' 
-    ? getAnalyticsData() 
+  const statsData = typeof getAnalyticsData === 'function'
+    ? getAnalyticsData()
     : { total: 0, correct: 0, profs: {} };
 
   const total = statsData.total || 0;
@@ -332,8 +332,8 @@ function renderAccountDashboard() {
       if (selectedSubjectKeys.has(key)) card.classList.add('selected-for-delete');
 
       const isChecked = selectedSubjectKeys.has(key) ? 'checked' : '';
-      const checkboxHTML = isSelectMode 
-        ? `<input type="checkbox" class="card-checkbox" data-key="${key}" ${isChecked}>` 
+      const checkboxHTML = isSelectMode
+        ? `<input type="checkbox" class="card-checkbox" data-key="${key}" ${isChecked}>`
         : '';
 
       const missedText = getTranslation('missed_badge', { count: missedArray.length });
@@ -362,10 +362,10 @@ function renderAccountDashboard() {
             const cb = card.querySelector('.card-checkbox');
             if (cb) cb.checked = !cb.checked;
           }
-          
+
           if (selectedSubjectKeys.has(key)) selectedSubjectKeys.delete(key);
           else selectedSubjectKeys.add(key);
-          
+
           updateDeleteButtonState();
           renderAccountDashboard();
         });
@@ -378,7 +378,7 @@ function renderAccountDashboard() {
   if (totalMissedAcrossApp === 0) {
     if (toggleSelectModeBtn) toggleSelectModeBtn.classList.add('hidden');
     if (bulkControls) bulkControls.classList.add('hidden');
-    
+
     accountSubjectList.innerHTML = `
       <div class="score-card" style="text-align: center; padding: 2rem;">
         <p style="margin: 0; color: var(--text-sub);" data-i18n="account_empty_vault">${getTranslation('account_empty_vault')}</p>
@@ -401,7 +401,7 @@ function setupVaultListeners() {
     toggleSelectModeBtn.addEventListener('click', () => {
       isSelectMode = !isSelectMode;
       selectedSubjectKeys.clear();
-      
+
       const bulkControls = document.getElementById('bulk-controls');
       if (isSelectMode) {
         toggleSelectModeBtn.textContent = getTranslation('btn_cancel_select');
@@ -410,7 +410,7 @@ function setupVaultListeners() {
         toggleSelectModeBtn.textContent = getTranslation('btn_select');
         if (bulkControls) bulkControls.classList.add('hidden');
       }
-      
+
       updateDeleteButtonState();
       renderAccountDashboard();
     });
@@ -452,12 +452,12 @@ function setupVaultListeners() {
       selectedSubjectKeys.forEach(key => localStorage.removeItem(key));
       selectedSubjectKeys.clear();
       isSelectMode = false;
-      
+
       const bulkControls = document.getElementById('bulk-controls');
       if (toggleSelectModeBtn) toggleSelectModeBtn.textContent = getTranslation('btn_select');
       if (bulkControls) bulkControls.classList.add('hidden');
       if (deleteConfirmModal) deleteConfirmModal.classList.add('hidden');
-      
+
       updateDeleteButtonState();
       renderAccountDashboard();
     });
@@ -475,8 +475,8 @@ function updateDeleteButtonState() {
 
   if (selectAllBtn) {
     const totalCards = document.querySelectorAll('.card-checkbox').length;
-    selectAllBtn.textContent = (totalCards > 0 && selectedSubjectKeys.size === totalCards) 
-      ? getTranslation('btn_deselect_all') 
+    selectAllBtn.textContent = (totalCards > 0 && selectedSubjectKeys.size === totalCards)
+      ? getTranslation('btn_deselect_all')
       : getTranslation('btn_select_all');
   }
 }
@@ -492,7 +492,7 @@ function launchAccountReview(major, year, semester, subject, professor) {
     mode: 'missed'
   };
   sessionStorage.setItem('activeSessionConfig', JSON.stringify(sessionConfig));
-  window.location.href = '/quiz';
+  window.location.href = 'quiz';
 }
 
 // ==========================================================================
@@ -648,7 +648,7 @@ async function renderOfflineDashboard() {
   }
 
   packages.forEach(pkg => {
-    const formattedDate = pkg.downloadedAt 
+    const formattedDate = pkg.downloadedAt
       ? new Date(pkg.downloadedAt).toLocaleDateString(undefined, { year: 'numeric', month: 'short', day: 'numeric' })
       : '';
 

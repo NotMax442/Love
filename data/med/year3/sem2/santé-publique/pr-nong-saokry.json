@@ -1,0 +1,844 @@
+{
+  "questions": [
+    {
+      "id": 1,
+      "question": "General methods of control and prevention of acute illnesses focus on:",
+      "images": [],
+      "image": "",
+      "options": [
+        "Acute communicable diseases of public health.",
+        "Controlling the spread of these diseases.",
+        "Clinical treatment.",
+        "Drugs resistance.",
+        "Acute communicable diseases of public health and controlling the spread of these diseases."
+      ],
+      "correctIndex": 4
+    },
+    {
+      "id": 2,
+      "question": "The agent of general methods of control and prevention of acute illnesses has:",
+      "images": [],
+      "image": "",
+      "options": [
+        "1 method of control",
+        "2 methods of control",
+        "3 methods of control.",
+        "4 methods of control",
+        "5 methods of control"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 3,
+      "question": "Eliminating the disease causing agent include:",
+      "images": [],
+      "image": "",
+      "options": [
+        "Heat",
+        "Disinfectants",
+        "Heat and disinfectants.",
+        "Proper temperatures for storing and serving food.",
+        "Chlorinating air-cooling towers."
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 4,
+      "question": "Chemo therapeutic or Chemo prophylactic agentis to :",
+      "images": [],
+      "image": "",
+      "options": [
+        "kill organism outside the body",
+        "Destroy certain bacteria that are part of the food chain",
+        "Prevents the spread of many micro organisms.",
+        "kill biologic agent.",
+        "Prevent Legionella pneumophila."
+      ],
+      "correctIndex": 3
+    },
+    {
+      "id": 5,
+      "question": "Preventing the organism from multiplying to the level at which it can cause disease include:",
+      "images": [],
+      "image": "",
+      "options": [
+        "Isolation or quarantine.",
+        "Proper temperatures for storing and serving food.",
+        "Chemo therapeutic or chemo prophylactic agents",
+        "Disinfectants.",
+        "Chlorination."
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 6,
+      "question": "Reservoir of infectious diseases include:",
+      "images": [],
+      "image": "",
+      "options": [
+        "Human",
+        "Wild animals",
+        "Pets",
+        "Human and wild animals",
+        "Human, wild animals and pets."
+      ],
+      "correctIndex": 4
+    },
+    {
+      "id": 7,
+      "question": "Total physical isolation is used to/ for:",
+      "images": [],
+      "image": "",
+      "options": [
+        "Restrict certain actions of the patients",
+        "Isolate the agent that causes disease not the patient.",
+        "Eliminate the organism from symptomatic or asymptomatic individuals.",
+        "For certain diseases those are highly contagious.",
+        "Prevent the carrier state."
+      ],
+      "correctIndex": 3
+    },
+    {
+      "id": 8,
+      "question": "The portal of exit of microorganisms cannot be blocked include:",
+      "images": [],
+      "image": "",
+      "options": [
+        "Kissing",
+        "Breathing",
+        "Defecating",
+        "Breathing and defecating.",
+        "Percutaneous."
+      ],
+      "correctIndex": 3
+    },
+    {
+      "id": 9,
+      "question": "Direct transmission of the disease is:",
+      "images": [],
+      "image": "",
+      "options": [
+        "The transfer of organisms directly from one person to another.",
+        "The bites from arthropod vectors",
+        ".A disease spread by common vehicle.",
+        "The bites from arthropod vectors and a disease spread by common vehicle.",
+        "The transfer of organisms directly from one person to another and the bites from arthropod vectors"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 10,
+      "question": "All answers are true but only one is false. Find the false answer. When hand washing is necessary?",
+      "images": [],
+      "image": "",
+      "options": [
+        "Before touching susceptible or immuno- compromised patients or open wounds.",
+        "Before performing invasive procedures",
+        "After removing gloves",
+        "After touching potentially contaminated environmental items",
+        "After preparing food for consumption."
+      ],
+      "correctIndex": 4
+    },
+    {
+      "id": 11,
+      "question": "Condom use can prevent:",
+      "images": [],
+      "image": "",
+      "options": [
+        "Organism that spread by air borne droplets.",
+        "The transfer of most sexually transmitted disease.",
+        "The transfer of most non sexually disease.",
+        "Organism that spread by parasite disease.",
+        "Hepatitis .B virus."
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 12,
+      "question": "Covering their mouths when coughing or sneezing and by using disposable tissues can prevent organism that spread by:",
+      "images": [],
+      "image": "",
+      "options": [
+        "Sexually transmitted disease",
+        "Microbial flora of the skin.",
+        "Sexually transmitted disease and microbial flora of the skin.",
+        "Microbial flora of the skin and air borne droplets.",
+        "Air borne droplets."
+      ],
+      "correctIndex": 4
+    },
+    {
+      "id": 13,
+      "question": "Proper canning, preparation, serving, and storage of food can prevent a:",
+      "images": [],
+      "image": "",
+      "options": [
+        "Virus",
+        "Parasites",
+        "Parasites and virus",
+        "Small bacterial.",
+        "Small bacterial and virus."
+      ],
+      "correctIndex": 3
+    },
+    {
+      "id": 14,
+      "question": "Canning requires a processing temperature of:",
+      "images": [],
+      "image": "",
+      "options": [
+        "75oC",
+        "120oC or lower.",
+        "120oC or higher.",
+        "100oC or higher",
+        "150oC or lower."
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 15,
+      "question": "Diseases spread by the airborne route are:",
+      "images": [],
+      "image": "",
+      "options": [
+        "Much more difficult to control.",
+        "Easy to control.",
+        "Some difficult to control.",
+        "Moderate to control.",
+        "No need to control."
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 16,
+      "question": "Percutaneous entry can be prevented by:",
+      "images": [],
+      "image": "",
+      "options": [
+        "Using sterile needles.",
+        "Avoiding insect bites.",
+        "Covering sores",
+        "Using sterile needles and avoiding insect bites.",
+        "Using sterile needles, avoiding insect bites and covering sores."
+      ],
+      "correctIndex": 4
+    },
+    {
+      "id": 17,
+      "question": "Good health habits may protect a person from certain communicable diseases such as:",
+      "images": [],
+      "image": "",
+      "options": [
+        "Exercise",
+        "Balanced diet",
+        "Rest",
+        "Exercise, balanced diet and rest.",
+        "Exercise and balanced diet."
+      ],
+      "correctIndex": 3
+    },
+    {
+      "id": 18,
+      "question": "Excessive alcohol intake interferes with:",
+      "images": [],
+      "image": "",
+      "options": [
+        "The ciliary motion in the lining of the respiratory tract",
+        "Anatomic changes",
+        "Serum bactericidal properties.",
+        "White cell function.",
+        "Serum bactericidal properties and white cell function."
+      ],
+      "correctIndex": 4
+    },
+    {
+      "id": 19,
+      "question": "Artificially acquired immunity is immunity from:",
+      "images": [],
+      "image": "",
+      "options": [
+        "Their mothers",
+        "Their parents.",
+        "vaccines.",
+        "Their mothers and vaccines.",
+        "Genetic."
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 20,
+      "question": "All answers are true but only one is false. Find the false answer. Avoiding bites from arthropod vectors by :",
+      "images": [],
+      "image": "",
+      "options": [
+        "Protective clothing",
+        "Door and window screens",
+        "Insect repellents",
+        "Ticks should be removed from the body immediately",
+        "Chemo prophylaxis."
+      ],
+      "correctIndex": 4
+    },
+    {
+      "id": 21,
+      "question": "Definition of vaccine. Vaccine: is a suspension of:",
+      "images": [],
+      "image": "",
+      "options": [
+        "killed microorganisms",
+        "Administered to induce immunity",
+        "Administered to induce immunity and killed microorganisms.",
+        "Non attenuated live",
+        "Preventing a non infectious disease"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 22,
+      "question": "Live attenuated viral vaccines are used for preventing:",
+      "images": [],
+      "image": "",
+      "options": [
+        "Measles",
+        "Mumps",
+        "Hepatitis .B virus.",
+        "Measles and mumps.",
+        "Measles, mumps and hepatitis .B virus."
+      ],
+      "correctIndex": 3
+    },
+    {
+      "id": 23,
+      "question": "Killed or fractionated viral vaccines, such as vaccine for:",
+      "images": [],
+      "image": "",
+      "options": [
+        "Meningococcal",
+        "Rabies",
+        "Hepatitis .B",
+        "Meningococcal and rabies",
+        "Rabies and hepatitis .B"
+      ],
+      "correctIndex": 4
+    },
+    {
+      "id": 24,
+      "question": "Killed or fractionated bacterial vaccines, such as vaccine for:",
+      "images": [],
+      "image": "",
+      "options": [
+        "H.influenzae type .B (Hib)",
+        "Pneumococcal polysaccharide",
+        "Polio",
+        "H.influenzae type .B (Hib) and pneumococcal polysaccharide.",
+        "Pneumococcal polysaccharide and polio"
+      ],
+      "correctIndex": 3
+    },
+    {
+      "id": 25,
+      "question": "Examples of antitoxins include:",
+      "images": [],
+      "image": "",
+      "options": [
+        "Tetanus immune globulin",
+        "Crotalus antitoxin.",
+        "Diphtheria antitoxin.",
+        "Tetanus immune globulin and crotalus antitoxin.",
+        "Crotalus antitoxin and diphtheria antitoxin."
+      ],
+      "correctIndex": 4
+    },
+    {
+      "id": 26,
+      "question": "Disease prevention: Common diseases cause a great deal of illness include:",
+      "images": [],
+      "image": "",
+      "options": [
+        "Measles",
+        "Mumps",
+        "Rubella.",
+        "Measles and Mumps",
+        "Measles, Mumps and Rubella."
+      ],
+      "correctIndex": 4
+    },
+    {
+      "id": 27,
+      "question": "Disease prevention: Serious diseases, which can include common disease, have significant Sequelae include:",
+      "images": [],
+      "image": "",
+      "options": [
+        "Rubella",
+        "Measles",
+        "Polio",
+        "Measles and Polio",
+        "Rubella, Measles and Polio."
+      ],
+      "correctIndex": 4
+    },
+    {
+      "id": 28,
+      "question": "Untreatable or difficult to treat viral infections include:",
+      "images": [],
+      "image": "",
+      "options": [
+        "Diphtheria",
+        "Tetanus",
+        "Hepatitis .B viral vaccine (HBV).",
+        "Escherichia coli",
+        "Salmonella."
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 29,
+      "question": "Untreatable or difficult to treat toxogenic infections include:",
+      "images": [],
+      "image": "",
+      "options": [
+        "Diphtheria",
+        "Tetanus",
+        "Rabies",
+        "Diphtheria and tetanus.",
+        "Diphtheria, Tetanus and Rabie."
+      ],
+      "correctIndex": 3
+    },
+    {
+      "id": 30,
+      "question": "Reactions to vaccine components. If an individual can eat eggs, without adverse effects, then he can be immunized with:",
+      "images": [],
+      "image": "",
+      "options": [
+        "Influenza",
+        "Yellow fever",
+        "Measles",
+        "Influenza and Yellow fever",
+        "Influenza, yellow fever and measles."
+      ],
+      "correctIndex": 4
+    },
+    {
+      "id": 31,
+      "question": "Vaccination during pregnancy. Pregnant women to substantial risk of exposure may receive a live viral vaccine. When possible, it should be given during the:",
+      "images": [],
+      "image": "",
+      "options": [
+        "First trimester.",
+        "Second trimester.",
+        "Third trimester",
+        "First or second trimester",
+        "Second or third trimester."
+      ],
+      "correctIndex": 4
+    },
+    {
+      "id": 32,
+      "question": "Misconceptions concerning contraindications to vaccination: Conditions are reasons for delaying or discontinuing routine immunizations include:",
+      "images": [],
+      "image": "",
+      "options": [
+        "Soreness.",
+        "Redness.",
+        "Swelling at the injection site.",
+        "Temperature of more than 40, 50 degree .C",
+        "Convalescent phase of illness"
+      ],
+      "correctIndex": 3
+    },
+    {
+      "id": 33,
+      "question": "Vaccines are used for children less than 7 years of age include:",
+      "images": [],
+      "image": "",
+      "options": [
+        "Tetanus",
+        "Diphtheria toxoids",
+        "Pertussis",
+        "Tetanus, Diphtheria toxoids.",
+        "Tetanus, Diphtheria toxoids and Pertussis,"
+      ],
+      "correctIndex": 4
+    },
+    {
+      "id": 34,
+      "question": "Oral, attenuated poliovirus vaccine (OPV). The primary series of OPV consists of:",
+      "images": [],
+      "image": "",
+      "options": [
+        "1 dose",
+        "2 doses",
+        "3 doses",
+        "4 doses",
+        "3 doses and 1dose upon entry into school."
+      ],
+      "correctIndex": 4
+    },
+    {
+      "id": 35,
+      "question": "HIV was first identified in USA among homosexuals in:",
+      "images": [],
+      "image": "",
+      "options": [
+        "1970",
+        "1980",
+        "1981.",
+        "1982",
+        "1985"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 36,
+      "question": "The first country in the South East Asia Region (SEAR) to report a case of AIDS in1984 is:",
+      "images": [],
+      "image": "",
+      "options": [
+        "Vietnam",
+        "Cambodia",
+        "Thailand.",
+        "Singapore",
+        "Philippine."
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 37,
+      "question": "The most affected region with HIV in the world is:",
+      "images": [],
+      "image": "",
+      "options": [
+        "Sub-Saharan Africa.",
+        "South Africa",
+        "North America",
+        "Asia",
+        "Europe."
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 38,
+      "question": "HIV is transmitted by:",
+      "images": [],
+      "image": "",
+      "options": [
+        "During sex contact",
+        "Trough infected blood.",
+        "From father to child.",
+        "During sex contact and trough infected blood.",
+        "During sex contact, from father to child and trough infected blood."
+      ],
+      "correctIndex": 3
+    },
+    {
+      "id": 39,
+      "question": "HIV is transmitted during sexual contact and unprotected sex by:",
+      "images": [],
+      "image": "",
+      "options": [
+        "Vaginal.",
+        "Sharing needle.",
+        "Transfusion of HIV infected blood.",
+        "During pregnancy",
+        "Breast feeding"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 40,
+      "question": "Source of infection of HIV. The virus has been found in greatest concentration in:",
+      "images": [],
+      "image": "",
+      "options": [
+        "Semen.",
+        "Tears.",
+        "Saliva",
+        "Urine",
+        "Vaginal secretion."
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 41,
+      "question": "Source of infection of HIV. The virus has been found in lowest concentration in:",
+      "images": [],
+      "image": "",
+      "options": [
+        "Blood",
+        "Semen",
+        "Cerebrospinal fluid.",
+        "Vaginal secretion.",
+        "Vaginal secretion and saliva."
+      ],
+      "correctIndex": 4
+    },
+    {
+      "id": 42,
+      "question": "Host factors of HIV/AIDS:",
+      "images": [],
+      "image": "",
+      "options": [
+        "In Africa more male is affected.",
+        "Most cases have occurred among sexually active persons aged 18-20.",
+        "In North America, Europe and Australia, about 70 percent of cases are homosexual or bisexual men.",
+        "Most cases have occurred among sexually active persons aged 20- 49.",
+        "In Nepal the ratio of female and male is: 3:1"
+      ],
+      "correctIndex": 3
+    },
+    {
+      "id": 43,
+      "question": "All answers are true but only one is false. Find the false answer. Risk groups for HIV infection are:",
+      "images": [],
+      "image": "",
+      "options": [
+        "Sex workers",
+        "Client of sex workers.",
+        "Street children.",
+        "Military",
+        "Health workers."
+      ],
+      "correctIndex": 4
+    },
+    {
+      "id": 44,
+      "question": "Majors sign of AIDS include:",
+      "images": [],
+      "image": "",
+      "options": [
+        "Persistent cough >1 month",
+        "Recurrent herpes zoster.",
+        "Recurrent oral-pharyngeal candidiasis",
+        "Chronic diarrhea >1 month duration.",
+        "Persistent generalized lymphadenopathy."
+      ],
+      "correctIndex": 3
+    },
+    {
+      "id": 45,
+      "question": "Minor sign of AIDS include:",
+      "images": [],
+      "image": "",
+      "options": [
+        "Recurrent herpes zoster.",
+        "Persistent cough > 1 month",
+        "Chronic diarrhea > 1 month duration",
+        "Recurrent herpes zoster and persistent cough >1 month.",
+        "Chronic diarrhea > 1 month duration and persistent cough >1 month"
+      ],
+      "correctIndex": 3
+    },
+    {
+      "id": 46,
+      "question": "Direct tests of laboratory diagnosis for HIV/AIDS include:",
+      "images": [],
+      "image": "",
+      "options": [
+        "Elisa.",
+        "CD4 count",
+        "Lymphopenia.",
+        "Lympnode.biopsy.",
+        "CD4 count, lymphopenia and Lympnode.biopsy.."
+      ],
+      "correctIndex": 4
+    },
+    {
+      "id": 47,
+      "question": "Indirect tests of laboratory diagnosis for HIV/AIDS include:",
+      "images": [],
+      "image": "",
+      "options": [
+        "PCR",
+        "CD4 count",
+        "Lymphopenia.",
+        "PCR and CD4 count",
+        "CD4 count and Lymphopenia."
+      ],
+      "correctIndex": 4
+    },
+    {
+      "id": 48,
+      "question": "All answers are true but only one is false. Find the false answer. Severity of the epidemics of HIV/AIDS determined by:",
+      "images": [],
+      "image": "",
+      "options": [
+        "Number of sex workers’ clients per night.",
+        "Percentage of adult men visiting sex workers.",
+        "Percentage of sex workers using condom consistently.",
+        "Percentage of adult women using condom properly.",
+        "Percentage of injection drugs users who are clients of sex workers."
+      ],
+      "correctIndex": 3
+    },
+    {
+      "id": 49,
+      "question": "Antiretroviral for HIV/AIDS can:",
+      "images": [],
+      "image": "",
+      "options": [
+        "Cure for HIV/AIDS",
+        "Eliminate for HIV/AIDS",
+        "Reduce the presence of the virus in the body.",
+        "Cure and eliminate for HIV/AIDS.",
+        "Eliminate for HIV/AIDS and reduce the presence of the virus in the body."
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 50,
+      "question": "Tuberculosis is the infectious disease primarily affecting lung parenchyma is most often caused by:",
+      "images": [],
+      "image": "",
+      "options": [
+        "Pneumocoque",
+        "Steptocoque",
+        "Mycobacterium tuberculosis.",
+        "hemophilis influenza.",
+        "Escherichia coli."
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 51,
+      "question": "By Global emergency tuberculosis kill:",
+      "images": [],
+      "image": "",
+      "options": [
+        "5000 people a day.",
+        "4000 people a day",
+        "3000 people a day",
+        "2000 people a day",
+        "1000 people a day"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 52,
+      "question": "Tuberculosis is transmitted by:",
+      "images": [],
+      "image": "",
+      "options": [
+        "Person with active tuberculosis disease of the lung.",
+        "Ingestion of mycobacterium bovis found in unpasteurized milk.",
+        "Blood transfusion.",
+        "Person with active tuberculosis disease of the lung and Ingestion of mycobacterium bovis found in unpasteurized milk.",
+        "Ingestion of mycobacterium bovis found in unpasteurized milk and blood transfusion."
+      ],
+      "correctIndex": 3
+    },
+    {
+      "id": 53,
+      "question": "Risk factors of tuberculosis include:",
+      "images": [],
+      "image": "",
+      "options": [
+        "Immuno competent status.",
+        "People adequate health care.",
+        "Pre existing medical conditions (Diabetes mellitus, chronic renal failure etc….).",
+        "Institutionalization (short term care facilities).",
+        "Immigrant from countries with low incidence of tuberculosis."
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 54,
+      "question": "False negative reactions of tuberculin test (Mantoux) may be produced by:",
+      "images": [],
+      "image": "",
+      "options": [
+        "Immuno suppression.",
+        "Viral infections.",
+        "Atypical mycobacterium.",
+        "Immuno suppression and atypical mycobacterium.",
+        "Immuno suppression and viral infections."
+      ],
+      "correctIndex": 4
+    },
+    {
+      "id": 55,
+      "question": "False positive reactions of tuberculin test (Mantoux) may be produced by:",
+      "images": [],
+      "image": "",
+      "options": [
+        "Immuno suppression.",
+        "Viral infections.",
+        "Atypical mycobacterium.",
+        "Immuno suppression and atypical mycobacterium.",
+        "Immuno suppression and viral infections."
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 56,
+      "question": "Guideline for treatment of tuberculosis includes:",
+      "images": [],
+      "image": "",
+      "options": [
+        "Treatment course not depend on the categories of the patient.",
+        "Always treat with multiple drugs.",
+        "Usually 6 months, sometimes 9 months.",
+        "Always treat with multiple drugs and treatment course not depend on the categories of the patient.",
+        "Always treat with multiple drugs and usually 6 months, sometimes 9 months."
+      ],
+      "correctIndex": 4
+    },
+    {
+      "id": 57,
+      "question": "The preferred drug for treating latent tuberculosis infection include:",
+      "images": [],
+      "image": "",
+      "options": [
+        "Ethambutol.",
+        "Isoniazid.",
+        "Rifampicine",
+        "Pyrazinamide.",
+        "Streptomycine."
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 58,
+      "question": "All answers are true but only one is false. Find the false answer. Complications of tuberculosis infection include:",
+      "images": [],
+      "image": "",
+      "options": [
+        "Meningitis.",
+        "Septicemia.",
+        "Pneumonia.",
+        "Cardiac tamponade.",
+        "Pleural effusion."
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 59,
+      "question": "All answers are true but only one is false. Find the false answer. Prevention of tuberculosis infection include:",
+      "images": [],
+      "image": "",
+      "options": [
+        "Wear boot.",
+        "Ventilate the room.",
+        "Cover the mouth",
+        "Wear mask",
+        "Isolation"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 60,
+      "question": "HIV infection is the most important risk factor for:",
+      "images": [],
+      "image": "",
+      "options": [
+        "Hemophilis influenza.",
+        "Active tuberculosis.",
+        "Latent tuberculosis",
+        "Measles.",
+        "Malaria"
+      ],
+      "correctIndex": 1
+    }
+  ]
+}
