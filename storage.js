@@ -1,7 +1,7 @@
 // ============================================================================
 // STUDY DATA REPOSITORY
 // ============================================================================
-
+ 
 const StudyRepository = (() => {
     const MIGRATION_KEY = 'study_repository_version';
     const CURRENT_VERSION = 1;
