@@ -1,4 +1,4 @@
-const CACHE_NAME = 'testforuhs-offline-v2';
+const CACHE_NAME = 'testforuhs-offline-v1.1.0';
 const APP_SHELL = [
     './',
     './index.html',
@@ -55,17 +55,18 @@ self.addEventListener('fetch', (event) => {
     const url = new URL(event.request.url);
     if (url.origin !== self.location.origin) return;
 
-    event.respondWith(
-        caches.match(event.request).then((cached) => {
-            if (cached) return cached;
-            return fetch(event.request).then((response) => {
-                const clone = response.clone();
-                caches.open(CACHE_NAME).then((cache) => cache.put(event.request, clone)).catch(() => undefined);
-                return response;
-            }).catch(() => {
-                const fallbackFile = ROUTE_FILES[url.pathname];
-                return fallbackFile ? caches.match(fallbackFile) : caches.match('./index.html');
-            });
-        })
-    );
+    const isAppCode = url.pathname.endsWith('.html')
+        || url.pathname.endsWith('.js')
+        || url.pathname.endsWith('.txt')
+        || ROUTE_FILES[url.pathname];
+
+    event.respondWith((isAppCode ? fetch(event.request).then((response) => {
+        const clone = response.clone();
+        caches.open(CACHE_NAME).then((cache) => cache.put(event.request, clone)).catch(() => undefined);
+        return response;
+    }) : caches.match(event.request).then((cached) => cached || fetch(event.request))).catch(() => {
+        const fallbackFile = ROUTE_FILES[url.pathname];
+        return caches.match(event.request).then((cached) => cached)
+            .then((cached) => cached || (fallbackFile ? caches.match(fallbackFile) : caches.match('./index.html')));
+    }));
 });

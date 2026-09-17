@@ -472,7 +472,10 @@ async function registerServiceWorker() {
   }
 
   try {
-    const registration = await navigator.serviceWorker.register('./sw.js', { scope: './' });
+    const registration = await navigator.serviceWorker.register('./sw.js', {
+      scope: './',
+      updateViaCache: 'none'
+    });
     await registration.update();
     document.documentElement.setAttribute('data-offline-support', 'ready');
   } catch (error) {
