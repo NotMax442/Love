@@ -1921,6 +1921,86 @@ p {
     }
 }
 
+/* Keep the account dashboard usable on narrow phone screens. */
+@media (max-width: 640px) {
+    #account-screen {
+        width: 100%;
+        max-width: 100% !important;
+        min-width: 0;
+    }
+
+    #account-screen .account-tab-bar {
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 0.35rem;
+        margin-bottom: 1.25rem;
+    }
+
+    #account-screen .account-tab-btn {
+        width: 100%;
+        min-width: 0;
+        min-height: 42px;
+        padding: 0.6rem 0.5rem;
+        white-space: normal;
+        line-height: 1.25;
+    }
+
+    #account-screen .info-card {
+        min-width: 0;
+        padding: 1rem !important;
+    }
+
+    #account-screen .stats-summary-grid {
+        grid-template-columns: 1fr;
+        gap: 0.65rem;
+    }
+
+    #account-screen .stat-card {
+        min-width: 0 !important;
+        width: 100%;
+    }
+
+    #account-screen .account-toolbar,
+    #account-screen #bulk-controls {
+        width: 100%;
+        flex-direction: column;
+        align-items: stretch !important;
+    }
+
+    #account-screen .account-toolbar>.btn,
+    #account-screen #bulk-controls .btn {
+        width: 100%;
+        min-height: 42px;
+    }
+
+    #account-screen .account-vault-view,
+    #account-screen #account-vault-view,
+    #account-screen #account-offline-view {
+        min-width: 0;
+    }
+
+    #account-screen #review-style-select,
+    #account-screen #stats-filter-select {
+        width: 100%;
+        max-width: 100%;
+    }
+
+    #account-screen #account-vault-view>.info-card>div,
+    #account-screen #account-offline-view .info-card>div {
+        align-items: stretch !important;
+    }
+
+    #account-screen #account-vault-view>.info-card>div>div,
+    #account-screen #account-offline-view .info-card>div>div {
+        width: 100%;
+        min-width: 0 !important;
+    }
+
+    #account-screen #account-offline-view .stat-card {
+        flex: 1 1 100%;
+    }
+}
+
 
 /* ==========================================================================
    FULLSCREEN
