@@ -116,6 +116,9 @@
         <button id="tab-vault-btn" class="account-tab-btn" data-i18n="tab_vault">
           <i data-lucide="archive" style="width: 16px; height: 16px;"></i> Vault & Settings
         </button>
+        <button id="tab-offline-btn" class="account-tab-btn" data-i18n="tab_offline">
+          <i data-lucide="download-cloud" style="width: 16px; height: 16px;"></i> Offline Packs
+        </button>
       </div>
 
       <!-- TAB 1: ACCURACY ANALYTICS & STATS VIEW -->
@@ -226,6 +229,36 @@
         <div id="account-subject-list" class="subject-grid"></div>
       </div>
 
+      <!-- TAB 3: OFFLINE DOWNLOADS -->
+      <div id="account-offline-view" class="hidden">
+        <div class="info-card"
+          style="background: var(--bg-subcard); padding: 1.5rem; border-radius: 8px; border: 1px solid var(--border-sub); margin-bottom: 1.5rem;">
+          <h3 style="margin-top: 0; color: var(--text-main); display: flex; align-items: center; gap: 0.4rem;"
+            data-i18n="offline_title">
+            <i data-lucide="download-cloud" style="width: 20px; height: 20px;"></i> Offline Study Packs
+          </h3>
+
+          <div
+            style="display: flex; justify-content: space-between; align-items: center; gap: 1rem; flex-wrap: wrap; margin-bottom: 1rem;">
+            <div style="display: flex; gap: 1rem; flex-wrap: wrap;">
+              <div class="stat-card" style="min-width: 120px;">
+                <span class="stat-label" data-i18n="offline_count_label">Saved packs</span>
+                <span id="offline-count-val" class="stat-value">0</span>
+              </div>
+              <div class="stat-card" style="min-width: 120px;">
+                <span class="stat-label" data-i18n="offline_questions_label">Questions</span>
+                <span id="offline-questions-val" class="stat-value">0</span>
+              </div>
+            </div>
+            <button id="clear-all-offline-btn" class="btn danger-btn" data-i18n="offline_clear_all">
+              Clear all
+            </button>
+          </div>
+        </div>
+
+        <div id="offline-package-list" class="subject-grid"></div>
+      </div>
+
     </div>
 
     <!-- Site Footer -->
@@ -306,6 +339,7 @@
 
 
 
+  <script src="storage.js"></script>
   <script src="shared.js"></script>
   <script src="account.js"></script>
   <script>

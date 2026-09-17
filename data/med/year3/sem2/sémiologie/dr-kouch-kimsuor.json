@@ -1,0 +1,185 @@
+{
+  "questions": [
+    {
+      "id": 1,
+      "question": "Quel est l'élément anatomique dont la lésion (désinsertion ou rupture) est le plus souvent retrouvée dans la luxation récidivante de l'épaule ?",
+      "images": [],
+      "image": "",
+      "options": [
+        "Longue portion du biceps",
+        "Bourrelet glénoïdien",
+        "Court portion du biceps",
+        "Tendon du sus-épineux",
+        "Tendon du sous-scapulaire"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 2,
+      "question": "Un patient âgé de 36 ans et en bonne santé présente une lombalgie intense irradiation douloureuse dans la fesse gauche, la face postérieure de la jambe et de la cheville gauches à la suite d'un effort important, calmé par repos. À l’examen : signe de LASÈGUE positif. Quelle est l’hypothèse du votre diagnostique ?",
+      "images": [],
+      "image": "",
+      "options": [
+        "Lombosciatique L5-S1",
+        "Tassement lombaire L5-S1",
+        "Canal lombaire étroit dénénératif",
+        "Arthrose interapophysaire lombaire",
+        "Hernie discale L3-L4"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 3,
+      "question": "Un homme de 70 ans se plaint d'impotence fonctionnelle progressive depuis 1 an et d'une sensation d'engourdissement des deux membres inférieurs survenant après 200 m de marche. Le périmètre de marche \"confortable\" est plus long lorsqu'il monte une rue que lorsqu'il descend cette même rue. Ces symptômes régressent partiellement à l'arrêt ou en position assise. La douleur lombaire est quasi permanente.A l'examen clinique, le signe de Lasègue est négatif des deux côtés. Les réflexes achilléens et rotuliens sont faibles. La sensibilité est normale. Les releveurs des pieds sont faibles. Quel est le diagnostic le plus probable ?",
+      "images": [],
+      "image": "",
+      "options": [
+        "Syndrome du canal lombaire étroit",
+        "Arthrite des membres inférieurs",
+        "Artérite des membres inférieurs",
+        "Syndrome de Leriche",
+        "Neurinome lombo sacré"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 4,
+      "question": "Une adolescente de 16 ans présente des douleurs externes du genou droit sans blocage mais avec des épanchements articulaires après l'effort. Elle a une impression de dérangement intra articulaire. Quel est le diagnostic le plus probable ?",
+      "images": [],
+      "image": "",
+      "options": [
+        "Lésion méniscale interne",
+        "Lésion méniscale externe",
+        "Rupture du ligament croisé antérieu",
+        "Syndrome douloureux rotulien",
+        "Luxation de rotule"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 5,
+      "question": "Quand on est en présence d'une fracture du col du fémur en coxa vara, quelle est la complication majeure que l'on peut redouter ?",
+      "images": [],
+      "image": "",
+      "options": [
+        "Nécrose de la tête fémorale",
+        "Coxarthrose",
+        "Luxation de la hanche",
+        "Cal vicieux du col fémoral",
+        "Thrombose de l'artère fémorale"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 6,
+      "question": "Parmi les éléments suivants, quel est celui qui oriente le diagnostic d'une déchirure méniscale interne du genou ?",
+      "images": [],
+      "image": "",
+      "options": [
+        "La douleur et le blocage",
+        "L'instabilité fonctionnelle",
+        "L'amyotrophie quadricipitale",
+        "L'aspect radiologique standard",
+        "L’œdème et la laxité"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 7,
+      "question": "Le mécanisme habituellement décrit ou mimé par les patients qui ont été victimes d'une entorse du ligament externe de la cheville est :",
+      "images": [],
+      "image": "",
+      "options": [
+        "Une éversion forced du pied",
+        "Une abduction forced de l'arrière pied",
+        "Un équin forcé",
+        "Une inversion forced du pied",
+        "Un talus forcé de la cheville"
+      ],
+      "correctIndex": 3
+    },
+    {
+      "id": 8,
+      "question": "Un syndrome de souffrance du nerf médian au canal carpien (C.C.) se traduit par une:",
+      "images": [],
+      "image": "",
+      "options": [
+        "Atrophie du 1ère espace interosseux",
+        "Dysesthésie dans les 3 premiers doigts de la main lors de la percussion du C.C.",
+        "Douleur de la paume de la main remontant dans la face postérieur de l'avant-bras",
+        "Hypoesthésie du IV et V doigt de la main",
+        "Paralysie de l'extension des doigts"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 9,
+      "question": "Une douleur de l'épaule déclenchée par l'abduction du bras et réveillée par la pression localisée sur un point sous-acromial sans aucun signe clinique associé, sans signe radiologique, ni biologique. évoque en premier lieu :",
+      "images": [],
+      "image": "",
+      "options": [
+        "Une tendinite simple",
+        "Une bursite sous-deltoïdienne",
+        "Une capsulite rétractile",
+        "Une arthrose gléno-humérale",
+        "Une rupture de la coiffe des rotateurs"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 10,
+      "question": "Une douleur des genoux accentuées par la montée ou la descente des escaliers et réveillées par une position assise prolongée font évoquer une pathologie. Laquelle ?",
+      "images": [],
+      "image": "",
+      "options": [
+        "Des ménisques",
+        "De l'articulation fémoropatellaire",
+        "Des ligaments latéraux du genou",
+        "Des articulations fémoro-tibiales"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 11,
+      "question": "Dans le cadre des syndromes canalaires par microtraumatismes, le nerf cubital est préférentiellement atteint au niveau de",
+      "images": [],
+      "image": "",
+      "options": [
+        "L'aisselle",
+        "Le bras",
+        "Le coude",
+        "L'avant-bras",
+        "Le poignet"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 12,
+      "question": "Devant un traumatise récent du genou. indiquez le signe clinique qui fait suspecter une lésion isolée du ligament croisé antérieur :",
+      "images": [],
+      "image": "",
+      "options": [
+        "Une ecchymose antérieur",
+        "Un recul de la tubérosité tibiale antérieure, genou fléchi",
+        "Une laxité à la fois interne et externe en demi-flexion",
+        "Un tiroir postérieur .D",
+        "Un tiroir antérieur"
+      ],
+      "correctIndex": 4
+    },
+    {
+      "id": 13,
+      "question": "Immédiatement après une entorse du genou, lequel des signes suivants témoigne le mieux de la gravité de l'entorse",
+      "images": [],
+      "image": "",
+      "options": [
+        "Douleur",
+        "Impotence fonctionnelle",
+        "Existence d'un tiroir",
+        "Choc rotulien",
+        "Écchymose locale"
+      ],
+      "correctIndex": 2
+    }
+  ]
+}

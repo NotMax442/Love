@@ -1,0 +1,339 @@
+{
+  "questions": [
+    {
+      "id": 1,
+      "question": "En échographie rénale parmis de ces propositions, la quelle est juste ?.",
+      "images": [],
+      "image": "",
+      "options": [
+        ". Cortex renal anéchogène",
+        ". Cortex renal hypoéchogène",
+        ". Cortex renal isoéchogène",
+        ". Cortex renal hyperéchogène",
+        ". Cortex renal échogénicité mixte"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 2,
+      "question": "En échographie rénale parmis de ces propositions, la quelle est juste ?.",
+      "images": [],
+      "image": "",
+      "options": [
+        ". Médullaire renal anéchogène",
+        ". Médullaire renal hypoéchogène",
+        ". Médullaire renal isoéchogène",
+        ". Médullaire renal hyperéchogène",
+        ". Médullaire renal échogénicité mixte"
+      ],
+      "correctIndex": 3
+    },
+    {
+      "id": 3,
+      "question": "En échographie rénale parmis de ces propositions, la quelle est juste ?.",
+      "images": [],
+      "image": "",
+      "options": [
+        ". Cavités pyélo-calicielles fines anéchogène",
+        ". Cavités pyélo-calicielles hypoéchogène",
+        ". Cavités pyélo-calicielles isoéchogène",
+        ". Cavités pyélo-calicielles hyperéchogène",
+        ". Cavités pyélo-calicielles échogénicité mixte"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 4,
+      "question": "Densité spontanée de la tumeur graisseuse rénale au scanner, la quelle est juste?.",
+      "images": [],
+      "image": "",
+      "options": [
+        ". Etre -20 et -50 UH",
+        ". Etre 0 et +20 UH",
+        ". Etre +30 et +50 UH",
+        ". Etre +50 et +65 UH",
+        ". Etre +400 et +1400 UH"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 5,
+      "question": "Densité spontanée d’un kyste rénal au scanner, la quelle est juste?.",
+      "images": [],
+      "image": "",
+      "options": [
+        ". Etre -20 et -50 UH",
+        ". Etre 0 et +20 UH",
+        ". Etre +30 et +50 UH",
+        ". Etre +50 et +65 UH",
+        ". Etre +400 et +1400 UH"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 6,
+      "question": "Densité spontanée d’un hématome rénal au scanner, la quelle est juste?.",
+      "images": [],
+      "image": "",
+      "options": [
+        ". Etre -20 et -50 UH",
+        ". Etre 0 et +20 UH",
+        ". Etre +30 et +50 UH",
+        ". Etre +50 et +65 UH",
+        ". Etre +400 et +1400 UH"
+      ],
+      "correctIndex": 3
+    },
+    {
+      "id": 7,
+      "question": "Densité spontanée d’un calcul rénal au scanner, la quelle est juste?.",
+      "images": [],
+      "image": "",
+      "options": [
+        ". Etre -20 et -50 UH",
+        ". Etre 0 et +20 UH",
+        ". Etre +30 et +50 UH",
+        ". Etre +50 et +65 UH",
+        ". Etre +400 et +1400 UH"
+      ],
+      "correctIndex": 4
+    },
+    {
+      "id": 8,
+      "question": "Concernant d’une image d’addition calicielle, la quelle de ces propositions est juste ?.",
+      "images": [],
+      "image": "",
+      "options": [
+        ". Image apparaitre à l’extérieur de la ligne de Hodson",
+        ". Image apparaitre à l’intrérieur de la ligne de Hodson",
+        ". Image apparaitre à l’intérieur et à l’extrérieur de la ligne de Hodson",
+        ". Image occupant dans la lumière d’une cavité excrétrice",
+        ". Image à l’extrérieur de l’ombre rénal"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 9,
+      "question": "La quelle de ces anomalies se manifeste par une image d’addition sur un examen avec injection de produit de contraste ?.",
+      "images": [],
+      "image": "",
+      "options": [
+        ". Calcul pyélique",
+        ". Diverticul urétéral",
+        ". Tumeur du bassinet",
+        ". Caillôt vésical",
+        ". Kyste renal"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 10,
+      "question": "Parmis des anomalies au niveau de l’uretère, la quelle se manifeste par une signe de Bergman ?.",
+      "images": [],
+      "image": "",
+      "options": [
+        ". Calcul urétéral",
+        ". Diverticul urétéral",
+        ". Rupture urétérale",
+        ". Oedème de la muqueuse de l’uretère",
+        ". Tumeur urétérale"
+      ],
+      "correctIndex": 4
+    },
+    {
+      "id": 11,
+      "question": "Calcul radio-opaque: (la réponse juste ).",
+      "images": [],
+      "image": "",
+      "options": [
+        ". 10% vu en ASP",
+        ". Image lacune cerné de produit de contraste vu en UIV",
+        ". Composant de cystine ou acide urique",
+        ". Image opaque vu en ASP",
+        ". Non vu en ASP"
+      ],
+      "correctIndex": 3
+    },
+    {
+      "id": 12,
+      "question": "Sur l’UIV, une lacune des cavités pyélo-calicielles à base d’implantation fixe sur la paroi, de contours irréguliers: (la réponse juste ).",
+      "images": [],
+      "image": "",
+      "options": [
+        ". Compression extrinsèque",
+        ". Calcul radio-opaque",
+        ". Caillot sanguin",
+        ". Tumeur intrinsèque"
+      ],
+      "correctIndex": 3
+    },
+    {
+      "id": 13,
+      "question": "Sur l’UIV, une lacune des cavités pyélo-calicielles au sein du produit de contraste, sans base d’implantation fixe sur la paroi: (la réponse juste).",
+      "images": [],
+      "image": "",
+      "options": [
+        ". Compression extrinsèque",
+        ". Calcul radio-transparente",
+        ". Calcul radio-opaque",
+        ". Tumeur intrinsèque",
+        ". Caillot sanguin"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 14,
+      "question": "Calcul rénal à l’échographie: (la réponse juste).",
+      "images": [],
+      "image": "",
+      "options": [
+        ". Image hypoéchogène avec atténuation postérieure",
+        ". Image anéchogène avec renforcement postérieur",
+        ". Image hyperéchogène",
+        ". Image hyperéchogène avec cône d’ombre postérieur",
+        ". Image avec échogénicité mixte"
+      ],
+      "correctIndex": 3
+    },
+    {
+      "id": 15,
+      "question": "Rein muet: (la réponse juste).",
+      "images": [],
+      "image": "",
+      "options": [
+        ". Retard de sécrétion",
+        ". Sécrétion rapide",
+        ". Absence de sécrétion ou d’excrétion même sur le cliché tardif 24h après injection de produit de contraste",
+        ". Absence de sécrétion ou d’excrétion sur le cliché 4h après injection de produit de contraste",
+        ". Sécrétion et excrétion normale"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 16,
+      "question": "Une lésion focale du parenchyme rénal qui déforme du contour rénal ou des cavités rénales: (la réponse juste).",
+      "images": [],
+      "image": "",
+      "options": [
+        ". Syndrome pseudo-tumoral",
+        ". Abcès rénal",
+        ". Infarctus rénal",
+        ". Pyélonéphrite",
+        ". Syndrome tumoral"
+      ],
+      "correctIndex": 4
+    },
+    {
+      "id": 17,
+      "question": "Une image hypertrophie focale du parenchyme rénal sans déformation du contour rénal ou des cavités rénales: (la réponse juste).",
+      "images": [],
+      "image": "",
+      "options": [
+        ". Syndrome tumoral",
+        ". Infarctus rénal",
+        ". Pyélonéphrite",
+        ". Syndrome pseudo-tumoral",
+        ". Abcès renal"
+      ],
+      "correctIndex": 3
+    },
+    {
+      "id": 18,
+      "question": "Duplicité et bifidité urétérale: (la réponse juste).",
+      "images": [],
+      "image": "",
+      "options": [
+        ". Aspect normal de l’uretère",
+        ". Abouchement vésical ectopique de l’uretère",
+        ". Augmentation du nombre de luretère",
+        ". Dilatation anomale de l’uretère",
+        ". Anomalie du trajet de l’uretère"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 19,
+      "question": "Une lésion rénale anéchogène avec renforcement postérieur en échographie: (la réponse juste).",
+      "images": [],
+      "image": "",
+      "options": [
+        ". Tumeur solide",
+        ". Pseudo-tumeur",
+        ". Lésion kystique",
+        ". Lésion avec composante graisseuse",
+        ". Hématome"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 20,
+      "question": "Sur l’UIV au niveau de l’uretère, une courte sténose spasmodique encadrant la lacune transparente: (la réponse juste).",
+      "images": [],
+      "image": "",
+      "options": [
+        ". Tumeur",
+        ". Calcul radio-transparent",
+        ". Calcul radio-opaque",
+        ". Oedème muqueuse.",
+        ". Diverticul"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 21,
+      "question": "Concernant d’une image d’addition calicielle, la quelle de ces proposition est juste:",
+      "images": [],
+      "image": "",
+      "options": [
+        "Image apparaitre à l’extérieur de la ligne de Hodson",
+        "Image apparaitre à l’intrérieur de la ligne de Hodson",
+        "Image apparaitre à l’intérieur et à l’extrérieur de la ligne de Hodson",
+        "Image occupant dans la lumière d’une cavité excrétrice",
+        "Image à l’extrérieur de l’ombre rénal"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 22,
+      "question": "La quelle de ces anomalies se manifeste par une image d’addition sur un examen avec injection de produit de contraste:",
+      "images": [],
+      "image": "",
+      "options": [
+        "Calcul pyélique",
+        "Diverticul ureteral",
+        "Tumeur du bassinet",
+        "Caillôt vésical",
+        "Kyste rénal"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 23,
+      "question": "Parmis des anomalies au niveau de l’uretère, la quelle se manifeste par une signe de Bergman:",
+      "images": [],
+      "image": "",
+      "options": [
+        "Calcul urétéral",
+        "Diverticul urétéral",
+        "Rupture urétérale",
+        "Oedème de la muqueuse de l’uretère",
+        "Tumeur urétérale"
+      ],
+      "correctIndex": 4
+    },
+    {
+      "id": 24,
+      "question": "Sur l’UIV, une lacune des cavités pyélo-calicielles au sein du produit de contraste, sans base d’implatation fixe sur la paroi: (la réponse juste).",
+      "images": [],
+      "image": "",
+      "options": [
+        "Compression extrinsèque",
+        "Calcul radio-transparente",
+        "Calcul radio-opaque",
+        "Tumeur intrinsèque",
+        "Caillot sanguin"
+      ],
+      "correctIndex": 1
+    }
+  ]
+}

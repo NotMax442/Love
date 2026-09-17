@@ -122,6 +122,13 @@ const manifestData = {
         "SANTÉ-PUBLIQUE": [
           "Pr. Khuon Engmony",
           "Pr. Nong Saokry"
+        ],
+        "SÉMIOLOGIE": [
+          "Dr. Ang Eng Sopheab",
+          "Dr. Bouy Bunthol",
+          "Dr. Ich Khuy",
+          "Dr. Kouch Kimsuor",
+          "Dr. Leang Heng"
         ]
       }
     },
@@ -166,15 +173,12 @@ function toggleProfDrawer(drawerId, btnEl) {
 
 async function fetchProfQuestionCount(major, year, semester, subject, profName, badgeEl) {
   if (!badgeEl) return;
-  const profSlug = getProfSlug(profName);
-  const jsonPath = `data/${major.toLowerCase()}/year${year}/sem${semester}/${subject.toLowerCase()}/${profSlug}.json`;
   try {
-    const res = await fetch(jsonPath);
-    if (!res.ok) return;
-    const data = await res.json();
-    const count = Array.isArray(data)
-      ? data.length
-      : (Array.isArray(data?.questions) ? data.questions.length : 0);
+    const config = { major, year, semester, subject };
+    const questions = typeof StudyRepository !== 'undefined'
+      ? await StudyRepository.loadQuestions(config, profName)
+      : [];
+    const count = questions.length;
     if (count > 0) {
       badgeEl.textContent = `${count} Qs`;
       badgeEl.style.display = 'inline-block';
@@ -462,7 +466,8 @@ function showProfessors(major, year, semester, subject, direction = 'forward') {
       }
     }
 
-    const hasDrawerContent = continueBtnHTML || missedCount > 0;
+    const canDownloadOffline = typeof window !== 'undefined' && window.OfflineRepository && typeof window.OfflineRepository.downloadPackage === 'function';
+    const hasDrawerContent = continueBtnHTML || missedCount > 0 || canDownloadOffline;
     const drawerId = `drawer-${profSlug}`;
 
     const card = document.createElement('div');
@@ -509,6 +514,11 @@ function showProfessors(major, year, semester, subject, direction = 'forward') {
         </button>
         <div id="${drawerId}" class="prof-drawer hidden">
           ${continueBtnHTML}
+          ${canDownloadOffline ? `
+            <button class="btn secondary-btn" style="display: inline-flex; align-items: center; justify-content: center; gap: 0.4rem; width: 100%; margin-top: 0.35rem;" onclick="downloadProfessorOfflinePackage('${profName}')">
+              <i data-lucide="download" style="width: 16px; height: 16px;"></i> ${getTranslation('offline_download')}
+            </button>
+          ` : ''}
           ${missedCount > 0 ? `
             <div class="btn-row-dual" style="margin-top: 0.35rem; display: flex; gap: 0.5rem;">
               <button class="btn study-missed-btn" style="display: inline-flex; align-items: center; justify-content: center; gap: 0.4rem;" onclick="startMissedSession('${profName}')">
@@ -602,6 +612,38 @@ function clearSavedMissed(profName) {
     : `missed_${currentMajor.toLowerCase()}_y${currentYear}_s${currentSemester}_${currentSubject.toLowerCase()}_${profSlug}`;
   localStorage.removeItem(key);
   showProfessors(currentMajor, currentYear, currentSemester, currentSubject, 'none');
+}
+
+async function downloadProfessorOfflinePackage(profName) {
+  if (!window.OfflineRepository || typeof window.OfflineRepository.downloadPackage !== 'function') {
+    return;
+  }
+
+  try {
+    const config = {
+      major: currentMajor,
+      year: currentYear,
+      semester: currentSemester,
+      subject: currentSubject
+    };
+
+    const questions = typeof StudyRepository !== 'undefined'
+      ? await StudyRepository.loadQuestions(config, profName)
+      : [];
+
+    const saved = await window.OfflineRepository.downloadPackage(config, profName, questions);
+    if (saved) {
+      const statusMsg = getTranslation('offline_downloaded');
+      if (window.alert) {
+        window.alert(`${statusMsg}\n${profName}`);
+      }
+    }
+  } catch (error) {
+    console.error('Could not save offline package:', error);
+    if (window.alert) {
+      window.alert(getTranslation('offline_download_failed'));
+    }
+  }
 }
 
 // UPDATE NOTIFICATION SYSTEM

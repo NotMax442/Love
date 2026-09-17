@@ -83,6 +83,17 @@ const translations = {
     account_sub: "View your performance analytics, study habits, and saved question vaults.",
     tab_stats: "Analytics & Stats",
     tab_vault: "Vault & Settings",
+    tab_offline: "Offline Packs",
+    offline_title: "Offline Study Packs",
+    offline_count_label: "Saved packs",
+    offline_questions_label: "Questions",
+    offline_clear_all: "Clear all",
+    offline_download: "Download offline pack",
+    offline_downloaded: "Offline pack saved to this browser.",
+    offline_download_failed: "Could not save the offline pack for this professor.",
+    offline_empty_list: "No offline packs saved yet.",
+    offline_delete_confirm: "Delete this offline pack?",
+    btn_delete_package: "Delete",
     stats_overview_title: "Overall Accuracy",
     stats_total_questions: "Questions Attempted",
     stats_correct_answers: "Correct Answers",
@@ -251,6 +262,17 @@ const translations = {
     account_sub: "ពិនិត្យមើលស្ថិតិនៃការសិក្សា ភាពត្រឹមត្រូវ និងឃ្លាំងសំណួរខុសរបស់អ្នក។",
     tab_stats: "ស្ថិតិ និងការវិភាគ",
     tab_vault: "ឃ្លាំង និងការកំណត់",
+    tab_offline: "កញ្ចប់អอฟ្លាញ",
+    offline_title: "កញ្ចប់សិក្សាអอฟ្លាញ",
+    offline_count_label: "កញ្ចប់ដែលបានរក្សាទុក",
+    offline_questions_label: "សំណួរ",
+    offline_clear_all: "លុបទាំងអស់",
+    offline_download: "ទាញយកកញ្ចប់អอฟ្លាញ",
+    offline_downloaded: "កញ្ចប់អอฟ្លាញត្រូវបានរក្សាទុកក្នុងកម្មវិធីនេះ។",
+    offline_download_failed: "មិនអាចរក្សាទុកកញ្ចប់អอฟ្លាញនេះបានទេ។",
+    offline_empty_list: "មិនទាន់មានកញ្ចប់អอฟ្លាញណាមួយឡើយ។",
+    offline_delete_confirm: "លុបកញ្ចប់អอฟ្លាញនេះឬ?",
+    btn_delete_package: "លុប",
     stats_overview_title: "អត្រាភាពត្រឹមត្រូវសរុប",
     stats_total_questions: "សំណួរដែលបានធ្វើសរុប",
     stats_correct_answers: "ចម្លើយត្រឹមត្រូវ",
@@ -407,6 +429,8 @@ document.addEventListener('DOMContentLoaded', () => {
     langSelect.addEventListener('change', (e) => changeLanguage(e.target.value));
   }
 
+  registerServiceWorker();
+
   // Set Theme
   const savedTheme = localStorage.getItem('app_theme') || 'dark';
   applyTheme(savedTheme);
@@ -436,6 +460,16 @@ document.addEventListener('DOMContentLoaded', () => {
 
   setupSharedModals();
 });
+
+async function registerServiceWorker() {
+  if (!('serviceWorker' in navigator)) return;
+
+  try {
+    await navigator.serviceWorker.register('./sw.js');
+  } catch (error) {
+    console.warn('Service worker registration failed:', error);
+  }
+}
 
 // --- Theme Manager ---
 function applyTheme(theme) {
@@ -468,6 +502,9 @@ function getProfSlug(profName) {
 
 // --- Vault Storage Helpers ---
 function getStorageKey(major, year, semester, subject, professor) {
+  if (typeof StudyRepository !== 'undefined') {
+    return StudyRepository.vaultKey(major, year, semester, subject, professor);
+  }
   if (!major || year === undefined || semester === undefined || !subject || !professor) return '';
   const profSlug = getProfSlug(professor);
   return `missed_${major.toLowerCase()}_y${year}_s${semester}_${subject.toLowerCase()}_${profSlug}`;
@@ -475,6 +512,9 @@ function getStorageKey(major, year, semester, subject, professor) {
 
 // Helper: Unique signature for questions
 function getQuestionSignature(q) {
+  if (typeof StudyRepository !== 'undefined') {
+    return StudyRepository.questionSignature(q);
+  }
   if (!q) return '';
   const text = (q.question || '').trim();
   const img = Array.isArray(q.images) && q.images.length > 0

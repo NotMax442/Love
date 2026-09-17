@@ -1,0 +1,466 @@
+{
+  "questions": [
+    {
+      "id": 1,
+      "question": "L’articulation du poignet se compose par :",
+      "images": [],
+      "image": "",
+      "options": [
+        ". L’extrémité inférieure du radius et de l’ulna et huit petits os du carpe",
+        ". L’extrémité supérieure du radius et de l’ulna et huit petits os du carpe",
+        ". L’extrémité inférieure du radius et de l’ulna et les métacarpes",
+        ". Huit petits os du carpe, les métacarpes et les phalangues",
+        ". L’extrémité inférieure du radius et de l’ulna et les phalangues"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 2,
+      "question": "Articulations du poignet se divise en 3 groupes principaux :",
+      "images": [],
+      "image": "",
+      "options": [
+        ". L’articulation radiocarpienne, les articulations carpo-métacarpiennes et les articulations des doigts",
+        ". L’articulation radio-ulnaire distale, les articulations carpo-métacarpiennes et les articulation des doigts",
+        ". L’articulation radiocarpienne (du poignet), l’articulation radio-ulnaire distale et les articulations des carpes.",
+        ". L’articulation radiocarpienne (du poignet), l’articulation radio-ulnaire distale et les articulations des phalanges.",
+        ". L’articulation radiocarpienne (du poignet), l’articulation radio-ulnaire distale et les articulations carpo-métacarpiennes."
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 3,
+      "question": "Articulations des mains se composent :",
+      "images": [],
+      "image": "",
+      "options": [
+        ". les articulations métacarpophalangiennes (MCP), les interphalangiennes proximales (IPP) et les interphalangiennes distales (IPD).",
+        ". L’articulation radio-ulnaire distale, les articulations carpo-métacarpiennes et les articulation des doigts",
+        ". L’articulation radiocarpienne (du poignet), l’articulation radio-ulnaire distale et les articulations des phalanges.",
+        ". L’articulation radiocarpienne (du poignet), l’articulation radio-ulnaire distale et les articulations carpo-métacarpiennes.",
+        ". L’articulation radiocarpienne, les articulations carpo-métacarpiennes et les articulations des doigts"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 4,
+      "question": "La flexion du poignet dépend des deux muscles carpiens situés sur les faces radiale et ulnaire, ils sont :",
+      "images": [],
+      "image": "",
+      "options": [
+        ". Les deux muscles radiaux et d’un muscle ulnaire : le premier radial, le deuxième radial et le muscle extenseur ulna du carpe.",
+        ". Les deux muscles fléchisseurs des doigts : les fléchisseurs communs profonds des doigts et les fléchisseurs superfitiels des doigts",
+        ". Le muscle carré pronateur et le fléchisseur ulna du carpe",
+        ". Deux muscles carpiens : le grand palmaire, le petit palmaire et le cubital antérieur (féchisseur ulna du carpe)",
+        ". Le grand palmaire, le petit palmaire et le muscle carré pronateur"
+      ],
+      "correctIndex": 3
+    },
+    {
+      "id": 5,
+      "question": "L’extension du poignet dépense de :",
+      "images": [],
+      "image": "",
+      "options": [
+        ". Les deux muscles radiaux et d’un muscle ulnaire : le premier radial, le deuxième radial et le muscle extenseur ulna du carpe.",
+        ". Les deux muscles fléchisseurs des doigts : les fléchisseurs communs profonds des doigts et les fléchisseurs superfitiels des doigts",
+        ". Le muscle carré pronateur et le fléchisseur ulna du carpe",
+        ". Deux muscles carpiens : le grand palmaire, le petit palmaire et le cubital antérieur (féchisseur ulna du carpe)",
+        ". Le grand palmaire, le petit palmaire et le muscle carré pronateur"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 6,
+      "question": "Le pouce est mû par trois muscles (court fléchisseur, court abducteur et opposant du pouce) qui forment l’éminence thénar et commandent",
+      "images": [],
+      "image": "",
+      "options": [
+        ". son extension, son abduction et son opposition du pouce",
+        ". son extension, son adduction et son opposition du pouce",
+        ". sa flexion, son abduction et son opposition du pouce",
+        ". sa flexion, son adduction et son opposition du pouce",
+        ". sa flexion, son extension et son abduction du pouce"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 7,
+      "question": "Les muscles intrinsèques de la main, qui s’insèrent sur les métacarpiens sont impliqués dans la flexion des doigts :",
+      "images": [],
+      "image": "",
+      "options": [
+        ". interosseux dorsaux",
+        ". interosseux palmaire",
+        ". grand palmaire",
+        ". petit palmaire",
+        ". lombricaux"
+      ],
+      "correctIndex": 4
+    },
+    {
+      "id": 8,
+      "question": "Les muscles intrinsèques de la main, qui s’insèrent sur les métacarpiens sont impliqués dans l’abduction des doigts :",
+      "images": [],
+      "image": "",
+      "options": [
+        ". interosseux dorsaux",
+        ". interosseux palmaire",
+        ". grand palmaire",
+        ". petit palmaire",
+        ". lombricaux"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 9,
+      "question": "Les muscles intrinsèques de la main, qui s’insèrent sur les métacarpiens sont impliqués dans l’adduction des doigts :",
+      "images": [],
+      "image": "",
+      "options": [
+        ". interosseux dorsaux",
+        ". interosseux palmaire",
+        ". grand palmaire",
+        ". petit palmaire",
+        ". lombricaux"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 10,
+      "question": "Les parties molles, notamment les tendons et leurs gaines, jouent un rôle important dans le poignet et la main. Pendant la plus grande partie de leur trajet, ces tendons sont entourés des gaines qui ne sont palpables qu’en cas :",
+      "images": [],
+      "image": "",
+      "options": [
+        ". de ruptures tendineuses",
+        ". d’inflammation",
+        ". de mouvement de flexion des doigts",
+        ". de mouvement d’extension des doigts",
+        ". de lésions nerveuses du membre supérieur"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 11,
+      "question": "Les structures de la gaine tendineuse qui sont proches de membrane synovial, jouent un rôle important dans :",
+      "images": [],
+      "image": "",
+      "options": [
+        ". la sécrétion de liquide qui est proche de la liquide synoviale pour la lubrification et la nutrition des tendons",
+        ". la vascularisation tendineuse en donnant des rameaux vasculaires pour la lubrification et la nutrition des tendons",
+        ". la sécrétion de liquide lymphatique pour la lubrification et la nutrition des tendons",
+        ". le transmission de la forces de contraction musculaire du poignet et de la main",
+        ". la transmission de l’innervation tendineuse"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 12,
+      "question": "Le canal carpien est un canal étoit sous la face palmaire du poignet et de la main proximale. Ce canal est constitué par :",
+      "images": [],
+      "image": "",
+      "options": [
+        ". le récessus osseux du deuxième rangé des os du carpe en bas et le retinaculum en haut",
+        ". le récessus osseux du rangé des os du métacarpe en bas et le retinaculum en haut",
+        ". le récessus osseux du rangé des os du premier phalange des doigts en bas et le retinaculum en haut",
+        ". le récessus osseux du premier et deuxième rangé des os du carpe en bas et le retinaculum en haut",
+        ". le récessus osseux du premier rangé des os du carpe en bas et le retinaculum en haut"
+      ],
+      "correctIndex": 4
+    },
+    {
+      "id": 13,
+      "question": "Quels est le contenue dans le canal carpien ?",
+      "images": [],
+      "image": "",
+      "options": [
+        ". Le canal carpien contient les tendons des muscles extenseurs de l’avant-bras avec leur gaine et le nerf médian.",
+        ". Le canal carpien contient les tendons des muscles fléchisseurs de l’avant-bras avec leur gaine et le nerf ulna.",
+        ". Le canal carpien contient les tendons des muscles fléchisseurs de l’avant-bras avec leur gaine et le nerf médian.",
+        ". Le canal carpien contient les tendons des muscles fléchisseurs de l’avant-bras avec leur gaine et le nerf radial.",
+        ". Le canal carpien contient les tendons des muscles fléchisseurs et des muscles extenseurs de l’avant-bras avec leur gaine et le nerf médian."
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 14,
+      "question": "Quels sont les territoires de l’innervation sensitive et mortice du nerf median? les territoires de l’innervation sensitive et mortice du nerf median sont :",
+      "images": [],
+      "image": "",
+      "options": [
+        ". Sensitive : la paume et de la plus grande partie des faces palmaires des 1er, 2è et 3è doigts ainsi que d’une moitié du 4è doigt. Motrice : les muscles de l’éminence hypothénarienne comme le muscle de la flexion, de l’abduction et de l’opposition du petit doigt.",
+        ". Sensitive : la paume et de la plus grande partie des faces palmaires des 1er, 2è et 3è doigts ainsi que d’une moitié du 4è doigt. Motrice : les muscles de l’éminence thénarienne et hypothénarienne comme le muscle de la flexion, de l’abduction et de l’opposition du pouce et petit doigt.",
+        ". Sensitive : la paume et de la plus grande partie des faces palmaires des 5è, 4è et 3è doigts ainsi que d’une moitié du 2è doigt. Motrice : les muscles de l’éminence hypothénarienne comme le muscle de la flexion, de l’abduction et de l’opposition du petit doigt.",
+        ". Sensitive : la paume et de la plus grande partie des faces palmaires des 1er, 2è et 3è doigts ainsi que d’une moitié du 4è doigt. Motrice : les muscles de l’éminence thénarienne comme le muscle de la flexion, de l’abduction et de l’opposition du pouce.",
+        ". Sensitive : le dos et de la plus grande partie des faces dorsales des 1er, 2è et 3è doigts ainsi que d’une moitié du 4è doigt. Motrice : les muscles de l’éminence thénarienne comme le muscle de la flexion, de l’abduction et de l’opposition du pouce."
+      ],
+      "correctIndex": 3
+    },
+    {
+      "id": 15,
+      "question": "Une femme ménagère droitiée âgée de 55 ans présente des picotements des 4 premiers doigts de la main droite à minuit et à la veille du matin depuit 6 mois accompagné de paresthésie cutanée dans la journée. Elle a été traitée par des AINS mais son état ne s’améliore pas. A l’examen, on retrouve l’hpoesthésie des 4 premiers doigt (la moitiée externe du 4è doigt), l’atropie de l’éminence thénarienne et diminution de la force de préhension de la main droite. Quel est le diagnostic que pensez-vous?",
+      "images": [],
+      "image": "",
+      "options": [
+        ". Syndrome de compression du nerf ulna (syndrome du canal carpien)",
+        ". Syndrome de compression du nerf médian (syndrome du canal carpien)",
+        ". Syndrome de compression du nerf médian et ulna (syndrome du canal carpien)",
+        ". Syndrome de compression du nerf raldial et ulna",
+        ". Syndrome de paralysie plexique (plexus brachial)"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 16,
+      "question": "Un homme de 50 ans a eu une douleur et oedème du 2è et 3è doigt de la main gauche suite à un accident de travail depuis 1 semaines. L’inspection du poignet et de la main est faite en observant la position des mains en mouvement et au repos. Il nous montre des mouvement prudent et un mauvais alignement du 2è et 3è doigt. Quel est le diagnostic probable, pansez-vous?",
+      "images": [],
+      "image": "",
+      "options": [
+        ". L’atteinte des tendons fléchisseurs",
+        ". L’arthrite infectieuse ou un kyste synovial",
+        ". La polyarthrite rhumatoïde",
+        ". La compression du nerf médian ou ulnaire",
+        ". La maladie de Dupuytren"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 17,
+      "question": "Un homme de 50 ans a eu une douleur et oedème du 2è doigt de la main gauche accompagné de syndrome infectieux. L’inspection du poignet et de la main est faite en observant la position des mains en mouvement et au repos. Il nous montre un gonflement diffuse du 2è doigt. Quel est le diagnostic probable, pansez-vous ?",
+      "images": [],
+      "image": "",
+      "options": [
+        ". L’atteinte des tendons fléchisseurs",
+        ". L’arthrite infectieuse",
+        ". La polyarthrite rhumatoïde",
+        ". La compression du nerf médian ou ulnaire",
+        ". La maladie de Dupuytren"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 18,
+      "question": "Une femme de 60 ans a eu une douleur et oedème des articulations des doigts des 2 mains. L’inspection du poignet et de la main est faite en observant la position des mains en mouvement et au repos. Il nous montre des nodosités aux articulations IPD et IPP. Quel est le diagnostic probable, pansez-vous ?",
+      "images": [],
+      "image": "",
+      "options": [
+        ". L’atteinte des tendons fléchisseurs",
+        ". Une arthrose",
+        ". La polyarthrite rhumatoïde",
+        ". La compression du nerf médian ou ulnaire",
+        ". La maladie de Dupuytren"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 19,
+      "question": "Une femme de 65 ans a eu une douleur et oedème des articulations des doigts des 2 mains depuis quelques mois. L’inspection du poignet et de la main est faite en observant la position des mains en mouvement et au repos. Il nous montre une déformation symétrique des articulations du poignet, MCP et IPP avec déviation ulnaire. La palpation retrouve un gonflement et une douleur provoquée bilatéraux et symétriques. Quel est le diagnostic probable, pansez-vous ?",
+      "images": [],
+      "image": "",
+      "options": [
+        ". L’atteinte des tendons fléchisseurs",
+        ". Une arthrose",
+        ". La polyarthrite rhumatoïde",
+        ". La compression du nerf médian ou ulnaire",
+        ". La maladie de Dupuytren"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 20,
+      "question": "Un homme de 65 ans a eu une paresthésie, un engoudisement et un picotement des 2 derniers doigts de la main droite depuis plusieurs mois. Il a été traité par les AINS mais son état ne s’améliore pas. L’inspection du poignet et de la main est faite en observant la position des mains en mouvement et au repos. Il nous montre une atrophie de l’éminence hypothénarienne. Quel est le diagnostic probable, pansez-vous ?",
+      "images": [],
+      "image": "",
+      "options": [
+        ". L’atteinte des tendons fléchisseurs",
+        ". Une arthrose",
+        ". La polyarthrite rhumatoïde",
+        ". La compression du nerf ulnaire",
+        ". La maladie de Dupuytren"
+      ],
+      "correctIndex": 3
+    },
+    {
+      "id": 21,
+      "question": "Un homme de 65 ans a présenté à notre consultation de sa main gauche. A l’inspection du poignet et de la main est faite en observant la position des mains en mouvement et au repos. Il nous montre une contracture en flexions des 3è, 4è et 5è doigts. Quel est le diagnostic probable, pansez-vous ?",
+      "images": [],
+      "image": "",
+      "options": [
+        ". L’atteinte des tendons fléchisseurs",
+        ". Une arthrose",
+        ". La polyarthrite rhumatoïde",
+        ". La compression du nerf ulnaire",
+        ". La maladie de Dupuytren"
+      ],
+      "correctIndex": 4
+    },
+    {
+      "id": 22,
+      "question": "Une jeune femme ménagère de 27 ans avec un enfant de 10 mois, elle vient nous voir pour une douleur spontanée du poignet gauche depuis quelques jours. A l’inspection, il ne montre pas des signes particuliers mais à la palpation les extrémités distales du radius et de l’ulnar, les gouttières de l’articulation du poignet, la styloïde radiale et la tabatière anatomique du poignet, il provoque une douleur vive au niveau de la styloïde radiale au-dessus des dentons extenseurs et abducteurs du pouce sans syndrome infectieux. Quel est le diagnostic que vous pansez ?",
+      "images": [],
+      "image": "",
+      "options": [
+        ". la ténosynovite de De Quervain",
+        ". la ténosynovite de gonococcique",
+        ". la fracture scaphoïde",
+        ". polyarthrite rhumatoïde",
+        ". la maladie de Dupuytren"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 23,
+      "question": "Une femme mémagère de 55 ans a présenté à notre consultation une douleur aiguë avec blockage au mouvement actif du premier doigt de la main droite. A l’examen clinique, il nous montre un blockage douloureux à la flexion du 1er doigt de la main droite. Quel est le diagnostic que vous pansez ?",
+      "images": [],
+      "image": "",
+      "options": [
+        ". l’atteinte des tendons fléchisseurs",
+        ". la ténosynovite de De Quervain",
+        ". doigt à ressaut du premier doigt",
+        ". la compression du nerf ulnaire",
+        ". la maladie de Dupuytren"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 24,
+      "question": "Un jeun homme de 27 ans a présenté une douleur du poignet suite à un accident de football par renversement sur terre en appuiyant sur sa main droit. A l’examen clinic, il nous montre une limitation douloureuse accompagné de l’oedème ecchymotique de son poignet droit, un déformation postérieuse visible et une douleur exquise du poignet. Quell est le diagnostic que vous pansez ?",
+      "images": [],
+      "image": "",
+      "options": [
+        ". L’atteinte des tendons fléchisseurs",
+        ". doigt à ressaut du premier doigt",
+        ". La compression du nerf ulnaire",
+        ". La maladie de Dupuytren",
+        ". Fracture du poignet"
+      ],
+      "correctIndex": 4
+    },
+    {
+      "id": 25,
+      "question": "L’avant-bras du patient étant stabilisé, placez son poignet en extension et mettez le bout de vos doigts dans sa paume. Demandez-lui de fléchir le poignet contre la gravité puis contre une résistence graduée.",
+      "images": [],
+      "image": "",
+      "options": [
+        ". cet examen sert à rechercher la mobilité en extension du poignet",
+        ". cet examen sert à rechercher la mobilité en flexion du poignet",
+        ". cet examen sert à rechercher la mobilité en pronation du poignet",
+        ". cet examen sert à rechercher la mobilité en supination du poignet",
+        ". cet examen sert à rechercher la mobilité neutre du poignet"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 26,
+      "question": "L’avant-bras du patient étant stabilisé, placez son poignet en flexion et posez votre main sur la face dorsale de ses métacarpiens. Demandez au patient d’étendre le poignet contre la gravité puis contre une résistence graduée.",
+      "images": [],
+      "image": "",
+      "options": [
+        ". cet examen sert à rechercher la mobilité en extension du poignet",
+        ". cet examen sert à rechercher la mobilité en flexion du poignet",
+        ". cet examen sert à rechercher la mobilité en pronation du poignet",
+        ". cet examen sert à rechercher la mobilité en supination du poignet",
+        ". cet examen sert à rechercher la mobilité neutre du poignet"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 27,
+      "question": "Demandez au patient de saisir votre index et votre majeur. Cette manoeuvre teste la fonction des muscles intrinsèques et des articulations de la main, des articulations du poignet et des tendons et des muscles de l’avant-bras (utilisez un dynamomèter pour des meusures plus précises) :",
+      "images": [],
+      "image": "",
+      "options": [
+        ". Appréciez la force de flexion du poignet",
+        ". Appréciez la force d’extension du poignet",
+        ". Appréciez la force de pronation de l’avant bras",
+        ". Appréciez la force de supination de l’avant bras",
+        ". Appréciez la force de prehension"
+      ],
+      "correctIndex": 4
+    },
+    {
+      "id": 28,
+      "question": "Demandez au patient de mettre le pouce en travers de la paume, jusqu’à toucher la base de 5è doigt (flexion). Cette manoeuvre sert à tester la mobilité de :",
+      "images": [],
+      "image": "",
+      "options": [
+        ". flexion du pouce",
+        ". extension du pouce",
+        ". abduction du pouce",
+        ". adduction du pouce",
+        ". opposition du pouce"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 29,
+      "question": "Demandez au patient de mettre le pouce en travers de la paume, jusqu’à toucher la base de 5è doigt, puis de le déplacer en sens inverse et de l’écarter des doigts. Cette manoeuvre sert à tester la mobilité de :",
+      "images": [],
+      "image": "",
+      "options": [
+        ". flexion du pouce",
+        ". extension du pouce",
+        ". abduction du pouce",
+        ". adduction du pouce",
+        ". opposition du pouce"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 30,
+      "question": "Demandez au patient de toucher avec le pouce les bouts ou les pulpes de tous les autres doigts. Cette manoeuvre sert à tester la mobilité de :",
+      "images": [],
+      "image": "",
+      "options": [
+        ". flexion du pouce",
+        ". extension du pouce",
+        ". abduction du pouce",
+        ". adduction du pouce",
+        ". opposition du pouce"
+      ],
+      "correctIndex": 4
+    },
+    {
+      "id": 31,
+      "question": "Pour en savoir l’atteint sensitive du nerf ulnar, il faut explorer la sensibilité de façon suivant :",
+      "images": [],
+      "image": "",
+      "options": [
+        ". pulpe de l’index",
+        ". pulpe du 5è doigt",
+        ". face dorsale entre pouce et index",
+        ". face dorsale entre auriculaire et index",
+        ". face dorsale du 5è doigt"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 32,
+      "question": "Pour en savoir l’atteint sensitive du nerf radial, il faut explorer la sensibilité de façon suivant:",
+      "images": [],
+      "image": "",
+      "options": [
+        ". pulpe de l’index",
+        ". pulpe du 5è doigt",
+        ". face dorsale entre pouce et index",
+        ". face dorsale entre auriculaire et index",
+        ". face dorsale du 5è doigt"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 33,
+      "question": "Pour en savoir l’atteint sensitive du nerf médian, il faut explorer la sensibilité de façon suivant:",
+      "images": [],
+      "image": "",
+      "options": [
+        ". pulpe de l’index",
+        ". pulpe du 5è doigt",
+        ". face dorsale entre pouce et index",
+        ". face dorsale entre auriculaire et index",
+        ". face dorsale du 5è doigt"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

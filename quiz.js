@@ -16,6 +16,9 @@ let isModalOpen = false;
 let timerInterval = null;
 let timeRemaining = 3600;
 let autoScrollTimer = null;
+let studyRenderedCount = 0;
+let studyLoadObserver = null;
+const STUDY_RENDER_BATCH_SIZE = 12;
 
 document.addEventListener('DOMContentLoaded', async () => {
   // Detect page refresh inside active session -> Redirect back to home
@@ -142,6 +145,10 @@ function getProfSlug(profName) {
 }
 
 function getStudyStorageKey() {
+  if (typeof StudyRepository !== 'undefined') {
+    return StudyRepository.studyKey(sessionConfig);
+  }
+
   const { major, year, semester, subject, professor, isSubjectWide } = sessionConfig;
   if (isSubjectWide) {
     return `saved_study_${major.toLowerCase()}_y${year}_s${semester}_${subject.toLowerCase()}_subject_all`;
@@ -315,10 +322,15 @@ async function initSession() {
   const studyProgressKey = getStudyStorageKey();
 
   if (mode === 'study' && resume) {
-    const savedStudyRaw = localStorage.getItem(studyProgressKey);
-    if (savedStudyRaw) {
+    const progressData = typeof StudyRepository !== 'undefined'
+      ? StudyRepository.getStudyProgress(sessionConfig)
+      : (() => {
+        const savedStudyRaw = localStorage.getItem(studyProgressKey);
+        try { return savedStudyRaw ? JSON.parse(savedStudyRaw) : null; } catch (e) { return null; }
+      })();
+
+    if (progressData) {
       try {
-        const progressData = JSON.parse(savedStudyRaw);
         questions = progressData.questions;
         userAnswers = progressData.userAnswers;
         studyAnsweredCount = progressData.studyAnsweredCount;
@@ -356,13 +368,11 @@ async function initSession() {
 
     if (isSubjectWide && Array.isArray(professors) && professors.length > 0) {
       const fetchPromises = professors.map(async (profName) => {
-        const pSlug = getProfSlug(profName);
-        const filePath = `data/${major.toLowerCase()}/year${year}/sem${semester}/${subject.toLowerCase()}/${pSlug}.json`;
         try {
-          const res = await fetch(`${filePath}?t=${Date.now()}`);
-          if (!res.ok) return [];
-          const data = await res.json();
-          return (data.questions || []).map(q => ({ ...q, professor: profName }));
+          const loadedQuestions = typeof StudyRepository !== 'undefined'
+            ? await StudyRepository.loadQuestions(sessionConfig, profName)
+            : [];
+          return loadedQuestions.map(q => ({ ...q, professor: profName }));
         } catch (err) {
           console.warn(`Could not load questions for ${profName}:`, err);
           return [];
@@ -372,12 +382,10 @@ async function initSession() {
       const results = await Promise.all(fetchPromises);
       rawQuestions = results.flat();
     } else {
-      const profSlug = getProfSlug(professor);
-      const filePath = `data/${major.toLowerCase()}/year${year}/sem${semester}/${subject.toLowerCase()}/${profSlug}.json`;
-      const response = await fetch(`${filePath}?t=${Date.now()}`);
-      if (!response.ok) throw new Error(`File not found at: ${filePath}`);
-      const data = await response.json();
-      rawQuestions = (data.questions || []).map(q => ({ ...q, professor: professor }));
+      const loadedQuestions = typeof StudyRepository !== 'undefined'
+        ? await StudyRepository.loadQuestions(sessionConfig, professor)
+        : [];
+      rawQuestions = loadedQuestions.map(q => ({ ...q, professor }));
     }
 
     if (rawQuestions.length === 0) {
@@ -463,7 +471,11 @@ function saveStudyProgress() {
       userScore: userScore,
       timestamp: Date.now()
     };
-    localStorage.setItem(studyProgressKey, JSON.stringify(progressData));
+    if (typeof StudyRepository !== 'undefined') {
+      StudyRepository.saveStudyProgress(sessionConfig, progressData);
+    } else {
+      localStorage.setItem(studyProgressKey, JSON.stringify(progressData));
+    }
   }
 }
 
@@ -484,7 +496,56 @@ function renderStudyMode() {
   if (optionsContainer) optionsContainer.innerHTML = '';
   if (nextBtn) nextBtn.classList.add('hidden');
 
-  questions.forEach((q, qIndex) => {
+  studyRenderedCount = 0;
+  if (studyLoadObserver) studyLoadObserver.disconnect();
+  studyLoadObserver = null;
+  appendStudyQuestionBatch();
+
+  if (optionsContainer && studyRenderedCount < questions.length && !('IntersectionObserver' in window)) {
+    appendStudyQuestionBatch(questions.length - 1);
+  } else if (optionsContainer && studyRenderedCount < questions.length) {
+    const sentinel = document.createElement('div');
+    sentinel.id = 'study-load-sentinel';
+    sentinel.style.height = '1px';
+    optionsContainer.appendChild(sentinel);
+    studyLoadObserver = new IntersectionObserver((entries) => {
+      if (entries.some(entry => entry.isIntersecting)) {
+        appendStudyQuestionBatch();
+      }
+    }, { rootMargin: '900px 0px' });
+    studyLoadObserver.observe(sentinel);
+  }
+
+  if (sessionConfig.resume) {
+    const firstUnansweredIndex = userAnswers.findIndex(ans => ans === null);
+    if (firstUnansweredIndex > 0) {
+      ensureStudyQuestionRendered(firstUnansweredIndex);
+      setTimeout(() => {
+        const card = document.getElementById(`q-card-${firstUnansweredIndex}`);
+        if (card) card.scrollIntoView({ behavior: 'smooth', block: 'center' });
+      }, 300);
+    }
+  }
+
+  const studyNavControls = document.getElementById('study-nav-controls');
+  if (studyNavControls) {
+    studyNavControls.classList.remove('hidden');
+    window.removeEventListener('scroll', handleStudyScroll);
+    window.addEventListener('scroll', handleStudyScroll);
+    handleStudyScroll();
+  }
+}
+
+function appendStudyQuestionBatch(targetIndex = studyRenderedCount + STUDY_RENDER_BATCH_SIZE - 1) {
+  const optionsContainer = document.getElementById('options-container');
+  if (!optionsContainer || studyRenderedCount >= questions.length) return;
+
+  const sentinel = document.getElementById('study-load-sentinel');
+  if (sentinel) sentinel.remove();
+
+  const endIndex = Math.min(questions.length, targetIndex + 1);
+  for (let qIndex = studyRenderedCount; qIndex < endIndex; qIndex += 1) {
+    const q = questions[qIndex];
     const qCard = document.createElement('div');
     qCard.classList.add('study-q-card');
     qCard.id = `q-card-${qIndex}`;
@@ -543,25 +604,21 @@ function renderStudyMode() {
 
     qCard.appendChild(optsDiv);
     optionsContainer.appendChild(qCard);
-  });
-
-  if (sessionConfig.resume) {
-    const firstUnansweredIndex = userAnswers.findIndex(ans => ans === null);
-    if (firstUnansweredIndex > 0) {
-      setTimeout(() => {
-        const card = document.getElementById(`q-card-${firstUnansweredIndex}`);
-        if (card) card.scrollIntoView({ behavior: 'smooth', block: 'center' });
-      }, 300);
-    }
   }
 
-  const studyNavControls = document.getElementById('study-nav-controls');
-  if (studyNavControls) {
-    studyNavControls.classList.remove('hidden');
-    window.removeEventListener('scroll', handleStudyScroll);
-    window.addEventListener('scroll', handleStudyScroll);
-    handleStudyScroll();
+  studyRenderedCount = endIndex;
+  if (studyRenderedCount < questions.length && studyLoadObserver) {
+    const nextSentinel = document.createElement('div');
+    nextSentinel.id = 'study-load-sentinel';
+    nextSentinel.style.height = '1px';
+    optionsContainer.appendChild(nextSentinel);
+    studyLoadObserver.observe(nextSentinel);
   }
+}
+
+function ensureStudyQuestionRendered(index) {
+  if (index < studyRenderedCount) return;
+  appendStudyQuestionBatch(index);
 }
 
 function handleStudyOptionClick(qIndex, selectedIndex, selectedBtn, optsDiv) {
@@ -618,6 +675,7 @@ function handleStudyOptionClick(qIndex, selectedIndex, selectedBtn, optsDiv) {
 
   cancelAutoScroll();
   autoScrollTimer = setTimeout(() => {
+    ensureStudyQuestionRendered(qIndex + 1);
     const nextCard = document.getElementById(`q-card-${qIndex + 1}`);
     if (nextCard) {
       nextCard.scrollIntoView({ behavior: 'smooth', block: 'center' });
@@ -738,7 +796,11 @@ function finishSession() {
 
   if (sessionConfig && sessionConfig.mode === 'study') {
     const studyProgressKey = getStudyStorageKey();
-    localStorage.removeItem(studyProgressKey);
+    if (typeof StudyRepository !== 'undefined') {
+      StudyRepository.clearStudyProgress(sessionConfig);
+    } else {
+      localStorage.removeItem(studyProgressKey);
+    }
   }
 
   if (sessionConfig.mode === 'quiz') {
@@ -800,6 +862,7 @@ function handleStudyScroll() {
     return;
   }
 
+  ensureStudyQuestionRendered(targetIndex);
   const targetCard = document.getElementById(`q-card-${targetIndex}`);
   if (targetCard) {
     const rect = targetCard.getBoundingClientRect();
@@ -815,6 +878,7 @@ function handleStudyScroll() {
 function scrollToLatestUnansweredQuestion() {
   const targetIndex = userAnswers.findIndex(ans => ans === null);
   if (targetIndex !== -1) {
+    ensureStudyQuestionRendered(targetIndex);
     const targetCard = document.getElementById(`q-card-${targetIndex}`);
     if (targetCard) {
       targetCard.scrollIntoView({ behavior: 'smooth', block: 'center' });

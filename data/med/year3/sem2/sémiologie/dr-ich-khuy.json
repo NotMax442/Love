@@ -1,0 +1,200 @@
+{
+  "questions": [
+    {
+      "id": 1,
+      "question": "Les amplitudes de mouvement de la ceinture scapulaire, quelle est la proposition suivante est vrai ?",
+      "images": [],
+      "image": "",
+      "options": [
+        "flexion 0o-150o",
+        "extension 0o-85o",
+        "abduction 0o-150o",
+        "adduction 0o-45o",
+        "rotation interne 0o-30o"
+      ],
+      "correctIndex": 3
+    },
+    {
+      "id": 2,
+      "question": "Les amplitudes de mouvement de la ceinture scapulaire, quelle est la proposition suivante est vrai ?",
+      "images": [],
+      "image": "",
+      "options": [
+        "flexion 0o-150o",
+        "extension 0o-45o",
+        "abduction 0o-150o",
+        "adduction 0o-85o",
+        "rotation interne 0o-80o"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 3,
+      "question": "Les amplitudes de mouvement de la ceinture scapulaire, quelle est la proposition suivante est vrai ?",
+      "images": [],
+      "image": "",
+      "options": [
+        "flexion 0o-150o",
+        "extension 0o-75o",
+        "abduction 0o-180o",
+        "adduction 0o-75o",
+        "rotation externe 0o-30o."
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 4,
+      "question": "Portez le membre supérieur du patient en adduction, travers la poitrine. quel est le nom de cette manœuvre ?",
+      "images": [],
+      "image": "",
+      "options": [
+        "le scratch test Apley",
+        "test de croisement",
+        "la manœuvre de Neer",
+        "la manœuvre de Hawkins",
+        "la manœuvre de Jobe"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 5,
+      "question": "Élevez les membres supérieurs du patient à 90 ° et mettez-les en rotation interne, pouces pointant vers le bas, comme pour vider une canette. Demandez au patient de résister que vous essayez l’abaisser ses membres, quel est le nom de cette manœuvre ?",
+      "images": [],
+      "image": "",
+      "options": [
+        "le scratch test Apley",
+        "test de croisement",
+        "la manœuvre de Neer",
+        "la manœuvre de Hawkins",
+        "la manœuvre de Jobe."
+      ],
+      "correctIndex": 4
+    },
+    {
+      "id": 6,
+      "question": "Fléchissez l’épaule et le coude du patient à 90° avec la paume regardant vers le bas. Puis, avec une main posée sur son l'avant-bras et l'autre sur le bras, tourner le bras en interne, quel est le nom de cette manœuvre ?",
+      "images": [],
+      "image": "",
+      "options": [
+        "le scratch test Apley",
+        "test de croisement",
+        "la manœuvre de Neer",
+        "la manœuvre de Hawkins",
+        "la manœuvre de Jobe."
+      ],
+      "correctIndex": 3
+    },
+    {
+      "id": 7,
+      "question": "Appuyez sur l'omoplate du patient avec une main pour la bloquer, et élever son membre supérieur du patient avec l'autre main, quel est le nom de cette manœuvre ?",
+      "images": [],
+      "image": "",
+      "options": [
+        "le scratch test Apley",
+        "test de croisement",
+        "la manœuvre de Neer",
+        "la manœuvre de Hawkins",
+        "la manœuvre de Jobe."
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 8,
+      "question": "Demandez au patient de toucher l'omoplate opposée en utilisant les deux mouvements, , quel est le nom de cette manœuvre ?",
+      "images": [],
+      "image": "",
+      "options": [
+        "le scratch test Apley",
+        "test de croisement",
+        "la manœuvre de Neer",
+        "la manœuvre de Hawkins",
+        "la manœuvre de Jobe."
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 9,
+      "question": "Un l'homme âgé de 55 ans se plaint de douleurs de l'épaule et aggravée en abduction du bras entre 60 ° à 120 o. Quel est le diagnostic le plus probable?",
+      "images": [],
+      "image": "",
+      "options": [
+        "rupture du long biceps",
+        "tendinite du long biceps",
+        "syndrome du conflit",
+        "arthrose de l'humérus",
+        "capsulite rétractile."
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 10,
+      "question": "Un l'homme âgé de 50 ans, se plaint d'une histoire depuis 9 mois de raideur dans l'épaule. L'épaule était à l'origine extrêmement douloureux, mais maintenant que la rigidité reste. Quel est le diagnostic le plus probable?",
+      "images": [],
+      "image": "",
+      "options": [
+        "rupture du long biceps",
+        "tendinite du long biceps",
+        "syndrome du conflit",
+        "arthrose de l’humérus",
+        "capsulite rétractile."
+      ],
+      "correctIndex": 4
+    },
+    {
+      "id": 11,
+      "question": "Un l’homme âgé de 30 ans, culturiste, présente une épaule douloureuse après enlevé du poids lourde. Flexion son coude révèle une boule à la face antérieur le haut du bras. Quel est le diagnostic le plus probable?",
+      "images": [],
+      "image": "",
+      "options": [
+        "rupture du long biceps",
+        "tendinite du long biceps",
+        "syndrome du conflit",
+        "arthrose de l’humérus",
+        "capsulite rétractile."
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 12,
+      "question": "Une femme âgée de 65 ans, présente une douleur de l'épaule et le mouvement sont limitent dans toutes les directions. Résultats radiographie présente un pincement l'espace articulaire et la condensation sous chondrale. Quel est le diagnostic le plus probable?",
+      "images": [],
+      "image": "",
+      "options": [
+        "rupture du long biceps",
+        "tendinite du long biceps",
+        "syndrome du conflit",
+        "arthrose de l’humérus",
+        "capsulite rétractile."
+      ],
+      "correctIndex": 3
+    },
+    {
+      "id": 13,
+      "question": "Une femme de 50 ans, consulte pour une douleur de l’épaule survenant à l’effort pendant la journée, réveillant la patiente lors du cubitus latérale prolongé. Un récent bilan biologique est normal. Une pathologie de coiffe des rotateurs se traduit par :",
+      "images": [],
+      "image": "",
+      "options": [
+        "amyotrophie du deltoïde",
+        "arc douloureux dans l’abduction vers 60o",
+        "abaissement de l’épaule lors de l’abduction active",
+        "décollement unilatérale de l’omoplate",
+        "limitation globale des mouvements passifs de l’épaule."
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 14,
+      "question": "Un étudiant lanceur de baseball de l’université à sentir inconfort l'épaule droit après un match et vous suspectez une lésion de la coiffe des rotateurs. Quel est le plus probable des lésions des muscles suivant?",
+      "images": [],
+      "image": "",
+      "options": [
+        "sus-épineux",
+        "sous-épineux",
+        "subscapulaire",
+        "grand rond",
+        "petite rond."
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

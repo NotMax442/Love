@@ -5,6 +5,8 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Terms of Service - TestforUHS</title>
+    <link rel="icon" type="image/png" sizes="192x192" href="assets/logo.png">
+    <link rel="apple-touch-icon" href="assets/logo.png">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
@@ -20,6 +22,17 @@
             --text-sub: #94a3b8;
             --accent: #38bdf8;
             --accent-hover: #0284c7;
+        }
+
+        [data-theme="light"] {
+            --bg-main: #cbd5e1;
+            --bg-card: #e2e8f0;
+            --border-color: #cbd5e1;
+            --text-heading: #0f172a;
+            --text-main: #0f172a;
+            --text-sub: #334155;
+            --accent: #0284c7;
+            --accent-hover: #0369a1;
         }
 
         * {
@@ -156,14 +169,20 @@
 
     <div class="container">
         <header>
-            <a href="/" class="brand">
+            <a href="./" class="brand">
                 <i data-lucide="book-open-check"></i>
                 <span>TestforUHS</span>
             </a>
-            <a href="/" class="back-btn">
-                <i data-lucide="arrow-left" style="width:16px; height:16px;"></i>
-                <span>Back to Home</span>
-            </a>
+            <div style="display: flex; align-items: center; gap: 0.75rem;">
+                <button id="theme-toggle-btn" class="back-btn theme-btn" type="button"
+                    style="background: none; border: none; cursor: pointer;">
+                    <i data-lucide="moon" style="width:16px; height:16px;"></i> Dark
+                </button>
+                <a href="./" class="back-btn">
+                    <i data-lucide="arrow-left" style="width:16px; height:16px;"></i>
+                    <span>Back to Home</span>
+                </a>
+            </div>
         </header>
 
         <main class="card">
@@ -215,10 +234,18 @@
         </main>
 
         <footer>
-            <p>&copy; 2026 TestforUHS. Built for medical students.</p>
+            <p>&copy; 2026 TestforUHS. All rights reserved.</p>
+            <div style="display: flex; justify-content: center; gap: 1rem; flex-wrap: wrap; margin-top: 0.5rem;">
+                <a href="about" style="color: var(--text-sub);">About Us</a> |
+                <a href="contact" style="color: var(--text-sub);">Contact Us</a> |
+                <a href="privacy" style="color: var(--text-heading); text-decoration: underline;">Privacy Policy</a> |
+                <a href="terms" style="color: var(--text-heading); text-decoration: underline;">Terms of Service</a>
+            </div>
         </footer>
     </div>
 
+    <script src="storage.js"></script>
+    <script src="shared.js"></script>
     <script>
         if (window.lucide) {
             lucide.createIcons();

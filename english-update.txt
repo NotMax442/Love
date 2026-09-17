@@ -8,3 +8,36 @@ Hey everyone! We've added fresh question sets and made studying a little smoothe
 - **Years 4, 5, & 6 (Sem 2):** Added **Anatomie** review modules.
 
 Good luck with your review!
+
+## What's New in v1.0.2
+
+We improved the study system behind the scenes to make repeated studying more reliable and efficient:
+
+- **Faster repeated loading:** Question files are reused after they have already been loaded instead of being downloaded again unnecessarily.
+- **Smoother study progress:** Saved study progress now uses one consistent storage system, making resume and restart behavior more reliable.
+- **Safer saved data:** Existing missed questions, study progress, and analytics are checked when the new storage system is introduced. Invalid saved entries are ignored safely.
+- **More consistent question tracking:** Question and professor records now use consistent identifiers, helping prevent duplicated saved questions and mismatched progress.
+- **Improved subject compatibility:** Subjects with accented names, such as **Sémiologie** and **Santé Publique**, continue to load correctly.
+
+These improvements do not change the website's appearance, but they make study sessions and repeat visits work more efficiently.
+
+## What's New in v1.0.3
+
+### Faster Study Mode
+- Study mode now loads questions in small batches instead of placing the entire question set on the page at once.
+- Long study sessions should open faster and use less memory.
+- More questions are loaded automatically as you move down the page.
+- The existing answer feedback, automatic scrolling, and latest-unanswered-question controls still work as before.
+
+Quiz sessions are unchanged and still start fresh each time.
+
+## What's New in v1.0.4
+
+### Offline Study Packs
+- You can now download a professor's question pack to this browser for offline study.
+- Saved packs are kept in IndexedDB so they keep working without an internet connection.
+- The app will prefer a cached pack when the network is slow or unavailable.
+- You can remove individual packs or clear the whole offline list from My Account.
+- Offline support is intentionally lightweight and keeps the current study flow intact.
+
+This is the first step toward a fuller offline learning experience without changing the existing design or quiz flow.
