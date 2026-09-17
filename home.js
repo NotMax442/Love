@@ -647,7 +647,7 @@ async function downloadProfessorOfflinePackage(profName) {
 }
 
 // UPDATE NOTIFICATION SYSTEM
-const APP_VERSION = "1.0.5";
+const APP_VERSION = "1.1.0";
 let patchNotesEN = "";
 let patchNotesKM = "";
 let currentModalLang = "EN";

@@ -1,53 +1,12 @@
-## What's New in v1.0.1
+## What's New in v1.1.0
 
-Hey everyone! We've added fresh question sets and made studying a little smoother. Here is what’s new:
+TestforUHS is now faster, more reliable, and easier to use across phones, tablets, and computers.
 
-## New Subjects & Exams Added
-- **Year 2 (Sem 2):** Added practice sets for **Sémiologie**.
-- **Year 3 (Sem 2):** Added quizzes for **Microbiologie** and **Santé Publique**.
-- **Years 4, 5, & 6 (Sem 2):** Added **Anatomie** review modules.
+- **Faster studying:** Questions load efficiently, and Study Mode renders large sets in small batches.
+- **Smarter data handling:** Saved progress, missed questions, analytics, and question tracking use safer, more consistent storage.
+- **Offline study packs:** Download professor question sets for offline use. Manage saved packs from My Account.
+- **Mobile and tablet support:** Improved touch targets, responsive layouts, navigation, and offline compatibility.
+- **Theme support:** Privacy Policy and Terms pages now follow the saved Light/Dark mode.
+- **Better compatibility:** Subject files with accented names continue to load correctly.
 
-Good luck with your review!
-
-## What's New in v1.0.2
-
-We improved the study system behind the scenes to make repeated studying more reliable and efficient:
-
-- **Faster repeated loading:** Question files are reused after they have already been loaded instead of being downloaded again unnecessarily.
-- **Smoother study progress:** Saved study progress now uses one consistent storage system, making resume and restart behavior more reliable.
-- **Safer saved data:** Existing missed questions, study progress, and analytics are checked when the new storage system is introduced. Invalid saved entries are ignored safely.
-- **More consistent question tracking:** Question and professor records now use consistent identifiers, helping prevent duplicated saved questions and mismatched progress.
-- **Improved subject compatibility:** Subjects with accented names, such as **Sémiologie** and **Santé Publique**, continue to load correctly.
-
-These improvements do not change the website's appearance, but they make study sessions and repeat visits work more efficiently.
-
-## What's New in v1.0.3
-
-### Faster Study Mode
-- Study mode now loads questions in small batches instead of placing the entire question set on the page at once.
-- Long study sessions should open faster and use less memory.
-- More questions are loaded automatically as you move down the page.
-- The existing answer feedback, automatic scrolling, and latest-unanswered-question controls still work as before.
-
-Quiz sessions are unchanged and still start fresh each time.
-
-## What's New in v1.0.4
-
-### Offline Study Packs
-- You can now download a professor's question pack to this browser for offline study.
-- Saved packs are kept in IndexedDB so they keep working without an internet connection.
-- The app will prefer a cached pack when the network is slow or unavailable.
-- You can remove individual packs or clear the whole offline list from My Account.
-- Offline support is intentionally lightweight and keeps the current study flow intact.
-
-This is the first step toward a fuller offline learning experience without changing the existing design or quiz flow.
-
-## What's New in v1.0.5
-
-### Better Mobile Offline Support
-- Offline study packs now work with IndexedDB on supported mobile browsers, including modern Android and iPhone browsers.
-- Offline page routes such as Home, Account, and Study now resolve correctly after the app has been cached.
-- The app now requests persistent browser storage where the mobile browser allows it.
-- A clear message is shown when the browser or connection does not support full offline caching.
-
-For offline mode to work on a phone, open TestforUHS from the HTTPS website first, download the question pack while online, and then use the same browser or installed home-screen app without internet.
+Quiz sessions still start fresh each time. Download offline packs while online, then open the site from HTTPS to use them without internet.
