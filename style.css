@@ -824,6 +824,7 @@ p {
         opacity: 0;
         transform: translateY(6px) scale(0.98);
     }
+
     to {
         opacity: 1;
         transform: translateY(0) scale(1);
@@ -1042,11 +1043,11 @@ p {
     transition: transform var(--transition-normal);
 }
 
-.switch input:checked + .slider {
+.switch input:checked+.slider {
     background-color: var(--success);
 }
 
-.switch input:checked + .slider::before {
+.switch input:checked+.slider::before {
     transform: translateX(24px);
 }
 
@@ -1192,6 +1193,7 @@ p {
         opacity: 0;
         transform: translateX(100%);
     }
+
     to {
         opacity: 1;
         transform: translateX(0);
@@ -1203,6 +1205,7 @@ p {
         opacity: 1;
         transform: translateX(0);
     }
+
     to {
         opacity: 0;
         transform: translateX(-30%);
@@ -1214,6 +1217,7 @@ p {
         opacity: 0;
         transform: translateX(-100%);
     }
+
     to {
         opacity: 1;
         transform: translateX(0);
@@ -1225,6 +1229,7 @@ p {
         opacity: 1;
         transform: translateX(0);
     }
+
     to {
         opacity: 0;
         transform: translateX(30%);
@@ -1666,7 +1671,7 @@ p {
     gap: 0.75rem;
 }
 
-#professor-list > div:first-child {
+#professor-list>div:first-child {
     grid-column: 1 / -1;
 }
 
@@ -1735,6 +1740,7 @@ p {
         opacity: 0;
         transform: translateY(-3px);
     }
+
     to {
         opacity: 1;
         transform: translateY(0);

@@ -41,3 +41,13 @@ Quiz sessions are unchanged and still start fresh each time.
 - Offline support is intentionally lightweight and keeps the current study flow intact.
 
 This is the first step toward a fuller offline learning experience without changing the existing design or quiz flow.
+
+## What's New in v1.0.5
+
+### Better Mobile Offline Support
+- Offline study packs now work with IndexedDB on supported mobile browsers, including modern Android and iPhone browsers.
+- Offline page routes such as Home, Account, and Study now resolve correctly after the app has been cached.
+- The app now requests persistent browser storage where the mobile browser allows it.
+- A clear message is shown when the browser or connection does not support full offline caching.
+
+For offline mode to work on a phone, open TestforUHS from the HTTPS website first, download the question pack while online, and then use the same browser or installed home-screen app without internet.

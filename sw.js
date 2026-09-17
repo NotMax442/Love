@@ -1,4 +1,4 @@
-const CACHE_NAME = 'testforuhs-offline-v1';
+const CACHE_NAME = 'testforuhs-offline-v2';
 const APP_SHELL = [
     './',
     './index.html',
@@ -19,6 +19,19 @@ const APP_SHELL = [
     './assets/logo.png',
     './assets/khqr.png'
 ];
+
+const ROUTE_FILES = {
+    '/': './index.html',
+    '/index': './index.html',
+    '/home': './index.html',
+    '/account': './account.html',
+    '/quiz': './quiz.html',
+    '/result': './result.html',
+    '/about': './about.html',
+    '/contact': './contact.html',
+    '/privacy': './privacy.html',
+    '/terms': './terms.html'
+};
 
 self.addEventListener('install', (event) => {
     event.waitUntil(
@@ -49,7 +62,10 @@ self.addEventListener('fetch', (event) => {
                 const clone = response.clone();
                 caches.open(CACHE_NAME).then((cache) => cache.put(event.request, clone)).catch(() => undefined);
                 return response;
-            }).catch(() => caches.match('./index.html'));
+            }).catch(() => {
+                const fallbackFile = ROUTE_FILES[url.pathname];
+                return fallbackFile ? caches.match(fallbackFile) : caches.match('./index.html');
+            });
         })
     );
 });

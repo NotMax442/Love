@@ -618,6 +618,27 @@ async function renderOfflineDashboard() {
 
   if (!offlinePackageList) return;
 
+  const supportStatus = typeof OfflineRepository !== 'undefined' && OfflineRepository.getSupportStatus
+    ? OfflineRepository.getSupportStatus()
+    : { indexedDB: false, serviceWorker: false, secureContext: false };
+
+  if (!supportStatus.indexedDB) {
+    offlinePackageList.innerHTML = `
+      <div class="score-card" style="text-align: center; padding: 2rem;">
+        <p style="margin: 0; color: var(--text-sub);">Offline packs are not supported by this browser.</p>
+      </div>
+    `;
+    return;
+  }
+
+  if (!supportStatus.secureContext) {
+    offlinePackageList.innerHTML = `
+      <div class="score-card" style="text-align: center; padding: 2rem;">
+        <p style="margin: 0; color: var(--text-sub);">Offline page caching requires the HTTPS website. Saved question packs can still work after they are downloaded.</p>
+      </div>
+    `;
+  }
+
   if (typeof getAllOfflinePackages !== 'function') {
     offlinePackageList.innerHTML = `
       <div class="score-card" style="text-align: center; padding: 2rem;">

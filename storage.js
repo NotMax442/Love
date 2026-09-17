@@ -1,7 +1,7 @@
 // ============================================================================
 // STUDY DATA REPOSITORY
 // ============================================================================
- 
+
 const StudyRepository = (() => {
     const MIGRATION_KEY = 'study_repository_version';
     const CURRENT_VERSION = 1;
@@ -306,6 +306,9 @@ const OfflineRepository = (() => {
         };
 
         try {
+            if (navigator.storage && navigator.storage.persist) {
+                await navigator.storage.persist().catch(() => false);
+            }
             const db = await openDatabase();
             await new Promise((resolve, reject) => {
                 const transaction = db.transaction(STORE_NAME, 'readwrite');
@@ -319,6 +322,14 @@ const OfflineRepository = (() => {
             console.warn('Offline package save failed:', error);
             return null;
         }
+    }
+
+    function getSupportStatus() {
+        return {
+            indexedDB: typeof window !== 'undefined' && 'indexedDB' in window,
+            serviceWorker: typeof navigator !== 'undefined' && 'serviceWorker' in navigator,
+            secureContext: typeof window !== 'undefined' && (window.isSecureContext || window.location.hostname === 'localhost')
+        };
     }
 
     async function deletePackage(packageId) {
@@ -363,6 +374,7 @@ const OfflineRepository = (() => {
         getAllPackages,
         getPackage,
         getQuestions,
+        getSupportStatus,
         makePackageId,
         normalizeQuestionList
     };

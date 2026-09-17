@@ -464,9 +464,19 @@ document.addEventListener('DOMContentLoaded', () => {
 async function registerServiceWorker() {
   if (!('serviceWorker' in navigator)) return;
 
+  const isSecureContext = window.isSecureContext || window.location.hostname === 'localhost';
+  if (!isSecureContext) {
+    document.documentElement.setAttribute('data-offline-support', 'limited');
+    console.warn('Offline app caching requires HTTPS or localhost.');
+    return;
+  }
+
   try {
-    await navigator.serviceWorker.register('./sw.js');
+    const registration = await navigator.serviceWorker.register('./sw.js', { scope: './' });
+    await registration.update();
+    document.documentElement.setAttribute('data-offline-support', 'ready');
   } catch (error) {
+    document.documentElement.setAttribute('data-offline-support', 'limited');
     console.warn('Service worker registration failed:', error);
   }
 }
