@@ -50,17 +50,16 @@
         <a href="about" class="nav-item" data-i18n="nav_about">ABOUT</a>
         <a href="contact" class="nav-item" data-i18n="nav_contact">CONTACT US</a>
         <a href="account" class="nav-item" data-i18n="nav_account">MY ACCOUNT</a>
-        <button id="nav-donate-btn" class="nav-item" data-i18n="nav_donate"
-          style="color: #f59e0b; font-weight: 700; background: none; border: none; cursor: pointer; display: flex; align-items: center; gap: 0.35rem;">
+        <button id="nav-donate-btn" class="nav-item nav-donate-btn" data-i18n="nav_donate">
           <i data-lucide="coffee" style="width: 18px; height: 18px;"></i> Support Us
         </button>
       </div>
-      <div class="nav-controls" style="display: flex; gap: 0.5rem; align-items: center;">
+      <div class="nav-controls">
         <select id="language-select" class="lang-select">
           <option value="en">English</option>
           <option value="km">ភាសាខ្មែរ</option>
         </select>
-        <button id="theme-toggle-btn" class="theme-btn" style="display: flex; align-items: center; gap: 0.35rem;">
+        <button id="theme-toggle-btn" class="theme-btn">
           <i data-lucide="moon" style="width: 16px; height: 16px;"></i> Dark
         </button>
       </div>
@@ -72,14 +71,11 @@
       <p data-i18n="landing_sub">Select your major, year, subject, and professor to start studying.</p>
 
       <!-- Action Button Row -->
-      <div class="landing-btn-group"
-        style="display: flex; gap: 1rem; justify-content: center; align-items: center; margin-top: 1.5rem; flex-wrap: wrap;">
-        <button id="enter-study-btn" class="btn primary-btn hero-btn" data-i18n="btn_start_study"
-          style="font-size: 1.1rem; padding: 0.75rem 2rem; display: inline-flex; align-items: center; gap: 0.5rem;">
+      <div class="landing-btn-group hero-btn-group">
+        <button id="enter-study-btn" class="btn primary-btn hero-btn btn-with-icon" data-i18n="btn_start_study">
           <i data-lucide="rocket" style="width: 20px; height: 20px;"></i> Start Studying
         </button>
-        <button id="update-info-btn" class="btn secondary-btn"
-          style="font-size: 1.1rem; padding: 0.75rem 1.5rem; display: inline-flex; align-items: center; gap: 0.5rem;">
+        <button id="update-info-btn" class="btn secondary-btn btn-with-icon">
           <i data-lucide="megaphone" style="width: 20px; height: 20px;"></i> Update Info
         </button>
       </div>
@@ -109,8 +105,8 @@
 
     <!-- 2. Major Selection Screen -->
     <div id="major-screen" class="screen hidden" style="margin-top: 1rem;">
-      <button id="back-to-landing-btn" class="btn back-btn" data-i18n="btn_back_home"
-        style="margin-bottom: 1rem; display: inline-flex; align-items: center; gap: 0.4rem;">
+      <button id="back-to-landing-btn" class="btn back-btn btn-with-icon" data-i18n="btn_back_home"
+        style="margin-bottom: 1rem;">
         <i data-lucide="arrow-left" style="width: 18px; height: 18px;"></i> Back to Home
       </button>
       <h2 data-i18n="title_select_major">Select Major</h2>
@@ -123,8 +119,8 @@
 
     <!-- 3. Year Selection Section -->
     <div id="year-screen" class="screen hidden" style="margin-top: 1rem;">
-      <button id="back-to-majors-btn" class="btn back-btn" data-i18n="btn_back_majors"
-        style="margin-bottom: 1rem; display: inline-flex; align-items: center; gap: 0.4rem;">
+      <button id="back-to-majors-btn" class="btn back-btn btn-with-icon" data-i18n="btn_back_majors"
+        style="margin-bottom: 1rem;">
         <i data-lucide="arrow-left" style="width: 18px; height: 18px;"></i> Back to Majors
       </button>
       <h2 id="selected-major-title">Select Academic Year</h2>
@@ -140,8 +136,8 @@
 
     <!-- 4. Semester Selection Screen -->
     <div id="semester-screen" class="screen hidden" style="margin-top: 1rem;">
-      <button id="back-to-years-btn" class="btn back-btn" data-i18n="btn_back_years"
-        style="margin-bottom: 1rem; display: inline-flex; align-items: center; gap: 0.4rem;">
+      <button id="back-to-years-btn" class="btn back-btn btn-with-icon" data-i18n="btn_back_years"
+        style="margin-bottom: 1rem;">
         <i data-lucide="arrow-left" style="width: 18px; height: 18px;"></i> Back to Years
       </button>
       <h2 id="selected-year-title">Select Semester</h2>
@@ -153,8 +149,8 @@
 
     <!-- 5. Subject Selection Section -->
     <div id="subject-screen" class="screen hidden" style="margin-top: 1rem;">
-      <button id="back-to-semesters-btn" class="btn back-btn" data-i18n="btn_back_semesters"
-        style="margin-bottom: 1rem; display: inline-flex; align-items: center; gap: 0.4rem;">
+      <button id="back-to-semesters-btn" class="btn back-btn btn-with-icon" data-i18n="btn_back_semesters"
+        style="margin-bottom: 1rem;">
         <i data-lucide="arrow-left" style="width: 18px; height: 18px;"></i> Back to Semesters
       </button>
       <h2 id="selected-subject-screen-title">Subjects</h2>
@@ -163,8 +159,8 @@
 
     <!-- 6. Professor Selection Section -->
     <div id="professor-screen" class="screen hidden" style="margin-top: 1rem;">
-      <button id="back-to-subjects-btn" class="btn back-btn" data-i18n="btn_back_subjects"
-        style="margin-bottom: 1rem; display: inline-flex; align-items: center; gap: 0.4rem;">
+      <button id="back-to-subjects-btn" class="btn back-btn btn-with-icon" data-i18n="btn_back_subjects"
+        style="margin-bottom: 1rem;">
         <i data-lucide="arrow-left" style="width: 18px; height: 18px;"></i> Back to Subjects
       </button>
       <h2 id="selected-prof-screen-title">Professors</h2>
@@ -172,10 +168,8 @@
     </div>
 
     <!-- Home Page AdSense Banner Unit -->
-    <div class="home-ad-container"
-      style="margin: 2.5rem 0 1rem 0; text-align: center; min-height: 90px; background: var(--bg-subcard); padding: 1rem; border-radius: 8px; border: 1px solid var(--border-sub);">
-      <span class="ad-label"
-        style="display: block; font-size: 0.75rem; color: var(--text-sub); margin-bottom: 0.5rem; text-transform: uppercase; letter-spacing: 0.05em;">Sponsored</span>
+    <div class="home-ad-container home-ad-box">
+      <span class="ad-label home-ad-label">Sponsored</span>
       <ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-4210272281940886" data-ad-format="auto"
         data-full-width-responsive="true"></ins>
       <script>
@@ -184,10 +178,9 @@
     </div>
 
     <!-- Site Footer -->
-    <footer class="main-footer"
-      style="margin-top: 1.5rem; padding-top: 1.5rem; border-top: 1px solid var(--border-color); text-align: center; font-size: 0.85rem; color: var(--text-sub);">
+    <footer class="main-footer main-footer-box">
       <p>© 2026 TestforUHS. All rights reserved.</p>
-      <div style="display: flex; justify-content: center; gap: 1rem; flex-wrap: wrap; margin-top: 0.5rem;">
+      <div class="footer-links-row">
         <a href="about" style="color: var(--text-sub);">About Us</a> |
         <a href="contact" style="color: var(--text-sub);">Contact Us</a> |
         <a href="privacy" id="open-privacy-btn" style="color: var(--text-heading); text-decoration: underline;">Privacy

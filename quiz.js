@@ -2,8 +2,6 @@
 // QUIZ & STUDY RUNNER LOGIC (quiz.js)
 // ==========================================================================
 
-const IMAGE_BASE_URL = 'https://notmax442.github.io/testforuhs-images/';
-
 let sessionConfig = null;
 let questions = [];
 let userAnswers = [];
@@ -133,15 +131,6 @@ function preloadNextQuestionImages(currentIndex, questionsArray) {
     const imgPreloader = new Image();
     imgPreloader.src = fullImgUrl;
   });
-}
-
-function getProfSlug(profName) {
-  if (!profName) return '';
-  return profName
-    .toLowerCase()
-    .replace(/\./g, '')
-    .replace(/\s+/g, '-')
-    .replace(/[^a-z0-9-&]/g, '');
 }
 
 function getStudyStorageKey() {

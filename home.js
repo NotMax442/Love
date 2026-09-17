@@ -2,157 +2,24 @@
 // HOME PAGE LOGIC (home.js)
 // ==========================================================================
 
-// Nested Data Hierarchy: Major -> Year -> Semester -> Subject -> [Professors]
-const manifestData = {
-  "MED": {
-    "1": { "1": {}, "2": {} },
-    "2": {
-      "1": {
-        "ANATOMIE": [
-          "Pr. Ung Chan",
-          "Pr. Sin Sagata",
-          "Pr. Nhem Aklinn",
-          "Pr. Mam Bunsocheat",
-          "Pr. Lim Taing & Dr. Meng Sok",
-          "Pr. Ich Khuy",
-          "Dr. Say Tang"
-        ],
-        "PHYSIOLOGIE": [
-          "Pr. Im Bunthoeun",
-          "Pr. Duong Dararith",
-          "Dr. Sou Sipanha",
-          "Dr. Em Savoeun",
-          "Dr. Chea Ong",
-          "Pr. Ku No",
-          "Pr. Ast Sann Sary"
-        ],
-        "HISTOLOGIE": [
-          "Pr. Chhut Serey Vathana",
-          "Pr. Pheav Piseth"
-        ],
-        "TP-ANATOMIE": [
-          "Dr. Koam Phaly",
-          "Dr. Heng Sophea",
-          "Pr. Ast Nhem Aklinn",
-          "Pr. Ast Ich Khuy",
-          "Pr. Sin Sagata"
-        ],
-        "TP-HISTOLOGIE": [
-          "Pr. Chhut SereyVathana"
-        ]
-      },
-      "2": {
-        "BIOCHIMIE": [
-          "Pr. Ung Channy"
-        ],
-        "BIOPHYSIQUE": [
-          "Chhoeurt Koeurn",
-          "Mr. Chhom Sakborey",
-          "Mr. Chhom Sakborey2"
-        ],
-        "SÉMIOLOGIE": [
-          "Dr. Chhar Bunpaul",
-          "Dr. Khov Mong",
-          "Dr. Chea Sophanna",
-          "Dr. Din Vannak",
-          "Dr. Hor Sorithea",
-          "Dr. Huy Sruy",
-          "Dr. Plok Vuthy",
-          "Dr. Pol Vibol",
-          "Dr. Prok Vichetra",
-          "Dr. Sam ang Kimdany",
-          "Dr. Sim Kong",
-          "Dr. Sok Srun",
-          "Dr. Soth Vuthy",
-          "Dr. Uk Pisey",
-          "Dr. Yi Kok",
-          "Pr. Chak Thida",
-          "Pr. Chea Vannarith",
-          "Pr. Chhour Nareth",
-          "Pr. Ny Chanty",
-          "Pr. Thong You",
-          "Pr. Ung Chakravuth",
-          "Pr. Ast. Nhem Aklinn"
-        ],
-        "SANTÉ-PUBLIQUE": [
-          "Pr. Nong Saokry",
-          "Pr. Chhea Chorvann",
-          "Dr. Tol Bunkea"
-        ]
-      }
-    },
-    "3": {
-      "1": {
-        "HISTOLOGIE": [
-          "Pr. Cheng Sam Ang",
-          "Pr. Chhut Serey Vathana"
-        ],
-        "TP-HISTOLOGIE": [
-          "Pr. Chhut SereyVathana"
-        ],
-        "TP-ANATOMIE": [
-          "Dr. Chuk Mol Kossama",
-          "Dr. Kong Vuthy",
-          "Dr. Ung Narin",
-          "Pr. Ast. Nhem Aklin"
-        ],
-        "PHYSIOLOGIE": [
-          "Pr. Ku No",
-          "Pr. Im Bunthoeun",
-          "Dr. Em Savoeun",
-          "Dr. Bun Bora"
-        ],
-        "PHYSIOPATHOLOGIE": [
-          "Pr. Im Bunthoeun",
-          "Pr. Chan Sarin",
-          "Dr. Sou Siphana",
-          "Dr. Sann Sary",
-          "Dr. Heng Piseth"
-        ]
-      },
-      "2": {
-        "IMMUNOLOGIE": [
-          "Pr. Kruy Sunlay",
-          "Pr. Kruy Sunlay2"
-        ],
-        "MICROBIOLOGIE": [
-          "Dr. Horm SreyViseth",
-          "Dr. Neang Mom"
-        ],
-        "SANTÉ-PUBLIQUE": [
-          "Pr. Khuon Engmony",
-          "Pr. Nong Saokry"
-        ],
-        "SÉMIOLOGIE": [
-          "Dr. Ang Eng Sopheab",
-          "Dr. Bouy Bunthol",
-          "Dr. Ich Khuy",
-          "Dr. Kouch Kimsuor",
-          "Dr. Leang Heng"
-        ]
-      }
-    },
-    "4": { "1": {}, "2": {} },
-    "5": { "1": {}, "2": {} },
-    "6": { "1": {}, "2": {} }
+let manifestData = {};
+
+async function loadManifestData() {
+  try {
+    const res = await fetch('./data/manifest.json');
+    if (res.ok) {
+      manifestData = await res.json();
+    }
+  } catch (err) {
+    console.warn('Could not load manifest.json:', err);
   }
-};
+}
+loadManifestData();
 
 let currentMajor = null;
 let currentYear = null;
 let currentSemester = null;
 let currentSubject = null;
-
-// Robust slug generator
-function getProfSlug(name) {
-  if (!name) return '';
-  return name
-    .toLowerCase()
-    .normalize("NFD").replace(/[\u0300-\u036f]/g, "")
-    .replace(/[^a-z0-9\s-&]/g, '')
-    .trim()
-    .replace(/\s+/g, '-');
-}
 
 function getProfName(prof) {
   return typeof prof === 'object' && prof !== null ? prof.name : prof;
@@ -188,7 +55,8 @@ async function fetchProfQuestionCount(major, year, semester, subject, profName, 
   }
 }
 
-document.addEventListener('DOMContentLoaded', () => {
+document.addEventListener('DOMContentLoaded', async () => {
+  await loadManifestData();
   setupNavigation();
   restoreLastView();
   initUpdateSystem();

@@ -2,6 +2,8 @@
 // SHARED UTILITIES & GLOBAL STATE (shared.js)
 // ==========================================================================
 
+const IMAGE_BASE_URL = 'https://notmax442.github.io/testforuhs-images/';
+
 const translations = {
   en: {
     // Navigation & Modals

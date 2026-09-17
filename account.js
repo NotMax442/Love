@@ -2,8 +2,6 @@
 // MY ACCOUNT, VAULT, ANALYTICS & OFFLINE LOGIC (account.js)
 // ==========================================================================
 
-const IMAGE_BASE_URL = 'https://notmax442.github.io/testforuhs-images/';
-
 let isSelectMode = false;
 let selectedSubjectKeys = new Set();
 let activeExportSubjectKey = null;

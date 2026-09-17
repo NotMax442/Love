@@ -17,7 +17,8 @@ const APP_SHELL = [
     './result.js',
     './account.js',
     './assets/logo.png',
-    './assets/khqr.png'
+    './assets/khqr.png',
+    './data/manifest.json'
 ];
 
 const ROUTE_FILES = {

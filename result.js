@@ -2,8 +2,6 @@
 // RESULTS & REVIEW BREAKDOWN LOGIC (result.js)
 // ==========================================================================
 
-const IMAGE_BASE_URL = 'https://notmax442.github.io/testforuhs-images/';
-
 let resultData = null;
 let currentReviewFilter = 'wrong';
 
