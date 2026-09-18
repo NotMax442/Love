@@ -110,20 +110,23 @@
         study habits, and saved question vaults.</p>
 
       <!-- Sub-Navbar Tab Switcher -->
-      <div class="account-tab-bar">
-        <button id="tab-stats-btn" class="account-tab-btn active" data-i18n="tab_stats">
+      <div class="account-tab-bar" role="tablist" aria-label="Account sections">
+        <button id="tab-stats-btn" class="account-tab-btn active" role="tab" aria-selected="true"
+          aria-controls="account-stats-view" data-i18n="tab_stats">
           <i data-lucide="bar-chart-2" style="width: 16px; height: 16px;"></i> Analytics & Stats
         </button>
-        <button id="tab-vault-btn" class="account-tab-btn" data-i18n="tab_vault">
+        <button id="tab-vault-btn" class="account-tab-btn" role="tab" aria-selected="false"
+          aria-controls="account-vault-view" data-i18n="tab_vault">
           <i data-lucide="archive" style="width: 16px; height: 16px;"></i> Vault & Settings
         </button>
-        <button id="tab-offline-btn" class="account-tab-btn" data-i18n="tab_offline">
+        <button id="tab-offline-btn" class="account-tab-btn hidden" role="tab" aria-selected="false"
+          aria-controls="account-offline-view" data-i18n="tab_offline">
           <i data-lucide="download-cloud" style="width: 16px; height: 16px;"></i> Offline Packs
         </button>
       </div>
 
       <!-- TAB 1: ACCURACY ANALYTICS & STATS VIEW -->
-      <div id="account-stats-view">
+      <div id="account-stats-view" role="tabpanel" aria-labelledby="tab-stats-btn">
         <div class="info-card"
           style="background: var(--bg-subcard); padding: 1.5rem; border-radius: 12px; border: 1px solid var(--border-sub); margin-bottom: 1.5rem; text-align: center;">
           <h3 style="margin-top: 0; color: var(--text-main);" data-i18n="stats_overview_title">Overall Accuracy</h3>
@@ -163,7 +166,7 @@
       </div>
 
       <!-- TAB 2: VAULT & QUIZ SETTINGS VIEW -->
-      <div id="account-vault-view" class="hidden">
+      <div id="account-vault-view" class="hidden" role="tabpanel" aria-labelledby="tab-vault-btn">
         <div class="info-card"
           style="background: var(--bg-subcard); padding: 1.5rem; border-radius: 8px; border: 1px solid var(--border-sub); margin-bottom: 2rem;">
           <h3 style="margin-top: 0; color: var(--text-main); display: flex; align-items: center; gap: 0.4rem;"
@@ -171,7 +174,7 @@
             <i data-lucide="settings" style="width: 20px; height: 20px;"></i> Quiz Preferences
           </h3>
 
-          <div style="display: flex; justify-content: space-between; align-items: center; gap: 1rem; margin-top: 1rem;">
+          <div class="offline-setting-row" style="margin-top: 1rem;">
             <div>
               <h4 style="margin: 0; color: var(--text-main);" data-i18n="account_autoadv_title">Auto-advance in Quiz
                 Mode</h4>
@@ -181,10 +184,13 @@
                 Question".
               </p>
             </div>
-            <label class="switch">
-              <input type="checkbox" id="auto-advance-toggle">
-              <span class="slider"></span>
-            </label>
+            <div class="offline-setting-control">
+              <span id="auto-advance-status" class="setting-status" aria-live="polite">Off</span>
+              <label class="switch">
+                <input type="checkbox" id="auto-advance-toggle">
+                <span class="slider"></span>
+              </label>
+            </div>
           </div>
 
           <div
@@ -201,6 +207,31 @@
               <option value="compact" data-i18n="option_style_compact">Compact (Text Summary)</option>
               <option value="full" data-i18n="option_style_full">Full Options (Study Style)</option>
             </select>
+          </div>
+
+        </div>
+
+        <div class="info-card offline-setting-card"
+          style="background: var(--bg-subcard); padding: 1.5rem; border-radius: 8px; border: 1px solid var(--border-sub); margin-bottom: 2rem;">
+          <h3 style="margin-top: 0; color: var(--text-main); display: flex; align-items: center; gap: 0.4rem;"
+            data-i18n="offline_setting_title">
+            <i data-lucide="download-cloud" style="width: 20px; height: 20px;"></i> Offline Access
+          </h3>
+          <div class="offline-setting-row">
+            <div>
+              <h4 style="margin: 0; color: var(--text-main);" data-i18n="offline_setting_label">Use Offline Packs</h4>
+              <p style="margin: 0.25rem 0 0 0; font-size: 0.85rem; color: var(--text-sub);"
+                data-i18n="offline_setting_desc">
+                Enable offline packs, downloads, and offline page caching.
+              </p>
+            </div>
+            <div class="offline-setting-control">
+              <span id="offline-mode-status" class="setting-status" aria-live="polite">Off</span>
+              <label class="switch">
+                <input type="checkbox" id="offline-mode-toggle">
+                <span class="slider"></span>
+              </label>
+            </div>
           </div>
         </div>
 
@@ -231,7 +262,7 @@
       </div>
 
       <!-- TAB 3: OFFLINE DOWNLOADS -->
-      <div id="account-offline-view" class="hidden">
+      <div id="account-offline-view" class="hidden" role="tabpanel" aria-labelledby="tab-offline-btn">
         <div class="info-card"
           style="background: var(--bg-subcard); padding: 1.5rem; border-radius: 8px; border: 1px solid var(--border-sub); margin-bottom: 1.5rem;">
           <h3 style="margin-top: 0; color: var(--text-main); display: flex; align-items: center; gap: 0.4rem;"
@@ -341,6 +372,7 @@
 
 
   <script src="storage.js"></script>
+  <script src="translations.js"></script>
   <script src="shared.js"></script>
   <script src="account.js"></script>
   <script>

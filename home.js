@@ -334,7 +334,11 @@ function showProfessors(major, year, semester, subject, direction = 'forward') {
       }
     }
 
-    const canDownloadOffline = typeof window !== 'undefined' && window.OfflineRepository && typeof window.OfflineRepository.downloadPackage === 'function';
+    const canDownloadOffline = typeof window !== 'undefined'
+      && typeof isOfflineModeEnabled === 'function'
+      && isOfflineModeEnabled()
+      && window.OfflineRepository
+      && typeof window.OfflineRepository.downloadPackage === 'function';
     const hasDrawerContent = continueBtnHTML || missedCount > 0 || canDownloadOffline;
     const drawerId = `drawer-${profSlug}`;
 
@@ -483,7 +487,8 @@ function clearSavedMissed(profName) {
 }
 
 async function downloadProfessorOfflinePackage(profName) {
-  if (!window.OfflineRepository || typeof window.OfflineRepository.downloadPackage !== 'function') {
+  if (typeof isOfflineModeEnabled !== 'function' || !isOfflineModeEnabled()
+    || !window.OfflineRepository || typeof window.OfflineRepository.downloadPackage !== 'function') {
     return;
   }
 

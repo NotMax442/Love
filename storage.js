@@ -2,11 +2,30 @@
 // STUDY DATA REPOSITORY
 // ============================================================================
 
+const OFFLINE_MODE_KEY = 'offline_mode_enabled';
+
+function isOfflineModeEnabled() {
+    return localStorage.getItem(OFFLINE_MODE_KEY) === 'true';
+}
+
+function setOfflineModeEnabled(enabled) {
+    const isEnabled = Boolean(enabled);
+    localStorage.setItem(OFFLINE_MODE_KEY, String(isEnabled));
+    if (!isEnabled && typeof StudyRepository !== 'undefined') {
+        StudyRepository.clearQuestionCache();
+    }
+    return isEnabled;
+}
+
 const StudyRepository = (() => {
     const MIGRATION_KEY = 'study_repository_version';
     const CURRENT_VERSION = 1;
     const questionCache = new Map();
     const questionRequests = new Map();
+
+    function clearQuestionCache() {
+        questionCache.clear();
+    }
 
     function readJson(storage, key, fallback) {
         try {
@@ -93,6 +112,8 @@ const StudyRepository = (() => {
     async function loadQuestions(config, professor, options = {}) {
         const path = questionPath(config, professor);
         const cacheKey = options.cacheKey || path;
+        const offlineEnabled = isOfflineModeEnabled();
+        if (!offlineEnabled) questionCache.delete(cacheKey);
         if (!options.force && questionCache.has(cacheKey)) {
             return questionCache.get(cacheKey).map(question => ({ ...question }));
         }
@@ -101,10 +122,12 @@ const StudyRepository = (() => {
             return pending.map(question => ({ ...question }));
         }
 
-        const offlineQuestions = await OfflineRepository.getQuestions(config, professor);
-        if (offlineQuestions.length > 0) {
-            questionCache.set(cacheKey, offlineQuestions);
-            return offlineQuestions.map(question => ({ ...question }));
+        if (offlineEnabled) {
+            const offlineQuestions = await OfflineRepository.getQuestions(config, professor);
+            if (offlineQuestions.length > 0) {
+                questionCache.set(cacheKey, offlineQuestions);
+                return offlineQuestions.map(question => ({ ...question }));
+            }
         }
 
         const request = fetch(path)
@@ -176,6 +199,7 @@ const StudyRepository = (() => {
 
     return {
         clearStudyProgress,
+        clearQuestionCache,
         getStudyProgress,
         loadQuestions,
         questionPath,

@@ -52,6 +52,33 @@
     --transition-normal: 0.2s ease;
 }
 
+.offline-setting-row {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 1rem;
+}
+
+.offline-setting-control {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.65rem;
+    flex-shrink: 0;
+}
+
+.setting-status {
+    min-width: 2.5rem;
+    color: var(--danger);
+    font-size: 0.78rem;
+    font-weight: 800;
+    text-align: right;
+    text-transform: uppercase;
+}
+
+.setting-status.is-enabled {
+    color: var(--success);
+}
+
 [data-theme="light"] {
     --bg-body: #cbd5e1;
     --bg-card: #e2e8f0;
@@ -313,7 +340,6 @@ p {
     font-size: 1.02rem;
     line-height: 1.6;
 }
-
 
 /* ==========================================================================
    BUTTONS
@@ -1020,6 +1046,11 @@ p {
     width: 0;
     height: 0;
     opacity: 0;
+}
+
+.switch input:focus-visible+.slider {
+    outline: 3px solid var(--text-heading);
+    outline-offset: 3px;
 }
 
 .slider {
@@ -2000,7 +2031,6 @@ p {
         flex: 1 1 100%;
     }
 }
-
 
 /* ==========================================================================
    FULLSCREEN

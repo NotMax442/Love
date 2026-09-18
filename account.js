@@ -6,6 +6,7 @@ let isSelectMode = false;
 let selectedSubjectKeys = new Set();
 let activeExportSubjectKey = null;
 let activeAccountTab = 'stats'; // 'stats' | 'vault' | 'offline'
+let accountTabSwitcher = null;
 
 document.addEventListener('DOMContentLoaded', () => {
   // 1. Initialize Sub-Navbar Tab Switcher
@@ -42,16 +43,25 @@ function setupAccountTabs() {
   const vaultView = document.getElementById('account-vault-view');
   const offlineView = document.getElementById('account-offline-view');
 
+  updateOfflineTabVisibility(isOfflineModeEnabled());
+
   const savedTab = sessionStorage.getItem('activeAccountTab');
-  if (savedTab) activeAccountTab = savedTab;
+  if (['stats', 'vault', 'offline'].includes(savedTab)) activeAccountTab = savedTab;
 
   const switchTab = (targetTab) => {
+    if (!['stats', 'vault', 'offline'].includes(targetTab)) targetTab = 'stats';
+    if (targetTab === 'offline' && !isOfflineModeEnabled()) targetTab = 'vault';
     activeAccountTab = targetTab;
     sessionStorage.setItem('activeAccountTab', targetTab);
 
     // Reset Active States
     [tabStatsBtn, tabVaultBtn, tabOfflineBtn].forEach(btn => btn && btn.classList.remove('active'));
     [statsView, vaultView, offlineView].forEach(view => view && view.classList.add('hidden'));
+    [[tabStatsBtn, statsView, 'stats'], [tabVaultBtn, vaultView, 'vault'], [tabOfflineBtn, offlineView, 'offline']]
+      .forEach(([btn, view, tab]) => {
+        if (btn) btn.setAttribute('aria-selected', String(targetTab === tab));
+        if (view) view.setAttribute('aria-hidden', String(targetTab !== tab));
+      });
 
     if (targetTab === 'stats') {
       if (tabStatsBtn) tabStatsBtn.classList.add('active');
@@ -67,6 +77,7 @@ function setupAccountTabs() {
       renderOfflineDashboard();
     }
   };
+  accountTabSwitcher = switchTab;
 
   if (tabStatsBtn) tabStatsBtn.addEventListener('click', () => switchTab('stats'));
   if (tabVaultBtn) tabVaultBtn.addEventListener('click', () => switchTab('vault'));
@@ -247,9 +258,11 @@ function setupPreferences() {
   if (autoAdvanceToggle) {
     const isAutoAdvance = localStorage.getItem('auto_advance_quiz') === 'true';
     autoAdvanceToggle.checked = isAutoAdvance;
+    updateAutoAdvanceStatus(isAutoAdvance);
 
     autoAdvanceToggle.addEventListener('change', (e) => {
       localStorage.setItem('auto_advance_quiz', e.target.checked);
+      updateAutoAdvanceStatus(e.target.checked);
     });
   }
 
@@ -261,6 +274,14 @@ function setupPreferences() {
     reviewStyleSelect.addEventListener('change', (e) => {
       localStorage.setItem('result_review_style', e.target.value);
     });
+  }
+}
+
+function updateAutoAdvanceStatus(enabled) {
+  const statusEl = document.getElementById('auto-advance-status');
+  if (statusEl) {
+    statusEl.textContent = getTranslation(enabled ? 'setting_status_on' : 'setting_status_off');
+    statusEl.classList.toggle('is-enabled', enabled);
   }
 }
 
@@ -287,7 +308,13 @@ function renderAccountDashboard() {
 
   missedKeys.sort().forEach(key => {
     const rawData = localStorage.getItem(key);
-    const missedArray = rawData ? JSON.parse(rawData) : [];
+    let missedArray = [];
+    try {
+      const parsedData = rawData ? JSON.parse(rawData) : [];
+      missedArray = Array.isArray(parsedData) ? parsedData : [];
+    } catch (error) {
+      console.warn(`Ignoring invalid missed-question vault data for ${key}.`, error);
+    }
 
     if (missedArray.length > 0) {
       totalMissedAcrossApp += missedArray.length;
@@ -543,7 +570,25 @@ async function executeAnkiDownload(shouldClearAfter) {
   const raw = localStorage.getItem(activeExportSubjectKey);
   if (!raw) return;
 
-  const questionsList = JSON.parse(raw);
+  let questionsList;
+  try {
+    const parsedQuestions = JSON.parse(raw);
+    questionsList = Array.isArray(parsedQuestions)
+      ? parsedQuestions.filter(question => (
+        question &&
+        typeof question.question === 'string' &&
+        Array.isArray(question.options) &&
+        Number.isInteger(question.correctIndex) &&
+        question.correctIndex >= 0 &&
+        question.correctIndex < question.options.length
+      ))
+      : [];
+  } catch (error) {
+    console.warn(`Ignoring invalid Anki export data for ${activeExportSubjectKey}.`, error);
+    return;
+  }
+
+  if (questionsList.length === 0) return;
 
   const ankiKeepBtn = document.getElementById('anki-keep-btn');
   const ankiClearBtn = document.getElementById('anki-clear-btn');
@@ -553,56 +598,60 @@ async function executeAnkiDownload(shouldClearAfter) {
   if (ankiKeepBtn) { ankiKeepBtn.disabled = true; ankiKeepBtn.textContent = 'Preparing Export...'; }
   if (ankiClearBtn) { ankiClearBtn.disabled = true; ankiClearBtn.textContent = 'Preparing Export...'; }
 
-  let fileContent = "#separator:Tab\n#html:true\n";
+  try {
+    let fileContent = "#separator:Tab\n#html:true\n";
 
-  for (const q of questionsList) {
-    let optionsText = q.options.map((opt, idx) => {
-      const letter = String.fromCharCode(65 + idx);
-      return `<div><b>${letter})</b> ${opt}</div>`;
-    }).join('');
-
-    let imgHTML = '';
-    const imgList = (Array.isArray(q.images) && q.images.length > 0)
-      ? q.images
-      : (q.image ? [q.image] : []);
-
-    if (imgList.length > 0) {
-      const b64Promises = imgList.map(imgName => {
-        const fullUrl = `${IMAGE_BASE_URL}${imgName.trim()}`;
-        return fetchImageAsBase64(fullUrl);
-      });
-
-      const b64Results = await Promise.all(b64Promises);
-
-      imgHTML = b64Results.map((b64Data, idx) => {
-        const src = b64Data || `${IMAGE_BASE_URL}${imgList[idx].trim()}`;
-        return `<br><img src="${src}" style="max-height:300px;" />`;
+    for (const q of questionsList) {
+      let optionsText = q.options.map((opt, idx) => {
+        const letter = String.fromCharCode(65 + idx);
+        return `<div><b>${letter})</b> ${opt}</div>`;
       }).join('');
+
+      let imgHTML = '';
+      const imgList = (Array.isArray(q.images) && q.images.length > 0)
+        ? q.images
+        : (q.image ? [q.image] : []);
+
+      if (imgList.length > 0) {
+        const b64Promises = imgList.map(imgName => {
+          const fullUrl = `${IMAGE_BASE_URL}${imgName.trim()}`;
+          return fetchImageAsBase64(fullUrl);
+        });
+
+        const b64Results = await Promise.all(b64Promises);
+
+        imgHTML = b64Results.map((b64Data, idx) => {
+          const src = b64Data || `${IMAGE_BASE_URL}${imgList[idx].trim()}`;
+          return `<br><img src="${src}" style="max-height:300px;" />`;
+        }).join('');
+      }
+
+      const front = `<div style='font-size:1.1em; font-weight:bold; margin-bottom:8px;'>${q.question}</div>${imgHTML}${optionsText}`;
+      const correctLetter = String.fromCharCode(65 + q.correctIndex);
+      const back = `<div><b>Correct Choice:</b> ${correctLetter}) ${q.options[q.correctIndex]}</div>`;
+
+      fileContent += `${front}\t${back}\n`;
     }
 
-    const front = `<div style='font-size:1.1em; font-weight:bold; margin-bottom:8px;'>${q.question}</div>${imgHTML}${optionsText}`;
-    const correctLetter = String.fromCharCode(65 + q.correctIndex);
-    const back = `<div><b>Correct Choice:</b> ${correctLetter}) ${q.options[q.correctIndex]}</div>`;
+    const blob = new Blob([fileContent], { type: 'text/plain;charset=utf-8' });
+    const downloadLink = document.createElement('a');
+    downloadLink.href = URL.createObjectURL(blob);
+    downloadLink.download = `Anki_${activeExportSubjectKey}.txt`;
+    downloadLink.click();
 
-    fileContent += `${front}\t${back}\n`;
+    if (shouldClearAfter) {
+      localStorage.removeItem(activeExportSubjectKey);
+      renderAccountDashboard();
+    }
+  } catch (error) {
+    console.warn(`Could not export Anki data for ${activeExportSubjectKey}.`, error);
+  } finally {
+    if (ankiKeepBtn) { ankiKeepBtn.disabled = false; ankiKeepBtn.textContent = origKeepText; }
+    if (ankiClearBtn) { ankiClearBtn.disabled = false; ankiClearBtn.textContent = origClearText; }
+
+    const ankiModal = document.getElementById('anki-modal');
+    if (ankiModal) ankiModal.classList.add('hidden');
   }
-
-  if (ankiKeepBtn) { ankiKeepBtn.disabled = false; ankiKeepBtn.textContent = origKeepText; }
-  if (ankiClearBtn) { ankiClearBtn.disabled = false; ankiClearBtn.textContent = origClearText; }
-
-  const blob = new Blob([fileContent], { type: 'text/plain;charset=utf-8' });
-  const downloadLink = document.createElement('a');
-  downloadLink.href = URL.createObjectURL(blob);
-  downloadLink.download = `Anki_${activeExportSubjectKey}.txt`;
-  downloadLink.click();
-
-  if (shouldClearAfter) {
-    localStorage.removeItem(activeExportSubjectKey);
-    renderAccountDashboard();
-  }
-
-  const ankiModal = document.getElementById('anki-modal');
-  if (ankiModal) ankiModal.classList.add('hidden');
 }
 
 // ==========================================================================
@@ -615,6 +664,13 @@ async function renderOfflineDashboard() {
   const questionsValEl = document.getElementById('offline-questions-val');
 
   if (!offlinePackageList) return;
+  if (typeof isOfflineModeEnabled !== 'function' || !isOfflineModeEnabled()) {
+    offlinePackageList.innerHTML = '';
+    if (countValEl) countValEl.textContent = '0';
+    if (questionsValEl) questionsValEl.textContent = '0';
+    document.getElementById('offline-support-warning')?.remove();
+    return;
+  }
 
   const supportStatus = typeof OfflineRepository !== 'undefined' && OfflineRepository.getSupportStatus
     ? OfflineRepository.getSupportStatus()
@@ -630,11 +686,12 @@ async function renderOfflineDashboard() {
   }
 
   if (!supportStatus.secureContext) {
-    offlinePackageList.innerHTML = `
-      <div class="score-card" style="text-align: center; padding: 2rem;">
-        <p style="margin: 0; color: var(--text-sub);">Offline page caching requires the HTTPS website. Saved question packs can still work after they are downloaded.</p>
-      </div>
-    `;
+    document.getElementById('offline-support-warning')?.remove();
+    const warning = document.createElement('p');
+    warning.id = 'offline-support-warning';
+    warning.style.cssText = 'margin: 0 0 1rem; color: var(--text-sub);';
+    warning.textContent = 'Offline page caching requires the HTTPS website. Saved question packs can still work after they are downloaded.';
+    offlinePackageList.before(warning);
   }
 
   if (typeof getAllOfflinePackages !== 'function') {
@@ -689,7 +746,7 @@ async function renderOfflineDashboard() {
       </div>
 
       <div style="display: flex; justify-content: space-between; margin-top: 0.6rem; font-size: 0.82rem; color: var(--text-heading); font-weight: 600;">
-        <span>📝 ${pkg.questionCount || pkg.questions.length} Questions</span>
+        <span>📝 ${pkg.questionCount || (Array.isArray(pkg.questions) ? pkg.questions.length : 0)} Questions</span>
         ${formattedDate ? `<span>📅 Saved: ${formattedDate}</span>` : ''}
       </div>
     `;
@@ -699,6 +756,7 @@ async function renderOfflineDashboard() {
 }
 
 async function removeSingleOfflinePackage(packageId) {
+  if (typeof isOfflineModeEnabled !== 'function' || !isOfflineModeEnabled()) return;
   if (confirm(getTranslation('offline_delete_confirm'))) {
     if (typeof deleteOfflinePackage === 'function') {
       await deleteOfflinePackage(packageId);
@@ -708,9 +766,29 @@ async function removeSingleOfflinePackage(packageId) {
 }
 
 function setupOfflineListeners() {
+  const offlineModeToggle = document.getElementById('offline-mode-toggle');
   const clearAllOfflineBtn = document.getElementById('clear-all-offline-btn');
+
+  if (offlineModeToggle) {
+    offlineModeToggle.checked = isOfflineModeEnabled();
+    updateOfflineModeStatus(offlineModeToggle.checked);
+    offlineModeToggle.addEventListener('change', async (event) => {
+      const enabled = setOfflineModeEnabled(event.target.checked);
+      updateOfflineModeStatus(enabled);
+      updateOfflineTabVisibility(enabled);
+      if (!enabled && activeAccountTab === 'offline' && accountTabSwitcher) {
+        accountTabSwitcher('vault');
+      }
+      if (typeof updateServiceWorkerForOfflineMode === 'function') {
+        await updateServiceWorkerForOfflineMode(enabled);
+      }
+      if (enabled) renderOfflineDashboard();
+    });
+  }
+
   if (clearAllOfflineBtn) {
     clearAllOfflineBtn.addEventListener('click', async () => {
+      if (typeof isOfflineModeEnabled !== 'function' || !isOfflineModeEnabled()) return;
       if (confirm(getTranslation('offline_delete_confirm'))) {
         if (typeof clearAllOfflinePackages === 'function') {
           await clearAllOfflinePackages();
@@ -718,5 +796,27 @@ function setupOfflineListeners() {
         }
       }
     });
+  }
+}
+
+function updateOfflineModeStatus(enabled) {
+  const statusEl = document.getElementById('offline-mode-status');
+  if (statusEl) {
+    statusEl.textContent = getTranslation(enabled ? 'offline_status_on' : 'offline_status_off');
+    statusEl.classList.toggle('is-enabled', enabled);
+  }
+}
+
+function updateOfflineTabVisibility(enabled) {
+  const offlineTabBtn = document.getElementById('tab-offline-btn');
+  const offlineView = document.getElementById('account-offline-view');
+  if (offlineTabBtn) {
+    offlineTabBtn.classList.toggle('hidden', !enabled);
+    offlineTabBtn.setAttribute('aria-hidden', String(!enabled));
+    offlineTabBtn.tabIndex = enabled ? 0 : -1;
+  }
+  if (offlineView && !enabled) {
+    offlineView.classList.add('hidden');
+    offlineView.setAttribute('aria-hidden', 'true');
   }
 }
