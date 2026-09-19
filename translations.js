@@ -51,6 +51,8 @@ const translations = {
         loading_text: "Loading Questions...",
         subject_assessments_title: "{subject} - Subject Assessments",
         subject_assessments_desc: "Test your knowledge or study across all professors in this subject combined.",
+        subject_study_all_count_loading: "Loading total questions...",
+        subject_study_all_count: "{count} questions available",
 
         // Leave Guard Modal
         btn_cancel: "Cancel",
@@ -141,7 +143,7 @@ const translations = {
         about_donate_title: "2. Voluntary Community Support (KHQR Donations)",
         about_donate_desc: "If TestforUHS is something you would like to use in your learning, you have the option of donating towards the creation of the website through its support us link (KHQR) which will give money towards paying for the domain and hosting fees. This is completely optional and does not come with any additional benefits whatsoever.",
         about_privacy_title: "Our Privacy Promise",
-        about_privacy_desc: "Your study progress, missed questions, and test scores are stored locally inside your browser (localStorage). We do not track your personal study choices or sell student data to third parties.",
+        about_privacy_desc: "Your study progress, missed questions, and test scores are stored locally inside your browser (IndexedDB). We do not track your personal study choices or sell student data to third parties.",
 
         // Morale Boost Messages
         morale_1: "You can do this! I believe in you.",
@@ -179,6 +181,7 @@ const translations = {
 
         // Continue Study
         btn_continue_study: "Continue ({answered}/{total})",
+        btn_continue_study_all: "Continue Study All ({answered}/{total})",
         btn_restart_study: "Restart Study All",
 
         // Coming Soon
@@ -237,6 +240,8 @@ const translations = {
         loading_text: "កំពុងទាញយកសំណួរ...",
         subject_assessments_title: "{subject} - ការវាយតម្លៃប្រចាំមុខវិជ្ជា",
         subject_assessments_desc: "ធ្វើតេស្តសមត្ថភាព ឬសិក្សារំលឹកសំណួររួមគ្នាតាមសាស្ត្រាចារ្យទាំងអស់ក្នុងមុខវិជ្ជានេះ។",
+        subject_study_all_count_loading: "កំពុងផ្ទុកចំនួនសំណួរសរុប...",
+        subject_study_all_count: "មានសំណួរ {count} សម្រាប់សិក្សា",
 
         // Leave Guard Modal
         btn_cancel: "បោះបង់",
@@ -327,7 +332,7 @@ const translations = {
         about_donate_title: "២. ការចូលរួមគាំទ្រពីសហគមន៍ (ការឧបត្ថម្ភតាម KHQR)",
         about_donate_desc: "ប្រសិនបើ TestforUHS មានប្រយោជន៍ដល់ការសិក្សារបស់អ្នក អ្នកអាចស្ម័គ្រចិត្តចូលរួមឧបត្ថម្ភការអភិវឌ្ឍតាមរយៈប៊ូតុង ឧបត្ថម្ភ (KHQR)។ ថវិកាភាគច្រើនត្រូវប្រើប្រាស់លើថ្លៃ Domain និង Server។ ការឧបត្ថម្ភគឺអាស្រ័យលើទឹកចិត្ត ហើយមិនទទួលបានឯកសិទ្ធិពិសេសឡើយ និស្សិតគ្រប់រូបទទួលបានការប្រើប្រាស់មុខងារទាំងអស់ស្មើៗគ្នា។",
         about_privacy_title: "ការប្តេជ្ញាចិត្តលើឯកជនភាព",
-        about_privacy_desc: "ការវិវឌ្ឍនៃការសិក្សា សំណួរដែលខុស និងពិន្ទុតេស្តរបស់អ្នកត្រូវបានរក្សាទុកនៅក្នុងកម្មវិធីជ្រាវជ្រោល (browser) របស់អ្នកផ្ទាល់ (localStorage)។ យើងមិនតាមដានទិន្នន័យផ្ទាល់ខ្លួន ឬលក់ទិន្នន័យនិស្សិតទៅកាន់ភាគីទីបីឡើយ។",
+        about_privacy_desc: "ការវិវឌ្ឍនៃការសិក្សា សំណួរដែលខុស និងពិន្ទុតេស្តរបស់អ្នកត្រូវបានរក្សាទុកនៅក្នុងកម្មវិធីជ្រាវជ្រោល (browser) របស់អ្នកផ្ទាល់ (IndexedDB)។ យើងមិនតាមដានទិន្នន័យផ្ទាល់ខ្លួន ឬលក់ទិន្នន័យនិស្សិតទៅកាន់ភាគីទីបីឡើយ។",
 
         // Morale Boost Messages
         morale_1: "You នឹងធ្វើបាន! ខ្ញុំជឿចឹង",
@@ -365,6 +370,7 @@ const translations = {
 
         // Continue Studying
         btn_continue_study: "បន្ត ({answered}/{total})",
+        btn_continue_study_all: "បន្តការសិក្សាទាំងអស់ ({answered}/{total})",
         btn_restart_study: "ចាប់ផ្តើមសិក្សាឡើងវិញ",
 
         // Coming Soon

@@ -110,6 +110,13 @@ function getImageList(q) {
   return [];
 }
 
+function getQuestionImageSource(q, imageName) {
+  if (q && q.offlineImages && typeof q.offlineImages[imageName] === 'string') {
+    return q.offlineImages[imageName];
+  }
+  return IMAGE_BASE_URL + imageName;
+}
+
 function openZoomModal(imgSrc) {
   const zoomModal = document.getElementById('image-zoom-modal');
   const zoomedImg = document.getElementById('zoomed-image');
@@ -127,7 +134,7 @@ function preloadNextQuestionImages(currentIndex, questionsArray) {
   const imgList = getImageList(nextQ);
 
   imgList.forEach(imgName => {
-    const fullImgUrl = IMAGE_BASE_URL + imgName;
+    const fullImgUrl = getQuestionImageSource(nextQ, imgName);
     const imgPreloader = new Image();
     imgPreloader.src = fullImgUrl;
   });
@@ -312,7 +319,7 @@ async function initSession() {
 
   if (mode === 'study' && resume) {
     const progressData = typeof StudyRepository !== 'undefined'
-      ? StudyRepository.getStudyProgress(sessionConfig)
+      ? await StudyRepository.getStudyProgress(sessionConfig)
       : (() => {
         const savedStudyRaw = localStorage.getItem(studyProgressKey);
         try { return savedStudyRaw ? JSON.parse(savedStudyRaw) : null; } catch (e) { return null; }
@@ -337,13 +344,17 @@ async function initSession() {
       ? getStorageKey(major, year, semester, subject, professor)
       : `missed_${major.toLowerCase()}_y${year}_s${semester}_${subject.toLowerCase()}_${profSlug}`;
 
-    const rawMissed = localStorage.getItem(key);
-    if (!rawMissed) {
+    const missedList = typeof StudyRepository !== 'undefined'
+      ? await StudyRepository.getMissedQuestions(key)
+      : (() => {
+        const rawMissed = localStorage.getItem(key);
+        try { return rawMissed ? JSON.parse(rawMissed) : []; } catch (e) { return []; }
+      })();
+    if (!missedList || missedList.length === 0) {
       alert(getTranslation('no_missed_alert'));
       window.location.href = './';
       return;
     }
-    const missedList = JSON.parse(rawMissed);
     userAnswers = new Array(missedList.length).fill(null);
     questions = shuffleArray(missedList).map(q => prepareShuffledQuestion(q));
     renderStudyMode();
@@ -551,7 +562,7 @@ function appendStudyQuestionBatch(targetIndex = studyRenderedCount + STUDY_RENDE
 
       imgList.forEach((imgName) => {
         const img = document.createElement('img');
-        const fullImgUrl = IMAGE_BASE_URL + imgName;
+        const fullImgUrl = getQuestionImageSource(q, imgName);
         img.src = fullImgUrl;
         img.alt = `Diagram for question ${qIndex + 1}`;
         img.className = 'question-img';
@@ -704,7 +715,7 @@ function renderQuizQuestion() {
 
       imgList.forEach((imgName) => {
         const img = document.createElement('img');
-        const fullImgUrl = IMAGE_BASE_URL + imgName;
+        const fullImgUrl = getQuestionImageSource(q, imgName);
         img.src = fullImgUrl;
         img.alt = 'Question Diagram';
         img.className = 'question-img';
@@ -779,14 +790,14 @@ function handleQuizOptionClick(selectedIndex, selectedBtn) {
   }
 }
 
-function finishSession() {
+async function finishSession() {
   clearInterval(timerInterval);
   cancelAutoScroll();
 
   if (sessionConfig && sessionConfig.mode === 'study') {
     const studyProgressKey = getStudyStorageKey();
     if (typeof StudyRepository !== 'undefined') {
-      StudyRepository.clearStudyProgress(sessionConfig);
+      await StudyRepository.clearStudyProgress(sessionConfig);
     } else {
       localStorage.removeItem(studyProgressKey);
     }
@@ -794,6 +805,7 @@ function finishSession() {
 
   if (sessionConfig.mode === 'quiz') {
     userScore = 0;
+    const analyticsWrites = [];
     questions.forEach((q, idx) => {
       const chosen = userAnswers[idx];
       const isAnswered = chosen !== null && chosen !== undefined;
@@ -803,7 +815,7 @@ function finishSession() {
 
       if (isAnswered && typeof recordQuestionResult === 'function') {
         const targetProf = q.professor || sessionConfig.professor;
-        recordQuestionResult(
+        analyticsWrites.push(recordQuestionResult(
           q,
           isCorrect,
           sessionConfig.major,
@@ -811,9 +823,10 @@ function finishSession() {
           sessionConfig.semester,
           sessionConfig.subject,
           targetProf
-        );
+        ));
       }
     });
+    await Promise.all(analyticsWrites);
   }
 
   isSessionActive = false;

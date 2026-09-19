@@ -18,10 +18,155 @@ function setOfflineModeEnabled(enabled) {
 }
 
 const StudyRepository = (() => {
+    const DB_NAME = 'testforuhs-progress-db';
+    const DB_VERSION = 1;
+    const VAULT_STORE = 'missed-questions';
+    const STUDY_STORE = 'study-progress';
+    const ANALYTICS_STORE = 'analytics';
     const MIGRATION_KEY = 'study_repository_version';
-    const CURRENT_VERSION = 1;
+    const CURRENT_VERSION = 2;
     const questionCache = new Map();
     const questionRequests = new Map();
+    let migrationPromise = null;
+
+    function hasIndexedDB() {
+        return typeof window !== 'undefined' && 'indexedDB' in window;
+    }
+
+    function openDatabase() {
+        return new Promise((resolve, reject) => {
+            if (!hasIndexedDB()) {
+                reject(new Error('IndexedDB is not supported in this browser.'));
+                return;
+            }
+
+            const request = indexedDB.open(DB_NAME, DB_VERSION);
+            request.onupgradeneeded = (event) => {
+                const db = event.target.result;
+                if (!db.objectStoreNames.contains(VAULT_STORE)) db.createObjectStore(VAULT_STORE, { keyPath: 'id' });
+                if (!db.objectStoreNames.contains(STUDY_STORE)) db.createObjectStore(STUDY_STORE, { keyPath: 'id' });
+                if (!db.objectStoreNames.contains(ANALYTICS_STORE)) db.createObjectStore(ANALYTICS_STORE, { keyPath: 'id' });
+            };
+            request.onsuccess = () => resolve(request.result);
+            request.onerror = () => reject(request.error || new Error('Could not open progress database.'));
+        });
+    }
+
+    function runTransaction(storeName, mode, operation) {
+        return openDatabase().then(db => new Promise((resolve, reject) => {
+            const transaction = db.transaction(storeName, mode);
+            const request = operation(transaction.objectStore(storeName));
+            request.onsuccess = () => resolve(request.result);
+            request.onerror = () => reject(request.error || new Error(`Could not access ${storeName}.`));
+        }));
+    }
+
+    function readLegacy(key, fallback) {
+        return readJson(localStorage, key, fallback);
+    }
+
+    async function migrateLegacyData() {
+        if (!hasIndexedDB()) return;
+        if (migrationPromise) return migrationPromise;
+
+        migrationPromise = (async () => {
+            let version = 0;
+            try { version = Number(localStorage.getItem(MIGRATION_KEY) || 0); } catch (error) { }
+            if (version >= CURRENT_VERSION) return;
+
+            const vaultRecords = [];
+            const studyRecords = [];
+            for (let index = 0; index < localStorage.length; index += 1) {
+                const key = localStorage.key(index);
+                if (!key) continue;
+                if (key.startsWith('missed_')) {
+                    const value = readLegacy(key, null);
+                    if (Array.isArray(value) && value.length > 0) vaultRecords.push({ id: key, questions: value });
+                } else if (key.startsWith('saved_study_')) {
+                    const value = readLegacy(key, null);
+                    if (value && typeof value === 'object') studyRecords.push({ id: key, ...value });
+                }
+            }
+
+            const analytics = readLegacy('app_analytics_stats', null);
+            await openDatabase().then(db => new Promise((resolve, reject) => {
+                const transaction = db.transaction([VAULT_STORE, STUDY_STORE, ANALYTICS_STORE], 'readwrite');
+                const vaultStore = transaction.objectStore(VAULT_STORE);
+                const studyStore = transaction.objectStore(STUDY_STORE);
+                const analyticsStore = transaction.objectStore(ANALYTICS_STORE);
+                vaultRecords.forEach(record => vaultStore.put(record));
+                studyRecords.forEach(record => studyStore.put(record));
+                if (analytics && typeof analytics === 'object') {
+                    analyticsStore.put({
+                        id: 'app_analytics_stats',
+                        total: Number(analytics.total) || 0,
+                        correct: Number(analytics.correct) || 0,
+                        profs: analytics.profs && typeof analytics.profs === 'object' ? analytics.profs : {}
+                    });
+                }
+                transaction.oncomplete = resolve;
+                transaction.onerror = () => reject(transaction.error || new Error('Could not migrate progress data.'));
+            }));
+
+            vaultRecords.forEach(record => localStorage.removeItem(record.id));
+            studyRecords.forEach(record => localStorage.removeItem(record.id));
+            if (analytics && typeof analytics === 'object') localStorage.removeItem('app_analytics_stats');
+            localStorage.setItem(MIGRATION_KEY, String(CURRENT_VERSION));
+        })().catch(error => {
+            migrationPromise = null;
+            console.warn('Progress storage migration failed; legacy data remains available.', error);
+        });
+        return migrationPromise;
+    }
+
+    async function getRecord(storeName, key, fallback = null) {
+        if (!key) return fallback;
+        if (!hasIndexedDB()) return readLegacy(key, fallback);
+        await migrateLegacyData();
+        try {
+            const record = await runTransaction(storeName, 'readonly', store => store.get(key));
+            if (!record) return fallback;
+            if (storeName === VAULT_STORE) return record.questions || fallback;
+            if (storeName === STUDY_STORE) {
+                const { id, ...progress } = record;
+                return progress;
+            }
+            return record;
+        } catch (error) {
+            console.warn(`Could not read ${key}.`, error);
+            return readLegacy(key, fallback);
+        }
+    }
+
+    async function putRecord(storeName, key, value) {
+        if (!key) return false;
+        if (!hasIndexedDB()) return writeJson(localStorage, key, value);
+        await migrateLegacyData();
+        try {
+            const record = storeName === VAULT_STORE ? { id: key, questions: value } : { id: key, ...value };
+            await runTransaction(storeName, 'readwrite', store => store.put(record));
+            return true;
+        } catch (error) {
+            console.warn(`Could not persist ${key}.`, error);
+            return writeJson(localStorage, key, value);
+        }
+    }
+
+    async function deleteRecord(storeName, key) {
+        if (!key) return false;
+        if (!hasIndexedDB()) {
+            localStorage.removeItem(key);
+            return true;
+        }
+        await migrateLegacyData();
+        try {
+            await runTransaction(storeName, 'readwrite', store => store.delete(key));
+            return true;
+        } catch (error) {
+            localStorage.removeItem(key);
+            return false;
+        }
+    }
 
     function clearQuestionCache() {
         questionCache.clear();
@@ -147,65 +292,67 @@ const StudyRepository = (() => {
         return questions.map(question => ({ ...question }));
     }
 
-    function migrateLegacyData() {
-        let version = 0;
-        try {
-            version = Number(localStorage.getItem(MIGRATION_KEY) || 0);
-        } catch (error) {
-            return;
-        }
-        if (version >= CURRENT_VERSION) return;
-
-        // Validate and rewrite legacy JSON records without changing their public keys.
-        for (let index = 0; index < localStorage.length; index += 1) {
-            const key = localStorage.key(index);
-            if (!key || !/^(missed_|saved_study_)/.test(key)) continue;
-            const value = readJson(localStorage, key, null);
-            if (value !== null) writeJson(localStorage, key, value);
-        }
-
-        const analytics = readJson(localStorage, 'app_analytics_stats', null);
-        if (analytics && typeof analytics === 'object') {
-            writeJson(localStorage, 'app_analytics_stats', {
-                total: Number(analytics.total) || 0,
-                correct: Number(analytics.correct) || 0,
-                profs: analytics.profs && typeof analytics.profs === 'object' ? analytics.profs : {}
-            });
-        }
-
-        try {
-            localStorage.setItem(MIGRATION_KEY, String(CURRENT_VERSION));
-        } catch (error) {
-            console.warn('Could not mark storage migration complete.', error);
-        }
-    }
-
-    function getStudyProgress(config) {
+    async function getStudyProgress(config) {
         const key = studyKey(config);
-        return key ? readJson(localStorage, key, null) : null;
+        return getRecord(STUDY_STORE, key, null);
     }
 
-    function saveStudyProgress(config, progress) {
+    async function saveStudyProgress(config, progress) {
         const key = studyKey(config);
-        return key ? writeJson(localStorage, key, progress) : false;
+        return putRecord(STUDY_STORE, key, progress);
     }
 
-    function clearStudyProgress(config) {
+    async function clearStudyProgress(config) {
         const key = studyKey(config);
-        if (key) localStorage.removeItem(key);
+        return deleteRecord(STUDY_STORE, key);
     }
 
-    migrateLegacyData();
+    async function getMissedQuestions(key) {
+        return getRecord(VAULT_STORE, key, []);
+    }
+
+    async function saveMissedQuestions(key, questions) {
+        if (!questions || questions.length === 0) return deleteRecord(VAULT_STORE, key);
+        return putRecord(VAULT_STORE, key, questions);
+    }
+
+    async function getAllMissedQuestions() {
+        if (!hasIndexedDB()) {
+            const records = [];
+            for (let index = 0; index < localStorage.length; index += 1) {
+                const key = localStorage.key(index);
+                if (key && key.startsWith('missed_')) records.push({ id: key, questions: readLegacy(key, []) });
+            }
+            return records;
+        }
+        await migrateLegacyData();
+        try { return await runTransaction(VAULT_STORE, 'readonly', store => store.getAll()); }
+        catch (error) { return []; }
+    }
+
+    async function getAnalyticsData() {
+        const data = await getRecord(ANALYTICS_STORE, 'app_analytics_stats', null);
+        return data ? { total: Number(data.total) || 0, correct: Number(data.correct) || 0, profs: data.profs || {} } : { total: 0, correct: 0, profs: {} };
+    }
+
+    async function saveAnalyticsData(data) {
+        return putRecord(ANALYTICS_STORE, 'app_analytics_stats', data);
+    }
 
     return {
         clearStudyProgress,
         clearQuestionCache,
         getStudyProgress,
+        getMissedQuestions,
+        getAllMissedQuestions,
+        getAnalyticsData,
         loadQuestions,
         questionPath,
         questionSignature,
         readJson,
         saveStudyProgress,
+        saveMissedQuestions,
+        saveAnalyticsData,
         slug,
         studyKey,
         vaultKey,
@@ -306,7 +453,42 @@ const OfflineRepository = (() => {
 
     async function getQuestions(config, professor) {
         const pkg = await getPackage(config, professor);
-        return pkg && Array.isArray(pkg.questions) ? pkg.questions : [];
+        if (!pkg || !Array.isArray(pkg.questions)) return [];
+
+        return pkg.questions.map(question => ({
+            ...question,
+            offlineImages: pkg.images && typeof pkg.images === 'object' ? pkg.images : {}
+        }));
+    }
+
+    function getQuestionImageNames(questions) {
+        const imageNames = new Set();
+        normalizeQuestionList(questions).forEach(question => {
+            const images = Array.isArray(question.images) && question.images.length > 0
+                ? question.images
+                : (typeof question.image === 'string' ? [question.image] : []);
+            images.forEach(imageName => {
+                if (typeof imageName === 'string' && imageName.trim()) imageNames.add(imageName.trim());
+            });
+        });
+        return [...imageNames];
+    }
+
+    async function fetchImageAsDataUrl(imageName) {
+        try {
+            const response = await fetch(`${IMAGE_BASE_URL}${encodeURIComponent(imageName)}`);
+            if (!response.ok) return null;
+            const blob = await response.blob();
+            return await new Promise(resolve => {
+                const reader = new FileReader();
+                reader.onloadend = () => resolve(typeof reader.result === 'string' ? reader.result : null);
+                reader.onerror = () => resolve(null);
+                reader.readAsDataURL(blob);
+            });
+        } catch (error) {
+            console.warn(`Could not download offline image: ${imageName}`, error);
+            return null;
+        }
     }
 
     async function downloadPackage(config, professor, questions) {
@@ -315,6 +497,12 @@ const OfflineRepository = (() => {
 
         const validQuestions = normalizeQuestionList(questions);
         if (!validQuestions.length) return null;
+
+        const imageEntries = await Promise.all(getQuestionImageNames(validQuestions).map(async imageName => {
+            const dataUrl = await fetchImageAsDataUrl(imageName);
+            return dataUrl ? [imageName, dataUrl] : null;
+        }));
+        const images = Object.fromEntries(imageEntries.filter(Boolean));
 
         const packageRecord = {
             id: packageId,
@@ -325,6 +513,7 @@ const OfflineRepository = (() => {
             professor: String(professor),
             questionCount: validQuestions.length,
             questions: validQuestions,
+            images,
             downloadedAt: Date.now(),
             updatedAt: Date.now()
         };

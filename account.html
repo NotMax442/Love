@@ -132,25 +132,6 @@
           <h3 style="margin-top: 0; color: var(--text-main);" data-i18n="stats_overview_title">Overall Accuracy</h3>
 
           <div id="pie-chart-wrapper"></div>
-
-          <div class="stats-summary-grid">
-            <div class="stat-card">
-              <span class="stat-label" data-i18n="stats_total_questions">Questions Attempted</span>
-              <span id="stat-total-val" class="stat-value">0</span>
-            </div>
-            <div class="stat-card correct-card">
-              <span class="stat-label" data-i18n="stats_correct_answers">Correct Answers</span>
-              <span id="stat-correct-val" class="stat-value" style="color: #10b981;">0</span>
-            </div>
-            <div class="stat-card incorrect-card">
-              <span class="stat-label" data-i18n="stats_incorrect_answers">Incorrect Answers</span>
-              <span id="stat-incorrect-val" class="stat-value" style="color: #ef4444;">0</span>
-            </div>
-            <div class="stat-card">
-              <span class="stat-label" data-i18n="stats_accuracy_rate">Accuracy Rate</span>
-              <span id="stat-rate-val" class="stat-value" style="color: var(--text-heading);">0%</span>
-            </div>
-          </div>
         </div>
 
         <div
@@ -348,22 +329,31 @@
   </div>
 
   <!-- Shared Modals (Donation & Privacy) -->
-  <div id="donate-modal" class="modal-overlay hidden">
-    <div class="modal-card donate-card-wide">
-      <button id="close-donate-btn" class="modal-close-icon" aria-label="Close modal">&times;</button>
+  <div id="donate-modal" class="modal-overlay hidden" role="presentation">
+    <div class="modal-card donate-card-wide" role="dialog" aria-modal="true" aria-labelledby="donate-modal-title"
+      aria-describedby="donate-modal-desc">
+      <button id="close-donate-btn" class="modal-close-icon" type="button"
+        aria-label="Close support dialog">&times;</button>
+      <div class="donate-header">
+        <div class="donate-icon" aria-hidden="true"><i data-lucide="heart-handshake"></i></div>
+        <div>
+          <h2 id="donate-modal-title" data-i18n="donate_modal_title">Support testforuhs.com</h2>
+          <p id="donate-modal-desc" data-i18n="donate_modal_desc">Your donations help keep the platform free, maintain
+            servers, and add new study features!</p>
+        </div>
+      </div>
       <div class="donate-grid">
         <div class="donate-info">
-          <p class="donate-tagline" data-i18n="donate_tagline"
-            style="display: flex; align-items: center; gap: 0.35rem;">
+          <p class="donate-tagline" data-i18n="donate_tagline">
             Every little bit is greatly appreciated! Thank you for your support
-            <i data-lucide="smile" style="width: 18px; height: 18px; display: inline-block;"></i>
+            <i data-lucide="smile" aria-hidden="true"></i>
           </p>
           <h3 class="donate-cta" data-i18n="donate_cta">You may donate through our KHQR here.</h3>
         </div>
-        <div class="donate-qr-wrapper"><img src="assets/khqr.png" alt="KHQR Code" class="khqr-card-img"></div>
+        <div class="donate-qr-wrapper"><img src="assets/khqr.png" alt="KHQR donation code" class="khqr-card-img"></div>
       </div>
-      <div style="margin-top: 1.5rem; text-align: center;">
-        <button id="bottom-close-donate-btn" class="btn secondary-btn" style="width: 100%; max-width: 200px;"
+      <div class="donate-footer">
+        <button id="bottom-close-donate-btn" class="btn secondary-btn donate-close-btn" type="button"
           data-i18n="btn_close">Close</button>
       </div>
     </div>

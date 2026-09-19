@@ -1,0 +1,199 @@
+{
+  "questions": [
+    {
+      "id": 1,
+      "question": "un patient, âgé de 24ans , ayant un accident du foot à 9h du matin, il se plaint de la difficultée de\nla marche et limité des mouvements de flexion et extension à cause de la douleur et du gros genou\ndroit.\nquel est le technique de l’examen clinique pour diagnostic de l’hémarthrose du genou:",
+      "images": [],
+      "image": "",
+      "options": [
+        "Tests de McMurray",
+        "Test de l’adduction force",
+        "Ballottement de la rotule",
+        "Test de Lachman"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 2,
+      "question": "un patient, âgé de 24ans , ayant un accident du foot à 9h du matin, il se plaint de la difficultée de\nla marche et limité des mouvements de flexion et extension à cause de la douleur et du gros genou\ndroit. il sent une instabilité de la partie externe du genou,\nquel est le test de l’examen clinique pour confirmer la rupture du ligament lateral externe:",
+      "images": [],
+      "image": "",
+      "options": [
+        "Tests de McMurray",
+        "Test de l’abduction force",
+        "Test de l’adduction force",
+        "Test de Lachman"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 3,
+      "question": "Décubitus dorsal, saisissez le talon et fléchissez le genou. Empaumez le genou avec l’autre main,\nles doigts et le pouce le long de l’interligne articulaire interne. Du talon, faites tourner en dehors la\npartie basse de la jambe ; puis, poussez sur le côté externe pour appliquer un stress en valgus sur la\ntemps, étendez la jambe en rotation externe.\nQuel est le teste qui corresponde de ce technique de l’examen au dessus",
+      "images": [],
+      "image": "",
+      "options": [
+        "Tests de McMurray",
+        "Test de l’abduction force",
+        "Test de l’adduction force",
+        "Test de Lachman"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 4,
+      "question": "Décubitus dorsal, saisissez le talon et fléchissez le genou. Empaumez le genou avec l’autre main,\nles doigts et le pouce le long de l’interligne articulaire interne. Du talon, faites tourner en dehors la\npartie basse de la jambe ; puis, poussez sur le côté externe pour appliquer un stress en valgus sur la\ntemps, étendez la jambe en rotation externe. si le teste est possitif, quel est le diagnostic ?",
+      "images": [],
+      "image": "",
+      "options": [
+        "Rupture du ligament latéral interne",
+        "Rupture du Ligament lateral externe",
+        "Lésion du ménisque interne",
+        "Lésion du ménisque externe"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 5,
+      "question": "Décubitus dorsal - Genou et hanche fléchis et genou à plat sur la table - Empaumez le genou à 2\nmains avec les pouces sur l’interligne articulaire et les doigts sur les insertions interne et externe des\nmuscles ischiojamniers. - Tirer le tibia en avant et observez s’il glisse en avant , sous le fémur.\nQuel est le teste qui corresponde de ce technique de l’examen au dessus:",
+      "images": [],
+      "image": "",
+      "options": [
+        "Tests de McMurray",
+        "Signe de tiroir antérieur",
+        "Test de l’adduction force",
+        "Test de Lachman"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 6,
+      "question": "Décubitus dorsal - Genou et hanche fléchis et genou à plat sur la table - Empaumez le genou à 2\nmains avec les pouces sur l’interligne articulaire et les doigts sur les insertions interne et externe des\nmuscles ischiojamniers. - Tirer le tibia en avant et observez s’il glisse en avant , sous le fémur. si le\nteste est possitif,\nquel est le diagnostic ?",
+      "images": [],
+      "image": "",
+      "options": [
+        "Ligament latéral interne",
+        "Ligament lateral externe",
+        "Ligament croisé antérieur",
+        "Ligament croisé postérieur"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 7,
+      "question": "A l’inspection au cour de l’examen clinique du coude, quels sont les éléments anatomiques qui\nsont identifié:",
+      "images": [],
+      "image": "",
+      "options": [
+        "les épicondyle médial et lateral de l’humerus et l’ olécrane de l’ulna. inspection les contours du coude, y compris la face d’extension de l’ulna et de l’olécrane.",
+        "les épicondyle médial et lateral du fémur et l’ olécrane de l’ulna. inspection les contours du coude, y compris la face d’extension de l’ulna et de l’olécrane.",
+        "les épicondyles medial et lateral et l’ olécrane de l’ulna. inspection les contours du coude et du nerf cubital, y compris la face d’extension de l’ulna et de l’olécrane.",
+        "les épicondyle médial et lateral et l’ olécrane du radius. inspection des contours du coude, y compris la face d’extension de l’ulna et de l’olécrane."
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 8,
+      "question": "En arrière du coude, quels sont les 3 repères osseux:",
+      "images": [],
+      "image": "",
+      "options": [
+        "Epicondyle, Epitrochlée et Olécrane",
+        "Epicondyle interne et externe avec Olécrane",
+        "Condyle interne et externe avec Olécrâne",
+        "Condyle, Epitrochlé et Olécrâne."
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 9,
+      "question": "À l’examen du coude normale, où palpe-t-on le nerf cubital?",
+      "images": [],
+      "image": "",
+      "options": [
+        "en arrière, entre l’olécrane et l’ épicondyle medial",
+        "en arrière, entre l’olécrane et l’ epicondyle latérale",
+        "en arrière, entre l’ épicondyle médiale et latérale",
+        "en arrière, entre l et le condyle latérale et l’olécrane"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 10,
+      "question": "Quels sont les repères anatomiques pour exprimer la normalité du coude à l’examen Clinique en\narrière du coude",
+      "images": [],
+      "image": "",
+      "options": [
+        "Une ligne droite en extension’’Magaine” et un triangle equilateral en flexion à 90 degrée “ Nelaton”",
+        "Une ligne bicondylienne en extension’’Magaine et et un triangle equilateral en flexion à 90 degrée “ Nelaton”",
+        "Une ligne droite en extension’’Magaine” et un triangle équilateral en flexion à 60 degrée “ Nelaton”",
+        "Une ligne droite en extension’’Magaine” et un triangle équilateral en flexion à 30 degrée “ Nelaton”"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 11,
+      "question": "En cas de luxation postérieur du coude, quels sont les éléments anatomiques perdues à face\npostérieur du coude?",
+      "images": [],
+      "image": "",
+      "options": [
+        "Une ligne droite en extension’’Magaine” et un triangle equilateral en flexion à 90 degrée “ Nelaton”",
+        "Une ligne bicondylienne en extension’’Magaine et et un triangle equilateral en flexion à 90 degrée “ Nelaton”",
+        "Une ligne droite en extension’’Magaine” et un triangle équilateral en flexion à 60 degrée “ Nelaton”",
+        "Une ligne droite en extension’’Magaine” et un triangle équilateral en flexion à 30 degrée “ Nelaton”"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 12,
+      "question": "Palpation douloureuse au niveau de styloïde radiale avec test de Finkelestein positif, quel est le\ndiagnostic ?",
+      "images": [],
+      "image": "",
+      "options": [
+        "Ténosynovite de De Quervain",
+        "Syndrome canal carpien",
+        "une polyarthrite rhumatoïde",
+        "une maladie de Duputren"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 13,
+      "question": "S’il existe une douleur du poignet, testez le fonctionnement du pouce et demandant au patient\nd’attraper son pouce à l’intérieur de sa paume, puis de porte le poignet en dendans, en déviation\nulnaire. Quel est le test ou le sign qui corresponde de ce technique de l’examen au dessus:",
+      "images": [],
+      "image": "",
+      "options": [
+        "Le sign de Tinel",
+        "Sign de Phalen",
+        "Le test de Finkelestein",
+        "Le test de l’ abduction du pouce"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 14,
+      "question": "Les nodosités de Heberden sur la fcae dorsolatérale des interphangein distal sont fréqunents dans\nquelle pathologique?",
+      "images": [],
+      "image": "",
+      "options": [
+        "Polyarthrite Rhumatoïde",
+        "Arthrose des IPD",
+        "Syndrome canal carpien",
+        "Ténosynovite de De Quervain"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 15,
+      "question": "Parmi les propositions au dessous, c’est qui correspond au technique de test de Tinel?",
+      "images": [],
+      "image": "",
+      "options": [
+        "Compression du médian, en demandant au patient de maintenir les pognets en flexion pendant une minute, ou bien s’appuyer le dos de ses mains l’un contre l’autre, pour former des angles droits ( engourdissement et fourmillements dans 60 seconds+)",
+        "Compression du nerf médien, en tappant sur le trajet du nerf médian dans le canal carpien ( douleur et engourdissement dans le térritoire du nerf median)",
+        "Demandez au patient d’élève le pouce à la verticale tandis que vous appuyez vers le bas.",
+        "Demander au patient de saisir votre index et votre majeur. Cette manoeuvre teste les articulations du poignet, les fléchisseurs des soigts, les muscles intrinsèques et les articulations de la main."
+      ],
+      "correctIndex": 1
+    }
+  ]
+}

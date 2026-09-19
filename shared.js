@@ -211,20 +211,17 @@ function getQuestionSignature(q) {
 // PERSISTENT PERFORMANCE ANALYTICS TRACKING
 // ==========================================================================
 
-function getAnalyticsData() {
+async function getAnalyticsData() {
+  if (typeof StudyRepository !== 'undefined') return StudyRepository.getAnalyticsData();
   const raw = localStorage.getItem('app_analytics_stats');
   if (!raw) return { total: 0, correct: 0, profs: {} };
-  try {
-    return JSON.parse(raw);
-  } catch (e) {
-    return { total: 0, correct: 0, profs: {} };
-  }
+  try { return JSON.parse(raw); } catch (e) { return { total: 0, correct: 0, profs: {} }; }
 }
 
-function recordAnalyticsAnswer(major, year, semester, subject, professor, isCorrect) {
+async function recordAnalyticsAnswer(major, year, semester, subject, professor, isCorrect) {
   if (!major || year === undefined || semester === undefined || !subject || !professor) return;
 
-  const stats = getAnalyticsData();
+  const stats = await getAnalyticsData();
   const profSlug = getProfSlug(professor);
   const profKey = `${major.toLowerCase()}_y${year}_s${semester}_${subject.toLowerCase()}_${profSlug}`;
 
@@ -249,22 +246,27 @@ function recordAnalyticsAnswer(major, year, semester, subject, professor, isCorr
   stats.profs[profKey].total += 1;
   if (isCorrect) stats.profs[profKey].correct += 1;
 
-  localStorage.setItem('app_analytics_stats', JSON.stringify(stats));
+  if (typeof StudyRepository !== 'undefined') await StudyRepository.saveAnalyticsData(stats);
+  else localStorage.setItem('app_analytics_stats', JSON.stringify(stats));
 }
 
 // Record question result in vault + update accuracy analytics
-function recordQuestionResult(questionObj, isCorrect, major, year, semester, subject, professor) {
+async function recordQuestionResult(questionObj, isCorrect, major, year, semester, subject, professor) {
   if (!major || year === undefined || semester === undefined || !subject || !professor) return;
 
   // 1. Record in Analytics Engine
-  recordAnalyticsAnswer(major, year, semester, subject, professor, isCorrect);
+  await recordAnalyticsAnswer(major, year, semester, subject, professor, isCorrect);
 
   // 2. Record in Missed Question Vault
   const key = getStorageKey(major, year, semester, subject, professor);
   if (!key) return;
 
-  const raw = localStorage.getItem(key);
-  let vault = raw ? JSON.parse(raw) : [];
+  let vault = typeof StudyRepository !== 'undefined'
+    ? await StudyRepository.getMissedQuestions(key)
+    : (() => {
+      const raw = localStorage.getItem(key);
+      try { return raw ? JSON.parse(raw) : []; } catch (e) { return []; }
+    })();
 
   const targetSig = getQuestionSignature(questionObj);
   if (!targetSig) return;
@@ -288,11 +290,9 @@ function recordQuestionResult(questionObj, isCorrect, major, year, semester, sub
     }
   }
 
-  if (vault.length > 0) {
-    localStorage.setItem(key, JSON.stringify(vault));
-  } else {
-    localStorage.removeItem(key);
-  }
+  if (typeof StudyRepository !== 'undefined') await StudyRepository.saveMissedQuestions(key, vault);
+  else if (vault.length > 0) localStorage.setItem(key, JSON.stringify(vault));
+  else localStorage.removeItem(key);
 }
 
 function shuffleArray(array) {
@@ -311,16 +311,28 @@ function setupSharedModals() {
   const closeDonateBtn = document.getElementById('close-donate-btn');
   const bottomCloseDonateBtn = document.getElementById('bottom-close-donate-btn');
 
-  const closeDonate = () => donateModal && donateModal.classList.add('hidden');
+  let donateTrigger = null;
+  const closeDonate = () => {
+    if (!donateModal) return;
+    donateModal.classList.add('hidden');
+    if (donateTrigger) donateTrigger.focus();
+  };
 
   if (navDonateBtn && donateModal) {
-    navDonateBtn.addEventListener('click', () => donateModal.classList.remove('hidden'));
+    navDonateBtn.addEventListener('click', () => {
+      donateTrigger = navDonateBtn;
+      donateModal.classList.remove('hidden');
+      closeDonateBtn?.focus();
+    });
   }
   if (closeDonateBtn) closeDonateBtn.addEventListener('click', closeDonate);
   if (bottomCloseDonateBtn) bottomCloseDonateBtn.addEventListener('click', closeDonate);
   if (donateModal) {
     donateModal.addEventListener('click', (e) => {
       if (e.target === donateModal) closeDonate();
+    });
+    donateModal.addEventListener('keydown', (e) => {
+      if (e.key === 'Escape') closeDonate();
     });
   }
 

@@ -5,7 +5,7 @@
 let resultData = null;
 let currentReviewFilter = 'wrong';
 
-document.addEventListener('DOMContentLoaded', () => {
+document.addEventListener('DOMContentLoaded', async () => {
   // 1. Read saved quiz results from sessionStorage
   const rawResult = sessionStorage.getItem('lastQuizResult');
   if (!rawResult) {
@@ -46,7 +46,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
   setupFilterControls();
   renderReviewBreakdown();
-  checkMissedQuestions();
+  await checkMissedQuestions();
   setupActionButtons();
 
   // Natural AdSense Push execution on page load
@@ -66,6 +66,13 @@ function getImageList(q) {
     return [q.image.trim()];
   }
   return [];
+}
+
+function getQuestionImageSource(q, imageName) {
+  if (q && q.offlineImages && typeof q.offlineImages[imageName] === 'string') {
+    return q.offlineImages[imageName];
+  }
+  return IMAGE_BASE_URL + imageName;
 }
 
 // Helper: Open Image Zoom Modal
@@ -191,8 +198,9 @@ function renderReviewBreakdown() {
 
     if (imgList.length > 0) {
       const imgsMarkup = imgList.map(imgName => {
-        const fullImgUrl = IMAGE_BASE_URL + imgName;
-        return `<img src="${fullImgUrl}" alt="Question Diagram" class="question-img" onclick="openZoomModal('${fullImgUrl}')" />`;
+        const fullImgUrl = getQuestionImageSource(q, imgName);
+        const safeImageUrl = escapeHTML(fullImgUrl);
+        return `<img src="${safeImageUrl}" data-zoom-src="${safeImageUrl}" alt="Question Diagram" class="question-img" />`;
       }).join('');
 
       imgHTML = `
@@ -263,11 +271,15 @@ function renderReviewBreakdown() {
       card.innerHTML = qTitle + imgHTML + optionsHTML;
     }
 
+    card.querySelectorAll('[data-zoom-src]').forEach(image => {
+      image.addEventListener('click', () => openZoomModal(image.dataset.zoomSrc));
+    });
+
     reviewContainer.appendChild(card);
   });
 }
 
-function checkMissedQuestions() {
+async function checkMissedQuestions() {
   const { major, year, semester, subject, professor, isSubjectWide } = resultData;
   const retryMissedBtn = document.getElementById('retry-missed-btn');
   const missedCountEl = document.getElementById('missed-count');
@@ -282,8 +294,9 @@ function checkMissedQuestions() {
     ? getStorageKey(major, year, semester, subject, professor)
     : `missed_${major ? major.toLowerCase() : ''}_y${year}_s${semester}_${subject ? subject.toLowerCase() : ''}_${typeof getProfSlug === 'function' ? getProfSlug(professor) : professor}`;
 
-  const savedMissed = localStorage.getItem(key);
-  const missedList = savedMissed ? JSON.parse(savedMissed) : [];
+  const missedList = typeof StudyRepository !== 'undefined'
+    ? await StudyRepository.getMissedQuestions(key)
+    : [];
 
   if (missedList.length > 0) {
     if (missedCountEl) missedCountEl.textContent = missedList.length;

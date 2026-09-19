@@ -8,7 +8,7 @@ let activeExportSubjectKey = null;
 let activeAccountTab = 'stats'; // 'stats' | 'vault' | 'offline'
 let accountTabSwitcher = null;
 
-document.addEventListener('DOMContentLoaded', () => {
+document.addEventListener('DOMContentLoaded', async () => {
   // 1. Initialize Sub-Navbar Tab Switcher
   setupAccountTabs();
 
@@ -16,8 +16,8 @@ document.addEventListener('DOMContentLoaded', () => {
   setupPreferences();
 
   // 3. Render Initial Dashboard Views
-  renderAnalyticsDashboard();
-  renderAccountDashboard();
+  await renderAnalyticsDashboard();
+  await renderAccountDashboard();
   renderOfflineDashboard();
 
   // 4. Bind Vault & Bulk Delete Listeners
@@ -91,9 +91,9 @@ function setupAccountTabs() {
 // 2. ACCURACY ANALYTICS & ANIMATED FULL PIE CHART
 // ==========================================================================
 
-function renderAnalyticsDashboard() {
+async function renderAnalyticsDashboard() {
   const statsData = typeof getAnalyticsData === 'function'
-    ? getAnalyticsData()
+    ? await getAnalyticsData()
     : { total: 0, correct: 0, profs: {} };
 
   const total = statsData.total || 0;
@@ -125,13 +125,20 @@ function renderAnimatedPieChart(correct, incorrect, total) {
 
   if (total === 0) {
     chartWrapper.innerHTML = `
-      <div class="pie-chart-container">
-        <svg class="pie-chart-svg" viewBox="0 0 42 42">
-          <circle cx="21" cy="21" r="15.9155" fill="#334155"></circle>
-        </svg>
-        <div class="pie-center-text">
-          <span id="center-percent" style="font-size: 1.5rem; color: var(--text-sub);">0%</span>
-          <span class="center-label">${getTranslation('stats_accuracy_rate')}</span>
+      <div class="accuracy-ring-layout">
+        <div class="pie-chart-container">
+          <svg class="pie-chart-svg" viewBox="0 0 42 42">
+            <circle class="accuracy-ring-track" cx="21" cy="21" r="15.9155" pathLength="100" />
+          </svg>
+          <div class="pie-center-text">
+            <span id="center-percent" class="empty-score">0%</span>
+            <span class="center-label">${getTranslation('stats_accuracy_rate')}</span>
+          </div>
+        </div>
+        <div class="accuracy-legend">
+          <span class="accuracy-legend-item"><i class="legend-dot correct-dot"></i>${getTranslation('stats_correct_answers')}: 0</span>
+          <span class="accuracy-legend-item"><i class="legend-dot incorrect-dot"></i>${getTranslation('stats_incorrect_answers')}: 0</span>
+          <span class="accuracy-total-label">${getTranslation('stats_total_questions')}: 0</span>
         </div>
       </div>
     `;
@@ -141,30 +148,54 @@ function renderAnimatedPieChart(correct, incorrect, total) {
   const correctPct = (correct / total) * 100;
 
   chartWrapper.innerHTML = `
-    <div class="pie-chart-container">
-      <svg class="pie-chart-svg" viewBox="0 0 42 42">
-        <!-- Base Circle (Incorrect / Total Background) -->
-        <circle cx="21" cy="21" r="15.9155" fill="none" stroke="#ef4444" stroke-width="31.831" />
-        
-        <!-- Animated Overlay Circle (Correct Slice) -->
-        <circle id="animated-correct-slice" cx="21" cy="21" r="15.9155" fill="none" 
-          stroke="#10b981" stroke-width="31.831" 
-          stroke-dasharray="0 100" stroke-dashoffset="25"
-          style="transition: stroke-dasharray 1.2s cubic-bezier(0.16, 1, 0.3, 1);" />
-      </svg>
-      <div class="pie-center-text" style="pointer-events: none; text-shadow: 0 2px 6px rgba(0,0,0,0.6);">
-        <span id="center-percent">${Math.round(correctPct)}%</span>
-        <span class="center-label">${getTranslation('stats_accuracy_rate')}</span>
+    <div class="accuracy-ring-layout">
+      <div class="pie-chart-container">
+        <svg class="pie-chart-svg" viewBox="0 0 42 42">
+          <circle class="accuracy-ring-track" cx="21" cy="21" r="15.9155" pathLength="100" />
+          <circle id="animated-incorrect-slice" class="accuracy-ring-progress incorrect-ring-progress" cx="21" cy="21" r="15.9155" pathLength="100"
+            stroke-dasharray="0 100" stroke-dashoffset="25" />
+          <circle id="animated-correct-slice" class="accuracy-ring-progress" cx="21" cy="21" r="15.9155" pathLength="100"
+            stroke-dasharray="0 100" stroke-dashoffset="25" />
+        </svg>
+        <div class="pie-center-text">
+          <span id="center-percent">${Math.round(correctPct)}%</span>
+          <span class="center-label">${getTranslation('stats_accuracy_rate')}</span>
+          <span class="center-total">${total} ${getTranslation('stats_total_questions').toLowerCase()}</span>
+        </div>
+      </div>
+      <div class="accuracy-legend">
+        <span class="accuracy-legend-item"><i class="legend-dot correct-dot"></i>${getTranslation('stats_correct_answers')}: ${correct}</span>
+        <span class="accuracy-legend-item"><i class="legend-dot incorrect-dot"></i>${getTranslation('stats_incorrect_answers')}: ${incorrect}</span>
+        <span class="accuracy-total-label">${getTranslation('stats_total_questions')}: ${total}</span>
       </div>
     </div>
   `;
 
-  // Trigger smooth slice sweep animation on frame render
+  // Fill correct answers first, then fill the remaining arc with incorrect answers.
   requestAnimationFrame(() => {
     setTimeout(() => {
-      const sliceEl = document.getElementById('animated-correct-slice');
-      if (sliceEl) {
-        sliceEl.setAttribute('stroke-dasharray', `${correctPct} ${100 - correctPct}`);
+      const correctSliceEl = document.getElementById('animated-correct-slice');
+      const incorrectSliceEl = document.getElementById('animated-incorrect-slice');
+      const centerPercentEl = document.getElementById('center-percent');
+      if (correctSliceEl) {
+        correctSliceEl.setAttribute('stroke-dasharray', `${correctPct} ${100 - correctPct}`);
+      }
+      if (centerPercentEl) {
+        const animationStart = performance.now();
+        const animateAccuracy = (currentTime) => {
+          const elapsed = Math.min(currentTime - animationStart, 1200);
+          const progress = elapsed / 1200;
+          centerPercentEl.textContent = `${Math.round(correctPct * progress)}%`;
+          if (progress < 1) requestAnimationFrame(animateAccuracy);
+        };
+        centerPercentEl.textContent = '0%';
+        requestAnimationFrame(animateAccuracy);
+      }
+      if (incorrectSliceEl && incorrect > 0) {
+        setTimeout(() => {
+          incorrectSliceEl.setAttribute('stroke-dashoffset', `${25 - correctPct}`);
+          incorrectSliceEl.setAttribute('stroke-dasharray', `${100 - correctPct} ${correctPct}`);
+        }, 1250);
       }
     }, 50);
   });
@@ -289,7 +320,7 @@ function updateAutoAdvanceStatus(enabled) {
 // 4. MISSED QUESTION VAULT DASHBOARD
 // ==========================================================================
 
-function renderAccountDashboard() {
+async function renderAccountDashboard() {
   const accountSubjectList = document.getElementById('account-subject-list');
   const toggleSelectModeBtn = document.getElementById('toggle-select-mode-btn');
   const bulkControls = document.getElementById('bulk-controls');
@@ -298,23 +329,13 @@ function renderAccountDashboard() {
   accountSubjectList.innerHTML = '';
   let totalMissedAcrossApp = 0;
 
-  const missedKeys = [];
-  for (let i = 0; i < localStorage.length; i++) {
-    const key = localStorage.key(i);
-    if (key && key.startsWith('missed_')) {
-      missedKeys.push(key);
-    }
-  }
+  const missedRecords = typeof StudyRepository !== 'undefined'
+    ? await StudyRepository.getAllMissedQuestions()
+    : [];
 
-  missedKeys.sort().forEach(key => {
-    const rawData = localStorage.getItem(key);
-    let missedArray = [];
-    try {
-      const parsedData = rawData ? JSON.parse(rawData) : [];
-      missedArray = Array.isArray(parsedData) ? parsedData : [];
-    } catch (error) {
-      console.warn(`Ignoring invalid missed-question vault data for ${key}.`, error);
-    }
+  missedRecords.sort((first, second) => first.id.localeCompare(second.id)).forEach(record => {
+    const key = record.id;
+    const missedArray = Array.isArray(record.questions) ? record.questions : [];
 
     if (missedArray.length > 0) {
       totalMissedAcrossApp += missedArray.length;
@@ -474,7 +495,12 @@ function setupVaultListeners() {
 
   if (confirmDeleteBtn) {
     confirmDeleteBtn.addEventListener('click', () => {
-      selectedSubjectKeys.forEach(key => localStorage.removeItem(key));
+      const deleteRequests = Array.from(selectedSubjectKeys).map(key => (
+        typeof StudyRepository !== 'undefined'
+          ? StudyRepository.saveMissedQuestions(key, [])
+          : Promise.resolve(localStorage.removeItem(key))
+      ));
+      Promise.all(deleteRequests).then(() => renderAccountDashboard());
       selectedSubjectKeys.clear();
       isSelectMode = false;
 
@@ -567,26 +593,17 @@ async function fetchImageAsBase64(url) {
 async function executeAnkiDownload(shouldClearAfter) {
   if (!activeExportSubjectKey) return;
 
-  const raw = localStorage.getItem(activeExportSubjectKey);
-  if (!raw) return;
-
-  let questionsList;
-  try {
-    const parsedQuestions = JSON.parse(raw);
-    questionsList = Array.isArray(parsedQuestions)
-      ? parsedQuestions.filter(question => (
-        question &&
-        typeof question.question === 'string' &&
-        Array.isArray(question.options) &&
-        Number.isInteger(question.correctIndex) &&
-        question.correctIndex >= 0 &&
-        question.correctIndex < question.options.length
-      ))
-      : [];
-  } catch (error) {
-    console.warn(`Ignoring invalid Anki export data for ${activeExportSubjectKey}.`, error);
-    return;
-  }
+  const storedQuestions = typeof StudyRepository !== 'undefined'
+    ? await StudyRepository.getMissedQuestions(activeExportSubjectKey)
+    : [];
+  const questionsList = storedQuestions.filter(question => (
+    question &&
+    typeof question.question === 'string' &&
+    Array.isArray(question.options) &&
+    Number.isInteger(question.correctIndex) &&
+    question.correctIndex >= 0 &&
+    question.correctIndex < question.options.length
+  ));
 
   if (questionsList.length === 0) return;
 
@@ -640,7 +657,7 @@ async function executeAnkiDownload(shouldClearAfter) {
     downloadLink.click();
 
     if (shouldClearAfter) {
-      localStorage.removeItem(activeExportSubjectKey);
+      await StudyRepository.saveMissedQuestions(activeExportSubjectKey, []);
       renderAccountDashboard();
     }
   } catch (error) {

@@ -1,0 +1,144 @@
+{
+  "questions": [
+    {
+      "id": 1,
+      "question": "The most Common skin cancer is",
+      "images": [],
+      "image": "",
+      "options": [
+        "- Melanoma",
+        "- Merkel cell carcinoma",
+        "- Basal cell carcinoma(BCC)",
+        "- Squamous cell carcinoma(SCC)",
+        "- Angiosarcoma"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 2,
+      "question": "ABCDE method is the method for detection of skin cancer:",
+      "images": [],
+      "image": "",
+      "options": [
+        "- Melanoma",
+        "- Squamous cell carcinoma(SCC)",
+        "- Basal cell carcinoma",
+        "- Merkel carcinoma",
+        "- All types of skin cancer"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 3,
+      "question": "The most common skin cancer in young adults (25-29yrs) is:",
+      "images": [],
+      "image": "",
+      "options": [
+        "- Squamous cell carcinoma",
+        "- Melanoma",
+        "- Basal cell carcinoma",
+        "- Adenosarcoma",
+        "- Angiosarcoma"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 4,
+      "question": "The most lethal of the skin cancers is:",
+      "images": [],
+      "image": "",
+      "options": [
+        "- Squamous Cell Carcinoma",
+        "- Basal Cell Carcinoma",
+        "- Melanoma",
+        "- Kaposi sarcoma",
+        "- Cutaneous T-cell lymphoma"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 5,
+      "question": "The good technique for skin screening measure for skin cancer is",
+      "images": [],
+      "image": "",
+      "options": [
+        "- Skin biopsy",
+        "- Blood testing of tumor markers",
+        "- Regular Skin self- examination by the patient",
+        "- Regular total body examination by a physician",
+        "- All of above"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 6,
+      "question": "Risk factors of skin cancers:",
+      "images": [],
+      "image": "",
+      "options": [
+        "- Sun exposure",
+        "- Mole changing",
+        "- Family history of melanoma",
+        "- Severe blistering sunburns in childhood",
+        "- All of above"
+      ],
+      "correctIndex": 4
+    },
+    {
+      "id": 7,
+      "question": "Skin cancer can almost always be cured if",
+      "images": [],
+      "image": "",
+      "options": [
+        ". it’s found early",
+        ". you have good health",
+        ". you exercise regularly",
+        ". you did not expose to sun light too much",
+        ". none of all above"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 8,
+      "question": "A 50 year-old man was visit the dermatology department, complaining of a mole changing on the back. Physical examination showed brownish nodule measuring 10mmX12mm, irregular border, not homogenous color. What is the most likely diagnosis?",
+      "images": [],
+      "image": "",
+      "options": [
+        ". Squamous cell carcinoma",
+        ". Melanoma",
+        ". Basal cell carcinoma",
+        ". Adenosarcoma",
+        ". Angiosarcoma"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 9,
+      "question": "Which type of skin cancer arises from keratinocytes in the SUPRA BASAL layers of the epidermis?",
+      "images": [],
+      "image": "",
+      "options": [
+        ". Melanoma",
+        ". Basal cell carcinoma",
+        ". Squamous cell carcinoma",
+        ". Angiosarcoma",
+        ". Liposarcoma"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 10,
+      "question": "Which is the good method to prevent the skin cancers",
+      "images": [],
+      "image": "",
+      "options": [
+        ". Eat cooked food",
+        ". Keep your skin clean",
+        ". Avoid sun exposure",
+        ". Expose to the sun regularly to synthesis vitamin .D in the skin",
+        ". Use tanning bed to make the skin healthy"
+      ],
+      "correctIndex": 2
+    }
+  ]
+}

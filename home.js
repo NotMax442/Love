@@ -55,6 +55,31 @@ async function fetchProfQuestionCount(major, year, semester, subject, profName, 
   }
 }
 
+async function fetchSubjectQuestionCount(major, year, semester, subject, professors, countEl) {
+  if (!countEl || !Array.isArray(professors)) return;
+
+  try {
+    const config = { major, year, semester, subject };
+    const counts = await Promise.all(professors.map(async profName => {
+      try {
+        const questions = typeof StudyRepository !== 'undefined'
+          ? await StudyRepository.loadQuestions(config, profName)
+          : [];
+        return questions.length;
+      } catch (e) {
+        console.error(`Error loading questions for ${profName}:`, e);
+        return 0;
+      }
+    }));
+
+    const total = counts.reduce((sum, count) => sum + count, 0);
+    countEl.textContent = getTranslation('subject_study_all_count', { count: total });
+  } catch (e) {
+    console.error(`Error loading subject question count for ${subject}:`, e);
+    countEl.textContent = '';
+  }
+}
+
 document.addEventListener('DOMContentLoaded', async () => {
   await loadManifestData();
   setupNavigation();
@@ -262,7 +287,7 @@ function showSubjects(major, year, semester, direction = 'forward') {
   }
 }
 
-function showProfessors(major, year, semester, subject, direction = 'forward') {
+async function showProfessors(major, year, semester, subject, direction = 'forward') {
   showScreen('professor-screen', direction);
   const title = document.getElementById('selected-prof-screen-title');
   if (title) title.textContent = getTranslation('title_select_prof', { subject });
@@ -285,6 +310,31 @@ function showProfessors(major, year, semester, subject, direction = 'forward') {
   const isSingleProf = professors.length === 1;
 
   if (!isSingleProf) {
+    const subjectWideConfig = {
+      major,
+      year,
+      semester,
+      subject,
+      isSubjectWide: true
+    };
+    const subjectWideProgress = typeof StudyRepository !== 'undefined'
+      ? await StudyRepository.getStudyProgress(subjectWideConfig)
+      : null;
+    const subjectWideAnswered = subjectWideProgress?.studyAnsweredCount || 0;
+    const subjectWideTotal = Array.isArray(subjectWideProgress?.questions)
+      ? subjectWideProgress.questions.length
+      : 0;
+    const canContinueSubjectStudy = subjectWideAnswered > 0 && subjectWideAnswered < subjectWideTotal;
+    const continueSubjectButtonHTML = canContinueSubjectStudy
+      ? `<button class="btn continue-btn" style="flex: 1; min-width: 180px; display: inline-flex; align-items: center; justify-content: center; gap: 0.4rem;" onclick="continueSubjectStudySession()">
+          <i data-lucide="play" style="width: 16px; height: 16px;"></i> ${getTranslation('btn_continue_study_all', { answered: subjectWideAnswered, total: subjectWideTotal })}
+        </button>`
+      : '';
+    const studyAllLabel = canContinueSubjectStudy
+      ? getTranslation('btn_restart_study')
+      : getTranslation('btn_subject_study_all');
+    const studyAllIcon = canContinueSubjectStudy ? 'rotate-ccw' : 'book-open';
+
     const subjectBanner = document.createElement('div');
     subjectBanner.classList.add('subject-card', 'prof-card');
     subjectBanner.style.cssText = 'margin-bottom: 1rem; border-left: 4px solid var(--accent, #38bdf8); background: var(--bg-subcard, #1e293b); padding: 1.25rem; border-radius: 10px;';
@@ -299,25 +349,39 @@ function showProfessors(major, year, semester, subject, direction = 'forward') {
         <button class="btn quiz-btn" style="flex: 1; min-width: 180px; background: #10b981; display: inline-flex; align-items: center; justify-content: center; gap: 0.4rem;" onclick="startSubjectSession('quiz')">
           <i data-lucide="help-circle" style="width: 16px; height: 16px;"></i> ${getTranslation('btn_subject_quiz')}
         </button>
-        <button class="btn study-btn" style="flex: 1; min-width: 180px; background: #8b5cf6; color: white; display: inline-flex; align-items: center; justify-content: center; gap: 0.4rem;" onclick="startSubjectSession('study')">
-          <i data-lucide="book-open" style="width: 16px; height: 16px;"></i> ${getTranslation('btn_subject_study_all')}
+        <button class="btn study-btn subject-wide-study-btn" style="flex: 1; min-width: 180px; background: #8b5cf6; color: white; display: inline-flex; align-items: center; justify-content: center; gap: 0.4rem;" onclick="startSubjectSession('study')">
+          <i data-lucide="${studyAllIcon}" style="width: 16px; height: 16px;"></i> ${studyAllLabel}
         </button>
       </div>
+      ${continueSubjectButtonHTML ? `<div class="btn-row-dual" style="display: flex; gap: 0.75rem; flex-wrap: wrap; margin-top: 0.75rem;">${continueSubjectButtonHTML}</div>` : ''}
+      <p id="subject-study-all-count" style="margin: 0.75rem 0 0; font-size: 0.85rem; color: var(--text-sub); text-align: center;">
+        ${getTranslation('subject_study_all_count_loading')}
+      </p>
     `;
     profList.appendChild(subjectBanner);
+    fetchSubjectQuestionCount(
+      major,
+      year,
+      semester,
+      subject,
+      professors.map(getProfName),
+      subjectBanner.querySelector('#subject-study-all-count')
+    );
   }
 
-  professors.forEach(profItem => {
+  professors.forEach(async profItem => {
     const profName = getProfName(profItem);
     const profSlug = getProfSlug(profName);
     const storageKey = getStorageKey(major, year, semester, subject, profName);
-    const savedMissed = localStorage.getItem(storageKey);
-    const missedCount = savedMissed ? JSON.parse(savedMissed).length : 0;
+    const savedMissed = typeof StudyRepository !== 'undefined'
+      ? await StudyRepository.getMissedQuestions(storageKey)
+      : [];
+    const missedCount = savedMissed.length;
 
     const studyKey = `saved_study_${major.toLowerCase()}_y${year}_s${semester}_${subject.toLowerCase()}_${profSlug}`;
-    const savedStudyRaw = localStorage.getItem(studyKey);
-    let studyProgress = null;
-    if (savedStudyRaw) { try { studyProgress = JSON.parse(savedStudyRaw); } catch (e) { } }
+    const studyProgress = typeof StudyRepository !== 'undefined'
+      ? await StudyRepository.getStudyProgress({ major, year, semester, subject, professor: profName })
+      : null;
 
     let continueBtnHTML = '';
     let studyBtnLabel = isSingleProf ? getTranslation('btn_subject_study_all') : getTranslation('btn_study');
@@ -352,7 +416,7 @@ function showProfessors(major, year, semester, subject, direction = 'forward') {
           <button class="btn quiz-btn" style="flex: 1; background: #10b981; color: white; display: inline-flex; align-items: center; justify-content: center; gap: 0.4rem;" onclick="startSession('${profName}', 'quiz')">
             <i data-lucide="help-circle" style="width: 16px; height: 16px;"></i> ${getTranslation('btn_subject_quiz')}
           </button>
-          <button class="btn study-btn" style="flex: 1; background: #8b5cf6; color: white; display: inline-flex; align-items: center; justify-content: center; gap: 0.4rem;" onclick="startSession('${profName}', 'study')">
+          <button class="btn study-btn" style="flex: 1; background: #0284c7; color: white; display: inline-flex; align-items: center; justify-content: center; gap: 0.4rem;" onclick="startSession('${profName}', 'study')">
             <i data-lucide="${studyIcon}" style="width: 16px; height: 16px;"></i> ${studyBtnLabel}
           </button>
         </div>
@@ -360,7 +424,7 @@ function showProfessors(major, year, semester, subject, direction = 'forward') {
     } else {
       primaryActionsHTML = `
         <div class="subject-actions" style="width: 100%;">
-          <button class="btn study-btn" style="width: 100%; display: inline-flex; align-items: center; justify-content: center; gap: 0.4rem;" onclick="startSession('${profName}', 'study')">
+          <button class="btn study-btn" style="width: 100%; background: #0284c7; color: white; display: inline-flex; align-items: center; justify-content: center; gap: 0.4rem;" onclick="startSession('${profName}', 'study')">
             <i data-lucide="${studyIcon}" style="width: 16px; height: 16px;"></i> ${studyBtnLabel}
           </button>
         </div>
@@ -406,6 +470,9 @@ function showProfessors(major, year, semester, subject, direction = 'forward') {
     `;
 
     profList.appendChild(card);
+    if (window.lucide) {
+      lucide.createIcons({ attrs: { 'aria-hidden': 'true' } });
+    }
     const badgeEl = card.querySelector('.prof-q-badge');
     fetchProfQuestionCount(major, year, semester, subject, profName, badgeEl);
   });
@@ -427,6 +494,23 @@ function startSubjectSession(mode) {
     isSubjectWide: true,
     mode: mode,
     resume: false
+  };
+  sessionStorage.setItem('activeSessionConfig', JSON.stringify(sessionConfig));
+  window.location.href = 'quiz';
+}
+
+function continueSubjectStudySession() {
+  const rawProfList = manifestData[currentMajor]?.[currentYear]?.[currentSemester]?.[currentSubject] || [];
+  const professors = rawProfList.map(getProfName);
+  const sessionConfig = {
+    major: currentMajor,
+    year: currentYear,
+    semester: currentSemester,
+    subject: currentSubject,
+    professors,
+    isSubjectWide: true,
+    mode: 'study',
+    resume: true
   };
   sessionStorage.setItem('activeSessionConfig', JSON.stringify(sessionConfig));
   window.location.href = 'quiz';
@@ -482,8 +566,12 @@ function clearSavedMissed(profName) {
   const key = (typeof getStorageKey === 'function')
     ? getStorageKey(currentMajor, currentYear, currentSemester, currentSubject, profName)
     : `missed_${currentMajor.toLowerCase()}_y${currentYear}_s${currentSemester}_${currentSubject.toLowerCase()}_${profSlug}`;
-  localStorage.removeItem(key);
-  showProfessors(currentMajor, currentYear, currentSemester, currentSubject, 'none');
+  if (typeof StudyRepository !== 'undefined') {
+    StudyRepository.saveMissedQuestions(key, []).then(() => showProfessors(currentMajor, currentYear, currentSemester, currentSubject, 'none'));
+  } else {
+    localStorage.removeItem(key);
+  }
+  if (typeof StudyRepository === 'undefined') showProfessors(currentMajor, currentYear, currentSemester, currentSubject, 'none');
 }
 
 async function downloadProfessorOfflinePackage(profName) {

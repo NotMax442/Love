@@ -1,0 +1,88 @@
+{
+  "questions": [
+    {
+      "id": 1,
+      "question": "Quel est l’aspect typique d’un hématome extradural à la TDM sans injection de produit de contraste ?",
+      "images": [],
+      "image": "",
+      "options": [
+        ". En forme de croissant",
+        ". En lentille biconvexe",
+        ". Diffus dans l’ensemble de l’hémisphère",
+        ". Hypodense par rapport au parenchyme cérébral",
+        ". Ne se visualise pas en scanner"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 2,
+      "question": "Quel est l’aspect typique d’un hématome sous-dural aigu au scanner sans injection de produit de contraste ?",
+      "images": [],
+      "image": "",
+      "options": [
+        ". Hypodense, en forme de lentille biconvexe",
+        ". Hyperdense, en croissant (concavo-convexe)",
+        ". Iso-dense par rapport au parenchyme cérébral",
+        ". Hyperdense, en forme de lentille biconvexe",
+        ". Hypodense, en croissant"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 3,
+      "question": "Quel est l’aspect typique d’une hémorragie intracérébrale aiguë au scanner non injecté ?",
+      "images": [],
+      "image": "",
+      "options": [
+        ". Hypodense par rapport au parenchyme cérébral",
+        ". Iso-dense par rapport au parenchyme cérébral",
+        ". Hyperdense par rapport au parenchyme cérébral",
+        ". Non visible sans injection de produit de contraste",
+        ". Difficile à différencier du liquide céphalorachidien (LCR)"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 4,
+      "question": "In MRI, the signal from water is:",
+      "images": [],
+      "image": "",
+      "options": [
+        ". Bright on T1, bright on T2",
+        ". Bright on T1, dark on T2",
+        ". Dark on T1, bright on T2",
+        ". Dark on T1, dark on T2",
+        ". Intermediate on both T1 and T2"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 5,
+      "question": "Quelle est l’unité de densité en scanner ?",
+      "images": [],
+      "image": "",
+      "options": [
+        ". Gray (Gy)",
+        ". Becquerel (Bq)",
+        ". Sievert (Sv)",
+        ". Hounsfield (UH)",
+        ". Tesla (T)"
+      ],
+      "correctIndex": 3
+    },
+    {
+      "id": 6,
+      "question": "Quelle est la densité typique de l’eau en unité Hounsfield (UH) sur un scanner ?",
+      "images": [],
+      "image": "",
+      "options": [
+        ") -1000 UH",
+        ") -500 UH",
+        ") 0 UH",
+        ") +500 UH",
+        ") +1000 UH"
+      ],
+      "correctIndex": 2
+    }
+  ]
+}

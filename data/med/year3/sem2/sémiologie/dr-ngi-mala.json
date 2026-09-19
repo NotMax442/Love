@@ -1,0 +1,117 @@
+{
+  "questions": [
+    {
+      "id": 1,
+      "question": "principales indications de l'ASP debout sont:\nprincipales indicati",
+      "images": [],
+      "image": "",
+      "options": [
+        ". Pneumopéritoine, occlusion intestinale",
+        ". Calcul vésiculaire, calcul rénal",
+        ". Calcul vésical, calcification pancréatique",
+        ". Calcul rénal, pneumopéritoine",
+        ". Occlusion intestinale, calcul vésiculaire"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 2,
+      "question": "Sur un ASP, un pneumopéritoine est\nSur un ASP, un pneum",
+      "images": [],
+      "image": "",
+      "options": [
+        ". Image blanche (opacité) arrondie dans l'hypochondre droit",
+        ". Opacité sous les coupoles diaphragmatiques",
+        ". Clarté (image noire) sous les coupoles diaphragmatiques",
+        ". Clarté à droite de la colonne lombaire",
+        ". Clarté au-dessus du pubis"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 3,
+      "question": "Cochez la réponse vraie. En ASP\nCochez la réponse vr",
+      "images": [],
+      "image": "",
+      "options": [
+        ". L'occlusion du grêle, les niveaux hydro aériques sont plus hauts que large",
+        ". L'occlusion du grêle, les niveaux hydro aériques sont plus larges que haut",
+        ". L'occlusion du grêle, les niveaux hydro aériques sont périphériques",
+        ". L'occlusion du grêle, les niveaux hydro aériques sont peu nombreux",
+        ". L'occlusion du grêle, les niveaux hydro aériques sont sous les coupoles diaphragmatiques"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 4,
+      "question": "En échographie, un kyste du foie (liquide) est\nEn échographie, un k",
+      "images": [],
+      "image": "",
+      "options": [
+        ". Anéchogène (image noire) avec cône d'ombre postérieur",
+        ". Image anéchogène avec artéfact de queue de comète",
+        ". Image anéchogène avec renforcement postérieur",
+        ". Image hyperéchogène (blanche) avec cône d'ombre postérieur",
+        ". Image hyperéchogène"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 5,
+      "question": "On ne peut pas faire le diagnostic d'une cholécystite aiguë: cochez la réponse vraie\nOn ne peut pas faire",
+      "images": [],
+      "image": "",
+      "options": [
+        ". En échographie",
+        ". En ASP",
+        ". En scanner",
+        ". En IRM"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 6,
+      "question": "La flèche (image hyperdense = blanche) corresponds à :\n1\nLa flèche (image hyp",
+      "images": [
+        "y3-semiologie-dr-ngi-mala-q8-image-1.jpg"
+      ],
+      "image": "y3-semiologie-dr-ngi-mala-q8-image-1.jpg",
+      "options": [
+        ". Un calcul rénal",
+        ". Un calcul vésiculaire",
+        ". Une calcification du foie",
+        ". Une calcification du pancréas",
+        ". Une calcification de la rate"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 7,
+      "question": "En scanner, un épanchement liquidien intra péritonéal (ascite non hémorragique) est\nEn scanner, un épanc",
+      "images": [],
+      "image": "",
+      "options": [
+        ". Hyperdense (blanche) entre + 500 UH et + 1000 UH",
+        ". Hyperdense entre + 100 UH et + 500 UH",
+        ". Hyperdense entre + 60 UH et + 100 UH",
+        ". Hypodense (noire) entre 0 UH et + 20 UH",
+        ". Hypodense entre - 60 UH à – 150 UH"
+      ],
+      "correctIndex": 3
+    },
+    {
+      "id": 8,
+      "question": "Cochez la réponse vraie / juste\n2\nCochez la réponse vr",
+      "images": [],
+      "image": "",
+      "options": [
+        ". Les voies biliaires intra hépatiques normales ne sont pas visibles en échographie",
+        ". Les voies biliaires intra hépatiques normales sont visibles en échographie",
+        ". La voie biliaire principale normale n'est pas visible en échographie",
+        ". Le calcul biliaire est anéchogène (noir) en échographie",
+        ". Pour explorer des pathologies des voies biliaires, on fait un ASP"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}
