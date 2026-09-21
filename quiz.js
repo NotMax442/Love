@@ -351,7 +351,7 @@ async function initSession() {
         try { return rawMissed ? JSON.parse(rawMissed) : []; } catch (e) { return []; }
       })();
     if (!missedList || missedList.length === 0) {
-      alert(getTranslation('no_missed_alert'));
+      showToast(getTranslation('no_missed_alert'), 'info');
       window.location.href = './';
       return;
     }
@@ -389,7 +389,7 @@ async function initSession() {
     }
 
     if (rawQuestions.length === 0) {
-      throw new Error("No questions available.");
+      throw new Error('No questions available.');
     }
 
     let processed = shuffleArray(rawQuestions);
@@ -407,7 +407,7 @@ async function initSession() {
       renderQuizQuestion();
     }
   } catch (error) {
-    alert(getTranslation('load_error_alert', { path: subject }));
+    showToast(getTranslation('load_error_alert', { path: subject }), 'error');
     window.location.href = './';
   } finally {
     if (loadingOverlay) loadingOverlay.classList.add('hidden');
@@ -440,7 +440,7 @@ function startQuizTimer() {
 
     if (timeRemaining <= 0) {
       clearInterval(timerInterval);
-      alert(getTranslation('time_up_alert'));
+      showToast(getTranslation('time_up_alert'), 'warning');
       finishSession();
     }
   }, 1000);

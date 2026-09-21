@@ -285,6 +285,16 @@ function renderProfessorAnalyticsList(statsData) {
 // ==========================================================================
 
 function setupPreferences() {
+  const designOptions = document.querySelectorAll('input[name="app-design"]');
+  if (designOptions.length > 0) {
+    applyDesign();
+    designOptions.forEach(option => {
+      option.addEventListener('change', (event) => {
+        if (event.target.checked) setDesign(event.target.value);
+      });
+    });
+  }
+
   const autoAdvanceToggle = document.getElementById('auto-advance-toggle');
   if (autoAdvanceToggle) {
     const isAutoAdvance = localStorage.getItem('auto_advance_quiz') === 'true';

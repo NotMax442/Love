@@ -62,9 +62,196 @@ function changeLanguage(lang) {
   location.reload();
 }
 
+const DESIGN_STORAGE_KEY = 'app_design';
+const DESIGN_MODES = ['current', 'new-dashboard'];
+
+function getSavedDesign() {
+  const savedDesign = localStorage.getItem(DESIGN_STORAGE_KEY);
+  return DESIGN_MODES.includes(savedDesign) ? savedDesign : 'current';
+}
+
+function applyDesign(design = getSavedDesign()) {
+  const activeDesign = DESIGN_MODES.includes(design) ? design : 'current';
+  document.documentElement.setAttribute('data-design', activeDesign);
+
+  document.querySelectorAll('input[name="app-design"]').forEach(input => {
+    input.checked = input.value === activeDesign;
+  });
+
+  return activeDesign;
+}
+
+function setDesign(design) {
+  const activeDesign = applyDesign(design);
+  localStorage.setItem(DESIGN_STORAGE_KEY, activeDesign);
+  if (activeDesign === 'new-dashboard') setupDashboardNavigation();
+  else closeDashboardNavigation();
+  return activeDesign;
+}
+
+function closeDashboardNavigation() {
+  const nav = document.querySelector('.main-navbar');
+  const toggle = document.querySelector('.dashboard-menu-toggle');
+  if (!nav || !toggle) return;
+  nav.classList.remove('is-menu-open');
+  toggle.setAttribute('aria-expanded', 'false');
+  toggle.innerHTML = '<i data-lucide="menu" style="width: 20px; height: 20px;"></i>';
+  if (window.lucide) lucide.createIcons();
+}
+
+function setupDashboardNavigation() {
+  const nav = document.querySelector('.main-navbar');
+  const toggle = document.querySelector('.dashboard-menu-toggle');
+  if (!nav) return;
+
+  const isNewDashboard = document.documentElement.getAttribute('data-design') === 'new-dashboard';
+  if (isNewDashboard && (!toggle || toggle.dataset.ready === 'true')) return;
+  if (!isNewDashboard && nav.dataset.currentIconsReady === 'true') return;
+
+  const iconMap = {
+    nav_home: 'house',
+    nav_about: 'circle-help',
+    nav_contact: 'message-square',
+    nav_account: 'user-round',
+    nav_donate: 'heart-handshake'
+  };
+
+  nav.querySelectorAll('.nav-links .nav-item').forEach(link => {
+    const iconName = iconMap[link.dataset.i18n];
+    if (!iconName) return;
+    if (!link.querySelector('.dashboard-nav-icon, i[data-lucide], svg.lucide')) {
+      const icon = document.createElement('i');
+      icon.className = 'dashboard-nav-icon';
+      icon.dataset.lucide = iconName;
+      icon.setAttribute('aria-hidden', 'true');
+      link.prepend(icon);
+    }
+
+    const label = link.dataset.i18n === 'nav_home' ? 'Home'
+      : link.dataset.i18n === 'nav_about' ? 'About'
+        : link.dataset.i18n === 'nav_contact' ? 'Contact Us'
+          : link.dataset.i18n === 'nav_account' ? 'My Account'
+            : 'Support Us';
+    link.setAttribute('aria-label', label);
+    link.title = label;
+    if (!isNewDashboard) {
+      [...link.childNodes].forEach(node => {
+        if (node.nodeType === Node.TEXT_NODE && node.textContent.trim()) {
+          const textLabel = document.createElement('span');
+          textLabel.className = 'current-nav-label';
+          textLabel.textContent = node.textContent.trim();
+          node.replaceWith(textLabel);
+        }
+      });
+    }
+  });
+
+  if (!isNewDashboard) {
+    nav.dataset.currentIconsReady = 'true';
+    if (window.lucide) lucide.createIcons();
+    return;
+  }
+
+  const setMenuState = (isOpen) => {
+    nav.classList.toggle('is-menu-open', isOpen);
+    toggle.setAttribute('aria-expanded', String(isOpen));
+    toggle.setAttribute('aria-label', isOpen ? 'Close navigation menu' : 'Open navigation menu');
+    toggle.innerHTML = `<i data-lucide="${isOpen ? 'x' : 'menu'}" style="width: 20px; height: 20px;"></i>`;
+    if (window.lucide) lucide.createIcons();
+  };
+
+  toggle.addEventListener('click', (event) => {
+    event.stopPropagation();
+    setMenuState(!nav.classList.contains('is-menu-open'));
+  });
+
+  nav.querySelectorAll('.nav-links .nav-item').forEach(link => {
+    link.addEventListener('click', () => setMenuState(false));
+  });
+
+  document.addEventListener('keydown', (event) => {
+    if (event.key === 'Escape') setMenuState(false);
+  });
+
+  toggle.dataset.ready = 'true';
+  if (window.lucide) lucide.createIcons();
+}
+
+function showToast(message, type = 'info', duration = 4200) {
+  if (!message || !document || !document.body) return;
+
+  let container = document.getElementById('app-toast-container');
+  if (!container) {
+    container = document.createElement('div');
+    container.id = 'app-toast-container';
+    container.setAttribute('role', 'status');
+    container.setAttribute('aria-live', 'polite');
+    container.setAttribute('aria-atomic', 'true');
+    document.body.appendChild(container);
+  }
+
+  const toast = document.createElement('div');
+  toast.className = `app-toast toast-${type}`;
+  toast.textContent = message;
+
+  container.appendChild(toast);
+
+  requestAnimationFrame(() => {
+    toast.classList.add('show');
+  });
+
+  window.setTimeout(() => {
+    toast.classList.remove('show');
+    window.setTimeout(() => toast.remove(), 220);
+  }, duration);
+}
+
+function ensureOfflineStatusIndicator() {
+  let indicator = document.getElementById('offline-status-indicator');
+  if (indicator) return indicator;
+
+  indicator = document.createElement('div');
+  indicator.id = 'offline-status-indicator';
+  indicator.className = 'offline-status-indicator';
+  indicator.setAttribute('role', 'status');
+  indicator.setAttribute('aria-live', 'polite');
+  indicator.title = 'Network status';
+
+  const target = document.querySelector('.nav-controls');
+  if (target) {
+    target.appendChild(indicator);
+  } else {
+    document.body.appendChild(indicator);
+  }
+
+  return indicator;
+}
+
+function updateOfflineStatus() {
+  const indicator = ensureOfflineStatusIndicator();
+  const isOnline = navigator.onLine;
+
+  if (!isOnline) {
+    indicator.title = 'You are offline.';
+    indicator.classList.remove('is-online');
+    indicator.classList.add('is-offline');
+    return;
+  }
+
+  indicator.title = 'You are online.';
+  indicator.classList.remove('is-offline');
+  indicator.classList.add('is-online');
+}
+
 // Global Initialization
 document.addEventListener('DOMContentLoaded', () => {
+  applyDesign();
   applyStaticTranslations();
+  setupDashboardNavigation();
+  updateOfflineStatus();
+
+  window.addEventListener('online', updateOfflineStatus);
+  window.addEventListener('offline', updateOfflineStatus);
 
   const langSelect = document.getElementById('language-select');
   if (langSelect) {
@@ -125,9 +312,11 @@ async function registerServiceWorker() {
     });
     await registration.update();
     document.documentElement.setAttribute('data-offline-support', 'ready');
+    updateOfflineStatus();
   } catch (error) {
     document.documentElement.setAttribute('data-offline-support', 'limited');
     console.warn('Service worker registration failed:', error);
+    updateOfflineStatus();
   }
 }
 
@@ -149,8 +338,10 @@ async function updateServiceWorkerForOfflineMode(enabled) {
         .map(key => caches.delete(key)));
     }
     document.documentElement.setAttribute('data-offline-support', 'disabled');
+    updateOfflineStatus();
   } catch (error) {
     console.warn('Could not disable offline support:', error);
+    updateOfflineStatus();
   }
 }
 

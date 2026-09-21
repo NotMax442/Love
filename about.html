@@ -29,10 +29,12 @@
   <!-- Icons & CSS -->
   <link rel="icon" type="image/png" sizes="192x192" href="assets/logo.png">
   <link rel="apple-touch-icon" href="assets/logo.png">
+  <script src="design-bootstrap.js"></script>
   <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="new-dashboard.css">
 
   <!-- Lucide Icons CDN -->
-  <script src="https://unpkg.com/lucide@latest"></script>
+  <script src="assets/lucide.js"></script>
 
   <!-- Google AdSense -->
   <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-4210272281940886"
@@ -44,6 +46,9 @@
 
     <!-- Top Navigation Bar -->
     <nav class="main-navbar">
+      <button class="dashboard-menu-toggle" type="button" aria-label="Open navigation menu" aria-expanded="false">
+        <i data-lucide="menu" style="width: 20px; height: 20px;"></i>
+      </button>
       <div class="nav-links">
         <a href="./" class="nav-item" data-i18n="nav_home">HOME</a>
         <a href="about" class="nav-item" data-i18n="nav_about">ABOUT</a>
@@ -69,8 +74,8 @@
     <div id="about-screen" class="screen" style="max-width: 800px; margin: 0 auto; line-height: 1.6;">
 
       <h1 style="margin-bottom: 0.5rem;" data-i18n="about_title">About TestforUHS</h1>
-      <p style="color: var(--text-sub); margin-bottom: 2rem;" data-i18n="about_sub">A free, dedicated study and
-        self-assessment platform for medical students.</p>
+      <p style="color: var(--text-sub); margin-bottom: 2rem;" data-i18n="about_sub">A free study space for medical
+        students to learn, review, and self-test.</p>
 
       <!-- Mission Card -->
       <div class="info-card"
@@ -80,8 +85,8 @@
           <i data-lucide="target" style="width: 20px; height: 20px; color: #0284c7;"></i> Our Mission
         </h3>
         <p style="color: var(--text-sub); margin-bottom: 0;" data-i18n="about_mission_desc">
-          TestforUHS was created to give medical students an intuitive, accessible way to review questions, practice
-          exam simulation, and track missed topics across their academic years—100% free of charge.
+          TestforUHS was built to make studying a little easier. It gives medical students a simple place to review
+          questions, practice like a real exam, and keep track of the topics they miss—without paying for access.
         </p>
       </div>
 
@@ -93,35 +98,35 @@
           <i data-lucide="heart-handshake" style="width: 20px; height: 20px;"></i> How TestforUHS Stays Free & Funded
         </h3>
         <p style="color: var(--text-sub); margin-bottom: 1rem;" data-i18n="about_funding_desc">
-          To keep this platform open and free for everyone without charging subscriptions or putting study materials
-          behind paywalls, we cover server, domain, and maintenance costs using two transparent methods:
+          We want this platform to stay open and free for everyone, so we cover the cost of hosting, the domain, and
+          maintenance in a simple and transparent way:
         </p>
 
         <div style="display: flex; flex-direction: column; gap: 1rem;">
 
           <!-- Ad Transparency -->
           <div style="padding: 1rem; background: var(--bg-main); border-radius: 6px; border-left: 4px solid #0284c7;">
-            <h4 style="margin: 0 0 0.5rem 0; color: var(--text-main);" data-i18n="about_ad_title">1. Non-Intrusive
-              Advertisements (Google AdSense)</h4>
+            <h4 style="margin: 0 0 0.5rem 0; color: var(--text-main);" data-i18n="about_ad_title">1. Light
+              Advertising (Google AdSense)</h4>
             <ul style="margin: 0; padding-left: 1.25rem; color: var(--text-sub); font-size: 0.9rem;">
-              <li data-i18n="about_ad_loc"><strong>Where ads appear:</strong> Only at the bottom of the Home page and on
-                the Session Results summary page.</li>
-              <li data-i18n="about_ad_zero"><strong>Zero Interruptions:</strong> We never place ads inside active quiz
-                screens or study sessions so your focus remains 100% on learning.</li>
-              <li data-i18n="about_ad_filter"><strong>Strict Content Filtering:</strong> All advertisements are heavily
-                filtered. We strictly block adult content, social casino/gambling, clickbait, and misleading
-                supplements.</li>
+              <li data-i18n="about_ad_loc"><strong>Where ads appear:</strong> Ads only appear at the bottom of the Home
+                page and on the Session Results page.</li>
+              <li data-i18n="about_ad_zero"><strong>No interruptions during study:</strong> We do not place ads inside
+                active quiz or study screens, so you can stay focused.</li>
+              <li data-i18n="about_ad_filter"><strong>Filtered content:</strong> We keep the ads limited and block adult
+                content, gambling, clickbait, and anything misleading.</li>
             </ul>
           </div>
 
           <!-- Donation Transparency -->
           <div style="padding: 1rem; background: var(--bg-main); border-radius: 6px; border-left: 4px solid #10b981;">
-            <h4 style="margin: 0 0 0.5rem 0; color: var(--text-main);" data-i18n="about_donate_title">2. Voluntary
-              Community Support (KHQR Donations)</h4>
+            <h4 style="margin: 0 0 0.5rem 0; color: var(--text-main);" data-i18n="about_donate_title">2. Optional
+              Support from the Community (KHQR Donations)</h4>
             <p style="margin: 0; color: var(--text-sub); font-size: 0.9rem;" data-i18n="about_donate_desc">
-              If TestforUHS helps you in your studies, you can voluntarily support platform development via our Support
-              Us button (KHQR). Every contribution directly covers domain fees and hosting infrastructure. Donations are
-              completely optional and unlock no special privileges—every student receives full access to all features.
+              If TestforUHS has been helpful for your studies, you can choose to support the platform through the
+              Support
+              Us button with KHQR. It is completely optional, and it does not give anyone extra benefits or special
+              access.
             </p>
           </div>
 
@@ -193,7 +198,7 @@
 
   <script src="storage.js"></script>
   <script src="translations.js"></script>
-  <script src="shared.js"></script>
+  <script src="shared.js?v=1.2.2"></script>
   <script src="about.js"></script>
   <script>
     if (window.lucide) {

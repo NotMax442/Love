@@ -595,15 +595,11 @@ async function downloadProfessorOfflinePackage(profName) {
     const saved = await window.OfflineRepository.downloadPackage(config, profName, questions);
     if (saved) {
       const statusMsg = getTranslation('offline_downloaded');
-      if (window.alert) {
-        window.alert(`${statusMsg}\n${profName}`);
-      }
+      showToast(`${statusMsg}: ${profName}`, 'success');
     }
   } catch (error) {
     console.error('Could not save offline package:', error);
-    if (window.alert) {
-      window.alert(getTranslation('offline_download_failed'));
-    }
+    showToast(getTranslation('offline_download_failed'), 'error');
   }
 }
 

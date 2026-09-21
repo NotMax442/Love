@@ -11,7 +11,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
     <!-- Lucide Icons -->
-    <script src="https://unpkg.com/lucide@latest"></script>
+    <script src="assets/lucide.js"></script>
     <style>
         :root {
             --bg-main: #0f172a;
@@ -185,42 +185,40 @@
             <h1>Privacy Policy</h1>
 
             <p>Welcome to <strong>TestforUHS</strong>. We want studying to feel simple, so you can use the platform
-                without creating an account or handing over personal information. This policy explains what stays on
-                your device, what is loaded from outside services, and how your privacy is handled.</p>
+                without creating an account or sharing personal information. This policy explains what stays on your
+                device, what is loaded from outside services, and how your privacy is handled.</p>
 
             <h2><i data-lucide="shield-check" style="width:20px; height:20px; color:var(--accent);"></i> 1. No Sign-Ups
                 or Accounts</h2>
-            <p>You can start studying right away without signing up. TestforUHS does <strong>not</strong> ask you for
-                personal details such as your name, email address, or phone number, and we do not maintain user
-                accounts on the site.
+            <p>You can start studying right away without signing up. TestforUHS does <strong>not</strong> ask for
+                details such as your name, email, or phone number, and we do not run user accounts on the site.
             </p>
 
             <h2><i data-lucide="hard-drive" style="width:20px; height:20px; color:var(--accent);"></i> 2. Your Progress
                 Stays on Your Device</h2>
-            <p>Some features work better when the site remembers your progress. To let you continue study sessions,
-                review missed questions, and use supported offline features, TestforUHS stores this information locally
-                in your browser. Most study data is kept in <code>IndexedDB</code>; small preferences and temporary
-                session details may use <code>localStorage</code> or <code>sessionStorage</code>. This includes:</p>
+            <p>Some features work better when the site remembers your progress. To help you continue study sessions,
+                review missed questions, and use offline features, TestforUHS stores this information locally in your
+                browser. Most study data is kept in <code>IndexedDB</code>; smaller preferences and temporary session
+                details may use <code>localStorage</code> or <code>sessionStorage</code>. This includes:</p>
             <ul>
                 <li><strong>Study Progress & Resume Points:</strong> Saves your place in a study session so you can
-                    come back to it later.</li>
-                <li><strong>Missed Questions:</strong> Keeps questions you answered incorrectly available for later
-                    review.</li>
-                <li><strong>Preferences:</strong> Remembers settings such as your theme and language choice.</li>
+                    return later.</li>
+                <li><strong>Missed Questions:</strong> Keeps questions you got wrong so you can review them again.</li>
+                <li><strong>Preferences:</strong> Remembers things like your theme and language choice.</li>
             </ul>
-            <p><em>This study data stays on your phone or computer and is not sent to our servers or stored in an
+            <p><em>This information stays on your phone or computer and is not sent to our servers or stored in an
                     external account database. If you clear this site's browser data, your saved progress and
                     preferences will be removed.</em></p>
 
             <h2><i data-lucide="cpu" style="width:20px; height:20px; color:var(--accent);"></i> 3. Visual Assets & Fonts
             </h2>
-            <p>To make the site easier to read and use, we load a few lightweight web assets from established
-                third-party services:</p>
+            <p>To make the site easier to read and use, we load a few lightweight assets from trusted third-party
+                services:</p>
             <ul>
                 <li><strong>Google Fonts:</strong> Provides the typeface used across the site.</li>
                 <li><strong>Lucide Icons:</strong> Provides many of the interface icons.</li>
             </ul>
-            <p>Your browser requests these assets directly from their content delivery networks when the site loads.
+            <p>Your browser requests these files directly from their content delivery networks when the site loads.
                 Those providers may receive basic technical information, such as your IP address, as part of serving
                 the files. Their own privacy policies apply to those requests.</p>
         </main>
@@ -238,7 +236,7 @@
 
     <script src="storage.js"></script>
     <script src="translations.js"></script>
-    <script src="shared.js"></script>
+    <script src="shared.js?v=1.2.2"></script>
     <script>
         if (window.lucide) {
             lucide.createIcons();

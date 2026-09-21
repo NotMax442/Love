@@ -30,10 +30,12 @@
   <link rel="icon" type="image/png" sizes="192x192" href="assets/logo.png">
   <link rel="apple-touch-icon" href="assets/logo.png">
   <link rel="manifest" href="manifest.webmanifest">
+  <script src="design-bootstrap.js"></script>
   <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="new-dashboard.css">
 
   <!-- Lucide Icons CDN -->
-  <script src="https://unpkg.com/lucide@latest"></script>
+  <script src="assets/lucide.js"></script>
 
   <!-- Google AdSense -->
   <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-4210272281940886"
@@ -82,6 +84,9 @@
 
     <!-- Top Navigation Bar -->
     <nav class="main-navbar">
+      <button class="dashboard-menu-toggle" type="button" aria-label="Open navigation menu" aria-expanded="false">
+        <i data-lucide="menu" style="width: 20px; height: 20px;"></i>
+      </button>
       <div class="nav-links">
         <a href="./" class="nav-item" data-i18n="nav_home">HOME</a>
         <a href="about" class="nav-item" data-i18n="nav_about">ABOUT</a>
@@ -188,6 +193,40 @@
               <option value="compact" data-i18n="option_style_compact">Compact (Text Summary)</option>
               <option value="full" data-i18n="option_style_full">Full Options (Study Style)</option>
             </select>
+          </div>
+
+          <div class="design-picker-section">
+            <div class="design-picker-heading">
+              <div>
+                <h4 data-i18n="account_design_title">Design</h4>
+                <p data-i18n="account_design_desc">Choose how the whole platform looks. This does not change your result
+                  review style.</p>
+              </div>
+            </div>
+            <div class="design-picker-grid" role="radiogroup" aria-label="Design choices">
+              <label class="design-option-card">
+                <input type="radio" name="app-design" value="current">
+                <span class="design-option-content">
+                  <span class="design-option-preview design-preview-current" aria-hidden="true">
+                    <span></span><span></span><span></span>
+                  </span>
+                  <span class="design-option-name" data-i18n="account_design_current">Current Design</span>
+                  <span class="design-option-description" data-i18n="account_design_current_desc">Keep the design you
+                    are using now.</span>
+                </span>
+              </label>
+              <label class="design-option-card">
+                <input type="radio" name="app-design" value="new-dashboard">
+                <span class="design-option-content">
+                  <span class="design-option-preview design-preview-dashboard" aria-hidden="true">
+                    <span></span><span></span><span></span>
+                  </span>
+                  <span class="design-option-name" data-i18n="account_design_new">New Dashboard</span>
+                  <span class="design-option-description" data-i18n="account_design_new_desc">A cleaner study-focused
+                    layout with clearer sections.</span>
+                </span>
+              </label>
+            </div>
           </div>
 
         </div>
@@ -363,7 +402,7 @@
 
   <script src="storage.js"></script>
   <script src="translations.js"></script>
-  <script src="shared.js"></script>
+  <script src="shared.js?v=1.2.2"></script>
   <script src="account.js"></script>
   <script>
     if (window.lucide) {

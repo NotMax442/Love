@@ -29,10 +29,12 @@
   <!-- Icons & CSS -->
   <link rel="icon" type="image/png" sizes="192x192" href="assets/logo.png">
   <link rel="apple-touch-icon" href="assets/logo.png">
+  <script src="design-bootstrap.js"></script>
   <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="new-dashboard.css">
 
   <!-- Lucide Icons CDN -->
-  <script src="https://unpkg.com/lucide@latest"></script>
+  <script src="assets/lucide.js"></script>
 
   <!-- Google AdSense -->
   <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-4210272281940886"
@@ -44,6 +46,9 @@
 
     <!-- Top Navigation Bar -->
     <nav class="main-navbar">
+      <button class="dashboard-menu-toggle" type="button" aria-label="Open navigation menu" aria-expanded="false">
+        <i data-lucide="menu" style="width: 20px; height: 20px;"></i>
+      </button>
       <div class="nav-links">
         <a href="./" class="nav-item" data-i18n="nav_home">HOME</a>
         <a href="about" class="nav-item" data-i18n="nav_about">ABOUT</a>
@@ -164,7 +169,7 @@
 
   <script src="storage.js"></script>
   <script src="translations.js"></script>
-  <script src="shared.js"></script>
+  <script src="shared.js?v=1.2.2"></script>
   <script src="contact.js"></script>
   <script>
     if (window.lucide) {

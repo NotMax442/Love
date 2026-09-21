@@ -23,7 +23,7 @@ document.addEventListener('DOMContentLoaded', async () => {
         const elapsedMins = (Date.now() - parseInt(lastSentTime, 10)) / (1000 * 60);
         if (elapsedMins < 30) {
           const remainingMins = Math.ceil(30 - elapsedMins);
-          alert(`⏱️ Cooldown Active:\nPlease wait ${remainingMins} minute(s) before sending feedback again.`);
+          showToast(`Cooldown active. Please wait ${remainingMins} minute(s) before sending feedback again.`, 'warning');
           return;
         }
       }
@@ -123,11 +123,11 @@ async function submitFeedback() {
     feedbackText.value = '';
     if (feedbackImage) feedbackImage.value = '';
 
-    alert('✅ Feedback sent successfully to Telegram!');
+    showToast('Feedback sent successfully to Telegram!', 'success');
     renderMyFeedbacks();
   } catch (error) {
     console.error('Submission error:', error);
-    alert(`❌ Failed to send feedback:\n${error.message}`);
+    showToast(`Failed to send feedback: ${error.message}`, 'error');
   } finally {
     if (submitBtn) {
       submitBtn.disabled = false;
@@ -200,7 +200,7 @@ function renderMyFeedbacks() {
 
 function escapeHTML(str) {
   if (!str) return '';
-  return String(str).replace(/[&<>'"]/g, 
+  return String(str).replace(/[&<>'"]/g,
     tag => ({
       '&': '&amp;',
       '<': '&lt;',
