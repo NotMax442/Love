@@ -1,0 +1,130 @@
+{
+  "questions": [
+    {
+      "id": 1,
+      "question": "L'examen clinique de la hanche doit être, sauf:",
+      "images": [],
+      "image": "",
+      "options": [
+        "Systématique",
+        "Comparatif des 2 hanches",
+        "Commencé par l'interrogatoire",
+        "Fait sur le patient debout, à la marche et coucher",
+        "Fini par TR, TV"
+      ],
+      "correctIndex": 4
+    },
+    {
+      "id": 2,
+      "question": "Le singe qui emmène le patient venir consulter pour la hanche le plus souvent est :",
+      "images": [],
+      "image": "",
+      "options": [
+        "La douleur",
+        "L'impotence fonctionnelle",
+        "La limitation de la mobilité articulaire",
+        "La boiterie",
+        "L'arrêt des matières et de gaz"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 3,
+      "question": "La douleur est un signe d'alarme pour la hanche. Il faut préciser les caractères suivants, sauf:",
+      "images": [],
+      "image": "",
+      "options": [
+        "Siège-Irradiation",
+        "Intensité-Rythme",
+        "Douleur postprandiale",
+        "Horaire",
+        "Facteurs déclenchants"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 4,
+      "question": "La douleur de siège postérieur avec irradiation descendante vers la face postérieure de la cuisse est la plus souvent d'origine:",
+      "images": [],
+      "image": "",
+      "options": [
+        "Douleur de la hanche ou du genou",
+        "Douleur sciatique",
+        "Douleur du nerf fémoro-cutané",
+        "Névralgie obturatrice",
+        "Douleur abdominale"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "La douleur de type inflammatoire est la douleur:",
+      "images": [],
+      "image": "",
+      "options": [
+        "Au repos",
+        ".A la fatigue",
+        "Au démarrage",
+        ".A la marche ou à la mobilisation",
+        "Pendant la nuit réveillant la malade"
+      ],
+      "correctIndex": 4,
+      "id": 5
+    },
+    {
+      "id": 6,
+      "question": "L'examen de la hanche: Décubitus dorsal, membre inférieur en rectitude, bassin immobilisé et porter la jambe en dehors:",
+      "images": [],
+      "image": "",
+      "options": [
+        "Flexion",
+        "Extension",
+        "Abduction",
+        "Adduction",
+        "Rotation externe-Rotation interne"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 7,
+      "question": "L'examen de la hanche: Décubitus latéral, membre inférieur en rectitude et porter le membre inférieur vers l'arrière :",
+      "images": [],
+      "image": "",
+      "options": [
+        "Flexion",
+        "Extension",
+        "Abduction",
+        "Adduction",
+        "Rotation externe-Rotation interne"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "L'impotence fonctionnelle absolue de la hanche, le malade est en position:",
+      "images": [],
+      "image": "",
+      "options": [
+        "Boiterie",
+        "Antalgique",
+        "Rotation externe et Abduction",
+        "Rotation interne et Adduction",
+        "Flexion ou Extension"
+      ],
+      "correctIndex": 1,
+      "id": 8
+    },
+    {
+      "id": 9,
+      "question": "Sur le cliché standard du bassin, le cintre cervico-obturateur est formé par :",
+      "images": [],
+      "image": "",
+      "options": [
+        "Bord inférieur du col fémoral et bord supérieur du trou obturateur",
+        "Bord supérieur du col fémoral et bord inférieur du trou obturateur",
+        "Interligne articulaire",
+        "Cavernes intra-osseuses",
+        "Lignes des deux surfaces articulaires"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

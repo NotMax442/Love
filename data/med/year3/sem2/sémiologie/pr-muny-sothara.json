@@ -1,0 +1,284 @@
+{
+  "questions": [
+    {
+      "id": 1,
+      "question": "What is the main reason that the clinicians need to learn common feature of mental health illness in their practice?",
+      "images": [],
+      "image": "",
+      "options": [
+        "Because mental illness can manifest physical symptoms",
+        "Because physical illness can manifest mental and behavioral symptoms",
+        "Because health and human behavior are intimately linked",
+        "Because clinicians often miss clues of mental and behavioral dysfunction in patients",
+        "Because mental illness always present in all animal including human"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 2,
+      "question": "Severity of mental illness strongly link with:",
+      "images": [],
+      "image": "",
+      "options": [
+        "Poor education",
+        "No family support",
+        "Comorbidity",
+        "Lack of services",
+        "Lack of nutrition"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 3,
+      "question": "During the examination, clinicians need to look for:",
+      "images": [],
+      "image": "",
+      "options": [
+        "The patient's financial resource",
+        "The patient's outlook, concerns and habits",
+        "The patient's occupation",
+        "The patient's symptoms",
+        "The patient's family condition"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 4,
+      "question": "Important (common) conditions that primary care office should look for:",
+      "images": [],
+      "image": "",
+      "options": [
+        "Depression",
+        "Suicide",
+        "Depression and suicide",
+        "Alcohol and substance abuse",
+        "Depression, suicide, alcohol and substance abuse"
+      ],
+      "correctIndex": 4
+    },
+    {
+      "id": 5,
+      "question": "Depression frequently accompanies:",
+      "images": [],
+      "image": "",
+      "options": [
+        "Cancer",
+        "HIV/AIDS",
+        "Stroke",
+        "Heart disease",
+        "Serious medical illnesses"
+      ],
+      "correctIndex": 4
+    },
+    {
+      "id": 6,
+      "question": "Which of the below is not the symptom of depression?",
+      "images": [],
+      "image": "",
+      "options": [
+        "Low self-esteem",
+        "Loss of pleasure and daily activities",
+        "Anhedonia",
+        "Echolalia",
+        "Difficulty in concentrating and making decision"
+      ],
+      "correctIndex": 3
+    },
+    {
+      "id": 7,
+      "question": "Which of below statements is not open-ended question?",
+      "images": [],
+      "image": "",
+      "options": [
+        "What happened when you have emotional difficulty",
+        "Did you drink alcohol last night",
+        "How did you feel when you get drunk",
+        "How did your wife react when you drink",
+        "What did your doctor advice you about drinking"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 8,
+      "question": "Rate of suicide using firearm among men and women in the US:",
+      "images": [],
+      "image": "",
+      "options": [
+        "Men 4 times > Women",
+        "Men 2 times > Women",
+        "Men Women",
+        "Men 4 times < Women",
+        "Men 2 times < Women"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 9,
+      "question": "When a depressed patient gives a clinical cue about suicide, what to appropriately do?",
+      "images": [],
+      "image": "",
+      "options": [
+        "Refer right away to emergency psychiatric unit",
+        "Avoid reminding him/her about suicide by changing topic to talk",
+        "Ask patient directly about suicide ideation and plans",
+        "Wait for self-expression about suicide ideation and intervene later",
+        "Prescribe antidepressants right away"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 10,
+      "question": "Screening for suicide should be targeted to?",
+      "images": [],
+      "image": "",
+      "options": [
+        "Old, female, divorced or separated and seriously or chronically ill",
+        "Old, male, divorced or separated and seriously or chronically ill",
+        "Young, female, divorced or separated and seriously or chronically ill",
+        "Young, male, divorced or separated and seriously or chronically ill",
+        "Old, male and female, divorced or separated and seriously or chronically ill"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 11,
+      "question": "CAGE questionnaire is used to screen for:",
+      "images": [],
+      "image": "",
+      "options": [
+        "Alcohol misuse",
+        "Substance misuse",
+        "Drug misuse",
+        "Wine misuse",
+        "Alcohol and other substances misuse"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 12,
+      "question": "The clinicians understand patient's mental status examination:",
+      "images": [],
+      "image": "",
+      "options": [
+        "During the interview with patient",
+        "During the interview with family members",
+        "During the registration",
+        "During the waiting for interview",
+        "During the process of psychiatric interview"
+      ],
+      "correctIndex": 4
+    },
+    {
+      "id": 13,
+      "question": "Doing mental status examination will",
+      "images": [],
+      "image": "",
+      "options": [
+        "Upset the patient",
+        "Invade the patient's privacy",
+        "Label the patient as pathologic",
+        "Gain trust and understanding",
+        "Harm the patient somehow"
+      ],
+      "correctIndex": 3
+    },
+    {
+      "id": 14,
+      "question": "A 70 years old patient who remains no response to external stimuli or even inner need and unable to arouse with eyes close all the time. Which below conditions should you consider?",
+      "images": [],
+      "image": "",
+      "options": [
+        "Stupor",
+        "Stupor and Coma",
+        "Coma",
+        "Dementia",
+        "Dementia and Stupor"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 15,
+      "question": "A 40 years old man who does not respond to your question. He only arouses from sleep after painful stimuli and lapse into an unresponsive state when the stimulus ceases. Which below conditions should you consider?",
+      "images": [],
+      "image": "",
+      "options": [
+        "Stupor",
+        "Stupor and Coma",
+        "Coma",
+        "Dementia",
+        "Dementia and coma"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 16,
+      "question": "A 30 years old woman moves expansively, dancing or singing in an inappropriate place, situation and time. She makes up colorfully her face. She speaks fast, loudly and talkatively. Her personal hygiene remain good. She should suffer from:",
+      "images": [],
+      "image": "",
+      "options": [
+        "Schizophrenia",
+        "Mania",
+        "Alcoholic",
+        "Depressive disorder",
+        "Anxiety disorder"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 17,
+      "question": "A 22 years old man graduated from college for 2 years. He had no motivation to study any more. He rather keeps watching TV most of the time at home. During the interview he shows limited facial expression. His mood is low most of the time at home as well as during the interview. On the other hand, he sometimes smiles alone as if someone is communicating with him: Which below diagnosis should be considered?",
+      "images": [],
+      "image": "",
+      "options": [
+        "Alcohol and substance abuse",
+        "Schizophrenia",
+        "Depressive disorder",
+        "Anxiety disorder",
+        "Alzheimer's disease"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 18,
+      "question": "A 22 years old man graduated from college for 2 years. He had no motivation to study any more. He rather keeps watching TV most of the time at home. During the interview he shows limited facial expression. His mood is low most of the time at home as well as during the interview. On the other hand, he sometimes smiles alone as if someone is communicating with him: What diagnosis is likely to be differentiated?",
+      "images": [],
+      "image": "",
+      "options": [
+        "Alcohol and substance abuse",
+        "Schizophrenia",
+        "Depressive disorders",
+        "Anxiety disorder",
+        "Alzheimer's disease"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 19,
+      "question": "A 17 years-old boy brought in the psychiatric out-patient clinic by his parents for abnormal behavior, speech and thinking. During the interview he does not aware that his particular mood, thought and perception is part of his illness. He even does not know the reason the parents bring him to the hospital. He does not know what is wrong or trouble with him. Which area of mental status consider impacted?",
+      "images": [],
+      "image": "",
+      "options": [
+        "Perception",
+        "Mood",
+        "Insight",
+        "Thinking",
+        "Memory"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 20,
+      "question": "A 17 years-old boy brought in the psychiatric out-patient clinic by his parents for abnormal behavior, speech and thinking. During the interview he does not aware that his particular mood, thought and perception is part of his illness. He even does not know the reason the parents bring him to the hospital. He does not know what is wrong or trouble with him. Which mental disorder should be appropriate to think about?",
+      "images": [],
+      "image": "",
+      "options": [
+        "Psychotic disorders",
+        "Depressive disorders",
+        "Developmental disorders",
+        "Anxiety disorders",
+        "Affective disorders"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

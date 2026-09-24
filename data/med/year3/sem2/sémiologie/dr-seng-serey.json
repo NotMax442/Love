@@ -1,0 +1,88 @@
+{
+  "questions": [
+    {
+      "id": 1,
+      "question": "How many layers of the cornea?",
+      "images": [],
+      "image": "",
+      "options": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5"
+      ],
+      "correctIndex": 4
+    },
+    {
+      "id": 2,
+      "question": "The inner layer of the cornea:",
+      "images": [],
+      "image": "",
+      "options": [
+        "Stroma",
+        "Epithelium",
+        "Descemet membrane",
+        "Endothelium",
+        "Bowman layer"
+      ],
+      "correctIndex": 3
+    },
+    {
+      "id": 3,
+      "question": "Normal intraocular pressure:",
+      "images": [],
+      "image": "",
+      "options": [
+        "1-10 mmHg",
+        "10-20 mmHg",
+        "15-25 mmHg",
+        "5-15 mmHg",
+        "10-30 mmHg"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 4,
+      "question": "How many layers of the tear film?",
+      "images": [],
+      "image": "",
+      "options": [
+        "5",
+        "2",
+        "1",
+        "3",
+        "4"
+      ],
+      "correctIndex": 3
+    },
+    {
+      "id": 5,
+      "question": "Mucin layer of tear film is produced by:",
+      "images": [],
+      "image": "",
+      "options": [
+        "Meibomian Gland",
+        "Lacrimal gland",
+        "Conjunctiva Goblet Cell",
+        "Cornea",
+        "Salivary gland"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 6,
+      "question": "The outer layer of retina:",
+      "images": [],
+      "image": "",
+      "options": [
+        "Ganglion cell layer",
+        "Retinal pigmented epithelium",
+        "Nerve fiber layer",
+        "Outer plexiform layer",
+        "Internal limiting membrane"
+      ],
+      "correctIndex": 1
+    }
+  ]
+}

@@ -1,0 +1,270 @@
+{
+  "questions": [
+    {
+      "id": 1,
+      "question": "Taking history, which social characteristic of adolescence can be classified into an early adolescence (10-14 years olds) stages?\nTaking history, whic",
+      "images": [],
+      "image": "",
+      "options": [
+        ". Peers increasingly important",
+        ". Much introspection global issues",
+        ". Limit testing",
+        ". Role with respect to other",
+        ". Separation from family"
+      ],
+      "correctIndex": 4
+    },
+    {
+      "id": 2,
+      "question": "Taking history, which social characteristic of adolescence can be classified into a middle adolescence (15-16 years olds) stages?\nTaking history, whic",
+      "images": [],
+      "image": "",
+      "options": [
+        ". Peers increasingly important",
+        ". Much introspection global issues",
+        ". Limit testing",
+        ". Role with respect to other",
+        ". Separation from family"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 3,
+      "question": "Taking history, which social characteristic of adolescence can be classified into a late adolescence (17-20 years olds) stages?\nTaking history, whic",
+      "images": [],
+      "image": "",
+      "options": [
+        ". Peers increasingly important",
+        ". Much introspection global issues",
+        ". Limit testing",
+        ". Role with respect to other and sexuality",
+        ". Experimental behavior and Dating"
+      ],
+      "correctIndex": 3
+    },
+    {
+      "id": 4,
+      "question": "Taking history, a good way to start questions with adolescence is:\nTaking history, a go",
+      "images": [],
+      "image": "",
+      "options": [
+        ". To chat informally about friends, school, hobbies and family",
+        ". To chat directly about the current disease",
+        ". To chat informally about what you are going to do on examination",
+        ". To interview without presence of parents",
+        ". To interview focusing on his or her current problems"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 5,
+      "question": "Among the following skin examination, which one is the most likely to be found in case of anemia?\nAmong the following",
+      "images": [],
+      "image": "",
+      "options": [
+        ". Cyanosis",
+        ". Pallor",
+        ". Jaundice",
+        ". Loss of pigmentation",
+        ". Redness"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 6,
+      "question": "Among the following skin examination, which one is the most likely to be found in case of heart faillure?\nAmong the following",
+      "images": [],
+      "image": "",
+      "options": [
+        ". Jaundice",
+        ". Pallor",
+        ". Cyanosis",
+        ". Brownness (increased pigmentation)",
+        ". Redness"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 7,
+      "question": "Among the following skin examination, which one is the most likely to be found in case of liver disease?\nAmong the following",
+      "images": [],
+      "image": "",
+      "options": [
+        ". Pallor",
+        ". Cyanosis",
+        ". Jaundice",
+        ". Brownness",
+        ". Redness"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 8,
+      "question": "Among the following physical examination of the chest and lung, which one is the most likely to be not found in case of respiratory difficulty?\nAmong the following",
+      "images": [],
+      "image": "",
+      "options": [
+        ". Contraction of the sternomastoid and scalene muscles",
+        ". Contraction of deltoid muscles",
+        ". Supraclavicular retraction",
+        ". Wheezing audible on auscultation",
+        ". Cyanosis"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 9,
+      "question": "The normal range for onset of breast development in young girl was between?\nThe normal range for",
+      "images": [],
+      "image": "",
+      "options": [
+        ". 7-11 years old",
+        ". 8-13 years old",
+        ". 9-14 years old",
+        ". 10-15 years old",
+        ". 11-15 years old"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 10,
+      "question": "Physical changes in young girl's breasts are generally progressing through the Tanner stages or Tanner sex maturity rating (SMR) stages, which divided into?\nPhysical changes in",
+      "images": [],
+      "image": "",
+      "options": [
+        ". 3 stages",
+        ". 4 stages",
+        ". 5 stages",
+        ". 6 stages",
+        ". 7 stages"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 11,
+      "question": "The first Tanner stages or Tanner sex maturity rating (SMR) stages called?\nThe first Tanner sta",
+      "images": [],
+      "image": "",
+      "options": [
+        ". Preadolescent stage",
+        ". Breast bud stage",
+        ". Enlargement of elevation of breast stage",
+        ". Projection of areola and nipple stage",
+        ". Mature stage"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 12,
+      "question": "Which association of signs is typical in gynecomastia in young boy?\nWhich association of",
+      "images": [],
+      "image": "",
+      "options": [
+        ". Enlarged breast",
+        ". Enlarged testes",
+        ". Enlarged nose",
+        ". Enlarged neck",
+        ". Enlarged mouth"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 13,
+      "question": "Among the following physical examination of male genitalia, which one is the most likely to be found in delayed puberty?\nAmong the following",
+      "images": [],
+      "image": "",
+      "options": [
+        ". No signs of pubertal development by 12 years of age",
+        ". No signs of pubertal development by 13 years of age",
+        ". No signs of pubertal development by 14 years of age",
+        ". No signs of pubertal development by 15 years of age",
+        ". No signs of pubertal development by 16 years of age"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 14,
+      "question": "Among the following physical examination of male genitalia, which one is the most likely to be found in sexually transmitted disease?\nAmong the following",
+      "images": [],
+      "image": "",
+      "options": [
+        ". Penile discharge",
+        ". Vaginal discharge",
+        ". Rectal fistula",
+        ". Leucorrhea",
+        ". Hematuria"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 15,
+      "question": "Which association of signs is typical in puberty delayed (constitutional delay) in males?\nWhich association of",
+      "images": [],
+      "image": "",
+      "options": [
+        ". Delayed mental and physical maturation",
+        ". Delayed mental and bone maturation",
+        ". Delayed sex hormonal levels",
+        ". Delayed bone maturation and sex hormonal levels",
+        ". Delayed bone and physical maturation but normal hormonal levels"
+      ],
+      "correctIndex": 4
+    },
+    {
+      "id": 16,
+      "question": "Among the following physical examination of musculoskeletal system in adolescence, idiopathic scoliosis was seen mostly in girls:\nAmong the following",
+      "images": [],
+      "image": "",
+      "options": [
+        ". 50% of cases",
+        ". 60% of cases",
+        ". 70% of cases",
+        ". 75% of cases",
+        ". 80% of cases"
+      ],
+      "correctIndex": 4
+    },
+    {
+      "id": 17,
+      "question": "Among the following physical examination for sport pre-participation screening, which sign is the most carefully assessed?\nAmong the following",
+      "images": [],
+      "image": "",
+      "options": [
+        ". Blood Pressure and cardiac murmurs",
+        ". Wheezing and Cardiac murmurs",
+        ". Breathe sound and blood pressure",
+        ". Breathe sound and cardiac murmurs",
+        ". Wheezing and blood pressure"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 18,
+      "question": "The sport pre-participation screening consists of?\nThe sport pre-partic",
+      "images": [],
+      "image": "",
+      "options": [
+        ". 10 steps",
+        ". 12 steps",
+        ". 14 steps",
+        ". 15 steps",
+        ". 16 steps"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 19,
+      "question": "Among the following physical examination for sport pre-participation screening, which sign is the most found in step 1, stand straight by facing forward?\nAmong the following",
+      "images": [],
+      "image": "",
+      "options": [
+        ". Loss of range of motion",
+        ". Asymmetry and swelling of joints",
+        ". Weakness of shoulder or neck",
+        ". Loss of strength of deltoid muscle",
+        ". Asymmetry from scoliosis"
+      ],
+      "correctIndex": 4
+    }
+  ]
+}

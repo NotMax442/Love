@@ -1,0 +1,144 @@
+{
+  "questions": [
+    {
+      "id": 1,
+      "question": "Quelle est la partie dans système nerveux periphrérique\nQuelle est la partie",
+      "images": [],
+      "image": "",
+      "options": [
+        "Encéphale",
+        "Cervelet",
+        "Tronc cérébral: mésencéphale, protubérance, bulbe",
+        "Moelle épinière",
+        "Système nerveux autonomies, Nerfs crânniens et nerfs spinaux"
+      ],
+      "correctIndex": 4
+    },
+    {
+      "id": 2,
+      "question": "Quels sont les causes dans la proposition d'atteint le syndrome pyramidal ?\nQuels sont les cause",
+      "images": [],
+      "image": "",
+      "options": [
+        "Atteinte de la voie cortico-spinale: Déficit moteur",
+        "Hypertonie spastique à la phase de début",
+        "Réflexe Ostéo-Tendineux vifs / ou normal ou hyporéflexie à la phase de début",
+        "Signe de Babinski positif ou négatif",
+        "Accident vasculaire cérébrale ischémique, Tumeurs SEP, atteint médullaire..."
+      ],
+      "correctIndex": 4
+    },
+    {
+      "id": 3,
+      "question": "Quels sont les signes dans le syndrome de l'hémisphère << majeur >> ?\nQuels sont les signe",
+      "images": [],
+      "image": "",
+      "options": [
+        "Chez un droitier: hémisphère droite",
+        "Hémiplégie droite controlatérale aux 3 étages (PF centrale), aphasie motrice",
+        "Hémianesthésie latérale homonyme",
+        "Amyotrophie précoce",
+        "Babinski négatif"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 4,
+      "question": "Quelles sont les propositions dans le syndrome cérébelleux ?\nQuelles sont les pro",
+      "images": [],
+      "image": "",
+      "options": [
+        "Atteinte du tronc",
+        "Hypertonie",
+        "Tremblement d'action",
+        "Ataxie, danse des tendons élargissement du polygone de sustentation, Dysmétrie",
+        "Réflexe ostéo-tendineux: hyporéflexie"
+      ],
+      "correctIndex": 3
+    },
+    {
+      "id": 5,
+      "question": "Quels sont les signes du triade symptomatiques du syndrome Parkinsonien?\nQuels sont les signe",
+      "images": [],
+      "image": "",
+      "options": [
+        "Movement anormaux",
+        "Akinésie, Rigidité (hypertonie plastique), Tremblement au repos, lent 5Hz",
+        "Visage figé, inexpressif",
+        "Disarthrie",
+        "Maladie de Parkinson, Wilson(Cu), AMS..."
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 6,
+      "question": "Quel est le proposition concerne de syndrome méningé ?\nQuel est le proposit",
+      "images": [],
+      "image": "",
+      "options": [
+        "Hyperpression intracrânienne en 2 secteurs: vasculaire et parenchyme cérébrale",
+        "Céphalée augmenté en décubitus et soulagée par position assise, vomissements",
+        "Patient couché en chien de fusil, dos tourné à la lumière",
+        "Oedème papillaire au fond d'œil au stade tardif",
+        "Toute pathologie ocupant de l'espace: tumeurs, abcès du cerveau, AVC massif..."
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 7,
+      "question": "Quelle est dans la proposition dans une méningiete aiguë:\nQuelle est dans la p",
+      "images": [],
+      "image": "",
+      "options": [
+        "Inflammation de la méninge",
+        "Céphalée iintense, diffuse ou localisée",
+        "Vomissement en jet, sans efforts, remplacés par des nausées",
+        "Raideur de nuque, phono/photo phobie",
+        "Syndrome méningé fébril"
+      ],
+      "correctIndex": 4
+    },
+    {
+      "id": 8,
+      "question": "Quels sont les symptôme dans le syndrome neurogène périphérique ?\nQuels sont les sympt",
+      "images": [],
+      "image": "",
+      "options": [
+        "Pas d'atteinte du nerf périphérique",
+        "Déficit moteur/sensitif, ROT diminués, Crampes et/ou fasciculations",
+        "Paralysie fasque",
+        "Amyotrophie musculaire tardive",
+        "Barbinski positif"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 9,
+      "question": "Quels sont les symptôme dans le syndrome myasthénique ?\nQuels sont les sympt",
+      "images": [],
+      "image": "",
+      "options": [
+        "Pas d'atteinte de la jonction neuromusculaire",
+        "Fatigabilité à l'effort, Musculature oculaire +++ (ptosis, diplopie)",
+        "Hyper-réflexie ostéotendineux",
+        "Babinski positif",
+        "Gravitée: pas de troubles de la déglutition, et pas de trouble de la respiration"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 10,
+      "question": "Quelle est la proposition dans le syndrome myogène ?\nQuelle est la propo",
+      "images": [],
+      "image": "",
+      "options": [
+        "Atteinte de la jonction neuro- muscle",
+        "Atrophie musculaire, parfois hypertrophie",
+        "Déficit moteur pur ou pas de trouble de sensibilité",
+        "Réflexe Ostéo-Tendineux (SOT): hyper- réflexie",
+        "Myosites, myopathies (Duchène, hypothyroïdie, cortisonique...)"
+      ],
+      "correctIndex": 4
+    }
+  ]
+}

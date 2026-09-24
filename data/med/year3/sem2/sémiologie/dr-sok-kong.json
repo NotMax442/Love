@@ -1,0 +1,228 @@
+{
+  "questions": [
+    {
+      "id": 1,
+      "question": "Donnez une définition de la dysphagie haute : (ចូរជ្រើសរើសចម្លើយមួយត្រូវ)",
+      "images": [],
+      "image": "",
+      "options": [
+        "- C'est une douleur ressentie au passage des aliments au niveau des voies digestives supérieures",
+        "- C'est une douleur pharyngée à la déglutition des aliments",
+        "- C'est une gêne mécanique de la palpation située au niveau de la région cervicale",
+        "- C'est une gêne mécanique de la déglutition située au niveau de la région cervicale",
+        "- C'est une impossibilité de déglutir."
+      ],
+      "correctIndex": 3
+    },
+    {
+      "id": 2,
+      "question": "Donnez une définition de l'odynophagie : (ចូរជ្រើសរើសចម្លើយមួយត្រូវ)",
+      "images": [],
+      "image": "",
+      "options": [
+        "- C'est une sensation d'accrochage alimentaire de localisation constante",
+        "- C'est une douleur pharyngée à la déglutition des aliments",
+        "- C'est une douleur pharyngée à la palpation",
+        "- C'est une gêne mécanique de la déglutition située au niveau de la région cervicale",
+        "- C'est une impossibilité de déglutir."
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 3,
+      "question": "Où est le diverticule de Zenker : (ចូរជ្រើសរើសចម្លើយមួយត្រូវ)",
+      "images": [],
+      "image": "",
+      "options": [
+        "- Est une masse de pulsion qui se forme au-dessus du sphincterœsophagien supérieur",
+        "- Est une poche de pulsion qui se forme au-dessous du sphincterœsophagien supérieur",
+        "- Est une masse de pulsion qui se développe juste au-dessus de la bouche œsophagienne aux dépends de la paroi postérieure de l'hypopharynx",
+        "- Est une poche de pulsion qui se développe juste au-dessus de la bouche œsophagienne aux dépends de la paroi postérieure de l'hypopharynx",
+        "- Est une masse de pulsion qui se développe juste au-dessous de la bouche œsophagienne aux dépends de la paroi postérieure de l'hypopharynx"
+      ],
+      "correctIndex": 3
+    },
+    {
+      "id": 4,
+      "question": "Devant une dysphagie au début intermittente, des régurgitations, souvent une toux nocturne par mérycisme, quel est le diagnostic le plus probable?",
+      "images": [],
+      "image": "",
+      "options": [
+        "- Cancer du pharynx",
+        "- Cancer du larynx",
+        "- Cancer de l'œsophage",
+        "- Sténose de l'œsophage",
+        "- Diverticule de Zenker"
+      ],
+      "correctIndex": 4
+    },
+    {
+      "id": 5,
+      "question": "Devant une dysphagie, le sujet consiste une tuméfaction basicervicale latérale, pseudo-fluctuante, gargouillant et qui peut se vider par compression, quel est le diagnostic le plus probable ?",
+      "images": [],
+      "image": "",
+      "options": [
+        "- Sténose du pharynx",
+        "- Sténose du larynx",
+        "- Cancer de l'œsophage",
+        "- Sténose de l'œsophage",
+        "- Diverticule de Zenker"
+      ],
+      "correctIndex": 4
+    },
+    {
+      "id": 6,
+      "question": "Un homme de 40ans avec une gêne de la déglutition récent, l'examen la sphère ORL est normal, fibroscopie gastro-œsophagienne est normale, quel est le diagnostic le plus probable ?",
+      "images": [],
+      "image": "",
+      "options": [
+        "- Le globus hystericus",
+        "- Cancer de l'œsophage",
+        "- Sténose de l'œsophage",
+        "- Diverticule de Zenker",
+        "- Tumeur du pharynx"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 7,
+      "question": "Un enfant 4ans, présentant un mal de gorge modéré, une obstruction nasale, une sensation de tête lourde, des céphalées légère et une fièvre modérée, Une otite moyenne aigue.\nQuel est le diagnostic le plus probable ?",
+      "images": [],
+      "image": "",
+      "options": [
+        "- Diverticule de Zenker",
+        "- Grippe",
+        "- Amygdalites",
+        "- Pharyngite.",
+        "- Rhinopharyngite"
+      ],
+      "correctIndex": 4
+    },
+    {
+      "id": 8,
+      "question": "La rhinopharyngite donne des complications au-dessous : (ចូរជ្រើសរើសចម្លើយមួយខុស)",
+      "images": [],
+      "image": "",
+      "options": [
+        "- Une otite moyenne aigue",
+        "- Une ethmoidite aigue",
+        "- Une broncho-pneumonie",
+        "- Un abcès rétropharyngien",
+        "- Un abcès dentaire"
+      ],
+      "correctIndex": 4
+    },
+    {
+      "id": 9,
+      "question": "La rhinopharyngite donne des complications au-dessous : (ចូរជ្រើសរើសចម្លើយមួយខុស)",
+      "images": [],
+      "image": "",
+      "options": [
+        "- Une hyperthermie : convulsions fébriles",
+        "- Une diarrhée, vomissement, déshydratation du nourrisson",
+        "- Une laryngite aigue sous-glottique",
+        "- Une rhinite hypertrophique",
+        "- Une pneumonie"
+      ],
+      "correctIndex": 3
+    },
+    {
+      "id": 10,
+      "question": "Un enfant 12ans, présentant une fièvre, une gêne douloureuse à la déglutition, des modifications de l'aspect de l'oropharynx, des adénopathies sous maxillaires.\nQuel est le diagnostic le plus probable ?",
+      "images": [],
+      "image": "",
+      "options": [
+        "- Adénite cervicale",
+        "- Grippe",
+        "- Angine de la gorge",
+        "- Pharyngite.",
+        "- Rhinopharyngite"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 11,
+      "question": "Devant une angine de la gorge, présentant un enduit purulent très abondant recouvrant la surface de l'amygdale. Quel type de cette angine?",
+      "images": [],
+      "image": "",
+      "options": [
+        "- Angine érythémateuse",
+        "- Angine érythémato-pultacée",
+        "- Angine vésiculeuse",
+        "- Angine ulcéreuse",
+        "- Angine pseudo-membraneuse"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 12,
+      "question": "Devant une angine de la gorge avec le pharynx présente des vésicules.\nQuel type de cette angine ?",
+      "images": [],
+      "image": "",
+      "options": [
+        "- Angine érythémateuse",
+        "- Angine érythémato-pultacée",
+        "- Angine vésiculeuse",
+        "- Angine ulcéreuse",
+        "- Angine pseudo-membraneuse"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 13,
+      "question": "Devant une angine de la gorge avec des amygdales érythémateuses.\nQuel type de cette angine ?",
+      "images": [],
+      "image": "",
+      "options": [
+        "- Angine rouge",
+        "- Angine érythémato-pultacée",
+        "- Angine vésiculeuse",
+        "- Angine ulcéreuse",
+        "- Angine pseudo-membraneuse"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 14,
+      "question": "Devant une angine de la gorge, à l'examen de l'oropharynx on peut remarquer sur les amygdales et les piliers des fausses membranes épaisses, adhérentes et cohérentes, envahissant la luette.\nQuel type de cette angine ?",
+      "images": [],
+      "image": "",
+      "options": [
+        "- Angine rouge",
+        "- Angine érythémato-pultacée",
+        "- Angine vésiculeuse",
+        "- Angine ulcéreuse",
+        "- Angine pseudo-membraneuse"
+      ],
+      "correctIndex": 4
+    },
+    {
+      "id": 15,
+      "question": "Certains signes cliniques peuvent orienter le diagnostic d'angine à streptocoque β-hémolytique A (SGA), prenant en compte 4 items : (ចូរជ្រើសរើសចម្លើយមួយខុស)",
+      "images": [],
+      "image": "",
+      "options": [
+        "- Fièvre >38(°C)",
+        "- Présence d'exsudat",
+        "- D'adénopathies cervicales douloureuses",
+        "- Absence de toux",
+        "- Mal à la gorge intense"
+      ],
+      "correctIndex": 4
+    },
+    {
+      "id": 16,
+      "question": "Végétation adénoïdienne មានទីតាំងនៅ : (ចូរជ្រើសរើសចម្លើយមួយត្រូវ)",
+      "images": [],
+      "image": "",
+      "options": [
+        "- Oropharynx",
+        "- Hypopharynx",
+        "- Epipharynx",
+        "- Cavité buccale",
+        "- Larynx."
+      ],
+      "correctIndex": 2
+    }
+  ]
+}

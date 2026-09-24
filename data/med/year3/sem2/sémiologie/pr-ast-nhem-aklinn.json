@@ -1,0 +1,160 @@
+{
+  "questions": [
+    {
+      "id": 1,
+      "question": "អំណះអំណាងខាងក្រោមគឺជា learning goals of clinical reasoning លើកលែងតែ",
+      "images": [],
+      "image": "",
+      "options": [
+        "Explore the Patient's Perspective",
+        "Identify the patient's problem",
+        "Identify the investigation needed",
+        "Formulate a management plan"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 2,
+      "question": "ក្នុងបណ្តារសំណើរខាងក្រោម តើសំណើណាមួយជាAssessment?",
+      "images": [],
+      "image": "",
+      "options": [
+        "Patient education",
+        "Changes in medications",
+        "Identify the problem",
+        "Referrals to other clinicians"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 3,
+      "question": "ក្នុងបណ្តារសំណើរខាងក្រោម តើសំណើណាមួយជា Plan?",
+      "images": [],
+      "image": "",
+      "options": [
+        "Identify the patient's problem",
+        "List the differential diagnosis",
+        "Make the diagnosis",
+        "Return visits for counseling and support"
+      ],
+      "correctIndex": 3
+    },
+    {
+      "id": 4,
+      "question": "ក្នុងបណ្តារអំណះអំណាងខាងក្រោម តើអំណះអំណាងណាមួយដែលមិនត្រឹមត្រូវ?",
+      "images": [],
+      "image": "",
+      "options": [
+        "The successful plan requires good interpersonal skills",
+        "The successful plan requires good sensitivity to the patient's goals",
+        "The patient record facilitates clinical reasoning",
+        "Clinical reasoning may seem inaccessible to experienced clinicians"
+      ],
+      "correctIndex": 3
+    },
+    {
+      "id": 5,
+      "question": "អ្នកជម្ងឺម្នាក់ភេទ ប្រុស អាយុ៣៧ឆ្នាំ មានអាការៈគ្រុនក្តៅនិងអស់កម្លាំងល្អិតល្ហែរយៈពេល១០ ថ្ងៃមកហើយ។ ក្នុងរយៈពេល១២ ម៉ោងចុងក្រោយនេះអ្នកជម្ងឺឈឺទ្រូងនៅចំហៀងខាងឆ្វេងកំរិតខ្លាំងបង្គួរ ហើយឈឺកាន់តែខ្លាំងនៅពេលដកដង្ហើមចូលខ្លាំង ឬ ក្អក។រោគវិនិច្ឆ័យប្រហាក់ប្រហែលបំផុតរបស់អ្នកជម្ងឺខាងលើគឺ",
+      "images": [],
+      "image": "",
+      "options": [
+        "Myocardial infarction",
+        "Pleurisy",
+        "Gastro-oesophageal reflux",
+        "Costochondritis"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 6,
+      "question": "អ្នកជម្ងឺម្នាក់ភេទ ប្រុស អាយុ៤៥ឆ្នាំ បានចូលមកពិនិត្យនឹងពិគ្រោះជម្ងឺដោយសារគាត់ឈឺនៅចំកណ្តាលទ្រូងកាលពីម៉ោង៤ទាបភ្លឺ មានលក្ខណៈក្រហាយក្តៅចាក់ពីចុងដង្ហើមដល់ថ្គាម អ្នកជម្ងឺមានភើជូនិងក្លិនឈួល។ ការឈឺរបស់គាត់ហាក់បានធូស្រាលបន្តិច នៅពេលគាត់អង្គុយឬគេងកើយខ្នើយខ្ពស់។ រោគវិនិច្ឆ័យប្រហាក់ប្រហែលបំផុតរបស់អ្នក ជម្ងឺខាងលើក៏",
+      "images": [],
+      "image": "",
+      "options": [
+        "Myocardial infarction",
+        "Angina",
+        "Gastro-oesophageal reflux",
+        "Costochondritis"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 7,
+      "question": "អ្នកជម្ងឺម្នាក់ភេទ ប្រុស អាយុ៦០ឆ្នាំ ជក់បារី បានចូលមកសំរាកពេទ្យ ដោយសារគាត់ឈឺនៅច់កណ្តាលទ្រូងចាប់ផ្តើមខ្លាំងភ្លាមៗ មានលក្ខណៈដូចគេគាបរយៈពេលជិត១ ម៉ោងមកហើយ។ គាត់មានអាការៈពិបាកដកដង្ហើម និងបែកញើសយ៉ាងខ្លាំង។ រោគវិនិច្ឆ័យប្រហាក់ប្រហែលបំផុតរបស់អ្នកជម្ងឺខាងលើគឺ",
+      "images": [],
+      "image": "",
+      "options": [
+        "Myocardial infarction",
+        "Angina",
+        "Gastro-oesophageal reflux",
+        "Costochondritis"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 8,
+      "question": "ស្រីម្នាក់អាយុ៦៥ឆ្នាំ មានជម្ងឺទឹកនោមផ្អែមជិត១០ឆ្នាំមកហើយគាត់បានចូលមកពិនិត្យ និងពិគ្រោះជម្ងឺដោយសារគាត់ឈឺណែនចំកណ្តាលទ្រូងរាលដាលទៅ ក ថ្គាម និងដៃឆ្វេង។ ការឈឺចាប់របស់គាត់ច្រើនកើតឡើង នៅពេលខំធ្វើការ ឬ ពេលងូតទឹកត្រជាក់ ហើយវាបាត់ទៅវិញក្នុងរយៈពេល៥ទៅ១០នាទី ក្រោយពេលសម្រាក។ រោគវិនិច្ឆ័យប្រហាក់ប្រហែលបំផុតរបស់អ្នកជម្ងឺខាងលើគឺ",
+      "images": [],
+      "image": "",
+      "options": [
+        "Myocardial infarction",
+        "Angina",
+        "Gastro-oesophageal reflux",
+        "Costochondritis"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 9,
+      "question": "Sensitivity គឺជាផលធៀបរវៀង",
+      "images": [],
+      "image": "",
+      "options": [
+        "True-positive observations និង total persons with disease",
+        "True-negative observations និងtotal persons without disease",
+        "True-positive observations និងtotal positive observations",
+        "True-negative observation និងtotal negative observations"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 10,
+      "question": "Specificity គឺជាផលធៀបរវៀង",
+      "images": [],
+      "image": "",
+      "options": [
+        "True-positive observations និង total persons with disease",
+        "True-negative observations និងtotal persons without disease",
+        "True-positive observations និងtotal positive observations",
+        "True-negative observation និងtotal negative observations"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 11,
+      "question": "Positive predictive value គឺជាផលធៀបរវៀង",
+      "images": [],
+      "image": "",
+      "options": [
+        "True-positive observations និង total persons with disease",
+        "True-negative observations និងtotal persons without disease",
+        "True-positive observations និងtotal positive observations",
+        "True-negative observation និងtotal negative observations"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 12,
+      "question": "Negative predictive value គឺជាផលធៀបរវៀង",
+      "images": [],
+      "image": "",
+      "options": [
+        "True-positive observations និង total persons with disease",
+        "True-negative observations និងtotal persons without disease",
+        "True-positive observations និងtotal positive observations",
+        "True-negative observation និងtotal negative observations"
+      ],
+      "correctIndex": 3
+    }
+  ]
+}

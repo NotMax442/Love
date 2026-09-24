@@ -1,0 +1,746 @@
+{
+  "questions": [
+    {
+      "id": 1,
+      "question": "Quels sont les deux principaux facteurs qui régulent le mouvement de l'eau et des électrolytes d'un même compartiment à l'autre?",
+      "images": [],
+      "image": "",
+      "options": [
+        ") Pression hydrostatique et pression osmotique",
+        ") concentration de sodium et pression osmotique",
+        ") pression hydrostatique et concentration de potassium",
+        ") concentration de tous les électrolytes combinés et pression d'eau osmotique",
+        ") Pression hydrostatique et pression osmotique, concentration de sodium et pression osmotique"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 2,
+      "question": "Le liquide céphalo-rachidien, le liquide dans les yeux, les articulations et les cavités corporelles et les sécrétions fluidiques des glandes exocrines sont tous classées spécifiquement comme les fluides______________",
+      "images": [],
+      "image": "",
+      "options": [
+        ") intracellulaire",
+        ") extracellulaire",
+        ") interstitielle",
+        ") extracellulaire, interstitiell",
+        ") aucun des éléments ci-dessus"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 3,
+      "question": "Quel déclencheur signale au cerveau pour augmenter la production d'ADH pour la conservation de l'eau corporelle ?",
+      "images": [],
+      "image": "",
+      "options": [
+        ") la salive épaissie stimule le système nerveux sympathique",
+        ") les osmorécepteurs de l'hypothalamus détectent l'augmentation de la pression osmotique des fluides corporels et stimulent l'hypophyse postérieure pour libérer l'ADH",
+        ") les chémorécepteurs dans le tubule rénal détectent l’élévation de la viscosité du filtrat rénal et stimulent l'hypothalamus qui, à son tour, stimule l'hypophyse postérieure",
+        ") l'appareil juxtaglomérulaire détecte l’élévation de pression osmotique dans le sang et déclenche la libération de l'ADH",
+        ") aucun des éléments ci-dessus"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 4,
+      "question": "_______________ les ions représentent près de 90% des ions chargés positivement dans le liquide extracellulaire.",
+      "images": [],
+      "image": "",
+      "options": [
+        ") Potassium",
+        ") Calcium",
+        ") Sodium",
+        ") Sulfate",
+        ") Chlore"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 5,
+      "question": "L'hormone aldostérone régule les concentrations de _____________ et ______________ dans le corps.",
+      "images": [],
+      "image": "",
+      "options": [
+        ") ions potassium; ions sodium",
+        ") ions calcium; ions phosphate",
+        ") ions calcium; ions chlorure",
+        ") ions phosphate; ions sulfate",
+        ") ions magnésium ; ions sulfate"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 6,
+      "question": "L'œdème peut être causé par tous ces facteurs sauf ________________.",
+      "images": [],
+      "image": "",
+      "options": [
+        ") une augmentation de la concentration de protéines plasmatiques",
+        ") obstruction des vaisseaux lymphatiques",
+        ") augmentation de la perméabilité capillaire à cause de l'inflammation",
+        ") augmentation de la pression veineuse",
+        ") rétention hydro-sodé"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 7,
+      "question": "Le déséquilibre connu sous le nom ____________ peut être causé par certains médicaments diurétiques.",
+      "images": [],
+      "image": "",
+      "options": [
+        ") hyponatrémie",
+        ") hypernatrémie",
+        ") hypokaliémie",
+        ") hyperkaliémie",
+        ") hyperchlorémie"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 8,
+      "question": "Lequel des éléments suivants n’est pas la conséquence à la suite d'un déséquilibre acide-base du corps?",
+      "images": [],
+      "image": "",
+      "options": [
+        ") une altération de la vitesse de réactions métaboliques contrôlées par une enzyme",
+        ") une augmentation de l'efficacité métabolique dans les cellules",
+        ") un changement dans la distribution d'autres ions",
+        ") une modification des actions hormonales",
+        ") une altération de la vitesse de réactions métaboliques contrôlées par une enzyme, un changement dans la distribution d'autres ions"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 9,
+      "question": "Choisissez le facteur qui n'est pas une source métabolique majeure d'ions hydrogène dans le corps.",
+      "images": [],
+      "image": "",
+      "options": [
+        ") métabolisme d’aérobie et d’anaérobie du glucose",
+        ") l'oxydation des acides aminés contenant du soufre",
+        ") hydrolyse des phosphoprotéines",
+        ") synthèse de déshydratation des acides nucléiques",
+        ") la béta-oxydation de l’acide gras"
+      ],
+      "correctIndex": 3
+    },
+    {
+      "id": 10,
+      "question": "Les trois systèmes tampons les plus importants dans les fluides corporels comprennent le système tampon de bicarbonate, le système de tampon ______________ et le système de tampon protéique.",
+      "images": [],
+      "image": "",
+      "options": [
+        ") calcium",
+        ") sodium",
+        ") phosphate",
+        ") hémoglobine",
+        ") bicarbonate de sodium"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 11,
+      "question": "Lequel d'entre eux est considéré comme une défense secondaire contre les changements de pH ?",
+      "images": [],
+      "image": "",
+      "options": [
+        ") excrétion rénale d'ions hydrogène",
+        ") le système tampon de bicarbonate",
+        ") le système tampon phosphate",
+        ") le système tampon de protéines",
+        ") le système de coagulation"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 12,
+      "question": "L'accumulation de déchets azotés dans le sang est une condition connue sous le nom de ________________.",
+      "images": [],
+      "image": "",
+      "options": [
+        ") la cétonurie",
+        ") la protéinurie",
+        ") l’azotémie",
+        ") l’acétonurie",
+        ") l’uricémie"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 13,
+      "question": "Quel compartiment du corps contient la plus grande quantité relative d'eau?",
+      "images": [],
+      "image": "",
+      "options": [
+        ") extracellulaire",
+        ") intracellulaire",
+        ") plasma",
+        ") interstitielle",
+        ") méningé"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 14,
+      "question": "_____ est le cation extracellulaire le plus courant, alors que _____ est le cation intracellulaire le plus abondant.",
+      "images": [],
+      "image": "",
+      "options": [
+        ") Sodium; Ca ++",
+        ") K +; Na +",
+        ") Sodium; potassium",
+        ") K +; Ca ++",
+        ") Phosphate ; et Mg++"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 15,
+      "question": "Laquelle de ces conditions entraîne une perte d'eau sévère et potentiellement mortelle?",
+      "images": [],
+      "image": "",
+      "options": [
+        ") diabète sucré, type 1",
+        ") diabète sucré, type 2",
+        ") diabète insipide",
+        ") hyponatrémie",
+        ") glomérulonéphrite"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 16,
+      "question": "Une accumulation anormale de liquide interstitiel est appelée ______.",
+      "images": [],
+      "image": "",
+      "options": [
+        ") inflammation",
+        ") nécrose",
+        ") hypoprotéinémie",
+        ") œdème",
+        ") hypertonie"
+      ],
+      "correctIndex": 3
+    },
+    {
+      "id": 17,
+      "question": "La conséquence la plus grave des déséquilibres de potassium est _____.",
+      "images": [],
+      "image": "",
+      "options": [
+        ") convulsion",
+        ") lésions nerveuses",
+        ") insuffisance rénale",
+        ") anomalies cardiaques",
+        ") inflammation"
+      ],
+      "correctIndex": 3
+    },
+    {
+      "id": 18,
+      "question": "Quel est le pH normal du sang?",
+      "images": [],
+      "image": "",
+      "options": [
+        ") 7-8",
+        ") 7,35-7,45",
+        ") 7,10-7,50",
+        ") 7,3-7,4",
+        ") 7.15-7, 55"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 19,
+      "question": "Dans des circonstances normales, _________ est probablement la plus grande source de H +.",
+      "images": [],
+      "image": "",
+      "options": [
+        ") dioxyde de carbone",
+        ") acide lactique",
+        ") oxydation des acides gras",
+        ") réactions d'hydrolyse",
+        ") acide béta-hydroxybutyrique"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 20,
+      "question": "Quel est le tampon inorganique de plasma le plus important?",
+      "images": [],
+      "image": "",
+      "options": [
+        ") phosphate",
+        ") albumine",
+        ") hémoglobine",
+        ") bicarbonate",
+        ") glucose"
+      ],
+      "correctIndex": 3
+    },
+    {
+      "id": 21,
+      "question": "Quel est le tampon inorganique intracellulaire le plus efficace?",
+      "images": [],
+      "image": "",
+      "options": [
+        ") bicarbonate",
+        ") phosphate",
+        ") hémoglobine",
+        ") lactate",
+        ") pyruvate"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 22,
+      "question": "Lequel des éléments suivants est le plus toxique?",
+      "images": [],
+      "image": "",
+      "options": [
+        ") urée",
+        ") NH3",
+        ") NH4 +",
+        ") acide carbonique",
+        ") acide urique"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 23,
+      "question": "La acidose cétose diabétique est un exemple de quel déséquilibre?",
+      "images": [],
+      "image": "",
+      "options": [
+        ") acidose respiratoire",
+        ") alcalose respiratoire",
+        ") alcalose métabolique",
+        ") acidose métabolique",
+        ") alcalose rénale"
+      ],
+      "correctIndex": 3
+    },
+    {
+      "id": 24,
+      "question": "Lequel des éléments suivants n'est pas susceptible d'entraîner une acidose?",
+      "images": [],
+      "image": "",
+      "options": [
+        ") cancer du poumon",
+        ") la fièvre",
+        ") insuffisance rénale",
+        ") diarrhée",
+        ") dyslipidémie"
+      ],
+      "correctIndex": 4
+    },
+    {
+      "id": 25,
+      "question": "Quel est le terme pour une condition d'un œdème répandu?",
+      "images": [],
+      "image": "",
+      "options": [
+        ") anasarque",
+        ") anurie",
+        ") urémie",
+        ") cétonurie",
+        ") oligurie"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 26,
+      "question": "Lequel d'entre eux n'est pas une conséquence du vomissement?",
+      "images": [],
+      "image": "",
+      "options": [
+        ") déshydratation",
+        ") acidose métabolique",
+        ") alcalose respiratoire",
+        ") alcalose métabolique",
+        ") hyperhydratation"
+      ],
+      "correctIndex": 4
+    },
+    {
+      "id": 27,
+      "question": "Une «envie de sel» est principalement le résultat de _________________.",
+      "images": [],
+      "image": "",
+      "options": [
+        ") un comportement spécifique",
+        ") une maladie génétique",
+        ") déshydratation",
+        ") une déficience en électrolyte sévère",
+        ") hyperhydratation"
+      ],
+      "correctIndex": 3
+    },
+    {
+      "id": 28,
+      "question": "Un patient souffrant d'une insuffisance rénale aura plusieurs conséquences qui affecteront sa survie à long terme et pourront être mortel. Laquelle des complications suivantes n'est pas observée en cas d'insuffisance rénale",
+      "images": [],
+      "image": "",
+      "options": [
+        ") alcalose métabolique",
+        ") Urémie",
+        ") Hyperkaliémie",
+        ") Anemie",
+        ") Osteodystrophie origine rénal"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 29,
+      "question": "Quel est le meilleur test de la fonction du foie est",
+      "images": [],
+      "image": "",
+      "options": [
+        ") AST/ALT",
+        ") Phosphatase alcaline",
+        ") Bilirubine",
+        ") Taux de prothrombine et INR (Index Normalized Ratio)",
+        ") Gamma GT"
+      ],
+      "correctIndex": 3
+    },
+    {
+      "id": 30,
+      "question": "Les deux types principaux de lésion hépatique sont:",
+      "images": [],
+      "image": "",
+      "options": [
+        ") hépatocellulaire et cholestatique",
+        ") cholestatique et obstructive",
+        ") nécrotique et hépatocellulaire",
+        ") néoplasique et cholestatique",
+        ") obstructive et néoplasique"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 31,
+      "question": "Une hyperbilirubinémie de bilirubine directe présente principalement dans les causes de jaundice suivantes, sauf un :",
+      "images": [],
+      "image": "",
+      "options": [
+        ") hémolyse",
+        ") cirrhose",
+        ") lésion hépatique induite par un médicament",
+        ") cirrhose biliaire primitive",
+        ") obstruction de voie biliaire"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 32,
+      "question": "Le test initial chez un patient atteint de cholestase devrait être:",
+      "images": [],
+      "image": "",
+      "options": [
+        ") Détection Ag HBs",
+        ") Détection IgM anti-HBs",
+        ") Écho-ultrasonographie du foie",
+        ") Dosage de sérum ferrique",
+        ") Détection anticorps HCV"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 33,
+      "question": "Chez un patient atteint d'une maladie hépatique chronique, tout ce qui suit suggère la présence d'une insuffisance hépatique chronique, sauf un:",
+      "images": [],
+      "image": "",
+      "options": [
+        ") Hypoalbuminémie",
+        ") Allongement du temps de prothrombine",
+        ") Elévation du taux de bilirubine",
+        ") Elévation de la concentration de l’enzyme aminotransférase",
+        ") Aucune réponse ci-dessus"
+      ],
+      "correctIndex": 3
+    },
+    {
+      "id": 34,
+      "question": "Le « Gold Standard « pour la mesure du taux de filtration glomérulaire (GFR) est",
+      "images": [],
+      "image": "",
+      "options": [
+        ") la créatinine.",
+        ") Inuline.",
+        ") p-aminohippurate (PAH).",
+        ") urée.",
+        ") 125I-iothalamate."
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 35,
+      "question": "Lequel des variables suivantes n'est pas nécessaire lors de l'estimation du taux de filtration glomérulaire GFR en utilisant l'équation MDRD ?",
+      "images": [],
+      "image": "",
+      "options": [
+        ") Taux d'excrétion de la créatinine urinaire",
+        ") Concentration plasmatique de la créatinine",
+        ") Concentration d'albumine plasmatique",
+        ") L'âge du patient",
+        ") Race du patient"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 36,
+      "question": "Lequel des processus suivants que la créatinine subit dans le rein ?",
+      "images": [],
+      "image": "",
+      "options": [
+        ") Filtration glomérulaire",
+        ") Sécrétion tubulaire",
+        ") Réabsorption tubulaire",
+        ") Filtration glomérulaire , Sécrétion tubulaire",
+        ") Filtration glomérulaire , Sécrétion tubulaire, Réabsorption tubulaire"
+      ],
+      "correctIndex": 3
+    },
+    {
+      "id": 37,
+      "question": "La microalbuminurie est un signe de",
+      "images": [],
+      "image": "",
+      "options": [
+        ") fonction rénale normale.",
+        ") maladie rénale progressive.",
+        ") syndrome néphrotique.",
+        ") insuffisance rénale aiguë.",
+        ") maladie rénale terminale."
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 38,
+      "question": "Lequel des marqueurs suivants est le marqueur le plus utile pour déterminer si un patient évolue dans une insuffisance cardiaque?",
+      "images": [],
+      "image": "",
+      "options": [
+        ") BNP",
+        ") ANP",
+        ") Aldosterone",
+        ") Renine",
+        ") pO2"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 39,
+      "question": "L'un de vos patients diabète à long terme vient chez vous, affirmant qu'il a récemment été très bon pour garder son régime alimentaire. Vous prenez ses récents résultats sanguins et notez que son HbA1c est d'environ 8,5%. Qu'est-ce que cela indique?",
+      "images": [],
+      "image": "",
+      "options": [
+        ") mauvaise contrôle du glucose sanguin",
+        ") adéquate contrôle du glucose sanguin",
+        ") excellente contrôle du glucose sanguin",
+        ") glycémie élevée au moment de l'analyse sanguin",
+        ") aucune de ces réponses"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 40,
+      "question": "Quel est le marqueur le plus sensible et le plus spécifique pour un infarctus du myocarde (MI)?",
+      "images": [],
+      "image": "",
+      "options": [
+        ") Troponine I",
+        ") CK-MB",
+        ") LDH",
+        ") Myoglobine",
+        ") AST"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 41,
+      "question": "Quel est le marqueur le plus sensible et le plus spécifique pour un infarctus du myocarde (MI)?",
+      "images": [],
+      "image": "",
+      "options": [
+        ") Troponine I",
+        ") CK-MB",
+        ") LDH",
+        ") CK",
+        ") hFAB"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 42,
+      "question": "La pancréatite aiguë est actuellement définie comme suit:",
+      "images": [],
+      "image": "",
+      "options": [
+        ") Douleur abdominale surtout dans la région épigastrique",
+        ") Élévation de l'amylase et / ou de la lipase à > 3 fois la plage normale",
+        ") Imagerie indique de d'inflammation",
+        ") Douleur abdominale surtout dans la région épigastrique, Élévation de l'amylase et / ou de la lipase à > 3 fois la plage normale",
+        ") Élévation de l'amylase et / ou de la lipase à > 3 fois la plage normale ,Imagerie indique de d'inflammation,"
+      ],
+      "correctIndex": 3
+    },
+    {
+      "id": 43,
+      "question": "Quelle est la meilleure analyse de laboratoire à utiliser pour guider et/ou gérérer la perfusion fluidique ?",
+      "images": [],
+      "image": "",
+      "options": [
+        ") Hématocrite",
+        ") Urée sanguine",
+        ") Sérum créatinine",
+        ") Glycémie",
+        ") Protidémie"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 44,
+      "question": "L'urine normale consiste principalement :",
+      "images": [],
+      "image": "",
+      "options": [
+        ") Eau, protéines et sodium",
+        ") Eau, urée et protéines",
+        ") Eau, urée et chlorure de sodium",
+        ") Eau, urée et bilirubine",
+        ") Eau, urée et glucose"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 45,
+      "question": "L’arrêt du débit des urine se définit comme suit:",
+      "images": [],
+      "image": "",
+      "options": [
+        ") Azotémie",
+        ") Dysurie",
+        ") Anurie",
+        ") Diurèse",
+        ") Polyurie"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 46,
+      "question": "Le seuil rénal normal pour le glucose chez l'adulte est approximativement:",
+      "images": [],
+      "image": "",
+      "options": [
+        ") 30mg/dL",
+        ") 50mg/dL",
+        ") 100mg/dL",
+        ") 160mg/dL",
+        ") 300mg/dL"
+      ],
+      "correctIndex": 3
+    },
+    {
+      "id": 47,
+      "question": "Le volume d'urine excrété dans une période de 24 heures par un patient adulte était de 500 mL. Cette condition serait appelée:",
+      "images": [],
+      "image": "",
+      "options": [
+        ") Anurie",
+        ") Oligurie",
+        ") Polyurie",
+        ") Dysurie",
+        ") Diurèse"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 48,
+      "question": "Les valeurs normales des paramètres de gaz dans le sang artériel : pH 7,40 0,05 ; pCO2 = 40 mmHg ; pO2 = 90 - 100 mm Hg ; saturation O2 en hémoglobine= 94 - 100% ; [HCO3-] 24 meq / litreUn homme âgé est en coma après avoir subit un accident vasculaire cérébrale sévère. Il est admis dans l'unité de soins intensifs et il a été placé sur un ventilateur. Les mesures du gaz sanguin artériel du patient révèlent ce qui suit: pH= 7,50 pCO2= mmHg pO2= 100 mmHg Saturation O2 en hémoglobine = 98% [HCO3-]=24 meq / litre Comment classez-vous le statut d’équilibre acide-base de ce patient ?",
+      "images": [],
+      "image": "",
+      "options": [
+        ") alcalose respiratoire",
+        ") acidose respiratoire",
+        ") acidose métabolique",
+        ") alcalose métabolique",
+        ") déséquilibre acidose basique"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 49,
+      "question": "Les valeurs normales des paramètres de gaz dans le sang artériel : pH 7,40 0,05 ; pCO2 = 40 mmHg ; pO2 = 90 - 100 mm Hg ; saturation O2 en hémoglobine= 94 - 100% ; [HCO3-] 24 meq / litreUn homme âgé est en coma après avoir subit un accident vasculaire cérébrale sévère. Il est admis dans l'unité de soins intensifs et il a été placé sur un ventilateur. Les mesures du gaz sanguin artériel du patient révèlent ce qui suit: pH= 7,50 pCO2= 30 mmHg pO2= 100 mmHg Saturation O2 en hémoglobine = 98% [HCO3-]= 24 meq / litreQuel est la cause possible qui mette ce patient dans cette situation ?",
+      "images": [],
+      "image": "",
+      "options": [
+        ") hypoventilation",
+        ") hyperventilation",
+        ") dyspné",
+        ") tachypnée",
+        ") bradypnée"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 50,
+      "question": "Les valeurs normales des paramètres de gaz dans le sang artériel : pH 7,40 0,05 ; pCO2 = 40 mmHg ; pO2 = 90 - 100 mm Hg ; saturation O2 en hémoglobine= 94 - 100% ; [HCO3-] 24 meq / litreUn homme âgé est en coma après avoir subit un accident vasculaire cérébrale sévère. Il est admis dans l'unité de soins intensifs et il a été placé sur un ventilateur. Les mesures du gaz sanguin artériel du patient révèlent ce qui suit: pH=7,50 pCO2= 30 mmHg pO2= 100 mmHg Saturation O2 en hémoglobine = 98% [HCO3-]=24 meq / litreComment les reins de ce patient pourraient-ils répondre à cette perturbation acide-base ?",
+      "images": [],
+      "image": "",
+      "options": [
+        ") compensation",
+        ") pas de compensation",
+        ") en cours de compensation",
+        ") pas encore d’avoir la compensation",
+        ") aucune de ces réponses ci-dessus"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 51,
+      "question": "Les valeurs normales des paramètres de gaz dans le sang artériel : pH 7,40 0,05 ; pCO2 = 40 mmHg ; pO2 = 90 - 100 mm Hg ; saturation O2 en hémoglobine= 94 - 100% ; [HCO3-] 24 meq / litre Une femme de 28 ans a été la grippe depuis la semaine passée et vomissant plusieurs fois par jour. Elle a du mal à maintenir debout et est devenue sévèrement déshydratée. Après l’évanouissement au travail, elle a été emmenée dans un clinique, où une IV a été placée pour aider à la réhydrater. Le sang artériel a été tiré en premier, révélant ce qui suit: pH=7,50 pCO2=40 mm Hg pO2=95 mm Hg Saturation O2 en hémoglobine = 97% [HCO3-]=32 meq / litre Comment classez-vous le statut d’équilibre acide-base de ce patient ?",
+      "images": [],
+      "image": "",
+      "options": [
+        ") alcalose respiratoire",
+        ") acidose respiratoire",
+        ") acidose métabolique",
+        ") alcalose métabolique",
+        ") déséquilibre acidose basique"
+      ],
+      "correctIndex": 3
+    },
+    {
+      "id": 52,
+      "question": "Les valeurs normales des paramètres de gaz dans le sang artériel : pH 7,40 0,05 ; pCO2 = 40 mmHg ; pO2 = 90 - 100 mm Hg ; saturation O2 en hémoglobine= 94 - 100% ; [HCO3-] 24 meq / litre Une femme de 28 ans a été la grippe depuis la semaine passée et vomissant plusieurs fois par jour. Elle a du mal à maintenir debout et est devenue sévèrement déshydratée. Après l’évanouissement au travail, elle a été emmenée dans un clinique, où une IV a été placée pour aider à la réhydrater. Le sang artériel a été tiré en premier, révélant ce qui suit: pH=7,50 pCO2=40 mm Hg pO2=95 mm Hg Saturation O2 en hémoglobine = 97% [HCO3-]=32 meq / litre Quelle est la cause possible qui provoquer une perturbation particulière de l'acide-base?",
+      "images": [],
+      "image": "",
+      "options": [
+        ") vomissement excessif qui entraîne la perte de l’acide gastrique",
+        ") perte nettement des ions H+ par excrétion rénale",
+        ") réabsorption excessive de ions HCO3- par les reins",
+        ") déshydratation sévère",
+        ") aucune des éléments ci-dessus."
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 53,
+      "question": "Les valeurs normales des paramètres de gaz dans le sang artériel : pH 7,40 0,05 ; pCO2 = 40 mmHg ; pO2 = 90 - 100 mm Hg ; saturation O2 en hémoglobine= 94 - 100% ; [HCO3-] 24 meq / litre Une femme de 28 ans a été la grippe depuis la semaine passée et vomissant plusieurs fois par jour. Elle a du mal à maintenir debout et est devenue sévèrement déshydratée. Après l’évanouissement au travail, elle a été emmenée dans un clinique, où une IV a été placée pour aider à la réhydrater. Le sang artériel a été tiré en premier, révélant ce qui suit: pH=7,50 pCO2=40 mm Hg pO2=95 mm Hg Saturation O2 en hémoglobine = 97% [HCO3-]=32 meq / litre Comment les reins compenseraient-ils cette perturbation acide-base?",
+      "images": [],
+      "image": "",
+      "options": [
+        ") compensation",
+        ") pas de compensation",
+        ") en cours de compensation",
+        ") pas encore d’avoir la compensation",
+        ") aucune de ces réponses ci-dessus"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

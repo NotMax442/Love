@@ -1,0 +1,144 @@
+{
+  "questions": [
+    {
+      "id": 1,
+      "question": "Perceptual in psychiatry means:",
+      "images": [],
+      "image": "",
+      "options": [
+        "Hallucination",
+        "Hypnagogic",
+        "Sensory awareness of the object",
+        "Depersonalization",
+        "Derealization"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 2,
+      "question": "Disturbances of attention include",
+      "images": [],
+      "image": "",
+      "options": [
+        "The ability to focus on one task",
+        "Twilight state",
+        "Somnolence",
+        "Sundowning",
+        "Insomnia"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 3,
+      "question": "Physiological disturbance associated with mood include",
+      "images": [],
+      "image": "",
+      "options": [
+        "Hyperphagia",
+        "Insomnia",
+        "Hyperactivities",
+        "Talkative",
+        "Poor speech"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 4,
+      "question": "Thought process means:",
+      "images": [],
+      "image": "",
+      "options": [
+        "A form of magical thinking",
+        "Similar to that of the preoperational phase in children",
+        "Normally found in dreams",
+        "How People think",
+        "Suicidal behavior"
+      ],
+      "correctIndex": 3
+    },
+    {
+      "id": 5,
+      "question": "The assessment of mental status begins with",
+      "images": [],
+      "image": "",
+      "options": [
+        "The patient's first words",
+        "The patient's present history",
+        "The patient's past history",
+        "The patient's personal history",
+        "The patient's family history"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 6,
+      "question": "As you gather the mental health history, you will quickly focused on:",
+      "images": [],
+      "image": "",
+      "options": [
+        "the patient's level of alertness and orientation",
+        "the patient's activities",
+        "the patient's background",
+        "the patient's sleep",
+        "the patient's eyes movement"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 7,
+      "question": "Risk factors for the development of delirium include",
+      "images": [],
+      "image": "",
+      "options": [
+        "Increased severity of physical illness",
+        "Suicidal behavior",
+        "Hyperphagia",
+        "Addiction with drug",
+        "Anorexia nervosa"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 8,
+      "question": "Risk factors for the development of Alzheimer Dementia include",
+      "images": [],
+      "image": "",
+      "options": [
+        "Increased severity of physical illness",
+        "Older age",
+        "The use of anticholinergic drugs",
+        "Preexisting dementia",
+        "Sleeping problem"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 9,
+      "question": "Feeling of apprehension:",
+      "images": [],
+      "image": "",
+      "options": [
+        "Disorientation",
+        "Too much thinking",
+        "Apraxia",
+        "Anxiety",
+        "Guilt"
+      ],
+      "correctIndex": 3
+    },
+    {
+      "id": 10,
+      "question": "Emotional resulting from doing something perceived as wrong:",
+      "images": [],
+      "image": "",
+      "options": [
+        "Poor Judgment",
+        "Grandiose Ideas",
+        "Guilt",
+        "Confabulation",
+        "Distractibility"
+      ],
+      "correctIndex": 2
+    }
+  ]
+}

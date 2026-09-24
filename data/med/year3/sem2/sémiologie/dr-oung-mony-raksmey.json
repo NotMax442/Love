@@ -1,0 +1,144 @@
+{
+  "questions": [
+    {
+      "id": 1,
+      "question": "Mme. S, 30 ans, G2P0A1, enceinte de 2 mois, vient nous consulter aux urgences gynécologiques le 3 septembre pour métrorragie associées à des douleurs abdominals.\nQuel est le premier diagnostic auquel vous devez penser?",
+      "images": [],
+      "image": "",
+      "options": [
+        "Fausse couche spontanée précoce",
+        "Môle hydatiforme",
+        "Torsion d’annexe",
+        "Polype du col",
+        "Grossesse extra-utérine"
+      ],
+      "correctIndex": 4
+    },
+    {
+      "id": 2,
+      "question": "Devant la grossesse extra-utérine quel est l’examen complémentaire le plus utile à realiser pour aider au diagnostic?",
+      "images": [],
+      "image": "",
+      "options": [
+        "Echographie pelvienne",
+        "IRM",
+        "TDM",
+        "ASP",
+        "UIV"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 3,
+      "question": "Que signifie la ménarche?",
+      "images": [],
+      "image": "",
+      "options": [
+        "l’ âge de survenue des premières règles",
+        "l’ âge du premier rapport sexuel",
+        "l’âge de l’arrêt des règles",
+        "l’âge d’apparition des poiles sus-pubien",
+        "l’ âge d’apparition des seins"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 4,
+      "question": "On realise le frottis cervico-vaginal dans quel but?",
+      "images": [],
+      "image": "",
+      "options": [
+        "dépistage des cancers du col utérin",
+        "dépistage des cancers de l’endomètre",
+        "dépistage des cancers du sein",
+        "dépistage des cancers des ovaires",
+        "dépistage des cancers des vulves"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 5,
+      "question": "La métrorragie est définie par:",
+      "images": [],
+      "image": "",
+      "options": [
+        "le saignement pendant des règles",
+        "le saignement en dehors des règles",
+        "le saignement pendant et en dehors des règles",
+        "le saignement très abondant pendant des règles",
+        "le saignement peu minime pendant des règles"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 6,
+      "question": "Quand peut –on pratiquer le frottis cervico-vaginal?",
+      "images": [],
+      "image": "",
+      "options": [
+        "en début de cycle en dehors des règles et de tout épisode infectieux",
+        "au milieu de cycle en dehors des règles et de tout épisode infectieux",
+        "à la fin de cycle en dehors des règles et de tout épisode infectieux",
+        "en début de cycle au cours des règles et en dehors de tout épisode infectieux",
+        "en début de cycle au cours des règles avec ou sans épisode infectieux"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 7,
+      "question": "Quels sont les éléments qu’on doit noter à l’examen au speculum?",
+      "images": [],
+      "image": "",
+      "options": [
+        "le col utérin, le vagin et la glaire cervicale",
+        "le col utérin, le méat urétral et la glaire cervicale",
+        "le col utérin, l’hymen et la glaire cervicale",
+        "le col utérin, le vagin et le méat urétral",
+        "le col utérin, les glandes de Bartholins et le vagin"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 8,
+      "question": "Devant une métrorragie survenue chez une femme ménopausée, quel est le premier diagnostic auquel vous devez penser?",
+      "images": [],
+      "image": "",
+      "options": [
+        "le cancer du col utérin",
+        "le cancer de l’endomètre",
+        "le cancer des ovaires",
+        "le cancer de la vulve",
+        "le cancer du vagin"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 9,
+      "question": "Quels sont les paramètres du col qu’on doit évaluer quand on fait le toucher vaginal?",
+      "images": [],
+      "image": "",
+      "options": [
+        "la longueur, la fermeté, la position et la consistence",
+        "la fermeté, la position, la dureté et la conistence",
+        "la position, la consistence, longueur et l’épaississement",
+        "la consistence, la dilatation, l’épaississement et la position",
+        "la position, la fermeté, la dilatation et l’effacement"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 10,
+      "question": "L’examen gynécologique se fait avec:",
+      "images": [],
+      "image": "",
+      "options": [
+        "vessie vide et rectum vide",
+        "vessie vide et rectum plein",
+        "vessie pleine et rectum plein",
+        "vessie pleine et rectum vide",
+        "vessie pleine et ou rectum vide"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

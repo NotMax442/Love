@@ -1,0 +1,354 @@
+{
+  "questions": [
+    {
+      "id": 1,
+      "question": "Taking history, which social characteristic of adolescence can be classified into an early adolescence (10-14 years olds) stages?",
+      "images": [],
+      "image": "",
+      "options": [
+        ". Peers increasingly important",
+        ". Much introspection global issues",
+        ". Limit testing",
+        ". Role with respect to other",
+        ". Separation from family"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 2,
+      "question": "Taking history, which social characteristic of adolescence can be classified into a middle adolescence (15-16 years olds) stages?",
+      "images": [],
+      "image": "",
+      "options": [
+        ". Peers increasingly important",
+        ". Much introspection global issues",
+        ". Limit testing",
+        ". Role with respect to other",
+        ". Separation from family"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 3,
+      "question": "Taking history, which social characteristic of adolescence can be classified into a late adolescence (17-20 years olds) stages?",
+      "images": [],
+      "image": "",
+      "options": [
+        ". Peers increasingly important",
+        ". Much introspection global issues",
+        ". Limit testing",
+        ". Role with respect to other and sexuality",
+        ". Experimental behavior and Dating"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 4,
+      "question": "Taking history, a good way to start questions with adolescence is:",
+      "images": [],
+      "image": "",
+      "options": [
+        ". To chat informally about friends, school, hobbies and family",
+        ". To chat directly about the current disease",
+        ". To chat informally about what you are going to do on examination",
+        ". To interview without presence of parents",
+        ". To interview focusing on his or her current problems"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 5,
+      "question": "Among the following physical examination, which one is the most likely to be used to identify obesity?",
+      "images": [],
+      "image": "",
+      "options": [
+        ". Somatic growth",
+        ". Blood pressure",
+        ". Skin problem",
+        ". Vital Signs",
+        ". Digestive problems"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 6,
+      "question": "Among the following skin examination, which one is the most likely to be found in case of anemia?",
+      "images": [],
+      "image": "",
+      "options": [
+        ". Cyanosis",
+        ". Pallor",
+        ". Jaundice",
+        ". Loss of pigmentation",
+        ". Redness"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 7,
+      "question": "Among the following skin examination, which one is the most likely to be found in case of heart faillure?",
+      "images": [],
+      "image": "",
+      "options": [
+        ". Jaundice",
+        ". Pallor",
+        ". Cyanosis",
+        ". Brownness (increased pigmentation)",
+        ". Redness"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 8,
+      "question": "Among the following skin examination, which one is the most likely to be found in case of liver disease?",
+      "images": [],
+      "image": "",
+      "options": [
+        ". Pallor",
+        ". Cyanosis",
+        ". Jaundice",
+        ". Brownness",
+        ". Redness"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 9,
+      "question": "Among the following physical examination of the chest and lung, which one is the most likely to be not found in case of respiratory difficulty?",
+      "images": [],
+      "image": "",
+      "options": [
+        ". Contraction of the sternomastoid and scalene muscles",
+        ". Contraction of deltoid muscles",
+        ". Supraclavicular retraction",
+        ". Wheezing audible on auscultation",
+        ". Cyanosis"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 10,
+      "question": "The normal range for onset of breast development in young girl was between?",
+      "images": [],
+      "image": "",
+      "options": [
+        ". 7-11 years old",
+        ". 8-13 years old",
+        ". 0.9-14 years old",
+        ". 10-15 years old",
+        ". 11-15 years old"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 11,
+      "question": "Physical changes in young girl's breasts are generally progressing through the Tanner stages or Tanner sex maturity rating (SMR) stages, which divided into?",
+      "images": [],
+      "image": "",
+      "options": [
+        ". 3 stages",
+        ". 4 stages",
+        ". 5 stages",
+        ". 6 stages",
+        ". 7 stages"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 12,
+      "question": "The first Tanner stages or Tanner sex maturity rating (SMR) stages called?",
+      "images": [],
+      "image": "",
+      "options": [
+        ". Preadolescent stage",
+        ". Breast bud stage",
+        ". Enlargement of elevation of breast stage",
+        ". Projection of areola and nipple stage",
+        ". Mature stage"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 13,
+      "question": "Which association of signs is typical in gynecomastia in young boy?",
+      "images": [],
+      "image": "",
+      "options": [
+        ". Enlarged breast",
+        ". Enlarged testes",
+        ". Enlarged nose",
+        ". Enlarged neck",
+        ". Enlarged mouth"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 14,
+      "question": "Among the following physical examination of male genitalia, which one is the most likely to be found in delayed puberty?",
+      "images": [],
+      "image": "",
+      "options": [
+        ". No signs of pubertal development by 12 years of age",
+        ". No signs of pubertal development by 13 years of age",
+        ". No signs of pubertal development by 14 years of age",
+        ". No signs of pubertal development by 15 years of age",
+        ". No signs of pubertal development by 16 years of age"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 15,
+      "question": "Among the following physical examination of male genitalia, which one is the most likely to be found in sexually transmitted disease?",
+      "images": [],
+      "image": "",
+      "options": [
+        ". Penile discharge",
+        ". Vaginal discharge",
+        ". Rectal fistula",
+        ". Leucorrhea",
+        ". Hematuria"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 16,
+      "question": "Which association of signs is typical in puberty delayed (constitutional delay) in males?",
+      "images": [],
+      "image": "",
+      "options": [
+        ". Delayed mental and physical maturation",
+        ". Delayed mental and bone maturation",
+        ". Delayed sex hormonal levels",
+        ". Delayed bone maturation and sex hormonal levels",
+        ". Delayed bone and physical maturation but normal hormonal levels"
+      ],
+      "correctIndex": 4
+    },
+    {
+      "id": 17,
+      "question": "Among the following physical examination of musculoskeletal system in adolescence, idiopathic scoliosis was seen mostly in girls:",
+      "images": [],
+      "image": "",
+      "options": [
+        ". 50% of cases",
+        ". 60% of cases",
+        ". 70% of cases",
+        ". 75% of cases",
+        ". 80% of cases"
+      ],
+      "correctIndex": 4
+    },
+    {
+      "id": 18,
+      "question": "Among the following physical examination for sport pre-participation screening, which sign is the most carefully assessed?",
+      "images": [],
+      "image": "",
+      "options": [
+        ". Blood Pressure and cardiac murmurs",
+        ". Wheezing and Cardiac murmurs",
+        ". Breathe sound and blood pressure",
+        ". Breathe sound and cardiac murmurs",
+        ". Wheezing and blood pressure"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 19,
+      "question": "The sport pre-participation screening consists of?",
+      "images": [],
+      "image": "",
+      "options": [
+        ". 10 steps",
+        ". 12 steps",
+        ". 14 steps",
+        ". 15 steps",
+        ". 16 steps"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 20,
+      "question": "Among the following physical examination for sport pre-participation screening, which sign is the most found in step 1, stand straight by facing forward?",
+      "images": [],
+      "image": "",
+      "options": [
+        ". Loss of range of motion",
+        ". Asymmetry and swelling of joints",
+        ". Weakness of shoulder or neck",
+        ". Loss of strength of deltoid muscle",
+        ". Asymmetry from scoliosis"
+      ],
+      "correctIndex": 4
+    },
+    {
+      "id": 21,
+      "question": "Taking history in adolescence, it is important to:",
+      "images": [],
+      "image": "",
+      "options": [
+        ". Use a flow chart model",
+        ". Use summarization and transitional statements and to explain what you are going to do during the physical examination",
+        ". Use observation model",
+        ". Start by asking an adolescence to take off the cloth",
+        ". Perform physical examination system by system without any statement at the en"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 22,
+      "question": "The first easily detectable sign of puberty in female adolescence is:",
+      "images": [],
+      "image": "",
+      "options": [
+        ". The appearance of breast buds",
+        ". The pubic hair",
+        ". The weight gain",
+        ". The period",
+        ". The axillary hair"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 23,
+      "question": "The current consensus is that the appearance of pubic hair as early as 7 years especially in dark-skinned girls can be considered as:",
+      "images": [],
+      "image": "",
+      "options": [
+        ". Abnormal",
+        ". Normal",
+        ". Early sign of puberty",
+        ". Early puberty",
+        ". Influence of diet"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 24,
+      "question": "The first reliable sign of puberty, in male adolescence is starting between ages 9 and 13.5 years is",
+      "images": [],
+      "image": "",
+      "options": [
+        ". An increase in the size of the testes",
+        ". Somatic growth changing",
+        ". Pubic hair",
+        ". Axillary hair",
+        ". A gynecomastia"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 25,
+      "question": "The five stages of sexual development in male adolescence, first described by:",
+      "images": [],
+      "image": "",
+      "options": [
+        ". Tanner",
+        ". Tusson",
+        ". Masson",
+        ". Webiner",
+        ". Bourillon"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

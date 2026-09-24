@@ -1,0 +1,298 @@
+{
+  "questions": [
+    {
+      "id": 1,
+      "question": "Larynx, c'est un organe",
+      "images": [],
+      "image": "",
+      "options": [
+        "Respiratoire",
+        "Phonatoire",
+        "De déglutition",
+        "De l'audiition",
+        "Respiratoire, Phonatoire, De déglutition"
+      ],
+      "correctIndex": 4
+    },
+    {
+      "id": 2,
+      "question": "Larynx est situé",
+      "images": [],
+      "image": "",
+      "options": [
+        "Au-dessus de la trachée",
+        "Au-dessous de la trachée",
+        "En arrière de la trachée",
+        "En avant de la trachée",
+        "Au-dessus la base de la langue"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 3,
+      "question": "Larynx est comporté par",
+      "images": [],
+      "image": "",
+      "options": [
+        "4 cartilages principaux",
+        "5 cartilages principaux",
+        "6 cartilages principaux",
+        "7 cartilages principaux",
+        "8 cartilages principaux"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 4,
+      "question": "Le muscle de l'adduction du larynx est un",
+      "images": [],
+      "image": "",
+      "options": [
+        "Muscle inter- aryténoïdien",
+        "Muscle crico- aryténoïdien postérieur",
+        "Muscle sterno-cleido-hyoïdien",
+        "Muscle omo-hyoïdien",
+        "Muscle crico-thyroïdien"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 5,
+      "question": "Le muscle de l'abduction du larynx est un",
+      "images": [],
+      "image": "",
+      "options": [
+        "Muscle inter-aryténoïdien",
+        "Muscle crico- aryténoïdien postérieur",
+        "Muscle crico-thyroïdien",
+        "Muscle crico- aryténoïdien",
+        "Muscle omo-hyoïdien"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 6,
+      "question": "Le muscle tenseur du larynx est un",
+      "images": [],
+      "image": "",
+      "options": [
+        "Muscle inter- aryténoïdien",
+        "Muscle crico-aryténoïdien postérieur",
+        "Muscle crico-thyroïdien",
+        "Muscle crico- aryténoïdien",
+        "Musle omo-hyoïdien"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 7,
+      "question": "La fonction du nerf récurrent ou nerf laryngé inférieur est",
+      "images": [],
+      "image": "",
+      "options": [
+        "Moteur",
+        "Sensitif",
+        "Audition",
+        "Moteur, Sensitif",
+        "Moteur, Audition"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 8,
+      "question": "Pendant la phase respiratoire, les plis vocaux sont",
+      "images": [],
+      "image": "",
+      "options": [
+        "Fermetures",
+        "Ouvertures",
+        "Béants",
+        "Ouverture la commissure antérieure et fermeture la commissure postérieure",
+        "Fermeture la commissure antérieure et ouverture la commissure postérieure"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 9,
+      "question": "Actuellement, quel est un mieux technique de l'examen pour rechercher pathologique du larynx?",
+      "images": [],
+      "image": "",
+      "options": [
+        "Endoscopie",
+        "Fibroscopie",
+        "Miroir de Garcia",
+        "Stroboscopie",
+        "Radiographie"
+      ],
+      "correctIndex": 3
+    },
+    {
+      "id": 10,
+      "question": "Parmi les éléments cliniques de pathologie du larynx, quel est un maître symptôme ?",
+      "images": [],
+      "image": "",
+      "options": [
+        "Dysphagie",
+        "Dysphonie",
+        "Dyspnée",
+        "Fausses rautes",
+        "Crachats hémoptoïques"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 11,
+      "question": "Les nerfs récurrents ou les nerfs laryngés inférieurs proviennent du Nerf :",
+      "images": [],
+      "image": "",
+      "options": [
+        "II",
+        "V",
+        "VII",
+        "X",
+        "XII"
+      ],
+      "correctIndex": 3
+    },
+    {
+      "id": 12,
+      "question": "Dans les causes de dysphonie au-dessous, sauf un :",
+      "images": [],
+      "image": "",
+      "options": [
+        ". Intoxication alcalo-tabagique",
+        ". Profession (chanteur, avocat, professeur.......)",
+        ". Allergie (environnement, poussière, alimentaire...)",
+        ". ATCD: médicaux, chirurgicaux, traumatisme...",
+        ". Corps étranger"
+      ],
+      "correctIndex": 4
+    },
+    {
+      "id": 13,
+      "question": "La fonction du nerf laryngé supérieur est",
+      "images": [],
+      "image": "",
+      "options": [
+        ". Moteur",
+        ". Sensitif",
+        ". Audition",
+        ". Moteur, Sensitif",
+        ". Moteur, Audition"
+      ],
+      "correctIndex": 3
+    },
+    {
+      "id": 14,
+      "question": "Dans parmi les fonctions du larynx suivantes sauf un :",
+      "images": [],
+      "image": "",
+      "options": [
+        ". Respiration",
+        ". Déglutition",
+        ". Phonation",
+        ". Audition",
+        ". Respiration, Déglutition, Phonation"
+      ],
+      "correctIndex": 3
+    },
+    {
+      "id": 15,
+      "question": "Les instruments pour technique de l'examen de la laryngoscopie indirecte suivantes sauf un :",
+      "images": [],
+      "image": "",
+      "options": [
+        ". Miroir de Garcia",
+        ". Fibroscope flexible par voie nasale",
+        ". Endoscope 90°-70°",
+        ". Vidéoscopie - Stroboscopie",
+        ". Otoscope"
+      ],
+      "correctIndex": 4
+    },
+    {
+      "id": 16,
+      "question": "What is the most common symptom of laryngeal pathology?",
+      "images": [],
+      "image": "",
+      "options": [
+        ". Dysphagia",
+        ". Odynophagia",
+        ". Hoarseness",
+        ". Stridor",
+        ". Aspiration"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 17,
+      "question": "Which symptom suggests a supraglottic lesion rather than a glottic one?",
+      "images": [],
+      "image": "",
+      "options": [
+        ". Early hoarseness",
+        ". Foreign body sensation",
+        ". Airway obstruction",
+        ". Dysphagia with referred otalgia",
+        ". Hemoptysis"
+      ],
+      "correctIndex": 3
+    },
+    {
+      "id": 18,
+      "question": "What is the most likely cause of biphasic stridor in a laryngeal disorder?",
+      "images": [],
+      "image": "",
+      "options": [
+        ". Glottic tumor",
+        ". Vocal cord paralysis",
+        ". Subglottic stenosis",
+        ". Laryngomalacia",
+        ". Foreign body in the esophagus"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 19,
+      "question": "Which of the following is a red flag symptom in hoarseness requiring urgent ENT referral?",
+      "images": [],
+      "image": "",
+      "options": [
+        ". Hoarseness lasting less than 2 weeks",
+        ". Intermittent hoarseness after voice overuse",
+        ". Hoarseness associated with cough",
+        ". Hoarseness lasting >3 weeks, especially in a smoker",
+        ". Hoarseness improving with rest"
+      ],
+      "correctIndex": 3
+    },
+    {
+      "id": 20,
+      "question": "Which feature most strongly suggests laryngeal carcinoma?",
+      "images": [],
+      "image": "",
+      "options": [
+        ". Sudden-onset aphonia",
+        ". Hoarseness with upper respiratory infection",
+        ". Progressive hoarseness with weight loss and dysphagia",
+        ". Hoarseness after shouting",
+        ". Recurrent laryngitis"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 21,
+      "question": "What is the most likely finding on laryngoscopy in vocal cord nodules?",
+      "images": [],
+      "image": "",
+      "options": [
+        ". Unilateral immobile vocal cord",
+        ". Ulcerated mass on vocal cord",
+        ". Bilateral symmetric lesions at the junction of anterior and middle thirds",
+        ". Swollen arytenoids",
+        ". Subglottic narrowing"
+      ],
+      "correctIndex": 2
+    }
+  ]
+}

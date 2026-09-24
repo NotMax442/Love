@@ -1,0 +1,214 @@
+{
+  "questions": [
+    {
+      "id": 1,
+      "question": "Quel examen d’imagerie est le plus approprié pour confirmer le diagnostic de sinusite maxillaire chronique et rechercher une éventuelle cause sous-jacente ?",
+      "images": [],
+      "image": "",
+      "options": [
+        "Radiographie standard des sinus de la face",
+        "Scanner des sinus sans injection",
+        "IRM cérébrale",
+        "Échographie des sinus",
+        "Scintigraphie osseuse"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 2,
+      "question": "Quel examen d’imagerie est le plus approprié pour faire le bilan pré-opératoire d’une otite moyenne chronique ?",
+      "images": [],
+      "image": "",
+      "options": [
+        "Radiographie des rochers",
+        "Scanner des rochers",
+        "IRM cérébrale",
+        "Audiogramme seul",
+        "Échographie de l’oreille moyenne"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 3,
+      "question": "Quel est le signe scannographique le plus caractéristique d’une polypose naso-sinusienne ?",
+      "images": [],
+      "image": "",
+      "options": [
+        "Opacité unilatérale avec extension choanale",
+        "Niveau hydro-aérique maxillaire",
+        "Opacification bilatérale des sinus avec comblement des fosses nasales et polypoïdes",
+        "Calcifications intralésionnelles",
+        "Ostéolyse sinusienne franche"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 4,
+      "question": "Quel est le signe scannographique le plus évocateur d’une mastoïdite aiguë ?",
+      "images": [],
+      "image": "",
+      "options": [
+        "Présence de calcifications des cellules mastoïdiennes",
+        "Hyperaération des cellules mastoïdiennes",
+        "Opacification des cellules mastoïdiennes avec lyse des cloisons osseuses",
+        "Épaississement isolé de la muqueuse nasale",
+        "Ostéocondensation des os temporaux"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 5,
+      "question": "Quel signe scannographique est le plus évocateur d’une sinusite maxillaire chronique d’origine dentaire ?",
+      "images": [],
+      "image": "",
+      "options": [
+        "Opacification bilatérale des sinus maxillaires avec polypose",
+        "Opacification unilatérale du sinus maxillaire avec lyse du plancher sinusien adjacent à une racine dentaire",
+        "Niveau hydro-aérique dans les deux sinus maxillaires",
+        "Calcification dense au sein du sinus maxillaire",
+        "Ostéocondensation diffuse des parois sinusiennes"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 6,
+      "question": "Quel est le signe scannographique le plus caractéristique d’un polype antrochoanal ?",
+      "images": [],
+      "image": "",
+      "options": [
+        "Opacification bilatérale des sinus maxillaires avec comblement nasal diffus",
+        "Formation polypoïde unilatérale s’étendant du sinus maxillaire vers la fosse nasale et la choane",
+        "Niveau hydro-aérique maxillaire bilatéral",
+        "Calcification dense au sein du sinus maxillaire",
+        "Ostéolyse des parois latérales du sinus maxillaire"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 7,
+      "question": "Quel est le signe radiologique le plus évocateur d’une sinusite maxillaire aiguë sur l’incidence Blondeau ?",
+      "images": [],
+      "image": "",
+      "options": [
+        "Opacité bilatérale des sinus ethmoïdaux",
+        "Hyperclarté du sinus maxillaire atteint",
+        "Présence d’un niveau hydro-aérique dans le sinus maxillaire",
+        "Déviation de la cloison nasale",
+        "Calcification intra-sinusienne"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 8,
+      "question": "Quel est le signe scanographique le plus évocateur d’une sinusite maxillaire chronique ?",
+      "images": [],
+      "image": "",
+      "options": [
+        "Niveau hydro-aérique dans le sinus maxillaire",
+        "Opacification complète bilatérale des sinus frontaux",
+        "Épaississement muqueux localisé ou diffus avec comblement partiel du sinus maxillaire",
+        "Hyperclarté du sinus maxillaire",
+        "Ostéolyse des parois osseuses du sinus maxillaire"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 9,
+      "question": "Quel est le signe scanographique le plus typique d’une sinusite maxillaire aiguë ?",
+      "images": [],
+      "image": "",
+      "options": [
+        "Épaississement muqueux avec niveau hydro-aérique dans le sinus maxillaire",
+        "Opacification bilatérale des sinus frontaux",
+        "Sclérose osseuse des parois du sinus maxillaire",
+        "Polypose bilatérale des fosses nasales",
+        "Calcifications intra-sinusiennes"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 10,
+      "question": "Quel est le signe scanographique le plus évocateur d’une pansinusite ?",
+      "images": [],
+      "image": "",
+      "options": [
+        "Opacification isolée du sinus maxillaire droit",
+        "Opacification des sinus frontaux avec bulles d’air visibles",
+        "Épaississement muqueux bilatéral sans atteinte des cellules ethmoïdales",
+        "Opacification complète et bilatérale des sinus frontaux, ethmoïdaux, sphénoïdaux et maxillaires",
+        "Calcifications diffuses dans les cavités sinusiennes"
+      ],
+      "correctIndex": 3
+    },
+    {
+      "id": 11,
+      "question": "Quel est le signe scannographique le plus évocateur d’un cancer sinusien ?",
+      "images": [],
+      "image": "",
+      "options": [
+        "Épaississement muqueux homogène avec conservation des parois osseuses",
+        "Niveau hydro-aérique unilatéral dans le sinus maxillaire",
+        "Opacification sinusienne avec lyse osseuse des parois adjacentes",
+        "Calcification dense intra-sinusienne",
+        "Opacification bilatérale des sinus avec comblement muqueux régulier"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 12,
+      "question": "Quel est le signe scannographique le plus évocateur d’une otite externe aiguë ?",
+      "images": [],
+      "image": "",
+      "options": [
+        "Opacification de la caisse du tympan avec lyse des osselets",
+        "Opacification des cellules mastoïdiennes avec lyse des cloisons",
+        "Épaississement et infiltration des parties molles du conduit auditif externe",
+        "Niveau hydro-aérique dans l’oreille moyenne",
+        "Sclérose du rocher avec comblement chronique"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 13,
+      "question": "Quel est le signe échographique le plus évocateur de la maladie de Basedow ?",
+      "images": [],
+      "image": "",
+      "options": [
+        "Thyroïde de taille normale, homogène, sans vascularisation accrue",
+        "Lobe thyroïdien unique augmenté de taille avec nodules hypoéchogènes",
+        "Glande thyroïdienne globalement hypertrophiée, hypoéchogène et très hypervascularisée",
+        "Calcifications diffuses dans la glande thyroïde",
+        "Présence d’un kyste froid sans hypervascularisation"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 14,
+      "question": "Quel est le signe échographique le plus évocateur d’un nodule thyroïdien bénin ?",
+      "images": [],
+      "image": "",
+      "options": [
+        "Nodule hypoéchogène irrégulier avec microcalcifications",
+        "Nodule anéchogène, à contours nets, avec renforcement postérieur",
+        "Nodule solide, hypoéchogène avec vascularisation centrale",
+        "Nodule mixte avec marges floues et contours infiltrants",
+        "Nodule très hypoéchogène, de forme non ovale, avec extension extracapsulaire"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 15,
+      "question": "Quel est le signe échographique le plus évocateur d’un nodule thyroïdien malin ?",
+      "images": [],
+      "image": "",
+      "options": [
+        "Nodule anéchogène avec contours réguliers et renforcement postérieur",
+        "Nodule isoéchogène homogène avec halo périphérique complet",
+        "Nodule hypoéchogène à contours irréguliers avec microcalcifications",
+        "Nodule mixte, ovalaire, avec vascularisation périphérique uniquement",
+        "Nodule spongiforme avec multiples petites zones liquidiennes"
+      ],
+      "correctIndex": 2
+    }
+  ]
+}

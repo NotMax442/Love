@@ -1,0 +1,144 @@
+{
+  "questions": [
+    {
+      "id": 1,
+      "question": "Parmi les arguments ci-dessous, quel est le but le plus important de la consultation obstétricale du 2ème trimestre ?",
+      "images": [],
+      "image": "",
+      "options": [
+        "Confirmer la grossesse",
+        "Prévoir les modalités de l’accouchement",
+        "Dater le terme de la grossesse",
+        "Préciser le sexe du bébé",
+        "Dépister le diabète gestationnel"
+      ],
+      "correctIndex": 4
+    },
+    {
+      "id": 2,
+      "question": "Comment peut-on mesurer la hauteur utérine ?",
+      "images": [],
+      "image": "",
+      "options": [
+        ".A partir du bord inférieur de pubis jusqu’au le fond utérin",
+        ".A partir du bord supérieur de pubis jusqu’au le fond utérin",
+        ".A partir de l’ombilic jusqu’au le fond utérin",
+        ".A partir du bord supérieur de pubis jusqu’au ombilic",
+        ".A partir de pubis jusqu’au le fond utérin"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 3,
+      "question": "Quel est la valeur de la hauteur utérine au 6ème mois de la grossesse ?",
+      "images": [],
+      "image": "",
+      "options": [
+        "22cm",
+        "24cm",
+        "26cm",
+        "28cm",
+        "30cm"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 4,
+      "question": "Quel est le bilan standard obligatoire au cours du deuxième trimestre de la grossesse ?",
+      "images": [],
+      "image": "",
+      "options": [
+        "Radiographie du bassin",
+        "HGPO à 75mg",
+        "Transaminase",
+        "Ionogramme sanguine",
+        "Créatinémie"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 5,
+      "question": "Quel est la fréquence normale des bruits du cœur fœtal ?",
+      "images": [],
+      "image": "",
+      "options": [
+        "100-140mmHg",
+        "110-150mmHg",
+        "120-160mmHg",
+        "110-170mmHg",
+        "130-170mmHg"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 6,
+      "question": "Quel est la première étape dans la manœuvre de Léopold ?",
+      "images": [],
+      "image": "",
+      "options": [
+        "Palpation du pôle supérieur",
+        "Palpation Du pôle inférieur",
+        "Recherche le dos du fœtus",
+        "Palpation du front et l’occiput",
+        "Palpation de la face du fœtus"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 7,
+      "question": "L’objectif de l’échographie du deuxième trimestre est :",
+      "images": [],
+      "image": "",
+      "options": [
+        "De préciser le type de la présentation",
+        "De mesurer la nuque fœtale",
+        "De dresser un pronostic de l’accouchement",
+        "De dater la grossesse",
+        "De rechercher des malformations"
+      ],
+      "correctIndex": 4
+    },
+    {
+      "id": 8,
+      "question": "La deuxième consultation prénatale doit être réalisée entre :",
+      "images": [],
+      "image": "",
+      "options": [
+        "24e- 28e SA",
+        "15e- 28e SA",
+        "18e- 26e SA",
+        "20e- 28e SA",
+        "22e - 28e SA"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 9,
+      "question": "La valeur de la hauteur utérine nous permet d’évaluer :",
+      "images": [],
+      "image": "",
+      "options": [
+        "Le sexe du fœtus",
+        "La quantité du liquide amniotique",
+        "La croissance fœtale",
+        "L’anomalie morphologique du fœtus",
+        "La présentation du fœtus"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 10,
+      "question": "Parmi les arguments ci-dessous, le quel examen paraclinique qu’on fait tous les mois durant consultation prénatale:",
+      "images": [],
+      "image": "",
+      "options": [
+        "Numération formule sanguine",
+        "Groupage sanguine",
+        "Rubéole",
+        "Bilan de l’hémostase",
+        "Toxoplasmose"
+      ],
+      "correctIndex": 4
+    }
+  ]
+}

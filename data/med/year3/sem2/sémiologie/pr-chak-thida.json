@@ -1,0 +1,710 @@
+{
+  "questions": [
+    {
+      "id": 1,
+      "question": "What is the correct statement about adjusting the office environment?",
+      "images": [],
+      "image": "",
+      "options": [
+        ". The office must be cold",
+        ". Face the patient laterally",
+        ". Put the patient in ease first",
+        ". Sit below the patient' eye level",
+        ". Make too bright in the room"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 2,
+      "question": "The older adult has hearing deficit, how often you can meet in the office?",
+      "images": [],
+      "image": "",
+      "options": [
+        ". >50%",
+        ". >60%",
+        ". > 70%",
+        ". >80%",
+        ". >90%"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 3,
+      "question": "During your discussion with the hearing deficit patient, what should you do?",
+      "images": [],
+      "image": "",
+      "options": [
+        ". Speak loudly or shout",
+        ". Use the pocket talker",
+        ". Use the gesture language",
+        ". Use the paper write down",
+        ". Talk normally with them"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 4,
+      "question": "What is the right statement during your taking history?",
+      "images": [],
+      "image": "",
+      "options": [
+        ". Adopt low speaking tones",
+        ". Using the sunglasses when you start asking",
+        ". Hearing aid is not important",
+        ". Take off the dentures while communicating",
+        ". Using the pocket talker"
+      ],
+      "correctIndex": 4
+    },
+    {
+      "id": 5,
+      "question": "What is the tip for communicating effectively with older adults?",
+      "images": [],
+      "image": "",
+      "options": [
+        ". Speak loudly and gentle",
+        ". Warm setting with the noisy background",
+        ". Chairs must be higher than examining table",
+        ". Provide a well-lit",
+        ". Using music to help them"
+      ],
+      "correctIndex": 3
+    },
+    {
+      "id": 6,
+      "question": "What is the right statement about effective discussion with elderly patients?",
+      "images": [],
+      "image": "",
+      "options": [
+        ". Allow time for open-ended questions",
+        ". Let the family wait outside the office",
+        ". Talk or ask as much as you can",
+        ". Ask the patient to rest at least 30min",
+        ". Let the patient descript his lifetime"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 7,
+      "question": "In the hospital setting, before discussing what things should be ready?",
+      "images": [],
+      "image": "",
+      "options": [
+        ". The radio is turning on",
+        ". The room must be quiet",
+        ". The music should be not too loud",
+        ". The TV should be in health channel",
+        ". The relax song should be played"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 8,
+      "question": "Before taking history of older adult, select the right statement?",
+      "images": [],
+      "image": "",
+      "options": [
+        ". Address patients by their past history",
+        ". Address patients by title and their last name.",
+        ". Address patients by their family reputation",
+        ". Address patients by a name of their children",
+        ". Address patients by their friends' name"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 9,
+      "question": "Which of those propositionn below is the most appropriate about older adult interview?",
+      "images": [],
+      "image": "",
+      "options": [
+        ". Focus on activities of daily living",
+        ". Focus on their money each month",
+        ". Think about number of children",
+        ". Think about cholesterol intake daily",
+        ". Focus on their daily food"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 10,
+      "question": "Which of those proposition below is the most appropriate about older adult health history?",
+      "images": [],
+      "image": "",
+      "options": [
+        ". Speaking and writing",
+        ". Ask about past holiday and work",
+        ". Detect alcohol use disorder",
+        ". Daily fatty acid consumption",
+        ". Focus on their monthly income"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 11,
+      "question": "In recording the physical examination, what is the appropriate phrase you should start?",
+      "images": [],
+      "image": "",
+      "options": [
+        ". Never start by chief complaint",
+        ". Often by the gender",
+        ". First by the profession",
+        ". Always by the name (Mr,Ms)",
+        ". Often start with present illness"
+      ],
+      "correctIndex": 3
+    },
+    {
+      "id": 12,
+      "question": "What is the vital sign you will write down in your record finding?",
+      "images": [],
+      "image": "",
+      "options": [
+        ". Dyspnea",
+        ". Blood pressure",
+        ". Incontinent",
+        ". High Fever",
+        ". Urines quantity"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 13,
+      "question": "In the record finding, what will you write about vision problem?",
+      "images": [],
+      "image": "",
+      "options": [
+        ". Complaint of fatigue in the morning",
+        ". Complaint of difficult reading",
+        ". Complaint of sleepless at night",
+        ". Complaint of vomiting after meal",
+        ". Complaint of headache"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 14,
+      "question": "In the record finding, what you will write about hearing problem?",
+      "images": [],
+      "image": "",
+      "options": [
+        ". Can not hear whispered voice in either ear",
+        ". Can understand well what you talk about",
+        ". Can hear properly in audioscope from 10-20Hz",
+        ". Can not hear the voice outside the office",
+        ". Can complaint of headache in the morning"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 15,
+      "question": "Which vital sign below is needed for your recording?",
+      "images": [],
+      "image": "",
+      "options": [
+        ". Blood pressure",
+        ". Temperature",
+        ". Pulses",
+        ". Respiratory rate",
+        ". All the above"
+      ],
+      "correctIndex": 4
+    },
+    {
+      "id": 16,
+      "question": "How do you descript the skin examination?",
+      "images": [],
+      "image": "",
+      "options": [
+        ". Warm and moist",
+        ". Black or white",
+        ". Some scars on the skin",
+        ". Some acnes on the face",
+        ". Black spots on the face"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 17,
+      "question": "What are you looking for in neck examination?",
+      "images": [],
+      "image": "",
+      "options": [
+        ". Trachea midline",
+        ". Lymph nodes",
+        ". Thyroid lobe",
+        ". Range of motion",
+        ". All the above"
+      ],
+      "correctIndex": 4
+    },
+    {
+      "id": 18,
+      "question": "What is the right proposition about physical disability?",
+      "images": [],
+      "image": "",
+      "options": [
+        ". Can walk fast but cannot ride a bicycle",
+        ". Can do everything without assistant",
+        ". Can drive the car for hours",
+        ". Can play sport without difficulty",
+        ". Can do a jogging with friends"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 19,
+      "question": "What are you looking for in thorax and lungs examination?",
+      "images": [],
+      "image": "",
+      "options": [
+        ". Any tattoos on the skin",
+        ". Any scars on the lateral",
+        ". Thorax symmetric",
+        ". Look carefully at inspiration",
+        ". Observation of the throat"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 20,
+      "question": "What is the correct statement about 10 min geriatric screener?",
+      "images": [],
+      "image": "",
+      "options": [
+        ". Too long and too complex",
+        ". Brief but quite complicated",
+        ". Brief and used easily by staff",
+        ". Long but easily to use by staff",
+        ". Too difficult to use by people"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 21,
+      "question": "The 10-minute geriatric screener covers important domains of geriatric assessment, which of these answer is right?",
+      "images": [],
+      "image": "",
+      "options": [
+        ". Physical",
+        ". Cognitive",
+        ". Psychology",
+        ". Social",
+        ". All are rights"
+      ],
+      "correctIndex": 4
+    },
+    {
+      "id": 22,
+      "question": "To assess incontinence we think about DIAPERS, what is the letter 'I' refer to?",
+      "images": [],
+      "image": "",
+      "options": [
+        ". Impossible",
+        ". Infection",
+        ". Intake of salt",
+        ". Immobility",
+        ". Inbalance"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 23,
+      "question": "Each year, how often of healthy community-dwelling older adults experience falls?",
+      "images": [],
+      "image": "",
+      "options": [
+        ". Approximately 30% to 35%",
+        ". Approximately 35% to 40%",
+        ". Approximately 40% to 45%",
+        ". Approximately 45% to 50%",
+        ". Approximately 50% to 55%"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 24,
+      "question": "What is the right statement after the experience of fall for older adult?",
+      "images": [],
+      "image": "",
+      "options": [
+        ". Postfall anxiety impair full recovery",
+        ". They will not risk any problem",
+        ". Recovery is often seen after fall",
+        ". Three above are right",
+        ". Fall is not dangerous for older people"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 25,
+      "question": "When the vision screening is positive in 10-min geriatric screener?",
+      "images": [],
+      "image": "",
+      "options": [
+        ". Inability to read >5/40 on Snellen chart",
+        ". Inability to read > 10/40 on Snellen chart",
+        ". Inability to read > 15/40 on Snellen chart",
+        ". Inability to read > 20/40 on Snellen chart",
+        ". Inability to read >30/40 on Snellen chart"
+      ],
+      "correctIndex": 3
+    },
+    {
+      "id": 26,
+      "question": "When the hearing screening is positive in 10-min geriatric screener?",
+      "images": [],
+      "image": "",
+      "options": [
+        ". Inability to hear 1000 Hz in one ear",
+        ". Inability to hear 3000 Hz in both ears",
+        ". Inability to hear 3500 Hz in both ears",
+        ". Inability to hear 4000 Hz in both ears",
+        ". Inability to hear 2000 Hz in one ear"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 27,
+      "question": "When the leg mobility (walk, turn back and sit down) screening is positive in 10-min geriatric screener?",
+      "images": [],
+      "image": "",
+      "options": [
+        ". Unable to complete take in 10 sec",
+        ". Unable to complete task in 15 sec",
+        ". Unable to complete take in 20 sec",
+        ". Unable to complete take in 30 sec",
+        ". Unable to complete take in 35 sec"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 28,
+      "question": "When the weight loss screening is positive in 10-min geriatric screener?",
+      "images": [],
+      "image": "",
+      "options": [
+        ". Lost 10 Ibs over the past 6 months without trying to do anything",
+        ". Lost 20 Ibs over the past 6 months without trying to do anything",
+        ". Lost 30 Ibs over the past 6 months without trying to do anything",
+        ". Lost 40 Ibs over the past 6 months without trying to do anything",
+        ". Lost 50 Ibs over the past 6 months without trying to do anything"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 29,
+      "question": "When the memory screening is positive in 10-min geriatric screener?",
+      "images": [],
+      "image": "",
+      "options": [
+        ". Unable to remember all three items after 5 minute",
+        ". Unable to remember all three items after 4 minute",
+        ". Unable to remember all three items after 3 minute",
+        ". Unable to remember all three items after 2 minute",
+        ". Unable to remember all three items after 1 minute"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 30,
+      "question": "Health promotion (HP) for older adult is the process of enabling people to increase control over, and to improve, their health. HP focus on:",
+      "images": [],
+      "image": "",
+      "options": [
+        "The individual behavior",
+        "The environment intervention",
+        "The illness physical symptoms",
+        "The financial intervention"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 31,
+      "question": "The annual influenza vaccination the older adult is to prevent:",
+      "images": [],
+      "image": "",
+      "options": [
+        "Hospitalization rates",
+        "Herpes Zoster disease",
+        "Post herpetic neuralgia",
+        "Pneumococcal disease"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 32,
+      "question": "What is the main purpose of the screening in vision and hearing for older adult?",
+      "images": [],
+      "image": "",
+      "options": [
+        "To get better health condition",
+        "To maintain optimal function",
+        "To prepare treatment",
+        "To prevent eye/ear disease"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 33,
+      "question": "What is the recommendation purpose for older adult regular exercise?",
+      "images": [],
+      "image": "",
+      "options": [
+        "Aerobic exercise",
+        "Physical rehabilitation",
+        "Running in old age degree",
+        "Swimming exercise"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 34,
+      "question": "Counseling the elderly most often requires:",
+      "images": [],
+      "image": "",
+      "options": [
+        "Developing dependence",
+        "Developing independence",
+        "Emphasizing their strengths",
+        "Emphasizing their weakness"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 35,
+      "question": "In Western societies, systolic blood pressure tends to rise from childhood through old age. The aorta and large arteries become:",
+      "images": [],
+      "image": "",
+      "options": [
+        "Atherosclerotic",
+        "Too distensible",
+        "Softer Capillary",
+        "Strong Stiffen"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 36,
+      "question": "When the body active exercise, could be explain as:",
+      "images": [],
+      "image": "",
+      "options": [
+        "The pulse is lower rate",
+        "Heart rate is increase",
+        "More oxygen-rich blood",
+        "Less oxygen-rich blood"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 37,
+      "question": "The respiration rate (RR) is the number of breaths a person takes per minute. RR may increase with:",
+      "images": [],
+      "image": "",
+      "options": [
+        "Some medical condition",
+        "Person temperature 37°c",
+        "Person with body",
+        "Person had migraine"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 38,
+      "question": "Skin, Nails, and Hair changes of Aging:",
+      "images": [],
+      "image": "",
+      "options": [
+        "Lax/ lighter skin",
+        "Hard Turgor skin",
+        "Nial may red",
+        "Transparent"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 39,
+      "question": "Erections become more dependent on tactile stimulus for male aging and vaginal dryness for the woman aging. The biological change could be:",
+      "images": [],
+      "image": "",
+      "options": [
+        "Estrogen stimulation falls(woman)",
+        "Estrogen stimulation increase(woman)",
+        "Testosterone levels falls(man)",
+        "Testosterone levels increase (man)",
+        "Symptoms and behavior"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 40,
+      "question": "A symptom is a phenomenon that:",
+      "images": [],
+      "image": "",
+      "options": [
+        "Detected by the relative",
+        "Told by the patient",
+        "Detected by doctor",
+        "Told by The family"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 41,
+      "question": "A sign is a phenomenon that:",
+      "images": [],
+      "image": "",
+      "options": [
+        "Detected by the relative",
+        "Told by the patient",
+        "Detected by doctor",
+        "Told by The family"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 42,
+      "question": "In the mental health literature, physical symptoms are often termed:",
+      "images": [],
+      "image": "",
+      "options": [
+        "Physical illness",
+        "Somatic symptoms",
+        "Psychological symptoms",
+        "Psychological illness"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 43,
+      "question": "A 65 years old man, comes to the health clinic because of headache, palpitation, irritable, aggressive, upset, fatigue, body pain, insomnia..etc for more than 2 years. His medical condition could not detected. What is the psychological symptom?",
+      "images": [],
+      "image": "",
+      "options": [
+        "Fatigue",
+        "Insomnia",
+        "Irritable",
+        "Body pain"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 44,
+      "question": "A 65 years old man, comes to the health clinic because of headache, palpitation, irritable, aggressive, upset, fatigue, body pain, insomnia..etc for more than 2 years. His medical condition could not detected. What is the physical symptom?",
+      "images": [],
+      "image": "",
+      "options": [
+        "Aggressive",
+        "Insomnia",
+        "Irritable",
+        "Upset"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 45,
+      "question": "A 65 years old man, comes to the health clinic because of headache, palpitation, irritable, aggressive, upset, fatigue, body pain, insomnia..etc for more than 2 years. His medical condition could not detected. What are the most probably mental illnesses for this patient?",
+      "images": [],
+      "image": "",
+      "options": [
+        "Somatoform disorders",
+        "Anxiety disorders",
+        "Depressive disorders",
+        "Mood disorders"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 46,
+      "question": "Tip for communicating effectively with older adults?",
+      "images": [],
+      "image": "",
+      "options": [
+        "Speakloudly and gentle",
+        "Warm setting with the noisy background",
+        "Chairs must behigherthanexamining table",
+        "Provide a well-lit"
+      ],
+      "correctIndex": 3
+    },
+    {
+      "id": 47,
+      "question": "Before taking history of older adult, select the right statement?",
+      "images": [],
+      "image": "",
+      "options": [
+        "Address patients by their past history",
+        "Address patients by an appropriatetitle and their last name",
+        "Address patients by their family reputation",
+        "Address patients by a name of theirchildren"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 48,
+      "question": "Which of those propositionn below is the most appropriate about older adult health history?",
+      "images": [],
+      "image": "",
+      "options": [
+        "Speaking and writing",
+        "Ask about pastholiday and work",
+        "Detectalcohol use disorder",
+        "Daily fattyacidcomsumption"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 49,
+      "question": "In the record finding, what you will write about vision problem?",
+      "images": [],
+      "image": "",
+      "options": [
+        "Complaint of fatigue",
+        "Complaint of difficult reading",
+        "Complaint of loss of concentration",
+        "All the above"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 50,
+      "question": "How you descript the skin examination?",
+      "images": [],
+      "image": "",
+      "options": [
+        "Warm and moist",
+        "Black or white",
+        "Some scars on the skin",
+        "Some acnes on the face"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 51,
+      "question": "The 10-minute geriatric screener covers important domains of geriatric assessment, which of these answer is right?",
+      "images": [],
+      "image": "",
+      "options": [
+        "Physical",
+        "Cognitive",
+        "Psycho-social",
+        "All the above"
+      ],
+      "correctIndex": 3
+    },
+    {
+      "id": 52,
+      "question": "What is the right statement after the experience of fall for older adult?",
+      "images": [],
+      "image": "",
+      "options": [
+        "Postfall anxiety impair full recovery",
+        "They will not risk any problem",
+        "Recovery is often seen after fall",
+        "All the above"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}
