@@ -18,7 +18,7 @@ const translations = {
         btn_start_study: "Start Studying",
         home_content_kicker: "A simple place to keep your studies moving",
         home_content_title: "Study the subjects you are working on",
-        home_content_intro: "TestforUHS gives medical students a straightforward way to review course questions, practise recall, and come back to the topics that need more time. Choose a year, semester, subject, and professor to get started.",
+        home_content_intro: "Test for UHS, also known as TestforUHS, gives medical students a straightforward way to review course questions, practise recall, and come back to the topics that need more time. Choose a year, semester, subject, and professor to get started.",
         home_content_step_title: "Find the right course",
         home_content_step_desc: "Pick your academic year, semester, subject, and professor so you can spend your study time on the material you are actually preparing for.",
         home_content_review_title: "Keep difficult questions close",
