@@ -21,8 +21,20 @@ document.addEventListener('DOMContentLoaded', async () => {
     });
   }
 
-  // Populate global resultData
-  resultData = JSON.parse(rawResult);
+  // Only show results and ads for a real, non-empty study session.
+  try {
+    resultData = JSON.parse(rawResult);
+  } catch (error) {
+    sessionStorage.removeItem('lastQuizResult');
+    window.location.href = './';
+    return;
+  }
+
+  if (!resultData || !Array.isArray(resultData.questions) || resultData.questions.length === 0) {
+    sessionStorage.removeItem('lastQuizResult');
+    window.location.href = './';
+    return;
+  }
 
   // Update session header text if present
   const sessionHeader = document.getElementById('result-session-header');
@@ -49,13 +61,27 @@ document.addEventListener('DOMContentLoaded', async () => {
   await checkMissedQuestions();
   setupActionButtons();
 
-  // Natural AdSense Push execution on page load
-  try {
-    (window.adsbygoogle = window.adsbygoogle || []).push({});
-  } catch (e) {
-    // Suppress error if adblocker is active
+  const resultAdContainer = document.getElementById('result-ad-container');
+  if (resultAdContainer) {
+    resultAdContainer.classList.remove('hidden');
+    loadResultAd();
   }
 });
+
+function loadResultAd() {
+  const adScript = document.createElement('script');
+  adScript.async = true;
+  adScript.src = 'https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-4210272281940886';
+  adScript.crossOrigin = 'anonymous';
+  adScript.onload = () => {
+    try {
+      (window.adsbygoogle = window.adsbygoogle || []).push({});
+    } catch (error) {
+      // An ad blocker or unavailable ad service should not affect result review.
+    }
+  };
+  document.head.appendChild(adScript);
+}
 
 // Helper: Extract image filenames as an array (supports images: [] or image: "")
 function getImageList(q) {
