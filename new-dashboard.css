@@ -618,21 +618,6 @@
     margin-top: 3.5rem;
 }
 
-[data-design="new-dashboard"] .home-ad-container {
-    order: 2;
-    flex: 0 0 auto;
-    width: 100% !important;
-    max-width: 1160px;
-    margin: 2rem auto 0;
-}
-
-[data-design="new-dashboard"] .result-ad-container {
-    width: 100%;
-    max-width: 1160px;
-    margin-left: auto;
-    margin-right: auto;
-}
-
 [data-design="new-dashboard"] .main-footer-box {
     order: 3;
 }

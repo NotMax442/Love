@@ -21,7 +21,7 @@ document.addEventListener('DOMContentLoaded', async () => {
     });
   }
 
-  // Only show results and ads for a real, non-empty study session.
+  // Only show results for a real, non-empty study session.
   try {
     resultData = JSON.parse(rawResult);
   } catch (error) {
@@ -61,27 +61,7 @@ document.addEventListener('DOMContentLoaded', async () => {
   await checkMissedQuestions();
   setupActionButtons();
 
-  const resultAdContainer = document.getElementById('result-ad-container');
-  if (resultAdContainer) {
-    resultAdContainer.classList.remove('hidden');
-    loadResultAd();
-  }
 });
-
-function loadResultAd() {
-  const adScript = document.createElement('script');
-  adScript.async = true;
-  adScript.src = 'https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-4210272281940886';
-  adScript.crossOrigin = 'anonymous';
-  adScript.onload = () => {
-    try {
-      (window.adsbygoogle = window.adsbygoogle || []).push({});
-    } catch (error) {
-      // An ad blocker or unavailable ad service should not affect result review.
-    }
-  };
-  document.head.appendChild(adScript);
-}
 
 // Helper: Extract image filenames as an array (supports images: [] or image: "")
 function getImageList(q) {
